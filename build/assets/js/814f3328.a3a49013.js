@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdylancode=globalThis.webpackChunkdylancode||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to the dylancode.dev blog!","permalink":"/blog/welcome","unlisted":false,"date":"2025-10-28T00:00:00.000Z"}]}')}}]);

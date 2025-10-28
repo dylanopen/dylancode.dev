@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdylancode=globalThis.webpackChunkdylancode||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"meta","permalink":"/blog/tags/meta","description":"Posts about dylancode.dev itself","count":1}]}')}}]);
