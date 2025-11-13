@@ -45,3 +45,10 @@ We can also use the discriminant to find a constant in a quadratic equation
 For example, if we are given that a quadratic equation has one real root, we
 can set $D=0$ and solve for the constant.
 
+## Repeated roots
+
+When a quadratic equation has one real root (i.e. when $D=0$), this is called
+a *repeated root*.  
+This means that both roots of the equation are the same (i.e. they are equal) -
+and so we kind of only have one solution instead of the usual two.
+
