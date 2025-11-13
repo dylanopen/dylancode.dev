@@ -38,12 +38,53 @@ We can do that by calculating $D=b^2-4ac$.
 - If $D=0$, there is one real root (a repeated root).
 - If $D<0$, there are no real roots (the roots are all complex/imaginary).
 
+### Example: find the number of roots of $x^2+5x+6=0$
+
+- $a=1$, $b=5$, $c=6$
+- $D=b^2-4ac$
+- $D=5^2-4(1)(6)$
+- $D=25-24$
+- $D=1$
+- Since $D>0$, there are two distinct real roots.
+
+### Example: find the number of roots of $x^2-4x+4=0$
+
+- $a=1$, $b=-4$, $c=4$
+- $D=b^2-4ac$
+- $D=(-4)^2-4(1)(4)$
+- $D=16-16$
+- $D=0$
+- Since $D=0$, there is one real root (a repeated root).
+
 ## Finding a constant using the discriminant
 
 We can also use the discriminant to find a constant in a quadratic equation
 (where one of $a$, $b$ or $c$ has a non-integer coefficient, such as $k$).
 For example, if we are given that a quadratic equation has one real root, we
 can set $D=0$ and solve for the constant.
+
+### Example: find $k$ if $x^2+kx+9=0$ has one real root
+
+Since the equation has one real root, $D=0$.
+
+- $a=1$, $b=k$, $c=9$
+- $D=b^2-4ac$
+- $0=k^2-4(1)(9)$
+- $0=k^2-36$
+- $k^2=36$
+- $k=\pm6$
+
+### Example: find $p$ if $2x^2+4x+p=0$ has two distinct real roots
+
+Since the equation has two distinct real roots, $D>0$.
+
+- $a=2$, $b=4$, $c=p$
+- $D=b^2-4ac$
+- $D=4^2-4(2)(p)$
+- $D=16-8p$
+- For two distinct real roots: $16-8p>0$
+- $16>8p$
+- $p<2$
 
 ## Repeated roots
 
