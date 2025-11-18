@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2040
+sidebar_position: 030_040
 ---
 
 # Factorising quadratics

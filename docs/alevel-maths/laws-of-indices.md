@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2010
+sidebar_position: 030_010
 ---
 
 # Laws of indices

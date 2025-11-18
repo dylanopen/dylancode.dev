@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2030
+sidebar_position: 030_030
 ---
 
 # Quadratic functions and their graphs

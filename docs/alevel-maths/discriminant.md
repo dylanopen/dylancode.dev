@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2050
+sidebar_position: 030_050
 ---
 
 # The discriminant of a quadratic equation
@@ -37,6 +37,16 @@ We can do that by calculating $D=b^2-4ac$.
 - If $D>0$, there are two distinct real roots.
 - If $D=0$, there is one real root (a repeated root).
 - If $D<0$, there are no real roots (the roots are all complex/imaginary).
+
+### Example: find the number of real roots of the equation $2x^2-4x+1=0$.
+
+- $a=2$, $b=-4$ and $c=1$.
+- Calculate the discriminant:
+  - $D=b^2-4ac$
+  - $D=(-4)^2-4\times2\times1$
+  - $D=16-8$
+  - $D=8$
+- Because $D>0$, there are two *distinct real roots*.
 
 ## Finding a constant using the discriminant
 
