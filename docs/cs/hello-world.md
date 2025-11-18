@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 ---
 
 # Hello World
@@ -20,4 +20,18 @@ namespace HelloWorld
     }
 }
 ```
+
+## Output
+
+```
+Hello, World!
+```
+
+## How it works
+
+### `namespace HelloWorld`
+
+A namespace is a way to organize code and avoid name conflicts. Essentially, 
+
+Here, we define a namespace called `HelloWorld` to contain our program.
 
