@@ -1,3 +1,0 @@
-# Complex solutions to polynomials
-
-

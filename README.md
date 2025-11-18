@@ -1,6 +1,6 @@
-# dylancode.dev
+# [dylancode.dev](https://dylancode.dev)
 
-This is the repo for [dylancode.dev](https://dylancode.dev) - the website for
-free, comprehensive programming articles and full courses!
+Welcome to dylancode.dev! I post various resources, programming tutorials, and
+other things over at [dylancode.dev](https://dylancode.dev). Feel free to check
+it out or open a PR to contribute!
 
-Feel free to suggest any improvements in this repo :)

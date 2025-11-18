@@ -1,48 +1,20 @@
 {
-	"name": "dylancode",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"docusaurus": "docusaurus",
-		"start": "docusaurus start",
-		"build": "docusaurus build",
-		"swizzle": "docusaurus swizzle",
-		"deploy": "npm run build && wrangler pages deploy ./build",
-		"clear": "docusaurus clear",
-		"serve": "docusaurus serve",
-		"write-translations": "docusaurus write-translations",
-		"write-heading-ids": "docusaurus write-heading-ids",
-		"preview": "npm run build && wrangler pages dev ./build"
-	},
-	"dependencies": {
-		"@docusaurus/core": "^3.9.2",
-		"@docusaurus/preset-classic": "^3.9.2",
-		"@mdx-js/react": "^3.0.0",
-		"clsx": "^2.0.0",
-		"prism-react-renderer": "^2.3.0",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"rehype-katex": "^7.0.1",
-		"remark-math": "^6.0.0"
-	},
-	"devDependencies": {
-		"@docusaurus/module-type-aliases": "file:latest@docusaurus/types@latest",
-		"@docusaurus/types": "3.9.1",
-		"wrangler": "^4.45.1"
-	},
-	"browserslist": {
-		"production": [
-			">0.5%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 3 chrome version",
-			"last 3 firefox version",
-			"last 5 safari version"
-		]
-	},
-	"engines": {
-		"node": ">=20.0"
-	}
+  "name": "dylancode.dev",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.11",
+    "@astrojs/starlight": "^0.36.2",
+    "astro": "^5.6.1",
+    "rehype-mathjax": "^7.1.0",
+    "remark-math": "^6.0.0",
+    "sharp": "^0.34.2"
+  }
 }
