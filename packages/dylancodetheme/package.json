@@ -1,0 +1,32 @@
+{
+  "name": "dylancodetheme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "The theme for Starlight used on dylancode.dev",
+  "author": "dylanopen",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./styles": "./styles.css"
+  },
+  "devDependencies": {
+    "@astrojs/starlight": "^0.36.2",
+    "astro": "^5.15.9"
+  },
+  "peerDependencies": {
+    "@astrojs/starlight": ">=0.36"
+  },
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/dylanopen/dylancodetheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanopen/dylancodetheme.git",
+    "directory": "packages/dylancodetheme"
+  },
+  "bugs": "https://github.com/dylanopen/dylancodetheme/issues"
+}

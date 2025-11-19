@@ -1,6 +1,6 @@
 {
 	"main": "dist/_worker.js/index.js",
-	"name": "dylancode.dev",
+	"name": "dylancodedev",
   "compatibility_date": "2025-11-18",
   "compatibility_flags": [
     "nodejs_compat",

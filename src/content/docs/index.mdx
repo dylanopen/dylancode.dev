@@ -1,34 +1,74 @@
 ---
-title: dylancode.dev!
+title: dylancode.dev
 description: Programming and educational resources that anyone can understand
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+# template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Programming and educational resources that anyone can understand 
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Explore Resources
+      link: /intro
+      icon: open-book
+      variant: primary
+    - text: Contribute
+      link: https://github.com/dylanopen/dylancode.dev
+      icon: github
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+<style>{`
+h1 {
+    font-size: 3em;
+}
+
+.hero {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+`}</style>
+
+## About dylancode.dev
+
+I'm in college studying maths, physics and computing - so why not share the
+things I learn with others?
+
+This website aims to provide free (as in freedom) high-quality studying
+resources for various different levels.
+
+I created this website because as a private tutor, I realised the value of
+effective tutoring and help in education. I'd like to help as many people as
+possible through the years of their school, college, university and full-time
+employment.
+
+I hope our resources can help you!
+
+## Navigating the site
+
+Please use the sidebar on the left 
+
+## What's there to see here?
+
+<br/><br/>
 
 <CardGrid stagger>
-	<Card title="Blog articles" icon="pencil">
-	    I often post blogs about various topics that interest me.
+
+	<Card title="Programming guides" icon="seti:html">
+	    I often post articles and tutorials about various topics that interest me with programming.
 	    Check them out!
 	</Card>
+
 	<Card title="Complete courses" icon="document">
 	    Full course-style tutorial resources - all completely free.
 	</Card>
+
 	<Card title="Documentation" icon="add-document">
 	    Complete documentation for my projects.
 	</Card>
+
+	<Card title="Educational Resources" icon="open-book">
+	    Free, world-class educational resources, open to all with few restrictions.
+	</Card>
+
 </CardGrid>
+

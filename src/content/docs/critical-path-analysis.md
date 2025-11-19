@@ -48,8 +48,8 @@ The table below shows the activities, durations and predecessors for a project.
 | G        | 7               | C, D, E                |
 
 Draw the activity network:
-![Activity network example 1](../../../assets/activity-networks-1.png)
+![Activity network example 1](../../assets/activity-networks-1.png)
 
 Find the early start times:
-![Early start times example 1](../../../assets/activity-networks-2.png)
+![Early start times example 1](../../assets/activity-networks-2.png)
 

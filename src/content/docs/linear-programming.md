@@ -47,7 +47,7 @@ show how much of each ingredient is available for the day's production.
 
 ### Solving
 
-![Graph of constraints and objective function](../../../assets/linear-programming-1.png)
+![Graph of constraints and objective function](../../assets/linear-programming-1.png)
 
 - A: $x=0$, $y=1000$: $1(0)+0.8(1000)=800$
 - B: $x=400$, $y=600$: $1(400)+0.8(600)=880$
@@ -131,7 +131,7 @@ used to build the wall as cheaply as possible.
 
 Use a graphical method to solve this. Interpret your solution.
 
-![Graph of constraints and objective function](../../../assets/linear-programming-2.png)
+![Graph of constraints and objective function](../../assets/linear-programming-2.png)
 
 - A: $x=10000$, $y=20000$: $0.25(10000)+0.05(20000)=2500+1000=£3500$
 - B: $x=15000$, $y=0$: $0.25(15000)+0.05(0)=3750+0=£3750$
@@ -169,7 +169,7 @@ benefit?
 
 ### Solving
 
-![Graph of constraints and objective function](../../../assets/linear-programming-3.png)
+![Graph of constraints and objective function](../../assets/linear-programming-3.png)
 
 - A: $x=0$, $y=411.111...$ (but we can only have whole shrubs, so $y=411$):
   - $5(0)+411=411$

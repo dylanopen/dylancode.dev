@@ -7,67 +7,170 @@ import rehypeMathJax from 'rehype-mathjax'
 
 import cloudflare from '@astrojs/cloudflare';
 
+
 // https://astro.build/config
 export default defineConfig({
-  markdown: {
+    markdown: {
 	remarkPlugins: [remarkMath],
 	rehypePlugins: [rehypeMathJax],
-  },
+    },
 
-  integrations: [
+    integrations: [
 	starlight({
 	    title: 'dylancode.dev',
 	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' }],
+	    components: {
+		ThemeProvider: './src/components/AlwaysDark.astro',
+		ThemeSelect: './src/components/HideThemeSwitcher.astro',
+	    },
 	    customCss: [
-      "./src/css/mathjax.css",
-      "./src/css/custom.css"
+		"./src/css/mathjax.css",
+		"./src/css/custom.css"
 	    ],
 	    sidebar: [
-      { label: 'Welcome to dylancode.dev', slug: 'intro' },
-      {
-          label: 'Maths',
-          items: [
-          {
-              label: 'Unsorted',
-              items: [
-              { label: 'Laws of indices', slug: 'maths/laws-of-indices' },
-              { label: 'Surds', slug: 'maths/surds' },
-              { label: 'Quadratic functions and their graphs', slug: 'maths/quadratic-functions-and-graphs' },
-              { label: 'The discriminant of a quadratic equation', slug: 'maths/discriminant' },
-              { label: 'Completing the square', slug: 'maths/completing-the-square' },
-              { label: 'Solving quadratic equations by completing the square', slug: 'maths/solving-by-completing-the-square' },
-              { label: 'Solving simultaneous equations using elimination', slug: 'maths/simultaneous-equation-elimination' },
-              { label: 'Solving simultaneous equations using substitution', slug: 'maths/simultaneous-equation-substitution' },
-              { label: 'Quadratic inequalities', slug: 'maths/quadratic-inequalities' },
-              { label: 'Expanding brackets', slug: 'maths/expanding-brackets' },
-              { label: 'Factorising quadratics', slug: 'maths/factorising-quadratics' },
-              { label: 'The factor theorem', slug: 'maths/factor-theorem' },
-              { label: 'Polynomial division', slug: 'maths/polynomial-division' },
-              { labels: 'Common function graphs', slug: 'maths/common-function-graphs' },
-              { label: "Modulus of a linear function", slug: 'maths/linear-function-modulus' },
-              { label: 'Translating graphs', slug: 'maths/translating-graphs' },
-              { label: 'Stretching graphs', slug: 'maths/stretching-graphs' },
-              { label: 'Number of intersections between graphs', slug: 'maths/number-of-intersections-between-graphs' },
-              { label: 'The logarithm function', slug: 'maths/logarithm-function' },
-              { label: 'Equation of a straight line', slug: 'maths/equation-of-a-straight-line'}
-              ]
-          },
-          ],
-      },
-      {
-          label: 'Physics',
-          items: [
-          {
-              label: 'Electricity',
-              items: [
-              { label: 'Calculating the number of electrons', slug: 'physics/calculating-the-number-of-electrons' },
-              ],
-          },
-          ]
-      },
+		'',
+		{
+		    label: 'Maths',
+		    collapsed: true,
+
+		    items: [
+			{
+			    label: 'Indices and surds',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'maths/laws-of-indices',
+				'maths/surds',
+				'maths/rationalising-the-denominator',
+			    ]
+			},
+			{
+			    label: 'Quadratics',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'quadratic-functions-and-graphs',
+				'discriminant',
+				'completing-the-square',
+				'solving-by-completing-the-square',
+				'quadratic-inequalities',
+				'factorising-quadratics',
+			    ]
+			},
+			{
+			    label: 'Graph transformations',
+			    collapsed: true,
+			    badge: 'Graphs',
+			    items: [
+				'translating-graphs',
+				'stretching-graphs',
+			    ]
+			},
+			{
+			    label: 'Simultaneous equations',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'simultaneous-equation-elimination',
+				'simultaneous-equation-substitution',
+				'number-of-intersections-between-graphs',
+			    ]
+			},
+			{
+			    label: 'Complex numbers',
+			    collapsed: true,
+			    badge: 'Further',
+			    items: [
+				'adding-complex-numbers',
+				'subtracting-complex-numbers',
+				'complex-number-real-multiplication',
+				'complex-conjugate',
+				'complex-numbers',
+				'complex-solutions-to-polynomials',
+				'dividing-complex-numbers',
+				'factorising-polynomials-with-complex-roots',
+				'imaginary-constant',
+				'multiplying-a-complex-number-by-its-conjugate',
+			    ]
+			},
+			{
+			    label: 'Game theory',
+			    collapsed: true,
+			    badge: 'Discrete',
+			    items: [
+				'pay-off-matrices',
+				'play-safe-strategy',
+			    ]
+			},
+			{
+			    label: 'Polynomial arithmetic',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'expanding-brackets',
+				'polynomial-division',
+				'factor-theorem',
+			    ]
+			},
+			{
+			    label: 'Circles',
+			    collapsed: true,
+			    badge: 'Geometry',
+			    items: [
+				'equation-of-a-circle',
+			    ]
+			},
+			{
+			    label: 'Linear programming',
+			    collapsed: true,
+			    badge: { text: 'Experimental', variant: 'caution' },
+			    items: [
+				'linear-programming',
+			    ]
+			},
+			{
+			    label: 'Unsorted',
+			    collapsed: true,
+			    badge: { text: 'Preview', variant: 'caution' },
+			    items: [
+				'common-function-graphs',
+				'linear-function-modulus',
+				'logarithm-function',
+				'equation-of-a-straight-line',
+				'critical-path-analysis',
+				'quadratic-roots-and-coefficients',
+				'network-flows',
+			    ]
+			},
+		    ],
+		},
+		{
+		    label: 'Physics',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Electricity',
+			    items: [
+				{ label: 'Calculating the number of electrons', slug: 'physics/calculating-the-number-of-electrons' },
+			    ],
+			},
+		    ]
+		},
+		{
+		    label: 'Computing',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Software classification',
+			    items: [
+				'systems-software'
+			    ],
+			},
+		    ]
+		},
 	    ],
 	}),
-  ],
+    ],
 
-  adapter: cloudflare(),
+    adapter: cloudflare(),
 });
