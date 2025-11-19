@@ -189,6 +189,7 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: { text: 'Preview', variant: 'caution' },
 			    items: [
+				'unit-prefixes',
 			    ]
 			},
 		    ],
@@ -201,6 +202,11 @@ export default defineConfig({
 			    label: 'Electricity',
 			    collapsed: true,
 			    items: [
+				'basics-of-electricity',
+				'electrical-charge',
+				'electrical-energy',
+				'electrical-power',
+				'units-of-energy',
 				'calculating-the-number-of-electrons',
 			    ],
 			},
