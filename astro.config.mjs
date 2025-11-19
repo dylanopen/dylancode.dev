@@ -39,9 +39,29 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Algebra',
 			    items: [
-				'maths/laws-of-indices',
-				'maths/surds',
-				'maths/rationalising-the-denominator',
+				'laws-of-indices',
+				'surds',
+				'rationalising-the-denominator',
+			    ]
+			},
+			{
+			    label: 'Linear functions',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'equation-of-a-straight-line',
+				'linear-function-modulus',
+			    ]
+			},
+			{
+			    label: 'Polynomial arithmetic',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'expanding-brackets',
+				'factorising-quadratics',
+				'polynomial-division',
+				'factor-theorem',
 			    ]
 			},
 			{
@@ -54,7 +74,28 @@ export default defineConfig({
 				'completing-the-square',
 				'solving-by-completing-the-square',
 				'quadratic-inequalities',
-				'factorising-quadratics',
+			    ]
+			},
+			{
+			    label: 'Simultaneous equations',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'simultaneous-equation-elimination',
+				'simultaneous-equation-substitution',
+				'number-of-intersections-between-graphs',
+			    ]
+			},
+			{
+			    label: 'Logarithms',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'logarithm-function',
+				'laws-of-logarithms',
+				'adding-logarithms',
+				'subtracting-logarithms',
+				'multiplying-logarithms-by-a-constant',
 			    ]
 			},
 			{
@@ -67,13 +108,21 @@ export default defineConfig({
 			    ]
 			},
 			{
-			    label: 'Simultaneous equations',
+			    label: 'Circles',
 			    collapsed: true,
-			    badge: 'Algebra',
+			    badge: 'Geometry',
 			    items: [
-				'simultaneous-equation-elimination',
-				'simultaneous-equation-substitution',
-				'number-of-intersections-between-graphs',
+				'equation-of-a-circle',
+			    ]
+			},
+			{
+			    label: 'Differentiation',
+			    collapsed: true,
+			    badge: 'Calculus',
+			    items: [
+				'definition-of-differentiation',
+				'derivative-notation',
+				'power-rule-for-differentiation',
 			    ]
 			},
 			{
@@ -94,6 +143,31 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Coefficient and root relationships',
+			    collapsed: true,
+			    badge: 'Further',
+			    items: [
+				'quadratic-roots-and-coefficients',
+			    ]
+			},
+			{
+			    label: 'Activity networks',
+			    collapsed: true,
+			    badge: 'Discrete',
+			    items: [
+				'common-function-graphs',
+				'critical-path-analysis',
+			    ]
+			},
+			{
+			    label: 'Network flows',
+			    collapsed: true,
+			    badge: 'Discrete',
+			    items: [
+				'network-flows',
+			    ]
+			},
+			{
 			    label: 'Game theory',
 			    collapsed: true,
 			    badge: 'Discrete',
@@ -103,27 +177,9 @@ export default defineConfig({
 			    ]
 			},
 			{
-			    label: 'Polynomial arithmetic',
-			    collapsed: true,
-			    badge: 'Algebra',
-			    items: [
-				'expanding-brackets',
-				'polynomial-division',
-				'factor-theorem',
-			    ]
-			},
-			{
-			    label: 'Circles',
-			    collapsed: true,
-			    badge: 'Geometry',
-			    items: [
-				'equation-of-a-circle',
-			    ]
-			},
-			{
 			    label: 'Linear programming',
 			    collapsed: true,
-			    badge: { text: 'Experimental', variant: 'caution' },
+			    badge: { text: 'Discrete', variant: 'caution' },
 			    items: [
 				'linear-programming',
 			    ]
@@ -133,13 +189,6 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: { text: 'Preview', variant: 'caution' },
 			    items: [
-				'common-function-graphs',
-				'linear-function-modulus',
-				'logarithm-function',
-				'equation-of-a-straight-line',
-				'critical-path-analysis',
-				'quadratic-roots-and-coefficients',
-				'network-flows',
 			    ]
 			},
 		    ],
@@ -150,8 +199,9 @@ export default defineConfig({
 		    items: [
 			{
 			    label: 'Electricity',
+			    collapsed: true,
 			    items: [
-				{ label: 'Calculating the number of electrons', slug: 'physics/calculating-the-number-of-electrons' },
+				'calculating-the-number-of-electrons',
 			    ],
 			},
 		    ]
@@ -161,11 +211,25 @@ export default defineConfig({
 		    collapsed: true,
 		    items: [
 			{
-			    label: 'Software classification',
+			    label: 'Systems software',
+			    collapsed: true,
 			    items: [
-				'systems-software'
+				'systems-software',
+				'operating-systems',
+				'utility-programs',
+				'code-libraries',
 			    ],
 			},
+			{
+			    label: 'Code translation',
+			    collapsed: true,
+			    items: [
+				'code-translators',
+				'compiler',
+				'interpreter',
+				'assembler',
+			    ],
+			}
 		    ]
 		},
 	    ],
