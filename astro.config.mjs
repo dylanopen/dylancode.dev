@@ -47,6 +47,17 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Fractions',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'simplifying-fractions',
+				'multiplying-fractions',
+				'dividing-fractions',
+				'adding-fractions',
+			    ]
+			},
+			{
 			    label: 'Indices and surds',
 			    collapsed: true,
 			    badge: 'Algebra',
