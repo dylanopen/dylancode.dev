@@ -12,21 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Dividing indices
-
-When we divide two indices **with the same base**, we can simply **subtract**
-the powers. This can be written as:
-
-$$
-a^x\div a^b=a^{x-y}
-$$
-
-### Example: simplify $x^3\div x^{-2}$
-
-- $=x^{3--2}$
-- $=x^{3+2}$
-- $=x^5$
-
 ## Raising an index to an index
 
 When we have a number, and we raise it to a power, then raise the result to the
