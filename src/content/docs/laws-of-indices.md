@@ -12,22 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Multiplying indices
-
-When we multiply two indices **with the same base**, we can simply **add** the
-powers. This can be written as:
-
-$$
-a^x\times a^b=a^{x+y}
-$$
-
-### Example: simplify $x^3\times x^{-2}$
-
-- $=x^{3+-2}
-- $=x^{3-2}$
-- $=x^1$
-- $=x$
-
 ## Dividing indices
 
 When we divide two indices **with the same base**, we can simply **subtract**
