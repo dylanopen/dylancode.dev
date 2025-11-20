@@ -67,6 +67,7 @@ export default defineConfig({
 				'converting-decimals-to-percentages',
 				'percentage-of-a-quantity',
 				'percentage-increase',
+				'percentage-decrease',
 			    ]
 			},
 			{
