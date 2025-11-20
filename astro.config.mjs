@@ -233,6 +233,7 @@ export default defineConfig({
 				'graph-vertex',
 				'graph-edge',
 				'graph-walk',
+				'graph-trail',
 			    ]
 			},
 			{
@@ -258,6 +259,7 @@ export default defineConfig({
 			    items: [
 				'pay-off-matrices',
 				'play-safe-strategy',
+				'dominating-strategies',
 			    ]
 			},
 			{
