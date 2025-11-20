@@ -59,6 +59,7 @@ export default defineConfig({
 				'power-of-1',
 				'fractional-powers',
 				'negative-powers',
+				'changing-the-base-of-a-power',
 				'surds',
 				'simplifying-surds',
 				'adding-surds',
@@ -99,6 +100,7 @@ export default defineConfig({
 				'expanding-brackets-with-surds',
 				'factorising-quadratics',
 				'polynomial-division',
+				'difference-of-two-squares',
 				'factor-theorem',
 			    ]
 			},
