@@ -1,8 +1,0 @@
-
-import __ASTRO_IMAGE_IMPORT_Z1QTKXX from "../../assets/activity-networks-1.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Fcritical-path-analysis.md";
-import __ASTRO_IMAGE_IMPORT_Ztx67G from "../../assets/activity-networks-2.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Fcritical-path-analysis.md";
-import __ASTRO_IMAGE_IMPORT_24VVRC from "../../assets/linear-programming-1.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md";
-import __ASTRO_IMAGE_IMPORT_Z24ESM2 from "../../assets/linear-programming-2.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md";
-import __ASTRO_IMAGE_IMPORT_Z195ACK from "../../assets/linear-programming-3.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md";
-export default new Map([["../../assets/activity-networks-1.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Fcritical-path-analysis.md", __ASTRO_IMAGE_IMPORT_Z1QTKXX], ["../../assets/activity-networks-2.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Fcritical-path-analysis.md", __ASTRO_IMAGE_IMPORT_Ztx67G], ["../../assets/linear-programming-1.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md", __ASTRO_IMAGE_IMPORT_24VVRC], ["../../assets/linear-programming-2.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md", __ASTRO_IMAGE_IMPORT_Z24ESM2], ["../../assets/linear-programming-3.png?astroContentImageFlag=&importer=src%2Fcontent%2Fdocs%2Flinear-programming.md", __ASTRO_IMAGE_IMPORT_Z195ACK]]);
-		
