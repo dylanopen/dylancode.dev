@@ -12,18 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Power of 0
-
-Anything raised to the power of zero is $1$:
-
-$$
-a^0=1
-$$
-
-## Example: evaluate $4^0$
-
-- $1$
-
 ## Fractional powers
 
 When we raise a number to a fraction, the **denominator** of the fraction is the
