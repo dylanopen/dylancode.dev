@@ -63,6 +63,7 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Number',
 			    items: [
+				'converting-percentages-to-decimals',
 				'percentage-of-a-quantity',
 			    ]
 			},
