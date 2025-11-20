@@ -232,6 +232,7 @@ export default defineConfig({
 			    items: [
 				'graph-vertex',
 				'graph-edge',
+				'graph-walk',
 			    ]
 			},
 			{
