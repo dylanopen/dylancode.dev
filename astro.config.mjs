@@ -59,6 +59,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Percentages',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'percentage-of-a-quantity',
+			    ]
+			},
+			{
 			    label: 'Indices and surds',
 			    collapsed: true,
 			    badge: 'Algebra',
