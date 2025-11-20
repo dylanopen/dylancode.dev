@@ -84,6 +84,7 @@ export default defineConfig({
 			    items: [
 				'inequality-signs',
 				'solving-linear-inequalities',
+				'solving-quadratic-inequalities',
 			    ]
 			},
 			{
@@ -110,7 +111,6 @@ export default defineConfig({
 				'discriminant',
 				'completing-the-square',
 				'solving-by-completing-the-square',
-				'quadratic-inequalities',
 			    ]
 			},
 			{
