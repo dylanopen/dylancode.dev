@@ -5,4 +5,7 @@ th, td {
   min-width: 60px;
 }
 
+b,strong {
+    color: #d7d7d7;
+}
 

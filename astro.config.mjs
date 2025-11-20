@@ -35,6 +35,18 @@ export default defineConfig({
 
 		    items: [
 			{
+			    label: 'Divisibility',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'prime-numbers',
+				'composite-numbers',
+				'prime-factor-decomposition',
+				'highest-common-factor',
+				'lowest-common-multiple',
+			    ]
+			},
+			{
 			    label: 'Indices and surds',
 			    collapsed: true,
 			    badge: 'Algebra',
@@ -74,6 +86,14 @@ export default defineConfig({
 				'completing-the-square',
 				'solving-by-completing-the-square',
 				'quadratic-inequalities',
+			    ]
+			},
+			{
+			    label: 'Sequences',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				
 			    ]
 			},
 			{
