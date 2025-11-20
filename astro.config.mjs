@@ -35,6 +35,18 @@ export default defineConfig({
 
 		    items: [
 			{
+			    label: 'Types of number',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'natural-numbers',
+				'integers',
+				'rational-numbers',
+				'irrational-numbers',
+				'real-numbers',
+			    ]
+			},
+			{
 			    label: 'Divisibility',
 			    collapsed: true,
 			    badge: 'Number',
