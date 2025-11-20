@@ -78,6 +78,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Inequalities',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'solving-linear-inequalities',
+			    ]
+			},
+			{
 			    label: 'Polynomial arithmetic',
 			    collapsed: true,
 			    badge: 'Algebra',
