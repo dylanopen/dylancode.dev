@@ -7,7 +7,9 @@ When calculating the number of electrons, you're really calculating the *charge*
 
 ## Charge of a single electron
 
-The charge of a single electron is about \(-1.60\times 10^{-19}\) coulombs.
+The charge of a single electron is about $-1.60\times 10^{-19}$ coulombs.
+
+Similarly a coulomb has the same charge as $6.25\times 10^{18}$ electrons.
 
 ## Equation for the number of electrons in a charge
 

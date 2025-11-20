@@ -204,6 +204,9 @@ export default defineConfig({
 			    items: [
 				'basics-of-electricity',
 				'electrical-charge',
+				'electrical-current',
+				'voltage',
+				'electrical-resistance',
 				'electrical-energy',
 				'electrical-power',
 				'units-of-energy',
