@@ -12,21 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Fractional powers
-
-When we raise a number to a fraction, the **denominator** of the fraction is the
-**order of the root**.
-
-$$
-a^{\frac xy}=(\sqrt[y]{a})^b
-$$
-
-## Example: evaluate $16^{\frac34}$
-
-- $=(\sqrt[4]{16})^3$
-- $=2^3$
-- $=8$
-
 ## Negative powers
 
 A negative power indicates the *reciprocal* of the base. For a power of $-1$:
