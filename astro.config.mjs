@@ -226,6 +226,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Graphs',
+			    collapsed: true,
+			    badge: 'Discrete',
+			    items: [
+				'graph-vertex'
+			    ]
+			},
+			{
 			    label: 'Activity networks',
 			    collapsed: true,
 			    badge: 'Discrete',
