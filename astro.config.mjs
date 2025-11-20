@@ -155,6 +155,7 @@ export default defineConfig({
 				'translating-graphs',
 				'stretching-graphs',
 				'parallel-line-equations',
+				'perpendicular-line-equations',
 			    ]
 			},
 			{
