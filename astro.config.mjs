@@ -60,6 +60,11 @@ export default defineConfig({
 				'fractional-powers',
 				'negative-powers',
 				'surds',
+				'simplifying-surds',
+				'adding-surds',
+				'subtracting-surds',
+				'multiplying-surds',
+				'dividing-surds',
 				'rationalising-the-denominator',
 			    ]
 			},
@@ -78,6 +83,10 @@ export default defineConfig({
 			    badge: 'Algebra',
 			    items: [
 				'expanding-brackets',
+				'expanding-single-brackets',
+				'expanding-double-brackets',
+				'expanding-triple-brackets',
+				'expanding-brackets-with-surds',
 				'factorising-quadratics',
 				'polynomial-division',
 				'factor-theorem',
