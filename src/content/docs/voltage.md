@@ -13,7 +13,8 @@ There are two types of energy transfers in
 ## Potential difference
 
 - Potential difference is the **work done by unit charge**.
-- It's also called 'voltage'.
+- It's a type of voltage that represents the energy transferred to or from
+  a component in a circuit (not from the cell/battery).
 - If the potential difference across a component is, for example, $6V$, that
   menas that $1C$ of charge transfers $6J$ of energy to the component.
 - It's called the 'potential difference' because it is the difference in energy
