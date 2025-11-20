@@ -36,3 +36,12 @@ $$
 - $\frac{4\pi}{2\pi}$ (rational, can be simplified to $2$)
 - $i$ (not a *real* number)
 
+## Decimal representation
+
+The decimal equivalent to an irrational numbers have *non-terminating* and
+*non-repeating* decimal.
+
+This means that the digits after the decimal point go on forever without
+ending, and there is no repeating pattern in the digits (e.g. how $\pi$ is
+'completely random').
+
