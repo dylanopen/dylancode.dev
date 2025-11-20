@@ -234,6 +234,7 @@ export default defineConfig({
 				'graph-edge',
 				'graph-walk',
 				'graph-trail',
+				'graph-path',
 			    ]
 			},
 			{
@@ -324,6 +325,13 @@ export default defineConfig({
 				'interpreter',
 				'assembler',
 			    ],
+			},
+			{
+			    label: 'Number systems',
+			    collapsed: true,
+			    items: [
+				'natural-numbers',
+			    ]
 			}
 		    ]
 		},
