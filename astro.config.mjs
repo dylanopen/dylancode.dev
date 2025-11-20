@@ -230,7 +230,8 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Discrete',
 			    items: [
-				'graph-vertex'
+				'graph-vertex',
+				'graph-edge',
 			    ]
 			},
 			{
@@ -239,7 +240,6 @@ export default defineConfig({
 			    badge: 'Discrete',
 			    items: [
 				'common-function-graphs',
-				'critical-path-analysis',
 			    ]
 			},
 			{
