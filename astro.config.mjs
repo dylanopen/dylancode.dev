@@ -82,6 +82,7 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Algebra',
 			    items: [
+				'inequality-signs',
 				'solving-linear-inequalities',
 			    ]
 			},
