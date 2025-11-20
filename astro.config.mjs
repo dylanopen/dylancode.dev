@@ -52,6 +52,12 @@ export default defineConfig({
 			    badge: 'Algebra',
 			    items: [
 				'laws-of-indices',
+				'multiplying-indices',
+				'dividing-indices',
+				'power-of-a-power',
+				'power-of-zero',
+				'fractional-indices',
+				'negative-indices',
 				'surds',
 				'rationalising-the-denominator',
 			    ]
