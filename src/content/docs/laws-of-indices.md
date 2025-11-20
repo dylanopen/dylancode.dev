@@ -12,24 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Raising an index to an index
-
-When we have a number, and we raise it to a power, then raise the result to the
-power of another number, we **multiply** the powers. This is much more easily
-shown using algebra:
-
-$$
-(a^x)^y=a^{xy}
-$$
-
-> Note: if $a^x$ above is **not** surrounded with brackets, then this does not
-> work, as it is then the power itself that is being raised to the second power.
-
-## Example: simplify $(a^4)^7$
-
-- $=a^{4\times7}$
-- $=a^{28}$
-
 ## Power of 1
 
 Anything raised to the power of 1 is itself:
