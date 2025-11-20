@@ -12,18 +12,6 @@ There are 7 main laws of indices you need to know. These regard:
 - [fractional powers](fractional-powers)
 - [negative powers](negative-powers)
 
-## Power of 1
-
-Anything raised to the power of 1 is itself:
-
-$$
-a^1=a
-$$
-
-### Example: evaluate $17^1$
-
-- $17$
-
 ## Power of 0
 
 Anything raised to the power of zero is $1$:
