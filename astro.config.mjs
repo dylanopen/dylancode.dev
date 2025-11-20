@@ -55,6 +55,7 @@ export default defineConfig({
 				'multiplying-fractions',
 				'dividing-fractions',
 				'adding-fractions',
+				'subtracting-fractions',
 			    ]
 			},
 			{
