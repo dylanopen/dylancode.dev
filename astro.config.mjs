@@ -75,6 +75,7 @@ export default defineConfig({
 			    badge: 'Algebra',
 			    items: [
 				'equation-of-a-straight-line',
+				'finding-the-equation-of-a-straight-line',
 				'linear-function-modulus',
 			    ]
 			},
