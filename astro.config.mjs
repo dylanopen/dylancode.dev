@@ -113,6 +113,7 @@ export default defineConfig({
 				'discriminant',
 				'completing-the-square',
 				'solving-by-completing-the-square',
+				'solving-disguised-quadratics',
 			    ]
 			},
 			{
