@@ -55,6 +55,15 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Representing fractions',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'converting-percentages-to-decimals',
+				'converting-decimals-to-percentages',
+			    ]
+			},
+			{
 			    label: 'Divisibility',
 			    collapsed: true,
 			    badge: 'Number',
