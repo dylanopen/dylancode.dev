@@ -63,6 +63,7 @@ export default defineConfig({
 				'converting-decimals-to-percentages',
 				'converting-fractions-to-decimals',
 				'converting-decimals-to-fractions',
+				'converting-fractions-to-percentages',
 			    ]
 			},
 			{

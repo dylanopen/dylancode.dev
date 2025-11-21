@@ -67,4 +67,3 @@ See the link to learn how to find the HCF.
   - $\frac{4 \div 4}{100 \div 4} = \frac{1}{25}$.
 - **Answer:** $0.04 = \frac{1}{25}$.
 
-
