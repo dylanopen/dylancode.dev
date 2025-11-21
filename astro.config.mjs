@@ -292,7 +292,6 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Discrete',
 			    items: [
-				'common-function-graphs',
 			    ]
 			},
 			{
@@ -326,6 +325,7 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: { text: 'Preview', variant: 'caution' },
 			    items: [
+				'common-function-graphs',
 				'unit-prefixes',
 			    ]
 			},
