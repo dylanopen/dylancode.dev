@@ -285,6 +285,7 @@ export default defineConfig({
 				'complete-graph',
 				'graph-tree',
 				'subgraph',
+				'eulerian-graph'
 			    ]
 			},
 			{
