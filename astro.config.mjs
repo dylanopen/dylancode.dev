@@ -292,6 +292,7 @@ export default defineConfig({
 				'graph-complement',
 				'graph-subdivision',
 				'bipartite-graph',
+				'isomorphic-graph',
 			    ]
 			},
 			{
