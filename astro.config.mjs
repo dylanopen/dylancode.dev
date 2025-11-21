@@ -278,6 +278,7 @@ export default defineConfig({
 				'graph-walk',
 				'graph-trail',
 				'graph-path',
+				'graph-cycle',
 			    ]
 			},
 			{
