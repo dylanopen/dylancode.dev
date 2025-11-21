@@ -288,6 +288,7 @@ export default defineConfig({
 				'eulerian-graph',
 				'hamilton-graph',
 				'planar-graph',
+				'adjacency-matrix',
 			    ]
 			},
 			{
