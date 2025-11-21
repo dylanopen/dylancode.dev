@@ -289,6 +289,7 @@ export default defineConfig({
 				'hamilton-graph',
 				'planar-graph',
 				'adjacency-matrix',
+				'graph-complement',
 			    ]
 			},
 			{
