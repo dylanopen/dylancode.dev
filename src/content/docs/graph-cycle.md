@@ -16,3 +16,11 @@ vertices. In other words, a cycle is a closed loop in the graph.
 - Only the starting vertex is visited twice.
 - All other vertices and edges are visited exactly once.
 
+## Closed trail
+
+A closed trail is like a cycle, but it allows vertices to be revisited, as long
+as no *edges* are repeated.
+
+By definition, all cycles are closed trails, but not all closed trails are
+cycles.
+
