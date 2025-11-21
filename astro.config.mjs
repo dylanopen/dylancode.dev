@@ -60,6 +60,8 @@ export default defineConfig({
 			    badge: 'Number',
 			    items: [
 				'rounding-to-decimal-places',
+				'rounding-to-nearest-integer',
+				'rounding-to-significant-figures',
 			    ]
 			},
 			{
