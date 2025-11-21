@@ -291,6 +291,7 @@ export default defineConfig({
 				'adjacency-matrix',
 				'graph-complement',
 				'graph-subdivision',
+				'bipartite-graph',
 			    ]
 			},
 			{
