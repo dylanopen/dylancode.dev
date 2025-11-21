@@ -279,6 +279,7 @@ export default defineConfig({
 				'graph-trail',
 				'graph-path',
 				'graph-cycle',
+				'graph-loop',
 			    ]
 			},
 			{
