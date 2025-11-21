@@ -280,6 +280,7 @@ export default defineConfig({
 				'graph-path',
 				'graph-cycle',
 				'graph-loop',
+				'simple-graph',
 			    ]
 			},
 			{
