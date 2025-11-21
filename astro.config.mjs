@@ -55,6 +55,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Rounding',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'rounding-to-decimal-places',
+			    ]
+			},
+			{
 			    label: 'Representing fractions',
 			    collapsed: true,
 			    badge: 'Number',
