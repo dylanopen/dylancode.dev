@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dylancode.dev/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/natural-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/integers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rational-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/irrational-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/real-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/order-of-operations/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rounding-to-decimal-places/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rounding-to-nearest-integer/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rounding-to-significant-figures/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-percentages-to-decimals/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-decimals-to-percentages/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-fractions-to-decimals/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-decimals-to-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-fractions-to-percentages/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/converting-percentages-to-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/prime-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/composite-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/prime-factor-decomposition/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/highest-common-factor/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/lowest-common-multiple/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simplifying-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/multiplying-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/dividing-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/adding-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-fractions/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/percentage-of-a-quantity/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/percentage-increase/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/percentage-decrease/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/laws-of-indices/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/multiplying-indices/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/dividing-indices/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/raising-an-index-to-an-index/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/power-of-0/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/power-of-1/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/fractional-powers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/negative-powers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/changing-the-base-of-a-power/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simplifying-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/adding-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/multiplying-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/dividing-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rationalising-the-denominator/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/equation-of-a-straight-line/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/finding-the-equation-of-a-straight-line/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/linear-function-modulus/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/inequality-signs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/solving-linear-inequalities/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/solving-quadratic-inequalities/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/expanding-brackets/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/expanding-single-brackets/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/expanding-double-brackets/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/expanding-triple-brackets/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/expanding-brackets-with-surds/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/factorising-quadratics/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/polynomial-division/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/difference-of-two-squares/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/factor-theorem/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/quadratic-functions-and-graphs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/discriminant/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/completing-the-square/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/solving-by-completing-the-square/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/solving-disguised-quadratics/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simultaneous-equation-elimination/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simultaneous-equation-substitution/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/number-of-intersections-between-graphs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/logarithm-function/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/laws-of-logarithms/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/adding-logarithms/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-logarithms/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/multiplying-logarithms-by-a-constant/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/translating-graphs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/stretching-graphs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/parallel-line-equations/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/perpendicular-line-equations/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/equation-of-a-circle/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/definition-of-differentiation/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/derivative-notation/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/power-rule-for-differentiation/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/adding-complex-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-complex-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/complex-number-real-multiplication/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/complex-conjugate/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/complex-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/complex-solutions-to-polynomials/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/dividing-complex-numbers/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/factorising-polynomials-with-complex-roots/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/imaginary-constant/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/multiplying-a-complex-number-by-its-conjugate/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/quadratic-roots-and-coefficients/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-vertex/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-edge/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-walk/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-trail/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-path/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-cycle/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-loop/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simple-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/connected-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/complete-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-tree/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subgraph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/eulerian-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/hamilton-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/planar-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/adjacency-matrix/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-complement/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/graph-subdivision/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/bipartite-graph/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/network-flows/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/pay-off-matrices/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/play-safe-strategy/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/dominating-strategies/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/linear-programming/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/common-function-graphs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/unit-prefixes/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/basics-of-electricity/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/electrical-charge/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/electrical-current/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/voltage/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/electrical-resistance/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/electrical-energy/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/electrical-power/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/units-of-energy/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/calculating-the-number-of-electrons/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/systems-software/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/operating-systems/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/utility-programs/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/code-libraries/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/code-translators/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/compiler/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/interpreter/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/assembler/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/intro/</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rounding-to-decimal-places</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simplifying-fractions</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/raising-an-index-to-an-index</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/power-of-1</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/power-of-0</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simplifying-surds</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-surds</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/rationalising-the-denominator</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/subtracting-logarithms</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/parallel-line-equations</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/simple-graph</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dylancode.dev/utility-programs</loc>
+  <lastmod>2025-11-21T23:51:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
