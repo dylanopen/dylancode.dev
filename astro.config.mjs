@@ -47,6 +47,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Arithmetic',
+			    collapsed: true,
+			    badge: 'Number',
+			    items: [
+				'order-of-operations',
+			    ]
+			},
+			{
 			    label: 'Divisibility',
 			    collapsed: true,
 			    badge: 'Number',
