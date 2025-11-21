@@ -284,6 +284,7 @@ export default defineConfig({
 				'connected-graph',
 				'complete-graph',
 				'graph-tree',
+				'subgraph',
 			    ]
 			},
 			{
