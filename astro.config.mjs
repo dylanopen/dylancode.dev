@@ -290,6 +290,7 @@ export default defineConfig({
 				'planar-graph',
 				'adjacency-matrix',
 				'graph-complement',
+				'graph-subdivision',
 			    ]
 			},
 			{
