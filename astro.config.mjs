@@ -287,6 +287,7 @@ export default defineConfig({
 				'subgraph',
 				'eulerian-graph',
 				'hamilton-graph',
+				'planar-graph',
 			    ]
 			},
 			{
