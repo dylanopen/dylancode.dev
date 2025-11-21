@@ -281,6 +281,7 @@ export default defineConfig({
 				'graph-cycle',
 				'graph-loop',
 				'simple-graph',
+				'connected-graph',
 			    ]
 			},
 			{
