@@ -283,6 +283,7 @@ export default defineConfig({
 				'simple-graph',
 				'connected-graph',
 				'complete-graph',
+				'graph-tree',
 			    ]
 			},
 			{
