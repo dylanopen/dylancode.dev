@@ -285,7 +285,8 @@ export default defineConfig({
 				'complete-graph',
 				'graph-tree',
 				'subgraph',
-				'eulerian-graph'
+				'eulerian-graph',
+				'hamilton-graph',
 			    ]
 			},
 			{
