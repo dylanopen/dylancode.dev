@@ -43,17 +43,13 @@ export default defineConfig({
 	    head: [
 		{
 		    tag: 'script',
-		    // Content truncated for brevity.
-		    content:
-		    "(function(w,d,s,l,i){ ... })(window,document,'script','dataLayer','G-2J8B1X5W7E');",
+		    attrs: {
+			defer: true,
+			src: 'https://cloud.umami.is/script.js',
+			'data-website-id': '529e56e4-f649-4030-a8ba-46fae5bec6b4',
+		    }
 		},
 	    ],
-	    // Replace the built-in <SkipLink/> component.
-	    components: {
-		// Relative path to the custom component.
-		SkipLink: './src/components/SkipLink.astro',
-	    },
-
 	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' }],
 	    components: {
 		ThemeProvider: './src/components/AlwaysDark.astro',
