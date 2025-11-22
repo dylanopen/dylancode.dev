@@ -211,6 +211,7 @@ export default defineConfig({
 				'expanding-triple-brackets',
 				'expanding-brackets-with-surds',
 				'factorising-quadratics',
+				'solving-quadratics-by-factorising',
 				'polynomial-division',
 				'difference-of-two-squares',
 				'factor-theorem',
