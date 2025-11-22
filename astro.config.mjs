@@ -303,6 +303,7 @@ export default defineConfig({
 			    items: [
 				'network-node',
 				'network-arc',
+				'distance-matrix',
 			    ]
 			},
 			{
