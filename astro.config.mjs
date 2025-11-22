@@ -94,6 +94,7 @@ export default defineConfig({
 				'rounding-to-decimal-places',
 				'rounding-to-nearest-integer',
 				'rounding-to-significant-figures',
+				'estimation-using-rounding',
 			    ]
 			},
 			{
@@ -357,6 +358,14 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Linear programming',
+			    collapsed: true,
+			    badge: { text: 'Discrete', variant: 'caution' },
+			    items: [
+				'linear-programming',
+			    ]
+			},
+			{
 			    label: 'Game theory',
 			    collapsed: true,
 			    badge: 'Discrete',
@@ -364,14 +373,6 @@ export default defineConfig({
 				'pay-off-matrices',
 				'play-safe-strategy',
 				'dominating-strategies',
-			    ]
-			},
-			{
-			    label: 'Linear programming',
-			    collapsed: true,
-			    badge: { text: 'Discrete', variant: 'caution' },
-			    items: [
-				'linear-programming',
 			    ]
 			},
 			{
