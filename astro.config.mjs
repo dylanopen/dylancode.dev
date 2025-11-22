@@ -301,6 +301,7 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Discrete',
 			    items: [
+				'network-node',
 			    ]
 			},
 			{
