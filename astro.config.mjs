@@ -186,6 +186,7 @@ export default defineConfig({
 			    items: [
 				'equation-of-a-straight-line',
 				'finding-the-equation-of-a-straight-line',
+				'solving-linear-equations',
 				'linear-function-modulus',
 			    ]
 			},
