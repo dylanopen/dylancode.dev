@@ -381,6 +381,7 @@ export default defineConfig({
 			    items: [
 				'common-function-graphs',
 				'unit-prefixes',
+				'inequality-of-arithmetic-and-geometric-means',
 			    ]
 			},
 		    ],
