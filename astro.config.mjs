@@ -152,8 +152,8 @@ export default defineConfig({
 			    collapsed: true,
 			    badge: 'Algebra',
 			    items: [
+				'expression',
 				'collecting-like-terms',
-				//'substituting-into-expressions',
 			    ]
 			},
 			{
