@@ -305,6 +305,7 @@ export default defineConfig({
 				'network-arc',
 				'distance-matrix',
 				'minimum-spanning-tree',
+				'kruskal-algorithm',
 			    ]
 			},
 			{
