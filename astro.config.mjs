@@ -302,6 +302,7 @@ export default defineConfig({
 			    badge: 'Discrete',
 			    items: [
 				'network-node',
+				'network-arc',
 			    ]
 			},
 			{
