@@ -297,6 +297,13 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Networks',
+			    collapsed: true,
+			    badge: 'Discrete',
+			    items: [
+			    ]
+			},
+			{
 			    label: 'Activity networks',
 			    collapsed: true,
 			    badge: 'Discrete',
