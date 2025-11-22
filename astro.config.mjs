@@ -146,6 +146,7 @@ export default defineConfig({
 			    items: [
 				'expression',
 				'collecting-like-terms',
+				'algebraic-fractions',
 				'substitution',
 			    ]
 			},
