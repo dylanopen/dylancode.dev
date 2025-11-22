@@ -304,6 +304,7 @@ export default defineConfig({
 				'network-node',
 				'network-arc',
 				'distance-matrix',
+				'minimum-spanning-tree',
 			    ]
 			},
 			{
