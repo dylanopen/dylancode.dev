@@ -210,6 +210,7 @@ export default defineConfig({
 				'expanding-double-brackets',
 				'expanding-triple-brackets',
 				'expanding-brackets-with-surds',
+				'factorising-single-brackets',
 				'factorising-quadratics',
 				'solving-quadratics-by-factorising',
 				'polynomial-division',
