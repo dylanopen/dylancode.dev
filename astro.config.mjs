@@ -5,6 +5,8 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
+import partytown from '@astrojs/partytown'
+
 import cloudflare from '@astrojs/cloudflare';
 
 
@@ -16,8 +18,42 @@ export default defineConfig({
     },
 
     integrations: [
+	partytown({
+	    config: {
+		forward: ["dataLayer.push"],
+	    },
+	}),
+
+	/*
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2J8B1X5W7E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2J8B1X5W7E');
+</script>
+
+	 */
 	starlight({
 	    title: 'dylancode.dev',
+
+	    head: [
+		{
+		    tag: 'script',
+		    // Content truncated for brevity.
+		    content:
+		    "(function(w,d,s,l,i){ ... })(window,document,'script','dataLayer','G-2J8B1X5W7E');",
+		},
+	    ],
+	    // Replace the built-in <SkipLink/> component.
+	    components: {
+		// Relative path to the custom component.
+		SkipLink: './src/components/SkipLink.astro',
+	    },
+
 	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' }],
 	    components: {
 		ThemeProvider: './src/components/AlwaysDark.astro',
@@ -305,6 +341,7 @@ export default defineConfig({
 				'network-arc',
 				'distance-matrix',
 				'minimum-spanning-tree',
+				'prim-algorithm',
 				'kruskal-algorithm',
 			    ]
 			},
