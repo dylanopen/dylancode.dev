@@ -304,7 +304,7 @@ export default defineConfig({
 			    ]
 			},
 			{
-			    label: 'Network flows',
+			    label: 'Directed graphs',
 			    collapsed: true,
 			    badge: 'Discrete',
 			    items: [
