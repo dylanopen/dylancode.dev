@@ -1,30 +1,38 @@
 ---
 title: Inequality of Arithmetic and Geometric Means
+author: Alexis_fx
 ---
-Inequality of Arithmetic and Geometric Means or __AM-GM__ is one of the most powerful inequality when dealing with positive real numbers
+
+Inequality of Arithmetic and Geometric Means or __AM-GM__ is one of the most powerful inequalities when dealing with positive real numbers.
+
 ## Statement
-### In general:
-For any real positive numbers $x_1,x_2,x_3,\dots,x_n$ :
+In general:
+> For any real positive numbers $x_1,x_2,x_3,\dots,x_n$ :
 
   $$\underbrace{x_1 + x_2 + x_3 + \dots + x_n}_{\text{ n elements }} \ge n\sqrt[n]{x_1x_2x_3\dots x_n}$$
 
-The equality hold if and only if $x_1 = x_2 = x_3 = \dots = x_n$ 
+The equality holds if and only if $x_1 = x_2 = x_3 = \dots = x_n$ 
+
 ### For 2 numbers:
 For any real positive numbers $x,y$ :
 
   $$x+y \ge 2\sqrt{x\cdot y}$$
 
-The equality hold if and only if $x=y$ 
+The equality holds if and only if $x=y$ 
 
 
-### For 3 numbers:
+### For 3 numbers
+
 For any real positive numbers $x,y,z$ :
 
 $$x+y+z \ge 3\sqrt[2]{x\cdot y \cdot z}$$
 
 The equality hold if and only if $x=y=z$ 
+
 ## Proof
-### For 2 numbers:
+
+For 2 numbers:
+
 $$
 \begin{align*}
 x+y & \ge 2\sqrt{x\cdot y}\\
