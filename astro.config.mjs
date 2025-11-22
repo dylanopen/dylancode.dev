@@ -154,6 +154,7 @@ export default defineConfig({
 			    items: [
 				'expression',
 				'collecting-like-terms',
+				'substitution',
 			    ]
 			},
 			{
