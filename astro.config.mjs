@@ -148,6 +148,15 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Algebraic manipulation',
+			    collapsed: true,
+			    badge: 'Algebra',
+			    items: [
+				'collecting-like-terms',
+				//'substituting-into-expressions',
+			    ]
+			},
+			{
 			    label: 'Indices and surds',
 			    collapsed: true,
 			    badge: 'Algebra',
