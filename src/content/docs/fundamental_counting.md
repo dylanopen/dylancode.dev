@@ -2,9 +2,6 @@
 title: Fundamental Counting
 author: Alexis_Fx & Dylancode
 ---
-## Introduction
-From thousands of years ago, we developed Mathematics 
-
 ## Tree Diagram
 ### What is tree diagram
 As things get more complex, we are required an effective tool to organise and visualise objects. Diagrams satisfy both requirement. Consequently, Diagrams are delevloped and used as one way for counting. One of them is tree diagram, an early and well-used one due to its simplicity.
@@ -36,7 +33,6 @@ flowchart TD
     D --> K(Slopes)
     D --> L(Equations)
 ```
-### Tree diagram in counting
 ## Addition Principle 
 ### Statement  
 If one event can occur in $m$ ways and a second event with no common outcomes can occur in $n$ ways, then the first or second event can occur in $m+n$ ways.
@@ -130,10 +126,10 @@ flowchart LR
     n32@{ shape: rect}
 ```
 ### Explanation
-As you see in the figure above, each element in Sub event 1 can be paired with 1 of the elements in Sub event 2. If there are n elements (or n ways in counting) in Sub event 2, you can pair it with one of the one of the elements in Sub event 1, which give n pairs. And since there are m elements im Sub event 1, there are m of n pairs similarly. Hence prove that the total pairs are $m \cdot n$ pair (or $m \cdot n$ ways in counting).
+As you see in the figure above, each element in Sub event 1 can be paired with 1 of the elements in Sub event 2. If there are n elements (or n ways in counting) in Sub event 2, you can pair it with one of the elements in Sub event 1, which give n pairs. And since there are m elements in Sub event 1, there are m of n pairs similarly. Hence prove that the total pairs are $m \cdot n$ pair (or $m \cdot n$ ways in counting).
 ### Example 1 - Multiplication Principle
 #### Problem
-In how many ways have lunch consist of a drink from a menu with 5 soda options and 8 boba options, and a dish from the same menu with 3 vegan options and 7 non-vegan options.
+In how many ways can we have a lunch consist of a drink from a menu with 5 soda options and 8 boba options, and a dish from the same menu with 3 vegan options and 7 non-vegan options.
 #### Solution
-In this problem, event "having lunch" consist of us choosing a drink and a dish, to be exact, choosing a drink *then* a dish. Consequently, such event is 2 Sub events happen in order : "get a drink" and then "get a dish". According to the principle, total ways we can have a lunch are *(number of ways to get a drink)* $\cdot$ *(number of ways to get a dish)*. We can find them using Addition Principle we established earlier. number of ways to get a drink are $5+8=13$, number of ways to get a dish are $3+7=10$. Hence the total ways to get a lunch are $13 \cdots 10=130$ ways. 
+In this problem, event "having lunch" consist of us choosing a drink and a dish, to be exact, choosing a drink *then* a dish. Consequently, such event is 2 Sub events happen in order : "get a drink" and then "get a dish". According to the principle, total ways we can have a lunch are *(number of ways to get a drink)* $\cdot$ *(number of ways to get a dish)*. We can find them using Addition Principle we established earlier. Number of ways to get a drink are $5+8=13$, number of ways to get a dish are $3+7=10$. Hence the total ways to get a lunch are $13 \cdots 10=130$ ways. 
 
