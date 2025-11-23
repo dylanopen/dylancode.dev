@@ -41,7 +41,6 @@ export default defineConfig({
 				{
 				    label: 'Types of number',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'natural-numbers',
 					'integers',
@@ -53,7 +52,6 @@ export default defineConfig({
 				{
 				    label: 'Arithmetic',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'order-of-operations',
 				    ]
@@ -61,7 +59,6 @@ export default defineConfig({
 				{
 				    label: 'Rounding',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'rounding-to-decimal-places',
 					'rounding-to-nearest-integer',
@@ -71,7 +68,6 @@ export default defineConfig({
 				{
 				    label: 'Representing fractions',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'converting-percentages-to-decimals',
 					'converting-decimals-to-percentages',
@@ -85,7 +81,6 @@ export default defineConfig({
 				{
 				    label: 'Divisibility',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'prime-numbers',
 					'composite-numbers',
@@ -97,7 +92,6 @@ export default defineConfig({
 				{
 				    label: 'Fractions',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'simplifying-fractions',
 					'multiplying-fractions',
@@ -109,7 +103,6 @@ export default defineConfig({
 				{
 				    label: 'Percentages',
 				    collapsed: true,
-				    badge: 'Number',
 				    items: [
 					'converting-percentages-to-decimals',
 					'converting-decimals-to-percentages',
@@ -127,7 +120,6 @@ export default defineConfig({
 				{
 				    label: 'Indices and surds',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'laws-of-indices',
 					'multiplying-indices',
@@ -150,7 +142,6 @@ export default defineConfig({
 				{
 				    label: 'Linear functions',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'equation-of-a-straight-line',
 					'finding-the-equation-of-a-straight-line',
@@ -160,7 +151,6 @@ export default defineConfig({
 				{
 				    label: 'Inequalities',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'inequality-signs',
 					'solving-linear-inequalities',
@@ -170,7 +160,6 @@ export default defineConfig({
 				{
 				    label: 'Polynomial arithmetic',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'expanding-brackets',
 					'expanding-single-brackets',
@@ -186,7 +175,6 @@ export default defineConfig({
 				{
 				    label: 'Quadratics',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'quadratic-functions-and-graphs',
 					'discriminant',
@@ -198,7 +186,6 @@ export default defineConfig({
 				{
 				    label: 'Sequences',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'arithmetic-sequences',
 				    ]
@@ -206,7 +193,6 @@ export default defineConfig({
 				{
 				    label: 'Simultaneous equations',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'simultaneous-equation-elimination',
 					'simultaneous-equation-substitution',
@@ -216,7 +202,6 @@ export default defineConfig({
 				{
 				    label: 'Logarithms',
 				    collapsed: true,
-				    badge: 'Algebra',
 				    items: [
 					'logarithm-function',
 					'laws-of-logarithms',
@@ -234,7 +219,6 @@ export default defineConfig({
 				{
 				    label: 'Graph transformations',
 				    collapsed: true,
-				    badge: 'Graphs',
 				    items: [
 					'translating-graphs',
 					'stretching-graphs',
@@ -251,7 +235,6 @@ export default defineConfig({
 				{
 				    label: 'Circles',
 				    collapsed: true,
-				    badge: 'Geometry',
 				    items: [
 					'equation-of-a-circle',
 				    ]
@@ -265,7 +248,6 @@ export default defineConfig({
 				{
 				    label: 'Differentiation',
 				    collapsed: true,
-				    badge: 'Calculus',
 				    items: [
 					'definition-of-differentiation',
 					'derivative-notation',
@@ -281,7 +263,6 @@ export default defineConfig({
 				{
 				    label: 'Complex numbers',
 				    collapsed: true,
-				    badge: 'Further',
 				    items: [
 					'adding-complex-numbers',
 					'subtracting-complex-numbers',
@@ -298,7 +279,6 @@ export default defineConfig({
 				{
 				    label: 'Coefficient and root relationships',
 				    collapsed: true,
-				    badge: 'Further',
 				    items: [
 					'quadratic-roots-and-coefficients',
 				    ]
@@ -306,7 +286,6 @@ export default defineConfig({
 				{
 				    label: 'Graphs',
 				    collapsed: true,
-				    badge: 'Discrete',
 				    items: [
 					'graph-vertex',
 					'graph-edge',
@@ -339,14 +318,12 @@ export default defineConfig({
 				{
 				    label: 'Activity networks',
 				    collapsed: true,
-				    badge: 'Discrete',
 				    items: [
 				    ]
 				},
 				{
 				    label: 'Network flows',
 				    collapsed: true,
-				    badge: 'Discrete',
 				    items: [
 					'network-flows',
 				    ]
@@ -354,7 +331,6 @@ export default defineConfig({
 				{
 				    label: 'Game theory',
 				    collapsed: true,
-				    badge: 'Discrete',
 				    items: [
 					'pay-off-matrices',
 					'play-safe-strategy',
@@ -364,7 +340,6 @@ export default defineConfig({
 				{
 				    label: 'Linear programming',
 				    collapsed: true,
-				    badge: { text: 'Discrete', variant: 'caution' },
 				    items: [
 					'linear-programming',
 				    ]
@@ -374,7 +349,6 @@ export default defineConfig({
 			{
 			    label: 'Unsorted',
 			    collapsed: true,
-			    badge: { text: 'Preview', variant: 'caution' },
 			    items: [
 				'common-function-graphs',
 				'unit-prefixes',
