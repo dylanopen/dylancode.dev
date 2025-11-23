@@ -38,7 +38,7 @@ using these two numbers, and factor by grouping.
   - $2x(x+3)+1(x+3)$
 - Factor out the common factor $(x+3)$:
   - $(x+3)(2x+1)$
-Answer: $(x+3)(2x+1)$.
+- Answer: $(x+3)(2x+1)$.
 
 ### Example: factorise $3x^2-11x+10$
 
@@ -52,38 +52,9 @@ Answer: $(x+3)(2x+1)$.
   - $x(3x-5)-2(3x-5)$
 - Factor out the common factor $(3x-5)$:
   - $(3x-5)(x-2)$
-Answer: $(3x-5)(x-2)$.
+- Answer: $(3x-5)(x-2)$.
 
 ## Solving quadratic equations by factorising
 
-Once a quadratic expression has been factorised, it can be used to solve
-the quadratic equation (when the expression is equal to zero).
-
-If the product of two factors is equal to zero, then at least one of the
-factors must be equal to zero. This is called the *zero product property*.
-
-### Example: solve $x^2+5x+6=0$
-
-- Factorise the left-hand side:
-  - $(x+2)(x+3)=0$
-- Using the zero product property, set each factor equal to zero:
-  - $x+2=0$ or $x+3=0$
-- Solve $x+2=0$:
-  - $x=-2$
-- Solve $x+3=0$:
-  - $x=-3$
-Answer: $x=-2$ or $x=-3$.
-
-### Example: solve $2x^2+7x+3=0$
-
-- Factorise the left-hand side:
-  - $(x+3)(2x+1)=0$
-- Using the zero product property, set each factor equal to zero:
-  - $x+3=0$ or $2x+1=0$
-- Solve $x+3=0$:
-  - $x=-3$
-- Solve $2x+1=0$:
-  - $2x=-1$
-  - $x=-\frac{1}{2}$
-Answer: $x=-3$ or $x=-\frac{1}{2}$.
+Please see [solving-quadratics-by-factorising](/solving-quadratics-by-factorising).
 
