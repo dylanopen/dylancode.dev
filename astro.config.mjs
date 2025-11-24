@@ -406,6 +406,7 @@ export default defineConfig({
 				'electrical-power',
 				'units-of-energy',
 				'calculating-the-number-of-electrons',
+				'resistance-in-a-bulb',
 			    ],
 			},
 		    ]
