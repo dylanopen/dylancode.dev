@@ -247,6 +247,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'direct-proportion',
+					'inverse-proportion',
 				    ]
 				}
 			    ]
