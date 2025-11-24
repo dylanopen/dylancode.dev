@@ -36,3 +36,38 @@ is a normal quadratic in terms of $y$.
 
 **Answer**: $x = \pm \sqrt{2}$ or $x = \pm \sqrt{3}$
 
+## Disguised quadratics where terms are exponents
+
+### Solve the equation $2^{2x} - 5(2^x) + 6 = 0$
+
+- Substitute $y = 2^x$:
+  - $y^2 - 5y + 6 = 0$
+- Factorise the quadratic:
+  - $(y - 2)(y - 3) = 0$
+- Find the values of $y$:
+  - $y = 2$ or $y = 3$
+- Substitute back to find $x$:
+  - If $y = 2$, then $2^x = 2$:
+    - $\log_2{2^x} = \log_2{2}$
+    - $x = 1$
+  - If $y = 3$, then $2^x = 3$:
+    - $\log_2{2^x} = \log_2{3}$
+    - $x = \log_2{3}$
+**Answer**: $x = 1$ or $x = \log_2{3}$
+
+### Solve the equation $3^{2x} + 5(3^x) - 24 = 0$
+
+- Substitute $y = 3^x$:
+  - $y^2 + 5y - 24 = 0$
+- Factorise the quadratic:
+  - $(y + 8)(y - 3) = 0$
+- Find the values of $y$:
+  - $y = -8$ or $y = 3$
+- Substitute back to find $x$:  
+  - If $y = -8$, then $3^x = -8$:
+    - No solution, since $3^x$ is always positive.
+  - If $y = 3$, then $3^x = 3$:
+    - $\log_3{3^x} = \log_3{3}$
+    - $x = 1$
+**Answer**: $x = 1$
+
