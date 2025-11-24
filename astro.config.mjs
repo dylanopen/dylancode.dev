@@ -242,6 +242,13 @@ export default defineConfig({
 					'multiplying-logarithms-by-a-constant',
 				    ]
 				},
+				{
+				    label: 'Proportionality',
+				    collapsed: true,
+				    items: [
+					'direct-proportion',
+				    ]
+				}
 			    ]
 			},
 			{
