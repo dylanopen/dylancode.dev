@@ -130,6 +130,7 @@ export default defineConfig({
 					'dividing-fractions',
 					'adding-fractions',
 					'subtracting-fractions',
+					'algebraic-fractions',
 				    ]
 				},
 				{
