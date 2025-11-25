@@ -149,6 +149,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'ratio-meaning',
+					'simplifying-ratios',
 				    ]
 				}
 			    ]
