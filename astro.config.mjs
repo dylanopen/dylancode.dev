@@ -275,6 +275,13 @@ export default defineConfig({
 					'perpendicular-line-equations',
 				    ]
 				},
+				{
+				    label: 'Real-world graphs',
+				    collapsed: true,
+				    items: [
+					'distance-time-graph',
+				    ]
+				}
 			    ]
 			},
 			{
