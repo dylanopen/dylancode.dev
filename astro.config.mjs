@@ -144,6 +144,13 @@ export default defineConfig({
 					'percentage-decrease',
 				    ]
 				},
+				{
+				    label: 'Ratio',
+				    collapsed: true,
+				    items: [
+					'ratio-meaning',
+				    ]
+				}
 			    ]
 			},
 			{
