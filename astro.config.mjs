@@ -259,6 +259,13 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				{
+				    label: 'Coordinates',
+				    collapsed: true,
+				    items: [
+					'cartesian-coordinates',
+				    ]
+				},
+				{
 				    label: 'Graph transformations',
 				    collapsed: true,
 				    items: [
