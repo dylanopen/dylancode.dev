@@ -399,6 +399,7 @@ export default defineConfig({
 					'pay-off-matrices',
 					'play-safe-strategy',
 					'dominating-strategies',
+					'optimal-mixed-strategy',
 				    ]
 				},
 				{
