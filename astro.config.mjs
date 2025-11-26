@@ -380,6 +380,18 @@ export default defineConfig({
 				    ]
 				},
 				{
+				    label: 'Networks',
+				    collapsed: true,
+				    items: [
+					'network-node',
+					'network-arc',
+					'distance-matrix',
+					'minimum-spanning-tree',
+					'prim-algorithm',
+					'kruskal-algorithm',
+				    ]
+				},
+				{
 				    label: 'Activity networks',
 				    collapsed: true,
 				    items: [
