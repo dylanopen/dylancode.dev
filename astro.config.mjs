@@ -466,6 +466,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'atoms',
+				'nucleus',
 			    ]
 			},
 		    ]
