@@ -458,6 +458,19 @@ export default defineConfig({
 		    ]
 		},
 		{
+		    label: 'Chemistry',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Atomic structure',
+			    collapsed: true,
+			    items: [
+				'atoms',
+			    ]
+			},
+		    ]
+		},
+		{
 		    label: 'Computing',
 		    collapsed: true,
 		    items: [
