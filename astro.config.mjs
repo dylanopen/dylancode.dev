@@ -347,6 +347,12 @@ export default defineConfig({
 					'quadratic-roots-and-coefficients',
 				    ]
 				},
+			    ]
+			},
+			{
+			    label: 'Discrete',
+			    collapsed: true,
+			    items: [
 				{
 				    label: 'Graphs',
 				    collapsed: true,
@@ -373,12 +379,6 @@ export default defineConfig({
 					'isomorphic-graph',
 				    ]
 				},
-			    ]
-			},
-			{
-			    label: 'Discrete',
-			    collapsed: true,
-			    items: [
 				{
 				    label: 'Activity networks',
 				    collapsed: true,
