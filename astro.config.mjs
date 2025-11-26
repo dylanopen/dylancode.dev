@@ -467,6 +467,7 @@ export default defineConfig({
 			    items: [
 				'atoms',
 				'nucleus',
+				'protons',
 			    ]
 			},
 		    ]
