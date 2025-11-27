@@ -52,8 +52,6 @@ export default defineConfig({
 	    ],
 	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' }],
 	    components: {
-		ThemeProvider: './src/components/AlwaysDark.astro',
-		ThemeSelect: './src/components/HideThemeSwitcher.astro',
 	    },
 	    customCss: [
 		"./src/css/mathjax.css",
@@ -345,6 +343,13 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'quadratic-roots-and-coefficients',
+				    ]
+				},
+				{
+				    label: 'Matrices',
+				    collapsed: true,
+				    items: [
+					'matrix-definition',
 				    ]
 				},
 			    ]

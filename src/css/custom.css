@@ -5,7 +5,21 @@ th, td {
   min-width: 60px;
 }
 
+:root[data-theme='dark'],
+[data-theme='dark']
 b,strong {
     color: #d7d7d7;
+}
+
+:root[data-theme='light'],
+[data-theme='light']
+b,strong {
+    color: #1a1a1a;
+}
+
+@media print {
+    * {
+	color: #000 !important;
+    }
 }
 
