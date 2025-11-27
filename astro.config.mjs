@@ -352,6 +352,7 @@ export default defineConfig({
 					'matrix-definition',
 					'matrix-addition',
 					'scalar-matrix-multiplication',
+					'matrix-multiplication',
 				    ]
 				},
 			    ]
