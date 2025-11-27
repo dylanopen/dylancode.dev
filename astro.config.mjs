@@ -350,6 +350,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'matrix-definition',
+					'matrix-addition',
 				    ]
 				},
 			    ]
