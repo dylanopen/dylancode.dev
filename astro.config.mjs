@@ -506,6 +506,13 @@ export default defineConfig({
 			},
 		    ]
 		},
+		{
+		    label: 'C# programming',
+		    collapsed: true,
+		    items: [
+			'cs/hello-world',
+		    ]
+		}
 	    ],
 	}),
     ],
