@@ -5,8 +5,6 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
-import partytown from '@astrojs/partytown'
-
 import cloudflare from '@astrojs/cloudflare';
 
 
@@ -18,25 +16,6 @@ export default defineConfig({
     },
 
     integrations: [
-	partytown({
-	    config: {
-		forward: ["dataLayer.push"],
-	    },
-	}),
-
-	/*
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2J8B1X5W7E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2J8B1X5W7E');
-</script>
-
-	 */
 	starlight({
 	    title: 'dylancode.dev',
 
@@ -287,7 +266,15 @@ export default defineConfig({
 				    items: [
 					'distance-time-graph',
 				    ]
-				}
+				},
+				{
+				    label: 'Exponential graphs',
+				    collapsed: true,
+				    items: [
+					'exponential-function',
+					'exponential-function-gradient',
+				    ]
+				},
 			    ]
 			},
 			{
@@ -353,6 +340,7 @@ export default defineConfig({
 					'matrix-addition',
 					'scalar-matrix-multiplication',
 					'matrix-multiplication',
+					'identity-matrix',
 				    ]
 				},
 			    ]
