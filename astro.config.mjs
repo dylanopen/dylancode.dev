@@ -491,6 +491,7 @@ export default defineConfig({
 			    items: [
 				'bit',
 				'byte',
+				'nibble',
 			    ]
 			}
 		    ]
