@@ -1,8 +1,6 @@
 ---
-title: Hello World
+title: Hello world
 ---
-
-Learn how to write a basic program in C#
 
 ## The code
 
