@@ -496,7 +496,14 @@ export default defineConfig({
 				'decimal-prefixes',
 				'binary-prefixes',
 			    ]
-			}
+			},
+			{
+			    label: 'Binary',
+			    collapsed: true,
+			    items: [
+				'unsigned-binary'
+			    ]
+			},
 		    ]
 		},
 	    ],
