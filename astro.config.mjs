@@ -494,6 +494,7 @@ export default defineConfig({
 				'converting-bits-to-bytes',
 				'converting-bytes-to-bits',
 				'decimal-prefixes',
+				'binary-prefixes',
 			    ]
 			}
 		    ]
