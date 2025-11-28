@@ -273,6 +273,7 @@ export default defineConfig({
 				    items: [
 					'exponential-function',
 					'exponential-function-gradient',
+					'logarithm-function-gradient',
 				    ]
 				},
 			    ]
