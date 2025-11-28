@@ -484,6 +484,13 @@ export default defineConfig({
 			    items: [
 				'natural-numbers',
 			    ]
+			},
+			{
+			    label: 'Units of data',
+			    collapsed: true,
+			    items: [
+				'bit',
+			    ]
 			}
 		    ]
 		},
