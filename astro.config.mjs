@@ -493,6 +493,7 @@ export default defineConfig({
 				'byte',
 				'nibble',
 				'converting-bits-to-bytes',
+				'converting-bytes-to-bits',
 			    ]
 			}
 		    ]
