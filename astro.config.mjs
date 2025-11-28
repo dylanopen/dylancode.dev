@@ -490,6 +490,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'bit',
+				'byte',
 			    ]
 			}
 		    ]
