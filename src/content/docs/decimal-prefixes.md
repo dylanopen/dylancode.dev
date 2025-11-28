@@ -1,9 +1,9 @@
 ---
-title: Unit prefixes
+title: Decimal prefixes
 ---
 
-By adding a unit prefix after a unit, we change the *magnitude* (power of 10)
-of the unit/amount.
+By adding a decimal unit prefix after a unit, we change the *magnitude*
+(power of 10) of the unit/amount.
 
 For example, 1 **kilo**metre (km) is $1000$ metres (m), or $10^3$ metres.
 

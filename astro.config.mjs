@@ -425,7 +425,6 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'common-function-graphs',
-				'unit-prefixes',
 				'inequality-of-arithmetic-and-geometric-means',
 			    ]
 			},
@@ -494,6 +493,7 @@ export default defineConfig({
 				'nibble',
 				'converting-bits-to-bytes',
 				'converting-bytes-to-bits',
+				'decimal-prefixes',
 			    ]
 			}
 		    ]
