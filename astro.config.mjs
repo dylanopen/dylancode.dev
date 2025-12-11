@@ -344,6 +344,7 @@ export default defineConfig({
 					'matrix-multiplication',
 					'identity-matrix',
 					'matrix-determinant',
+					'inverse-matrix',
 				    ]
 				},
 			    ]
