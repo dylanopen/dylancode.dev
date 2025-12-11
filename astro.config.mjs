@@ -458,6 +458,7 @@ export default defineConfig({
 				'diode',
 				'potential-divider',
 				'temperature-coefficient',
+				'resistivity',
 			    ],
 			},
 		    ]
