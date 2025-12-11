@@ -527,6 +527,7 @@ export default defineConfig({
 		    collapsed: true,
 		    items: [
 			'cs/hello-world',
+			'cs/comments',
 		    ]
 		}
 	    ],
