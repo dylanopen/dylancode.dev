@@ -345,6 +345,7 @@ export default defineConfig({
 					'identity-matrix',
 					'matrix-determinant',
 					'inverse-matrix',
+					'singular-matrix',
 				    ]
 				},
 			    ]
