@@ -14,6 +14,7 @@ export default defineConfig({
 	remarkPlugins: [remarkMath],
 	rehypePlugins: [rehypeMathJax],
     },
+    site: 'https://dylanopen.github.io',
 
     integrations: [
 	starlight({
