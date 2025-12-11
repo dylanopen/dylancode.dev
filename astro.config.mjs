@@ -432,6 +432,7 @@ export default defineConfig({
 			    items: [
 				'common-function-graphs',
 				'inequality-of-arithmetic-and-geometric-means',
+				'vector-translation',
 			    ]
 			},
 		    ],
