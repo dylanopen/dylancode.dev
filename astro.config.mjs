@@ -236,7 +236,14 @@ export default defineConfig({
 					'direct-proportion',
 					'inverse-proportion',
 				    ]
-				}
+				},
+				{
+				    label: 'Binomial expansion',
+				    collapsed: true,
+				    items: [
+					'binomial-expansion',
+				    ]
+				},
 			    ]
 			},
 			{
