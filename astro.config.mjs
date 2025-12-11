@@ -346,6 +346,7 @@ export default defineConfig({
 					'matrix-determinant',
 					'inverse-matrix',
 					'singular-matrix',
+					'matrix-transformations',
 				    ]
 				},
 			    ]
