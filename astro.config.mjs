@@ -459,6 +459,7 @@ export default defineConfig({
 				'potential-divider',
 				'temperature-coefficient',
 				'resistivity',
+				'resistance-in-a-wire',
 			    ],
 			},
 		    ]
