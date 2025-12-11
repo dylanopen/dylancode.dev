@@ -457,6 +457,7 @@ export default defineConfig({
 				'resistance-in-a-bulb',
 				'diode',
 				'potential-divider',
+				'temperature-coefficient',
 			    ],
 			},
 		    ]
