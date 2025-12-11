@@ -343,6 +343,7 @@ export default defineConfig({
 					'scalar-matrix-multiplication',
 					'matrix-multiplication',
 					'identity-matrix',
+					'matrix-determinant',
 				    ]
 				},
 			    ]
