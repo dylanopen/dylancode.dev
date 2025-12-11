@@ -5,16 +5,12 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
-import cloudflare from '@astrojs/cloudflare';
-
-
 // https://astro.build/config
 export default defineConfig({
     markdown: {
 	remarkPlugins: [remarkMath],
 	rehypePlugins: [rehypeMathJax],
     },
-    site: 'https://dylanopen.github.io',
 
     integrations: [
 	starlight({
@@ -536,6 +532,4 @@ export default defineConfig({
 	    ],
 	}),
     ],
-
-    adapter: cloudflare(),
 });
