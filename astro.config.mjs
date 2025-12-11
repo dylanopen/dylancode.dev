@@ -456,6 +456,7 @@ export default defineConfig({
 				'calculating-the-number-of-electrons',
 				'resistance-in-a-bulb',
 				'diode',
+				'potential-divider',
 			    ],
 			},
 		    ]
