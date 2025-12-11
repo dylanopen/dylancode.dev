@@ -274,6 +274,7 @@ export default defineConfig({
 					'exponential-function',
 					'exponential-function-gradient',
 					'logarithm-function-gradient',
+					'logarithm-graph-equation',
 				    ]
 				},
 			    ]
