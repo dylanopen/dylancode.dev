@@ -62,8 +62,31 @@ $$
 - $= 1 \times 16 \times 1 + 4 \times 8 \times x + 6 \times 4 \times x^2 + 4 \times 2 \times x^3 + 1 \times 1 \times x^4$
 - $= 16 + 32x + 24x^2 + 8x^3 + x^4$
 
+### Expand $(1+2x)^6$
+
+- $=1^6$  
+  $+^6C_1(1)^5(2x)^1$  
+  $+ ^6C_2(1)^4(2x)^2$  
+  $+^6C_3(1)^3(2x)^3$  
+  $+ ^6C_4(1)^2(2x)^4$  
+  $+ ^6C_5(1)^1(2x)^5$  
+  $+ ^6C_6(1)^0(2x)^6$  
+- $=1 + 6 \times 1 \times 2x + 15 \times 1 \times 4x^2 + 20 \times 1 \times 8x^3 + 15 \times 1 \times 16x^4 + 6 \times 1 \times 32x^5 + 1 \times 1 \times 64x^6$
+- $=1 + 12x + 60x^2 + 160x^3 + 240x^4 + 192x^5 + 64x^6$
+- **Answer:** $1 + 12x + 60x^2 + 160x^3 + 240x^4 + 192x^5 + 64x^6$
+
 ## Representing the number of combinations
 
 We can write the number of combinations of choosing $r$ items from a list of $n$
 items as either $^nC_r$ or $\pmatrix{n\\r}$.
+
+## Common combinations
+
+$$
+\pmatrix{n\\0}=\pmatrix{n\\n}=1
+$$
+
+$$
+\pmatrix{n\\1}=\pmatrix{n\\n-1}=n
+$$
 
