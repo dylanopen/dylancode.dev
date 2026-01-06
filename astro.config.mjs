@@ -488,6 +488,7 @@ export default defineConfig({
 				'temperature-coefficient',
 				'resistivity',
 				'resistance-in-a-wire',
+				'kirchoff-first-law',
 			    ],
 			},
 		    ]
