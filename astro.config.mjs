@@ -305,7 +305,7 @@ export default defineConfig({
 				    label: 'Triangles',
 				    collapsed: true,
 				    items: [
-					'sine-rule',
+//					'sine-rule',
 				    ]
 				},
 				{
@@ -489,6 +489,7 @@ export default defineConfig({
 				'resistivity',
 				'resistance-in-a-wire',
 				'kirchoff-first-law',
+				'kirchoff-second-law',
 			    ],
 			},
 		    ]
