@@ -488,6 +488,7 @@ export default defineConfig({
 				'temperature-coefficient',
 				'resistivity',
 				'resistance-in-a-wire',
+				'resistance-in-parallel',
 				'kirchoff-first-law',
 				'kirchoff-second-law',
 			    ],
