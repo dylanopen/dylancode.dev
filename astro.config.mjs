@@ -294,6 +294,26 @@ export default defineConfig({
 					'equation-of-a-circle',
 				    ]
 				},
+				{
+				    label: 'Vectors',
+				    collapsed: true,
+				    items: [
+					'position-vectors'
+				    ]
+				},
+				{
+				    label: 'Triangles',
+				    collapsed: true,
+				    items: [
+					'sine-rule'
+				    ]
+				},
+				{
+				    label: 'Trigonomic laws',
+				    collapsed: true,
+				    items: [
+				    ]
+				}
 			    ]
 			},
 			{
@@ -528,6 +548,7 @@ export default defineConfig({
 		    items: [
 			'cs/hello-world',
 			'cs/comments',
+			'cs/variables',
 		    ]
 		}
 	    ],
