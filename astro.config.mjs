@@ -298,20 +298,23 @@ export default defineConfig({
 				    label: 'Vectors',
 				    collapsed: true,
 				    items: [
-					'position-vectors'
+					'position-vectors',
 				    ]
 				},
 				{
 				    label: 'Triangles',
 				    collapsed: true,
 				    items: [
-					'sine-rule'
+					'sine-rule',
 				    ]
 				},
 				{
 				    label: 'Trigonomic laws',
 				    collapsed: true,
 				    items: [
+					'finding-all-sine-angles',
+					'finding-all-cosine-angles',
+					'finding-all-tangent-angles',
 				    ]
 				}
 			    ]
