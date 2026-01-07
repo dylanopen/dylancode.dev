@@ -376,6 +376,7 @@ export default defineConfig({
 					'matrix-transformations',
 					'matrix-transformations-about-the-origin',
 					'solving-simultaneous-equations-using-matrices',
+					'general-rotation-matrix',
 				    ]
 				},
 			    ]
