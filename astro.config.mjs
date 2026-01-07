@@ -386,6 +386,7 @@ export default defineConfig({
 					'vector-line-equation',
 					'converting-vector-to-cartesian-line',
 					'converting-cartesian-to-vector-line',
+					'converting-vector-to-cartesian-line',
 				    ]
 				}
 			    ]
