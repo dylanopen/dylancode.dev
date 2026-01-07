@@ -379,6 +379,13 @@ export default defineConfig({
 					'general-rotation-matrix',
 				    ]
 				},
+				{
+				    label: 'Vectors',
+				    collapsed: true,
+				    items: [
+					'vector-line-equation',
+				    ]
+				}
 			    ]
 			},
 			{
