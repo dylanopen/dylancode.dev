@@ -239,6 +239,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'binomial-expansion',
+					'binomial-expansion-by-factorial',
 				    ]
 				},
 			    ]
