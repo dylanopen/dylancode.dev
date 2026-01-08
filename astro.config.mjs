@@ -334,6 +334,7 @@ export default defineConfig({
 					'second-derivative',
 					'point-of-inflection',
 					'turning-point',
+					'classifying-stationary-points',
 				    ]
 				},
 			    ]
