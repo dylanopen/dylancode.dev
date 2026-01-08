@@ -294,6 +294,7 @@ export default defineConfig({
 				    items: [
 					'distance-between-two-points',
 					'midpoint-of-points',
+					'straight-line-equation',
 				    ]
 				},
 				{
