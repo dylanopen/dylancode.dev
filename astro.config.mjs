@@ -335,6 +335,8 @@ export default defineConfig({
 					'point-of-inflection',
 					'turning-point',
 					'classifying-stationary-points',
+					'tangent-from-differentiation',
+					'normal-from-differentiation',
 				    ]
 				},
 			    ]
