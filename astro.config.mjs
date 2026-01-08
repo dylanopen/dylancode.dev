@@ -316,6 +316,7 @@ export default defineConfig({
 					'finding-all-sine-angles',
 					'finding-all-cosine-angles',
 					'finding-all-tangent-angles',
+					'calculating-tangent',
 				    ]
 				}
 			    ]
