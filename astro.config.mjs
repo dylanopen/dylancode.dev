@@ -289,6 +289,13 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				{
+				    label: 'Coordinate geometry',
+				    collapsed: true,
+				    items: [
+					'distance-between-two-points',
+				    ]
+				},
+				{
 				    label: 'Circles',
 				    collapsed: true,
 				    items: [
