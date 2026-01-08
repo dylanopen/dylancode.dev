@@ -5,7 +5,12 @@ title: Second derivative
 The *second derivative* of a function or polynomial is simply the derivative of
 its first derivative.
 
-In other words, we differentiate it **twice**!
+In other words, we differentiate **twice**!
+
+It's also sometimes said to be 'the gradient of the gradient function'.
+
+Basically, it tells us how the gradient of a function is changing as we move
+along the curve.
 
 ## Notation
 

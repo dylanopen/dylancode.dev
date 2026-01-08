@@ -332,6 +332,7 @@ export default defineConfig({
 					'power-rule-for-differentiation',
 					'differentiation-from-first-principles',
 					'second-derivative',
+					'point-of-inflection',
 				    ]
 				},
 			    ]
