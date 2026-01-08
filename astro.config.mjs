@@ -330,6 +330,7 @@ export default defineConfig({
 					'definition-of-differentiation',
 					'derivative-notation',
 					'power-rule-for-differentiation',
+					'differentiation-from-first-principles'
 				    ]
 				},
 			    ]
