@@ -333,6 +333,7 @@ export default defineConfig({
 					'differentiation-from-first-principles',
 					'second-derivative',
 					'point-of-inflection',
+					'turning-point',
 				    ]
 				},
 			    ]
