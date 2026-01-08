@@ -359,6 +359,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'quadratic-roots-and-coefficients',
+					'cubic-roots-and-coefficients',
 				    ]
 				},
 				{
