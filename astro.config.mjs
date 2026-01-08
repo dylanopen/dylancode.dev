@@ -293,6 +293,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'distance-between-two-points',
+					'midpoint-of-points',
 				    ]
 				},
 				{
