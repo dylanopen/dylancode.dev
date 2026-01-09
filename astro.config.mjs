@@ -526,6 +526,7 @@ export default defineConfig({
 				'resistance-in-parallel',
 				'kirchoff-first-law',
 				'kirchoff-second-law',
+				'electricity-revision',
 			    ],
 			},
 		    ]
