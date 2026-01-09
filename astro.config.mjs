@@ -296,6 +296,7 @@ export default defineConfig({
 					'midpoint-of-points',
 					'straight-line-equation',
 					'circle-line-intersection',
+					'intersection-of-circles',
 				    ]
 				},
 				{
@@ -408,6 +409,7 @@ export default defineConfig({
 					'converting-cartesian-to-vector-line',
 					'converting-vector-to-cartesian-line-3d',
 					'converting-cartesian-to-vector-line-3d',
+					'scalar-product-of-vectors'
 				    ]
 				}
 			    ]
