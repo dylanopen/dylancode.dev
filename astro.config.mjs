@@ -321,13 +321,14 @@ export default defineConfig({
 				    ]
 				},
 				{
-				    label: 'Trigonomic laws',
+				    label: 'Trigonometric identities',
 				    collapsed: true,
 				    items: [
 					'finding-all-sine-angles',
 					'finding-all-cosine-angles',
 					'finding-all-tangent-angles',
 					'calculating-tangent',
+					'sine-cosine-square-identity',
 				    ]
 				}
 			    ]
