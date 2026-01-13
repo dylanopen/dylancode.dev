@@ -329,6 +329,7 @@ export default defineConfig({
 					'finding-all-tangent-angles',
 					'calculating-tangent',
 					'sine-cosine-square-identity',
+					'sine-cosine-offset-identity',
 				    ]
 				}
 			    ]
@@ -529,6 +530,13 @@ export default defineConfig({
 				'electricity-revision',
 			    ],
 			},
+			{
+			    label: 'Waves',
+			    collapsed: true,
+			    items: [
+				'types-of-wave',
+			    ]
+			}
 		    ]
 		},
 		{
