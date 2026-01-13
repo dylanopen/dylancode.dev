@@ -317,7 +317,7 @@ export default defineConfig({
 				    label: 'Triangles',
 				    collapsed: true,
 				    items: [
-//					'sine-rule',
+					'sine-rule',
 				    ]
 				},
 				{
@@ -591,6 +591,7 @@ export default defineConfig({
 			'cs/hello-world',
 			'cs/comments',
 			'cs/variables',
+			'cs/data-types',
 		    ]
 		}
 	    ],
