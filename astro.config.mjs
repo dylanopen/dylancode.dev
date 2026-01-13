@@ -592,6 +592,7 @@ export default defineConfig({
 			'cs/comments',
 			'cs/variables',
 			'cs/data-types',
+			'cs/integers',
 		    ]
 		}
 	    ],
