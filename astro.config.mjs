@@ -407,6 +407,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'vector-line-equation',
+					'cartesian-line-equation',
 					'converting-vector-to-cartesian-line',
 					'converting-cartesian-to-vector-line',
 					'converting-vector-to-cartesian-line-3d',
