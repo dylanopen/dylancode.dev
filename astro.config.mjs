@@ -422,6 +422,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'summation',
+					'standard-summation-results',
 				    ]
 				}
 			    ]
