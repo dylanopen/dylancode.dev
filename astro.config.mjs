@@ -416,6 +416,13 @@ export default defineConfig({
 					'distance-from-point-to-line',
 					'distance-between-two-lines',
 				    ]
+				},
+				{
+				    label: 'Series',
+				    collapsed: true,
+				    items: [
+					'summation',
+				    ]
 				}
 			    ]
 			},
