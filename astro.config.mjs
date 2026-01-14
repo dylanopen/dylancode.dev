@@ -412,7 +412,9 @@ export default defineConfig({
 					'converting-cartesian-to-vector-line',
 					'converting-vector-to-cartesian-line-3d',
 					'converting-cartesian-to-vector-line-3d',
-					'scalar-product-of-vectors'
+					'scalar-product-of-vectors',
+					'distance-from-point-to-line',
+					'distance-between-two-lines',
 				    ]
 				}
 			    ]
