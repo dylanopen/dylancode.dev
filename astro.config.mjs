@@ -613,7 +613,8 @@ export default defineConfig({
 			'cs/variables',
 			'cs/data-types',
 			'cs/integers',
-			'cs/floats'
+			'cs/floats',
+			'cs/chars',
 		    ]
 		}
 	    ],
