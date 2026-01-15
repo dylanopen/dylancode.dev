@@ -550,6 +550,7 @@ export default defineConfig({
 				'longitudinal-wave',
 				'electromagnetic-wave',
 				'wavelength',
+				'wave-frequency',
 			    ]
 			}
 		    ]
