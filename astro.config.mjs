@@ -628,6 +628,7 @@ export default defineConfig({
 			'cs/else-statements',
 			'cs/loops',
 			'cs/while-loops',
+			'cs/for-loops',
 		    ]
 		}
 	    ],
