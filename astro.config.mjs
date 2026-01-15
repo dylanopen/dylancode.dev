@@ -620,6 +620,7 @@ export default defineConfig({
 			'cs/arithmetic-operators',
 			'cs/division',
 			'cs/modulus',
+			'cs/assignment-operators',
 		    ]
 		}
 	    ],
