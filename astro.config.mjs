@@ -619,6 +619,7 @@ export default defineConfig({
 			'cs/type-casting',
 			'cs/arithmetic-operators',
 			'cs/division',
+			'cs/modulus',
 		    ]
 		}
 	    ],
