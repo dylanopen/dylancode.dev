@@ -630,6 +630,7 @@ export default defineConfig({
 			'cs/while-loops',
 			'cs/for-loops',
 			'cs/break-statements',
+			'cs/continue-statements',
 		    ]
 		}
 	    ],
