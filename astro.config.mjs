@@ -627,6 +627,7 @@ export default defineConfig({
 			'cs/else-if-statements',
 			'cs/else-statements',
 			'cs/loops',
+			'cs/while-loops',
 		    ]
 		}
 	    ],
