@@ -552,6 +552,7 @@ export default defineConfig({
 				'wavelength',
 				'wave-frequency',
 				'wave-speed',
+				'wave-speed-calculations',
 			    ]
 			}
 		    ]
