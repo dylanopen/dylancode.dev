@@ -616,6 +616,7 @@ export default defineConfig({
 			'cs/floats',
 			'cs/chars',
 			'cs/boolean',
+			'cs/type-casting',
 		    ]
 		}
 	    ],
