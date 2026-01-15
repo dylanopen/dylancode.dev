@@ -551,6 +551,7 @@ export default defineConfig({
 				'electromagnetic-wave',
 				'wavelength',
 				'wave-frequency',
+				'wave-speed',
 			    ]
 			}
 		    ]
