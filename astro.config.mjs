@@ -621,6 +621,7 @@ export default defineConfig({
 			'cs/division',
 			'cs/modulus',
 			'cs/assignment-operators',
+			'cs/comparison-operators',
 		    ]
 		}
 	    ],
