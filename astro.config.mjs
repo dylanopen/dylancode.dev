@@ -625,6 +625,7 @@ export default defineConfig({
 			'cs/logical-operators',
 			'cs/if-statements',
 			'cs/else-if-statements',
+			'cs/else-statements',
 		    ]
 		}
 	    ],
