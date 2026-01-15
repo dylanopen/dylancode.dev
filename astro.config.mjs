@@ -617,6 +617,7 @@ export default defineConfig({
 			'cs/chars',
 			'cs/boolean',
 			'cs/type-casting',
+			'cs/arithmetic-operators',
 		    ]
 		}
 	    ],
