@@ -624,6 +624,7 @@ export default defineConfig({
 			'cs/comparison-operators',
 			'cs/logical-operators',
 			'cs/if-statements',
+			'cs/else-if-statements',
 		    ]
 		}
 	    ],
