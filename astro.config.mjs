@@ -549,6 +549,7 @@ export default defineConfig({
 				'transverse-wave',
 				'longitudinal-wave',
 				'electromagnetic-wave',
+				'wavelength',
 			    ]
 			}
 		    ]
