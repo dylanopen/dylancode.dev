@@ -622,6 +622,7 @@ export default defineConfig({
 			'cs/modulus',
 			'cs/assignment-operators',
 			'cs/comparison-operators',
+			'cs/logical-operators',
 		    ]
 		}
 	    ],
