@@ -615,6 +615,7 @@ export default defineConfig({
 			'cs/integers',
 			'cs/floats',
 			'cs/chars',
+			'cs/boolean',
 		    ]
 		}
 	    ],
