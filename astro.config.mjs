@@ -623,6 +623,7 @@ export default defineConfig({
 			'cs/assignment-operators',
 			'cs/comparison-operators',
 			'cs/logical-operators',
+			'cs/if-statements',
 		    ]
 		}
 	    ],
