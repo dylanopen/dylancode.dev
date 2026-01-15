@@ -546,7 +546,8 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'types-of-wave',
-				'transverse-wave'
+				'transverse-wave',
+				'longitudinal-wave',
 			    ]
 			}
 		    ]
