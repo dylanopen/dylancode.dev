@@ -557,6 +557,7 @@ export default defineConfig({
 				'wave-period',
 				'wave-speed',
 				'wave-speed-calculations',
+				'oscilloscope',
 			    ]
 			}
 		    ]
