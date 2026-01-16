@@ -331,6 +331,7 @@ export default defineConfig({
 					'sine-cosine-square-identity',
 					'sine-cosine-offset-identity',
 					'differentiating-sine',
+					'differentiating-cosine',
 				    ]
 				}
 			    ]

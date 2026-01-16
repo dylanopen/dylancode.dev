@@ -2,7 +2,7 @@
 title: Differentiating sine
 ---
 
-> If $y=\sin ax$, then $\frac{dy}{dx}=a\cos ax$
+> If $y=a\sin bx$, then $\frac{dy}{dx}=ab\cos bx$
 
 ### Find $\frac{dy}{dx}$ of $y=2\sin x$
 
