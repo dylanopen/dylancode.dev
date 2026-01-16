@@ -330,6 +330,7 @@ export default defineConfig({
 					'calculating-tangent',
 					'sine-cosine-square-identity',
 					'sine-cosine-offset-identity',
+					'differentiating-sine',
 				    ]
 				}
 			    ]
