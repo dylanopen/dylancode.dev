@@ -5,11 +5,6 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
-import partytown from '@astrojs/partytown'
-
-import cloudflare from '@astrojs/cloudflare';
-
-
 // https://astro.build/config
 export default defineConfig({
     markdown: {
@@ -18,25 +13,6 @@ export default defineConfig({
     },
 
     integrations: [
-	partytown({
-	    config: {
-		forward: ["dataLayer.push"],
-	    },
-	}),
-
-	/*
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2J8B1X5W7E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2J8B1X5W7E');
-</script>
-
-	 */
 	starlight({
 	    title: 'dylancode.dev',
 
@@ -52,8 +28,6 @@ export default defineConfig({
 	    ],
 	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' }],
 	    components: {
-		ThemeProvider: './src/components/AlwaysDark.astro',
-		ThemeSelect: './src/components/HideThemeSwitcher.astro',
 	    },
 	    customCss: [
 		"./src/css/mathjax.css",
@@ -259,7 +233,15 @@ export default defineConfig({
 					'direct-proportion',
 					'inverse-proportion',
 				    ]
-				}
+				},
+				{
+				    label: 'Binomial expansion',
+				    collapsed: true,
+				    items: [
+					'binomial-expansion',
+					'binomial-expansion-by-factorial',
+				    ]
+				},
 			    ]
 			},
 			{
@@ -289,7 +271,17 @@ export default defineConfig({
 				    items: [
 					'distance-time-graph',
 				    ]
-				}
+				},
+				{
+				    label: 'Exponential graphs',
+				    collapsed: true,
+				    items: [
+					'exponential-function',
+					'exponential-function-gradient',
+					'logarithm-function-gradient',
+					'logarithm-graph-equation',
+				    ]
+				},
 			    ]
 			},
 			{
@@ -297,12 +289,51 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				{
+				    label: 'Coordinate geometry',
+				    collapsed: true,
+				    items: [
+					'distance-between-two-points',
+					'midpoint-of-points',
+					'straight-line-equation',
+					'circle-line-intersection',
+					'intersection-of-circles',
+				    ]
+				},
+				{
 				    label: 'Circles',
 				    collapsed: true,
 				    items: [
 					'equation-of-a-circle',
 				    ]
 				},
+				{
+				    label: 'Vectors',
+				    collapsed: true,
+				    items: [
+					'position-vectors',
+				    ]
+				},
+				{
+				    label: 'Triangles',
+				    collapsed: true,
+				    items: [
+					'sine-rule',
+				    ]
+				},
+				{
+				    label: 'Trigonometric identities',
+				    collapsed: true,
+				    items: [
+					'finding-all-sine-angles',
+					'finding-all-cosine-angles',
+					'finding-all-tangent-angles',
+					'calculating-tangent',
+					'sine-cosine-square-identity',
+					'sine-cosine-offset-identity',
+					'differentiating-sine',
+					'differentiating-cosine',
+				    ]
+				}
 			    ]
 			},
 			{
@@ -316,6 +347,13 @@ export default defineConfig({
 					'definition-of-differentiation',
 					'derivative-notation',
 					'power-rule-for-differentiation',
+					'differentiation-from-first-principles',
+					'second-derivative',
+					'point-of-inflection',
+					'turning-point',
+					'classifying-stationary-points',
+					'tangent-from-differentiation',
+					'normal-from-differentiation',
 				    ]
 				},
 			    ]
@@ -345,8 +383,51 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'quadratic-roots-and-coefficients',
+					'cubic-roots-and-coefficients',
 				    ]
 				},
+				{
+				    label: 'Matrices',
+				    collapsed: true,
+				    items: [
+					'matrix-definition',
+					'matrix-addition',
+					'scalar-matrix-multiplication',
+					'matrix-multiplication',
+					'identity-matrix',
+					'matrix-determinant',
+					'inverse-matrix',
+					'singular-matrix',
+					'matrix-transformations',
+					'matrix-transformations-about-the-origin',
+					'solving-simultaneous-equations-using-matrices',
+					'general-rotation-matrix',
+				    ]
+				},
+				{
+				    label: 'Vectors',
+				    collapsed: true,
+				    items: [
+					'vector-line-equation',
+					'cartesian-line-equation',
+					'converting-vector-to-cartesian-line',
+					'converting-cartesian-to-vector-line',
+					'converting-vector-to-cartesian-line-3d',
+					'converting-cartesian-to-vector-line-3d',
+					'scalar-product-of-vectors',
+					'distance-from-point-to-line',
+					'distance-between-two-lines',
+				    ]
+				},
+				{
+				    label: 'Series',
+				    collapsed: true,
+				    items: [
+					'summation',
+					'standard-summation-results',
+					'method-of-differences',
+				    ]
+				}
 			    ]
 			},
 			{
@@ -428,8 +509,8 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'common-function-graphs',
-				'unit-prefixes',
 				'inequality-of-arithmetic-and-geometric-means',
+				'vector-translation',
 			    ]
 			},
 		    ],
@@ -453,8 +534,33 @@ export default defineConfig({
 				'calculating-the-number-of-electrons',
 				'resistance-in-a-bulb',
 				'diode',
+				'potential-divider',
+				'temperature-coefficient',
+				'resistivity',
+				'resistance-in-a-wire',
+				'resistance-in-parallel',
+				'kirchoff-first-law',
+				'kirchoff-second-law',
+				'electricity-revision',
 			    ],
 			},
+			{
+			    label: 'Waves',
+			    collapsed: true,
+			    items: [
+				'types-of-wave',
+				'transverse-wave',
+				'longitudinal-wave',
+				'electromagnetic-wave',
+				'wavelength',
+				'wave-frequency',
+				'wave-period',
+				'wave-speed',
+				'wave-speed-calculations',
+				'oscilloscope',
+				'reflection-of-light',
+			    ]
+			}
 		    ]
 		},
 		{
@@ -502,12 +608,60 @@ export default defineConfig({
 			    items: [
 				'natural-numbers',
 			    ]
-			}
+			},
+			{
+			    label: 'Units of data',
+			    collapsed: true,
+			    items: [
+				'bit',
+				'byte',
+				'nibble',
+				'converting-bits-to-bytes',
+				'converting-bytes-to-bits',
+				'decimal-prefixes',
+				'binary-prefixes',
+			    ]
+			},
+			{
+			    label: 'Binary',
+			    collapsed: true,
+			    items: [
+				'unsigned-binary'
+			    ]
+			},
 		    ]
 		},
+		{
+		    label: 'C# programming',
+		    collapsed: true,
+		    items: [
+			'cs/hello-world',
+			'cs/comments',
+			'cs/variables',
+			'cs/data-types',
+			'cs/integers',
+			'cs/floats',
+			'cs/chars',
+			'cs/boolean',
+			'cs/type-casting',
+			'cs/arithmetic-operators',
+			'cs/division',
+			'cs/modulus',
+			'cs/assignment-operators',
+			'cs/comparison-operators',
+			'cs/logical-operators',
+			'cs/if-statements',
+			'cs/else-if-statements',
+			'cs/else-statements',
+			'cs/loops',
+			'cs/while-loops',
+			'cs/for-loops',
+			'cs/break-statements',
+			'cs/continue-statements',
+			'cs/creating-arrays',
+		    ]
+		}
 	    ],
 	}),
     ],
-
-    adapter: cloudflare(),
 });
