@@ -423,6 +423,7 @@ export default defineConfig({
 				    items: [
 					'summation',
 					'standard-summation-results',
+					'method-of-differences',
 				    ]
 				}
 			    ]
