@@ -641,6 +641,7 @@ export default defineConfig({
 			'cs/for-loops',
 			'cs/break-statements',
 			'cs/continue-statements',
+			'cs/creating-arrays',
 		    ]
 		}
 	    ],
