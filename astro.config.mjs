@@ -659,6 +659,7 @@ export default defineConfig({
 			'cs/break-statements',
 			'cs/continue-statements',
 			'cs/creating-arrays',
+			'cs/indexing-arrays',
 		    ]
 		}
 	    ],
