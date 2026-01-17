@@ -5,6 +5,7 @@ title: Hello world
 ## The code
 
 ```cs
+using System;
 namespace HelloWorld
 {
     public class Hello
@@ -84,4 +85,53 @@ Hello, World!
 
 - Don't worry if you don't fully understand the explanation of the code!
 - We will cover all the concepts in detail in other pages.
+
+## The base for all examples
+
+This hello world program is essentially the base for which all other examples in
+this tutorial build upon. Whenever you see code examples, you can assume that
+the code is inside the `Main` method of the `Hello` class in the `HelloWorld`
+namespace.
+
+```cs
+using System;
+namespace HelloWorld
+{
+    public class Hello
+    {
+        public static void Main(String[] args)
+        {
+            // Any code examples go here unless
+            // explicitly stated otherwise.
+        }
+    }
+}
+```
+
+You are welcome to rename the class and namespace to whatever you like, as long
+as you keep the `Main` method as it is.
+
+For example, if an example states this code:
+
+```cs
+int result = 5 + 3;
+Console.WriteLine(result);
+```
+
+You can assume that the full code looks like this:
+
+```cs
+using System;
+namespace HelloWorld
+{
+    public class Hello
+    {
+        public static void Main(String[] args)
+        {
+            int result = 5 + 3;
+            Console.WriteLine(result);
+        }
+    }
+}
+```
 
