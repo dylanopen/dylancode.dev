@@ -16,8 +16,15 @@ If you have a directory (folder) that you commonly use for programming projects,
 in my case a `dev` folder for development, use `cd` to enter that:
 
 ```bash
-[dylan@dtop ~]$ cd dev
-[dylan@dtop dev]$ 
+~ $ cd dev
+~/dev $ 
+```
+
+Otherwise, create and enter one like this:
+
+```bash
+mkdir dev
+cd dev
 ```
 
 Once inside your programming folder, run this command to create a new folder for

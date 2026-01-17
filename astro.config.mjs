@@ -632,6 +632,22 @@ export default defineConfig({
 		    ]
 		},
 		{
+		    label: 'C programming',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Hello world',
+			    collapsed: true,
+			    items: [
+				'c/project-setup',
+				'c/hello-world',
+				'c/compiling-and-running',
+			    ]
+			},
+			'c/variables',
+		    ]
+		},
+		{
 		    label: 'C# programming',
 		    collapsed: true,
 		    items: [
