@@ -644,6 +644,7 @@ export default defineConfig({
 				'c/compiling-and-running',
 			    ]
 			},
+			'c/comments',
 			'c/variables',
 		    ]
 		},
