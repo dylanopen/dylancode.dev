@@ -646,6 +646,13 @@ export default defineConfig({
 			},
 			'c/comments',
 			'c/variables',
+			{
+			    label: 'Data types',
+			    collapsed: true,
+			    items: [
+				'c/data-types',
+			    ]
+			},
 		    ]
 		},
 		{
