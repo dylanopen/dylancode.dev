@@ -660,6 +660,7 @@ export default defineConfig({
 			'cs/continue-statements',
 			'cs/creating-arrays',
 			'cs/indexing-arrays',
+			'cs/iterating-arrays',
 		    ]
 		}
 	    ],
