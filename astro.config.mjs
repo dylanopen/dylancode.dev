@@ -700,6 +700,7 @@ export default defineConfig({
 				'cs/method-calling',
 				'cs/named-method-arguments',
 				'cs/default-parameters',
+				'cs/method-overloading',
 			    ]
 			},
 			{
