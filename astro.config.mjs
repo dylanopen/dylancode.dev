@@ -699,6 +699,7 @@ export default defineConfig({
 				'cs/method-declaration',
 				'cs/method-calling',
 				'cs/named-method-arguments',
+				'cs/default-parameters',
 			    ]
 			},
 			{
