@@ -632,6 +632,13 @@ export default defineConfig({
 		    ]
 		},
 		{
+		    label: 'RISC-V assembly',
+		    collapsed: true,
+		    items: [
+			'riscv/smallest-program',
+		    ]
+		},
+		{
 		    label: 'C programming',
 		    collapsed: true,
 		    items: [
