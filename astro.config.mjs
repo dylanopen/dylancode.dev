@@ -663,6 +663,7 @@ export default defineConfig({
 			'cs/iterating-arrays',
 			'cs/foreach-loops',
 			'cs/method-declaration',
+			'cs/method-calling',
 		    ]
 		}
 	    ],
