@@ -662,6 +662,7 @@ export default defineConfig({
 			'cs/indexing-arrays',
 			'cs/iterating-arrays',
 			'cs/foreach-loops',
+			'cs/method-declaration',
 		    ]
 		}
 	    ],
