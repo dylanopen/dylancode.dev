@@ -705,6 +705,7 @@ export default defineConfig({
 			    label: 'User input',
 			    collapsed: true,
 			    items: [
+				'cs/readline',
 			    ]
 			}
 		    ]
