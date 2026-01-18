@@ -642,6 +642,7 @@ export default defineConfig({
 			'riscv/adding-registers',
 			'riscv/subtraction',
 			'riscv/multiplication',
+			'riscv/division',
 		    ]
 		},
 		{
