@@ -639,6 +639,7 @@ export default defineConfig({
 			'riscv/immediate-and-register-instructions',
 			'riscv/setting-registers',
 			'riscv/adding-immediates',
+			'riscv/adding-registers',
 		    ]
 		},
 		{
