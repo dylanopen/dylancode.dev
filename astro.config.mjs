@@ -637,6 +637,7 @@ export default defineConfig({
 		    items: [
 			'riscv/smallest-program',
 			'riscv/immediate-and-register-instructions',
+			'riscv/setting-registers',
 		    ]
 		},
 		{
