@@ -14,10 +14,11 @@ This program here will compile just fine and run without errors:
 ```asm
 .text
 main:
+    li x17, 10
     ecall
 ```
 
-[Run on creatorsim](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A%20%20%20%20ecall)
+[Run on creatorsim](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall)
 
 Let's break it down.
 
@@ -38,13 +39,10 @@ This has to go before any code instructions, or we'll get an error:
 ```
 [E18] Error: Can't use instruction statements while in section None
    ╭─[ assembly:2:5 ]
-   │
- 2 │     ecall
+ 2 │     li x17, 10
    │     ──┬──  
    │       ╰──── This statement can't be used in the current section
-   │ 
    │ Help: Consider changing the section to Text, using .text
-   │ 
    │ Note: No section previously started
 ───╯
 ```
@@ -112,6 +110,27 @@ main:
 [Run on creatorsim](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A%20%20%20%20ecall)
 
 `ecall` is an instruction that makes a system call to the operating system.
+
+## The exit system call
+
+You may thinkg we're now done, however, we need to actually tell it *which*
+system call we want to make. To do that, we move a value into the `a7` (or
+`x17`) register before the `ecall` instruction.
+
+To move a value into a register, we use the `li` (load immediate) instruction.  
+We'll cover how to use it in more detail later!
+
+For exiting a program, the system call number is `10`. At least, it is for the
+emulator we are using. So we would do this:
+
+```asm
+.text
+main:
+    li x17, 10
+    ecall
+```
+
+[Run on creatorsim](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall)
 
 In this case, it tells the operating system to terminate the program, so it
 stops any garbage instructions that might be after it from being executed.
