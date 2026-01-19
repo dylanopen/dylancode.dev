@@ -333,6 +333,13 @@ export default defineConfig({
 					'differentiating-sine',
 					'differentiating-cosine',
 				    ]
+				},
+				{
+				    label: 'Radians',
+				    collapsed: true,
+				    items: [
+					'radian',
+				    ]
 				}
 			    ]
 			},
