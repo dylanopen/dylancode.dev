@@ -40,3 +40,26 @@ a0 = 20
 a1 = 20
 ```
 
+## Implementation
+
+The `mv` pseudo-instruction is actually implemented using the `addi`
+instruction, which adds an immediate value to a register.
+
+It's essentially the reverse of the `li` pseudo-instruction we saw earlier.
+
+For example, the instruction:
+
+```asm
+mv a1, a0
+```
+
+is translated to:
+
+```asm
+addi a1, a0, 0
+```
+
+In other words, add `0` to the value in `a0`, and store the result in `a1`.
+
+This effectively copies the value from `a0` to `a1`.
+
