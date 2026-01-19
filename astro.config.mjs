@@ -562,6 +562,7 @@ export default defineConfig({
 				'reflection-of-light',
 				'refraction-of-light',
 				'diffraction-of-waves',
+				'diffraction-grating',
 				'wave-superposition',
 				'polarised-wave',
 				'polarisation',
