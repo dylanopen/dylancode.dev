@@ -559,6 +559,7 @@ export default defineConfig({
 				'wave-speed-calculations',
 				'oscilloscope',
 				'reflection-of-light',
+				'refraction-of-light',
 			    ]
 			}
 		    ]
