@@ -548,6 +548,7 @@ export default defineConfig({
 			    label: 'Waves',
 			    collapsed: true,
 			    items: [
+				'progressive-wave',
 				'types-of-wave',
 				'transverse-wave',
 				'longitudinal-wave',
