@@ -12,6 +12,7 @@ chapter from this code:
 ```c
 int main(int argc, char* argv[]) {
     // we'll write our new code here
+    return 0;
 }
 ```
 
@@ -58,11 +59,4 @@ numPages = 382;
 // do something with numPages
 numPages = 395; // maybe the author added some pages?
 ```
-
-
-
-
-
-
-
 

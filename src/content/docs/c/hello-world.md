@@ -210,6 +210,14 @@ Hello, World!
 us to print out the value of variables and other non-constant data. We'll get to
 that in another chapter!
 
+## Statement termination
+
+Every *statement* (essentially, a line of code that does something) in C must be
+terminated with a semicolon (`;`).
+
+That basically means that we need to put a semicolon at the end of every line of
+code, in order to tell the C compiler that the statement is finished.
+
 ## The `return` statement
 
 Finally, we have this line:

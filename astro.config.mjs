@@ -566,6 +566,21 @@ export default defineConfig({
 		    ]
 		},
 		{
+		    label: 'Chemistry',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Atomic structure',
+			    collapsed: true,
+			    items: [
+				'atoms',
+				'nucleus',
+				'protons',
+			    ]
+			},
+		    ]
+		},
+		{
 		    label: 'Computing',
 		    collapsed: true,
 		    items: [
@@ -619,33 +634,122 @@ export default defineConfig({
 		    ]
 		},
 		{
+		    label: 'RISC-V assembly',
+		    collapsed: true,
+		    items: [
+			'riscv/smallest-program',
+			'riscv/immediate-and-register-instructions',
+			'riscv/setting-registers',
+			'riscv/adding-immediates',
+			'riscv/adding-registers',
+			'riscv/subtraction',
+			'riscv/multiplication',
+			'riscv/division',
+		    ]
+		},
+		{
+		    label: 'C programming',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Hello world',
+			    collapsed: true,
+			    items: [
+				'c/project-setup',
+				'c/hello-world',
+				'c/compiling-and-running',
+			    ]
+			},
+			'c/comments',
+			'c/variables',
+			{
+			    label: 'Data types',
+			    collapsed: true,
+			    items: [
+				'c/data-types',
+			    ]
+			},
+		    ]
+		},
+		{
 		    label: 'C# programming',
 		    collapsed: true,
 		    items: [
 			'cs/hello-world',
 			'cs/comments',
 			'cs/variables',
-			'cs/data-types',
-			'cs/integers',
-			'cs/floats',
-			'cs/chars',
-			'cs/boolean',
-			'cs/type-casting',
-			'cs/arithmetic-operators',
-			'cs/division',
-			'cs/modulus',
-			'cs/assignment-operators',
-			'cs/comparison-operators',
-			'cs/logical-operators',
-			'cs/if-statements',
-			'cs/else-if-statements',
-			'cs/else-statements',
-			'cs/loops',
-			'cs/while-loops',
-			'cs/for-loops',
-			'cs/break-statements',
-			'cs/continue-statements',
-			'cs/creating-arrays',
+			{
+			    label: 'Data types',
+			    collapsed: true,
+			    items: [
+				'cs/data-types',
+				'cs/integers',
+				'cs/floats',
+				'cs/chars',
+				'cs/boolean',
+				'cs/type-casting',
+			    ]
+			},
+			{
+			    label: 'Operators',
+			    collapsed: true,
+			    items: [
+				'cs/arithmetic-operators',
+				'cs/division',
+				'cs/modulus',
+				'cs/assignment-operators',
+				'cs/comparison-operators',
+				'cs/logical-operators',
+			    ]
+			},
+			{
+			    label: 'Selection',
+			    collapsed: true,
+			    items: [
+				'cs/if-statements',
+				'cs/else-if-statements',
+				'cs/else-statements',
+			    ]
+			},
+			{
+			    label: 'Iteration',
+			    collapsed: true,
+			    items: [
+				'cs/loops',
+				'cs/while-loops',
+				'cs/for-loops',
+				'cs/break-statements',
+				'cs/continue-statements',
+			    ]
+			},
+			{
+			    label: 'Arrays',
+			    collapsed: true,
+			    items: [
+				'cs/creating-arrays',
+				'cs/indexing-arrays',
+				'cs/iterating-arrays',
+				'cs/foreach-loops',
+			    ]
+			},
+			{
+			    label: 'Methods',
+			    collapsed: true,
+			    items: [
+				'cs/method-declaration',
+				'cs/method-calling',
+				'cs/named-method-arguments',
+				'cs/default-parameters',
+				'cs/method-overloading',
+			    ]
+			},
+			{
+			    label: 'User input',
+			    collapsed: true,
+			    items: [
+				'cs/readline',
+			    ]
+			}
 		    ]
 		}
 	    ],
