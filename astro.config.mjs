@@ -332,6 +332,7 @@ export default defineConfig({
 					'sine-cosine-offset-identity',
 					'differentiating-sine',
 					'differentiating-cosine',
+					'inverse-trigonometry',
 				    ]
 				},
 				{
