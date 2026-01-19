@@ -332,6 +332,14 @@ export default defineConfig({
 					'sine-cosine-offset-identity',
 					'differentiating-sine',
 					'differentiating-cosine',
+					'inverse-trigonometry',
+				    ]
+				},
+				{
+				    label: 'Radians',
+				    collapsed: true,
+				    items: [
+					'radian',
 				    ]
 				}
 			    ]
@@ -548,6 +556,7 @@ export default defineConfig({
 			    label: 'Waves',
 			    collapsed: true,
 			    items: [
+				'progressive-wave',
 				'types-of-wave',
 				'transverse-wave',
 				'longitudinal-wave',
@@ -559,6 +568,13 @@ export default defineConfig({
 				'wave-speed-calculations',
 				'oscilloscope',
 				'reflection-of-light',
+				'refraction-of-light',
+				'diffraction-of-waves',
+				'diffraction-grating',
+				'wave-superposition',
+				'polarised-wave',
+				'polarisation',
+				'uses-of-polarisation',
 			    ]
 			}
 		    ]
