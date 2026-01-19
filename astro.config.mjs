@@ -643,6 +643,7 @@ export default defineConfig({
 			'riscv/subtraction',
 			'riscv/multiplication',
 			'riscv/division',
+			'riscv/copying-registers',
 		    ]
 		},
 		{
