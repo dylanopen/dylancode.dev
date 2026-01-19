@@ -564,6 +564,7 @@ export default defineConfig({
 				'diffraction-of-waves',
 				'wave-superposition',
 				'polarised-wave',
+				'polarisation',
 			    ]
 			}
 		    ]
