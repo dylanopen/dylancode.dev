@@ -643,6 +643,7 @@ export default defineConfig({
 				'compiler',
 				'interpreter',
 				'assembler',
+				'bytecode',
 			    ],
 			},
 			{
