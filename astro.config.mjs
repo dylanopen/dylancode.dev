@@ -694,6 +694,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'boolean-and',
+				'boolean-or',
 			    ]
 			}
 		    ]
