@@ -599,6 +599,13 @@ export default defineConfig({
 		    collapsed: true,
 		    items: [
 			{
+			    label: 'Hardware and software',
+			    collapsed: true,
+			    items: [
+				'hardware'
+			    ],
+			},
+			{
 			    label: 'Systems software',
 			    collapsed: true,
 			    items: [
