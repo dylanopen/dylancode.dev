@@ -585,6 +585,7 @@ export default defineConfig({
 				'polarised-wave',
 				'polarisation',
 				'uses-of-polarisation',
+				'wave-phase-difference',
 			    ]
 			}
 		    ]
