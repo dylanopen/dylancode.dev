@@ -25,3 +25,21 @@ where:
 - $r$ is the radius of the circle
 - $\theta$ is the angle of the sector
 
+## Rearranging to find the arc length
+
+$$
+l=r\theta
+$$
+
+## Rearranging to find the radius
+
+$$
+r=\frac l{\theta}
+$$
+
+## Rearranging to find the angle of the sector
+
+$$
+\theta=\frac lr
+$$
+
