@@ -661,6 +661,7 @@ export default defineConfig({
 			'riscv/multiplication',
 			'riscv/division',
 			'riscv/labels',
+			'riscv/jumping',
 		    ]
 		},
 		{
