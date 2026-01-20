@@ -681,6 +681,7 @@ export default defineConfig({
 			    items: [
 				'logic-gates',
 				'truth-table',
+				'not-gate',
 			    ]
 			},
 		    ]
