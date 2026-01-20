@@ -639,6 +639,7 @@ export default defineConfig({
 			    label: 'Code translation',
 			    collapsed: true,
 			    items: [
+				'source-code',
 				'code-translators',
 				'compiler',
 				'interpreter',
