@@ -698,6 +698,7 @@ export default defineConfig({
 				'boolean-xor',
 				'boolean-not',
 				'boolean-and-one',
+				'boolean-and-zero',
 			    ]
 			}
 		    ]
