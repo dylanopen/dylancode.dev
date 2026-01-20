@@ -697,6 +697,7 @@ export default defineConfig({
 				'boolean-or',
 				'boolean-xor',
 				'boolean-not',
+				'boolean-and-one',
 			    ]
 			}
 		    ]
