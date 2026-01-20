@@ -640,6 +640,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'source-code',
+				'object-code',
 				'code-translators',
 				'compiler',
 				'interpreter',
