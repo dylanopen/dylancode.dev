@@ -340,6 +340,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'radian',
+					'arc-length-from-radians',
 				    ]
 				}
 			    ]
