@@ -684,6 +684,7 @@ export default defineConfig({
 				'not-gate',
 				'and-gate',
 				'or-gate',
+				'nand-gate',
 			    ]
 			},
 		    ]
