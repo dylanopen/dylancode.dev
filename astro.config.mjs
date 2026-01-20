@@ -682,6 +682,7 @@ export default defineConfig({
 				'logic-gates',
 				'truth-table',
 				'not-gate',
+				'and-gate',
 			    ]
 			},
 		    ]
