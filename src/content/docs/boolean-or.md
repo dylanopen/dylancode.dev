@@ -8,5 +8,3 @@ $$
 A+B
 $$
 
-This represents an OR gate with the inputs A and B.
-

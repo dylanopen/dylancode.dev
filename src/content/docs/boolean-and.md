@@ -8,5 +8,3 @@ $$
 A\cdot B
 $$
 
-This represents an AND gate with the inputs A and B.
-
