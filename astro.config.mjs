@@ -343,6 +343,13 @@ export default defineConfig({
 					'arc-length-from-radians',
 					'sector-area-from-radians',
 				    ]
+				},
+				{
+				    label: 'Arcs and sectors',
+				    collapsed: true,
+				    items: [
+					'arc',
+				    ]
 				}
 			    ]
 			},
