@@ -602,7 +602,8 @@ export default defineConfig({
 			    label: 'Hardware and software',
 			    collapsed: true,
 			    items: [
-				'hardware'
+				'hardware',
+				'software',
 			    ],
 			},
 			{
