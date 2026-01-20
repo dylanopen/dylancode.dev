@@ -622,6 +622,7 @@ export default defineConfig({
 				'low-level-language',
 				'high-level-language',
 				'declarative-programming',
+				'imperative-programming',
 			    ]
 			},
 			{
