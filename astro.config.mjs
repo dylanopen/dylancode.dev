@@ -612,6 +612,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'operating-system-role',
+				'os-resource-management',
 			    ]
 			},
 			{
