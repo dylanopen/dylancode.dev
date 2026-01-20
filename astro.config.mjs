@@ -689,6 +689,13 @@ export default defineConfig({
 				'xor-gate',
 			    ]
 			},
+			{
+			    label: 'Boolean algebra',
+			    collapsed: true,
+			    items: [
+				'boolean-and',
+			    ]
+			}
 		    ]
 		},
 		{
