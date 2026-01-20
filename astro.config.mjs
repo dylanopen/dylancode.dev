@@ -684,6 +684,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'c/data-types',
+				'c/integers',
 			    ]
 			},
 		    ]
