@@ -685,6 +685,7 @@ export default defineConfig({
 			    items: [
 				'c/data-types',
 				'c/integers',
+				'c/short',
 			    ]
 			},
 		    ]
