@@ -616,6 +616,13 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Types of programming language',
+			    collapsed: true,
+			    items: [
+				'low-level-language',
+			    ]
+			},
+			{
 			    label: 'Systems software',
 			    collapsed: true,
 			    items: [
