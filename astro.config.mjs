@@ -608,6 +608,13 @@ export default defineConfig({
 			    ],
 			},
 			{
+			    label: 'Operating systems',
+			    collapsed: true,
+			    items: [
+				'operating-system-role',
+			    ]
+			},
+			{
 			    label: 'Systems software',
 			    collapsed: true,
 			    items: [
