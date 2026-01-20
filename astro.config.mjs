@@ -680,6 +680,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'logic-gates',
+				'truth-table',
 			    ]
 			},
 		    ]
