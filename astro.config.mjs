@@ -349,6 +349,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'arc',
+					'sector',
 				    ]
 				}
 			    ]
