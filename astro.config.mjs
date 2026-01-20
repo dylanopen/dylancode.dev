@@ -683,6 +683,7 @@ export default defineConfig({
 				'truth-table',
 				'not-gate',
 				'and-gate',
+				'or-gate',
 			    ]
 			},
 		    ]
