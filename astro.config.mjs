@@ -582,6 +582,7 @@ export default defineConfig({
 				'diffraction-of-waves',
 				'diffraction-grating',
 				'wave-superposition',
+				'constructive-interference',
 				'polarised-wave',
 				'polarisation',
 				'uses-of-polarisation',
