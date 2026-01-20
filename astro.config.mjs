@@ -604,6 +604,7 @@ export default defineConfig({
 			    items: [
 				'hardware',
 				'software',
+				'application-software',
 			    ],
 			},
 			{
