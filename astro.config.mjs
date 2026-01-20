@@ -675,6 +675,13 @@ export default defineConfig({
 				'unsigned-binary'
 			    ]
 			},
+			{
+			    label: 'Logic gates',
+			    collapsed: true,
+			    items: [
+				'logic-gates',
+			    ]
+			},
 		    ]
 		},
 		{
