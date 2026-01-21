@@ -448,7 +448,14 @@ export default defineConfig({
 					'maclaurin-series-standard-results',
 					'creating-maclaurin-series'
 				    ]
-				}
+				},
+				{
+				    label: 'Proof by induction',
+				    collapsed: true,
+				    items: [
+					'proof-by-induction',
+				    ]
+				},
 			    ]
 			},
 			{
