@@ -446,6 +446,7 @@ export default defineConfig({
 					'standard-summation-results',
 					'method-of-differences',
 					'maclaurin-series-standard-results',
+					'creating-maclaurin-series'
 				    ]
 				}
 			    ]
