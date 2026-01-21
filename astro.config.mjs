@@ -441,6 +441,7 @@ export default defineConfig({
 				    label: 'Series',
 				    collapsed: true,
 				    items: [
+					'series',
 					'summation',
 					'standard-summation-results',
 					'method-of-differences',
