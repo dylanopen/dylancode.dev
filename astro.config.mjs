@@ -856,6 +856,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'cs/classes',
+				'cs/class-declaration',
 			    ]
 			},
 		    ]
