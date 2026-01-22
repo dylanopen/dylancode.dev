@@ -850,7 +850,14 @@ export default defineConfig({
 			    items: [
 				'cs/readline',
 			    ]
-			}
+			},
+			{
+			    label: 'Classes',
+			    collapsed: true,
+			    items: [
+				'cs/classes',
+			    ]
+			},
 		    ]
 		}
 	    ],
