@@ -857,6 +857,7 @@ export default defineConfig({
 			    items: [
 				'cs/classes',
 				'cs/class-declaration',
+				'cs/object-instantiation',
 			    ]
 			},
 		    ]
