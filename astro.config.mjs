@@ -852,7 +852,20 @@ export default defineConfig({
 			    ]
 			}
 		    ]
-		}
+		},
+		{
+		    label: 'Minecraft server',
+		    collapsed: true,
+		    items: [
+			{
+			    label: 'Optimisation',
+			    collapsed: true,
+			    items: [
+				'minecraft/optimisation',
+			    ]
+			}
+		    ]
+		},
 	    ],
 	}),
     ],
