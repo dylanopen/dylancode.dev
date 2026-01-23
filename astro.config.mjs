@@ -862,6 +862,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'minecraft/optimisation',
+				'minecraft/optimisation/view-distance',
 			    ]
 			}
 		    ]
