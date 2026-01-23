@@ -342,6 +342,7 @@ export default defineConfig({
 					'radian',
 					'arc-length-from-radians',
 					'sector-area-from-radians',
+					'small-angle-approximation',
 				    ]
 				},
 				{
