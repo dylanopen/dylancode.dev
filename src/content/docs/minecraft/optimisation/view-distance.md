@@ -12,7 +12,7 @@ view-distance=10
 To a different number, for example:
 
 ```properties
-view-distance=6
+view-distance=8
 ```
 
 > Default value: `10`
@@ -20,7 +20,7 @@ view-distance=6
 ## Recommended starting value
 
 ```properties
-view-distance=6
+view-distance=8
 ```
 
 The render distance you choose entirely depends on:
@@ -31,7 +31,7 @@ The render distance you choose entirely depends on:
 - how much lag you are experiencing
 - whether your server crashes due to out-of-memory errors
 
-I'd recommend startin with a value of `6`, and then increasing it if your server
+I'd recommend startin with a value of `8`, and then increasing it if your server
 can handle it or your players complain!
 
 Players can always use mods like Bobby and Distant Horizons to increase their

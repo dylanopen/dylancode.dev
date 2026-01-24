@@ -863,6 +863,7 @@ export default defineConfig({
 			    items: [
 				'minecraft/optimisation',
 				'minecraft/optimisation/view-distance',
+				'minecraft/optimisation/simulation-distance',
 			    ]
 			}
 		    ]
