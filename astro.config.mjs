@@ -876,7 +876,14 @@ export default defineConfig({
 				'minecraft/bukkit/spawn-limits',
 				'minecraft/bukkit/ticks-per',
 			    ]
-			}
+			},
+			{
+			    label: 'spigot.yml',
+			    collapsed: false,
+			    items: [
+				'minecraft/spigot/nerf-spawner-mobs',
+			    ]
+			},
 		    ]
 		},
 	    ],
