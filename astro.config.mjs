@@ -857,16 +857,11 @@ export default defineConfig({
 		    label: 'Minecraft server',
 		    collapsed: true,
 		    items: [
-			{
-			    label: 'Optimisation',
-			    collapsed: true,
-			    items: [
-				'minecraft/optimisation',
-				'minecraft/optimisation/view-distance',
-				'minecraft/optimisation/simulation-distance',
-				'minecraft/optimisation/sync-chunk-writes',
-			    ]
-			}
+			'minecraft/optimisation',
+			'minecraft/view-distance',
+			'minecraft/simulation-distance',
+			'minecraft/sync-chunk-writes',
+			'minecraft/network-compression-threshold',
 		    ]
 		},
 	    ],
