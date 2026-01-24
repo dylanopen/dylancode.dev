@@ -855,14 +855,27 @@ export default defineConfig({
 		},
 		{
 		    label: 'Minecraft server',
-		    collapsed: true,
+		    collapsed: false,
 		    items: [
 			'minecraft/optimisation',
-			'minecraft/view-distance',
-			'minecraft/simulation-distance',
-			'minecraft/sync-chunk-writes',
-			'minecraft/network-compression-threshold',
-			'minecraft/entity-broadcast-range-percentage',
+			{
+			    label: 'server.properties',
+			    collapsed: false,
+			    items: [
+				'minecraft/properties/view-distance',
+				'minecraft/properties/simulation-distance',
+				'minecraft/properties/sync-chunk-writes',
+				'minecraft/properties/network-compression-threshold',
+				'minecraft/properties/entity-broadcast-range-percentage',
+			    ]
+			},
+			{
+			    label: 'bukkit.yml',
+			    collapsed: false,
+			    items: [
+				'minecraft/bukkit/spawn-limits',
+			    ]
+			}
 		    ]
 		},
 	    ],
