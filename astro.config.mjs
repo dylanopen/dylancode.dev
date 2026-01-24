@@ -882,6 +882,7 @@ export default defineConfig({
 			    collapsed: false,
 			    items: [
 				'minecraft/spigot/nerf-spawner-mobs',
+				'minecraft/spigot/merge-radius',
 			    ]
 			},
 		    ]
