@@ -864,6 +864,7 @@ export default defineConfig({
 				'minecraft/optimisation',
 				'minecraft/optimisation/view-distance',
 				'minecraft/optimisation/simulation-distance',
+				'minecraft/optimisation/sync-chunk-writes',
 			    ]
 			}
 		    ]
