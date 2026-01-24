@@ -862,6 +862,7 @@ export default defineConfig({
 			'minecraft/simulation-distance',
 			'minecraft/sync-chunk-writes',
 			'minecraft/network-compression-threshold',
+			'minecraft/entity-broadcast-range-percentage',
 		    ]
 		},
 	    ],
