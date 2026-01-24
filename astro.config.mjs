@@ -874,6 +874,7 @@ export default defineConfig({
 			    collapsed: false,
 			    items: [
 				'minecraft/bukkit/spawn-limits',
+				'minecraft/bukkit/ticks-per',
 			    ]
 			}
 		    ]
