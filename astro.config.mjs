@@ -886,6 +886,7 @@ export default defineConfig({
 				'minecraft/spigot/zombie-aggressive-towards-villager',
 				'minecraft/spigot/mob-spawn-range',
 				'minecraft/spigot/entity-activation-range',
+				'minecraft/spigot/wake-up-inactive',
 			    ]
 			},
 		    ]
