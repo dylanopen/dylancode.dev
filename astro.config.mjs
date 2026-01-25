@@ -887,6 +887,7 @@ export default defineConfig({
 				'minecraft/spigot/mob-spawn-range',
 				'minecraft/spigot/entity-activation-range',
 				'minecraft/spigot/wake-up-inactive',
+				'minecraft/spigot/entity-tracking-range',
 			    ]
 			},
 		    ]
