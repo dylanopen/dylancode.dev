@@ -884,6 +884,7 @@ export default defineConfig({
 				'minecraft/spigot/nerf-spawner-mobs',
 				'minecraft/spigot/merge-radius',
 				'minecraft/spigot/zombie-aggressive-towards-villager',
+				'minecraft/spigot/mob-spawn-range',
 			    ]
 			},
 		    ]
