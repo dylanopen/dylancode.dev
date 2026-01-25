@@ -883,6 +883,7 @@ export default defineConfig({
 			    items: [
 				'minecraft/spigot/nerf-spawner-mobs',
 				'minecraft/spigot/merge-radius',
+				'minecraft/spigot/zombie-aggressive-towards-villager',
 			    ]
 			},
 		    ]
