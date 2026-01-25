@@ -889,6 +889,7 @@ export default defineConfig({
 				'minecraft/spigot/wake-up-inactive',
 				'minecraft/spigot/entity-tracking-range',
 				'minecraft/spigot/hopper',
+				'minecraft/spigot/max-tnt-per-tick',
 			    ]
 			},
 		    ]

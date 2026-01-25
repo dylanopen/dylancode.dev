@@ -51,7 +51,7 @@ even more:
 ticks-per:
   hopper-transfer: 16
   hopper-check: 4
-hopper-amount: 1
+hopper-amount: 2
 hopper-can-load-chunks: false
 ```
 
