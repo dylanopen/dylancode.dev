@@ -888,6 +888,7 @@ export default defineConfig({
 				'minecraft/spigot/entity-activation-range',
 				'minecraft/spigot/wake-up-inactive',
 				'minecraft/spigot/entity-tracking-range',
+				'minecraft/spigot/hopper',
 			    ]
 			},
 		    ]
