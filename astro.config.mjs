@@ -855,7 +855,7 @@ export default defineConfig({
 		},
 		{
 		    label: 'Minecraft server',
-		    collapsed: false,
+		    collapsed: true,
 		    items: [
 			'minecraft/optimisation',
 			{
