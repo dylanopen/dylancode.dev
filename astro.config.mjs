@@ -866,7 +866,41 @@ export default defineConfig({
 			    ]
 			},
 		    ]
-		}
+		},
+		{
+		    label: 'Minecraft server',
+		    collapsed: true,
+		    items: [
+			'minecraft/optimisation',
+			{
+			    label: 'server.properties',
+			    collapsed: false,
+			    items: [
+				'minecraft/properties/view-distance',
+				'minecraft/properties/simulation-distance',
+				'minecraft/properties/sync-chunk-writes',
+				'minecraft/properties/network-compression-threshold',
+				'minecraft/properties/entity-broadcast-range-percentage',
+			    ]
+			},
+			{
+			    label: 'bukkit.yml',
+			    collapsed: false,
+			    items: [
+				'minecraft/bukkit/spawn-limits',
+				'minecraft/bukkit/ticks-per',
+			    ]
+			},
+			{
+			    label: 'spigot.yml',
+			    collapsed: false,
+			    items: [
+				'minecraft/spigot/nerf-spawner-mobs',
+				'minecraft/spigot/merge-radius',
+			    ]
+			},
+		    ]
+		},
 	    ],
 	}),
     ],
