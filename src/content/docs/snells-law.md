@@ -24,3 +24,8 @@ re-arrange the formula above into any of:
 
 This is Snell's law!
 
+## What is each material?
+
+- The **first** material is the material the light starts in.
+- The **second** material is the material the light *goes into*.
+
