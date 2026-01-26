@@ -593,6 +593,7 @@ export default defineConfig({
 				'refractive-index-of-air',
 				'snells-law',
 				'refraction-of-light',
+				'total-internal-reflection',
 				'diffraction-of-waves',
 				'diffraction-grating',
 				'wave-superposition',
