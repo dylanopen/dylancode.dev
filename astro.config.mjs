@@ -590,6 +590,7 @@ export default defineConfig({
 				'oscilloscope',
 				'reflection-of-light',
 				'refractive-index',
+				'refractive-index-of-air',
 				'snells-law',
 				'refraction-of-light',
 				'diffraction-of-waves',
