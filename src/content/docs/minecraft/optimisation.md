@@ -23,7 +23,7 @@ people over the years. A huge thank you to:
   that helps server admins identify performance issues.
 - [Paper Chan](https://paper-chan.moe/paper-optimization) for its detailed
   explanation of various Paper configuration options.
-- [YouHaveTrouble](https://github.com/YouHaveTrouble/minecraft-optimisation)
+- [YouHaveTrouble](https://github.com/YouHaveTrouble/minecraft-optimization)
   for their optimisation guide, which served as inspiration for this guide.
 
 ## So what does this guide do differently?
