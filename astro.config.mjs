@@ -375,6 +375,13 @@ export default defineConfig({
 					'normal-from-differentiation',
 				    ]
 				},
+				{
+				    label: 'Integration',
+				    collapsed: true,
+				    items: [
+					'definition-of-integration',
+				    ]
+				}
 			    ]
 			},
 			{
