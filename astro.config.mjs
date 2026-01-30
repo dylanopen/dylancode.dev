@@ -380,6 +380,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'definition-of-integration',
+					'integration-formula',
 				    ]
 				}
 			    ]
