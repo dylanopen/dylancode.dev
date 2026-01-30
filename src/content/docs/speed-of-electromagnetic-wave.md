@@ -37,3 +37,9 @@ Similarly:
 > Again, this **only** works if velocity remains constant. With an EM wave, the
 > velocity is always constant for any type of electromagnetic wave!
 
+## What changes: frequency or wavelength?
+
+If The speed of an EM wave changes, then the `wavelength` changes.
+
+The frequency doesn't change.
+
