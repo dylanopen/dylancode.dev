@@ -1,3 +1,5 @@
+daily/
+
 # build output
 dist/
 # generated types
