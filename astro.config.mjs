@@ -381,6 +381,7 @@ export default defineConfig({
 				    items: [
 					'definition-of-integration',
 					'integration-formula',
+					'integration-of-other-expressions',
 				    ]
 				}
 			    ]
