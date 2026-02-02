@@ -611,7 +611,8 @@ export default defineConfig({
 				'polarisation',
 				'uses-of-polarisation',
 				'wave-phase-difference',
-				'speed-of-electromagnetic-wave'
+				'speed-of-electromagnetic-wave',
+				'fibre-optic-cable',
 			    ]
 			}
 		    ]
