@@ -616,6 +616,7 @@ export default defineConfig({
 				'speed-of-electromagnetic-wave',
 				'fibre-optic-cable',
 				'fibre-optic-modal-dispersion',
+				'fibre-optic-material-dispersion',
 			    ]
 			}
 		    ]
