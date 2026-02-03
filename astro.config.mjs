@@ -565,6 +565,7 @@ export default defineConfig({
 			    items: [
 				'base-units',
 				'unit-prefixes',
+				'energy-conversions',
 			    ]
 			},
 			{
