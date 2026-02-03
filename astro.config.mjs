@@ -383,7 +383,8 @@ export default defineConfig({
 					'integration-formula',
 					'integration-of-other-expressions',
 				    ]
-				}
+				},
+				'common-calculus-results',
 			    ]
 			},
 			{
