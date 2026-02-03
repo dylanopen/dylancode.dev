@@ -509,6 +509,7 @@ export default defineConfig({
 					'minimum-spanning-tree',
 					'prim-algorithm',
 					'kruskal-algorithm',
+					'network-route-inspection',
 				    ]
 				},
 				{
