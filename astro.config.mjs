@@ -560,6 +560,13 @@ export default defineConfig({
 		    collapsed: true,
 		    items: [
 			{
+			    label: 'Measurements',
+			    collapsed: true,
+			    items: [
+				'base-units',
+			    ]
+			},
+			{
 			    label: 'Electricity',
 			    collapsed: true,
 			    items: [
