@@ -575,6 +575,7 @@ export default defineConfig({
 				'random-error',
 				'systematic-error',
 				'precision',
+				'uncertainty',
 			    ]
 			},
 			{
