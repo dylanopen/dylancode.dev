@@ -564,6 +564,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'base-units',
+				'unit-prefixes',
 			    ]
 			},
 			{

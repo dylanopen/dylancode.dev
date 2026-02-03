@@ -23,5 +23,5 @@ There are seven base 'SI' units. They are:
 | Time                | Second        | s           |
 | Electric current    | Ampere        | A           |
 | Temperature         | Kelvin        | K           |
-| Amount of substance | Mole          | mol         |
+| Amount of Substance | Mole          | mol         |
 
