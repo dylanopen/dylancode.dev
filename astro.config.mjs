@@ -569,6 +569,13 @@ export default defineConfig({
 			    ]
 			},
 			{
+			    label: 'Errors',
+			    collapsed: true,
+			    items: [
+				'random-error',
+			    ]
+			},
+			{
 			    label: 'Electricity',
 			    collapsed: true,
 			    items: [
