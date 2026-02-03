@@ -573,6 +573,7 @@ export default defineConfig({
 			    collapsed: true,
 			    items: [
 				'random-error',
+				'systematic-error',
 			    ]
 			},
 			{
