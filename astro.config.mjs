@@ -577,6 +577,7 @@ export default defineConfig({
 				'precision',
 				'uncertainty',
 				'accuracy',
+				'repeatability',
 			    ]
 			},
 			{
