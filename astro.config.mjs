@@ -578,6 +578,7 @@ export default defineConfig({
 				'uncertainty',
 				'accuracy',
 				'repeatability',
+				'reproducibility',
 			    ]
 			},
 			{
