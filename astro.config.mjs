@@ -473,6 +473,7 @@ export default defineConfig({
 				    items: [
 					'sinh',
 					'cosh',
+					'tanh',
 				    ]
 				}
 			    ]
