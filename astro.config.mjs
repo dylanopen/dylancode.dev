@@ -638,6 +638,7 @@ export default defineConfig({
 				'total-internal-reflection',
 				'diffraction-of-waves',
 				'diffraction-grating',
+				'double-slit-diffraction',
 				'wave-superposition',
 				'constructive-interference',
 				'destructive-interference',
