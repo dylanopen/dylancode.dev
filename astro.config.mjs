@@ -472,6 +472,7 @@ export default defineConfig({
 				    collapsed: true,
 				    items: [
 					'sinh',
+					'cosh',
 				    ]
 				}
 			    ]
