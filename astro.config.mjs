@@ -477,6 +477,7 @@ export default defineConfig({
 					'hyperbolic-functions-of-zero',
 					'hyperbolic-square-difference-identity',
 					'hyperbolic-square-sum-identity',
+					'sinh2x-identity',
 				    ]
 				}
 			    ]
