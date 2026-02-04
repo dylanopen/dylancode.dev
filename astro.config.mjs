@@ -467,6 +467,13 @@ export default defineConfig({
 					'proof-by-induction',
 				    ]
 				},
+				{
+				    label: 'Hyperbolic functions',
+				    collapsed: true,
+				    items: [
+					'sinh',
+				    ]
+				}
 			    ]
 			},
 			{
