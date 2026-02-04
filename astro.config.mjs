@@ -474,6 +474,9 @@ export default defineConfig({
 					'sinh',
 					'cosh',
 					'tanh',
+					'hyperbolic-functions-of-zero',
+					'hyperbolic-square-difference-identity',
+					'hyperbolic-square-sum-identity',
 				    ]
 				}
 			    ]
