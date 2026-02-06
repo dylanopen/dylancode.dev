@@ -17,7 +17,8 @@ which is the world's largest [Wide Area Network](/wide-area-network).
 ## Central server
 
 Because a LAN is a small network, it can usually be managed by a single central
-server. That's a computer that manages the network and all the devices on it.
+[server](/server). That's a computer that manages the network and all the
+devices on it.
 
 It can do things like:
 - Store files and data for the devices on the network to access
@@ -27,6 +28,4 @@ It can do things like:
   (which is important for security and performance) 
 - Keep backups of important data, so that if something goes wrong, the data can
   be restored easily from one central location.
-
-
 

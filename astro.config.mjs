@@ -789,6 +789,7 @@ export default defineConfig({
 			    items: [
 				'network-interface-card',
 				'local-area-network',
+				'server',
 			    ]
 			}
 		    ]
