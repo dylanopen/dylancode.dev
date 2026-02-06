@@ -790,6 +790,7 @@ export default defineConfig({
 				'network-interface-card',
 				'local-area-network',
 				'server',
+				'types-of-server-hosting',
 			    ]
 			}
 		    ]
