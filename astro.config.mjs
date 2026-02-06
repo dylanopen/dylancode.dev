@@ -792,6 +792,7 @@ export default defineConfig({
 				'server',
 				'client',
 				'types-of-server-hosting',
+				'wide-area-network',
 			    ]
 			}
 		    ]
