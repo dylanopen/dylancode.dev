@@ -589,6 +589,7 @@ export default defineConfig({
 				'systematic-error',
 				'precision',
 				'uncertainty',
+				'compound-uncertainty',
 				'accuracy',
 				'repeatability',
 				'reproducibility',
