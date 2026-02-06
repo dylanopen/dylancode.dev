@@ -781,6 +781,13 @@ export default defineConfig({
 				'boolean-or-one',
 				'boolean-or-zero',
 			    ]
+			},
+			{
+			    label: 'Networks',
+			    collapsed: true,
+			    items: [
+				'network-interface-card',
+			    ]
 			}
 		    ]
 		},
