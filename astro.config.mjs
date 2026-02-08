@@ -791,6 +791,7 @@ export default defineConfig({
 				'local-area-network',
 				'server',
 				'client',
+				'network-switch',
 				'types-of-server-hosting',
 				'wide-area-network',
 			    ]
