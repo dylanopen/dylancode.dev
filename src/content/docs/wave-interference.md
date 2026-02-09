@@ -1,8 +1,8 @@
 ---
-title: Wave superposition
+title: Wave interference
 ---
 
-*Superposition* is when two or more waves 'overlap' in the same place at the
+*Interference*, or *superposition* is when two or more waves 'overlap' in the same place at the
 same time.
 
 The *amplitude* of the resulting wave changes depending on the amplitudes of the

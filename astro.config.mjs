@@ -624,37 +624,85 @@ export default defineConfig({
 			    label: 'Waves',
 			    collapsed: true,
 			    items: [
-				'progressive-wave',
-				'types-of-wave',
-				'transverse-wave',
-				'longitudinal-wave',
-				'electromagnetic-wave',
-				'wavelength',
-				'wave-frequency',
-				'wave-period',
-				'wave-speed',
-				'wave-speed-calculations',
+				{
+				    'label': 'Categorising waves',
+				    'collapsed': true,
+				    'items': [
+					'progressive-wave',
+					'types-of-wave',
+					'transverse-wave',
+					'longitudinal-wave',
+					'electromagnetic-wave',
+				    ]
+				},
+				{
+				    'label': 'Wave properties',
+				    'collapsed': true,
+				    'items': [
+					'wavelength',
+					'wave-frequency',
+					'wave-period',
+					'wave-speed',
+					'wave-speed-calculations',
+				    ]
+				},
+				{
+				    'label': 'Refraction',
+				    'collapsed': true,
+				    'items': [
+					'refractive-index',
+					'refractive-index-of-air',
+					'snells-law',
+					'refraction-of-light',
+				    ]
+				},
+				{
+				    'label': 'Reflection',
+					'collapsed': true,
+					'items': [
+					    'reflection-of-light',
+					    'total-internal-reflection',
+					]
+				},
+				{
+				    'label': 'Fibre optics',
+				    'collapsed': true,
+				    'items': [
+					'fibre-optic-cable',
+					'fibre-optic-modal-dispersion',
+					'fibre-optic-material-dispersion',
+				    ]
+				},
+				{
+				    'label': 'Diffraction',
+				    collapsed: true,
+				    items: [
+					'diffraction-of-waves',
+					'diffraction-grating',
+					'double-slit-diffraction',
+				    ]
+				},
+				{
+				    'label': 'Interference',
+				    collapsed: true,
+				    items: [
+					'wave-interference',
+					'constructive-interference',
+					'destructive-interference',
+				    ]
+				},
+				{
+				    'label': 'Polarisation',
+				    collapsed: true,
+				    items: [
+					'polarised-wave',
+					'polarisation',
+					'uses-of-polarisation',
+				    ]
+				},
 				'oscilloscope',
-				'reflection-of-light',
-				'refractive-index',
-				'refractive-index-of-air',
-				'snells-law',
-				'refraction-of-light',
-				'total-internal-reflection',
-				'diffraction-of-waves',
-				'diffraction-grating',
-				'double-slit-diffraction',
-				'wave-superposition',
-				'constructive-interference',
-				'destructive-interference',
-				'polarised-wave',
-				'polarisation',
-				'uses-of-polarisation',
 				'wave-phase-difference',
 				'speed-of-electromagnetic-wave',
-				'fibre-optic-cable',
-				'fibre-optic-modal-dispersion',
-				'fibre-optic-material-dispersion',
 			    ]
 			}
 		    ]
