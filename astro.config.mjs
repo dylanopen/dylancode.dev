@@ -681,6 +681,7 @@ export default defineConfig({
 					'diffraction-grating',
 					'double-slit-diffraction',
 					'diffraction-path-difference',
+					'diffraction-of-polychromatic-light',
 				    ]
 				},
 				{
