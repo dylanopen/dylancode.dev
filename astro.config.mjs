@@ -680,6 +680,7 @@ export default defineConfig({
 					'diffraction-of-waves',
 					'diffraction-grating',
 					'double-slit-diffraction',
+					'diffraction-path-difference',
 				    ]
 				},
 				{
@@ -689,6 +690,8 @@ export default defineConfig({
 					'wave-interference',
 					'constructive-interference',
 					'destructive-interference',
+					'wave-phase-difference',
+    
 				    ]
 				},
 				{
@@ -701,7 +704,6 @@ export default defineConfig({
 				    ]
 				},
 				'oscilloscope',
-				'wave-phase-difference',
 				'speed-of-electromagnetic-wave',
 			    ]
 			}
