@@ -692,6 +692,7 @@ export default defineConfig({
 					'destructive-interference',
 					'wave-phase-difference',
 					'wave-path-difference',
+					'coherent-wave',
     
 				    ]
 				},
