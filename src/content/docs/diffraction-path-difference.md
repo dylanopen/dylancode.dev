@@ -2,8 +2,17 @@
 title: Diffraction path difference
 ---
 
+## What happens during diffraction?
+
 - When waves pass through two slits, they create two sets of waves which can
   interfere with each other.
+- It creates a pattern of alternating bright and dark fringes on the screen.
+- The central bright fringe is the brightest, and the fringes get less bright as
+  you move away from the centre.
+- The bright fringes are equally spaced.
+
+## How it works
+
 - They interfere constructively when the peaks of both of the waves line up.
   - That happens when the [phase difference](/phase-difference) between the two
     waves is a multiple of $2\pi$, and when the
