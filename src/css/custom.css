@@ -1,9 +1,10 @@
 :root {
-    --sl-sidebar-width: 330px;
+    --sl-sidebar-width: calc(10% + 200px);
     --sl-color-black: #0c0c0c;
     --sl-color-bg-nav: #0c0c0c;
     --sl-color-white: #fff;
     --sl-color-bg-sidebar: #0c0c0c;
+    --sl-color-active-sidebar: #f00;
     --sl-color-hairline-shade: #23262f;
     --sl-nav-pad-x: 10px;
     --sl-nav-pad-y: 10px;
@@ -16,15 +17,15 @@
     --sl-color-text-accent: #5ba0f0;
     --sl-color-text-invert: #000;
     --sl-color-gray-1: #eee;
-    --sl-color-gray-2: #e5e5e5;
-    --sl-color-gray-3: #ccc;
+    --sl-color-gray-2: #ddd;
+    --sl-color-gray-3: #aaa;
     --sl-color-gray-4: #bbb;
     --sl-content-width: 65rem;
 }
 
 .sl-markdown-content {
     p, li {
-	font-size: 1.25em;
+	font-size: 1.00em;
 	li {
 	    font-size: 1.0em;
 	}
@@ -41,7 +42,7 @@
 
     .expressive-code {
 	code {
-	    font-size: 1.30em;
+	    font-size: 1.00em;
 	    background-color: #171717;
 	}
     }
@@ -86,6 +87,20 @@ h3 {
 h4 {
     color: #fff;
     font-weight: 600;
+}
+
+.sidebar {
+    a {
+	font-size: 0.75em;
+	padding: 2px 5px;
+    }
+
+    summary {
+	padding: 0px 5px;
+	span {
+	    font-size: 0.95em;
+	}
+    }
 }
 
 .donate-button-container {
