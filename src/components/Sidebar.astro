@@ -3,6 +3,7 @@ import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
 import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
 import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
 import Search from 'virtual:starlight/components/Search';
+import SocialIcons from 'virtual:starlight/components/SocialIcons';
 import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
 
 const { sidebar } = Astro.locals.starlightRoute;
@@ -10,12 +11,15 @@ const { sidebar } = Astro.locals.starlightRoute;
 
 
 <SidebarPersister>
-    <Search> </Search>
-	<SidebarSublist sublist={sidebar} />
+    <Search>
+    </Search>
+    <SidebarSublist sublist={sidebar} />
 
-	<a class="donate-button-container" href="https://github.com/sponsors/dylanopen" target="_blank">
-		Support our free resources
-	</a>
+    <SocialIcons> </SocialIcons>
+
+    <a class="donate-button-container" href="https://github.com/sponsors/dylanopen" target="_blank">
+	Support our free resources
+    </a>
 </SidebarPersister>
 
 <div class="md:sl-hidden">

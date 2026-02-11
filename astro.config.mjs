@@ -29,10 +29,10 @@ export default defineConfig({
 	    baseUrl: 'https://github.com/dylanopen/dylancode.dev/edit/main/',
 	},
 	description: '',
-	social: [
+	/*social: [
 	    { icon: 'github', label: 'GitHub', href: 'https://github.com/dylanopen' },
 	    { icon: 'email', label: 'Email', href: 'mailto:docs@dylancode.dev' }
-	],
+	],*/
 	components: {
 	    TableOfContents: './src/components/TableOfContents.astro',
 	    PageSidebar: './src/components/PageSidebar.astro',
@@ -44,6 +44,7 @@ export default defineConfig({
 	    Footer: './src/components/Footer.astro',
 	    Pagination: './src/components/Pagination.astro',
 	    MobileMenuToggle: './src/components/MobileMenuToggle.astro',
+	    //SocialIcons: './src/components/SocialIcons.astro',
 	},
 	customCss: [
 	    "./src/css/custom.css",
