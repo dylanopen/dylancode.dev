@@ -1,0 +1,57 @@
+---
+import EditLink from 'virtual:starlight/components/EditLink';
+import LastUpdated from 'virtual:starlight/components/LastUpdated';
+import Pagination from 'virtual:starlight/components/Pagination';
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+import config from 'virtual:starlight/user-config';
+---
+
+<footer class="sl-flex">
+    <br/>
+    <Card class="donation-footer" icon="heart" title="Support dylancode.dev" onclick="alert('hi');">
+	The resources on dylancode.dev are and always will be completely free: no ads or paywalls.<br/>
+	If you are able to, a <a href="https://github.com/sponsors/dylanopen">tiny donation</a> would mean everything and help keep the site running.<br/>
+    </Card>
+    </a>
+    <br/><br/>
+    <Pagination />
+</footer>
+
+<style>
+    @layer starlight.core {
+	footer {
+	    flex-direction: column;
+	    gap: 1.25rem;
+	    color: var(--sl-color-gray-4);
+	}
+	.meta {
+	    gap: 0.75rem 1rem;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    margin-top: 3rem;
+	    font-size: var(--sl-text-sm);
+	    color: var(--sl-color-gray-3);
+	}
+	.meta > :global(p:only-child) {
+	    margin-inline-start: auto;
+	}
+
+	.kudos {
+	    align-items: center;
+	    gap: 0.5em;
+	    margin: 1.5rem auto;
+	    font-size: var(--sl-text-xs);
+	    text-decoration: none;
+	    color: var(--sl-color-gray-3);
+	}
+	.kudos:hover {
+	    color: var(--sl-color-white);
+	}
+    }
+
+    @layer starlight.components {
+	.kudos :global(svg) {
+	    color: var(--sl-color-orange);
+	}
+    }
+</style>

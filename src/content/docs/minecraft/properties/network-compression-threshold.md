@@ -19,7 +19,7 @@ network-compression-threshold=512
 
 If you have a poor internet connection or limited bandwidth:
 
-```propertiesproperties
+```properties
 network-compression-threshold=256
 ```
 

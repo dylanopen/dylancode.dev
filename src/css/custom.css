@@ -1,13 +1,163 @@
+:root {
+    --sl-sidebar-width: 330px;
+    --sl-color-black: #0c0c0c;
+    --sl-color-bg-nav: #0c0c0c;
+    --sl-color-white: #fff;
+    --sl-color-bg-sidebar: #0c0c0c;
+    --sl-color-hairline-shade: #23262f;
+    --sl-nav-pad-x: 10px;
+    --sl-nav-pad-y: 10px;
+    --sl-nav-height: 0px;
+    --sl-line-height-headings: 1.2em;
+    --sl-color-banner-bg: #0000;
+    --sl-color-border: #23262f;
+    --sl-color-banner-text: #aaa;
+    --sl-color-text-accent: #a3b7ef;
+    --sl-color-text-accent: #5ba0f0;
+    --sl-color-text-invert: #000;
+    --sl-color-gray-1: #eee;
+    --sl-color-gray-2: #e5e5e5;
+    --sl-color-gray-3: #ccc;
+    --sl-color-gray-4: #bbb;
+    --sl-content-width: 65rem;
+}
+
+.sl-markdown-content {
+    p, li {
+	font-size: 1.30em;
+	li {
+	    font-size: 1.0em;
+	}
+    }
+
+    mjx-container {
+	font-size: 1.0em;
+    }
+
+    code {
+	font-size: 1.00em;
+	background-color: #171717;
+    }
+
+    .expressive-code {
+	code {
+	    font-size: 1.30em;
+	    background-color: #171717;
+	}
+    }
+
+    a:link {
+	color: #5ba0f0;
+    }
+
+    a:visited {
+	color: #9ba0cc;
+    }
+
+    blockquote {
+	border-left-color: #5ba0f0;
+	background-color: #171717;
+    }
+}
+
 th, td {
-  border: 0.5px solid #aaa;
-  padding: 8px;
-  text-align: center;
-  min-width: 60px;
+    border: 0.5px solid #aaa;
+    padding: 8px;
+    text-align: center;
+    min-width: 60px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+h3 {
+    color: #fff;
+    font-weight: 600;
+}
+
+h4 {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer {
+    padding: 0;
+    border: 0;
+
+    #donation-footer-link {
+	color: #ccc;
+	text-decoration: none;
+    }
+
+    .icon {
+	background-color: #bb4499;
+	border-color: #e977ba;
+	color: white;
+	font-weight: 900;
+	padding: 3px;
+    }
+
+    article {
+	padding: 1em;
+	border-radius: 12px;
+	.title {
+	    font-size: 1.25em;
+	    padding: 0;
+	    color: #ccc;
+	    font-weight: 500;
+	}
+    }
+
+    #donation-footer-link:visited {
+	visibility: hidden;
+	background-color: blue;
+    }
+    
+    .body {
+	padding-left: 44px;
+    }
+}
+
+mjx-container svg {
+    display: inline !important;
+    text-align: left !important;
 }
 
 @media print {
     * {
 	color: #000 !important;
+    }
+
+    footer {
+	display: none;
+    }
+
+    .sl-markdown-content {
+	font-size: 1em;
+    }
+
+    h1 {
+	font-size: 2em;
+    }
+
+    h2 {
+	font-size: 0.8em;
+    }
+
+    h3 {
+	font-size: 0.8em;
+    }
+
+    h4 {
+	font-size: 0.8em;
     }
 }
 

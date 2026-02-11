@@ -1,0 +1,13 @@
+<div class="lg:sl-flex">
+	<div class="main-pane"><slot /></div>
+</div>
+
+<style>
+	@layer starlight.core {
+		.main-pane {
+		    width: 100%;
+		    isolation: isolate;
+		}
+
+	}
+</style>
