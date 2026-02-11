@@ -2,31 +2,37 @@
 title: Identity matrix
 ---
 
-The identity matrix is:
+An *identity matrix* for a specific operation is a matrix that, when combined
+with another (compatible) matrix using that operation, leaves the other matrix
+unchanged.
+
+That's a lot of words, so what I mean is that, if we have a matrix $\mathbf{A}$ and an identity matrix $\mathbf{I}$ of matching, compatible, dimensions, then:
 
 $$
-\mathbf{I_n} =
-\begin{bmatrix}
-1 & 0 & 0 & \cdots & 0 \\
-0 & 1 & 0 & \cdots & 0 \\
-0 & 0 & 1 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & 0 & \cdots & 1
-\end{bmatrix}
+\mathbf{A} \oplus \mathbf{I} = \mathbf{A}
 $$
 
-For a 2x2 identity matrix, it is:
-
 $$
-\mathbf{I_2}=
-\begin{bmatrix}
-1 & 0 \\
-0 & 1
-\end{bmatrix}
+\mathbf{I} \oplus \mathbf{A} = \mathbf{A}
 $$
 
-## Properties
+(Where $\oplus$ is whatever operation we're talking about, like addition or
+multiplication).
 
-When we multiply any matrix by the corresponding *identity* matrix, the matrix
-**stays the same**.
+## Identity matrix for addition
+
+For addition, we need to add *nothing* to a matrix to get the same matrix back.
+So the identity matrix for addition is a matrix where all the elements are zero,
+which we (imaginatively) call the [zero matrix](/zero-matrix).
+
+## Identity matrix for multiplication
+
+The identity matrix for *multiplication* is a matrix where all the elements on
+the *leading diagonal* are 1, and all the other elements are 0.
+
+This is generally what people are talking about when they say 'the identity
+matrix', and we write it as $\mathbf{I}$.
+
+> See [matrix multiplication identity](/matrix-multiplication-identity) for more
+  details on the identity matrix for multiplication.
 

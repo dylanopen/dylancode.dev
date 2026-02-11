@@ -11,6 +11,7 @@ export default defineConfig({
 	remarkPlugins: [remarkMath],
 	rehypePlugins: [rehypeMathJax],
     },
+    site: 'https://dylancode.dev',
 
     integrations: [starlight({
 	title: 'dylancode.dev',
@@ -445,6 +446,7 @@ export default defineConfig({
 				    'finding-unknowns-using-matrix-multiplication',
 				    'identity-matrix',
 				    'zero-matrix',
+				    'matrix-multiplication-identity',
 				    'transposing-matrices',
 				    'matrix-determinant',
 				    'inverse-matrix',
