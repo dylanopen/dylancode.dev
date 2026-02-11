@@ -438,6 +438,7 @@ export default defineConfig({
 				items: [
 				    'matrix-definition',
 				    'matrix-addition',
+				    'matrix-subtraction',
 				    'scalar-matrix-multiplication',
 				    'matrix-multiplication',
 				    'identity-matrix',
