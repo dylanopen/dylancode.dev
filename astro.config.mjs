@@ -443,6 +443,7 @@ export default defineConfig({
 				    'scalar-matrix-multiplication',
 				    'matrix-multiplication',
 				    'identity-matrix',
+				    'transposing-matrices',
 				    'matrix-determinant',
 				    'inverse-matrix',
 				    'singular-matrix',
