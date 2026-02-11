@@ -39,23 +39,61 @@ matrix*, $I$.
 - Let $M=\pmatrix{a&b\\c&d}$
 - Find the [determinant](/matrix-determinant):
   - $ad-bc$
+- Swap around the placement of  $a$ and $d$
+- Negate $b$ and $c$
+- Divide the resulting matrix by the determinant, which we said was $ad-bc$
+
+From that, we can derive the formula of the inverse of a 2x2 matrix:
 
 $$
 M^{-1}=\frac1{ad-bc}\pmatrix{d&-b\\-c&a}
 $$
 
+### Find the inverse matrix of $\begin{bmatrix} 4 & 2 \\ 5 & 3 \end{bmatrix}$ using the general form
+
+- $a=4$, $b=2$, $c=5$, $d=3$
+- $ad-bc = 4\times 3 - 2\times 5 = 12 - 10 = 2$
+- $M^{-1} = \frac{1}{2}\pmatrix{3 & -2 \\ -5 & 4} = \pmatrix{\frac{3}{2} & -1 \\ -\frac{5}{2} & 2}$
+- **Answer**: $\begin{bmatrix} \frac{3}{2} & -1 \\ -\frac{5}{2} & 2 \end{bmatrix}$
+
+### Find the inverse of $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$
+
+- $a=1$, $b=2$, $c=3$, $d=4$
+- $ad-bc = 1\times 4 - 2\times 3 = 4 - 6 = -2$
+- $M^{-1} = \frac{1}{-2}\pmatrix{4 & -2 \\ -3 & 1} = \pmatrix{-2 & 1 \\ \frac{3}{2} & -\frac{1}{2}}$
+- **Answer**: $\begin{bmatrix} -2 & 1 \\ \frac{3}{2} & -\frac{1}{2} \end{bmatrix}$
+
+### Find the inverse of $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+
+- $a=1$, $b=0$, $c=0$, $d=1$
+- $ad-bc = 1\times 1 - 0\times 0 = 1$
+- $M^{-1} = \frac{1}{1}\pmatrix{1 & 0 \\ 0 & 1} = \pmatrix{1 & 0 \\ 0 & 1}$
+- **Answer**: $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+
+### The inverse of a matrix $M$ is $\begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}$. What is $M$?
+
+- The inverse is *reversable* - so just like we can find $M^{-1}$ given $M$ by
+  finding the inverse of $M$, we can also find $M$ given $M^{-1}$ by finding the
+  inverse of $M^{-1}$.
+- $M = (M^{-1})^{-1}$
+- $M = \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}^{-1}$
+- $a=2$, $b=3$, $c=4$, $d=5$
+- $ad-bc = 2\times 5 - 3\times 4 = 10 - 12 = -2$
+- $M = \frac{1}{-2}\pmatrix{5 & -3 \\ -4 & 2} = \pmatrix{-\frac{5}{2} & \frac{3}{2} \\ 2 & -1}$
+- **Answer**: $\begin{bmatrix} -\frac{5}{2} & \frac{3}{2} \\ 2 & -1 \end{bmatrix}$
+
 ## Find the inverse of matrix product $AB$
 
 - Let the inverse function be $X$
 - $ABX=I$ (because matrix multiplication is associative)
-- $A^{-1}ABX=A^{-1}I$ (pre-multiply both sides by $A^{-1})
+- $A^{-1}ABX=A^{-1}I$ (pre-multiply both sides by $A^{-1}$)
 - $BX=A^{-1}I$
 - $IBX=A^{-1}I$
 - $BX=A^{-1}$
 - $B^{-1}BX=B^{-1}A^{-1}$
 - $IX=B^{-1}A^{-1}$
 - $X=B^{-1}A{-1}$
-- **Answer: $X+B^{-1}A^{-1}$
+- **Answer**: $X+B^{-1}A^{-1}$
 
 > Remember this. THe inverse of $AB=B^{-1}A^{-1}$.
 
