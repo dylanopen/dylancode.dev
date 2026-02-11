@@ -444,6 +444,7 @@ export default defineConfig({
 				    'matrix-multiplication',
 				    'finding-unknowns-using-matrix-multiplication',
 				    'identity-matrix',
+				    'zero-matrix',
 				    'transposing-matrices',
 				    'matrix-determinant',
 				    'inverse-matrix',
