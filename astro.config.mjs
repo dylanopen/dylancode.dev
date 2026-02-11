@@ -442,6 +442,7 @@ export default defineConfig({
 				    'matrix-subtraction',
 				    'scalar-matrix-multiplication',
 				    'matrix-multiplication',
+				    'finding-unknowns-using-matrix-multiplication',
 				    'identity-matrix',
 				    'transposing-matrices',
 				    'matrix-determinant',
