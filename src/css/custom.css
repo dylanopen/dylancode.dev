@@ -88,13 +88,38 @@ h4 {
     font-weight: 600;
 }
 
+.donate-button-container {
+    background-color: #ff77bb;
+    border-color: #ff99dd;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: #552244;
+    font-weight: 600;
+    text-decoration: none;
+
+    .icon {
+	padding-top: 4px;
+    }
+}
+
 footer {
     padding: 0;
     border: 0;
 
-    #donation-footer-link {
-	color: #ccc;
+    a {
 	text-decoration: none;
+
+	.card {
+	    color: #ccc;
+	    text-decoration: none;
+
+	    b {
+		font-weight: 500;
+		color: #ff77bb;
+	    }
+	}
     }
 
     .icon {
@@ -114,11 +139,6 @@ footer {
 	    color: #ccc;
 	    font-weight: 500;
 	}
-    }
-
-    #donation-footer-link:visited {
-	visibility: hidden;
-	background-color: blue;
     }
     
     .body {
@@ -141,11 +161,11 @@ mjx-container svg {
     }
 
     .sl-markdown-content {
-	font-size: 1em;
+	font-size: 0.80em;
     }
 
     h1 {
-	font-size: 2em;
+	font-size: 1.5em;
     }
 
     h2 {

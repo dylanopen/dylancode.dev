@@ -5,8 +5,6 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
-import icon from 'astro-icon';
-
 // https://astro.build/config
 export default defineConfig({
     markdown: {
@@ -1053,5 +1051,5 @@ export default defineConfig({
 		]
 	    },
 	],
-    }), icon()],
+    })],
 });
