@@ -624,6 +624,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'scalar-quantity',
+			    'vector-quantity',
 			]
 		    },
 		    {
