@@ -652,6 +652,7 @@ export default defineConfig({
 				    'distance',
 				    'displacement',
 				    'speed',
+				    'velocity',
 				]
 			    }
 			]

@@ -8,7 +8,7 @@ It's not in any specific direction, so it's a [scalar quantity](/scalar-quantity
 
 ## Example
 
-- We cycle 18km in 1 hour, so hour *speed* is:
+- We cycle 18km in 1 hour, so our *speed* is:
   - $18km\div1h=18hmh^{-1}$
 - Or, if we walk $400m$ in $200s$, our speed is:
   - $400m\div200s=2ms^{-1}$
