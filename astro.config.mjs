@@ -642,6 +642,7 @@ export default defineConfig({
 				    'couple',
 				    'torque',
 				    'principle-of-moments',
+				    'centre-of-gravity',
 				]
 			    },
 			]
