@@ -625,6 +625,7 @@ export default defineConfig({
 			items: [
 			    'scalar-quantity',
 			    'vector-quantity',
+			    'adding-vector-quantities',
 			]
 		    },
 		    {
