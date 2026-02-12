@@ -638,6 +638,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'moment',
+				    'moment-formula',
 				]
 			    },
 			]
