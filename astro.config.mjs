@@ -626,6 +626,7 @@ export default defineConfig({
 			    'scalar-quantity',
 			    'vector-quantity',
 			    'adding-vector-quantities',
+			    'separating-vectors-into-components',
 			]
 		    },
 		    {
