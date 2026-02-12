@@ -649,6 +649,7 @@ export default defineConfig({
 				label: 'Linear motion',
 				collapsed: true,
 				items: [
+				    'distance',
 				    'displacement',
 				]
 			    }
