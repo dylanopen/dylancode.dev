@@ -645,6 +645,13 @@ export default defineConfig({
 				    'centre-of-gravity',
 				]
 			    },
+			    {
+				label: 'Linear motion',
+				collapsed: true,
+				items: [
+				    'displacement',
+				]
+			    }
 			]
 		    },
 		    {
