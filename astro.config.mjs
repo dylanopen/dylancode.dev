@@ -623,10 +623,23 @@ export default defineConfig({
 			label: 'Mechanics',
 			collapsed: true,
 			items: [
-			    'scalar-quantity',
-			    'vector-quantity',
-			    'adding-vector-quantities',
-			    'separating-vectors-into-components',
+			    {
+				label: 'Scalars and vectors',
+				collapsed: true,
+				items: [
+				    'scalar-quantity',
+				    'vector-quantity',
+				    'adding-vector-quantities',
+				    'separating-vectors-into-components',
+				]
+			    },
+			    {
+				label: 'Moments',
+				collapsed: true,
+				items: [
+				    'moment',
+				]
+			    },
 			]
 		    },
 		    {
