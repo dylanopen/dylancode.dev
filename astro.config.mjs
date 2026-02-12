@@ -283,13 +283,6 @@ export default defineConfig({
 				]
 			    },
 			    {
-				label: 'Real-world graphs',
-				collapsed: true,
-				items: [
-				    'distance-time-graph',
-				]
-			    },
-			    {
 				label: 'Exponential graphs',
 				collapsed: true,
 				items: [
@@ -654,6 +647,8 @@ export default defineConfig({
 				    'speed',
 				    'velocity',
 				    'acceleration',
+				    'distance-time-graph',
+				    'displacement-time-graph',
 				]
 			    }
 			]
