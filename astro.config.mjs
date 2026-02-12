@@ -496,6 +496,13 @@ export default defineConfig({
 				    'hyperbolic-square-sum-identity',
 				    'sinh2x-identity',
 				]
+			    },
+			    {
+				label: 'Polar coordinates',
+				collapsed: true,
+				items: [
+				    'polar-coordinates',
+				]
 			    }
 			]
 		    },
@@ -651,7 +658,7 @@ export default defineConfig({
 				    'displacement-time-graph',
 				    'speed-time-graph',
 				    'velocity-time-graph',
-				    'equations-for-uniform-acceleration'
+				    'equations-for-uniform-acceleration',
 				]
 			    }
 			]
