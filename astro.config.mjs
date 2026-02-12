@@ -620,6 +620,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Mechanics',
+			collapsed: true,
+			items: [
+			    'scalar-quantity',
+			]
+		    },
+		    {
 			label: 'Electricity',
 			collapsed: true,
 			items: [
