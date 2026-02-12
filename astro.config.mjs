@@ -649,6 +649,7 @@ export default defineConfig({
 				    'acceleration',
 				    'distance-time-graph',
 				    'displacement-time-graph',
+				    'speed-time-graph',
 				    'velocity-time-graph',
 				]
 			    }
