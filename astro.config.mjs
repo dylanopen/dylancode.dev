@@ -641,6 +641,7 @@ export default defineConfig({
 				    'moment-formula',
 				    'couple',
 				    'torque',
+				    'principle-of-moments',
 				]
 			    },
 			]
