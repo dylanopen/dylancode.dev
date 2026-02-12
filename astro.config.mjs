@@ -639,6 +639,7 @@ export default defineConfig({
 				items: [
 				    'moment',
 				    'moment-formula',
+				    'couple',
 				]
 			    },
 			]
