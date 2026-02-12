@@ -653,6 +653,7 @@ export default defineConfig({
 				    'displacement',
 				    'speed',
 				    'velocity',
+				    'acceleration',
 				]
 			    }
 			]
