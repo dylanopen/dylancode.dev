@@ -651,6 +651,7 @@ export default defineConfig({
 				    'displacement-time-graph',
 				    'speed-time-graph',
 				    'velocity-time-graph',
+				    'equations-for-uniform-acceleration'
 				]
 			    }
 			]
