@@ -502,6 +502,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'polar-coordinates',
+				    'polar-coordinate-identities',
 				]
 			    }
 			]
