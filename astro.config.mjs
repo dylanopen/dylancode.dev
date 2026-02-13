@@ -503,6 +503,7 @@ export default defineConfig({
 				items: [
 				    'polar-coordinates',
 				    'polar-coordinate-identities',
+				    'polar-to-cartesian-coordinates',
 				]
 			    }
 			]
