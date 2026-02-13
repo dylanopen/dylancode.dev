@@ -504,6 +504,7 @@ export default defineConfig({
 				    'polar-coordinates',
 				    'polar-coordinate-identities',
 				    'polar-to-cartesian-coordinates',
+				    'cartesian-to-polar-coordinates',
 				]
 			    }
 			]

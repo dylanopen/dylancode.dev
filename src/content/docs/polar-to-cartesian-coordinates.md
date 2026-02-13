@@ -2,87 +2,75 @@
 title: Polar to Cartesian coordinates
 ---
 
-If we have a polar coordinate in the form of $r=$ a function of $\theta$
-($r=f(\theta)$), then we can convert these to a set of Cartesian coordinates,
-using our [polar coordinate identities](/polar-coordinate-identities) from
-before!
+Let's suppose we want to convert a coordinate in the form $(r,\theta)$ to a
+coordinate in the form $(x,y)$. How do we do that?
+
+Again, we'll be using our [polar coordinate identities](/polar-coordinate-identities)
+a lot to do this. Here they are summarised:
+- $x=r\cos\theta$
+- $y=r\sin\theta$
+- $r^2=x^2+y^2$
+- $\tan\theta=\frac yx$
+
+## Form of coordinates
+
+- Polar coordinates are in the form $(r,\theta)$, where:
+  - $r$ is the magnitude, the distance of a point from the origin
+  - $\theta$ is the *bearing* from the origin, starting from the
+    right-stretching line and going *anticlockwise*.
+- Cartesian coordinates are in the form $(x,y)$, where:
+  - $x$ is the horizontal distance of a point from the origin
+  - $y$ is the vertical distance of a point from the origin
 
 ## General steps
 
-Polar coordinates are in the form $(r,\theta)$, where:
-- $r$ is the magnitude, the distance of a point from the origin
-- $\theta$ is the *bearing* from the origin, starting from the right-stretching
-  line and going *anticlockwise*.
+To convert polar to cartesian, we can just use the first two identities:
+- $x=r\cos\theta$
+- $y=r\sin\theta$
 
-To find the magnitude of the polar coordinate, $r$:
-- Just use the Pythagorean theorem to find the hypotenuse!
-- $r=\sqrt{x^2+y^2}$
+Substitute in the values for $r$ and $\theta$, and then simplify to get the
+answer as a cartesian coordinate in the form $(x,y)$.
 
-Then to find the angle, $\theta$:
-- $\theta=\tan^{-1}(\frac yx)$
+## Examples
 
-> **Note**: If the $x$ coordinate is negative, we need to *add $\pi$* to our
-> answer for $\theta$. That's because, otherwise, the angle we got from
-> $\tan^{-1}(\frac yx)$ would be in the wrong quadrant.
+### Convert the polar coordinate $(4\sqrt2, \frac{\pi}4)$ to cartesian coordinates
 
-### Find the polar coordinate from the Cartesian $(4,4)$
+- $x=4\sqrt2\cos\frac{\pi}4$
+- $x=4\sqrt2\cdot\frac{\sqrt2}2$
+- $x=4$
+- $y=4\sqrt2\sin\frac{\pi}4$
+- $y=4\sqrt2\cdot\frac{\sqrt2}2$
+- $y=4$
+- **Answer**: $(4,4)$
 
-- $r=\sqrt{4^2+4^2}$
-- $r=\pm\sqrt32$
-- $r=\pm4\sqrt2$
-- $\theta=\tan^{-1}(\frac44)$
-- $\theta=\tan^{-1}(1)$
-- $\theta=\frac{\pi}4$
-- **Answer**: $(4\sqrt2, \frac{\pi}4)$
+### Convert the polar coordinate $(4.123, 1.816)$ to cartesian coordinates (to 3sf)
 
-### Convert the cartesian coordinate $(-1,4)$ to polar coordinates (to 3sf)
+- $x=4.12\cos1.816$
+- $x=-1.00$
+- $y=4.12\sin1.816$
+- $y=4.00$
+- **Answer**: $(-1.00, 4.00)$
 
-- $r=\sqrt{(-1)^2+4^2}$
-- $r=\sqrt{17}$
-- $r\approx4.123$
-- $\theta=\tan^{-1}(\frac4{-1})$
-- $\theta=\tan^{-1}4{-1}$
-- $\theta=\tan^{-1}(4)$
-- $\theta=-\tan^{-1}(-4)$
-- $\theta=-1.326$
-- Because our $x$ coordinate is negative, we need to *add $\pi$*:
-  - $\theta=-1.326+\pi$
-  - $\theta\approx1.816$
-- **Answer**: $(4.123, 1.816)$
+### Convert the polar coordinate $(5, 2.356)$ to cartesian coordinates (to 3sf)
 
-### Convert the cartesian coordinate $(-1,-4)$ to polar coordinates (to 3sf)
+- $x=5\cos2.356$
+- $x=-3.54$
+- $y=5\sin2.356$
+- $y=3.54$
+- **Answer**: $(-3.54, 3.54)$
 
-- $r=\sqrt{(-1)^2+(-4)^2}$
-- $r=\sqrt{17}$
-- $r\approx4.123$
-- $\theta=\tan^{-1}(\frac{-4}{-1})$
-- $\theta=\tan^{-1}4$
-- $\theta=-\tan^{-1}(-4)$
-- $\theta=-1.326$
-- Because our $x$ coordinate is negative, we need to *add $\pi$*
-- $\theta=-1.326+\pi$
-- $\theta\approx1.816$
-- **Answer**: $(4.123, 1.816)$
+### Convert the polar coordinate $(3, 4.712)$ to cartesian coordinates (to 3sf)
 
-### Convert the cartesian coordinate $(1,-4)$ to polar coordinates (to 3sf)
+- $x=3\cos4.712$
+- $x=0.00$
+- $y=3\sin4.712$
+- $y=-3.00$
+- **Answer**: $(0.00, -3.00)$
 
-- $r=\sqrt{1^2+(-4)^2}$
-- $r=\sqrt{17}$
-- $r\approx4.123$
-- $\theta=\tan^{-1}(\frac{-4}{1})$
-- $\theta=\tan^{-1}(-4)$
-- $\theta=-\tan^{-1}4$
-- $\theta=-1.326$
-- Because our $x$ coordinate is positive, we don't need to add $\pi$!
-- **Answer**: $(4.123, -1.326)$
+### Convert the polar coordinate $(2, 5.890)$ to cartesian coordinates (to 3sf)
 
-### Write $(4,8)$ as a set of polar coordinates
-
-- $r=\sqrt{4^2+8^2}$
-- $r=\sqrt{80}$
-- $r=4\sqrt5$
-- $\theta=\tan^{-1}(\frac8{4})$
-- $\theta=\tan^{-1}2$
-- $\theta=1.107$
-- **Answer**: $(4\sqrt5, 1.107)$
+- $x=2\cos5.890$
+- $x=1.73$
+- $y=2\sin5.890$
+- $y=-1.00$
 
