@@ -238,6 +238,7 @@ export default defineConfig({
 				items: [
 				    'logarithm-function',
 				    'laws-of-logarithms',
+				    'self-base-logarithms',
 				    'adding-logarithms',
 				    'subtracting-logarithms',
 				    'multiplying-logarithms-by-a-constant',
