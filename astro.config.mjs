@@ -245,6 +245,7 @@ export default defineConfig({
 				    'subtracting-logarithms',
 				    'multiplying-logarithms-by-a-constant',
 				    'converting-exponentials-into-logarithms',
+				    'converting-logarithms-into-exponentials',
 				]
 			    },
 			    {
