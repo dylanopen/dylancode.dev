@@ -6,6 +6,7 @@ title: Impulse
 for a certain amount of time.
 
 In short:
+
 > Impulse is the change in momentum.
 
 ## Impulse equation

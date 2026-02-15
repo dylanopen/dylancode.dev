@@ -715,6 +715,7 @@ export default defineConfig({
 				    'momentum',
 				    'momentum-and-forces',
 				    'impulse',
+				    'conservation-of-momentum',
 				]
 			    },
 			]

@@ -44,10 +44,10 @@ PHYSICS
 - [x] momentum
 - [x] momentum and force
 - [x] impulse
-- [ ] conservation of momentum
-- [ ] elastic collisions
-- [ ] inelastic collisions
-- [ ] explosions
+- [x] conservation of momentum
+- [ ] elastic collision
+- [ ] inelastic collision
+- [ ] explosion momentum
 
 - [ ] density
 
