@@ -12,10 +12,11 @@ const { editUrl } = Astro.locals.starlightRoute;
     <div class="meta">
 	<Pagination />
     </div>
+    <br/>
     <div>
-	dylancode.dev has over 450 articles and is still rapidly growing! Please do
+	dylancode.dev has over 450 articles and is still rapidly growing. Please do
 	feel free to
-	{ editUrl && (    <a href='{editUrl}'><b>contribute a page</b></a> )
+	{ editUrl && (    <a href={editUrl}><b>edit this page</b></a> )
 	}!
 	<br/>
 	I've put 200+ hours into our resources. Please

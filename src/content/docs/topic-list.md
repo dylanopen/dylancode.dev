@@ -45,7 +45,7 @@ PHYSICS
 - [x] momentum and force
 - [x] impulse
 - [x] conservation of momentum
-- [ ] elastic collision
+- [x] elastic collision
 - [ ] inelastic collision
 - [ ] explosion momentum
 
