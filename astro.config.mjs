@@ -705,6 +705,7 @@ export default defineConfig({
 				items: [
 				    'first-law-of-motion',
 				    'second-law-of-motion',
+				    'third-law-of-motion',
 				]
 			    },
 			]

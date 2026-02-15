@@ -38,8 +38,8 @@ PHYSICS
 - [x] terminal velocity
 
 - [x] first law of motion
-- [ ] second law of motion
-- [ ] third law of motion
+- [x] second law of motion
+- [x] third law of motion
 
 - [ ] momentum
 - [ ] momentum and force
