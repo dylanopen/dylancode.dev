@@ -5,6 +5,8 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math'
 import rehypeMathJax from 'rehype-mathjax'
 
+import icon from "astro-icon";
+
 // https://astro.build/config
 export default defineConfig({
     markdown: {
@@ -14,6 +16,7 @@ export default defineConfig({
     site: 'https://dylancode.dev',
 
     integrations: [starlight({
+
 	title: 'dylancode.dev',
 
 	head: [
@@ -21,7 +24,7 @@ export default defineConfig({
 		tag: 'script',
 		attrs: {
 		    defer: true,
-		    src: 'https://cloud.umami.is/script.js',
+		    src: '/um.js',
 		    'data-website-id': '529e56e4-f649-4030-a8ba-46fae5bec6b4',
 		},
 	    },
@@ -1111,5 +1114,5 @@ export default defineConfig({
 		]
 	    },
 	],
-    })],
+    }), icon()],
 });

@@ -6,7 +6,7 @@ hero:
   tagline: Programming and educational resources that anyone can understand 
   actions:
     - text: Explore Resources
-      link: /intro
+      link: /contents
       icon: open-book
       variant: primary
     - text: Contribute
@@ -16,6 +16,7 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Icon } from 'astro-icon/components'
 
 <style>{`
 h1 {
@@ -45,30 +46,24 @@ I hope our resources can help you!
 
 ## Navigating the site
 
-Please use the sidebar on the left 
+All finished resources are listed in the sidebar to the left of the page,
+organised by topic.
+
+You can also use the search button at the top left of the sidebar (or ctrl+k) to
+search for specific topics or keywords.
 
 ## What's there to see here?
 
-<br/><br/>
+I post guides on various things that I find interesting. For example:
 
-<CardGrid stagger>
-
-	<Card title="Programming guides" icon="seti:html">
-	    I often post articles and tutorials about various topics that interest me with programming.
-	    Check them out!
-	</Card>
-
-	<Card title="Complete courses" icon="document">
-	    Full course-style tutorial resources - all completely free.
-	</Card>
-
-	<Card title="Documentation" icon="add-document">
-	    Complete documentation for my projects.
-	</Card>
-
-	<Card title="Educational Resources" icon="open-book">
-	    Free, world-class educational resources, open to all with few restrictions.
-	</Card>
-
-</CardGrid>
+- Maths resources, primarily for A-level but also some GCSE-level content
+- Physics resources, also primarily for A-level but some GCSE-level content
+- Programming language tutorials, including:
+  - [C programming](/c/hello-world)
+  - [C# programming](/cs/hello-world)
+  - [RISC-V assembly](/riscv/smallest-program)
+  - ...and *many* more to come in the future.
+- Game server resources, including:
+  - My [Minecraft server optimisation guide](/minecraft/optimisation)
+  - A [PaperMC plugin coding tutorial series](/minecraft-plugin/project-setup)
 
