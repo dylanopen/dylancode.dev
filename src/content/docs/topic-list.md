@@ -30,8 +30,8 @@ PHYSICS
 - [ ] experiment to calculate g
 - [x] projectile motion
 - [x] vertical projectile motion
-- [ ] horizontal projectile motion
-- [ ] angled projectile motion
+- [x] horizontal projectile motion
+- [x] angled projectile motion
 - [ ] friction
 - [ ] drag
 - [ ] lift
