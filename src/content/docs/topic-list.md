@@ -37,7 +37,7 @@ PHYSICS
 - [ ] lift
 - [x] terminal velocity
 
-- [ ] first law of motion
+- [x] first law of motion
 - [ ] second law of motion
 - [ ] third law of motion
 

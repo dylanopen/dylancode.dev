@@ -699,6 +699,13 @@ export default defineConfig({
 				    'terminal-velocity',
 				]
 			    },
+			    {
+				label: 'Laws of motion',
+				collapsed: true,
+				items: [
+				    'first-law-of-motion',
+				]
+			    },
 			]
 		    },
 		    {
