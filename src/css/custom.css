@@ -94,10 +94,12 @@ h4 {
 	padding: 2px 5px;
     }
 
+    padding: 0;
     summary {
-	padding: 0px 5px;
+	padding: 0.25px 5px;
 	span {
-	    font-size: 0.95em;
+	    padding: 0px 0px;
+	    font-size: 0.925em;
 	}
     }
 }
@@ -173,7 +175,7 @@ footer {
 	    font-weight: 500;
 	}
     }
-    
+
     .body {
 	padding-left: 38px;
     }

@@ -704,6 +704,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'first-law-of-motion',
+				    'second-law-of-motion',
 				]
 			    },
 			]
