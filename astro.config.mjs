@@ -716,6 +716,7 @@ export default defineConfig({
 				    'momentum-and-forces',
 				    'impulse',
 				    'conservation-of-momentum',
+				    'elastic-collision',
 				]
 			    },
 			]
