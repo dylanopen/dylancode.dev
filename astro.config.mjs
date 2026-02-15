@@ -696,6 +696,7 @@ export default defineConfig({
 				items: [
 				    'friction',
 				    'drag',
+				    'terminal-velocity',
 				]
 			    },
 			]

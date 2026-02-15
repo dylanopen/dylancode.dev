@@ -35,7 +35,7 @@ PHYSICS
 - [x] friction
 - [x] drag
 - [ ] lift
-- [ ] terminal velocity
+- [x] terminal velocity
 
 - [ ] first law of motion
 - [ ] second law of motion
