@@ -677,6 +677,7 @@ export default defineConfig({
 				items: [
 				    'equations-for-uniform-acceleration',
 				    'gravitational-acceleration',
+				    'free-fall',
 				]
 			    }
 			]
