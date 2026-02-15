@@ -1,0 +1,67 @@
+---
+title: List of future topics for dylancode.dev
+---
+
+MATHS
+
+- [ ] disquised logarithm equations
+- [ ] exponential graphs
+- [ ] exponential graph gradient
+- [ ] base e exponentials
+- [ ] converting exponentials to base e
+- [ ] natural logarithm graphs
+- [ ] exponential growth
+- [ ] exponential decay
+- [ ] compound interest
+- [ ] logarithmic scale graphs
+
+- [ ] binomial expansion (definition)
+- [ ] binomial combination
+- [ ] common binomial values
+- [ ] binomial expansion of a single term
+- [ ] binomial theorem
+- [ ] binomial approximation
+- [x] binomial expansion using factorials
+
+PHYSICS
+
+- [ ] gravitational acceleration
+- [ ] free fall
+- [ ] experiment to calculate g
+- [ ] projectile motion
+- [ ] vertical projectile motion
+- [ ] horizontal projectile motion
+- [ ] angled projectile motion
+- [ ] friction
+- [ ] drag
+- [ ] lift
+- [ ] terminal velocity
+
+- [ ] first law of motion
+- [ ] second law of motion
+- [ ] third law of motion
+
+- [ ] momentum
+- [ ] momentum and force
+- [ ] impulse
+- [ ] conservation of momentum
+- [ ] elastic collisions
+- [ ] inelastic collisions
+- [ ] explosions
+
+- [ ] density
+
+- [ ] work done
+- [ ] calculating work done
+- [ ] force-displacement graphs
+- [ ] power
+- [ ] conservation of energy
+- [ ] efficiency
+- [ ] energy sources
+- [ ] energy forms
+- [ ] kinetic energy
+- [ ] gravitational potential energy
+
+- [ ] elastic potential energy
+- [ ] a load of other stuff I'm not yet sure about
+
