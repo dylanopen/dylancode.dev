@@ -28,7 +28,7 @@ PHYSICS
 - [x] gravitational acceleration
 - [x] free fall
 - [ ] experiment to calculate g
-- [ ] projectile motion
+- [x] projectile motion
 - [ ] vertical projectile motion
 - [ ] horizontal projectile motion
 - [ ] angled projectile motion

@@ -679,7 +679,14 @@ export default defineConfig({
 				    'gravitational-acceleration',
 				    'free-fall',
 				]
-			    }
+			    },
+			    {
+				label: 'Projectiles',
+				collapsed: true,
+				items: [
+				    'projectile-motion',
+				]
+			    },
 			]
 		    },
 		    {
