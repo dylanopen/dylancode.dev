@@ -669,7 +669,14 @@ export default defineConfig({
 				    'displacement-time-graph',
 				    'speed-time-graph',
 				    'velocity-time-graph',
+				]
+			    },
+			    {
+				label: 'Acceleration',
+				collapsed: true,
+				items: [
 				    'equations-for-uniform-acceleration',
+				    'gravitational-acceleration',
 				]
 			    }
 			]

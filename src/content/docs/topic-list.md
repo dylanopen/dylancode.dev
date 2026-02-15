@@ -25,7 +25,7 @@ MATHS
 
 PHYSICS
 
-- [ ] gravitational acceleration
+- [x] gravitational acceleration
 - [ ] free fall
 - [ ] experiment to calculate g
 - [ ] projectile motion
