@@ -708,6 +708,13 @@ export default defineConfig({
 				    'third-law-of-motion',
 				]
 			    },
+			    {
+				label: 'Momentum',
+				collapsed: true,
+				items: [
+				    'momentum',
+				]
+			    },
 			]
 		    },
 		    {

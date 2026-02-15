@@ -41,7 +41,7 @@ PHYSICS
 - [x] second law of motion
 - [x] third law of motion
 
-- [ ] momentum
+- [x] momentum
 - [ ] momentum and force
 - [ ] impulse
 - [ ] conservation of momentum
