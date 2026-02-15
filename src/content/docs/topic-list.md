@@ -29,7 +29,7 @@ PHYSICS
 - [x] free fall
 - [ ] experiment to calculate g
 - [x] projectile motion
-- [ ] vertical projectile motion
+- [x] vertical projectile motion
 - [ ] horizontal projectile motion
 - [ ] angled projectile motion
 - [ ] friction

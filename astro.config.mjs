@@ -686,6 +686,7 @@ export default defineConfig({
 				items: [
 				    'projectile-motion',
 				    'vertical-projectile-motion',
+				    'horizontal-projectile-motion',
 				]
 			    },
 			]
