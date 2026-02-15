@@ -688,7 +688,14 @@ export default defineConfig({
 				    'vertical-projectile-motion',
 				    'horizontal-projectile-motion',
 				    'angled-projectile-motion',
+				]
+			    },
+			    {
+				label: 'Resistive forces',
+				collapsed: true,
+				items: [
 				    'friction',
+				    'drag',
 				]
 			    },
 			]

@@ -32,8 +32,8 @@ PHYSICS
 - [x] vertical projectile motion
 - [x] horizontal projectile motion
 - [x] angled projectile motion
-- [ ] friction
-- [ ] drag
+- [x] friction
+- [x] drag
 - [ ] lift
 - [ ] terminal velocity
 
