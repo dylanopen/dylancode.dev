@@ -713,6 +713,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'momentum',
+				    'momentum-and-forces',
 				]
 			    },
 			]
