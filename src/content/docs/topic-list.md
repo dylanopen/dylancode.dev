@@ -42,8 +42,8 @@ PHYSICS
 - [x] third law of motion
 
 - [x] momentum
-- [ ] momentum and force
-- [ ] impulse
+- [x] momentum and force
+- [x] impulse
 - [ ] conservation of momentum
 - [ ] elastic collisions
 - [ ] inelastic collisions
