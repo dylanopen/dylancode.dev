@@ -8,7 +8,7 @@ MATHS
 - [x] exponential graphs
 - [x] exponential graph gradient
 - [x] base e exponentials
-- [ ] converting exponentials to base e
+- [x] converting exponentials to base e
 - [ ] natural logarithm graphs
 - [ ] exponential growth
 - [ ] exponential decay
