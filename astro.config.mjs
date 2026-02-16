@@ -754,6 +754,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'energy-forms',
+				    'kinetic-energy',
 				]
 			    },
 			]

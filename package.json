@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@astrojs/partytown": "^2.1.4",
-    "@astrojs/starlight": "^0.36.2",
+    "@astrojs/starlight": "^0.37.6",
     "@catppuccin/starlight": "^1.0.2",
     "@fontsource/poppins": "^5.2.7",
     "@iconify-json/mdi": "^1.2.3",
-    "astro": "^5.16.0",
+    "astro": "^5.17.2",
     "astro-icon": "^1.1.5",
     "rehype-mathjax": "^7.1.0",
     "remark-math": "^6.0.0",
