@@ -4,7 +4,7 @@ title: List of future topics for dylancode.dev
 
 MATHS
 
-- [ ] disquised logarithm equations
+- [x] disguised logarithm equations
 - [ ] exponential graphs
 - [ ] exponential graph gradient
 - [ ] base e exponentials
@@ -47,7 +47,7 @@ PHYSICS
 - [x] conservation of momentum
 - [x] elastic collision
 - [x] inelastic collision
-- [ ] explosion momentum
+- [x] explosion momentum
 
 - [ ] density
 

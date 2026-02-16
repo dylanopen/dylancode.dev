@@ -249,6 +249,7 @@ export default defineConfig({
 				    'multiplying-logarithms-by-a-constant',
 				    'converting-exponentials-into-logarithms',
 				    'converting-logarithms-into-exponentials',
+				    'disguised-logarithm-equations',
 				]
 			    },
 			    {
