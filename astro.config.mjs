@@ -258,6 +258,7 @@ export default defineConfig({
 				items: [
 				    'exponential-graph',
 				    'exponential-graph-gradient',
+				    'base-e-exponentials',
 				]
 			    },
 			    {

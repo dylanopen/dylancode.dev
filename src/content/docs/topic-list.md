@@ -7,7 +7,7 @@ MATHS
 - [x] disguised logarithm equations
 - [x] exponential graphs
 - [x] exponential graph gradient
-- [ ] base e exponentials
+- [x] base e exponentials
 - [ ] converting exponentials to base e
 - [ ] natural logarithm graphs
 - [ ] exponential growth
