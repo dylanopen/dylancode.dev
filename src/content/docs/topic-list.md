@@ -55,7 +55,7 @@ PHYSICS
 - [x] calculating work done
 - [ ] work done at an angle
 - [x] force-displacement graphs
-- [ ] power
+- [x] power
 - [ ] conservation of energy
 - [ ] efficiency
 - [ ] energy sources

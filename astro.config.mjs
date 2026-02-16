@@ -740,6 +740,7 @@ export default defineConfig({
 				label: 'Energy',
 				collapsed: true,
 				items: [
+				    'power',
 				    'work-done',
 				    'calculating-work-done',
 				    'work-done-and-power',
