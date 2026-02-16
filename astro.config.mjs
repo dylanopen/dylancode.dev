@@ -736,6 +736,13 @@ export default defineConfig({
 				    'explosion-momentum',
 				]
 			    },
+			    {
+				label: 'Energy',
+				collapsed: true,
+				items: [
+				    'work-done',
+				]
+			    },
 			]
 		    },
 		    {
