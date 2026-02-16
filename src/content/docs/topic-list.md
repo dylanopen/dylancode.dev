@@ -59,7 +59,7 @@ PHYSICS
 - [x] conservation of energy
 - [x] efficiency
 - [ ] energy sources
-- [ ] energy forms
+- [x] energy forms
 - [ ] kinetic energy
 - [ ] gravitational potential energy
 

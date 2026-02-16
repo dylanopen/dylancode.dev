@@ -749,6 +749,13 @@ export default defineConfig({
 				    'efficiency',
 				]
 			    },
+			    {
+				label: 'Energy forms',
+				collapsed: true,
+				items: [
+				    'energy-forms',
+				]
+			    },
 			]
 		    },
 		    {
