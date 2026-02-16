@@ -279,6 +279,7 @@ export default defineConfig({
 				    'common-binomial-expansions',
 				    'binomial-combination',
 				    'binomial-expansion-by-factorial',
+				    'binomial-theorem',
 				]
 			    },
 			]

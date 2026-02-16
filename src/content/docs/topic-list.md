@@ -18,8 +18,8 @@ MATHS
 - [x] binomial expansion (definition)
 - [x] binomial combination
 - [x] common binomial values
-- [ ] binomial expansion of a single term
-- [ ] binomial theorem
+- [x] binomial expansion of a single term
+- [x] binomial theorem
 - [ ] binomial approximation
 - [x] binomial expansion using factorials
 
