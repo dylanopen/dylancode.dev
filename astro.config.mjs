@@ -257,6 +257,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'exponential-graph',
+				    'exponential-graph-gradient',
 				]
 			    },
 			    {
