@@ -17,7 +17,7 @@ MATHS
 
 - [x] binomial expansion (definition)
 - [x] binomial combination
-- [ ] common binomial values
+- [x] common binomial values
 - [ ] binomial expansion of a single term
 - [ ] binomial theorem
 - [ ] binomial approximation

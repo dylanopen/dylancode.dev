@@ -35,6 +35,6 @@ To get the $10$ in the 5th row, we add the $4$ and the $6$ above it.
 
 ## Common binomial values
 
-If you look at the [common binomial values](/common-binomial-values), you'll
-see this pattern more clearly!
+If you look at the [common binomial expansions](/common-binomial-expansions),
+you'll see this pattern more clearly!
 
