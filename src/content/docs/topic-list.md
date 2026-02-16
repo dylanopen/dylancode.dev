@@ -46,7 +46,7 @@ PHYSICS
 - [x] impulse
 - [x] conservation of momentum
 - [x] elastic collision
-- [ ] inelastic collision
+- [x] inelastic collision
 - [ ] explosion momentum
 
 - [ ] density

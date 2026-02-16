@@ -718,6 +718,7 @@ export default defineConfig({
 				    'conservation-of-momentum',
 				    'elastic-collision',
 				    'inelastic-collision',
+				    'explosion-momentum',
 				]
 			    },
 			]
