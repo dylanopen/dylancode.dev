@@ -51,8 +51,9 @@ PHYSICS
 
 - [ ] density
 
-- [ ] work done
-- [ ] calculating work done
+- [x] work done
+- [x] calculating work done
+- [ ] work done at an angle
 - [ ] force-displacement graphs
 - [ ] power
 - [ ] conservation of energy

@@ -741,6 +741,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'work-done',
+				    'calculating-work-done',
 				]
 			    },
 			]
