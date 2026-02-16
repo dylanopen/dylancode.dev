@@ -743,6 +743,7 @@ export default defineConfig({
 				    'work-done',
 				    'calculating-work-done',
 				    'work-done-and-power',
+				    'force-displacement-graph',
 				]
 			    },
 			]

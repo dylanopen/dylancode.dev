@@ -6,6 +6,10 @@ title: Work done
 
 Work done is the same as the *energy transferred* to the object.
 
+> Anywhere where we have a change of energy (e.g. in all the kinetic,
+> gravitational potential, etc. energy formulas) we can replace the energy with
+> work done!
+
 ## Units
 
 Because work done is just another way of saying energy transferred, it has the
