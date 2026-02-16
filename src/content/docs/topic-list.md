@@ -60,8 +60,8 @@ PHYSICS
 - [x] efficiency
 - [ ] energy sources
 - [x] energy forms
-- [ ] kinetic energy
-- [ ] gravitational potential energy
+- [x] kinetic energy
+- [x] gravitational potential energy
 
 - [ ] elastic potential energy
 - [ ] a load of other stuff I'm not yet sure about

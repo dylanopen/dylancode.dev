@@ -755,6 +755,7 @@ export default defineConfig({
 				items: [
 				    'energy-forms',
 				    'kinetic-energy',
+				    'gravitational-potential-energy',
 				]
 			    },
 			]
