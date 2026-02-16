@@ -742,6 +742,7 @@ export default defineConfig({
 				items: [
 				    'work-done',
 				    'calculating-work-done',
+				    'work-done-and-power',
 				]
 			    },
 			]
