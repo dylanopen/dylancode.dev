@@ -56,8 +56,8 @@ PHYSICS
 - [ ] work done at an angle
 - [x] force-displacement graphs
 - [x] power
-- [ ] conservation of energy
-- [ ] efficiency
+- [x] conservation of energy
+- [x] efficiency
 - [ ] energy sources
 - [ ] energy forms
 - [ ] kinetic energy
