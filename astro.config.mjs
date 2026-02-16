@@ -745,6 +745,7 @@ export default defineConfig({
 				    'calculating-work-done',
 				    'work-done-and-power',
 				    'force-displacement-graph',
+				    'conservation-of-energy',
 				]
 			    },
 			]
