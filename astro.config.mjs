@@ -276,6 +276,7 @@ export default defineConfig({
 				items: [
 				    'binomial-expansion',
 				    'binomial-expansion-by-factorial',
+				    'binomial-combination',
 				]
 			    },
 			]

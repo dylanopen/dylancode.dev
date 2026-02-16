@@ -15,8 +15,8 @@ MATHS
 - [ ] compound interest
 - [ ] logarithmic scale graphs
 
-- [ ] binomial expansion (definition)
-- [ ] binomial combination
+- [x] binomial expansion (definition)
+- [x] binomial combination
 - [ ] common binomial values
 - [ ] binomial expansion of a single term
 - [ ] binomial theorem
