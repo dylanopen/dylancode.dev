@@ -5,7 +5,7 @@ title: List of future topics for dylancode.dev
 MATHS
 
 - [x] disguised logarithm equations
-- [ ] exponential graphs
+- [x] exponential graphs
 - [ ] exponential graph gradient
 - [ ] base e exponentials
 - [ ] converting exponentials to base e

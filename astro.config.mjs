@@ -253,6 +253,13 @@ export default defineConfig({
 				]
 			    },
 			    {
+				label: 'Exponential functions',
+				collapsed: true,
+				items: [
+				    'exponential-graph',
+				]
+			    },
+			    {
 				label: 'Proportionality',
 				collapsed: true,
 				items: [
