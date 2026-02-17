@@ -514,6 +514,7 @@ export default defineConfig({
 				items: [
 				    'ellipse',
 				    'hyperbola',
+				    'parabola',
 				]
 			    },
 			    {
