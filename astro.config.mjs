@@ -509,6 +509,13 @@ export default defineConfig({
 				]
 			    },
 			    {
+				label: 'Conic sections',
+				collapsed: true,
+				items: [
+				    'ellipse',
+				]
+			    },
+			    {
 				label: 'Hyperbolic functions',
 				collapsed: true,
 				items: [
