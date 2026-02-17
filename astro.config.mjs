@@ -513,6 +513,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'ellipse',
+				    'hyperbola',
 				]
 			    },
 			    {
