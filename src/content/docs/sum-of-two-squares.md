@@ -58,3 +58,25 @@ Therefore, we've proven that $(a + bi)(a - bi) = a^2 + b^2$!
 - $= 9x^2 + 16$
 - Answer: $9x^2 + 16$
 
+## To quartics and beyond
+
+Some quartics (and higher degree polynomials) can also be factorised as a sum of
+two squares, because they're really just [disguised quadratics](/solving-disguised-quadratics).
+
+We can solve these in just the same way.
+
+### Factorise $x^4 + 16$.
+
+- $a^2 + b^2 = (a + bi)(a - bi)$
+- $a = x^2$
+- $b = 4$
+- $x^4 + 16 = (x^2 + 4i)(x^2 - 4i)$
+- Answer: $(x^2 + 4i)(x^2 - 4i)$
+
+### Expand $(x^2 + 4i)(x^2 - 4i)$.
+
+- $(x^2 + 4i)(x^2 - 4i) = x^4 - 4ix^2 + 4ix^2 - 16i^2$
+- $= x^4 - 16(-1)$
+- $= x^4 + 16$
+- Answer: $x^4 + 16$
+
