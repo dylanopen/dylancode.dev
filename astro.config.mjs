@@ -439,6 +439,7 @@ export default defineConfig({
 				    'factorising-polynomials-with-complex-roots',
 				    'imaginary-constant',
 				    'multiplying-a-complex-number-by-its-conjugate',
+				    'sum-of-two-squares',
 				]
 			    },
 			    {
