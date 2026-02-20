@@ -1012,6 +1012,7 @@ export default defineConfig({
 			    'network-switch',
 			    'types-of-server-hosting',
 			    'wide-area-network',
+			    'serial-transmission',
 			]
 		    }
 		]
