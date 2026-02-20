@@ -43,5 +43,5 @@ different components.
 Outside of internal buses, parallel transmission is almost never used in the
 modern world because it's just not worth the many disadvantages. You'll see
 it a lot in older connections, because back then they thought that parallel
-was the future... it wasn't :)
+was the future... turns out it wasn't :)
 

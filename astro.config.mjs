@@ -1014,6 +1014,7 @@ export default defineConfig({
 			    'wide-area-network',
 			    'serial-transmission',
 			    'parallel-transmission',
+			    'synchronous-transmission',
 			]
 		    }
 		]
