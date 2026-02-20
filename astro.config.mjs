@@ -1013,6 +1013,7 @@ export default defineConfig({
 			    'types-of-server-hosting',
 			    'wide-area-network',
 			    'serial-transmission',
+			    'parallel-transmission',
 			]
 		    }
 		]
