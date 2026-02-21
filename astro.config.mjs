@@ -1015,6 +1015,7 @@ export default defineConfig({
 			    'serial-transmission',
 			    'parallel-transmission',
 			    'synchronous-transmission',
+			    'asynchronous-transmission',
 			]
 		    }
 		]
