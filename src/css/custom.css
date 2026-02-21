@@ -2,7 +2,7 @@
     --sl-sidebar-width: calc(10% + 200px);
     --sl-color-black: #0c0c0c;
     --sl-color-bg-nav: #0c0c0c;
-    --sl-color-white: #fff;
+    --sl-color-white: #bfbfbf;
     --sl-color-bg-sidebar: #0c0c0c;
     --sl-color-active-sidebar: #f00;
     --sl-color-hairline-shade: #23262f;
@@ -18,7 +18,7 @@
     --sl-color-text-invert: #000;
     --sl-color-gray-1: #eee;
     --sl-color-gray-2: #ddd;
-    --sl-color-gray-3: #aaa;
+    --sl-color-gray-3: #ccc;
     --sl-color-gray-4: #bbb;
     --sl-content-width: 65rem;
 }
@@ -48,7 +48,7 @@
     }
 
     a:link {
-	color: #5ba0f0;
+	color: var(--sl-color-text-accent);
     }
 
     a:visited {
@@ -95,6 +95,9 @@ h4 {
 	font-size: 0.75em;
 	padding: 2px 5px;
     }
+    a:hover {
+	color: #fff;
+    }
 
     padding: 0;
     summary {
@@ -102,6 +105,11 @@ h4 {
 	span {
 	    padding: 0px 0px;
 	    font-size: 0.925em;
+	    font-weight: 500;
+	    color: #aaa;
+	}
+	span:hover {
+	    color: #fff;
 	}
     }
 }

@@ -1005,20 +1005,65 @@ export default defineConfig({
 			label: 'Networks',
 			collapsed: true,
 			items: [
-			    'network-interface-card',
-			    'local-area-network',
-			    'server',
-			    'client',
-			    'network-switch',
-			    'types-of-server-hosting',
-			    'wide-area-network',
-			    'serial-transmission',
-			    'parallel-transmission',
-			    'synchronous-transmission',
-			    'asynchronous-transmission',
-			    'baud-rate',
-			    'bit-rate',
-			    'bandwidth',
+			    {
+				label: 'Servers and clients',
+				collapsed: true,
+				items: [
+				    'server',
+				    'client',
+				    // 'client-server-network',
+				    // 'peer-to-peer-network',
+				]
+			    },
+			    {
+				label: 'Network scale',
+				collapsed: true,
+				items: [
+				    'local-area-network',
+				    'wide-area-network',
+				]
+			    },
+			    {
+				label: 'Network hardware',
+				collapsed: true,
+				items: [
+				    'network-interface-card',
+				    'network-switch',
+				]
+			    },
+			    {
+				label: 'Transmission methods',
+				collapsed: true,
+				items: [
+				    'serial-transmission',
+				    'parallel-transmission',
+				    'synchronous-transmission',
+				    'asynchronous-transmission',
+				]
+			    },
+			    {
+				label: 'Data transfer rates',
+				collapsed: true,
+				items: [
+				    'baud-rate',
+				    'bit-rate',
+				    'bandwidth',
+				]
+			    },
+			    {
+				label: 'Latency',
+				collapsed: true,
+				items: [
+				    'latency',
+				]
+			    },
+			    {
+				label: 'Server hosting',
+				collapsed: true,
+				items: [
+				    'types-of-server-hosting',
+				]
+			    },
 			]
 		    }
 		]
