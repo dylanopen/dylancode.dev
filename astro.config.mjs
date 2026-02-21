@@ -1016,6 +1016,7 @@ export default defineConfig({
 			    'parallel-transmission',
 			    'synchronous-transmission',
 			    'asynchronous-transmission',
+			    'baud-rate',
 			]
 		    }
 		]
