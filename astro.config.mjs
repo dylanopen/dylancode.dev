@@ -1055,6 +1055,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'latency',
+				    'ping-latency',
 				]
 			    },
 			    {
