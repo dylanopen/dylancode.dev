@@ -1018,6 +1018,7 @@ export default defineConfig({
 			    'asynchronous-transmission',
 			    'baud-rate',
 			    'bit-rate',
+			    'bandwidth',
 			]
 		    }
 		]
