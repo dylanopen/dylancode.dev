@@ -422,6 +422,19 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Statistics',
+			collapsed: true,
+			items: [
+			    {
+				label: 'Sampling strategies',
+				collapsed: true,
+				items: [
+				    'census',
+				]
+			    }
+			]
+		    },
+		    {
 			label: 'Further',
 			collapsed: true,
 			items: [
