@@ -430,6 +430,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'census',
+				    'simple-random-sampling',
 				]
 			    }
 			]
