@@ -432,6 +432,7 @@ export default defineConfig({
 				    'census',
 				    'simple-random-sampling',
 				    'systematic-sampling',
+				    'opportunity-sampling',
 				]
 			    }
 			]
