@@ -434,6 +434,7 @@ export default defineConfig({
 				    'systematic-sampling',
 				    'opportunity-sampling',
 				    'stratified-sampling',
+				    'quota-sampling',
 				]
 			    }
 			]
