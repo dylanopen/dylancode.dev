@@ -433,6 +433,7 @@ export default defineConfig({
 				    'simple-random-sampling',
 				    'systematic-sampling',
 				    'opportunity-sampling',
+				    'stratified-sampling',
 				]
 			    }
 			]
