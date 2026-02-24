@@ -102,13 +102,16 @@ h4 {
     padding: 0;
     summary {
 	padding: 0.25px 5px;
+
 	span {
 	    padding: 0px 0px;
 	    font-size: 0.925em;
 	    font-weight: 500;
-	    color: #aaa;
+	color: #aaa;
 	}
-	span:hover {
+    }
+    summary:hover {
+	span {
 	    color: #fff;
 	}
     }
