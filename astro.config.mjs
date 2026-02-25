@@ -889,6 +889,13 @@ export default defineConfig({
 				    'uses-of-polarisation',
 				]
 			    },
+			    {
+				label: 'Stationary waves',
+				collapsed: true,
+				items: [
+				    'stationary-wave',
+				]
+			    },
 			    'oscilloscope',
 			    'speed-of-electromagnetic-wave',
 			]
