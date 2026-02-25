@@ -547,6 +547,13 @@ export default defineConfig({
 				    'polar-to-cartesian-coordinates',
 				    'cartesian-to-polar-coordinates',
 				]
+			    },
+			    {
+				label: 'Volume of revolution',
+				collapsed: true,
+				items: [
+				    'volume-of-revolution',
+				]
 			    }
 			]
 		    },
