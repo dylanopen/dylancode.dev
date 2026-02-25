@@ -553,6 +553,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'volume-of-revolution',
+				    'volume-of-revolution-formula',
 				]
 			    }
 			]
