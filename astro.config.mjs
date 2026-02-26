@@ -442,6 +442,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'median',
+				    'mean',
 				]
 			    },
 			    {
