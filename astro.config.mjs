@@ -438,11 +438,10 @@ export default defineConfig({
 				]
 			    },
 			    {
-				label: 'Standard deviation',
+				label: 'Central tendency',
 				collapsed: true,
 				items: [
-				    'variance',
-				    'standard-deviation',
+				    'median',
 				]
 			    },
 			    {
@@ -450,6 +449,14 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'range',
+				]
+			    },
+			    {
+				label: 'Standard deviation',
+				collapsed: true,
+				items: [
+				    'variance',
+				    'standard-deviation',
 				]
 			    },
 			]
