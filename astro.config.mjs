@@ -579,6 +579,7 @@ export default defineConfig({
 				items: [
 				    'volume-of-revolution',
 				    'volume-of-revolution-formula',
+				    'volume-of-revolution-between-lines',
 				]
 			    }
 			]
