@@ -444,7 +444,14 @@ export default defineConfig({
 				    'variance',
 				    'standard-deviation',
 				]
-			    }
+			    },
+			    {
+				label: 'Range',
+				collapsed: true,
+				items: [
+				    'range',
+				]
+			    },
 			]
 		    },
 		    {
