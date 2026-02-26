@@ -436,6 +436,13 @@ export default defineConfig({
 				    'stratified-sampling',
 				    'quota-sampling',
 				]
+			    },
+			    {
+				label: 'Standard deviation',
+				collapsed: true,
+				items: [
+				    'variance',
+				]
 			    }
 			]
 		    },
