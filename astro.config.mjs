@@ -443,6 +443,7 @@ export default defineConfig({
 				items: [
 				    'median',
 				    'mean',
+				    'mode',
 				]
 			    },
 			    {
