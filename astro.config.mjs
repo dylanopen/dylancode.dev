@@ -451,6 +451,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'range',
+				    'interquartile-range',
 				]
 			    },
 			    {
