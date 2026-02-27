@@ -596,6 +596,7 @@ export default defineConfig({
 				    'discrete-random-variable',
 				    'random-variable-expectation',
 				    'discrete-random-variance',
+				    'discrete-random-mode',
 				]
 			    },
 			]
