@@ -585,7 +585,7 @@ export default defineConfig({
 				label: 'Discrete random variables',
 				collapsed: true,
 				items: [
-				    
+				    'random-variable',
 				]
 			    },
 			]
