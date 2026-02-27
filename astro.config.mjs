@@ -58,7 +58,6 @@ export default defineConfig({
 	    {
 		label: 'Maths',
 		collapsed: true,
-
 		items: [
 		    {
 			label: 'Number',
@@ -422,49 +421,6 @@ export default defineConfig({
 			]
 		    },
 		    {
-			label: 'Statistics',
-			collapsed: true,
-			items: [
-			    {
-				label: 'Sampling strategies',
-				collapsed: true,
-				items: [
-				    'census',
-				    'simple-random-sampling',
-				    'systematic-sampling',
-				    'opportunity-sampling',
-				    'stratified-sampling',
-				    'quota-sampling',
-				]
-			    },
-			    {
-				label: 'Central tendency',
-				collapsed: true,
-				items: [
-				    'median',
-				    'mean',
-				    'mode',
-				]
-			    },
-			    {
-				label: 'Range',
-				collapsed: true,
-				items: [
-				    'range',
-				    'interquartile-range',
-				]
-			    },
-			    {
-				label: 'Standard deviation',
-				collapsed: true,
-				items: [
-				    'variance',
-				    'standard-deviation',
-				]
-			    },
-			]
-		    },
-		    {
 			label: 'Further',
 			collapsed: true,
 			items: [
@@ -582,6 +538,56 @@ export default defineConfig({
 				    'volume-of-revolution-between-lines',
 				]
 			    }
+			]
+		    },
+		    {
+			label: 'Statistics',
+			collapsed: true,
+			items: [
+			    {
+				label: 'Sampling strategies',
+				collapsed: true,
+				items: [
+				    'census',
+				    'simple-random-sampling',
+				    'systematic-sampling',
+				    'opportunity-sampling',
+				    'stratified-sampling',
+				    'quota-sampling',
+				]
+			    },
+			    {
+				label: 'Central tendency',
+				collapsed: true,
+				items: [
+				    'median',
+				    'mean',
+				    'mode',
+				]
+			    },
+			    {
+				label: 'Range',
+				collapsed: true,
+				items: [
+				    'range',
+				    'interquartile-range',
+				]
+			    },
+			    {
+				label: 'Standard deviation',
+				collapsed: true,
+				items: [
+				    'variance',
+				    'standard-deviation',
+				]
+			    },
+			    {
+				label: 'Discrete random variables',
+				collapsed: true,
+				items: [
+				    
+				]
+			    },
 			]
 		    },
 		    {
