@@ -582,10 +582,18 @@ export default defineConfig({
 				]
 			    },
 			    {
-				label: 'Discrete random variables',
+				label: 'Variable categorisation',
 				collapsed: true,
 				items: [
 				    'random-variable',
+				    'discrete-variable',
+				]
+			    },
+			    {
+				label: 'Discrete random variables',
+				collapsed: true,
+				items: [
+				    'discrete-random-variable',
 				]
 			    },
 			]
