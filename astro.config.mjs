@@ -594,6 +594,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'discrete-random-variable',
+				    'random-variable-expectation',
 				]
 			    },
 			]
