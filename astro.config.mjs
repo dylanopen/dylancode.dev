@@ -949,6 +949,7 @@ export default defineConfig({
 			    },
 			    'oscilloscope',
 			    'speed-of-electromagnetic-wave',
+			    'waves-revision',
 			]
 		    }
 		]
