@@ -597,6 +597,7 @@ export default defineConfig({
 				    'random-variable-expectation',
 				    'discrete-random-variance',
 				    'discrete-random-mode',
+				    'discrete-random-median',
 				]
 			    },
 			]
