@@ -598,6 +598,7 @@ export default defineConfig({
 				    'discrete-random-variance',
 				    'discrete-random-mode',
 				    'discrete-random-median',
+				    'transforming-discrete-random-probabilities',
 				]
 			    },
 			]
