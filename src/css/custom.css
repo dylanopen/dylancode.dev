@@ -91,9 +91,15 @@ h4 {
 }
 
 .sidebar {
+    ul {
+	li {
+	    margin: 2px 0px;
+	}
+    }
+
     a {
 	font-size: 0.75em;
-	padding: 2px 5px;
+	padding: 1.5px 5px;
     }
     a:hover {
 	color: #fff;
@@ -101,13 +107,13 @@ h4 {
 
     padding: 0;
     summary {
-	padding: 0.25px 5px;
+	padding: 0;
 
 	span {
 	    padding: 0px 0px;
 	    font-size: 0.925em;
 	    font-weight: 500;
-	color: #aaa;
+	    color: #aaa;
 	}
     }
     summary:hover {
