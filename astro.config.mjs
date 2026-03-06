@@ -568,6 +568,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Probability',
+			collapsed: true,
+			items: [
+			    'mutually-exclusive-events',
+			]
+		    }
+		    {
 			label: 'Variable categorisation',
 			collapsed: true,
 			items: [
