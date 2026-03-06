@@ -1,5 +1,5 @@
 ---
-title: Mutually exclusive or
+title: Mutually exclusive union
 ---
 
 If we know that event A and event B are mutually exclusive, the probability of
