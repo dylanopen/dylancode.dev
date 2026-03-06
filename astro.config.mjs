@@ -573,6 +573,7 @@ export default defineConfig({
 			items: [
 			    'mutually-exclusive-events',
 			    'mutually-exclusive-union',
+			    'non-mutually-exclusive-events',
 			    'non-mutually-exclusive-union',
 			]
 		    },
