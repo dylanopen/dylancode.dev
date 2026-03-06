@@ -572,8 +572,9 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'mutually-exclusive-events',
+			    'mutually-exclusive-or',
 			]
-		    }
+		    },
 		    {
 			label: 'Variable categorisation',
 			collapsed: true,
