@@ -957,6 +957,7 @@ export default defineConfig({
 				items: [
 				    'photon',
 				    'photon-energy',
+				    'photon-power',
 				]
 			    },
 			]

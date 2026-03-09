@@ -11,9 +11,13 @@ Planck's contant:
 
 Where:
 - $E$ is the energy of the photon (in joules)
-- $h$ is [Planck's constant](/planck-constant), which is approximately $6.626
+- $h$ is [Planck's constant](/planck-constant), which is approximately $6.63
   \times 10^{-34}$ joule-seconds
 - $f$ is the frequency of the photon (in hertz)
+
+*Remember, this finds the energy of **a single photon**. If you have a beam of
+light, you would need to multiply this by the number of photons in the beam to
+find the total energy.*
 
 ## Finding from wavelength
 
@@ -28,7 +32,7 @@ wavelength:
 
 Where:
 - $E$ is the energy of the photon (in joules)
-- $h$ is [Planck's constant](/planck-constant), which is approximately $6.626
+- $h$ is [Planck's constant](/planck-constant), which is approximately $6.63
   \times 10^{-34}$ joule-seconds
 - $c$ is the speed of light (approximately $3.00 \times 10^8$ meters per second)
 - $\lambda$ is the wavelength of the photon (in meters)
