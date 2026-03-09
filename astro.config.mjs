@@ -956,6 +956,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'photon',
+				    'photon-energy',
 				]
 			    },
 			]
