@@ -939,7 +939,20 @@ export default defineConfig({
 			    'speed-of-electromagnetic-wave',
 			    'waves-revision',
 			]
-		    }
+		    },
+		    {
+			label: 'Particles',
+			collapsed: true,
+			items: [
+			    {
+				label: 'Electromagnetic spectrum',
+				collapsed: true,
+				items: [
+				    'electromagnetic-spectrum',
+				]
+			    },
+			]
+		    },
 		]
 	    },
 	    {
