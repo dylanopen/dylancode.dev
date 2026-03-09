@@ -951,6 +951,13 @@ export default defineConfig({
 				    'electromagnetic-spectrum',
 				]
 			    },
+			    {
+				label: 'Photons',
+				collapsed: true,
+				items: [
+				    'photon',
+				]
+			    },
 			]
 		    },
 		]
