@@ -1118,6 +1118,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Analogue and digital',
+			collapsed: true,
+			items: [
+			    'analogue-signal',
+			]
+		    },
+		    {
 			label: 'Networks',
 			collapsed: true,
 			items: [
