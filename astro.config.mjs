@@ -575,6 +575,7 @@ export default defineConfig({
 			    'mutually-exclusive-union',
 			    'non-mutually-exclusive-events',
 			    'non-mutually-exclusive-union',
+			    'independent-events',
 			]
 		    },
 		    {
