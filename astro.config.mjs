@@ -1122,6 +1122,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'analogue-signal',
+			    'digital-signal',
 			]
 		    },
 		    {
