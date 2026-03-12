@@ -1107,6 +1107,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Bitmap images',
+			collapsed: true,
+			items: [
+			    'bitmap-image',
+			]
+		    },
+		    {
 			label: 'Networks',
 			collapsed: true,
 			items: [
