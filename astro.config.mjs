@@ -1063,6 +1063,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Data error checking',
+			collapsed: true,
+			items: [
+			    'data-error-checking',
+			]
+		    },
+		    {
 			label: 'Binary',
 			collapsed: true,
 			items: [
