@@ -981,7 +981,7 @@ export default defineConfig({
 		]
 	    },
 	    {
-		label: 'Computing',
+		label: 'Computer science',
 		collapsed: true,
 		items: [
 		    {
@@ -1052,6 +1052,13 @@ export default defineConfig({
 			    'converting-bytes-to-bits',
 			    'decimal-prefixes',
 			    'binary-prefixes',
+			]
+		    },
+		    {
+			label: 'Text encoding',
+			collapsed: true,
+			items: [
+			    'text-encoding',
 			]
 		    },
 		    {
