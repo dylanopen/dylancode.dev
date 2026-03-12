@@ -4,7 +4,7 @@ title: Digital sampling
 
 When we *sample* an analogue signal, we take measurements of the analogue signal
 at regular intervals.  
-That means that we measure the value of the analogue signal every, say,
+That means that we measure the **amplitude** of the analogue signal every, say,
 1/44,100th of a second. We then convert those measurements each into a digital
 signal, which gives us a digital 'equivalent' of the analogue signal.
 

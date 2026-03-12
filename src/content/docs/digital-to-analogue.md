@@ -1,5 +1,5 @@
 ---
-title: Digital to analogue
+title: Digital to analogue conversion
 ---
 
 If we have a digital signal, we can convert it into an analogue signal using a

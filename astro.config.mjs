@@ -1126,6 +1126,13 @@ export default defineConfig({
 			    'analogue-to-digital',
 			    'digital-to-analogue',
 			    'digital-sampling',
+			    {
+				label: 'Sound',
+				collapsed: true,
+				items: [
+				    'sound-storage',
+				]
+			    }
 			]
 		    },
 		    {
