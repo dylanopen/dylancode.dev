@@ -1067,6 +1067,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'data-error-checking',
+			    'parity-bit',
 			]
 		    },
 		    {
