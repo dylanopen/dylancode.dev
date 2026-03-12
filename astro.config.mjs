@@ -1125,6 +1125,7 @@ export default defineConfig({
 			    'digital-signal',
 			    'analogue-to-digital',
 			    'digital-to-analogue',
+			    'digital-sampling',
 			]
 		    },
 		    {
