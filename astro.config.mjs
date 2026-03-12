@@ -1111,6 +1111,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'bitmap-image',
+			    'bitmap-metadata',
 			]
 		    },
 		    {
