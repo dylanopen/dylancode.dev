@@ -1068,6 +1068,7 @@ export default defineConfig({
 			items: [
 			    'data-error-checking',
 			    'parity-bit',
+			    'majority-voting',
 			]
 		    },
 		    {
