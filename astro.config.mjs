@@ -1112,6 +1112,7 @@ export default defineConfig({
 			items: [
 			    'bitmap-image',
 			    'bitmap-metadata',
+			    'bitmap-resolution',
 			]
 		    },
 		    {

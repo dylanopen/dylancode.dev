@@ -12,8 +12,8 @@ Some of those details are stored in the [metadata](/metadata) of the image.
 
 ## What's stored in metadata?
 
-- The image's [resolution](/resolution)
-- The [colour depth](/colour-depth) of the image (i.e. how many different colours it can display)
+- The image's [resolution](/bitmap-resolution)
+- The [colour depth](/bitmap-colour-depth) of the image (i.e. how many different colours it can display)
 - Some image formats also store information about the image's creator, copyright
   information, the image location, and more!
 
