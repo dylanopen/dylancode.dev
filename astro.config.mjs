@@ -1113,6 +1113,7 @@ export default defineConfig({
 			    'bitmap-image',
 			    'bitmap-metadata',
 			    'bitmap-resolution',
+			    'bitmap-colour-depth',
 			]
 		    },
 		    {
