@@ -1112,6 +1112,7 @@ export default defineConfig({
 			    'boolean-or-zero',
 
 			    'boolean-and-identity',
+			    'boolean-or-identity',
 			]
 		    },
 		    {
