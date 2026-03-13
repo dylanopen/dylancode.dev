@@ -1149,6 +1149,7 @@ export default defineConfig({
 			items: [
 			    'compression',
 			    'lossy-compression',
+			    'lossless-compression',
 			]
 		    },
 		    {
