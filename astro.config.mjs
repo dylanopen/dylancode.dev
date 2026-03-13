@@ -1107,14 +1107,21 @@ export default defineConfig({
 			]
 		    },
 		    {
-			label: 'Bitmap images',
+			label: 'Image encoding',
 			collapsed: true,
 			items: [
-			    'bitmap-image',
-			    'bitmap-metadata',
-			    'bitmap-resolution',
-			    'bitmap-colour-depth',
-			    'bitmap-storage',
+			    {
+				label: 'Bitmap images',
+				collapsed: true,
+				items: [
+				    'bitmap-image',
+				    'bitmap-metadata',
+				    'bitmap-resolution',
+				    'bitmap-colour-depth',
+				    'bitmap-storage',
+				    'bitmap-advantages',
+				]
+			    },
 			]
 		    },
 		    {
