@@ -1148,6 +1148,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'compression',
+			    'lossy-compression',
 			]
 		    },
 		    {
