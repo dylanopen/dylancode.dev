@@ -1155,6 +1155,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Encryption',
+			collapsed: true,
+			items: [
+			    'encryption',
+			]
+		    },
+		    {
 			label: 'Networks',
 			collapsed: true,
 			items: [
