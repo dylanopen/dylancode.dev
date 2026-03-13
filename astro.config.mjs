@@ -1163,6 +1163,7 @@ export default defineConfig({
 			    'cipher',
 			    'caesar-cipher',
 			    'one-time-pad',
+			    'vernam-cipher',
 			]
 		    },
 		    {
