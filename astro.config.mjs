@@ -1117,6 +1117,7 @@ export default defineConfig({
 			    'boolean-or-dominance',
 			    'boolean-idempotence',
 			    'boolean-and-inverses',
+			    'boolean-or-inverses',
 			]
 		    },
 		    {
