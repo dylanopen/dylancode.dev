@@ -1093,9 +1093,9 @@ export default defineConfig({
 			    'not-gate',
 			    'and-gate',
 			    'or-gate',
+			    'xor-gate',
 			    'nand-gate',
 			    'nor-gate',
-			    'xor-gate',
 			]
 		    },
 		    {
@@ -1110,6 +1110,8 @@ export default defineConfig({
 			    'boolean-and-zero',
 			    'boolean-or-one',
 			    'boolean-or-zero',
+
+			    'boolean-and-identity',
 			]
 		    },
 		    {
