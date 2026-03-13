@@ -56,577 +56,625 @@ export default defineConfig({
 	sidebar: [
 	    '',
 	    {
-		label: 'Maths',
+		label: 'Numerical mathematics',
 		collapsed: true,
-
 		items: [
 		    {
-			label: 'Number',
+			label: 'Types of number',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Types of number',
-				collapsed: true,
-				items: [
-				    'natural-numbers',
-				    'integers',
-				    'rational-numbers',
-				    'irrational-numbers',
-				    'real-numbers',
-				]
-			    },
-			    {
-				label: 'Arithmetic',
-				collapsed: true,
-				items: [
-				    'order-of-operations',
-				]
-			    },
-			    {
-				label: 'Rounding',
-				collapsed: true,
-				items: [
-				    'rounding-to-decimal-places',
-				    'rounding-to-nearest-integer',
-				    'rounding-to-significant-figures',
-				]
-			    },
-			    {
-				label: 'Representing fractions',
-				collapsed: true,
-				items: [
-				    'converting-percentages-to-decimals',
-				    'converting-decimals-to-percentages',
-				    'converting-fractions-to-decimals',
-				    'converting-decimals-to-fractions',
-				    'converting-fractions-to-percentages',
-				    'converting-percentages-to-fractions',
-				    'converting-recurring-decimals-to-fractions',
-				]
-			    },
-			    {
-				label: 'Divisibility',
-				collapsed: true,
-				items: [
-				    'prime-numbers',
-				    'composite-numbers',
-				    'prime-factor-decomposition',
-				    'highest-common-factor',
-				    'lowest-common-multiple',
-				]
-			    },
-			    {
-				label: 'Fractions',
-				collapsed: true,
-				items: [
-				    'simplifying-fractions',
-				    'multiplying-fractions',
-				    'dividing-fractions',
-				    'adding-fractions',
-				    'subtracting-fractions',
-				    'algebraic-fractions',
-				]
-			    },
-			    {
-				label: 'Percentages',
-				collapsed: true,
-				items: [
-				    'converting-percentages-to-decimals',
-				    'converting-decimals-to-percentages',
-				    'percentage-of-a-quantity',
-				    'percentage-increase',
-				    'percentage-decrease',
-				]
-			    },
-			    {
-				label: 'Ratio',
-				collapsed: true,
-				items: [
-				    'ratio-meaning',
-				    'simplifying-ratios',
-				]
-			    }
+			    'natural-numbers',
+			    'integers',
+			    'rational-numbers',
+			    'irrational-numbers',
+			    'real-numbers',
 			]
 		    },
 		    {
-			label: 'Algebra',
+			label: 'Arithmetic',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Indices and surds',
-				collapsed: true,
-				items: [
-				    'laws-of-indices',
-				    'multiplying-indices',
-				    'dividing-indices',
-				    'raising-an-index-to-an-index',
-				    'power-of-0',
-				    'power-of-1',
-				    'fractional-powers',
-				    'negative-powers',
-				    'changing-the-base-of-a-power',
-				    'surds',
-				    'simplifying-surds',
-				    'adding-surds',
-				    'subtracting-surds',
-				    'multiplying-surds',
-				    'dividing-surds',
-				    'rationalising-the-denominator',
-				]
-			    },
-			    {
-				label: 'Linear functions',
-				collapsed: true,
-				items: [
-				    'equation-of-a-straight-line',
-				    'finding-the-equation-of-a-straight-line',
-				    'linear-function-modulus',
-				]
-			    },
-			    {
-				label: 'Inequalities',
-				collapsed: true,
-				items: [
-				    'inequality-signs',
-				    'solving-linear-inequalities',
-				    'solving-quadratic-inequalities',
-				]
-			    },
-			    {
-				label: 'Polynomial arithmetic',
-				collapsed: true,
-				items: [
-				    'expanding-brackets',
-				    'expanding-single-brackets',
-				    'expanding-double-brackets',
-				    'expanding-triple-brackets',
-				    'expanding-brackets-with-surds',
-				    'factorising-quadratics',
-				    'polynomial-division',
-				    'difference-of-two-squares',
-				    'factor-theorem',
-				]
-			    },
-			    {
-				label: 'Quadratics',
-				collapsed: true,
-				items: [
-				    'quadratic-functions-and-graphs',
-				    'discriminant',
-				    'completing-the-square',
-				    'solving-by-completing-the-square',
-				    'quadratic-formula',
-				    'solving-disguised-quadratics',
-				]
-			    },
-			    {
-				label: 'Sequences',
-				collapsed: true,
-				items: [
-				    'arithmetic-sequences',
-				]
-			    },
-			    {
-				label: 'Simultaneous equations',
-				collapsed: true,
-				items: [
-				    'simultaneous-equation-elimination',
-				    'simultaneous-equation-substitution',
-				    'number-of-intersections-between-graphs',
-				]
-			    },
-			    {
-				label: 'Logarithms',
-				collapsed: true,
-				items: [
-				    'logarithm-function',
-				    'laws-of-logarithms',
-				    'logarithm-of-1',
-				    'self-base-logarithms',
-				    'powers-of-logarithms',
-				    'adding-logarithms',
-				    'subtracting-logarithms',
-				    'multiplying-logarithms-by-a-constant',
-				    'converting-exponentials-into-logarithms',
-				    'converting-logarithms-into-exponentials',
-				    'disguised-logarithm-equations',
-				]
-			    },
-			    {
-				label: 'Exponential functions',
-				collapsed: true,
-				items: [
-				    'exponential-graph',
-				    'exponential-graph-gradient',
-				    'base-e-exponentials',
-				    'converting-exponentials-to-base-e',
-				]
-			    },
-			    {
-				label: 'Proportionality',
-				collapsed: true,
-				items: [
-				    'direct-proportion',
-				    'inverse-proportion',
-				]
-			    },
-			    {
-				label: 'Binomial expansion',
-				collapsed: true,
-				items: [
-				    'binomial-expansion',
-				    'pascal-triangle',
-				    'common-binomial-expansions',
-				    'binomial-combination',
-				    'binomial-expansion-by-factorial',
-				    'binomial-theorem',
-				]
-			    },
+			    'order-of-operations',
 			]
 		    },
+		    {
+			label: 'Rounding',
+			collapsed: true,
+			items: [
+			    'rounding-to-decimal-places',
+			    'rounding-to-nearest-integer',
+			    'rounding-to-significant-figures',
+			]
+		    },
+		    {
+			label: 'Representing fractions',
+			collapsed: true,
+			items: [
+			    'converting-percentages-to-decimals',
+			    'converting-decimals-to-percentages',
+			    'converting-fractions-to-decimals',
+			    'converting-decimals-to-fractions',
+			    'converting-fractions-to-percentages',
+			    'converting-percentages-to-fractions',
+			    'converting-recurring-decimals-to-fractions',
+			]
+		    },
+		    {
+			label: 'Divisibility',
+			collapsed: true,
+			items: [
+			    'prime-numbers',
+			    'composite-numbers',
+			    'prime-factor-decomposition',
+			    'highest-common-factor',
+			    'lowest-common-multiple',
+			]
+		    },
+		    {
+			label: 'Fractions',
+			collapsed: true,
+			items: [
+			    'simplifying-fractions',
+			    'multiplying-fractions',
+			    'dividing-fractions',
+			    'adding-fractions',
+			    'subtracting-fractions',
+			    'algebraic-fractions',
+			]
+		    },
+		    {
+			label: 'Percentages',
+			collapsed: true,
+			items: [
+			    'converting-percentages-to-decimals',
+			    'converting-decimals-to-percentages',
+			    'percentage-of-a-quantity',
+			    'percentage-increase',
+			    'percentage-decrease',
+			]
+		    },
+		    {
+			label: 'Ratio',
+			collapsed: true,
+			items: [
+			    'ratio-meaning',
+			    'simplifying-ratios',
+			]
+		    }
+		]
+	    },
+	    {
+		label: 'Algebra',
+		collapsed: true,
+		items: [
+		    {
+			label: 'Indices and surds',
+			collapsed: true,
+			items: [
+			    'laws-of-indices',
+			    'multiplying-indices',
+			    'dividing-indices',
+			    'raising-an-index-to-an-index',
+			    'power-of-0',
+			    'power-of-1',
+			    'fractional-powers',
+			    'negative-powers',
+			    'changing-the-base-of-a-power',
+			    'surds',
+			    'simplifying-surds',
+			    'adding-surds',
+			    'subtracting-surds',
+			    'multiplying-surds',
+			    'dividing-surds',
+			    'rationalising-the-denominator',
+			]
+		    },
+		    {
+			label: 'Linear functions',
+			collapsed: true,
+			items: [
+			    'equation-of-a-straight-line',
+			    'finding-the-equation-of-a-straight-line',
+			    'linear-function-modulus',
+			]
+		    },
+		    {
+			label: 'Inequalities',
+			collapsed: true,
+			items: [
+			    'inequality-signs',
+			    'solving-linear-inequalities',
+			    'solving-quadratic-inequalities',
+			]
+		    },
+		    {
+			label: 'Polynomial arithmetic',
+			collapsed: true,
+			items: [
+			    'expanding-brackets',
+			    'expanding-single-brackets',
+			    'expanding-double-brackets',
+			    'expanding-triple-brackets',
+			    'expanding-brackets-with-surds',
+			    'factorising-quadratics',
+			    'polynomial-division',
+			    'difference-of-two-squares',
+			    'factor-theorem',
+			]
+		    },
+		    {
+			label: 'Quadratics',
+			collapsed: true,
+			items: [
+			    'quadratic-functions-and-graphs',
+			    'discriminant',
+			    'completing-the-square',
+			    'solving-by-completing-the-square',
+			    'quadratic-formula',
+			    'solving-disguised-quadratics',
+			]
+		    },
+		    {
+			label: 'Sequences',
+			collapsed: true,
+			items: [
+			    'arithmetic-sequences',
+			]
+		    },
+		    {
+			label: 'Simultaneous equations',
+			collapsed: true,
+			items: [
+			    'simultaneous-equation-elimination',
+			    'simultaneous-equation-substitution',
+			    'number-of-intersections-between-graphs',
+			]
+		    },
+		    {
+			label: 'Logarithms',
+			collapsed: true,
+			items: [
+			    'logarithm-function',
+			    'laws-of-logarithms',
+			    'logarithm-of-1',
+			    'self-base-logarithms',
+			    'powers-of-logarithms',
+			    'adding-logarithms',
+			    'subtracting-logarithms',
+			    'multiplying-logarithms-by-a-constant',
+			    'converting-exponentials-into-logarithms',
+			    'converting-logarithms-into-exponentials',
+			    'disguised-logarithm-equations',
+			]
+		    },
+		    {
+			label: 'Exponential functions',
+			collapsed: true,
+			items: [
+			    'exponential-graph',
+			    'exponential-graph-gradient',
+			    'base-e-exponentials',
+			    'converting-exponentials-to-base-e',
+			]
+		    },
+		    {
+			label: 'Exponential graphs',
+			collapsed: true,
+			items: [
+			    'exponential-function',
+			    'exponential-function-gradient',
+			    'logarithm-function-gradient',
+			    'logarithm-graph-equation',
+			]
+		    },
+		    {
+			label: 'Proportionality',
+			collapsed: true,
+			items: [
+			    'direct-proportion',
+			    'inverse-proportion',
+			]
+		    },
+		    {
+			label: 'Binomial expansion',
+			collapsed: true,
+			items: [
+			    'binomial-expansion',
+			    'pascal-triangle',
+			    'common-binomial-expansions',
+			    'binomial-combination',
+			    'binomial-expansion-by-factorial',
+			    'binomial-theorem',
+			]
+		    },
+		    {
+			label: 'Series',
+			collapsed: true,
+			items: [
+			    'series',
+			    'summation',
+			    'standard-summation-results',
+			    'method-of-differences',
+			    'maclaurin-series-standard-results',
+			    'creating-maclaurin-series'
+			]
+		    },
+		    {
+			label: 'Proof by induction',
+			collapsed: true,
+			items: [
+			    'proof-by-induction',
+			]
+		    },
+		    {
+			label: 'Coefficient and root relationships',
+			collapsed: true,
+			items: [
+			    'quadratic-roots-and-coefficients',
+			    'cubic-roots-and-coefficients',
+			]
+		    },
+		    {
+			label: 'Complex numbers',
+			collapsed: true,
+			items: [
+			    'adding-complex-numbers',
+			    'subtracting-complex-numbers',
+			    'complex-number-real-multiplication',
+			    'complex-conjugate',
+			    'complex-numbers',
+			    'complex-solutions-to-polynomials',
+			    'dividing-complex-numbers',
+			    'factorising-polynomials-with-complex-roots',
+			    'imaginary-constant',
+			    'multiplying-a-complex-number-by-its-conjugate',
+			]
+		    },
+		]
+	    },
+	    {
+		label: 'Geometry',
+		collapsed: true,
+		items: [
+		    {
+			label: 'Coordinate geometry',
+			collapsed: true,
+			items: [
+			    'distance-between-two-points',
+			    'midpoint-of-points',
+			    'straight-line-equation',
+			    'circle-line-intersection',
+			    'intersection-of-circles',
+			]
+		    },
+		    {
+			label: 'Circles',
+			collapsed: true,
+			items: [
+			    'equation-of-a-circle',
+			]
+		    },
+		    {
+			label: 'Vectors',
+			collapsed: true,
+			items: [
+			    'position-vectors',
+			    'vector-translation',
+			]
+		    },
+		    {
+			label: 'Triangles',
+			collapsed: true,
+			items: [
+			    'sine-rule',
+			    'cosine-rule',
+			]
+		    },
+		    {
+			label: 'Trigonometric identities',
+			collapsed: true,
+			items: [
+			    'finding-all-sine-angles',
+			    'finding-all-cosine-angles',
+			    'finding-all-tangent-angles',
+			    'calculating-tangent',
+			    'sine-cosine-square-identity',
+			    'sine-cosine-offset-identity',
+			    'differentiating-sine',
+			    'differentiating-cosine',
+			    'inverse-trigonometry',
+			]
+		    },
+		    {
+			label: 'Radians',
+			collapsed: true,
+			items: [
+			    'radian',
+			    'arc-length-from-radians',
+			    'sector-area-from-radians',
+			    'small-angle-approximation',
+			]
+		    },
+		    {
+			label: 'Arcs and sectors',
+			collapsed: true,
+			items: [
+			    'arc',
+			    'sector',
+			]
+		    },
+		    {
+			label: 'Coordinates',
+			collapsed: true,
+			items: [
+			    'cartesian-coordinates',
+			]
+		    },
+		    {
+			label: 'Hyperbolic functions',
+			collapsed: true,
+			items: [
+			    'sinh',
+			    'cosh',
+			    'tanh',
+			    'hyperbolic-functions-of-zero',
+			    'hyperbolic-square-difference-identity',
+			    'hyperbolic-square-sum-identity',
+			    'sinh2x-identity',
+			]
+		    },
+		    {
+			label: 'Graph transformations',
+			collapsed: true,
+			items: [
+			    'translating-graphs',
+			    'stretching-graphs',
+			    'parallel-line-equations',
+			    'perpendicular-line-equations',
+			]
+		    },
+		    {
+			label: 'Matrices',
+			collapsed: true,
+			items: [
+			    'matrix-definition',
+			    'matrix-dimensions',
+			    'matrix-addition',
+			    'matrix-subtraction',
+			    'scalar-matrix-multiplication',
+			    'matrix-multiplication',
+			    'finding-unknowns-using-matrix-multiplication',
+			    'identity-matrix',
+			    'zero-matrix',
+			    'matrix-multiplication-identity',
+			    'transposing-matrices',
+			    'matrix-determinant',
+			    'inverse-matrix',
+			    'singular-matrix',
+			    'matrix-transformations',
+			    'matrix-transformations-about-the-origin',
+			    'solving-simultaneous-equations-using-matrices',
+			    'general-rotation-matrix',
+			]
+		    },
+		    {
+			label: 'Vectors',
+			collapsed: true,
+			items: [
+			    'vector-line-equation',
+			    'cartesian-line-equation',
+			    'converting-vector-to-cartesian-line',
+			    'converting-cartesian-to-vector-line',
+			    'converting-vector-to-cartesian-line-3d',
+			    'converting-cartesian-to-vector-line-3d',
+			    'scalar-product-of-vectors',
+			    'distance-from-point-to-line',
+			    'distance-between-two-lines',
+			]
+		    },
+		    {
+			label: 'Polar coordinates',
+			collapsed: true,
+			items: [
+			    'polar-coordinates',
+			    'polar-coordinate-identities',
+			    'polar-to-cartesian-coordinates',
+			    'cartesian-to-polar-coordinates',
+			]
+		    },
+		    'common-function-graphs',
+		]
+	    },
+	    {
+		label: 'Calculus',
+		collapsed: true,
+		items: [
+		    {
+			label: 'Differentiation',
+			collapsed: true,
+			items: [
+			    'definition-of-differentiation',
+			    'derivative-notation',
+			    'power-rule-for-differentiation',
+			    'differentiation-from-first-principles',
+			    'second-derivative',
+			    'point-of-inflection',
+			    'turning-point',
+			    'classifying-stationary-points',
+			    'tangent-from-differentiation',
+			    'normal-from-differentiation',
+			]
+		    },
+		    {
+			label: 'Integration',
+			collapsed: true,
+			items: [
+			    'definition-of-integration',
+			    'integration-formula',
+			    'integration-of-other-expressions',
+			]
+		    },
+		    'common-calculus-results',
+		    {
+			label: 'Volume of revolution',
+			collapsed: true,
+			items: [
+			    'volume-of-revolution',
+			    'volume-of-revolution-formula',
+			    'volume-of-revolution-between-lines',
+			]
+		    },
+		]
+	    },
+	    {
+		label: 'Statistics',
+		collapsed: true,
+		items: [
+		    {
+			label: 'Sampling strategies',
+			collapsed: true,
+			items: [
+			    'census',
+			    'simple-random-sampling',
+			    'systematic-sampling',
+			    'opportunity-sampling',
+			    'stratified-sampling',
+			    'quota-sampling',
+			]
+		    },
+		    {
+			label: 'Central tendency',
+			collapsed: true,
+			items: [
+			    'median',
+			    'mean',
+			    'mode',
+			]
+		    },
+		    {
+			label: 'Range',
+			collapsed: true,
+			items: [
+			    'range',
+			    'interquartile-range',
+			]
+		    },
+		    {
+			label: 'Standard deviation',
+			collapsed: true,
+			items: [
+			    'variance',
+			    'standard-deviation',
+			]
+		    },
+		    {
+			label: 'Probability',
+			collapsed: true,
+			items: [
+			    'mutually-exclusive-events',
+			    'mutually-exclusive-union',
+			    'non-mutually-exclusive-events',
+			    'non-mutually-exclusive-union',
+			    'independent-events',
+			]
+		    },
+		    {
+			label: 'Variable categorisation',
+			collapsed: true,
+			items: [
+			    'random-variable',
+			    'discrete-variable',
+			]
+		    },
+		    {
+			label: 'Discrete random variables',
+			collapsed: true,
+			items: [
+			    'discrete-random-variable',
+			    'random-variable-expectation',
+			    'discrete-random-variance',
+			    'discrete-random-mode',
+			    'discrete-random-median',
+			    'transforming-discrete-random-probabilities',
+			    'discrete-random-uniform-distribution',
+			]
+		    },
+		]
+	    },
+	    {
+		label: 'Discrete mathematics',
+		collapsed: true,
+		items: [
 		    {
 			label: 'Graphs',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Coordinates',
-				collapsed: true,
-				items: [
-				    'cartesian-coordinates',
-				]
-			    },
-			    {
-				label: 'Graph transformations',
-				collapsed: true,
-				items: [
-				    'translating-graphs',
-				    'stretching-graphs',
-				    'parallel-line-equations',
-				    'perpendicular-line-equations',
-				]
-			    },
-			    {
-				label: 'Exponential graphs',
-				collapsed: true,
-				items: [
-				    'exponential-function',
-				    'exponential-function-gradient',
-				    'logarithm-function-gradient',
-				    'logarithm-graph-equation',
-				]
-			    },
+			    'graph-vertex',
+			    'graph-edge',
+			    'graph-walk',
+			    'graph-trail',
+			    'graph-path',
+			    'graph-cycle',
+			    'graph-loop',
+			    'simple-graph',
+			    'connected-graph',
+			    'complete-graph',
+			    'graph-tree',
+			    'subgraph',
+			    'eulerian-graph',
+			    'hamilton-graph',
+			    'planar-graph',
+			    'adjacency-matrix',
+			    'graph-complement',
+			    'graph-subdivision',
+			    'bipartite-graph',
+			    'isomorphic-graph',
 			]
 		    },
 		    {
-			label: 'Geometry',
+			label: 'Networks',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Coordinate geometry',
-				collapsed: true,
-				items: [
-				    'distance-between-two-points',
-				    'midpoint-of-points',
-				    'straight-line-equation',
-				    'circle-line-intersection',
-				    'intersection-of-circles',
-				]
-			    },
-			    {
-				label: 'Circles',
-				collapsed: true,
-				items: [
-				    'equation-of-a-circle',
-				]
-			    },
-			    {
-				label: 'Vectors',
-				collapsed: true,
-				items: [
-				    'position-vectors',
-				]
-			    },
-			    {
-				label: 'Triangles',
-				collapsed: true,
-				items: [
-				    'sine-rule',
-				    'cosine-rule',
-				]
-			    },
-			    {
-				label: 'Trigonometric identities',
-				collapsed: true,
-				items: [
-				    'finding-all-sine-angles',
-				    'finding-all-cosine-angles',
-				    'finding-all-tangent-angles',
-				    'calculating-tangent',
-				    'sine-cosine-square-identity',
-				    'sine-cosine-offset-identity',
-				    'differentiating-sine',
-				    'differentiating-cosine',
-				    'inverse-trigonometry',
-				]
-			    },
-			    {
-				label: 'Radians',
-				collapsed: true,
-				items: [
-				    'radian',
-				    'arc-length-from-radians',
-				    'sector-area-from-radians',
-				    'small-angle-approximation',
-				]
-			    },
-			    {
-				label: 'Arcs and sectors',
-				collapsed: true,
-				items: [
-				    'arc',
-				    'sector',
-				]
-			    }
+			    'network-node',
+			    'network-arc',
+			    'distance-matrix',
+			    'minimum-spanning-tree',
+			    'prim-algorithm',
+			    'kruskal-algorithm',
+			    'network-route-inspection',
 			]
 		    },
 		    {
-			label: 'Calculus',
+			label: 'Activity networks',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Differentiation',
-				collapsed: true,
-				items: [
-				    'definition-of-differentiation',
-				    'derivative-notation',
-				    'power-rule-for-differentiation',
-				    'differentiation-from-first-principles',
-				    'second-derivative',
-				    'point-of-inflection',
-				    'turning-point',
-				    'classifying-stationary-points',
-				    'tangent-from-differentiation',
-				    'normal-from-differentiation',
-				]
-			    },
-			    {
-				label: 'Integration',
-				collapsed: true,
-				items: [
-				    'definition-of-integration',
-				    'integration-formula',
-				    'integration-of-other-expressions',
-				]
-			    },
-			    'common-calculus-results',
 			]
 		    },
 		    {
-			label: 'Further',
+			label: 'Network flows',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Complex numbers',
-				collapsed: true,
-				items: [
-				    'adding-complex-numbers',
-				    'subtracting-complex-numbers',
-				    'complex-number-real-multiplication',
-				    'complex-conjugate',
-				    'complex-numbers',
-				    'complex-solutions-to-polynomials',
-				    'dividing-complex-numbers',
-				    'factorising-polynomials-with-complex-roots',
-				    'imaginary-constant',
-				    'multiplying-a-complex-number-by-its-conjugate',
-				    'sum-of-two-squares',
-				]
-			    },
-			    {
-				label: 'Coefficient and root relationships',
-				collapsed: true,
-				items: [
-				    'quadratic-roots-and-coefficients',
-				    'cubic-roots-and-coefficients',
-				]
-			    },
-			    {
-				label: 'Matrices',
-				collapsed: true,
-				items: [
-				    'matrix-definition',
-				    'matrix-dimensions',
-				    'matrix-addition',
-				    'matrix-subtraction',
-				    'scalar-matrix-multiplication',
-				    'matrix-multiplication',
-				    'finding-unknowns-using-matrix-multiplication',
-				    'identity-matrix',
-				    'zero-matrix',
-				    'matrix-multiplication-identity',
-				    'transposing-matrices',
-				    'matrix-determinant',
-				    'inverse-matrix',
-				    'singular-matrix',
-				    'matrix-transformations',
-				    'matrix-transformations-about-the-origin',
-				    'solving-simultaneous-equations-using-matrices',
-				    'general-rotation-matrix',
-				]
-			    },
-			    {
-				label: 'Vectors',
-				collapsed: true,
-				items: [
-				    'vector-line-equation',
-				    'cartesian-line-equation',
-				    'converting-vector-to-cartesian-line',
-				    'converting-cartesian-to-vector-line',
-				    'converting-vector-to-cartesian-line-3d',
-				    'converting-cartesian-to-vector-line-3d',
-				    'scalar-product-of-vectors',
-				    'distance-from-point-to-line',
-				    'distance-between-two-lines',
-				]
-			    },
-			    {
-				label: 'Series',
-				collapsed: true,
-				items: [
-				    'series',
-				    'summation',
-				    'standard-summation-results',
-				    'method-of-differences',
-				    'maclaurin-series-standard-results',
-				    'creating-maclaurin-series'
-				]
-			    },
-			    {
-				label: 'Proof by induction',
-				collapsed: true,
-				items: [
-				    'proof-by-induction',
-				]
-			    },
-			    {
-				label: 'Conic sections',
-				collapsed: true,
-				items: [
-				    'ellipse',
-				    'hyperbola',
-				    'parabola',
-				]
-			    },
-			    {
-				label: 'Hyperbolic functions',
-				collapsed: true,
-				items: [
-				    'sinh',
-				    'cosh',
-				    'tanh',
-				    'hyperbolic-functions-of-zero',
-				    'hyperbolic-square-difference-identity',
-				    'hyperbolic-square-sum-identity',
-				    'sinh2x-identity',
-				]
-			    },
-			    {
-				label: 'Polar coordinates',
-				collapsed: true,
-				items: [
-				    'polar-coordinates',
-				    'polar-coordinate-identities',
-				    'polar-to-cartesian-coordinates',
-				    'cartesian-to-polar-coordinates',
-				]
-			    }
+			    'network-flows',
 			]
 		    },
 		    {
-			label: 'Discrete',
+			label: 'Game theory',
 			collapsed: true,
 			items: [
-			    {
-				label: 'Graphs',
-				collapsed: true,
-				items: [
-				    'graph-vertex',
-				    'graph-edge',
-				    'graph-walk',
-				    'graph-trail',
-				    'graph-path',
-				    'graph-cycle',
-				    'graph-loop',
-				    'simple-graph',
-				    'connected-graph',
-				    'complete-graph',
-				    'graph-tree',
-				    'subgraph',
-				    'eulerian-graph',
-				    'hamilton-graph',
-				    'planar-graph',
-				    'adjacency-matrix',
-				    'graph-complement',
-				    'graph-subdivision',
-				    'bipartite-graph',
-				    'isomorphic-graph',
-				]
-			    },
-			    {
-				label: 'Networks',
-				collapsed: true,
-				items: [
-				    'network-node',
-				    'network-arc',
-				    'distance-matrix',
-				    'minimum-spanning-tree',
-				    'prim-algorithm',
-				    'kruskal-algorithm',
-				    'network-route-inspection',
-				]
-			    },
-			    {
-				label: 'Activity networks',
-				collapsed: true,
-				items: [
-				]
-			    },
-			    {
-				label: 'Network flows',
-				collapsed: true,
-				items: [
-				    'network-flows',
-				]
-			    },
-			    {
-				label: 'Game theory',
-				collapsed: true,
-				items: [
-				    'pay-off-matrices',
-				    'play-safe-strategy',
-				    'dominating-strategies',
-				    'optimal-mixed-strategy',
-				]
-			    },
-			    {
-				label: 'Linear programming',
-				collapsed: true,
-				items: [
-				    'linear-programming',
-				]
-			    },
+			    'pay-off-matrices',
+			    'play-safe-strategy',
+			    'dominating-strategies',
+			    'optimal-mixed-strategy',
 			]
 		    },
 		    {
-			label: 'Unsorted',
+			label: 'Linear programming',
 			collapsed: true,
 			items: [
-			    'common-function-graphs',
-			    'inequality-of-arithmetic-and-geometric-means',
-			    'vector-translation',
+			    'linear-programming',
 			]
 		    },
-		],
+		]
 	    },
 	    {
 		label: 'Physics',
@@ -881,10 +929,40 @@ export default defineConfig({
 				    'uses-of-polarisation',
 				]
 			    },
+			    {
+				label: 'Stationary waves',
+				collapsed: true,
+				items: [
+				    'stationary-wave',
+				]
+			    },
 			    'oscilloscope',
 			    'speed-of-electromagnetic-wave',
+			    'waves-revision',
 			]
-		    }
+		    },
+		    {
+			label: 'Particles',
+			collapsed: true,
+			items: [
+			    {
+				label: 'Electromagnetic spectrum',
+				collapsed: true,
+				items: [
+				    'electromagnetic-spectrum',
+				]
+			    },
+			    {
+				label: 'Photons',
+				collapsed: true,
+				items: [
+				    'photon',
+				    'photon-energy',
+				    'photon-power',
+				]
+			    },
+			]
+		    },
 		]
 	    },
 	    {
@@ -903,7 +981,7 @@ export default defineConfig({
 		]
 	    },
 	    {
-		label: 'Computing',
+		label: 'Computer science',
 		collapsed: true,
 		items: [
 		    {
@@ -977,6 +1055,23 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Text encoding',
+			collapsed: true,
+			items: [
+			    'text-encoding',
+			    'ascii',
+			]
+		    },
+		    {
+			label: 'Data error checking',
+			collapsed: true,
+			items: [
+			    'data-error-checking',
+			    'parity-bit',
+			    'majority-voting',
+			]
+		    },
+		    {
 			label: 'Binary',
 			collapsed: true,
 			items: [
@@ -1012,16 +1107,128 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Image encoding',
+			collapsed: true,
+			items: [
+			    {
+				label: 'Bitmap images',
+				collapsed: true,
+				items: [
+				    'bitmap-image',
+				    'bitmap-metadata',
+				    'bitmap-resolution',
+				    'bitmap-colour-depth',
+				    'bitmap-storage',
+				    'bitmap-advantages',
+				]
+			    },
+			]
+		    },
+		    {
+			label: 'Analogue and digital',
+			collapsed: true,
+			items: [
+			    'analogue-signal',
+			    'digital-signal',
+			    'analogue-to-digital',
+			    'digital-to-analogue',
+			    'digital-sampling',
+			    {
+				label: 'Sound',
+				collapsed: true,
+				items: [
+				    'sound-storage',
+				    'nyquist-theorem',
+				]
+			    }
+			]
+		    },
+		    {
+			label: 'Compression',
+			collapsed: true,
+			items: [
+			    'compression',
+			    'lossy-compression',
+			    'lossless-compression',
+			    'run-length-encoding',
+			    'dictionary-encoding',
+			]
+		    },
+		    {
+			label: 'Encryption',
+			collapsed: true,
+			items: [
+			    'encryption',
+			    'decryption',
+			    'cipher',
+			    'caesar-cipher',
+			    'one-time-pad',
+			]
+		    },
+		    {
 			label: 'Networks',
 			collapsed: true,
 			items: [
-			    'network-interface-card',
-			    'local-area-network',
-			    'server',
-			    'client',
-			    'network-switch',
-			    'types-of-server-hosting',
-			    'wide-area-network',
+			    {
+				label: 'Servers and clients',
+				collapsed: true,
+				items: [
+				    'server',
+				    'client',
+				    // 'client-server-network',
+				    // 'peer-to-peer-network',
+				]
+			    },
+			    {
+				label: 'Network scale',
+				collapsed: true,
+				items: [
+				    'local-area-network',
+				    'wide-area-network',
+				]
+			    },
+			    {
+				label: 'Network hardware',
+				collapsed: true,
+				items: [
+				    'network-interface-card',
+				    'network-switch',
+				]
+			    },
+			    {
+				label: 'Transmission methods',
+				collapsed: true,
+				items: [
+				    'serial-transmission',
+				    'parallel-transmission',
+				    'synchronous-transmission',
+				    'asynchronous-transmission',
+				]
+			    },
+			    {
+				label: 'Data transfer rates',
+				collapsed: true,
+				items: [
+				    'baud-rate',
+				    'bit-rate',
+				    'bandwidth',
+				]
+			    },
+			    {
+				label: 'Latency',
+				collapsed: true,
+				items: [
+				    'latency',
+				    'ping-latency',
+				]
+			    },
+			    {
+				label: 'Server hosting',
+				collapsed: true,
+				items: [
+				    'types-of-server-hosting',
+				]
+			    },
 			]
 		    }
 		]
