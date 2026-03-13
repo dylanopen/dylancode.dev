@@ -1144,6 +1144,13 @@ export default defineConfig({
 			]
 		    },
 		    {
+			label: 'Compression',
+			collapsed: true,
+			items: [
+			    'compression',
+			]
+		    },
+		    {
 			label: 'Networks',
 			collapsed: true,
 			items: [
