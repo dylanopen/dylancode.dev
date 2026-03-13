@@ -1162,6 +1162,7 @@ export default defineConfig({
 			    'decryption',
 			    'cipher',
 			    'caesar-cipher',
+			    'one-time-pad',
 			]
 		    },
 		    {
