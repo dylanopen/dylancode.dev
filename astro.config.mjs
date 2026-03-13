@@ -1012,14 +1012,21 @@ export default defineConfig({
 			]
 		    },
 		    {
-			label: 'Systems software',
+			label: 'Software',
 			collapsed: true,
 			items: [
-			    'systems-software',
-			    'operating-systems',
-			    'utility-programs',
-			    'code-libraries',
-			],
+			    'software-classification',
+			    {
+				label: 'Systems software',
+				collapsed: true,
+				items: [
+				    'systems-software',
+				    'operating-systems',
+				    'utility-programs',
+				    'code-libraries',
+				],
+			    },
+			]
 		    },
 		    {
 			label: 'Code translation',
