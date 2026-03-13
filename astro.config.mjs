@@ -1131,6 +1131,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'sound-storage',
+				    'nyquist-theorem',
 				]
 			    }
 			]
