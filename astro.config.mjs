@@ -1161,6 +1161,7 @@ export default defineConfig({
 			    'encryption',
 			    'decryption',
 			    'cipher',
+			    'caesar-cipher',
 			]
 		    },
 		    {
