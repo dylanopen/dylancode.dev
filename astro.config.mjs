@@ -1113,6 +1113,7 @@ export default defineConfig({
 
 			    'boolean-and-identity',
 			    'boolean-or-identity',
+			    'boolean-and-dominance',
 			]
 		    },
 		    {
