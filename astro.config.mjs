@@ -1150,6 +1150,7 @@ export default defineConfig({
 			    'compression',
 			    'lossy-compression',
 			    'lossless-compression',
+			    'run-length-encoding',
 			]
 		    },
 		    {
