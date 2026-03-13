@@ -1118,6 +1118,7 @@ export default defineConfig({
 			    'boolean-idempotence',
 			    'boolean-and-inverses',
 			    'boolean-or-inverses',
+			    'boolean-commutativity',
 			]
 		    },
 		    {
