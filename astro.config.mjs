@@ -985,31 +985,11 @@ export default defineConfig({
 		collapsed: true,
 		items: [
 		    {
-			label: 'Hardware and software',
+			label: 'Hardware',
 			collapsed: true,
 			items: [
 			    'hardware',
-			    'software',
-			    'application-software',
 			],
-		    },
-		    {
-			label: 'Operating systems',
-			collapsed: true,
-			items: [
-			    'operating-system-role',
-			    'os-resource-management',
-			]
-		    },
-		    {
-			label: 'Types of programming language',
-			collapsed: true,
-			items: [
-			    'low-level-language',
-			    'high-level-language',
-			    'declarative-programming',
-			    'imperative-programming',
-			]
 		    },
 		    {
 			label: 'Software',
@@ -1026,6 +1006,25 @@ export default defineConfig({
 				    'code-libraries',
 				],
 			    },
+			    {
+				label: 'Operating system',
+				collapsed: true,
+				items: [
+				    'operating-system-role',
+				    'os-resource-management',
+				]
+			    },
+			    'application-software',
+			]
+		    },
+		    {
+			label: 'Types of programming language',
+			collapsed: true,
+			items: [
+			    'low-level-language',
+			    'high-level-language',
+			    'declarative-programming',
+			    'imperative-programming',
 			]
 		    },
 		    {
