@@ -1160,6 +1160,7 @@ export default defineConfig({
 			items: [
 			    'encryption',
 			    'decryption',
+			    'cipher',
 			]
 		    },
 		    {
