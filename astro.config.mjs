@@ -1159,6 +1159,7 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'encryption',
+			    'decryption',
 			]
 		    },
 		    {
