@@ -1004,6 +1004,7 @@ export default defineConfig({
 				items: [
 				    'address-bus',
 				    'data-bus',
+				    'control-bus',
 				]
 			    },
 			],
