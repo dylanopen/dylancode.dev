@@ -990,6 +990,7 @@ export default defineConfig({
 			items: [
 			    'hardware',
 			    'processor',
+			    'main-memory',
 			],
 		    },
 		    {
