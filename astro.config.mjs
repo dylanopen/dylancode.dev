@@ -991,6 +991,7 @@ export default defineConfig({
 			    'hardware',
 			    'processor',
 			    'main-memory',
+			    'read-only-memory',
 			],
 		    },
 		    {
