@@ -985,10 +985,11 @@ export default defineConfig({
 		collapsed: true,
 		items: [
 		    {
-			label: 'Hardware',
+			label: 'Computer architecture',
 			collapsed: true,
 			items: [
 			    'hardware',
+			    'processor',
 			],
 		    },
 		    {
