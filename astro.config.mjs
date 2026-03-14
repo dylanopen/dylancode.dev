@@ -1121,6 +1121,7 @@ export default defineConfig({
 			    'boolean-commutativity',
 			    'boolean-associativity',
 			    'boolean-distributivity',
+			    'boolean-absorption',
 			]
 		    },
 		    {
