@@ -1002,6 +1002,7 @@ export default defineConfig({
 				label: 'Buses',
 				collapsed: true,
 				items: [
+				    'computer-bus',
 				    'address-bus',
 				    'data-bus',
 				    'control-bus',
