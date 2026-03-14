@@ -1123,6 +1123,7 @@ export default defineConfig({
 			    'boolean-distributivity',
 			    'boolean-absorption',
 			    'boolean-de-morgan',
+			    'boolean-double-negation',
 			]
 		    },
 		    {
