@@ -1122,6 +1122,7 @@ export default defineConfig({
 			    'boolean-associativity',
 			    'boolean-distributivity',
 			    'boolean-absorption',
+			    'boolean-de-morgan',
 			]
 		    },
 		    {
