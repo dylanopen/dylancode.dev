@@ -1120,6 +1120,7 @@ export default defineConfig({
 			    'boolean-or-inverses',
 			    'boolean-commutativity',
 			    'boolean-associativity',
+			    'boolean-distributivity',
 			]
 		    },
 		    {
