@@ -1013,6 +1013,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'input-controller',
+				    'output-controller',
 				]
 			    },
 			],
