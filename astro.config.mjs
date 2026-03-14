@@ -1008,6 +1008,13 @@ export default defineConfig({
 				    'control-bus',
 				]
 			    },
+			    {
+				label: 'Input and output',
+				collapsed: true,
+				items: [
+				    'input-controller',
+				]
+			    },
 			],
 		    },
 		    {
