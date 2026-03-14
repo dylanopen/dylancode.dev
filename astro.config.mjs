@@ -1003,6 +1003,7 @@ export default defineConfig({
 				collapsed: true,
 				items: [
 				    'address-bus',
+				    'data-bus',
 				]
 			    },
 			],
