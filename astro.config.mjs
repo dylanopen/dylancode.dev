@@ -989,9 +989,22 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			    'hardware',
-			    'processor',
-			    'main-memory',
-			    'read-only-memory',
+			    {
+				label: 'Components',
+				collapsed: true,
+				items: [
+				    'processor',
+				    'main-memory',
+				    'read-only-memory',
+				]
+			    },
+			    {
+				label: 'Buses',
+				collapsed: true,
+				items: [
+				    'address-bus',
+				]
+			    },
 			],
 		    },
 		    {
