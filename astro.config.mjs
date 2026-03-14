@@ -1014,6 +1014,7 @@ export default defineConfig({
 				items: [
 				    'input-controller',
 				    'output-controller',
+				    'universal-serial-bus',
 				]
 			    },
 			],
