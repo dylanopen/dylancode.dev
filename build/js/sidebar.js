@@ -37,6 +37,7 @@ function expandCurrentPage() {
     console.log("Current page:", currentPage);
     for (let link of document.getElementsByClassName("sidebar-link")) {
 	if (link.getAttribute("href").includes("/" + currentPage + "/")) {
+	    link.setAttribute("class", link.getAttribute("class") + " sidebar-section-active");
 	    let par = link.parentElement;
 	    while (par) {
 		if (par.tagName === "DETAILS") {
@@ -44,7 +45,6 @@ function expandCurrentPage() {
 		}
 		par = par.parentElement;
 	    }
-	    break;
 	}
     }
 }

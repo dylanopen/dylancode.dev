@@ -46,6 +46,10 @@ a {
     color: #aaa;
     text-decoration: none;
 }
+.sidebar-section-active {
+    color: #b15483;
+    font-weight: bold;
+}
 .sidebar-link:hover,.sidebar-section:hover {
     cursor: pointer;
     color: #fff;

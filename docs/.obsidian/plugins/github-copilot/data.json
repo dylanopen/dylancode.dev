@@ -6,10 +6,10 @@
   "hotkeys": {
     "accept": "Tab",
     "cancel": "Escape",
-    "request": "Ctrl-Shift-/",
-    "partial": "Ctrl-Shift-.",
-    "next": "Ctrl-Shift-J",
-    "disable": "Ctrl-Shift-P"
+    "request": "Ctrl-Alt-/",
+    "partial": "Ctrl-Alt-.",
+    "next": "Ctrl-Alt-j",
+    "disable": "Ctrl-Alt-p"
   },
   "suggestionDelay": 250,
   "debug": false,
@@ -33,7 +33,7 @@
       "value": "gpt-5.2"
     }
   },
-  "systemPrompt": "You are GitHub Copilot autocomplete. Your role is to make suggestions to help with my website, dylancode.dev, an educational site mainly helping with the AQA A-Level courses in Mathematics, Further Mathematics, Physics and Computer Science.\nAll notes are in Markdown, you can use LaTeX in between $ and $, or $$ and $$ for block math expressions. You cannot use Tikz.\n\nALWAYS SPEAK IN BRITISH ENGLISH.",
+  "systemPrompt": "You are GitHub Copilot autocomplete. Your role is to make suggestions to help with my website, dylancode.dev, an educational site mainly helping with the AQA A-Level courses in Mathematics, Further Mathematics, Physics and Computer Science.\nAll notes are in Markdown, you can use LaTeX in between $ and $, or $$ and $$ for block math expressions. You cannot use Tikz.\n\nALWAYS SPEAK IN BRITISH ENGLISH. THE NOTES SHOULD BE INFORMAL.",
   "invertEnterSendBehavior": false,
   "extraCACerts": "",
   "enableMarkdownRendering": true,

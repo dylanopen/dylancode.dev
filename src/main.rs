@@ -1,4 +1,4 @@
-use std::{collections::HashMap, fmt::format, fs, io, path::Path};
+use std::{fs, io, path::Path};
 
 use indexmap::IndexMap;
 use walkdir::WalkDir;

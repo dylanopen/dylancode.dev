@@ -495,28 +495,29 @@
          - universal-serial-bus
     - Software
         - software-classification
-    - Systems software
-         - systems-software
-         - operating-systems
-         - utility-programs
-         - code-libraries
-    - Operating system
-         - operating-system-role
-         - os-resource-management
-        - application-software
-    - Types of programming language
-        - low-level-language
-        - high-level-language
-        - declarative-programming
-        - imperative-programming
-    - Code translation
-        - source-code
-        - object-code
-        - code-translators
-        - compiler
-        - interpreter
-        - assembler
-        - bytecode
+        - Systems software
+             - systems-software
+             - operating-systems
+             - utility-programs
+             - code-libraries
+        - Operating system
+             - operating-system-role
+             - os-resource-management
+            - application-software
+    - Programming languages
+        - Types of programming language
+            - low-level-language
+            - high-level-language
+            - declarative-programming
+            - imperative-programming
+        - Code translation
+            - source-code
+            - object-code
+            - code-translators
+            - compiler
+            - interpreter
+            - assembler
+            - bytecode
     - Number systems
         - natural-numbers
     - Units of data
@@ -568,13 +569,13 @@
         - boolean-de-morgan
         - boolean-double-negation
     - Image encoding
-    - Bitmap images
-         - bitmap-image
-         - bitmap-metadata
-         - bitmap-resolution
-         - bitmap-colour-depth
-         - bitmap-storage
-         - bitmap-advantages
+        - Bitmap images
+             - bitmap-image
+             - bitmap-metadata
+             - bitmap-resolution
+             - bitmap-colour-depth
+             - bitmap-storage
+             - bitmap-advantages
     - Analogue and digital
         - analogue-signal
         - digital-signal
@@ -597,32 +598,35 @@
         - caesar-cipher
         - one-time-pad
         - vernam-cipher
+    - stored-program-architecture
+        - von-neumann-architecture
+        - harvard-architecture
     - Networks
-    - Servers and clients
-         - server
-         - client
-         - // client-server-network
-         - // peer-to-peer-network
-    - Network scale
-         - local-area-network
-         - wide-area-network
-    - Network hardware
-         - network-interface-card
-         - network-switch
-    - Transmission methods
-         - serial-transmission
-         - parallel-transmission
-         - synchronous-transmission
-         - asynchronous-transmission
-    - Data transfer rates
-         - baud-rate
-         - bit-rate
-         - bandwidth
-    - Latency
-         - latency
-         - ping-latency
-    - Server hosting
-         - types-of-server-hosting
+        - Servers and clients
+             - server
+             - client
+             - client-server-network
+             - peer-to-peer-network
+        - Network scale
+             - local-area-network
+             - wide-area-network
+        - Network hardware
+             - network-interface-card
+             - network-switch
+        - Transmission methods
+             - serial-transmission
+             - parallel-transmission
+             - synchronous-transmission
+             - asynchronous-transmission
+        - Data transfer rates
+             - baud-rate
+             - bit-rate
+             - bandwidth
+        - Latency
+             - latency
+             - ping-latency
+        - Server hosting
+             - types-of-server-hosting
 - RISC-V assembly
     - riscv/smallest-program
     - riscv/immediate-and-register-instructions
