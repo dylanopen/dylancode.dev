@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Division</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Division</h1>
+<p>The reason that we didn’t cover division in the main
+<a href="/cs/arithmetic-operators">arithmetic operators</a> chapter is that division
+behaves a little differently depending on the data types of the values being
+divided.</p>
+<h2>Floating-point division</h2>
+<p>If we’re working with <code>float</code> or <code>double</code> values, division behaves as you’d
+expect:</p>
+<pre><code class="language-cs">double result = 7.0 / 2.0; // 3.5
+float result2 = 5.5f / 2.0f; // 2.75f
+</code></pre>
+<p>These results are the same as what you’d get from a calculator.</p>
+<blockquote>
+<p>Note that, because of how floating-point numbers are represented in binary,
+you may sometimes get results that are very slightly off from what you’d
+expect.<br />
+For example, <code>0.1 + 0.2</code> may evaluate to <code>0.30000000000000004</code> instead of
+<code>0.3</code>. That is perfectly normal, <em>but</em> can cause some unexpected behaviour if
+you’re not aware of it! You should always use ‘loose equality’ when working
+with floats</p>
+</blockquote>
+<h2>Integer division</h2>
+<p><em>Integer</em> division is a little different.</p>
+<p>Instead of giving us a decimal result, integer division <em>truncates</em> the decimal
+part and only gives us the whole number part of the result.</p>
+<p>For example, you may thing that <code>7 / 2</code> would evaluate to <code>3.5</code>, but because
+we’re using integers, the result is truncated to just <code>3</code>. Remember that
+truncation isn’t rounding, but rather ‘chopping off’ the decimal part entirely:</p>
+<pre><code class="language-cs">int result = 7 / 2; // 3.5 -&gt; 3
+int result2 = 5 / 3; // 1.666... -&gt; 1
+</code></pre>
+<p>If you want to get a decimal result from dividing two integers, you need to
+<em>cast</em> one (or both) of the integers to a floating-point type first:</p>
+<pre><code class="language-cs">int a = 7;
+int b = 2;
+double result1 = (double)a / b; // 3.5
+double result2 = a / (double)b; // 3.5
+double result3 = (double)a / (double)b; // 3.5
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

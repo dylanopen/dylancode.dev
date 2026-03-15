@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>spawn-limits</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>spawn-limits</h1>
+<p>Spawn limits can be configured in the <code>bukkit.yml</code> file. By default, it looks
+like this:</p>
+<pre><code class="language-yaml">spawn-limits:
+  monsters: 70
+  animals: 10
+  water-animals: 5
+  water-ambient: 20
+  water-underground-creature: 5
+  axolotls: 5
+  ambient: 15
+</code></pre>
+<h2>Recommended starting values</h2>
+<p>If you run a small server with just a few friends, these values should work
+fine and still give a fairly vanilla experience (these are similar to the
+default Bukkit values):</p>
+<pre><code class="language-yaml">spawn-limits:
+  monsters: 60
+  animals: 12
+  water-animals: 5
+  water-ambient: 12
+  water-underground-creature: 4
+  axolotls: 4
+  ambient: 4
+</code></pre>
+<p>For medium-sized servers (10-30 players), you can try these values:</p>
+<pre><code class="language-yaml">spawn-limits:
+  monsters: 35
+  animals: 7
+  water-animals: 3
+  water-ambient: 5
+  water-underground-creature: 2
+  axolotls: 2
+  ambient: 2
+</code></pre>
+<p>And for larger servers, try these values:</p>
+<pre><code class="language-yaml">spawn-limits:
+  monsters: 20
+  animals: 4
+  water-animals: 2
+  water-ambient: 2
+  water-underground-creature: 1
+  axolotls: 1
+  ambient: 1
+</code></pre>
+<h2>Mob spawn range</h2>
+<p>Because lowering the spawn rate causes fewer mobs to spawn, you may want to
+make the mobs that do spawn closer to the players.</p>
+<p>Please see the <a href="/minecraft/spigot/mob-spawn-range">mob-spawn-range page</a> for
+help on doing this. As a general rule: if you <strong>lower</strong> the spawn limits, you
+should <strong>lower</strong> the mob spawn range as well.</p>
+<h2>A note on <code>per-player-mob-spawns</code></h2>
+<p>This page relies on the <code>per-player-mob-spawns</code> option being set to <code>true</code> in
+your <code>paper-world-defaults.yml</code> file. This is highly recommended, and the guide
+does not support this option being set to <code>false</code>.</p>
+<p>Please see <a href="/minecraft/paper-world/per-player-mob-spawns">this page</a> for more
+info on what this option does and why you should enable it.</p>
+<h2>What are spawn limits?</h2>
+<p>Spawn limits are probably <em>the most</em> important configuration option for
+optimisation, perhaps with the exception of <a href="/minecraft/properties/simulation-distance">simulation-distance</a>.</p>
+<blockquote>
+<p>Spawn limits are sometimes also referred to as “mob caps”. For the sake of
+this guide, they’re effectively the same thing.</p>
+</blockquote>
+<p>It effectively controls <em>how many mobs</em> (animals, monsters, etc) can be
+present in the world at any given time.</p>
+<p>With <code>per-player-mob-spawns</code> enabled, this limit is calculated <em>per player</em> in
+the world, meaning that each player gets their own “quota” of mobs.</p>
+<p>When the number of mobs around a player goes above this limit, no new mobs will
+be able to spawn until the number of mobs drops back below the limit.</p>
+<p>Basically, a monster mob cap of 70 means that up to 70 monster mobs can be
+present around each player at any given time, for example.</p>
+<h2>The different mob types</h2>
+<blockquote>
+<p>Thanks to <a href="https://paper-chan.moe/paper-optimization/#mob-categories">https://paper-chan.moe/paper-optimization/#mob-categories</a>, we have
+a detailed list of what mobs fall into each category.</p>
+</blockquote>
+<p>Feel free to search for specific mobs using your browser’s search function
+(ctrl+f) if you’re not sure which category they fall into!</p>
+<h3>Monsters</h3>
+<ul>
+<li>Warden</li>
+<li>Evoker</li>
+<li>Wither</li>
+<li>Hoglin</li>
+<li>Cave Spider</li>
+<li>Camel</li>
+<li>Husk</li>
+<li>Zoglin</li>
+<li>Slime</li>
+<li>Bogged</li>
+<li>Zombified Piglin</li>
+<li>Pillager</li>
+<li>Wither Skeleton</li>
+<li>Zombie</li>
+<li>Nautilus</li>
+<li>Stray</li>
+<li>Blaze</li>
+<li>Witch</li>
+<li>Piglin Brute</li>
+<li>Spider</li>
+<li>Drowned</li>
+<li>Phantom</li>
+<li>Illusioner</li>
+<li>Ravager</li>
+<li>Vindicator</li>
+<li>Creeper</li>
+<li>Parched</li>
+<li>Elder Guardian</li>
+<li>Giant</li>
+<li>Breeze</li>
+<li>Zombie Horse</li>
+<li>Zombie Villager</li>
+<li>Endermite</li>
+<li>Silverfish</li>
+<li>Shulker</li>
+<li>Ghast</li>
+<li>Vex</li>
+<li>Piglin</li>
+<li>Guardian</li>
+<li>Enderman</li>
+<li>Magma Cube</li>
+<li>Ender Dragon</li>
+<li>Skeleton</li>
+<li>Creaking</li>
+</ul>
+<h3>Animals / creatures</h3>
+<ul>
+<li>Wolf</li>
+<li>Bee</li>
+<li>Horse</li>
+<li>Chicken</li>
+<li>Frog</li>
+<li>Allay</li>
+<li>Pig</li>
+<li>Skeleton Horse</li>
+<li>Llama</li>
+<li>Polar Bear</li>
+<li>Mule</li>
+<li>Armadillo</li>
+<li>Donkey</li>
+<li>Parrot</li>
+<li>Rabbit</li>
+<li>Fox</li>
+<li>Happy Ghast</li>
+<li>Goat</li>
+<li>Mooshroom</li>
+<li>Cow</li>
+<li>Strider</li>
+<li>Cat</li>
+<li>Sniffer</li>
+<li>Ocelot</li>
+<li>Trader Llama</li>
+<li>Tadpole</li>
+<li>Wandering Trader</li>
+<li>Panda</li>
+<li>Turtle</li>
+<li>Camel</li>
+<li>Sheep</li>
+</ul>
+<h3>Ambient</h3>
+<ul>
+<li>Bat</li>
+</ul>
+<p>Yep, that’s it… you can probably lower this one quite a bit, if not completely
+to 0. I’ve seen some servers’ spark reports showing thousands of bats where
+optimisation has gone horribly wrong…</p>
+<h3>Water animals / water creature</h3>
+<ul>
+<li>Nautilus</li>
+<li>Dolphin</li>
+<li>Squid</li>
+</ul>
+<h3>Water ambient</h3>
+<ul>
+<li>Cod</li>
+<li>Pufferfish</li>
+<li>Salmon</li>
+<li>Tropical fish</li>
+</ul>
+<h3>Water underground creature</h3>
+<ul>
+<li>Glow squid</li>
+</ul>
+<h3>Axolotl</h3>
+<p>Pretty obviously… axolotls. They’re so cute they get their own category.</p>
+<h3>Misc</h3>
+<p>Everthing else:</p>
+<ul>
+<li>Bamboo Raft with Chest</li>
+<li>Cherry Boat with Chest</li>
+<li>Eye of Ender</li>
+<li>Marker</li>
+<li>Jungle Boat with Chest</li>
+<li>Interaction</li>
+<li>Spectral Arrow</li>
+<li>Wind Charge</li>
+<li>Item Display</li>
+<li>Mangrove Boat with Chest</li>
+<li>Minecart with Chest</li>
+<li>Snowball</li>
+<li>Item Frame</li>
+<li>Mannequin</li>
+<li>Firework Rocket</li>
+<li>Evoker Fangs</li>
+<li>Area Effect Cloud</li>
+<li>Minecart with Command Block</li>
+<li>Dark Oak Boat</li>
+<li>Oak Boat</li>
+<li>Lingering Potion</li>
+<li>Shulker Bullet</li>
+<li>Acacia Boat with Chest</li>
+<li>Spruce Boat</li>
+<li>Acacia Boat</li>
+<li>Birch Boat with Chest</li>
+<li>Glow Item Frame</li>
+<li>Spruce Boat with Chest</li>
+<li>Bamboo Raft</li>
+<li>Jungle Boat</li>
+<li>Player</li>
+<li>Thrown Bottle o’ Enchanting</li>
+<li>Leash Knot</li>
+<li>Cherry Boat</li>
+<li>Primed TNT</li>
+<li>Wither Skull</li>
+<li>Villager</li>
+<li>Text Display</li>
+<li>Minecart with Furnace</li>
+<li>Item</li>
+<li>Ominous Item Spawner</li>
+<li>Trident</li>
+<li>Mangrove Boat</li>
+<li>Thrown Ender Pearl</li>
+<li>Snow Golem</li>
+<li>Arrow</li>
+<li>Pale Oak Boat with Chest</li>
+<li>Experience Orb</li>
+<li>Splash Potion</li>
+<li>Minecart</li>
+<li>Painting</li>
+<li>Block Display</li>
+<li>Copper Golem</li>
+<li>Iron Golem</li>
+<li>Falling Block</li>
+<li>Armor Stand</li>
+<li>Pale Oak Boat</li>
+<li>Dragon Fireball</li>
+<li>Minecart with TNT</li>
+<li>Dark Oak Boat with Chest</li>
+<li>Oak Boat with Chest</li>
+<li>Llama Spit</li>
+<li>Thrown Egg</li>
+<li>Small Fireball</li>
+<li>Fishing Bobber</li>
+<li>End Crystal</li>
+<li>Birch Boat</li>
+<li>Fireball</li>
+<li>Minecart with Monster Spawner</li>
+<li>Lightning Bolt</li>
+<li>Minecart with Hopper</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

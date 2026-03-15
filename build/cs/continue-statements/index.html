@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Continue statements</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Continue statements</h1>
+<p>A <em>continue statement</em> is used inside loops to skip the current iteration and
+move on to the next one.</p>
+<p>In short, when a <code>continue</code> statement is encountered inside a loop, the
+loop skips back to the beginning of the loop for the next iteration, bypassing
+any code that’s left below to run.</p>
+<h2>Basic syntax</h2>
+<p>To continue to the next iteration of a loop, just add this line anywhere in the loop:</p>
+<pre><code class="language-cs">continue;
+</code></pre>
+<h2>Example: using continue in a while loop</h2>
+<p>Here’s an example of a while loop that counts from 1 to 5, but uses a <code>continue</code>
+statement to skip printing the number 3:</p>
+<pre><code class="language-cs">int count = 1;
+while (count &lt;= 5) {
+    if (count == 3) {
+        count++; // Increment count to avoid infinite loop
+        continue; // Skip the rest of the loop when count is 5
+    }
+    Console.WriteLine(count);
+    count++; // Increment count by 1
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>1
+2
+4
+5
+</code></pre>
+<blockquote>
+<p>Note that we increment <code>count</code> before the <code>continue</code> statement to avoid an
+infinite loop when <code>count</code> is 3.<br />
+If we didn’t do this, the loop would keep hitting the <code>continue</code> statement,
+because <code>count</code> would never change from 3.<br />
+We could also have done this by moving the <code>count++</code> line to the very top of
+the loop (and then starting it at 0 instead of 1).</p>
+</blockquote>
+<h2>Example: using continue in a for loop</h2>
+<p>We can do exactly the same thing with a for loop. Here’s an example that counts from 1 to 5,
+but continues to the next iteration when the count is 3:</p>
+<pre><code class="language-cs">for (int count = 1; count &lt;= 5; count++) {
+    if (count == 3) {
+        continue; // Skip the rest of the loop when count is 3
+    }
+    Console.WriteLine(count);
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>1
+2
+4
+5
+</code></pre>
+<blockquote>
+<p>In this case, we don’t need to manually increment <code>count</code> before the <code>continue</code>
+statement, because the <code>for</code> loop automatically increments <code>count</code> at the end
+of each iteration (<strong>even</strong> if we use <code>continue</code>).</p>
+</blockquote>
+<h2>Continue statements outside conditions</h2>
+<p>Like with a <code>break</code> statement, if we are using <code>continue</code> to skip to the next iteration of a loop, it’s almost always inside some kind of condition (like an
+<code>if</code> statement) to decide when to skip the rest of the loop. Otherwise, any code
+below the <code>continue</code> statement would never run!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

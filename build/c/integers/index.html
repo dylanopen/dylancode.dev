@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Integers</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Integers</h1>
+<p><em>Integers</em> are just whole numbers. They’re kind of the main data type used in C!</p>
+<p>In fact, when C was just beginning, pretty much everything was an integer, or
+made out of integers.</p>
+<h2>Syntax</h2>
+<p>Integers have the type <code>int</code>.</p>
+<p>We can declare an int variable like this:</p>
+<pre><code class="language-c">int myInteger;
+</code></pre>
+<p>We can also assign a value to it:</p>
+<pre><code class="language-c">myInteger = 42;
+</code></pre>
+<p>Or we can do both at the same time:</p>
+<pre><code class="language-c">int myInteger = 42;
+</code></pre>
+<h2>Size of integers</h2>
+<p>Integers are usually 4 bytes (32 bits) in size on modern systems, but this can
+vary depending on the architecture and compiler - because… C.</p>
+<p>If we assume integers are 4 bytes:</p>
+<ul>
+<li>The smallest integer we can represent is -2,147,483,648 (which is <im>-2^31</im>)</li>
+<li>The largest integer we can represent is 2,147,483,647 (which is <im>2^31 - 1</im>)</li>
+<li>Or, in other words, we can represent integers from -2.1 billion to +2.1
+billion.</li>
+<li>We can represent a total of <im>2^{32}</im> different integer values (about 4.2
+billion)</li>
+</ul>
+<p>That’s <em>usually</em> enough, but we also have other integer types if we need more or
+less range. We’ll cover those later.</p>
+<h2>Integer constants</h2>
+<p>We’ve seen an integer constant already - <code>42</code>.</p>
+<p>A <em>constant</em> is any value in our program that doesn’t change. Here, <code>42</code> is a
+<em>hardcoded</em> value and doesn’t change depending on input to the program or
+anything else.</p>
+<p>To use an integer constant, we just write it out in our code! Here’s some
+examples:</p>
+<pre><code class="language-c">int a = 10;
+int b = 0;
+int c = -5;
+</code></pre>
+<h2>Operations on integers</h2>
+<p>THere are lots of operations we can do to integer variables. For example:</p>
+<ul>
+<li>Addition: <code>+</code></li>
+<li>Subtraction: <code>-</code></li>
+<li>Multiplication: <code>*</code></li>
+<li>Division: <code>/</code></li>
+<li>Modulus (remainder): <code>%</code></li>
+<li>Increment: <code>++</code></li>
+<li>Decrement: <code>--</code></li>
+<li>Bitwise AND: <code>&amp;</code></li>
+<li>Bitwise OR: <code>|</code></li>
+<li>Bitwise XOR: <code>^</code></li>
+<li>Bitwise NOT: <code>~</code></li>
+<li>Left shift: <code>&lt;&lt;</code></li>
+<li>Right shift: <code>&gt;&gt;</code></li>
+</ul>
+<p>…and more!</p>
+<p>Here’s an example of some integer operations:</p>
+<pre><code class="language-c">int a = 10;
+int b = 3;
+int sum = a + b;          // sum is 13
+int difference = a - b;   // difference is 7
+int product = a * b;      // product is 30
+int quotient = a / b;     // quotient is 3
+int remainder = a % b;    // remainder is 1
+a++;                       // a is now 11
+b--;                       // b is now 2
+int andResult = a &amp; b;    // andResult is 2
+int orResult = a | b;     // orResult is 11
+int xorResult = a ^ b;    // xorResult is 9
+int notResult = ~a;       // notResult is -12
+int leftShift = a &lt;&lt; 1;   // leftShift is 22
+int rightShift = a &gt;&gt; 1;  // rightShift is 5
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

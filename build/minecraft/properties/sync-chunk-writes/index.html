@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sync-chunk-writes</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>sync-chunk-writes</h1>
+<p>To turn on synchronous chunk writes, go to server.properties and change the line
+to:</p>
+<pre><code class="language-properties">sync-chunk-writes=true
+</code></pre>
+<p>Or, to turn it off:</p>
+<pre><code class="language-properties">sync-chunk-writes=false
+</code></pre>
+<blockquote>
+<p>Default value: <code>true</code></p>
+</blockquote>
+<h2>Recommended starting value</h2>
+<pre><code class="language-properties">sync-chunk-writes=false
+</code></pre>
+<blockquote>
+<p>ONLY do this if you take frequent backups of your server! Data corruption is
+possible with this setting set to false.</p>
+</blockquote>
+<h2>What is <code>sync-chunk-writes</code>?</h2>
+<p>When a chunk’s data is modified, the server needs to save that data to disk so
+that it can load it back again later. We’ll refer to that as a “chunk write”.</p>
+<p>We have two options for when we can perform chunk writes:</p>
+<ul>
+<li><strong>Synchronous chunk writes</strong>: the server will pause and wait for the chunk
+write to finish before continuing with other tasks.</li>
+<li><strong>Asynchronous (non-sync) chunk writes</strong>: the server will continue with other
+tasks while the chunk write happens in the background.</li>
+</ul>
+<h2>The benefits of asynchronous chunk writes</h2>
+<p>Async chunk writes (i.e. <code>sync-chunk-writes=false</code>) have the benefit of not
+pausing the server while waiting for chunk writes to finish.</p>
+<p>When the server auto-saves or loads/unloads chunks, this option is great for
+performance, because it lets the server continue what it’s doing and write the
+chunk to the disk in the background.</p>
+<p>This helps avoid lag spikes when chunks are loaded/unloaded or during saves.</p>
+<blockquote>
+<p>Short answer: <code>sync-chunk-writes=false</code> is generally better for performance.</p>
+</blockquote>
+<h2>The benefits of synchronous chunk writes</h2>
+<p><em>Sync</em> chunk writes (<code>sync-chunk-writes=true</code>) are <em>much</em> safer.</p>
+<p>With the option set to false, if the server crashes or is force stopped
+while chunk writes are happening in the background, those chunk writes may not
+finish properly. This can lead to world corruption, missing blocks, and other
+issues.</p>
+<p>If you set it to true, though, the server will always wait for chunk writes to
+finish before the server can do anything else. This reduces the risk of world
+corruption.</p>
+<blockquote>
+<p>So in short, <code>sync-chunk-writes=true</code> is generally safer.</p>
+</blockquote>
+<h2>Which should you choose?</h2>
+<p><strong>If you take frequent backups of your server</strong>:</p>
+<ul>
+<li>You can safely set <code>sync-chunk-writes=false</code> for better performance, just
+restore a backup in the rare case that something goes wrong.</li>
+</ul>
+<p><strong>If you don’t take frequent backups of your server</strong>:</p>
+<ul>
+<li>It’s safer to set <code>sync-chunk-writes=true</code> to reduce the risk of world
+corruption. The performance impact is usually minimal unless you have a very
+slow disk.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

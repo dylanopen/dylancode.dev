@@ -1,6 +1,7 @@
 use std::{collections::HashMap, fmt::format, fs, io, path::Path};
 
 use indexmap::IndexMap;
+use walkdir::WalkDir;
 
 fn generate_doc_html(markdown_data: String) -> String {
     let cmark_markdown_data = markdown_data.clone();
@@ -62,18 +63,18 @@ fn main() {
     copy_dir_all("js", "build/js").unwrap();
     copy_dir_all("css", "build/css").unwrap();
 
-    for entry in fs::read_dir("docs").expect("Failed to read docs directory") {
+    for entry in WalkDir::new("docs") {
         let entry = entry.expect("Failed to read directory entry");
         let path = entry.path();
 
         if path.extension().and_then(|s| s.to_str()) == Some("md") {
-            let markdown_data = fs::read_to_string(&path).expect("Failed to read markdown file");
+            let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
             let html_content = generate_doc_html(markdown_data);
 
-            let filename = path.file_name().unwrap().to_str().unwrap();
-            let output_folder = format!("build/{}", filename.replace(".md", ""));
+            let filename = path.to_str().unwrap();
+            let output_folder = format!("build/{}", filename.replace(".md", "").replace("docs/", ""));
             fs::create_dir_all(&output_folder).expect("Failed to create output directory");
-            let output_path = format!("build/{}/index.html", filename.replace(".md", ""));
+            let output_path = format!("{}/index.html", output_folder);
             fs::write(output_path, html_content).expect("Failed to write HTML file");
         }
 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fields</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Fields</h1>
+<p>Any <em>useful</em> class contains <em>fields</em> - variables that hold data relevant to
+the class.</p>
+<p>For example, in the <code>Person</code> class declared in a
+<a href="/cs/class-declaration">recent article</a>, we have two fields: <code>name</code> and
+<code>age</code>.</p>
+<pre><code class="language-csharp">class Person
+{
+    public string name;
+    public int age;
+}
+</code></pre>
+<h2>Defining a field</h2>
+<p>Inside of a class, we define a field by specifying its <em>access modifier</em>
+(like <code>public</code>), its <em>data type</em> (like <code>string</code> or <code>int</code>), and its <em>name</em>
+(like <code>name</code> or <code>age</code>).</p>
+<p>Use this syntax on any line inside the class body:</p>
+<pre><code class="language-csharp">access_modifier data_type field_name;
+</code></pre>
+<p>For example, to define a field named <code>height</code> of type <code>float</code> with <code>private</code>
+access, we would write:</p>
+<pre><code class="language-csharp">public float height;
+</code></pre>
+<h2>Access modifiers</h2>
+<p>An <em>access modifier</em> tells us who can access a field of a class.</p>
+<p>There are a few common access modifiers in C#:</p>
+<table><thead><tr><th>Access Modifier</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>public</code></td><td>The field can be accessed from anywhere.</td></tr>
+<tr><td><code>private</code></td><td>The field can only be accessed within the class.</td></tr>
+<tr><td><code>protected</code></td><td>The field can be accessed within the class and by <em>inheriting</em> classes.</td></tr>
+<tr><td><code>internal</code></td><td>The field can be accessed within the same assembly.</td></tr>
+</tbody></table>
+<p>If there are no access modifiers on it, the field is <code>private</code> by default.</p>
+<h2>Example</h2>
+<p>Let’s say we created a <code>Car</code> class with fields for <code>make</code>, <code>price</code>, and
+<code>year</code>.</p>
+<pre><code class="language-csharp">class Car
+{
+    public string make;
+    private float price;
+    public int year;
+}
+</code></pre>
+<blockquote>
+<p>Because we’re a car-salesman, we want to keep the <code>price</code> field private
+so that only the <code>Car</code> class can access it - that way, we can charge
+whatever we like ;)</p>
+</blockquote>
+<p>If we’re outside of the <code>Car</code> class, say, in <code>Main</code>, we can access the
+<code>make</code> and <code>year</code> fields, but not the <code>price</code> field:</p>
+<pre><code class="language-csharp">Car myCar = new Car();
+myCar.make = "Toyota"; // OK
+myCar.year = 2015;     // OK
+myCar.price = 6849.99; // Errors!
+</code></pre>
+<p>That’s because <code>make</code> and <code>year</code> are <code>public</code>, while <code>price</code> is <code>private</code>.</p>
+<p>If however we’re in a method inside the <code>Car</code> class, we can access all three
+fields.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

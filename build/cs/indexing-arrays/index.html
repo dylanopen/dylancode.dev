@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Indexing arrays</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Indexing arrays</h1>
+<p>Every item in an array has an <em>index</em>. This represents where the item is located
+within the array.</p>
+<p>The index starts from <code>0</code> for the first item, <code>1</code> for the second item, and so
+on.</p>
+<h2>Reading an item from an array</h2>
+<p>Let’s say we have an array of numbers:</p>
+<pre><code class="language-cs">//     index:      0   1   2   3   4
+int[] numbers = { 10, 20, 30, 40, 50 };
+</code></pre>
+<p>We can get the first item (which is <code>10</code>) by using its index <code>0</code>:</p>
+<pre><code class="language-cs">int firstNumber = numbers[0]; // firstNumber is 10
+</code></pre>
+<p>Or, we can get the third item (which is <code>30</code>) by using its index <code>2</code>:</p>
+<pre><code class="language-cs">int thirdNumber = numbers[2]; // thirdNumber is 30
+</code></pre>
+<p>Then, we can print these values:</p>
+<pre><code class="language-cs">Console.WriteLine(firstNumber); // Output: 10
+Console.WriteLine(thirdNumber); // Output: 30
+</code></pre>
+<p>Or, to print them directly:</p>
+<pre><code class="language-cs">Console.WriteLine(numbers[0]); // Output: 10
+Console.WriteLine(numbers[2]); // Output: 30
+</code></pre>
+<h2>Modifying an item in an array</h2>
+<p>We can also change an item in the array by using its index. For example, to
+change the second item (which is <code>20</code>) to <code>25</code>, we can do:</p>
+<pre><code class="language-cs">numbers[1] = 25;
+// Now the array is { 10, 25, 30, 40, 50 }
+</code></pre>
+<h2>Finding the length of an array</h2>
+<p>We can find out how many items are in an array by using the <code>Length</code> property:</p>
+<pre><code class="language-cs">int length = numbers.Length; // length is 5
+Console.WriteLine(length); // Output: 5
+</code></pre>
+<blockquote>
+<p>It is important to remember that since array indexing starts at <code>0</code>, the last
+index of an array is always <code>Length - 1</code>. For example, in our <code>numbers</code> array,
+the last index is <code>4</code> (since <code>5 - 1 = 4</code>).</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

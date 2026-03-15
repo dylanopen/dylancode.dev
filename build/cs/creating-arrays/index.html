@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creating arrays</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Creating arrays</h1>
+<p>An <em>array</em> is a data type which stores a <em>collection</em> of items.</p>
+<p>It’s essentially a <em>list</em> of items, where:</p>
+<ul>
+<li>each item is the same data type (e.g. all integers, or all strings)</li>
+<li>the size of the array is fixed (i.e. it cannot grow or shrink)</li>
+<li>each item can be accessed by its <em>index</em> (i.e. its position in the list)</li>
+</ul>
+<h2>Declaring an array</h2>
+<p>We can declare an array using the type, followed by square brackets <code>[]</code>, and
+the name of the array:</p>
+<pre><code class="language-cs">int[] numbers;
+</code></pre>
+<p>This declares an array of <code>int</code> values called <code>numbers</code>.</p>
+<blockquote>
+<p>Note: we don’t declare the size of the array yet - that’s done when we
+initialise it.</p>
+</blockquote>
+<h2>Initialising an array</h2>
+<p>We can initialise an array using the <code>new</code> keyword, followed by the type,
+square brackets <code>[]</code>, and the size of the array in the brackets:</p>
+<pre><code class="language-cs">int[] numbers;
+numbers = new int[5];
+</code></pre>
+<p>This initialises the <code>numbers</code> array to hold 5 <code>int</code> values.</p>
+<p>We can also declare and initialise an array in one line:</p>
+<pre><code class="language-cs">int[] numbers = new int[5];
+</code></pre>
+<h2>Assigning values to an array</h2>
+<p>If we want to create an array called <code>primes</code> to hold the first 4 prime numbers,
+we can do this:</p>
+<pre><code class="language-cs">int[] primes = new int[4] { 2, 3, 5, 7 };
+</code></pre>
+<blockquote>
+<p>Note the use of curly braces <code>{}</code> to hold the values of the array. Any values
+in the array go inside them.</p>
+</blockquote>
+<h2>Creating arrays: examples</h2>
+<pre><code class="language-cs">int[] nums;
+nums = new int[3];
+nums = [ 2, 4, 6 ]
+
+bool[] studentsPassed = new bool[]{ true, false, false, true, true };
+
+
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

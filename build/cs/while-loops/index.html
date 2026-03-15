@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>While loops</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>While loops</h1>
+<p>A <em>while loop</em> is a type of condition-controlled loop that repeats a block of
+code as long as a certain condition is true.</p>
+<p>In pseudocode, we might write this as:</p>
+<pre><code class="language-cs">while (condition is true) {
+    // Code to repeat
+}
+</code></pre>
+<h2>Basic syntax</h2>
+<p>In C#, we can write a for loop like this:</p>
+<pre><code class="language-cs">while (condition) {
+    // Code to repeat
+}
+</code></pre>
+<p>The <code>condition</code> has to evaluate to a boolean value (<code>true</code> or <code>false</code>).</p>
+<blockquote>
+<p>While loops can be confusing, but <em>all</em> that is happening here is that the
+code inside the <code>{}</code> is being repeated as long as the condition is true.</p>
+</blockquote>
+<h2>Example: counting to 5</h2>
+<p>Here’s an example of a while loop that counts from 1 to 5:</p>
+<pre><code class="language-cs">int count = 1;
+while (count &lt;= 5) {
+    Console.WriteLine(count);
+    count++; // Increment count by 1
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>1
+2
+3
+4
+5
+</code></pre>
+<p>How does this code work?</p>
+<ul>
+<li>We start by initializing a variable <code>count</code> to 1.</li>
+<li>The while loop checks if <code>count</code> is less than or equal to 5.</li>
+<li>If the condition is true:
+<ul>
+<li>it prints the value of <code>count</code></li>
+<li>it increments <code>count</code> by 1.</li>
+</ul>
+</li>
+<li>This process repeats until <code>count</code> becomes 6, at which point the condition
+<code>count &lt;= 5</code> becomes false, and the loop ends.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>hopper</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>hopper</h1>
+<p>You can configure a lot of things about hoppers in the <code>spigot.yml</code> file, under
+the <code>world-settings</code> -&gt; <code>default</code> section.</p>
+<p>The default values for the main options are:</p>
+<pre><code class="language-yaml">ticks-per:
+  hopper-transfer: 8
+  hopper-check: 1
+hopper-amount: 1
+hopper-can-load-chunks: false
+</code></pre>
+<h2>Recommended starting value</h2>
+<p>If you care about redstone contraptions working as expected like in vanilla
+minecraft:</p>
+<pre><code class="language-yaml">ticks-per:
+  hopper-transfer: 8
+  hopper-check: 1
+hopper-amount: 1
+hopper-can-load-chunks: true
+</code></pre>
+<p>These values should work fine for <em>almost</em> all contraptions, with the exception
+of very few sorting systems which may require a lower <code>hopper-check</code> value as
+the items only travel over the hoppers for a single tick. Use these for most
+servers:</p>
+<pre><code class="language-yaml">ticks-per:
+  hopper-transfer: 8
+  hopper-check: 2
+hopper-amount: 1
+hopper-can-load-chunks: false
+</code></pre>
+<p>If you’d like to ultra-optimise hoppers, you can set the <code>hopper-check</code> to a
+higher value (with the highest I’d recommend going being <code>4</code>) but this may
+cause quite a lot of contraptions to break.<br />
+You can also increase the <code>hopper-transfer</code> value to slow down item transfer
+even more:</p>
+<pre><code class="language-yaml">ticks-per:
+  hopper-transfer: 16
+  hopper-check: 4
+hopper-amount: 2
+hopper-can-load-chunks: false
+</code></pre>
+<h2><code>ticks-per/hopper-transfer</code></h2>
+<p>This basically says ‘how many ticks should a hopper wait before it transfers
+items to the container it connects to’?</p>
+<p>The default value of 8 means that a hopper will transfer items every 8 ticks,
+or every 0.4 seconds.</p>
+<ul>
+<li><strong>Increasing</strong> this value makes hoppers transfer items out of a hopper more
+<strong>slowly</strong>.
+<ul>
+<li>This reduces lag</li>
+<li>…but it can break redstone contraptions that rely on hoppers
+transferring items quickly.</li>
+</ul>
+</li>
+<li><strong>Decreasing</strong> this value makes hoppers transfer items out of a hopper more
+<strong>quickly</strong>.
+<ul>
+<li>This increases lag</li>
+<li>…but it makes redstone contraptions that rely on hoppers transferring
+items quickly work better.</li>
+</ul>
+</li>
+</ul>
+<h2><code>ticks-per/hopper-check</code></h2>
+<p>This basically says ‘how many ticks should a hopper wait before it checks for
+items to pull into itself from above’?</p>
+<p>When you drop an item on top of a hopper, or it travels over a hopper in a
+water stream, the hopper checks whether there’s items above them.</p>
+<h2><code>hopper-amount</code></h2>
+<p>This says ‘how many items should a hopper transfer at once’?</p>
+<p>The normal value is <code>1</code>. But if, for example, you have your <code>ticks-per/hopper-transfer</code>
+value set to twice the normal rate, <code>16</code>, you may want 2 items to be transferred
+at once so that hopper transfers aren’t 2x slower.</p>
+<h2><code>hopper-can-load-chunks</code></h2>
+<p>If you turn this option to <code>true</code>, then hoppers will be able to load chunks
+when they try to pull items from containers in unloaded chunks, or push items
+to containers in unloaded chunks.</p>
+<p>For example, you could have long hopper lines that go through unloaded chunks,
+and the hoppers would still work.</p>
+<p>Because this essentially acts as a mini chunk loader, it can cause a lot of
+extra lag, so I’d recommend to keep this option set to <code>false</code> unless you
+really need it.</p>
+<h2>Manual hopper optimisation</h2>
+<p>You may know that putting a composter on top of a hopper can make a hopper
+cause a lot less lag. That’s because the hopper doesn’t have to check for items
+to pull in from above every tick - it only has to check when the composter
+outputs an item.</p>
+<p>Encourage your players to use composters on top of hoppers where possible, to
+reduce lag!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Subtraction</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Subtraction</h1>
+<p>Subtraction in RISC-V assembly is done using one of two instructions:</p>
+<ul>
+<li><code>sub</code> for subtracting the values of two registers</li>
+<li><code>addi</code> with a negative immediate value for subtracting an immediate value
+from a register</li>
+</ul>
+<h2>Subtracting using registers</h2>
+<p>Suppose we have two registers, <code>x1</code> and <code>x2</code>, which contain the values <code>10</code> and
+<code>3</code> respectively, and we want to subtract the value in <code>x2</code> from the value in
+<code>x1</code>, and store the result in <code>x3</code>.</p>
+<p>In other words:</p>
+<pre><code class="language-python">x1 = 10
+x2 = 3
+x3 = x1 - x2
+</code></pre>
+<p>We can do that using the <code>sub</code> instruction like this:</p>
+<pre><code class="language-asm">sub x3, x1, x2
+</code></pre>
+<p>Or, the full code:</p>
+<pre><code class="language-asm">.text
+main:
+    li x1, 10
+    li x2, 3
+    sub x3, x1, x2
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++li%20x2%2C%203%0A++++sub%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall">View in Creatorsim!</a></p>
+<p>Once we run this code, the value in register <code>x3</code> will be <code>7</code>, or <code>07</code> in hex!</p>
+<h2>Subtracting an immediate value</h2>
+<p>Suppose we have a register, <code>x1</code>, which contains the value <code>10</code>, and we want to
+subtract <code>3</code> from it and store the result in <code>x2</code>.</p>
+<p>In other words:</p>
+<pre><code class="language-python">x1 = 10
+x2 = x1 - 3
+</code></pre>
+<p>But we can also subtract the number <code>3</code> by <em>adding</em> <code>-3</code> to <code>x1</code>!</p>
+<p>In Python, that would look like this:</p>
+<pre><code class="language-python">x1 = 10
+x2 = x1 + (-3) # (brackets optional)
+</code></pre>
+<p>We can do that in RISC-V assembly using the <code>addi</code> instruction with a negative
+immediate value:</p>
+<pre><code class="language-asm">addi x2, x1, -3
+</code></pre>
+<p>The full code being:</p>
+<pre><code class="language-asm">.text
+main:
+    li x1, 10
+    addi x2, x1, -3
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++addi%20x2%2C%20x1%2C%20-3%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall">View in Creatorsim!</a></p>
+<p>As this code effectively does the same as the previous example, the value in
+register <code>x2</code> will also be <code>7</code> when running the code!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

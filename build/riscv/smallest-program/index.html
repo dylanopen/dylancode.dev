@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smallest program</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Smallest program</h1>
+<p>To get started with writing RISC-V assembly, we need a few things:</p>
+<ul>
+<li>A <code>text</code> section, to hold the actual program code.</li>
+<li>A <code>main</code> label, to indicate where the program starts.</li>
+<li>An <code>ecall</code> instruction, to terminate the program (or an infinite halt).</li>
+</ul>
+<h2>The smallest RISC-V code</h2>
+<p>This program here will compile just fine and run without errors:</p>
+<pre><code class="language-asm">.text
+main:
+    li x17, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>Let’s break it down.</p>
+<h2>The <code>.text</code> section</h2>
+<p>In the Von Neumann architecture, the code for a program is stored in memory,
+right alongside the data it is using.</p>
+<p>To tell the assembler that the following lines are <em><strong>code</strong></em> and not <em><strong>data</strong></em>
+we use the <code>.text</code> directive:</p>
+<pre><code class="language-asm">.text
+</code></pre>
+<p>This has to go before any code instructions, or we’ll get an error:</p>
+<pre><code>[E18] Error: Can't use instruction statements while in section None
+   ╭─[ assembly:2:5 ]
+ 2 │     li x17, 10
+   │     ──┬──  
+   │       ╰──── This statement can't be used in the current section
+   │ Help: Consider changing the section to Text, using .text
+   │ Note: No section previously started
+───╯
+</code></pre>
+<h2>The <code>main</code> label</h2>
+<p>The processor won’t know where to start executing the program unless we tell it.</p>
+<p>We use a <a href="/riscv/labels">label</a> to indicate the starting point of the program:</p>
+<pre><code class="language-asm">main:
+</code></pre>
+<p>And, as it’s under the <code>.text</code> section:</p>
+<pre><code class="language-asm">.text
+main:
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A">Run on creatorsim</a></p>
+<p>You might think this should work now, but it won’t quit for one reason:</p>
+<blockquote>
+<p>If there’s no instructions after a label, it can’t actually create the <code>main</code>
+label in the output binary, because there’s nothing to attach it to!</p>
+</blockquote>
+<p>It would give us this error:</p>
+<pre><code>Error: found end of input but expected \n, directive, instruction, or label
+   ╭─[ assembly:2:6 ]
+   │
+ 2 │ main:
+   │      │ 
+   │      ╰─ Unexpected input
+───╯
+</code></pre>
+<p>So we need at least one instruction after the label.</p>
+<p>Technically, this <em>could</em> be anything and it would <strong>compile</strong> fine. But to
+<em>run</em> the program without errors, we need to tell the processor to exit.</p>
+<p>If we don’t tell it to exit, it will just continue executing whatever random
+data is in memory after our program, which will likely lead to an error.</p>
+<h2>The <code>ecall</code> instruction</h2>
+<p>To tell the processor to exit the program cleanly, we use the <code>ecall</code>
+instruction:</p>
+<pre><code>ecall
+</code></pre>
+<p>Within the context of our program, it looks like this:</p>
+<pre><code class="language-asm">.text
+main:
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p><code>ecall</code> is an instruction that makes a system call to the operating system.</p>
+<h2>The exit system call</h2>
+<p>You may thinkg we’re now done, however, we need to actually tell it <em>which</em>
+system call we want to make. To do that, we move a value into the <code>a7</code> (or
+<code>x17</code>) register before the <code>ecall</code> instruction.</p>
+<p>To move a value into a register, we use the <code>li</code> (load immediate) instruction.<br />
+We’ll cover how to use it in more detail later!</p>
+<p>For exiting a program, the system call number is <code>10</code>. At least, it is for the
+emulator we are using. So we would do this:</p>
+<pre><code class="language-asm">.text
+main:
+    li x17, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>In this case, it tells the operating system to terminate the program, so it
+stops any garbage instructions that might be after it from being executed.</p>
+<p>And there we have it! The smallest RISC-V program that compiles and runs
+without errors.</p>
+<p>Of course… the program doesn’t <em>do</em> anything useful. But it’s a start! All
+our future RISC-V programs will build on this basic structure, changing what’s
+after the <code>main:</code> label to do more interesting things.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

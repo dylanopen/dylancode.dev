@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Else statements</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Else statements</h1>
+<p>An <em>else statement</em> allows us to run a block of code if the previous <code>if</code> (or
+<code>else if</code>) condition was false.</p>
+<p>We can write this using words like this:</p>
+<ul>
+<li>Check <code>condition</code>:
+<ul>
+<li>If <code>condition</code> is true, run the code inside the <code>if</code> block.</li>
+<li>If <code>condition</code> is false, run the code inside the <code>else</code> block.</li>
+</ul>
+</li>
+</ul>
+<h2>Basic syntax</h2>
+<pre><code class="language-cs">if (condition) {
+    // Code to run if the condition is true
+} else {
+    // Code to run if the condition is false
+}
+</code></pre>
+<p>Or, if we’re using <code>else if</code> statements:</p>
+<pre><code class="language-cs">if (condition1) {
+    // Code to run if condition1 is true
+} else if (condition2) {
+    // Code to run if condition1 is false and condition2 is true
+} else if (condition3) {
+    // Code to run if condition1 and condition2 are false and condition3 is true
+} else {
+    // Code to run if all previous conditions are false
+}
+</code></pre>
+<h2><code>else</code>’s relationship with <code>else if</code> statements</h2>
+<p>You may be able to tell that an <code>else if</code> statement is actually just syntax
+sugar for an <code>if</code> statement wrapped inside an <code>else</code> block.</p>
+<p>This code:</p>
+<pre><code class="language-cs">if (condition1) {
+    // Code to run if condition1 is true
+} else if (condition2) {
+    // Code to run if condition1 is false and condition2 is true
+}
+</code></pre>
+<p>Is exactly the same as this code:</p>
+<pre><code class="language-cs">if (condition1) {
+    // Code to run if condition1 is true
+} else {
+    if (condition2) {
+        // Code to run if condition1 is false and condition2 is true
+    }
+}
+</code></pre>
+<p>…but much easier to read and write!</p>
+<h2>Our example from before: positive, negative, or zero</h2>
+<p>In the last chapter, we wrote this code:</p>
+<pre><code class="language-cs">int number = -5;
+if (number &gt; 0) {
+    Console.WriteLine("The number is positive.");
+} else if (number &lt; 0) {
+    Console.WriteLine("The number is negative.");
+} else if (number == 0) {
+    Console.WriteLine("The number is zero.");
+}
+</code></pre>
+<p>We worked out that, if the number is not greater than zero, and not less than
+zero, it must, well, <em>be zero</em>!</p>
+<p>So there really is no need to check the last condition.<br />
+We can just use an <code>else</code> statement instead:</p>
+<pre><code class="language-cs">int number = -5;
+if (number &gt; 0) {
+    Console.WriteLine("The number is positive.");
+} else if (number &lt; 0) {
+    Console.WriteLine("The number is negative.");
+} else {
+    Console.WriteLine("The number is zero.");
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>The number is negative.
+</code></pre>
+<p>Or, if we set <code>number</code> to <code>0</code>:</p>
+<pre><code>The number is zero.
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

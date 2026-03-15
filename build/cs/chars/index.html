@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chars</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Chars</h1>
+<p>A <code>char</code> is a data type in C# which represents a single 16-bit Unicode
+character.<br />
+Essentially, it stores a single character, such as a letter, digit, or symbol.</p>
+<h2>Examples of chars</h2>
+<ul>
+<li><code>'A'</code></li>
+<li><code>'2'</code></li>
+<li><code>'$'</code></li>
+<li><code>'\n'</code> (newline character)</li>
+</ul>
+<h2>Declaring and initializing chars</h2>
+<p>You can declare and initialize a <code>char</code> variable using single quotes:</p>
+<pre><code class="language-csharp">char letter = 'A';
+char digit = '5';
+char symbol = '#';
+</code></pre>
+<h2>Char operations</h2>
+<p>Chars are really just a number under-the-hood, so you can do any normal maths
+operations on them:</p>
+<pre><code class="language-csharp">char letterA = 'A'; // Unicode value 65
+char letterB = 'B'; // Unicode value 66
+int difference = letterB - letterA; // difference is 1
+</code></pre>
+<p>or:</p>
+<pre><code class="language-csharp">char letter = 'F';
+char lowercaseLetter = (char)(letter + 32); // 'f'
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Variables</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Variables</h1>
+<p>A <em>variable</em> is a <em>named storage location</em> in memory.</p>
+<p>Essentially, it represents a box of data.</p>
+<p>We can use variables to store data that we want to use later in our program.<br />
+This is useful because it allows us to reuse data without having to hard-code
+it multiple times, and also allows our program to do different things based on
+user input or other changing data.</p>
+<h2>Declaring variables</h2>
+<p>When we <em>declare</em> a variable, we essentially <strong>create</strong> it and <strong>state that it
+exists</strong>. It does not yet have a value (well, it does, but it’s just some
+random garbage value we don’t want).</p>
+<p>We do this by specifying the <em>type</em> of the variable, followed by its <em>name</em>.</p>
+<pre><code class="language-cs">type variableName;
+</code></pre>
+<p>For example, to declare a variable named <code>population</code> of type <code>int</code> (integer),
+we would do:</p>
+<pre><code class="language-cs">int population;
+</code></pre>
+<h2>Initializing variables</h2>
+<p>When we <em>initialise</em> a variable, we <strong>give it a value for the first time</strong>.</p>
+<p>We do this by using the <em>assignment operator</em> (<code>=</code>) to assign a value to the
+variable.</p>
+<pre><code class="language-cs">variableName = value;
+</code></pre>
+<p>For example, to initialise the <code>population</code> variable to <code>1200</code>, we would do:</p>
+<pre><code class="language-cs">population = 1200;
+</code></pre>
+<h2>Shorthand declaration and initialisation</h2>
+<p>We can also declare and initialise a variable in one line, like this:</p>
+<pre><code class="language-cs">type variableName = value;
+</code></pre>
+<p>For example, to declare and initialise the <code>population</code> variable in one line,
+we would do:</p>
+<pre><code class="language-cs">int population = 1200;
+</code></pre>
+<h2>Reading a variable</h2>
+<p>We can <em>read</em> the value of a variable by simply using its name in an
+expression. For example, to print the value of the <code>population</code> variable to
+the console, we would do:</p>
+<pre><code class="language-cs">Console.WriteLine(population);
+</code></pre>
+<p>Or, if we wanted to set the <code>int</code> variable called <code>newPopulation</code> to be
+double the value of <code>population</code>, we would do:</p>
+<pre><code class="language-cs">int newPopulation = population * 2;
+</code></pre>
+<h2>Assignment</h2>
+<p><em>Assignment</em> is just like <em>initialisation</em>, except that it happens after the
+variable has already been initialised. Basically, it’s changing the value of
+a variable after it’s already got a value.</p>
+<p>We do this the same way as initialisation, using the assignment operator
+(<code>=</code>):</p>
+<pre><code class="language-cs">variableName = newValue;
+</code></pre>
+<p>For example, to change the value of the <code>population</code> variable to <code>1500</code>, we
+would do:</p>
+<pre><code class="language-cs">population = 1500;
+</code></pre>
+<h2>Variable name rules</h2>
+<p>In C#, variable names need to follow these rules:</p>
+<ul>
+<li>They must start with a letter (A-Z, a-z) or an underscore (_).</li>
+<li>They can only contain letters, digits (0-9), and underscores (_) (no special
+characters or spaces).</li>
+<li>They can’t be called the same thing as an existing C# keyword (like <code>for</code>,
+<code>class</code>, <code>if</code>, etc.).</li>
+<li>They are case-sensitive (so <code>myVariable</code> and <code>MyVariable</code> are different
+variables).</li>
+</ul>
+<h2>Variable name conventions</h2>
+<p>C# has some strange naming conventions compared to other languages, but here’s
+a (mostly) comprehensive list of them:</p>
+<ul>
+<li>Use <em>camelCase</em> for local variables and function/method parameters (e.g.,
+<code>myVariable</code>).</li>
+<li>Use <em>PascalCase</em> for fields/properties and methods (e.g., <code>MyProperty</code>,
+<code>CalculateSum()</code>).</li>
+<li>Use <em>PascalCase</em> for type names (classes, structs, enums, etc.) (e.g.,
+<code>MyClass</code>, <code>UserProfile</code>).</li>
+<li>Don’t use underscores in names.</li>
+<li>Constants should use <em>PascalCase</em> (e.g., <code>MaxValue</code>).</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

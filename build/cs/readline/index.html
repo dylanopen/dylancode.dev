@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Console.ReadLine</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Console.ReadLine</h1>
+<p>C# has a built-in method for reading input from the user via the console: <code>Console.ReadLine</code>.</p>
+<p>Technically, the method name is <code>ReadLine</code>, and it is part of the <code>Console</code>
+class. If you get an error about an unresolved reference to <code>Console</code>, make sure
+you have the following at the top of your file:</p>
+<pre><code class="language-cs">using System;
+</code></pre>
+<p>The <code>Console.ReadLine</code> method reads a line of text from the console until the
+user presses the Enter key. It then returns that line of text as a string.</p>
+<p>For example, the following code prompts the user to enter their name, reads the
+input using <code>Console.ReadLine</code>, and then greets the user by name:</p>
+<pre><code class="language-cs">using System;
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+        Console.WriteLine("Hello, " + name + "!");
+    }
+}
+</code></pre>
+<p>When you run this program, it will wait for the user to type their name and
+press Enter. After that, it will display a greeting message.</p>
+<p>Example output:</p>
+<pre><code>Enter your name: John
+Hello, John!
+</code></pre>
+<h2>A simpler example</h2>
+<p>If you want to see a simpler example, here it is:</p>
+<pre><code class="language-cs">string input = Console.ReadLine();
+Console.WriteLine("You entered: " + input);
+</code></pre>
+<p>This code reads a line of input from the user and then prints it back to the
+console.</p>
+<p>Example output:</p>
+<pre><code>Hello, World!
+You entered: Hello, World!
+</code></pre>
+<h2><code>Console.ReadLine</code> return value</h2>
+<p>It’s important to note that <code>Console.ReadLine</code> returns a string - always.</p>
+<p>If you need to convert the input to another data type (like an integer or a
+float), you’ll need to use methods to parse the string into the desired type!</p>
+<p>For example:</p>
+<pre><code class="language-cs">Console.Write("Enter your age: ");
+string input = Console.ReadLine();
+int age = int.Parse(input);
+int nextYearAge = age + 1;
+Console.WriteLine("You will be " + nextYearAge + " years old next year.");
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

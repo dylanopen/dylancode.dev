@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adding registers</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Adding registers</h1>
+<p>Just as we can add the value stored in a register to an immediate value (a
+constant) and then save the result in another register, we can also add the
+values of two registers together - then save that result in a third register.</p>
+<h2>Adding two registers</h2>
+<p>The instruction for adding the values of two registers together is <code>add</code> (not
+<code>addi</code>, which we used for adding an immediate value).</p>
+<p>The syntax for <code>add</code> is:</p>
+<pre><code class="language-asm">add &lt;destination register&gt;, &lt;source register 1&gt;, &lt;source register 2&gt;
+</code></pre>
+<p>This means “add the value in <code>&lt;source register 1&gt;</code> to the value in <code>&lt;source register 2&gt;</code>, and store the result in <code>&lt;destination register&gt;</code>”.</p>
+<h2>Example</h2>
+<p>If we wanted to:</p>
+<ul>
+<li>Load the value <code>22</code> into register <code>x1</code></li>
+<li>Load the value <code>8</code> into register <code>x2</code></li>
+<li>Add the values in <code>x1</code> and <code>x2</code> together, and store the result in <code>x3</code></li>
+</ul>
+<p>We would write:</p>
+<pre><code class="language-asm">.text
+main:
+    li x1, 22        # x1 = 22
+    li x2, 8         # x2 = 8
+    add x3, x1, x2   # x3 = x1 + x2
+
+stop:
+    li a7, 10        # 10 = exit syscall
+    ecall            # Make syscall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A++++li%20x1%2C%2022%20%20%20%20%20%23%20x1%20%3D%2022%0A++++li%20x2%2C%208%20%20%20%20%20%23%20x2%20%3D%208%0A++++add%20x3%2C%20x1%2C%20x2%20%23%20x3%20%3D%20x1%20%2B%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%20%20%20%23%2010%20%3D%20exit%20syscall%0A++++ecall%20++++++-%20Make%20syscall">Try it out in Creatorsim!</a></p>
+<p>Now, when we run this code, the value in register <code>x3</code> will be <code>30</code>, or <code>1E</code> in
+hex!</p>
+<h2>The <code>+=</code> operation</h2>
+<p>In many programming languages, there is a shorthand way to add a value to a
+variable and store the result back in the same variable. This is often done
+using the <code>+=</code> operator.</p>
+<p>For example, in C:</p>
+<pre><code class="language-c">int x1 = 10;
+int x2 = 5;
+x1 += x2;  // equivalent to x1 = x1 + x2;
+</code></pre>
+<p>We can effectively do the same in RISC-V assembly using the <code>add</code> instruction by
+using the same register for both the destination and one of the source
+registers.</p>
+<p>For this C code, we can instead write:</p>
+<pre><code class="language-asm">    li x1, 10       # x1 = 10
+    li x2, 5        # x2 = 5
+    add x1, x1, x2  # x1 = x1 + x2
+</code></pre>
+<p>This will add the value in <code>x2</code> to the value in <code>x1</code>, and store the result back
+in <code>x1</code>. After , <code>x1</code> will contain the value <code>15</code>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

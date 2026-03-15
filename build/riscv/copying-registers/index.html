@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Copying registers</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Copying registers</h1>
+<p>We already know that we can <em>set</em> the value of a register to a constant, using
+the <code>li</code> pseudo-instruction.</p>
+<p>WHat if we have a value in one register, and we want to copy it to another
+register?</p>
+<p>For that, we can use the <code>mv</code> pseudo-instruction.</p>
+<h2>Syntax</h2>
+<p>If we want to copy the value in register <code>a0</code> to register <code>a1</code>, we would write:</p>
+<pre><code class="language-asm">mv a1, a0
+</code></pre>
+<p>For example, our full code may look something like:</p>
+<pre><code class="language-asm">.text
+main:
+    li a0, 20
+    mv a1, a0
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20a0%2C%2020%0A%20%20%20%20mv%20a1%2C%20a0%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>The result in the registers will be:</p>
+<pre><code>a0 = 20
+a1 = 20
+</code></pre>
+<h2>Implementation</h2>
+<p>The <code>mv</code> pseudo-instruction is actually implemented using the <code>addi</code>
+instruction, which adds an immediate value to a register.</p>
+<p>It’s essentially the reverse of the <code>li</code> pseudo-instruction we saw earlier.</p>
+<p>For example, the instruction:</p>
+<pre><code class="language-asm">mv a1, a0
+</code></pre>
+<p>is translated to:</p>
+<pre><code class="language-asm">addi a1, a0, 0
+</code></pre>
+<p>In other words, add <code>0</code> to the value in <code>a0</code>, and store the result in <code>a1</code>.</p>
+<p>This effectively copies the value from <code>a0</code> to <code>a1</code>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

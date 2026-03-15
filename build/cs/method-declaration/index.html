@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Method declaration</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Method declaration</h1>
+<p>When we <em>declare</em> a method, we <em>create</em> the method.</p>
+<p>But… what is a method?</p>
+<h2>Methods</h2>
+<p>A <em>method</em> is simply a named block of code that performs a specific task.</p>
+<p>For example, we might have a method that adds two numbers together (pseudocode):</p>
+<pre><code>method AddNumbers(number a, number b)
+{
+    return a + b
+}
+</code></pre>
+<p>The important thing that distinguishes a method from a <em>function</em> you may see in
+other programming languages is that a method is always associated with a class
+or an object.</p>
+<p>That means that methods are defined <em>inside</em> classes.</p>
+<h2>Method declaration syntax</h2>
+<p>Since the <code>Hello World</code> chapter, we’ve started off from this assumed code
+structure:</p>
+<pre><code class="language-cs">using System;
+class Program
+{
+    static void Main()
+    {
+        // CODE HERE
+    }
+}
+</code></pre>
+<p>Now, however, instead of adding <em>all</em> our code where the <code>CODE HERE</code> comment is,
+we can start to create <em>other methods</em> than just <code>Main</code>.</p>
+<p>To declare a method, we use this syntax:</p>
+<pre><code class="language-cs">accessModifier [static] returnType MethodName(parameterList)
+{
+    // Method body (code to be executed)
+}
+</code></pre>
+<p>That looks a little complicated, so let’s break it down piece by piece.</p>
+<h2>Access modifier</h2>
+<p>An <em>access modifier</em> specifies who can call the method.</p>
+<p>There are a few different types, with the main 3 being:</p>
+<ul>
+<li><code>public</code>: The method can be called from anywhere.</li>
+<li><code>private</code>: The method can only be called from within the same class.</li>
+<li><code>protected</code>: The method can be called from within the same class and from
+derived classes (inheritance).</li>
+</ul>
+<h2>Static keyword</h2>
+<p>We can optionally use the <code>static</code> keyword to indicate that the method belongs
+to the class itself, rather than to instances of the class.</p>
+<p>What’s the difference?</p>
+<ul>
+<li>A <strong>class</strong> is just a blueprint for creating objects. It doesn’t have a
+specific state - so any method that is <code>static</code> can be called without creating
+an instance of the class (object).</li>
+<li>An <strong>instance</strong> of a class (object) has its own state (data). Non-static
+methods can access and change this state, but they need to be called on an
+instance of the class to be called.</li>
+</ul>
+<p>We then can call these methods like this:</p>
+<ul>
+<li>Static method: <code>ClassName.MethodName()</code></li>
+<li>Non-static method: <code>object.MethodName()</code></li>
+</ul>
+<h2>Return type</h2>
+<p>The <em>return type</em> is just a regular <a href="/cs/data-types">data type</a>.</p>
+<p>It specifies what type of value the method will return when it is called.</p>
+<p>Methods <em>return</em> values so that the function which <em>called</em> the method can use
+that value for whatever it needs to.</p>
+<p>If a method does not return any value, we use the <code>void</code> keyword as the return
+type. That just means ‘returns nothing’.</p>
+<h2>Parameter list</h2>
+<p>The parameter list looks like this:</p>
+<pre><code class="language-cs">(type1 param1, type2 param2, ...)
+</code></pre>
+<p>For example, if we had a method that takes two integers as parameters, the
+parameter list would look like this:</p>
+<pre><code>cs(int a, int b)
+</code></pre>
+<p><code>a</code> and <code>b</code> can be called anything you like. They’re essentially just variables
+which can be used in that method.</p>
+<p>When we call the method, we need to provide values (arguments) for each of the
+parameters. These get ‘mapped’ to the parameter names in the order they are
+passed in.</p>
+<h2>Method body</h2>
+<p>The <em>method body</em> is just the block of code inside the curly braces <code>{}</code>.</p>
+<p>Anything in here will run when we call the method.</p>
+<h2>Example method declaration</h2>
+<p>To create a method which adds two numbers together and returns the result, we
+could write:</p>
+<pre><code class="language-cs">public static int AddNumbers(int a, int b)
+{
+    return a + b;
+}
+</code></pre>
+<p>If we wanted to call this method from the <code>Main</code> method, we could do:</p>
+<pre><code class="language-cs">using System;
+class Program
+{
+    public static int AddNumbers(int a, int b)
+    {
+        return a + b;
+    }
+
+    static void Main()
+    {
+        int sum = AddNumbers(5, 10);
+        Console.WriteLine(sum); // Output: 15
+    }
+}
+</code></pre>
+<p>We’ll go over how to call methods in the next chapter!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

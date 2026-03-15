@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>entity-broadcast-range-percentage</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>entity-broadcast-range-percentage</h1>
+<p>To change the distance at which entities are sent to players (using the vanilla,
+<code>server.properties</code> option), change this line in <code>server.properties</code>:</p>
+<pre><code class="language-properties">entity-broadcast-range-percentage=100
+</code></pre>
+<h2>Recommended starting values</h2>
+<p>If you have a server with many players and/or many entities (mobs, items,
+etc), you can lower this value to <code>75</code> in order to reduce the amount of data
+sent to players, to reduce CPU lag and network usage:</p>
+<pre><code class="language-properties">entity-broadcast-range-percentage=75
+</code></pre>
+<p>If you have a small server with few players and entities, you can leave it at
+the default value of <code>100</code>:</p>
+<pre><code class="language-properties">entity-broadcast-range-percentage=100
+</code></pre>
+<p>If you’re really trying to squeeze out every bit of performance and don’t mind
+players not seeing entities that are far away, you can lower it even further to
+<code>50</code>:</p>
+<pre><code class="language-properties">entity-broadcast-range-percentage=50
+</code></pre>
+<h2>What is <code>entity-broadcast-range-percentage</code>?</h2>
+<p>This config option basically says “how far away should entities be sent to
+players, compared to the default distance”.</p>
+<p>For example, if you set this to <code>50</code>, entities will only be sent to players if
+they are within half the normal distance.</p>
+<h2>Benefits of lowering this value</h2>
+<ul>
+<li>Less network usage, possibly less network lag and latency (ping)</li>
+<li>Less CPU usage, as the server has to track and send fewer entities to players</li>
+</ul>
+<h2>Downsides of lowering this value</h2>
+<ul>
+<li>Pretty obvious really, players can’t see entities that are far away.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

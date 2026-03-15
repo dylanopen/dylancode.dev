@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modulus</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Modulus</h1>
+<p>The <em>modulus</em> operator is represented by the <code>%</code> symbol, and it gives us the
+<em>remainder</em> of a division operation.</p>
+<p>For example, the remainder of <code>7</code> divided by <code>3</code> is <code>1</code>, because <code>3</code> goes into
+<code>7</code> twice (which is <code>6</code>), and there is <code>1</code> left over.</p>
+<p>We can use the modulus operator like this:</p>
+<pre><code class="language-cs">int remainder = 7 % 3; // 1
+int remainder2 = 10 % 4; // 2
+int remainder3 = 15 % 5; // 0
+</code></pre>
+<h2>Common use: odd/even checking</h2>
+<p>One of the most common uses for the <code>%</code> operator is to check whether a number is
+<em>odd</em> or <em>even</em>. An <strong>even</strong> number is divisible by <code>2</code> with <strong>no</strong> (<code>0</code>)
+remainder, whereas an <strong>odd</strong> number has a remainder of <code>1</code> when divided by <code>2</code>.</p>
+<p>So we could check for an even number like this:</p>
+<pre><code class="language-cs">int number = 8;
+bool isEven = (number % 2 == 0); // true
+</code></pre>
+<p>…or for an odd number like this:</p>
+<pre><code class="language-cs">int number = 7;
+bool isOdd = (number % 2 == 1); // true
+</code></pre>
+<h2>Common use: wrapping values</h2>
+<p>Suppose we have a variable that represents a colour in the RGB format.</p>
+<p>The last 8 bits of the RGB value represent the blue component, which can have a
+value from <code>0</code> to <code>255</code>. We can get the last 8 bits by finding the <em>remainder</em>
+when dividing by <code>256</code> (because <code>256</code> is <code>2^8</code>, or <code>1</code> followed by <code>8</code> zeroes in
+binary):</p>
+<pre><code class="language-cs">int rgbValue = 0xFFAA33; // some RGB colour value
+int blueComponent = rgbValue % 256; // 0x33 (51 in decimal)
+</code></pre>
+<p>This technique of using the modulus operator to ‘wrap’ values around a certain
+range is very common in programming!</p>
+<h2>A case study: fizzbuzz</h2>
+<p>A classic programming exercise is called <em>fizzbuzz</em>. The task is to print the
+numbers from <code>1</code> to <code>100</code>, but for multiples of <code>3</code>, print <code>"fizz"</code> instead of
+the number, for multiples of <code>5</code>, print <code>"buzz"</code> instead of the number, and for
+multiples of both <code>3</code> and <code>5</code>, print <code>"fizzbuzz"</code> instead of the number.</p>
+<p>Here is a (bad) implementation of fizzbuzz in C#:</p>
+<pre><code class="language-cs">for (int i = 1; i &lt;= 100; i++)
+{
+    if (i % 3 == 0 &amp;&amp; i % 5 == 0)
+    {
+        Console.WriteLine("fizzbuzz");
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine("fizz");
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine("buzz");
+    }
+    else
+    {
+        Console.WriteLine(i);
+    }
+}
+</code></pre>
+<blockquote>
+<p>Don’t worry if you don’t understand all of this code yet. It covers concepts
+that we haven’t covered yet, such as loops and conditional statements. The key
+parts are the modulus operations (<code>i % 3</code> and <code>i % 5</code>), which check whether
+<code>i</code> is a multiple of <code>3</code> or <code>5</code>.</p>
+</blockquote>
+<p>There are <em>far</em> better ways to implement fizzbuzz - e.g. by building up a
+string, or using a hashmap (or <code>Dictionary</code> in C#) - but this basic
+implementation shows the uses of the modulus operator.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

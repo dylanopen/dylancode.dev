@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arithmetic operators</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Arithmetic operators</h1>
+<p>An <em>arithmetic operator</em> is essentially a symbol that performs maths.</p>
+<p>They’re usually self-explanatory - the expression <code>3+4</code> evaluates to <code>7</code> - but
+you may not be familiar with all of the symbols used in C#!</p>
+<h2>Addition</h2>
+<p>You can do addition with the <code>+</code> operator:</p>
+<pre><code class="language-cs">int sum = 3 + 4; // 7
+double total = 5.5 + 2.3; // 7.8
+char letter = (char)('A' + 4); // 'E'
+</code></pre>
+<p>Note that the <code>+</code> operator can also be used to concatenate (join together)
+strings:</p>
+<pre><code class="language-cs">string greeting = "Hello, " + "world!"; // "Hello, world!"
+</code></pre>
+<p>Its purpose depends on the data types of the values being added together.</p>
+<h2>Subtraction</h2>
+<p>You can do subtraction with the <code>-</code> operator:</p>
+<pre><code class="language-cs">int difference = 10 - 4; // 6
+double result = 5.5 - 2.3; // 3.2
+</code></pre>
+<h2>Multiplication</h2>
+<p>You can do multiplication with the <code>*</code> operator (an asterisk, <strong>not</strong> the times
+symbol <code>×</code> or letter <code>x</code>):</p>
+<pre><code class="language-cs">int product = 3 * 4; // 12
+double result = 2.5 * 4.0; // 10.0
+</code></pre>
+<h2>Order of operations</h2>
+<p>When you have multiple arithmetic operators in a single expression, the order of
+operations matters!</p>
+<p>C# follows the normal mathematical order of operations - you probably know this
+as <code>BIDMAS</code>, <code>BODMAS</code>, <code>PEMDAS</code>, or something similar.</p>
+<p>In the expression <code>3 + 4 * 2</code>, the multiplication is done first, so the result
+is <code>3 + 8</code>, which is <code>11</code>.</p>
+<p>You can use parentheses <code>()</code> to change the order of operations. In the
+expression <code>(3 + 4) * 2</code>, the addition is done first, so the result is <code>7 * 2</code>,
+which is <code>14</code>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

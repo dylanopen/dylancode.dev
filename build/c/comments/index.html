@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comments</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Comments</h1>
+<p>A <em>comment</em> is a piece of text in source code that <em>isn’t executed</em> - it’s
+completely ignored by the compiler.</p>
+<h2>The uses of comments</h2>
+<p>We can use comments for explaining parts of our code. Because the computer
+ignores them, we can write anything we want in comments.</p>
+<h2>Single-line comments</h2>
+<p>In C, we can create a single-line comment using two forward slashes
+(<code>//</code>). Anything after the <code>//</code> on that line is ignored by the compiler.</p>
+<p>For example:</p>
+<pre><code class="language-c">// This is a comment - the compiler ignores it
+int main(int argc, char* argv[]) {
+    // This comment is inside the main function
+    return 0; // This comment is after a statement
+}
+</code></pre>
+<h2>Multi-line comments</h2>
+<p>C also supports multi-line comments. These start with <code>/*</code> and end with <code>*/</code>.</p>
+<p>Anything between these markers is ignored by the compiler.</p>
+<p>For example:</p>
+<pre><code class="language-c">/*
+   This is a multi-line comment.
+   It can span multiple lines.
+*/
+int main(int argc, char* argv[]) {
+    /* This is another multi-line comment
+       inside the main function */
+    return 0;
+}
+</code></pre>
+<p>You can also use multi-line comments for comments <em>inside</em> a line of code, like this:</p>
+<pre><code class="language-c">int main(int argc, char* argv[]) {
+    printf(/*print whatever you like*/ "Hello, World!");
+    return 0;
+}
+</code></pre>
+<p>Generally, I would discourage using comments inside lines of code, as it can
+make the code quite messy!</p>
+<h2>When <em>not</em> to use comments</h2>
+<p>You shouldn’t use comments to:</p>
+<ul>
+<li>Explain <em>what</em> the code is doing - the code should be clear enough to explain
+itself.</li>
+<li>Leave notes to yourself or others about <em>how</em> to improve the code - use a
+version control system like Git for that.</li>
+<li>Comment out large blocks of code that you don’t want to run - use version
+control for that too!</li>
+<li>Complain about your annoying coworker who keeps breaking the build (well,
+maybe you can do that sometimes…)</li>
+</ul>
+<p>In general, I don’t think you should write comments. Except in very rare
+circumstances. See <a href="https://www.youtube.com/watch?v=Bf7vDBBOBUA">this video by CodeAesthetic</a>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

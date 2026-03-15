@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Else-if statements</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Else-if statements</h1>
+<blockquote>
+<p>An <code>else ... if</code> statement allows us to check another condition if the
+previous <code>if</code> condition was false.</p>
+</blockquote>
+<p>Importantly, the code inside an <code>else if</code> block will only run if the previous
+<code>if</code> condition was false. Even if the <code>else if</code> condition is true, it won’t run
+if the previous <code>if</code> condition was true.</p>
+<p>We can write this using words like this:</p>
+<ul>
+<li>Check <code>condition1</code>:
+<ul>
+<li>If <code>condition1</code> is true, run the code inside the <code>if</code> block.</li>
+<li>If <code>condition1</code> is false, check <code>condition2</code>:
+<ul>
+<li>If <code>condition2</code> is true, run the code inside the <code>else if</code> block.</li>
+<li>If <code>condition2</code> is false, skip the <code>else if</code> block [and move on to the
+next else if or else block, if any].</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Basic syntax</h2>
+<pre><code class="language-cs">if (condition1) {
+    // Code to run if condition1 is true
+} else if (condition2) {
+    // Code to run if condition1 is false and condition2 is true
+}
+</code></pre>
+<p>We can have multiple <code>else if</code> statements to check multiple conditions in
+sequence:</p>
+<pre><code class="language-cs">if (condition1) {
+    // Code to run if condition1 is true
+} else if (condition2) {
+    // Code to run if condition1 is false and condition2 is true
+} else if (condition3) {
+    // Code to run if condition1 and condition2 are false and condition3 is true
+}
+</code></pre>
+<blockquote>
+<p>Remember that, for example, <code>condition3</code> will only be checked if both
+<code>condition1</code> and <code>condition2</code> are false.</p>
+</blockquote>
+<h2>Example: positive, negative, or zero</h2>
+<p>Suppose we have an if statement that checks if a number is positive:</p>
+<pre><code class="language-cs">int number = 10;
+if (number &gt; 0) {
+    Console.WriteLine("The number is positive.");
+}
+</code></pre>
+<p>But what if we also want to check if the number is negative or zero? We can use
+<em>else-if</em> statements to handle these additional conditions.</p>
+<pre><code class="language-cs">int number = -5;
+if (number &gt; 0) {
+    Console.WriteLine("The number is positive.");
+} else if (number &lt; 0) {
+    Console.WriteLine("The number is negative.");
+} else if (number == 0) {
+    Console.WriteLine("The number is zero.");
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>The number is negative.
+</code></pre>
+<p>In this example:</p>
+<ul>
+<li>The first <code>if</code> checks if <code>number</code> is greater than 0. Since <code>number</code> is -5, this condition is false.</li>
+<li>The program then checks the <code>else if</code> condition to see if <code>number</code> is less than 0. This condition is true, so it prints “The number is negative.”</li>
+<li>The last <code>else if</code> condition is not checked because one of the previous conditions was true.</li>
+</ul>
+<p>You may realise that, if the number is not positive and not negative, it must be
+zero. So we don’t actually need to check the last condition - and we’ll learn
+how to do that next!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

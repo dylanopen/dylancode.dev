@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>entity-activation-range</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>entity-activation-range</h1>
+<p>The <code>entity-activation-range</code> is the radius (in blocks) around each player that
+mobs will start to ‘tick’ (become active).</p>
+<p>See <a href="/minecraft/spigot/wake-up-inactive">wake-up-inactive</a> for more information
+on that specific setting.</p>
+<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+default value is:</p>
+<pre><code class="language-yaml">entity-activation-range:
+    animals: 32
+    monsters: 32
+    raiders: 64
+    misc: 16
+    water: 16
+    villagers: 32
+    flying-monsters: 32
+    wake-up-inactive:
+        ...
+</code></pre>
+<h2>Recommended starting value</h2>
+<p>For a small SMP server with just some friends, these values should be fine and
+provide a slightly <em>better</em> range at which entities become active:</p>
+<pre><code class="language-yaml">entity-activation-range:
+    animals: 44
+    monsters: 36
+    raiders: 64
+    misc: 20
+    water: 20
+    villagers: 24
+    flying-monsters: 40
+    wake-up-inactive:
+        ...
+</code></pre>
+<p>If you have a larger server or run into some lag issues, you can lower the
+activation ranges to:</p>
+<pre><code class="language-yaml">entity-activation-range:
+    animals: 18
+    monsters: 20
+    raiders: 48
+    misc: 12
+    water: 12
+    villagers: 12
+    flying-monsters: 28
+    wake-up-inactive:
+        ...
+</code></pre>
+<p>If you really have lag issues caused by entities ticking:</p>
+<pre><code class="language-yaml">entity-activation-range:
+    animals: 12
+    monsters: 16
+    raiders: 28
+    misc: 8
+    water: 8
+    villagers: 3
+    flying-monsters: 20
+    wake-up-inactive:
+        ...
+</code></pre>
+<h2>What does <code>entity-activation-range</code> do?</h2>
+<p>It’s the distance in blocks from each player at which entities will start to
+tick (become active). For example, if the <code>entity-activation-range</code> for
+<code>monsters</code> is set to <code>32</code>, monsters within 32 blocks of a player will
+become active and start doing their AI tasks, such as moving, attacking,
+etc.</p>
+<p>If it’s set to <code>16</code>, monsters will only become active when they are within
+16 blocks of a player.</p>
+<h2>Lower values</h2>
+<p>Lower activation ranges will:</p>
+<ul>
+<li>Reduce server lag, as fewer entities will be active at any given time</li>
+<li>Cause entities to ‘freeze’ or ‘stop moving’ when players are not nearby</li>
+<li>Break a <em>lot</em> of farms that rely on entities being active, such as
+mob farms, villager crop farms, iron farms, etc.</li>
+</ul>
+<h2>Higher values</h2>
+<p>Higher activation ranges will:</p>
+<ul>
+<li>Increase server lag, as more entities will be active at any given time</li>
+<li>Make entities behave more naturally, as they will be active from further away</li>
+<li>Improve the functionality of farms that rely on entities being active, but
+may still not work perfectly if the activation range is not high enough.</li>
+</ul>
+<h2>Should you change this or the spawn limits?</h2>
+<p>The <a href="/minecraft/bukkit/spawn-limits">spawn-limits</a> tells the server <em>how many
+mobs to spawn</em>.</p>
+<p>YOu can compromsise either by:</p>
+<ul>
+<li>spawning loads of mobs, but having them only active when players are nearby</li>
+<li>spawning fewer mobs, but having them active from further away</li>
+</ul>
+<p>Generally, it’s better to lower the spawn limits and have a higher activation
+range. Your players will complain less about mobs ‘freezing’ when they are
+not nearby.</p>
+<p>However, lowering the activation range is one of the best ways to reduce server
+lag caused by entities. I’d recommend trying lowering the activation ranges
+significantly if you are having lag issues, and wait and see if your players
+complain about it - they may not even notice, or they may threaten to leave your
+server unless you change it back…</p>
+<blockquote>
+<p>This is a common theme in server optimisation - optimising just enough so
+that the server runs smoothly, but not so much that it negatively impacts
+the player experience.<br />
+If you’re running at <code>2 MSPT</code> because you have a very optimised server, but
+no vanilla mechanics work, your server won’t be that much fun to play on. But
+if you provide completely vanilla mechanics at <code>80 MSPT</code>, no one will want to
+play on your server because of the lag. There is a balance.</p>
+</blockquote>
+<h2>A special note on villagers</h2>
+<p>Villagers… so laggy in fact there’s an entire page dedicated to them:</p>
+<blockquote>
+<p><a href="/minecraft/villager-optimisation">Villagers, oh villagers, oh villagers</a></p>
+</blockquote>
+<p>They’re extremely laggy mobs. If you lower their activation range, you can cut
+down on a tonne of server lag.</p>
+<p>Personally, I think the trade-off is worth it. There are some issues with
+lowering it though:</p>
+<ul>
+<li>Villager trading halls might not restock as often</li>
+<li>Villager crop farms almost definitely will not work properly</li>
+<li>Villagers may not be able to pathfind to certain locations when needed
+(e.g. to their workstations, beds, etc.)</li>
+<li>Iron farms may not work properly, as villagers won’t detect zombie aggrevation
+as the server is not ticking the villager.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

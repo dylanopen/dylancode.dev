@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Object instantiation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Object instantiation</h1>
+<p>When we <em>instantiate</em> a class, we create an <em>object</em> from that class. An
+object is basically a specific instance of the class with its own set of
+data.</p>
+<h2>Syntax</h2>
+<p>To instantiate a class, use the <code>new</code> keyword, then the class name, followed
+by the parentheses <code>()</code>.</p>
+<pre><code class="language-csharp">ClassName objectName = new ClassName();
+</code></pre>
+<h2>Example</h2>
+<p>Given the <code>Person</code> class declared in the
+<a href="/cs/class-declaration">last article</a> as:</p>
+<pre><code class="language-csharp">class Person
+{
+    public string name;
+    public int age;
+}
+</code></pre>
+<p>…we can instantiate an object of the <code>Person</code> class like this:</p>
+<pre><code class="language-csharp">Person person1 = new Person();
+</code></pre>
+<p><code>person1</code> is an object of type <code>Person</code>.</p>
+<p>We can access the <em>fields</em> of the <code>person1</code> object - see
+<a href="/cs/fields">fields</a> - and assign values to them.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

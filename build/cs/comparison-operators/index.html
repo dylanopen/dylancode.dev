@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comparison operators</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Comparison operators</h1>
+<p>A <em>comparison operator</em> is an operator which usually compares two values.</p>
+<p>It then gives a <em>boolean</em> result, which we can use to make decisions in our code
+(e.g. in if statements or loops).</p>
+<blockquote>
+<p>The key thing is that they <strong>evaluate to a boolean value</strong> (true or false).</p>
+</blockquote>
+<h2>Cheatsheet</h2>
+<table><thead><tr><th>Operator</th><th>Name</th><th>Description</th><th>Example</th><th>Result</th></tr></thead><tbody>
+<tr><td><code>==</code></td><td>Equal to</td><td>Returns <code>true</code> if both values are equal</td><td><code>5 == 5</code></td><td><code>true</code></td></tr>
+<tr><td><code>!=</code></td><td>Not equal to</td><td>Returns <code>true</code> if both values are <strong>not</strong> equal</td><td><code>5 != 3</code></td><td><code>true</code></td></tr>
+<tr><td><code>&gt;</code></td><td>Greater than</td><td>Returns <code>true</code> if the left value is greater than the right value</td><td><code>7 &gt; 4</code></td><td><code>true</code></td></tr>
+<tr><td><code>&lt;</code></td><td>Less than</td><td>Returns <code>true</code> if the left value is less than the right value</td><td><code>2 &lt; 5</code></td><td><code>true</code></td></tr>
+<tr><td><code>&gt;=</code></td><td>Greater than or equal to</td><td>Returns <code>true</code> if the left value is greater than or equal to the right value</td><td><code>6 &gt;= 6</code></td><td><code>true</code></td></tr>
+<tr><td><code>&lt;=</code></td><td>Less than or equal to</td><td>Returns <code>true</code> if the left value is less than or equal to the right value</td><td><code>3 &lt;= 4</code></td><td><code>true</code></td></tr>
+</tbody></table>
+<h2>Equal to (<code>==</code>)</h2>
+<p>The equal to operator (<code>==</code>) checks if two values are the same.</p>
+<ul>
+<li>If they are the same, it returns <code>true</code>.</li>
+<li>If they are different, it returns <code>false</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 5;
+int b = 3;
+bool result = (a == b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (5) is not equal to the value of <code>b</code> (3), the
+comparison will evaluate to <code>false</code>.</p>
+<h2>Not equal to (<code>!=</code>)</h2>
+<p>The not equal to operator (<code>!=</code>) checks if two values are different.</p>
+<ul>
+<li>If they are the same, it returns <code>false</code>.</li>
+<li>If they are different, it returns <code>true</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 5;
+int b = 3;
+bool result = (a != b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (5) is different from the value of <code>b</code> (3), the
+comparison will evaluate to <code>true</code>.</p>
+<h2>Greater than (<code>&gt;</code>)</h2>
+<p>The greater than operator (<code>&gt;</code>) checks if the value on the left is larger
+than the value on the right.</p>
+<ul>
+<li>If the left value is smaller or equal, it returns <code>false</code>.</li>
+<li>If the left value is larger, it returns <code>true</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 7;
+int b = 4;
+bool result = (a &gt; b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (7) is larger than the value of <code>b</code> (4), the
+comparison will evaluate to <code>true</code>.</p>
+<h2>Less than (<code>&lt;</code>)</h2>
+<p>The less than operator (<code>&lt;</code>) checks if the value on the left is smaller
+than the value on the right.</p>
+<ul>
+<li>If the left value is smaller, it returns <code>true</code>.</li>
+<li>If the left value is larger or equal, it returns <code>false</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 2;
+int b = 5;
+bool result = (a &lt; b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (2) is smaller than the value of <code>b</code> (5), the
+comparison will evaluate to <code>true</code>.</p>
+<h2>Greater than or equal to (<code>&gt;=</code>)</h2>
+<p>This operator (<code>&gt;=</code>) checks if the value on the left is larger than or equal to
+the value on the right.</p>
+<ul>
+<li>If the left value is larger or equal, it returns <code>true</code>.</li>
+<li>If the left value is smaller, it returns <code>false</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 6;
+int b = 6;
+bool result = (a &gt;= b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (6) is equal to the value of <code>b</code> (6), the
+comparison will evaluate to <code>true</code>.</p>
+<pre><code class="language-cs">int a = 8;
+int b = 5;
+bool result = (a &gt;= b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (8) is larger than the value of <code>b</code> (5), the
+comparison will evaluate to <code>true</code>.</p>
+<h2>Less than or equal to (<code>&lt;=</code>)</h2>
+<p>This operator (<code>&lt;=</code>) checks if the value on the left is smaller than or equal to
+the value on the right.</p>
+<ul>
+<li>If the left value is smaller or equal, it returns <code>true</code>.</li>
+<li>If the left value is larger, it returns <code>false</code>.</li>
+</ul>
+<pre><code class="language-cs">int a = 4;
+int b = 4;
+bool result = (a &lt;= b); // true
+</code></pre>
+<p>Because the value of <code>a</code> (4) is equal to the value of <code>b</code> (4), the
+comparison will evaluate to <code>true</code>.</p>
+<pre><code class="language-cs">int a = 7;
+int b = 5;
+bool result = (a &lt;= b); // false
+</code></pre>
+<p>Because the value of <code>a</code> (7) is larger than the value of <code>b</code> (5), the
+comparison will evaluate to <code>false</code>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

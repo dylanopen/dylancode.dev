@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compiling and running code</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Compiling and running code</h1>
+<blockquote>
+<p>Build an executable from our source code and run it.</p>
+</blockquote>
+<h2>Compilation</h2>
+<p>We can compile our C program using a program known as <code>gcc</code>.</p>
+<p>First, open a terminal and make sure you are in the directory which contains
+your C source file (e.g. <code>main.c</code>). If not, use the <code>cd</code> command to get there.</p>
+<p>After that, run this command:</p>
+<pre><code class="language-bash">gcc main.c
+</code></pre>
+<p>(replacing <code>main.c</code> with the name of your C source file).</p>
+<h2>Running the binary</h2>
+<p>Assuming you are on a Unix-based system or are emulating a Unix system, <code>gcc</code>
+will produce a binary called <code>a.out</code>. You can run your program using this
+command:</p>
+<pre><code class="language-bash">./a.out
+</code></pre>
+<p>Sometimes, <code>gcc</code> can output a file marked without execute permissions. This
+means that you will not be able to run your program unless you change the file
+permission attributes. You can fix that with a simple command:</p>
+<pre><code class="language-bash">chmod +rwx a.out
+</code></pre>
+<h2>Choosing the name of the output binary</h2>
+<p><code>gcc</code> allows us to choose the name of the binary file it outputs (instead of
+<code>a.out</code>). We can do this by specifying the <code>-o</code> flag when compiling:</p>
+<pre><code class="language-bash">gcc main.c -o outputbinary
+</code></pre>
+<p>This will compile our program into the <code>outputbinary</code> file.</p>
+<p>Then, to run the <code>outputbinary</code> program:</p>
+<pre><code class="language-bash">./outputbinary
+</code></pre>
+<h2>Compiling and running the code</h2>
+<p>We can compile the source file and execute the binary in a single command. The
+command below will compile the code <strong>and only if is successful</strong>, will execute
+the program:</p>
+<pre><code class="language-bash">gcc main.c &amp;&amp; ./a.out
+</code></pre>
+<p>If you renamed your program’s output binary, say, to <code>mycoolprogram</code>, you would
+use:</p>
+<pre><code class="language-bash">gcc main.c -o mycoolprogram &amp;&amp; ./mycoolprogram
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Variables</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Variables</h1>
+<blockquote>
+<p>Learn how to create, set and read variables (changable values) in C</p>
+</blockquote>
+<h2>Base code</h2>
+<p>For every C program, we need to define the <code>main</code> function. We’ll start off this
+chapter from this code:</p>
+<pre><code class="language-c">int main(int argc, char* argv[]) {
+    // we'll write our new code here
+    return 0;
+}
+</code></pre>
+<h2>Declaring a variable</h2>
+<p>Variable <em>declaration</em> is where we <em>create</em> a variable. We don’t necessarily
+give it a value yet - that’s <em><strong>assignment</strong></em>.</p>
+<p>The syntax in C for declaring a variable is:</p>
+<pre><code class="language-c">type variableName;
+</code></pre>
+<p>There are various different data types we can use - they will all be discussed
+in a later chapter! One of them is the <code>int</code>, for a signed integer. We can
+declare an integer variable called, for example, <code>numPages</code> like this:</p>
+<pre><code class="language-c">int numPages;
+</code></pre>
+<blockquote>
+<p>If we try to access a variable that has been declared but not initialised or
+assigned, then we may get garbage data.</p>
+</blockquote>
+<h2>Assigning a variable</h2>
+<p>Once we’ve declared a variable, we can give it a value through <em>assignment</em>.</p>
+<p>For example, take the <code>numPages</code> example from above. We can give <code>numPages</code> a
+value of <code>382</code> using this code:</p>
+<pre><code class="language-c">int numPages;
+numPages = 382;
+</code></pre>
+<p>We can also assign a variable even after it has already been assigned before,
+because the variable is <strong>mutable</strong>:</p>
+<pre><code class="language-c">int numPages;
+numPages = 382;
+// do something with numPages
+numPages = 395; // maybe the author added some pages?
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

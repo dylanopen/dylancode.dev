@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>network-compression-threshold</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>network-compression-threshold</h1>
+<p>You can change the server’s network compression threshold in <code>server.properties</code>
+- it has a default value of <code>256</code>:</p>
+<pre><code class="language-properties">network-compression-threshold=256
+</code></pre>
+<h2>Recommended starting values</h2>
+<p>If you have a good internet connection and a good bandwidth:</p>
+<pre><code class="language-properties">network-compression-threshold=512
+</code></pre>
+<p>If you have a poor internet connection or limited bandwidth:</p>
+<pre><code class="language-properties">network-compression-threshold=256
+</code></pre>
+<p>If you are playing on a LAN or all players have a good, unlimited internet
+connection, you can disable compression altogether:</p>
+<pre><code class="language-properties">network-compression-threshold=-1
+</code></pre>
+<h2>What is <code>network-compression-threshold</code>?</h2>
+<p>The network compression threshold is the size in <strong>bytes</strong> beyond which packets
+start to be <em>compressed</em> by the minecraft server.</p>
+<p>So, if you set it to <code>512</code>, any packet larger than 512 bytes will be compressed
+before being sent to the client over the internet.</p>
+<h2>The benefits of compression</h2>
+<p>Just like if you’ve ever had to send a large file over email, for example,
+compressing a file means less data sent over the network. That means:</p>
+<ul>
+<li>reducing the network usage (so network speed is less of an issue)</li>
+<li>reducing bandwidth costs (if your hosting provider charges you for data
+transfer)</li>
+<li>potentially even reducing latency (so players experience less lag)</li>
+</ul>
+<p>Also, if you have any players on poor internet connections, compression will
+mean that you can send them larger packets without overwhelming their
+connection.</p>
+<h2>The downsides of compression</h2>
+<p>The main downside is that it uses <em>CPU power</em> to compress and decompress
+packets. This means that if the value is <em>lower</em> (more packets get compressed),
+it will use <em>more</em> CPU power.</p>
+<p>In most cases, this is not a problem, as modern CPUs are very good at
+compression. However, if your server is already CPU-bound (by that, I mean the
+cpu is the main bottleneck for performance), then lowering this value too much
+could make performance worse.</p>
+<p>Another downside is that compressing very small packets can actually make
+them larger, due to the overhead of the compression algorithm. This is why
+setting the threshold too low can be counterproductive - I’d never recommend
+going any lower than <code>128</code> bytes.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

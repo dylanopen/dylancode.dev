@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello World</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Hello World</h1>
+<blockquote>
+<p>Learn the basic syntax and print text to the console.</p>
+</blockquote>
+<p><em>It is important to note that this page is extremely detailed as I explain every
+single part of a hello world program in-depth. If you do not understand
+everything yet, don’t worry - we will be going over each of the concepts in more
+detail in future chapters.</em></p>
+<h2>The code</h2>
+<p>In your <code>main.c</code> file you created in the last chapter, add the following code:</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+int main(int argc, char* argv[]) {
+    printf("Hello, World!");
+    return 0;
+}
+</code></pre>
+<p>When we run the code (we’ll learn how to do this in the next chapter) we will
+get the following output printed to the console:</p>
+<pre><code>Hello, World!
+</code></pre>
+<h2>The <code>#include</code> statement in C</h2>
+<p>Consider this snippet of code:</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+</code></pre>
+<p>Most programming languages have a way of <em>importing code</em>. This allows us to use
+some of the code from other files, often known as <em>modules</em>, in our code,
+allowing for code re-use.</p>
+<p>In our case: why would we write the implementation for printing to the console
+manually, when the standard library already provides it for us?</p>
+<p>We can import files in C using the <code>#include</code> statement. Interestingly, unlike
+most other programming languages, this code is <em>identical</em> to if we had written
+out the code for the <code>stdio</code> library manually. <code>#include &lt;stdio.h&gt;</code> is simply
+replaced with the code contained in <code>stdio.h</code>, which, in turn, allows us to use
+its functions.</p>
+<blockquote>
+<p>The <code>#include</code> statement is executed by a program known as the
+<em>preprocessor</em>.<br />
+This program is executed <em>before</em> the compiler reads the code, and it is the
+first step towards turning source code into machine code.<br />
+<em>All statements in C which start with a <code>#</code> are preprocessor <strong>directives</strong></em>.</p>
+</blockquote>
+<h3>The difference between <code>#include &lt;file.h&gt;</code> and <code>#include "file.h"</code></h3>
+<p>When you’re looking at C tutorials, you might find that in some cases, angle
+brackets are used around the file included, while other times, quotes (speech
+marks) are used instead. What’s the difference?</p>
+<ul>
+<li><strong>Angle brackets</strong> tell the preprocessor to look for the header file <em>in the
+system path for C libraries</em>. On Linux, for example, the first place it looks
+is usually the <code>/usr/include/</code> directory.</li>
+<li><strong>Quotes</strong> tell the preprocessor to look for the header file <em>relative to the
+current directory</em>. For example, if we have 2 files: <code>main.c</code> and <code>lib.h</code>, we
+use <code>#include "lib.h"</code> instead of <code>#include &lt;lib.h&gt;</code>, because <code>lib.h</code> is a
+header <em>in the current directory</em> (i.e. project-specific).</li>
+</ul>
+<h2>The main function</h2>
+<p>Let’s now look at this code snippet:</p>
+<pre><code class="language-c">int main(int argc, char* argv) {
+    // ...
+}
+</code></pre>
+<p>This is what is known as a <em>function</em> - a block of code which we can <em>call</em>.</p>
+<p>All functions in C have this format:</p>
+<pre><code class="language-c">return_type function_name(type parameter_name_1, type parameter_name_2, ...) {
+    // function *body*
+}
+</code></pre>
+<p>Functions act as a way of reusing code: we can simply call a function multiple
+times in different areas of our code, instead of writing out all the code
+multiple times.</p>
+<p>When we call a function, all the code inside its <strong>code block</strong> will be
+executed (run).</p>
+<h3>What’s special about <code>main</code>?</h3>
+<p>The <code>main</code> function is a little different. Instead of being something that we
+call, it is instead automatically run by the operating system when we start our
+program.</p>
+<p>We call it the <em>entrypoint</em> to our program. Interestingly, it is both where the
+program starts and where the program ends.</p>
+<h3>Function return type</h3>
+<p>If we look back to our function format, we can see that before the function
+name, we have a return type. This tells C what value our function will <em>send
+back</em> to the caller.</p>
+<p>In the case of the <code>main</code> function, we return an integer, because we need to
+return a status code to the operating system (in order to tell it whether the
+program was successful or not).</p>
+<p>The standard type for an integer in C is <code>int</code>, so we return an <code>int</code> and
+therefore our function <strong>signature</strong> is <code>int main(...)</code>.</p>
+<h3>Parameters</h3>
+<p>Functions can take <em>parameters</em>. These are pieces of data that the function can
+operate on and use to make decisions (known as selection).</p>
+<h3>The <code>argc</code> parameter</h3>
+<p><code>main</code> takes an argument called <code>argc</code>. It represents the <em>number of
+command-line arguments</em> the program was passed.</p>
+<p>This is useful in <strong>CLI tools</strong>, where the program needs to do different things
+depending on the arguments that were passed to the program.</p>
+<p><code>argc</code> is an <strong>integer</strong> type, meaning we write the argument as <code>int argc</code>.</p>
+<h3>The <code>argv</code> parameter</h3>
+<p><code>main</code> also takes another argument, called <code>argv</code>. This is an <em>array</em> of all
+command line arguments that were passed to the program.</p>
+<p>Again, this is useful in <strong>CLI tools</strong>, where the program needs to do different
+things depending on the arguments that were passed to the program.</p>
+<p><code>argv</code> has a slightly strange type. It is <code>char* argv[]</code>, which means a
+<em>pointer</em> to the start of an array, and this array contains other arrays of
+<code>char</code>s. An array of chars is a <code>string</code>, so essentially, <code>argv</code> is an array
+of strings.</p>
+<blockquote>
+<p>We’ll learn <em>why</em> C needs to take the length of the <code>argv</code> array as a seperate
+parameter instead of just calling a function on <code>argv</code> to get the length (like
+most other programming languages hand it) and also why the <code>argv</code> type is so weird,
+in a later chapter.</p>
+</blockquote>
+<h3>Function code block</h3>
+<p>When we declare a function in <code>C</code>, such as above where we declared the function
+with this signature:</p>
+<pre><code class="language-c">int main(int argc, char* argv[])
+</code></pre>
+<p>… we need a way of telling the C compiler what code is part of a function
+body. For this, we use braces <code>{}</code>.</p>
+<p>Consider the following code:</p>
+<pre><code class="language-c">int randomFunction() {
+    other();
+    cool();
+    functions();
+}
+</code></pre>
+<p>Here, we use <code>{}</code> to define what code is part of the <code>randomFunction</code> function.</p>
+<p>In this case, we call the <code>other</code>, <code>cool</code> and <code>functions</code> functions from inside
+the <code>randomFunction</code> function. That means that, when we call <code>randomFunction</code>,
+it will execute the code inside the braces <code>{}</code>.</p>
+<h2>Printing text</h2>
+<p>If we now turn our attention to the body of the <code>main</code> function, you can see we
+have two statements inside our function:</p>
+<pre><code class="language-c">printf("Hello, World!");
+return 0;
+</code></pre>
+<p>For now, we are concerned with the first statement:</p>
+<pre><code class="language-c">printf("Hello, World!");
+</code></pre>
+<p>What we have done here is <em>called a function</em> - specifically, the <code>printf</code>
+function.</p>
+<p>When called with a <code>string</code> like we have done above, <code>printf</code> will output the
+text it was passed to the console. That means that when running the code, we
+will get this output:</p>
+<pre><code>Hello, World!
+</code></pre>
+<p><code>printf</code> can also take other arguments and use a <strong>format string</strong> - this allows
+us to print out the value of variables and other non-constant data. We’ll get to
+that in another chapter!</p>
+<h2>Statement termination</h2>
+<p>Every <em>statement</em> (essentially, a line of code that does something) in C must be
+terminated with a semicolon (<code>;</code>).</p>
+<p>That basically means that we need to put a semicolon at the end of every line of
+code, in order to tell the C compiler that the statement is finished.</p>
+<h2>The <code>return</code> statement</h2>
+<p>Finally, we have this line:</p>
+<pre><code class="language-c">return 0;
+</code></pre>
+<p>All programs can return a value to the operating system known as the <strong>exit
+code</strong>. This exit code tells the operating system whether the program completed
+successfully or not.</p>
+<p>In our case, our program completed successfully (probably!) so we can return <code>0</code>
+- the exit code for a successful program execution.</p>
+<p>The return statement will also end the function. If we put the <code>return 0;</code>
+<strong>before</strong> the <code>printf</code> statement, we would exit the function before <code>printf</code>
+could run, and so nothing would be printed.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Integers</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Integers</h1>
+<p>An <em>integer</em> is a whole number (i.e., a number without a decimal point).</p>
+<p>They <strong>can</strong> be positive, negative, or zero.</p>
+<h2>Examples of integers</h2>
+<ul>
+<li><code>42</code></li>
+<li><code>-7</code></li>
+<li><code>0</code></li>
+</ul>
+<h2>Declaring an integer variable</h2>
+<p>In C#, you can declare an integer variable using the <code>int</code> data type:</p>
+<pre><code class="language-csharp">int myNumber = 10;
+</code></pre>
+<p>You can <em>also</em> use the <code>Int32</code> data type, which is essentially equivalent:</p>
+<pre><code class="language-csharp">Int32 myNumber = 10;
+</code></pre>
+<h2>Signed vs unsigned integers</h2>
+<p>There exist two types of integers: <em>signed</em> and <em>unsigned</em>.</p>
+<ul>
+<li>A <em>signed</em> integer can represent both positive and negative whole numbers.</li>
+<li>An <em>unsigned</em> integer can only represent non-negative whole numbers (i.e.,
+zero and positive numbers).</li>
+</ul>
+<blockquote>
+<p>Importantly, unsigned integers can store a larger range of positive values
+compared to signed integers of the same size, since they don’t need to use a
+bit to represent the sign.</p>
+</blockquote>
+<p>Usually, we can tell whether an integer is signed or unsigned by its name:</p>
+<ul>
+<li>Signed integers: <code>int</code>, <code>short</code>, <code>long</code></li>
+<li>Unsigned integers: <code>uint</code>, <code>ushort</code>, <code>ulong</code></li>
+</ul>
+<p>Sometimes, signed integers are prefixed with an <code>s</code>, such as <code>sbyte</code> (while a
+<code>byte</code> is unsigned). This is non-standard, and it’s typical of microsoft to name
+things badly ;)</p>
+<h2>Other types of integer</h2>
+<p>While <code>int</code> is the standard integer type, there are lots more which can store
+different ranges of whole numbers. The most common are:</p>
+<table><thead><tr><th>Data Type</th><th>Size (bits)</th><th>Range</th></tr></thead><tbody>
+<tr><td>byte</td><td>8</td><td>0 to 255 ($2^8)</td></tr>
+<tr><td>short</td><td>16</td><td>- 32,768 to 32,767</td></tr>
+<tr><td>int</td><td>32</td><td><im>-2^31</im> to <im>2^31 - 1</im></td></tr>
+<tr><td>long</td><td>64</td><td>- <im>2^63</im> to <im>2^63 - 1</im></td></tr>
+<tr><td>sbyte</td><td>8</td><td>-128 to 127</td></tr>
+<tr><td>ushort</td><td>16</td><td>0 to 65,535</td></tr>
+<tr><td>uint</td><td>32</td><td>0 to <im>2^32 - 1</im></td></tr>
+<tr><td>ulong</td><td>64</td><td>0 to <im>2^64 - 1</im></td></tr>
+</tbody></table>
+<p>You can use these types in the same way as <code>int</code>, just by replacing <code>int</code> with
+the desired type name:</p>
+<pre><code class="language-csharp">byte smallNumber = 200;
+short mediumNumber = -30000;
+long largeNumber = 9000000000;
+sbyte negativeSmallNumber = -100;
+ushort positiveMediumNumber = 60000;
+uint positiveLargeNumber = 4000000000;
+ulong veryLargeNumber = 18000000000000000000;
+</code></pre>
+<h2>Integer overflow</h2>
+<p>If you try to store a value that is too big (or small) to be stored in the
+integer type, then you will get an error. That’s called an <em>integer overflow</em>.</p>
+<p>For example, if you try to store the value <code>300</code> in a <code>byte</code> variable, you’ll
+get an overflow error, because <code>byte</code> can only store values from <code>0</code> to <code>255</code>.</p>
+<pre><code class="language-csharp">byte myByte = 300; // Error: Overflow
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

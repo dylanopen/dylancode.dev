@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Division</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Division</h1>
+<p>Division in RISC-V is actually… surprisingly simple!</p>
+<p>We just use the <code>div</code> instruction, which performs signed integer division.</p>
+<h2>Syntax</h2>
+<p>If we want to divide the value in register <code>x1</code> by the value in register <code>x2</code>,
+and store the result in register <code>x3</code>, we would write:</p>
+<pre><code class="language-asm">div x3, x1, x2
+</code></pre>
+<p>For example, our full code may look something like:</p>
+<pre><code class="language-asm">.text
+main:
+    li x1, -20
+    li x2, 4
+    div x3, x1, x2
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%20-20%0A%20%20%20%20li%20x2%2C%204%0A%20%20%20%20div%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>The result in the registers will be:</p>
+<pre><code>x3 = -5
+</code></pre>
+<h2>Unsigned division</h2>
+<p>We can do unsigned division using the <code>divu</code> instruction.</p>
+<p>Everything else works exactly the same as <code>div</code>, except that the values in the
+source registers are treated as unsigned integers.</p>
+<p>For example:</p>
+<pre><code class="language-asm">.text
+main:
+    li x1, 20
+    li x2, 3
+    divu x3, x1, x2
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%2020%0A%20%20%20%20li%20x2%2C%203%0A%20%20%20%20divu%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>Result:</p>
+<pre><code>x3 = 6
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

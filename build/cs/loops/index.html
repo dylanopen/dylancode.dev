@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loops</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Loops</h1>
+<p>A <em>loop</em> is simply a way to repeat a block of code multiple times.</p>
+<h2>Types of loops</h2>
+<p>There are a few different types of loops, including:</p>
+<ul>
+<li>Count-controlled loops</li>
+<li>Condition-controlled loops</li>
+<li>Infinite loops</li>
+</ul>
+<h2>Count-controlled loops</h2>
+<p>A <em>count-controlled loop</em> repeats a block of code a specific number of times -
+e.g. by repeating it for each item in a collection, or by counting from one
+number to another.</p>
+<p>The most common example is a <em>for loop</em>.</p>
+<h2>Condition-controlled loops</h2>
+<p>A <em>condition-controlled loop</em> repeats a block of code as long as a certain
+condition is true.</p>
+<p>In pseudocode, we might write this as:</p>
+<pre><code>while (condition is true) {
+    // Code to repeat
+}
+</code></pre>
+<p>..and the <code>Code to repeat</code> will keep running until the condition becomes
+<code>false</code>.</p>
+<h2>Infinite loops</h2>
+<p>An infinite loop is a loop that never ends. This usually happens when the
+condition for a condition-controlled loop never becomes <code>false</code>.</p>
+<p>An infinite loop is essentially the same as saying:</p>
+<pre><code>while (true) {
+    // Code to repeat forever
+}
+</code></pre>
+<p>(because the condition will never be false).</p>
+<p>Often, infinite loops are a mistake - for example, if we forget to update a
+variable. But they do have uses!</p>
+<h3>Types of infinite loops</h3>
+<p>There are actually two types of infinite loops:</p>
+<ul>
+<li>actually infinite loops, which never end</li>
+<li>inifinite loops that we manually break out of</li>
+</ul>
+<h3>Actually infinite loops</h3>
+<p>These are infinite loops that actually never end. For example:</p>
+<pre><code class="language-cs">while (true) {
+    Console.WriteLine("This will print forever!");
+}
+</code></pre>
+<p>These are almost always a mistake, unless you’re writing something like an
+operating system or server that is supposed to run forever.</p>
+<h3>Infinite loops that we manually break out of</h3>
+<p>Using the <code>break</code> (or <code>return</code>) keyword (which we will cover soon!), we can
+create a <code>while</code> loop that, even though the condition never becomes false, we
+can still exit the loop when we want to.</p>
+<p>For example:</p>
+<pre><code class="language-cs">while (true) {
+    Console.WriteLine("Type 'exit' to quit the loop:");
+    string input = Console.ReadLine();
+    if (input == "exit") {
+        break; // Exit the loop
+    }
+    Console.WriteLine("You typed: " + input);
+}
+</code></pre>
+<p>In this example, the loop will keep running until the user types “exit”, at
+which point the <code>break</code> statement will exit the loop.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

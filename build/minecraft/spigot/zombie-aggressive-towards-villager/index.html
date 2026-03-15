@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>zombie-aggressive-towards-villager</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>zombie-aggressive-towards-villager</h1>
+<p>If this config option is <code>true</code>, zombies will ‘aggro’ villagers.</p>
+<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+default value is:</p>
+<pre><code class="language-yaml">zombie-aggressive-towards-villager: true
+</code></pre>
+<h2>Recommended starting value</h2>
+<p>It mostly depends on whether you need iron farms to work or not.</p>
+<p>A value of <code>true</code> means:</p>
+<ul>
+<li>all villager-based farms will work (e.g. iron farms)</li>
+<li>villagers are at risk of being killed by zombies</li>
+<li>can lead to wayyy more server lag</li>
+</ul>
+<p>A value of <code>false</code> means:</p>
+<ul>
+<li>iron farms probably won’t work</li>
+<li>villagers are safe from zombies</li>
+<li>can cut down a lot of server lag</li>
+</ul>
+<p>Please try starting with the default value of <code>true</code>, and if you notice a lot of
+lag caused by zombies pathfinding to villagers and villagers’ AI responding,
+consider switching it to <code>fals</code>.</p>
+<h2>What does <code>zombie-aggressive-towards-villager</code> do?</h2>
+<p>When set to <code>true</code>, zombies will actively seek out villagers to attack them.<br />
+If a villager is within the <a href="/minecraft/spigot/entity-activation-range">activation-range</a>,
+the zombie will start pathfinding towards the villager to attack it.<br />
+This can cause a lot of server lag, especially if there are many villagers and
+zombies in the same area, as the server has to calculate the pathfinding for
+each zombie towards the nearest villager, and the villagers have lots of complex
+tasks they run when being attacked.</p>
+<p>When set to <code>false</code>, zombies will ignore villagers completely, which can
+reduce a lot of server lag. Keyword: <strong>can</strong>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

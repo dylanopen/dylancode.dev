@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Break statements</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Break statements</h1>
+<p>A <em>break statement</em> is used to exit a loop or switch statement before it has
+naturally completed its execution.</p>
+<p>In other words, even if the condition for the loop is still true, a <code>break</code>
+statement will <strong>immediately</strong> exit the loop and continue executing the code
+that follows <em>after</em> the loop.</p>
+<h2>Basic syntax</h2>
+<p>To break out of a loop, just add this line anywhere in the loop:</p>
+<pre><code class="language-cs">break;
+</code></pre>
+<h2>Example: breaking out of a while loop</h2>
+<p>Here’s an example of a while loop that counts from 1 to 10, but uses a <code>break</code>
+statement to exit the loop when the count reaches 5:</p>
+<pre><code class="language-cs">int count = 1;
+while (count &lt;= 10) {
+    Console.WriteLine(count);
+    if (count == 5) {
+        break; // Exit the loop when count is 5
+    }
+    count++; // Increment count by 1
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>1
+2
+3
+4
+5
+</code></pre>
+<blockquote>
+<p>Note that the 5 is printed before the loop exits, because the <code>break</code>
+statement is executed <em>after</em> the <code>Console.WriteLine(count);</code> line.</p>
+</blockquote>
+<h2>Example: breaking out of a for loop</h2>
+<p>We can do exactly the same thing with a for loop. Here’s an example that counts from 1 to 10,
+but breaks out of the loop when the count reaches 5:</p>
+<pre><code class="language-cs">for (int count = 1; count &lt;= 10; count++) {
+    Console.WriteLine(count);
+    if (count == 5) {
+        break; // Exit the loop when count is 5
+    }
+}
+</code></pre>
+<h2>Break statements outside conditions</h2>
+<p>If we are using <code>break</code> to break out of a loop, it’s almost always inside some
+kind of condition (like an <code>if</code> statement) that checks for a specific situation.</p>
+<p>For example, in the example above, we only want to break out of the loop when
+<code>count</code> is equal to 5.</p>
+<p>You shouldn’t put a <code>break</code> statement directly inside a loop without any
+condition, because that would make the loop exit immediately on the first
+iteration, which is usually not what you want (as the loop would be entirely
+pointless).</p>
+<p>Here’s an example of a loop with a <code>break</code> statement <em>outside</em> an <code>if</code>
+condition:</p>
+<pre><code class="language-cs">int count = 1;
+while (count &lt;= 10) {
+    Console.WriteLine(count);
+    break; // This will exit the loop immediately
+    count++; // This line will never be reached
+}
+</code></pre>
+<p>Output:</p>
+<pre><code>1
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

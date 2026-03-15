@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Class methods</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Class methods</h1>
+<p>As previously mentioned, classes can store two different things:</p>
+<ul>
+<li><a href="/cs/fields">fields</a> - variables that hold data relevant to the class.</li>
+<li><em>methods</em> - functions that are <em>attached</em> to the class and can operate on
+its data.</li>
+</ul>
+<h2>Defining a method</h2>
+<p>You’ve already defined a method in a class, since the first
+<a href="/cs/hello-world">hello world program</a> you wrote was actually a method named
+<code>Main</code> inside a class named <code>Program</code>.</p>
+<p>This wasn’t quite a regular class method, though - it was a <em>static method</em>.</p>
+<h2>Static methods</h2>
+<p>A <em>static method</em> is not tied to a specific object of the class. Instead, it
+belongs to the class itself.</p>
+<p>That means that it can be called without creating an object of the class:</p>
+<pre><code class="language-csharp">ClassName.StaticMethodName();
+</code></pre>
+<p>…instead of:</p>
+<pre><code class="language-csharp">ClassName objectName = new ClassName();
+objectName.InstanceMethodName();
+</code></pre>
+<h3>When to use a static method</h3>
+<p>We should use a static method whenever the function <em>doesn’t need to</em> access any
+data from a specific object of the class - or when it operates on data that is
+shared across <strong>the entire program</strong> - <code>static</code> fields.</p>
+<h2>Method syntax</h2>
+<p>Just like we covered in the <a href="/cs/methods">methods</a> article, we define a method
+inside a class using this syntax:</p>
+<pre><code class="language-csharp">access_modifier return_type MethodName(parameter_list)
+{
+    // Method body goes here
+}
+</code></pre>
+<blockquote>
+<p>We can optionally add the <code>static</code> keyword after the access modifier to make
+the method static.</p>
+</blockquote>
+<h3>Example</h3>
+<p>Take our program from before about the <code>Car</code> class with fields for <code>make</code>,
+<code>price</code> and <code>year</code>:</p>
+<pre><code class="language-csharp">class Car
+{
+    public string make;
+    public float price;
+    public int year;
+}
+</code></pre>
+<p>Let’s say we added a method to print the car’s details:</p>
+<pre><code class="language-csharp">class Car
+{
+    public string make;
+    public float price;
+    public int year;
+
+    public void PrintDetails()
+    {
+        Console.WriteLine($"Make: {make}, Price: {price}, Year: {year}");
+    }
+}
+</code></pre>
+<p>We can then call <code>PrintDetails</code> on any object of the <code>Car</code> class to print its details:</p>
+<pre><code class="language-csharp">Car myCar = new Car();
+myCar.make = "Toyota";
+myCar.price = 25000;
+myCar.year = 2020;
+myCar.PrintDetails();
+
+Car anotherCar = new Car();
+anotherCar.make = "Honda";
+anotherCar.price = 22000;
+anotherCar.year = 2019;
+anotherCar.PrintDetails();
+</code></pre>
+<p>This would output:</p>
+<pre><code>Make: Toyota, Price: 25000, Year: 2020
+Make: Honda, Price: 22000, Year: 2019
+</code></pre>
+<h2>Static method example</h2>
+<p>Let’s say we have a class named <code>MathUtilities</code> that contains a static method to
+calculate the square of a number:</p>
+<pre><code class="language-csharp">class MathUtilities
+{
+    public static int Square(int number)
+    {
+        return number * number;
+    }
+}
+</code></pre>
+<p>We can call the <code>Square</code> method without creating an object of the
+<code>MathUtilities</code> class:</p>
+<pre><code class="language-csharp">int result = MathUtilities.Square(5);
+Console.WriteLine(result); // Outputs: 25
+</code></pre>
+<blockquote>
+<p>This is a good use for a static method, because it doesn’t need to access any
+instance-specific data - it just performs a calculation based on the input
+parameter.</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

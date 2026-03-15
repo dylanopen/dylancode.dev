@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ticks-per</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>ticks-per</h1>
+<p>The default <code>ticks-per</code> settings are found in the <code>bukkit.yml</code> file and look
+like this:</p>
+<pre><code class="language-yaml">ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  water-spawns: 1
+  water-ambient-spawns: 1
+  water-underground-creature-spawns: 1
+  axolotl-spawns: 1
+  ambient-spawns: 1
+  autosave: 6000
+</code></pre>
+<h2>Recommended starting values</h2>
+<p>If you run a small server with just a few friends, thes values should
+work fine for a vanilla-like experience:</p>
+<pre><code class="language-yaml">ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  water-spawns: 30
+  water-ambient-spawns: 30
+  water-underground-creature-spawns: 30
+  axolotl-spawns: 30
+  ambient-spawns: 30
+  autosave: 6000
+</code></pre>
+<p>If you start to notice any lag issues at all, these should be good for
+performance without sacrificing too much gameplay:</p>
+<pre><code class="language-yaml">ticks-per:
+  animal-spawns: 600
+  monster-spawns: 4
+  water-spawns: 50
+  water-ambient-spawns: 50
+  water-underground-creature-spawns: 50
+  axolotl-spawns: 50
+  ambient-spawns: 100
+  autosave: 6000
+</code></pre>
+<p>For medium to large servers, these values should help keep your TPS at 20:</p>
+<pre><code class="language-yaml">ticks-per:
+  animal-spawns: 500
+  monster-spawns: 10
+  water-spawns: 125
+  water-ambient-spawns: 100
+  water-underground-creature-spawns: 100
+  axolotl-spawns: 100
+  ambient-spawns: 200
+  autosave: 6000
+</code></pre>
+<p>Of course, this comes with the issue of far slower mob farm rates. Adapt it to
+your specific server needs.</p>
+<h2>What is the ticks-per setting?</h2>
+<p>One Minecraft tick is 1/20th of a second. So 20 ticks happens every second.</p>
+<p>The <code>ticks-per</code> settings determine how often the server will attempt to spawn
+mobs of each type. For example, if <code>axolotl-spawns</code> is set to 40, the server
+will attempt to spawn axolotls every 40 ticks, or every 2 seconds.</p>
+<ul>
+<li>A <strong>lower</strong> <code>ticks-per</code> value means the server will try to spawn mobs <strong>more
+often</strong> (so faster spawns, more lag).</li>
+<li>A <strong>higher</strong> <code>ticks-per</code> value means the server will try to spawn mobs <strong>less
+often</strong> (so slower spawns, less lag).</li>
+</ul>
+<h2>The autosave setting</h2>
+<p>The default autosave of <code>6000</code> ticks (5 minutes) is usually fine for most
+servers.</p>
+<p>You may want to <strong>increase it</strong> (make autosaves happen <em>less</em> frequently) if:</p>
+<ul>
+<li>You have a large world with many players, and autosaves are causing TPS drops.</li>
+</ul>
+<p>You may want to <strong>decrease it</strong> (make autosaves happen <em>more</em> frequently) if:</p>
+<ul>
+<li>You have an unstable server that crashes often, and you want to minimize data
+loss.</li>
+<li>You have a small world with few players, and autosaves are not causing any
+performance issues.</li>
+<li>You have a fast drive, so autosaves are quick and do not impact performance
+much.</li>
+</ul>
+<blockquote>
+<p>I would never recommend going above <code>10</code> minutes, and <em>definitely</em> not above
+<code>15</code> minutes, as that increases the risk of data loss significantly.<br />
+Even just a 15 minute loss of data can be very frustrating for players.</p>
+</blockquote>
+<h2>World-specific settings</h2>
+<p>YOu can change all of the settings for <em>mob</em> spawning per-world in the
+<code>paper-world.yml</code> config for each world, under the
+<code>entities&gt;spawning&gt;ticks-per-spawn</code> section. By default, everything is set to
+<code>-1</code>, which means it uses the global <code>bukkit.yml</code> settings.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

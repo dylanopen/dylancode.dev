@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adding immediates</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Adding immediates</h1>
+<p>Writing to registers is fun and all, but how about we do the thing that
+computers were invented to do: maths!</p>
+<p>We’ll start off from our code before:</p>
+<pre><code class="language-asm">.text
+main:
+    li x5, 42  # Load the value 42 into register x5
+
+stop:
+    li a7, 10    # Load the exit system call number into register a7
+    ecall         # Make the system call to exit the program
+</code></pre>
+<h2>Adding an immediate value</h2>
+<p><a href="/riscv/immediate-and-register-instructions">As mentioned before</a>, RISC-V has
+two types of instructions for many operations. For adding numbers, we have:</p>
+<ul>
+<li><code>add</code>: for adding the values of two registers together</li>
+<li><code>addi</code>: for adding an immediate value (a constant) to a register</li>
+</ul>
+<p>We’ll be using the second one for now - <code>addi</code>.</p>
+<p>The syntax for <code>addi</code> is:</p>
+<pre><code class="language-asm">addi &lt;destination register&gt;, &lt;source register&gt;, &lt;immediate value&gt;
+</code></pre>
+<p>This means “add the value in <code>&lt;source register&gt;</code> to <code>&lt;immediate value&gt;</code>, and
+store the result in <code>&lt;destination register&gt;</code>”.</p>
+<p>So, if we wanted to add <code>5</code> to the value in register <code>x5</code>, and store the result
+in <code>x4</code>, we would write:</p>
+<pre><code class="language-asm">addi x4, x5, 5
+</code></pre>
+<p>Now, the value in <code>x4</code> is <code>47</code> (because <code>42 + 5 = 47</code>)!</p>
+<h2>Our full code</h2>
+<p>Going back to our example before, we can now write:</p>
+<pre><code class="language-asm">.text
+main:
+    li x5, 42        # Load the value 42 into register x5
+    addi x4, x5, 5   # Add 5 to the value in x5, store result in x4
+
+stop:
+    li a7, 10        # Load the exit system call number into register a7
+    ecall            # Make the system call to exit the program
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x5%2C%2042%0A%20%20%20%20addi%20x4%2C%20x5%2C%205%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p>Now, when we run this code, the value in register <code>x4</code> will be <code>47</code>, or <code>2F</code> in
+hex!</p>
+<h2>An expanded <code>li</code></h2>
+<p>The <code>li</code> instruction isn’t really an instruction at all - it’s generally just
+expanded to a wrapper around an <code>addi</code> instruction that adds the immediate value
+we want to set it to, to the zero register (<code>x0</code>), which always contains <code>0</code>.</p>
+<p>So, to set the register <code>r1</code> to <code>127</code>, we can also write:</p>
+<pre><code class="language-asm">addi r1, x0, 127
+</code></pre>
+<p>This does exactly the same thing as:</p>
+<pre><code class="language-asm">li r1, 127
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Default arguments</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Default arguments</h1>
+<p>In C#, you can define methods with <em>default parameters</em>. This means that when
+you call the method, you can choose to omit some arguments, and the method will
+use the default values you specified instead.</p>
+<p>In more simple terms - we don’t need to provide values for all parameters when
+calling a method if some of them have default values.</p>
+<h2>Syntax</h2>
+<p>You can specify default values for parameters in the method definition by using
+the <code>=</code> operator followed by the default value. For example:</p>
+<pre><code class="language-cs">static void Greet(string name = "Guest", string greeting = "Hello")
+{
+    Console.WriteLine(greeting + ", " + name + "!");
+}
+</code></pre>
+<p>Now, we can call the <code>Greet</code> method in several ways:</p>
+<pre><code class="language-cs">Greet("Alice", "Hi"); // the normal way
+Greet("Bob");         // uses default greeting
+Greet();              // uses default name and greeting
+</code></pre>
+<p>The output of the above calls will be:</p>
+<pre><code>Hi, Alice!
+Hello, Bob!
+Hello, Guest!
+</code></pre>
+<h2>Default arguments before specified arguments</h2>
+<p>In the example above, we can’t easily call <code>Greet</code> with a custom greeting but
+the default name. That’s because C# will assume we’re providing the first
+argument of type string, which is <code>name</code>.</p>
+<p>To work around this, we can use <em>named arguments</em> to specify which parameter we
+want to provide a value for:</p>
+<pre><code class="language-cs">Greet(greeting: "Welcome");
+// default name, custom greeting
+</code></pre>
+<p>This will output:</p>
+<pre><code>Welcome, Guest!
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

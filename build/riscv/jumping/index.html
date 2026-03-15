@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jumping</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Jumping</h1>
+<p><em>Jumping</em> is where we change the flow of our program by jumping to a different
+part of the code - we essentially ‘goto’ a certain line (or memory address) in
+our code.</p>
+<p>Please have a look at the <a href="/riscv/labels">last chapter</a> to see how labels work.</p>
+<h2>The <code>j</code> instruction</h2>
+<p>The most basic instruction we can use to branch is <code>j</code>. It will <em>always</em> jump to
+the label you give it, no matter what.</p>
+<h2>Syntax</h2>
+<p>The <code>j</code> instruction can be used like this:</p>
+<pre><code>j label_name
+</code></pre>
+<h2>Example</h2>
+<p>For example, here, we jump to the <code>stop</code> label before we add <code>1</code> to the <code>a0</code>
+register:</p>
+<pre><code>.text
+main:
+    li a0, 5        # Load 5 into a0
+    j stop          # Jump to the 'stop' label
+    addi a0, a0, 1  # This line will be skipped
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20a0%2C%205%0A%20%20%20%20j%20stop%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall%0A%20%20%20%20">Run on creatorsim</a></p>
+<p>This program will load <code>5</code> into the <code>a0</code> register, then jump to the <code>stop</code>
+label, skipping the line that would have added <code>1</code> to <code>a0</code>. Finally, it will
+exit the program.</p>
+<p>The result in the registers will be:</p>
+<pre><code>a0: 5
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

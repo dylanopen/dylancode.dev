@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data types</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Data types</h1>
+<p>To understand data types, you need to understand that there are two ‘types’ of
+programming languages:</p>
+<ul>
+<li>statically typed languages</li>
+<li>dynamically typed languages</li>
+</ul>
+<h2>What are dynamically typed languages?</h2>
+<p>Dynamically typed languages <strong>don’t</strong> require you to give a variable a data type
+when you create it. Instead, types don’t really exist and the language just
+figures out how best to store the variable based on the value you give it.</p>
+<p>An example of a dynamically typed language is Python. We can give any variable
+data of any type:</p>
+<pre><code class="language-python">x = 5          # x is an integer
+x = "hello"    # now x is a string
+</code></pre>
+<h2>What are statically typed languages?</h2>
+<p>Statically typed languages (such as C) <strong>do</strong> require you to give a variable a
+data type when you create it. This means that the variable can only hold data of
+that type.</p>
+<p>For example, in C we can create an integer variable like this:</p>
+<pre><code class="language-c">int x = 5; // x is an integer
+</code></pre>
+<p>If we try to give <code>x</code> a string value later on, we’ll get an error:</p>
+<pre><code class="language-c">x = "hello"; // Error: cannot convert char* to int
+</code></pre>
+<h2>Common data types</h2>
+<p>These are some important data types that we’ll cover in future chapters!</p>
+<table><thead><tr><th>Data Type</th><th>Description</th><th>Example Values</th></tr></thead><tbody>
+<tr><td>int</td><td>Integer (whole) numbers</td><td>1, -5, 42</td></tr>
+<tr><td>float</td><td>Floating-point (decimal) numbers</td><td>3.14, -0.001, 2.0</td></tr>
+<tr><td>string</td><td>Text, really an array of chars</td><td>“hello world”, “123”</td></tr>
+<tr><td>bool</td><td>Boolean values (true or false)</td><td>true, false</td></tr>
+<tr><td>char</td><td>Single character</td><td>‘a’, ‘Z’, ‘1’</td></tr>
+<tr><td>array</td><td>Collection of values of the same type</td><td>[1, 2, 3], [“a”, “b”]</td></tr>
+<tr><td>object</td><td>An instance of a struct</td><td><code>struct Person {char* name; int age;}</code></td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>

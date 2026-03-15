@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>entity-tracking-range</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>entity-tracking-range</h1>
+<p>The <em>entity tracking range</em> basically tells the server how close a player has to
+be to an entity (mob, other player, etc) before the player can see the entity.</p>
+<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+default value is:</p>
+<pre><code class="language-yaml">entity-tracking-range:
+  players: 128
+  animals: 96
+  monsters: 96
+  misc: 96
+  display: 128
+  other: 64
+</code></pre>
+<h2>Recommended starting value</h2>
+<p>The default settings are good enough for most servers, so you can start with
+these:</p>
+<pre><code class="language-yaml">entity-tracking-range:
+  players: 128
+  animals: 96
+  monsters: 96
+  misc: 96
+  display: 128
+  other: 64
+</code></pre>
+<p>If you’re running a larger server and want to reduce the number of entities
+being sent to a player, you can lower the values to:</p>
+<pre><code class="language-yaml">entity-tracking-range:
+  players: 128
+  animals: 40
+  monsters: 80
+  misc: 48
+  display: 48
+  other: 32
+</code></pre>
+<blockquote>
+<p>I’d recommend always keeping <code>players</code> at <code>128</code>, as lowering it can cause look
+a bit strange.</p>
+</blockquote>
+<h2>What does <code>entity-tracking-range</code> do?</h2>
+<p>As mentioned above, any entity which is <em>outside</em> of the tracking range (in
+blocks) from a player won’t be sent to the player. The player simply won’t see
+the entity.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

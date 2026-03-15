@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Labels</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Labels</h1>
+<p>In every assembly program, we need a way to refer to specific locations in our
+code. This is where <strong>labels</strong> come in!</p>
+<p>You’ve already seen two labels in the last few examples: <code>main:</code> and <code>stop:</code>.</p>
+<pre><code class="language-asm">.text
+main:
+    # main code goes here
+
+stop:
+    li a7, 10
+    ecall
+</code></pre>
+<h2>What are labels?</h2>
+<p>A <em>label</em> is just a way of naming a specific ‘line’ in our code. When we put a
+label before a line of code, we’re saying “this line of code can be referred to
+by this name”.</p>
+<h2>Syntax</h2>
+<p>We can define a label by writing a name followed by a colon (<code>:</code>). For example:</p>
+<pre><code class="language-asm">loop_start:
+    # code for the loop goes here
+</code></pre>
+<p>We can also put the label on the same line as an instruction:</p>
+<pre><code class="language-asm">loop_start: addi t0, t0, -1
+</code></pre>
+<h2>Uses of labels</h2>
+<p>We’ll get into the main usage of labels in the next chapter when we learn about
+branching and jumping. The main uses of them are:</p>
+<ul>
+<li>for marking the start of functions (like <code>main:</code>)</li>
+<li>for marking locations to jump to (like <code>stop:</code>)</li>
+<li>for use in <em>selection</em> (assembly’s equivalent of <code>if</code> statements)</li>
+<li>for iteration (loops)</li>
+<li>for marking data locations in the <code>.data</code> section, e.g. memory variables and
+constants.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

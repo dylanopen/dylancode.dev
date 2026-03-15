@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>For loops</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>For loops</h1>
+<p>There’s another type of loop called a <em>for loop</em>.</p>
+<p>You may ask: “why do we need another type of loop? Isn’t a while loop enough?”<br />
+The answer is… yes. A while loop can do absolutely everything a for loop can
+do.</p>
+<p>So why do we use a for loop? Convenience. You’ll grow to like for loops, I
+promise :)</p>
+<h2>Basic syntax</h2>
+<p>In C#, we can write a for loop like this:</p>
+<pre><code class="language-cs">for (initialization; condition; update) {
+    // Code to repeat
+}
+</code></pre>
+<p>This looks much more complicated than a while loop, partly because <em>it is</em>.
+However, this becomes much simpler if you realise that the code above is
+<em>exactly</em> the same as this while loop:</p>
+<pre><code class="language-cs">initialization;
+while (condition) {
+    // Code to repeat
+    update;
+}
+</code></pre>
+<p><em>All</em> that a <code>for</code> loop does is run the code in <code>initialization</code> once at the
+start, then run the code in <code>update</code> at the end of each loop iteration.</p>
+<p>The second part - the <code>condition</code> - is exactly the same as in a while loop.</p>
+<p>The fact that the two code snippets above are equivalent is very useful - it
+makes for loops much easier to understand!</p>
+<h2>Our example from before: counting to 5</h2>
+<p>If you don’t remember the code from the while loops chapter, here it is again:</p>
+<pre><code class="language-cs">int count = 1;
+while (count &lt;= 5) {
+    Console.WriteLine(count);
+    count++; // Increment count by 1
+}
+</code></pre>
+<p>This looks <em><strong>very</strong></em> similar to our syntax for how a for loop works, right?</p>
+<ul>
+<li><code>int count = 1</code> is our <em>initialization</em></li>
+<li><code>count &lt;= 5</code> is our <em>condition</em></li>
+<li><code>count++</code> is our <em>update</em></li>
+</ul>
+<p>So, we can essentially substitute those parts into our for loop syntax:</p>
+<pre><code class="language-cs">for (int count = 1; count &lt;= 5; count++) {
+    Console.WriteLine(count);
+}
+</code></pre>
+<p>And… there we are! That’s a for loop that counts from 1 to 5.</p>
+<p>Output:</p>
+<pre><code>1
+2
+3
+4
+5
+</code></pre>
+<h2>Changing the values of a for loop</h2>
+<p>With a for loop, you can easily change the <em>range</em> of the loop just by changing
+the values in the initialization, condition, and update sections.</p>
+<p>For example, to count from 0 to 10, you could write:</p>
+<pre><code class="language-cs">for (int count = 0; count &lt;= 10; count++) {
+    Console.WriteLine(count);
+}
+</code></pre>
+<p>If we then wanted to count up in 2s instead of 1s, we could change the update part:</p>
+<pre><code class="language-cs">for (int count = 0; count &lt;= 10; count += 2) {
+    Console.WriteLine(count);
+}
+</code></pre>
+<p>(remember that the <code>count++</code> we had before just meant <code>count += 1</code>, or <code>count = count + 1</code>)</p>
+<p>We can even count backwards! To count from 5 down to 1, we could write:</p>
+<pre><code class="language-cs">for (int count = 5; count &gt;= 1; count--) {
+    Console.WriteLine(count);
+}
+</code></pre>
+<ul>
+<li>We start the count at 5</li>
+<li>We keep looping as long as <code>count</code> is greater than or equal to 1</li>
+<li>We decrease <code>count</code> by 1 each time through the loop</li>
+</ul>
+<h2>Don’t know how to use for loops yet? Use while loops!</h2>
+<p>As I mentioned earlier, for loops are just a while loop dressed up in fancy
+clothes.</p>
+<p>You can use a while loop for any task, it’s just much <em>neater</em> to use a for loop
+<strong>when you know in advance</strong> how many times you want to repeat something.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

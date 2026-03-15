@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>nerf-spawner-mobs</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>nerf-spawner-mobs</h1>
+<blockquote>
+<p>This setting is in <code>spigot.yml</code>.</p>
+</blockquote>
+<p>The default value is:</p>
+<pre><code class="language-yaml">nerf-spawner-mobs: false
+</code></pre>
+<h2>Recommended starting values</h2>
+<p>If your server has lots of mob spawners, or if you find that dungeon mobs are
+causing lag, you can set this to <code>true</code>:</p>
+<pre><code class="language-yaml">nerf-spawner-mobs: true
+</code></pre>
+<p>If you <em>don’t</em> think that mob spawners are a big issue for your server, just
+don’t change it from the default <code>false</code>. There’s no point in optimising
+something that doesn’t cause any lag anyway - it will just annoy your players.
+The default value of false:</p>
+<pre><code class="language-yaml">nerf-spawner-mobs: false
+</code></pre>
+<h2>What does it do?</h2>
+<p>If you set it to <code>true</code>, mobs that are spawned from mob spawners (like in
+dungeons) will have their AI completely disabled.</p>
+<p>That means they won’t be able to:</p>
+<ul>
+<li>move</li>
+<li>attack you</li>
+<li>interact with the environment in any way</li>
+<li><em>they won’t even know you are there…</em></li>
+</ul>
+<h2>Why set it to <code>true</code>?</h2>
+<p>The main thing that causes lag with mobs is their AI - pathfinding, attacking,
+looking for targets, etc. If you have lots of mobs from spawners, they can
+cause quite a bit of lag.</p>
+<p>Disabling a mob’s AI means they won’t cause really any lag at all. Because
+spawner mobs usually don’t need AI anyway (they are just there to be killed :P)
+you can generally safely set this to true.</p>
+<h2>Why <em>not</em> set this to <code>true</code>?</h2>
+<p>It can break farms which rely on mob spawners (e.g. those early game mob
+grinders people build).</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

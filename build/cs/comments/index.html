@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comments</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Comments</h1>
+<p>A <em>comment</em> is essentially a <em>note</em> in a piece of code. It’s used to add
+human-readable information about the code, and is completely ignored by the
+C# compiler.</p>
+<h2>Uses of comments</h2>
+<ul>
+<li>To explain the purpose of a piece of code.</li>
+<li>Providing links to related resources.</li>
+<li>To temporarily disable a piece of code during debugging (though really, you
+should use a version control system for this)!</li>
+<li>To leave reminders or TODOs for future work.</li>
+<li>To document functions, classes, and other code structures - we usually use
+a special form of comment, called a <em>doc comment</em>, for this.</li>
+</ul>
+<h2>What we <em>shouldn’t</em> use comments for</h2>
+<ul>
+<li>To explain <em>what</em> the code is doing - the code itself should be clear
+enough for that. If you find yourself needing to add comments to explain
+what the code does, consider rewriting the code to make it clearer.</li>
+<li>To justify bad coding practices. If you find yourself needing to add a
+comment to explain why you did something in a certain way, consider
+whether there’s a better way to do it.</li>
+<li>To add unnecessary information that doesn’t add value to the code.</li>
+<li>To rage at other developers for their bad design decisions (I know, we’ve
+all been there).</li>
+</ul>
+<h2>Single line comments</h2>
+<p>We can make a single-line comment in C# by using two forward slashes (<code>//</code>).<br />
+Anything <em>after</em> the slashes on that line is part of the comment and will be
+ignored by the C# compiler.</p>
+<pre><code class="language-cs">// This is a single-line comment in C#
+Console.WriteLine("Hello, World!"); // This comment is after code
+</code></pre>
+<h2>Multi-line comments</h2>
+<p>We can also do multi-line comments - these are comments that can span multiple
+lines without needing to start a new comment on each line.</p>
+<p>We do this by starting the comment with <code>/*</code> and ending it with <code>*/</code>:</p>
+<pre><code class="language-cs">/*
+This is a multi-line comment in C#
+It can span multiple lines
+*/
+Console.WriteLine( /* we can also do this */ "Hello, World!"); 
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>

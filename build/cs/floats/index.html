@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Floats</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Floats</h1>
+<p>A <em>float</em> is a <strong>floating point number</strong>.</p>
+<p>It’s called that because it stores a <em>fractional number</em> where the decimal point
+(well, it’s actually a <em>binary</em> point) can move - as opposed to in <em>fixed</em> point
+notation).</p>
+<blockquote>
+<p>The short answer is that floating point variables store decimal numbers!</p>
+</blockquote>
+<h2>Examples of floats</h2>
+<ul>
+<li><im>7.8</im></li>
+<li><im>4.0</im></li>
+<li><im>-8.1</im></li>
+</ul>
+<h2>Declaring a float variable</h2>
+<p>You can declare and initialise a variable with a <code>float</code> datatype in C# like
+this:</p>
+<pre><code class="language-cs">float myFloat = 5.7;
+</code></pre>
+<h2>The <code>double</code> type</h2>
+<p>You may be wondering: why would we use a new type if the <code>float</code> type can
+already represent a huge range of values?</p>
+<p>The answer is because <code>float</code> is <em>not very precise</em>, and you can tell when
+working with very big (or very small) numbers.</p>
+<p>To solve this, we can use the <code>float</code> data type, which stores a number using
+<code>64 bits</code> instead of <code>float</code>’s <code>32 bits</code>.</p>
+<p>Declare and initialise a variable like this:</p>
+<pre><code class="language-cs">double myDouble = 3.14159265358979
+</code></pre>
+<h2>Signed or unsigned?</h2>
+<p>Unlike integers, <strong>all floating point values are signed</strong>.</p>
+<p>This means that both <code>float</code>s and <code>double</code>s can represent either positive or
+negative values.</p>
+<h2>The issues with <code>float</code>s and <code>double</code>s</h2>
+<p>Floating point calculations don’t always give you what you want.</p>
+<p>A common solution to this is ‘loose equality’, which I’ll cover here soon :)</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>wake-up-inactive</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>wake-up-inactive</h1>
+<pre><code class="language-yaml">wake-up-inactive:
+  animals-max-per-tick: 4
+  animals-every: 1200
+  animals-for: 100
+  monsters-max-per-tick: 8
+  monsters-every: 400
+  monsters-for: 100
+  villagers-max-per-tick: 4
+  villagers-every: 600
+  villagers-for: 100
+  flying-monsters-max-per-tick: 8
+  flying-monsters-every: 200
+  flying-monsters-for: 100
+villagers-work-immunity-after: 100
+villagers-work-immunity-for: 20
+villagers-active-for-panic: true
+tick-inactive-villagers: true
+</code></pre>
+<h2>Recommended starting value</h2>
+<p>The default settings are good enough for most servers, so you can start with
+these:</p>
+<pre><code class="language-yaml">wake-up-inactive:
+  animals-max-per-tick: 4
+  animals-every: 1200
+  animals-for: 100
+  monsters-max-per-tick: 8
+  monsters-every: 400
+  monsters-for: 100
+  villagers-max-per-tick: 4
+  villagers-every: 600
+  villagers-for: 100
+  flying-monsters-max-per-tick: 8
+  flying-monsters-every: 200
+  flying-monsters-for: 100
+villagers-work-immunity-after: 100
+villagers-work-immunity-for: 20
+villagers-active-for-panic: true
+tick-inactive-villagers: true
+</code></pre>
+<p>If villagers are a particular problem for lag:</p>
+<pre><code class="language-yaml">wake-up-inactive:
+  animals-max-per-tick: 4
+  animals-every: 1200
+  animals-for: 100
+  monsters-max-per-tick: 8
+  monsters-every: 400
+  monsters-for: 100
+  villagers-max-per-tick: 1
+  villagers-every: 900
+  villagers-for: 100
+  flying-monsters-max-per-tick: 8
+  flying-monsters-every: 200
+  flying-monsters-for: 100
+villagers-work-immunity-after: 100
+villagers-work-immunity-for: 20
+villagers-active-for-panic: true
+tick-inactive-villagers: false
+</code></pre>
+<p>If you’re trying to greatly reduce entity-related lag <strong>spikes</strong> on your server,
+try these:</p>
+<pre><code class="language-yaml">wake-up-inactive:
+  animals-max-per-tick: 2
+  animals-every: 1200
+  animals-for: 100
+  monsters-max-per-tick: 2
+  monsters-every: 400
+  monsters-for: 100
+  villagers-max-per-tick: 1
+  villagers-every: 2000
+  villagers-for: 400
+  flying-monsters-max-per-tick: 2
+  flying-monsters-every: 200
+  flying-monsters-for: 100
+villagers-work-immunity-after: 120
+villagers-work-immunity-for: 20
+villagers-active-for-panic: true
+tick-inactive-villagers: false
+</code></pre>
+<h2>What is an inactive entity?</h2>
+<p>An inactive entity is just an entity that is outside of its activation range,
+meaning it won’t tick (i.e., it won’t perform any actions, AI, or movement)
+until it is ‘woken up’.</p>
+<h2>What does <code>wake-up-inactive</code> do?</h2>
+<p>Inside the main <code>wake-up-inactive</code> section, we have three main types of options:</p>
+<ul>
+<li><code>*-max-per-tick</code></li>
+<li><code>*-every</code></li>
+<li><code>*-for</code></li>
+</ul>
+<h2><code>*-max-per-tick</code></h2>
+<p>The <code>max-per-tick</code> option for each entity type (animals, monsters, villagers,
+flying-monsters) tells the server the maximum number of inactive entities of
+that type that can be woken up in a single server tick.</p>
+<p>For example, if <code>animals-max-per-tick</code> is set to <code>4</code>, the server will wake up
+up to 4 inactive animals per tick.</p>
+<h2><code>*-every</code></h2>
+<p>The <code>every</code> option for each entity type specifies the interval (in ticks)
+between each wake-up attempt for that entity type.</p>
+<p>For example, if <code>monsters-every</code> is set to <code>400</code>, the server will attempt to
+wake up inactive monsters once every 400 ticks (20 seconds).</p>
+<h2><code>*-for</code></h2>
+<p>This option specified the amount of time (ticks) that the entity will be woken
+up for before ‘going back to sleep’.</p>
+<p>For example, if <code>villagers-for</code> is set to <code>100</code>, the server will wake up
+inactive villagers for 100 ticks (5 seconds) before putting them back to sleep.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

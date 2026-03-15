@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Named method arguments</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Named method arguments</h1>
+<p>In the last chapters, we have been calling methods like this:</p>
+<pre><code class="language-cs">int result = DivideNumbers(20, 4);
+</code></pre>
+<p>We’ll assume the implementation of <code>DivideNumbers</code> looks like this:</p>
+<pre><code class="language-cs">int DivideNumbers(int dividend, int divisor)
+{
+    return dividend / divisor;
+}
+</code></pre>
+<p>We’re passing two arguments to <code>DivideNumbers</code>: <code>20</code> and <code>4</code>.</p>
+<p>The order of these arguments matters because the method expects the first
+argument to be the first number and the second argument to be the second number.</p>
+<p>If we instead did this:</p>
+<pre><code class="language-cs">int result = DivideNumbers(4, 20);
+</code></pre>
+<p>Then we wouldn’t get what we expect, because now <code>4</code> is being used as the
+dividend and <code>20</code> as the divisor.</p>
+<p>If we want to give the arguments in a different order, we can use <em>named
+arguments</em>. This allows us to specify the name of the parameter that each
+argument corresponds to.</p>
+<blockquote>
+<p>It is important to understand the difference between a <strong>parameter</strong> and an
+<strong>argument</strong>.<br />
+A <em>parameter</em> is part of the definition for the <strong>method we are calling</strong>. In
+this example, <code>dividend</code> and <code>divisor</code> are parameters of the <code>DivideNumbers</code>
+method.<br />
+An <em>argument</em> is part of the <strong>method call</strong>. In this example, <code>20</code> and <code>4</code>
+are arguments being <em>passed</em> to the <code>DivideNumbers</code> method.</p>
+</blockquote>
+<p>Using named arguments, we can call <code>DivideNumbers</code> like this:</p>
+<pre><code class="language-cs">int result = DivideNumbers(divisor: 4, dividend: 20);
+</code></pre>
+<p>Here, we are explicitly stating which argument corresponds to which parameter.</p>
+<h2>Which is better?</h2>
+<p>I would recommend never using named arguments unless you have a specific reason
+to do so. The reason for that is:</p>
+<ul>
+<li>using named arguments is more verbose, so:
+<ul>
+<li>it takes longer to write</li>
+<li>it takes longer to read</li>
+</ul>
+</li>
+<li>if the method signature changes (e.g. parameter names change), then named
+arguments can break, whereas positional arguments will not.</li>
+</ul>
+<p>However, there are some scenarios where named arguments can be useful:</p>
+<ul>
+<li>when a method has many parameters, and you only want to specify a few of them
+(this is because some parameters may have <strong>default values</strong> or be
+<strong>optional</strong>)</li>
+<li>when there are multiple parameters of the same type, and using named arguments
+can make it clear which argument corresponds to which parameter.</li>
+</ul>
+<h2>A case scenario of the flaws of named arguments</h2>
+<p>Imagine we have a method that creates a user account:</p>
+<pre><code class="language-cs">void CreateUserAccount(string username, string password, bool isAdmin) { ... }
+</code></pre>
+<p>We can call this method using named arguments like this:</p>
+<pre><code class="language-cs">CreateUserAccount(password: "P@ssw0rd", username: "john_doe", isAdmin: false);
+</code></pre>
+<p>(please don’t use “P@ssw0rd” as your actual password…)</p>
+<p>The same code with positional arguments would look like this:</p>
+<pre><code class="language-cs">CreateUserAccount("john_doe", "P@ssw0rd", false);
+</code></pre>
+<p>Now, imagine that later on, we decide to change the parameter names in the
+<code>CreateUserAccount</code> method to be more descriptive:</p>
+<pre><code class="language-cs">void CreateUserAccount(string userName, string userPassword, bool userIsAdministrator) { ... }
+</code></pre>
+<p>If we had used named arguments in our method call, like in the first example,
+our code would now break because the parameter names have changed. We’d get
+this error:</p>
+<pre><code>The best overload for 'CreateUserAccount' does not have a parameter named 'userName'
+</code></pre>
+<p>However, if we had used positional arguments, like in the second example, our
+code would still work perfectly fine, because positional arguments are based on
+the order of the parameters, not their names.</p>
+<blockquote>
+<p>I’ve been a bit biased here, because you may realise that exactly the same
+issue happens, but in reverse, if you change the order of parameters in a
+method signature. That would then break the position argument method, but
+<em>not</em> the named way. But this almost never happens - you don’t just randomly
+change the order of parameters in a method signature. However, renaming
+parameters is something that happens quite often when refactoring code.</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

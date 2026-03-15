@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Method overloading</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Method overloading</h1>
+<p>Let’s say we have a method that adds two numbers together:</p>
+<pre><code class="language-cs">static int Add(int a, int b)
+{
+    return a + b;
+}
+</code></pre>
+<p>This method works great for adding two integers. But what if we want to add two
+float numbers instead? We could create a new method with a different name,
+like <code>AddFloats</code>, but that would be less intuitive for users of our code.</p>
+<p>Instead, we can use <em>method overloading</em> to define multiple methods with the
+same name but different parameter types or counts!</p>
+<p>The compiler will choose the correct method to call based on the arguments we
+provide.</p>
+<h2>The <code>Add</code> example</h2>
+<p>Have a look at this code:</p>
+<pre><code class="language-cs">static int Add(int a, int b)
+{
+    return a + b;
+}
+static float Add(float a, float b)
+{
+    return a + b;
+}
+</code></pre>
+<p>We’re defining the <code>Add</code> method twice. Normally, this would cause a compilation
+error, but because the parameter types are different (one takes <code>int</code>s and the
+other takes <code>float</code>s), the compiler can distinguish between them.</p>
+<p>Now, when we call <code>Add</code>, the compiler will pick the right method based on the
+argument types:</p>
+<pre><code class="language-cs">int sumInt = Add(3, 5);           // Calls the int version
+float sumFloat = Add(2.5f, 4.5f); // Calls the float version
+</code></pre>
+<h2>Distinguishing by return type</h2>
+<blockquote>
+<p>It’s important to note that the compiler <em>cannot</em> distinguish between methods
+that differ only by their return type.<br />
+For example, the following code would cause a compilation error:</p>
+</blockquote>
+<pre><code class="language-cs">static int Add(int a, int b)
+{
+    return a + b;
+}
+static float Add(int a, int b) // This will cause a compilation error!
+{
+    return float(a + b);
+}
+</code></pre>
+<p>This will give this error:</p>
+<pre><code>Type 'ClassName' already defines a member called 'Add' with the same parameter types
+</code></pre>
+
+	    </div>
+	</div>
+    </body>
+</html>
