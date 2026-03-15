@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Integration of other expressions</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Integration of other expressions</h1>
+<p>If, instead of having an expression with all terms in the form <im>ax^n</im>, like:</p>
+<p><ma>
+\frac{dy}{dx}=\frac13x^4-8x^{-\frac12}
+</ma></p>
+<p>we instead have something like this:</p>
+<p><ma>
+\frac{dy}{dx}=\frac1{3x^{-4}}-\frac8{\sqrt x}
+</ma></p>
+<p>…then we need to convert it into the form of the first expression.</p>
+<h3>Integrate <im>5x^2 + \frac7x - \frac3{\sqrt x}</im></h3>
+<ul>
+<li>Rewrite each term in the form <im>ax^n</im>:
+<ul>
+<li><im>5x^2</im> stays the same - already in the right form.</li>
+<li><im>\frac7x</im> can be rewritten as <im>7x^{-1}</im>.</li>
+<li><im>\frac3{\sqrt x}</im> can be rewritten as <im>3x^{-\frac12}</im>.</li>
+</ul>
+</li>
+<li>So the expression becomes:
+<ul>
+<li><im>5x^2 + 7x^{-1} - 3x^{-\frac12}</im></li>
+</ul>
+</li>
+<li>Now integrate this expression term-by-term:
+<ul>
+<li><im>\int 5x^2 \, dx = \frac53 x^3</im></li>
+<li><im>\int 7x^{-1} \, dx = 7 \ln|x|</im></li>
+<li><im>\int -3x^{-\frac12} \, dx = -6x^{\frac12}</im></li>
+</ul>
+</li>
+<li>Adding them all together, we have:
+<ul>
+<li><im>\int \left(5x^2 + \frac7x - \frac3{\sqrt x}\right) dx = \frac53 x^3 + 7 \ln|x| - 6x^{\frac12} + c</im></li>
+</ul>
+</li>
+</ul>
+<h3>Find <im>\int \left(\frac2{x^3} + \frac5{\sqrt[3]{x}} - \frac4{x^2}\right) dx</im></h3>
+<ul>
+<li>Rewrite each term in the form <im>ax^n</im>:
+<ul>
+<li><im>\frac2{x^3}</im> can be rewritten as <im>2x^{-3}</im>.</li>
+<li><im>\frac5{\sqrt[3]{x}}</im> can be rewritten as <im>5x^{-\frac13}</im>.</li>
+<li><im>\frac4{x^2}</im> can be rewritten as <im>4x^{-2}</im>.</li>
+</ul>
+</li>
+<li>So the expression becomes:
+<ul>
+<li><im>2x^{-3} + 5x^{-\frac13} - 4x^{-2}</im></li>
+</ul>
+</li>
+<li>Now integrate this expression term-by-term:
+<ul>
+<li><im>\int 2x^{-3} \, dx = -x^{-2}</im></li>
+<li><im>\int 5x^{-\frac13} \, dx = \frac{15}{2} x^{\frac23}</im></li>
+<li><im>\int -4x^{-2} \, dx = 4x^{-1}</im></li>
+</ul>
+</li>
+<li>Adding them all together, we have:
+<ul>
+<li><im>\int \left(\frac2{x^3} + \frac5{\sqrt[3]{x}} - \frac4{x^2}\right) dx = -x^{-2} + \frac{15}{2} x^{\frac23} + 4x^{-1} + c</im></li>
+</ul>
+</li>
+</ul>
+<h3>Find <im>f(x)</im> given that <im>f&#39;(x) = \frac{3}{x^2} - \frac{2}{\sqrt x} + 4x^3</im> and <im>f(1) = 7</im></h3>
+<ul>
+<li>Rewrite each term in the form <im>ax^n</im>:
+<ul>
+<li><im>\frac{3}{x^2}</im> can be rewritten as <im>3x^{-2}</im>.</li>
+<li><im>\frac{2}{\sqrt x}</im> can be rewritten as <im>2x^{-\frac12}</im>.</li>
+<li><im>4x^3</im> stays the same - already in the right form.</li>
+</ul>
+</li>
+<li>So the expression becomes:
+<ul>
+<li><im>3x^{-2} - 2x^{-\frac12} + 4x^3</im></li>
+</ul>
+</li>
+<li>Now integrate this expression term-by-term:
+<ul>
+<li><im>\int 3x^{-2} \, dx = -3x^{-1}</im></li>
+<li><im>\int -2x^{-\frac12} \, dx = -4x^{\frac12}</im></li>
+<li><im>\int 4x^3 \, dx = x^4</im></li>
+</ul>
+</li>
+<li>Adding them all together, we have:
+<ul>
+<li><im>f(x) = -3x^{-1} - 4x^{\frac12} + x^4 + c</im></li>
+</ul>
+</li>
+<li>Now use the initial condition <im>f(1) = 7</im> to find <im>c</im>:
+<ul>
+<li><im>f(1) = -3(1)^{-1} - 4(1)^{\frac12} + (1)^4 + c = -3 - 4 + 1 + c = -6 + c</im></li>
+<li>Set this equal to 7:
+<ul>
+<li><im>-6 + c = 7</im></li>
+<li><im>c = 13</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Put this value of <im>c</im> back into the expression for <im>f(x)</im>:
+<ul>
+<li><im>f(x) = -3x^{-1} - 4x^{\frac12} + x^4 + 13</im></li>
+</ul>
+</li>
+</ul>
+<h3>Find <im>\int \left(\frac{6}{x^4} - \frac{5}{\sqrt{x}} + \frac{2}{x}\right) dx</im></h3>
+<ul>
+<li>Rewrite each term in the form <im>ax^n</im>:
+<ul>
+<li><im>\frac{6}{x^4}</im> can be rewritten as <im>6x^{-4}</im>.</li>
+<li><im>\frac{5}{\sqrt{x}}</im> can be rewritten as <im>5x^{-\frac12}</im>.</li>
+<li><im>\frac{2}{x}</im> can be rewritten as <im>2x^{-1}</im>.</li>
+</ul>
+</li>
+<li>So the expression becomes:
+<ul>
+<li><im>6x^{-4} - 5x^{-\frac12} + 2x^{-1}</im></li>
+</ul>
+</li>
+<li>Now integrate this expression term-by-term:
+<ul>
+<li><im>\int 6x^{-4} \, dx = -2x^{-3}</im></li>
+<li><im>\int -5x^{-\frac12} \, dx = -10x^{\frac12}</im></li>
+<li><im>\int 2x^{-1} \, dx = 2 \ln|x|</im></li>
+</ul>
+</li>
+<li>Adding them all together, we have:
+<ul>
+<li><im>\int \left(\frac{6}{x^4} - \frac{5}{\sqrt{x}} + \frac{2}{x}\right) dx = -2x^{-3} - 10x^{\frac12} + 2 \ln|x| + c</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

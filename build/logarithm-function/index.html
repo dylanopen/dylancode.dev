@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The logarithm function</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>The logarithm function</h1>
+<p><ma>
+\log_2\space16=4\Leftrightarrow2^4=16
+</ma></p>
+<h2>Common bases of logarithms</h2>
+<ul>
+<li><strong>Base 10</strong>: historically, logarithms were written down in ‘logarithm books’.
+These books showed all of their logarithms to base 10.</li>
+<li><strong>Base e</strong>: <em>natural</em> logarithms. Euler’s number is the ‘natural base’ of
+logarithms.</li>
+</ul>
+<h2>Natural logarithm function</h2>
+<p><ma>
+\ln(x)=y\Leftrightarrow \log_e(x)=y\Leftrightarrow e^{y}=x
+</ma></p>
+<p>Essentially, <im>\ln(x)</im> is just another way of writing <im>\log_e(x)</im>. We use <im>e</im> all
+the time in logarithms, so it is easier to write <im>\ln(x)</im> instead of
+<im>\log_e(x)</im>.</p>
+<h2>Logarithm function constraints</h2>
+<ul>
+<li>In the function <im>\log_aa^x</im>:
+<ul>
+<li><im>a&gt;0</im></li>
+<li><im>a\neq1</im></li>
+<li><im>x&gt;0</im></li>
+</ul>
+</li>
+</ul>
+<h3>Example: solve for <im>x</im>: <im>3\ln(2+x)=6</im></h3>
+<ul>
+<li>Divide both sides by 3:
+<ul>
+<li><im>\ln(2+x)=2</im></li>
+</ul>
+</li>
+<li>Rewrite the logarithm as a power of <im>e</im>:
+<ul>
+<li><im>e^2=2+x</im></li>
+</ul>
+</li>
+<li>Subtract 2 from both sides:
+<ul>
+<li><im>e^2-2=x</im></li>
+</ul>
+</li>
+<li>Therefore, the solution is:
+<ul>
+<li><im>x=e^2-2</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

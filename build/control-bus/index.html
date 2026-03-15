@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Control bus</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Control bus</h1>
+<blockquote>
+<p>The <em>control bus</em> is a <a href="/computer-bus">bus</a> that carries control signals
+between the processor and the other components of the computer, in order to
+control which components are active at what times, and to tell the components
+which one should be listening to the data.</p>
+</blockquote>
+<p>It basically tells the different components of the computer what to do and when
+to do it, so that they can work together to run the program.</p>
+<h2>What does the control bus transfer?</h2>
+<ul>
+<li>Signals to control the flow of data between the processor and memory, like
+signals to indicate when the processor is reading from or writing to memory
+(called ‘read’ and ‘write’ signals).</li>
+<li>Signals to control the flow of data between the processor and other
+components,
+like signals to indicate when the processor is sending data to or receiving
+data from other components (called ‘input’ and ‘output’ signals).</li>
+<li>Signals to control the flow of data between different components, like signals
+to indicate when one component is sending data to another component, so the
+receiving component knows to listen for the data (called ‘enable’ signals).</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

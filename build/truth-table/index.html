@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Truth table</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Truth table</h1>
+<p>A <em>truth table</em> is just a way of us showing all the possible outputs of a
+logical operation (or <a href="/logic-gates">logic gate</a>) based on all the possible
+combinations of its inputs.</p>
+<h2>An example: <code>AND</code></h2>
+<p>For example, let’s consider a simple logical operation called “AND”. The AND
+operation takes two inputs and produces an output that is “true” (or “1”) only
+if <em>both</em> inputs are “true” (or “1”). If either input is “false” (or “0”), the
+output is also “false” (or “0”).</p>
+<p>If we list out all the possible combinations of inputs and their corresponding
+outputs, we get the following truth table for the AND operation:</p>
+<table><thead><tr><th>Input A</th><th>Input B</th><th>Output (A AND B)</th></tr></thead><tbody>
+<tr><td>0</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>1</td><td><strong>0</strong></td></tr>
+<tr><td>1</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>1</td><td>1</td><td><strong>1</strong></td></tr>
+</tbody></table>
+<p>In this table:</p>
+<ul>
+<li>The first column represents the first input (Input A).</li>
+<li>The second column represents the second input (Input B).</li>
+<li>The third column shows the output of the AND operation based on the values of
+Input A and Input B.</li>
+</ul>
+<h2>Interpreting truth tables</h2>
+<p>Let’s take the example from above:</p>
+<table><thead><tr><th>Input A</th><th>Input B</th><th>Output (A AND B)</th></tr></thead><tbody>
+<tr><td>0</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>1</td><td><strong>0</strong></td></tr>
+<tr><td>1</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>1</td><td>1</td><td><strong>1</strong></td></tr>
+</tbody></table>
+<ul>
+<li>In the first row, both inputs are 0, so the output is 0 (because A AND B is
+false).</li>
+<li>In the second row, Input A is 0 and Input B is 1, so the output is still 0 (because A
+AND B is false).</li>
+<li>In the third row, Input A is 1 and Input B is 0, so the output is again 0 (because A AND B is
+false).</li>
+<li>In the fourth row, both inputs are 1, so the output is 1 (because A AND B is true).</li>
+</ul>
+<p>So we can see that, for an AND gate to output a 1, both of its inputs must be 1.</p>
+<h2>Truth tables with only one input</h2>
+<p>Here’s an example of a truth table for a logical operation called “NOT”, which
+takes a single input and produces an output that is the opposite of the input.</p>
+<p>It works in exactly the same way:</p>
+<table><thead><tr><th>Input A</th><th>Output (NOT A)</th></tr></thead><tbody>
+<tr><td>0</td><td><strong>1</strong></td></tr>
+<tr><td>1</td><td><strong>0</strong></td></tr>
+</tbody></table>
+<h2>How about 3 inputs?</h2>
+<p>Here’s a truth table for a logical operation which outputs a <code>1</code> if <em>at least
+two</em> of its three inputs are <code>1</code>:</p>
+<table><thead><tr><th>Input A</th><th>Input B</th><th>Input C</th><th>Output</th></tr></thead><tbody>
+<tr><td>0</td><td>0</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>0</td><td>1</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>1</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>0</td><td>1</td><td>1</td><td><strong>1</strong></td></tr>
+<tr><td>1</td><td>0</td><td>0</td><td><strong>0</strong></td></tr>
+<tr><td>1</td><td>0</td><td>1</td><td><strong>1</strong></td></tr>
+<tr><td>1</td><td>1</td><td>0</td><td><strong>1</strong></td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td><strong>1</strong></td></tr>
+</tbody></table>
+<p>In this table, the output is <code>1</code> in the rows where at least two of the inputs
+are <code>1</code>.</p>
+<p>That’s all there is to truth tables! They’re just a simple way of showing how
+logical operations work based on their inputs.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

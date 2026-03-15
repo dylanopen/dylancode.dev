@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multiplying logarithms by a constant</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Multiplying logarithms by a constant</h1>
+<p>When raising a logarithm to a power, you can bring the power out in front as a
+multiplier:</p>
+<p><ma>
+\log_b(x^k) = k \times \log_b(x)
+</ma></p>
+<h3>Example: Evaluate <im>\log_2(32^3)</im></h3>
+<ul>
+<li>Bring the power of 3 to the front: <im>3 \times \log_2(32)</im>.</li>
+<li><im>\log_2(32)=5</im> because <im>2^5=32</im>.</li>
+<li>So, <im>3 \times \log_2(32) = 3 \times 5 = 15</im>.</li>
+<li><strong>Answer:</strong> <im>15</im>.</li>
+</ul>
+<h3>Example: Evaluate <im>\log_{10}(1000^4)</im></h3>
+<ul>
+<li>Bring the power of 4 to the front: <im>4 \times \log_{10}(1000)</im>.</li>
+<li><im>\log_{10}(1000)=3</im> because <im>10^3=1000</im>.</li>
+<li>So, <im>4 \times \log_{10}(1000) = 4 \times 3 = 12</im>.</li>
+<li><strong>Answer:</strong> <im>12</im>.</li>
+</ul>
+<h2>Splitting up a logarithm with a multiplier</h2>
+<p>You can also split up a logarithm with a multiplier into a logarithm with an
+exponent:</p>
+<p><ma>
+k \times \log_b(x) = \log_b(x^k)
+</ma></p>
+<h3>Example: Write <im>4 \times \log_3(9)</im> as a single logarithm</h3>
+<ul>
+<li>The power will become 4: <im>\log_3(9^4)</im>.</li>
+<li><im>9^4 = 6561</im>.</li>
+<li>So, <im>4 \times \log_3(9) = \log_3(6561)</im>.</li>
+<li><strong>Answer:</strong> <im>\log_3(6561)</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

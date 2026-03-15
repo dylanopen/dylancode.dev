@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting exponentials to base e</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Converting exponentials to base e</h1>
+<p>As mentioned in the <a href="/base-e-exponentials">last topic</a>, the gradient of <im>e^x</im> is
+exactly the same as the <im>y</im> value at that point.</p>
+<p>That makes a lot of things much easier for us to work with!</p>
+<p>We can actually use this power of base e exponentials with <em>any</em> exponential
+function - by converting them to base <im>e</im>.</p>
+<h2><im>a=e^{\ln(a)}</im></h2>
+<p>The key to converting any exponential function to base <im>e</im> is the fact that we
+can rewrite any number <im>a</im> as <im>e^{\ln(a)}</im>.</p>
+<p>Basically, what we’re doing here is finding what number we need to raise
+<im>e</im> to in order to get <im>a</im> - and that number is <im>\ln(a)</im>.</p>
+<p>Then, we raise <im>e</im> <em>to that power</em> to get <im>a</im> back.</p>
+<p>While it might seem like we’ve complicated things, we now have a term in base
+<im>e</im>, which we can find the gradient of!</p>
+<h2>Converting <im>a^x</im> to base <im>e</im></h2>
+<p>Knowing that <im>a=e^{\ln(a)}</im>, we can rewrite <im>a^x</im> as <im>(e^{\ln(a)})^x</im>.</p>
+<p>Then, we can use the rule of indices that says that <im>(a^b)^c = a^{bc}</im> to
+rewrite <im>(e^{\ln(a)})^x</im> as <im>e^{x\ln(a)}</im>.</p>
+<h2>Finding the gradient of <im>a^x</im></h2>
+<p>Now we have <im>a^x</im> rewritten as <im>e^{x\ln(a)}</im>, we can find the gradient of it
+using the rule that <im>\frac{d}{dx}e^{f(x)} = f&#39;(x)e^{f(x)}</im> (see
+<a href="/base-e-exponentials">base e exponentials</a> for more on that rule).</p>
+<p>In this case, <im>f(x) = x\ln(a)</im>, so <im>f&#39;(x) = \ln(a)</im> (because <im>\ln(a)</im> is a
+constant, so it just comes out of the differentiation).</p>
+<p>Then, we can apply the rule to get <im>\frac{d}{dx}e^{x\ln(a)} = \ln(a)e^{x\ln(a)}</im>.</p>
+<p>Finally, we can rewrite <im>e^{x\ln(a)}</im> back to <im>a^x</im> to get the final answer of
+<im>\frac{d}{dx}a^x = \ln(a)a^x</im>.</p>
+<blockquote>
+<p><im>\frac{d}{dx}a^x = \ln(a)a^x</im> for any <im>a &gt; 0</im> and <im>a \neq 1</im>.</p>
+</blockquote>
+<h2>Example: <im>2^x</im></h2>
+<h3>Convert <im>2^x</im> to base <im>e</im></h3>
+<ul>
+<li><im>2^x = (e^{\ln(2)})^x</im> (because <im>2 = e^{\ln(2)}</im>)</li>
+<li><im>2^x = e^{x\ln(2)}</im> (using the rule of indices)</li>
+<li>Answer: <im>e^{x\ln(2)}</im></li>
+</ul>
+<h3>Find the gradient of <im>2^x</im></h3>
+<ul>
+<li><im>\frac{d}{dx}2^x = \ln(2)2^x</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li>Answer: <im>\ln(2)2^x</im></li>
+</ul>
+<h3>Find the gradient of <im>2^x</im> at the point <im>(1, 2)</im></h3>
+<ul>
+<li><im>\frac{d}{dx}2^x = \ln(2)2^x</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li><im>\frac{d}{dx}2^x = \ln(2)2^1</im> (substituting <im>x=1</im> into the expression for the gradient)</li>
+<li><im>\frac{d}{dx}2^x = \ln(2) \cdot 2</im> (simplifying)</li>
+<li>Answer: <im>\ln(2) \cdot 2</im></li>
+</ul>
+<h2>Example: <im>5^2x</im></h2>
+<h3>Convert <im>5^{2x}</im> to base <im>e</im></h3>
+<ul>
+<li><im>5^{2x} = (e^{\ln(5)})^{2x}</im> (because <im>5 = e^{\ln(5)}</im>)</li>
+<li><im>5^{2x} = e^{2x\ln(5)}</im> (using the rule of indices)</li>
+<li>Answer: <im>e^{2x\ln(5)}</im></li>
+</ul>
+<h3>Find the gradient of <im>5^{2x}</im></h3>
+<ul>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li>Answer: <im>2\ln(5)5^{2x}</im></li>
+</ul>
+<h3>Find the gradient of <im>5^{2x}</im> at the point <im>(0, 1)</im></h3>
+<ul>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5)5^0</im> (substituting <im>x=0</im> into the expression for the gradient)</li>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5) \cdot 1</im> (simplifying)</li>
+<li>Answer: <im>2\ln(5)</im></li>
+</ul>
+<h3>Find the gradient of <im>5^{2x}</im> at the point <im>(1, 25)</im></h3>
+<ul>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5)5^2</im> (substituting <im>x=1</im> into the expression for the gradient)</li>
+<li><im>\frac{d}{dx}5^{2x} = 2\ln(5) \cdot 25</im> (simplifying)</li>
+<li>Answer: <im>50\ln(5)</im></li>
+</ul>
+<h2>Example: <im>10^{-x}</im></h2>
+<h3>Convert <im>10^{-x}</im> to base <im>e</im></h3>
+<ul>
+<li><im>10^{-x} = (e^{\ln(10)})^{-x}</im> (because <im>10 = e^{\ln(10)}</im>)</li>
+<li><im>10^{-x} = e^{-x\ln(10)}</im> (using the rule of indices)</li>
+<li>Answer: <im>e^{-x\ln(10)}</im></li>
+</ul>
+<h3>Find the gradient of <im>10^{-x}</im></h3>
+<ul>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li>Answer: <im>-\ln(10)10^{-x}</im></li>
+</ul>
+<h3>Find the gradient of <im>10^{-x}</im> at the point <im>(0, 1)</im></h3>
+<ul>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10)10^0</im> (substituting <im>x=0</im> into the expression for the gradient)</li>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10) \cdot 1</im> (simplifying)</li>
+<li>Answer: <im>-\ln(10)</im></li>
+</ul>
+<h3>Find the gradient of <im>10^{-x}</im> at the point <im>(1, 0.1)</im></h3>
+<ul>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}</im> (using the rule for finding the gradient of <im>a^x</im>)</li>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10)10^{-1}</im> (substituting <im>x=1</im> into the expression for the gradient)</li>
+<li><im>\frac{d}{dx}10^{-x} = -\ln(10) \cdot 0.1</im> (simplifying)</li>
+<li>Answer: <im>-0.1\ln(10)</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

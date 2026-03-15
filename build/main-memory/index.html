@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main memory</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Main memory</h1>
+<blockquote>
+<p>The <strong>main memory</strong> is the part of the computer that stores the program and
+data that the processor is currently using. It’s also called RAM (Random
+Access Memory) or primary memory.</p>
+</blockquote>
+<p>The main memory is like a big ‘workspace’ for the processor, where it can store
+the program and data that it’s currently working on. It’s much faster than the
+secondary storage (like a hard drive), but it’s also much smaller, so it can
+only hold a smaller amount of data at a time - depending on how much RAM you
+have.</p>
+<h2>Role of main memory</h2>
+<ul>
+<li>Storing the program and data that the processor is currently using</li>
+<li>Storing variables and other data that the program needs to access quickly</li>
+<li>Storing the results of calculations that the processor has done, so they can
+be accessed later</li>
+<li>Storing the stack, which is a special area of memory that the processor uses
+to keep track of function calls, primitive data types, pointers, and other
+important data.</li>
+<li>Storing the heap, which is a special area of memory that the processor uses to
+store dynamically allocated data, like objects and arrays (as well as strings)
+that are created at runtime.</li>
+<li>Storing the program’s machine code, so the processor can fetch and execute it.</li>
+</ul>
+<h2>How main memory works</h2>
+<p>RAM is made up of billions of tiny ‘memory cells’. They’re like boxes, which
+can store usually a single <em>word</em> (32 bits) or <em>double word</em> (64 bits) of data,
+or an instruction (the size of the box depends on the architecture of the
+computer, e.g. i386 is 32-bit, while x86-64 is 64-bit).</p>
+<h2>Volatility</h2>
+<p>RAM is <em>volatile</em> - that means that, when we cut the power to the computer,
+like when we shut it down, all the data stored in RAM is lost. That’s just
+because of the way RAM is designed.</p>
+<p>If we want to store data permanently, we need to use a different type of memory,
+<a href="/secondary-storage">secondary storage</a>, like a hard drive or an SSD, which is
+non-volatile, so it can keep the data even when the power is off.</p>
+<h2>Memory addressing</h2>
+<p>Each memory cell has a unique address, which is like its ‘location’ in memory.
+The processor uses these addresses to access the data and instructions stored in
+memory. When it needs to access a particular piece of data or instruction, it
+sends the address to the memory, and the memory returns the data or instruction
+stored at that address.</p>
+<h2>Memory management</h2>
+<p>The CPU manages memory - it keeps track of which parts of memory are being used
+by which program, and then it <em>allocates</em> and <em>deallocates</em> memory as needed.</p>
+<p>When a program needs to store some data, it requests memory from the CPU, and
+the CPU finds a free block of memory and allocates it to the program.</p>
+<p>When the program is done with that memory, it can deallocate it, which means that the CPU marks it as free again, so it can be used by other programs.</p>
+<h2>RAM amount</h2>
+<p>Having more RAM doesn’t make a computer faster by itself. It just means that the computer can store more data and instructions in memory at the same time, which can help it run more smoothly if you’re running a lot of programs at once, or if you’re working with large files. But if you have a lot of RAM but a slow processor, then the computer will still be slow, because the processor is the part that actually executes the instructions.</p>
+<p>However, having more RAM <em>does</em> mean that:</p>
+<ul>
+<li>The processor and programs have to do less <strong>garbage collection</strong>, which is the process of finding and freeing up memory that’s no longer being used by the program. This can help improve performance, because garbage collection can  halt a program (make it seem like it isn’t responding) while it’s happening.</li>
+<li>The processor can store more data and instructions in memory at the same time, which can help it run more smoothly if you’re running a lot of programs at once, or if you’re working with large files. This is because the processor can access data and instructions stored in RAM much faster than it can access data stored on a hard drive or other secondary storage device. So if you have more RAM, the processor can access more data and instructions quickly, which can help improve performance.</li>
+<li>It needs to use less <strong>virtual memory</strong>, which is a technique that allows the computer to use a portion of the hard drive as if it were RAM, when the physical RAM is full. This can help improve performance, because accessing data stored in virtual memory is much slower than accessing data stored in physical RAM. So if you have more RAM, the processor can store more data and instructions in physical RAM, which can help reduce the need to use virtual memory, and improve performance.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

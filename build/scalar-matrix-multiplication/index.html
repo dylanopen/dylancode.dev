@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matrix scalar multiplication</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Matrix scalar multiplication</h1>
+<p>When multiplying a matrix by a scalar (a single number), we multiply each element
+of the matrix by that scalar.</p>
+<p>For a 2x2 matrix, this can be written as:</p>
+<p><ma>
+k 
+\begin{bmatrix}
+a &amp; b \\
+c &amp; d
+\end{bmatrix} =
+\begin{bmatrix}
+k a &amp; k b \\
+k c &amp; k d
+\end{bmatrix}
+</ma></p>
+<h2>Examples</h2>
+<h3>Evaluate <im>2 \times \begin{bmatrix} 1 &amp; 3 \\ 5 &amp; 7 \end{bmatrix}</im></h3>
+<ul>
+<li>multiply each element of the matrix by 2:
+<ul>
+<li>Top-left: <im>2 \times 1 = 2</im></li>
+<li>Top-right: <im>2 \times 3 = 6</im></li>
+<li>Bottom-left: <im>2 \times 5 = 10</im></li>
+<li>Bottom-right: <im>2 \times 7 = 14</im></li>
+</ul>
+</li>
+<li>So, <im>2 \times \begin{bmatrix} 1 &amp; 3 \\ 5 &amp; 7 \end{bmatrix} =
+\begin{bmatrix} 2 &amp; 6 \\ 10 &amp; 14 \end{bmatrix}</im></li>
+<li><strong>Answer</strong>: <im>\begin{bmatrix} 2 &amp; 6 \\ 10 &amp; 14 \end{bmatrix}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

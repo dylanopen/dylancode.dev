@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Small angle approximation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Small angle approximation</h1>
+<h2>The approximations</h2>
+<p>As <im>\theta</im> becomes small:</p>
+<ul>
+<li><im>\sin\theta\approx\theta</im></li>
+<li><im>\cos\theta\approx1-\frac12\theta^2</im></li>
+<li><im>\tan\theta\approx\theta</im></li>
+</ul>
+<blockquote>
+<p>These <strong>only</strong> work when working with <a href="/radian">radians</a> - not degrees.</p>
+</blockquote>
+<h2>What is a small angle?</h2>
+<p>A ‘small’ angle is considered anything under <strong>half a radian</strong>.</p>
+<h2>Sine approximation</h2>
+<p>For a small angle <im>\theta</im>, when working with <strong>radians</strong>:</p>
+<p><ma>
+\sin\theta\approx\theta
+</ma></p>
+<h2>Tangent approximation</h2>
+<p>For a small angle <im>\theta</im>, when working with <strong>radians</strong>:</p>
+<p><ma>
+\tan\theta\approx\theta
+</ma></p>
+<h2>Cosine approximation</h2>
+<p>For a small angle <im>\theta</im>, when working with <strong>radians</strong>:</p>
+<p><ma>
+\cos\theta\approx1-\frac12\theta^2
+</ma></p>
+<h3>Approximate the value of <im>\cos0.4</im>, then find the percentage error</h3>
+<ul>
+<li><im>\cos(0.4)</im></li>
+<li><im>\approx1-\frac12(0.4)^2</im></li>
+<li><im>=1-\frac{0.16}2</im></li>
+<li><im>=1-0.08</im></li>
+<li><im>=0.92</im></li>
+</ul>
+<p>The <em>actual value</em> is around <im>0.92106</im>, so:</p>
+<ul>
+<li>Difference: <im>0.92106-0.92=0.00106</im></li>
+<li><im>\frac{0.00106}{0.92106}</im></li>
+<li><im>=0.00115</im></li>
+<li><im>=0.115\%</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

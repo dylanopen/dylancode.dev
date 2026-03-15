@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Decryption</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Decryption</h1>
+<blockquote>
+<p><strong>Decryption</strong> is the opposite of <a href="/encryption">encryption</a> - it’s where we
+take the <em>ciphertext</em> and use a <em>reverse cipher</em> - usually using an
+encryption key - to produce the <em>plaintext</em>.</p>
+</blockquote>
+<h2>The encryption key</h2>
+<p>We need a key. That’s because, to do the reverse of the encryption
+function, we need to know the ‘secret’ part of the function, which will allow
+only the person with the key to decode it.</p>
+<h2>Decryption functions</h2>
+<p>The decryption function is the reverse of the encryption function. For example,
+if the encryption function is:</p>
+<pre><code>E(x) = (x + 3) mod 26
+</code></pre>
+<p>(This effectively shifts the letters of the alphabet by 3 places, so A becomes D, B becomes E, etc. It’s known as a Caesar cipher - you’ll see it soon!)</p>
+<p>Then the decryption function would be:</p>
+<pre><code>D(y) = (y - 3) mod 26
+</code></pre>
+<p>This means that if we have the ciphertext ‘D’, which corresponds to 3 (since A=0, B=1, C=2, D=3), we can apply the decryption function:</p>
+<pre><code>D(3) = (3 - 3) mod 26 = 0
+</code></pre>
+<p>The important thing to see is the <code>3</code>. In an encryption scheme, this would be
+the key - it could change and be any number, and only someone with the key would
+be able to decrypt the message (in theory, this cipher is incredibly insecure).</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

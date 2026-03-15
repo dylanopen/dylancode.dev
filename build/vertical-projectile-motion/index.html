@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vertical projectile motion</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Vertical projectile motion</h1>
+<p>When we launch a projectile vertically upwards:</p>
+<ol>
+<li>Its initial vertical velocity is positive (upwards).</li>
+<li>It will decelerate at a constant rate due to the acceleration of gravity,
+which is negative (downwards) so <em>decelerates</em> the projectile.</li>
+<li>At the maximum height, the vertical velocity will be zero because the
+acceleration due to gravity has fully decelerated the projectile to a
+velocity of <im>0ms^{-1}</im>.</li>
+<li>After reaching the maximum height, the projectile will start to fall back
+down, accelerating at the same rate due to gravity, but now with a negative
+velocity (downwards).</li>
+<li>When the projectile hits the ground, it will have the same speed as when it
+was launched, but in the opposite direction (downwards). This is because the
+acceleration due to gravity is constant.</li>
+</ol>
+<h2>Equations</h2>
+<p>We can use the same <a href="/equations-for-uniform-acceleration">equations for uniform acceleration</a>
+to solve problems involving vertical projectile motion:</p>
+<ul>
+<li><im>v = u + at</im></li>
+<li><im>s=\frac{u+v}2\times t</im></li>
+<li><im>v^2 = u^2 + 2as</im></li>
+<li><im>s=ut+\frac12at^2</im></li>
+</ul>
+<h2>Known values</h2>
+<p>there are some values which we will always know when solving
+vertical projectile motion problems.</p>
+<h3>Values for the upwards part of the motion</h3>
+<ul>
+<li>The <strong>acceleration</strong> (<im>a</im>) will always be <im>-9.81ms^{-2}</im> (the acceleration due
+to gravity, which is negative because it’s downwards).</li>
+<li>The <strong>initial velocity</strong> (<im>u</im>) will always be positive (since it’s launched
+upwards). It’s the velocity it was launched at.</li>
+<li>The <strong>final velocity</strong> (<im>v</im>) will always be <im>0ms^{-1}</im> at the maximum height,
+because the projectile will have been fully decelerated by gravity, and, for
+an instant, will be completely stationary (no velocity).</li>
+<li>The <strong>displacement</strong> (<im>s</im>) will be the maximum height reached by the
+projectile (compared to the launch point). It’s positive as the projectile is
+going up.</li>
+<li>The <strong>time</strong> (<im>t</im>) will be the time taken to reach the maximum height.</li>
+</ul>
+<h3>Values for the downwards part of the motion</h3>
+<ul>
+<li>The <strong>acceleration</strong> (<im>a</im>) will still be <im>-9.81ms^{-2}</im> (the acceleration due
+to gravity, which is negative because it’s downwards).</li>
+<li>The <strong>initial velocity</strong> (<im>u</im>) will always be <im>0ms^{-1}</im> at the maximum height, because the projectile will have been fully decelerated
+by gravity, and, for an instant, will be completely stationary (no velocity).</li>
+<li>The <strong>final velocity</strong> (<im>v</im>) will always be negative (since it’s falling downwards). It’s the velocity it hits the ground with, and will have the same magnitude as the initial velocity (but negative) due to the constant acceleration of gravity.</li>
+<li>The <strong>displacement</strong> (<im>s</im>) will be the maximum height reached by the projectile (compared to the launch point), but negative, since the projectile is falling down.</li>
+<li>The <strong>time</strong> (<im>t</im>) will be the time taken to fall back down to the ground.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

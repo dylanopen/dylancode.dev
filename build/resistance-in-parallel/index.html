@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resistance in parallel</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Resistance in parallel</h1>
+<h2>Resistance in parallel formula</h2>
+<p>When resistors are connected in parallel, the total or equivalent resistance (<im>R_{eq}</im>) can be calculated using the formula:</p>
+<p><ma>
+\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots
+</ma></p>
+<p>We can re-arrange this to find <im>R_{eq}</im>:</p>
+<p><ma>
+R_{eq} = \frac{1}{\left(\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots\right)}
+</ma></p>
+<p>… where <im>R_1</im>, <im>R_2</im>, <im>R_3</im>, … are the resistances of the individual
+resistors connected in parallel.</p>
+<h3>Calculate the resistance of two resistors in parallel</h3>
+<pre><code>           +-------+           
+        +--| 12ohm |--+
+        |  +-------+  |
+        |             |
+--------+             +--------
+        |             |
+        |  +-------+  |        
+        +--| 18ohm |--+
+           +-------+   
+</code></pre>
+<ul>
+<li>Total resistance, <im>R_{eq}</im>:
+<ul>
+<li><im>\frac{1}{R_{eq}} = \frac{1}{12\Omega} + \frac{1}{18\Omega}</im></li>
+<li><im>\frac{1}{R_{eq}} = \frac{3}{36\Omega} + \frac{2}{36\Omega}</im></li>
+<li><im>\frac{1}{R_{eq}} = \frac{5}{36\Omega}</im></li>
+<li><im>R_{eq} = \frac{36\Omega}{5} = 7.2\Omega</im></li>
+</ul>
+</li>
+</ul>
+<h2>Increasing the number of resistors in parallel</h2>
+<p>If we add more resistors in parallel, the equivalent resistance <strong>decreases</strong>.
+This is because adding more paths for the current to flow reduces the overall
+resistance of the circuit (because there are more pathways for the electrons to
+‘choose’).</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

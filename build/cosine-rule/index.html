@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cosine rule</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Cosine rule</h1>
+<p>The cosine rule can be used to find:</p>
+<ul>
+<li>the length of a side of a triangle when we know the lengths of the other two
+sides and the angle between them</li>
+<li>or the angle between two sides of a triangle when we know the lengths of all
+three sides.</li>
+</ul>
+<h2>The triangle</h2>
+<p>The lengths <im>a</im>, <im>b</im> and <im>c</im> represent the side lengths in this triangle.<br />
+The angles <im>A</im>, <im>B</im> and <im>C</im> represent the angles in the triangle.</p>
+<pre><code>            A
+          /   \
+     c  /       \  b
+      /           \
+    /               \
+   B ---------------- C
+            a
+</code></pre>
+<h2>The cosine rule formula</h2>
+<p>Using the triangle above, the cosine rule tells us that:</p>
+<p><ma>
+a^2 = b^2 + c^2 - 2bc \cos A
+</ma></p>
+<p>And, equivalently:</p>
+<p><ma>
+\cos A = \frac{b^2 + c^2 - a^2}{2bc}
+</ma></p>
+<h2>Example</h2>
+<h3>Find the length of side <im>a</im></h3>
+<pre><code>            75
+          /    \
+   8cm  /        \  5cm
+      /            \
+    /                \
+   B ----------------- C
+            a
+</code></pre>
+<ul>
+<li><im>b = 8</im></li>
+<li><im>c = 5</im></li>
+<li><im>A = 75^\circ</im></li>
+<li><im>a^2 = b^2 + c^2 - 2bc \cos A</im></li>
+<li><im>a^2 = (8cm)^2 + (5cm)^2 - 2 \times 8cm \times 5cm \times \cos 75^\circ</im></li>
+<li><im>a^2 \approx 8.26cm</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

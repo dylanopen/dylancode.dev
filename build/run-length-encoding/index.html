@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Run-length encoding</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Run-length encoding</h1>
+<blockquote>
+<p><strong>Run-length encoding</strong> is a method of <a href="/lossless-compression">lossless compression</a> where we replace sequences of repeated data with a single
+value and a count of how many times it was repeated.</p>
+</blockquote>
+<p>As an example, suppose we had this string of text:</p>
+<pre><code>AAAAAAAABBBBBBBCDDDDDDDDDDDDDEEEEEEE
+</code></pre>
+<p>That is:</p>
+<ul>
+<li>8 A’s</li>
+<li>7 B’s</li>
+<li>1 C</li>
+<li>13 D’s</li>
+<li>7 E’s</li>
+</ul>
+<p>It would be much better if, instead of storing each individual character, we
+just stored the character and how many times it was repeated!</p>
+<p>While the underlying encoding would be different in reality, run length encoding
+would essentially turn the string above into something like:</p>
+<pre><code>8A 7B 1C 13D 7E
+</code></pre>
+<p>Stored in binary, that’s a lot less data to store than the original string.</p>
+<h2>Run-length encoding in images</h2>
+<p>We can do the same with images. For example, if we had a bitmap image that was
+10 pixels wide and 10 pixels high, and the top 5 rows were all red and the rest
+was all blue, we might store that as something like:</p>
+<pre><code>50R 50B
+</code></pre>
+<h2>Benefits of run-length encoding</h2>
+<ul>
+<li>All the benefits of <a href="/lossless-compression">lossless compression</a></li>
+<li>It’s very simple to implement, and can be very effective for certain types of
+data, like images with large areas of solid colour, or text with lots of
+repeated characters.</li>
+<li>A variation of run length encoding can be used for things like GIFs, where a
+single video frame or pixel in a certain position can be stored and ‘repeated’
+for multiple frames, which can save a lot of space.</li>
+</ul>
+<h2>Drawbacks of run-length encoding</h2>
+<ul>
+<li>It can actually make the file size bigger if there aren’t many repeated characters
+or pixels - for example, if we had a string like <code>ABCDABCDABCD</code>, run-length
+encoding would turn that into <code>1A 1B 1C 1D 1A 1B 1C 1D 1A 1B 1C 1D</code>, which is
+much longer than the original string.</li>
+<li>It is not very effective for images with lots of detail, like photos, as there
+aren’t many large areas of solid colour to take advantage of.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

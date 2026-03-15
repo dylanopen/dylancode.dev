@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matrix multiplication identity</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Matrix multiplication identity</h1>
+<p>For multiplication of any matrix, the <a href="/identity-matrix">identity matrix</a> is:</p>
+<p><ma>
+\mathbf{I_n} =
+\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp; \cdots &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; \cdots &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; \cdots &amp; 0 \\
+\vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+0 &amp; 0 &amp; 0 &amp; \cdots &amp; 1
+\end{bmatrix}
+</ma></p>
+<p>For a 2x2 identity matrix, it is:</p>
+<p><ma>
+\mathbf{I_2}=
+\begin{bmatrix}
+1 &amp; 0 \\
+0 &amp; 1
+\end{bmatrix}
+</ma></p>
+<h3>Proof for a 2x2 identity matrix</h3>
+<p>Let <im>\mathbf{A} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}</im> and <im>\mathbf{I_2} = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix}</im>, then:</p>
+<ul>
+<li><im>\mathbf{A} \times \mathbf{I_2} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} \times \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix} = \begin{bmatrix} a\times 1 + b\times 0 &amp; a\times 0 + b\times 1 \\ c\times 1 + d\times 0 &amp; c\times 0 + d\times 1 \end{bmatrix} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} = \mathbf{A}</im></li>
+<li>Similarly, going the other way round:</li>
+<li><im>\mathbf{I_2} \times \mathbf{A} = \begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix} \times \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} = \begin{bmatrix} 1\times a + 0\times c &amp; 1\times b + 0\times d \\ 0\times a + 1\times c &amp; 0\times b + 1\times d \end{bmatrix} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} = \mathbf{A}</im></li>
+</ul>
+<h2>Proof for a 3x3 identity matrix</h2>
+<p>This is the same thing, but not quite so neat to write out…</p>
+<p>Let <im>\mathbf{A} = \begin{bmatrix} a &amp; b &amp; c \\ d &amp; e &amp; f \\ g &amp; h &amp; i \end{bmatrix}</im> and <im>\mathbf{I_3} = \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}</im>, then:</p>
+<ul>
+<li><im>\mathbf{A} \times \mathbf{I_3}</im>
+<ul>
+<li><im>= \begin{bmatrix} a &amp; b &amp; c \\ d &amp; e &amp; f \\ g &amp; h &amp; i \end{bmatrix} \times \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix}</im></li>
+<li><im>=\begin{bmatrix} a\times 1 + b\times 0 + c\times 0 &amp; a\times 0 + b\times 1 + c\times 0 &amp; a\times 0 + b\times 0 + c\times 1 \\ d\times 1 + e\times 0 + f\times 0 &amp; d\times 0 + e\times 1 + f\times 0 &amp; d\times 0 + e\times 0 + f\times 1 \\ g\times 1 + h\times 0 + i\times 0 &amp; g\times 0 + h\times 1 + i\times 0 &amp; g\times 0 + h\times 0 + i\times 1 \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} a &amp; b &amp; c \\ d &amp; e &amp; f \\ g &amp; h &amp; i \end{bmatrix} = \mathbf{A}</im></li>
+</ul>
+</li>
+<li>Similarly, going the other way round:</li>
+<li><im>\mathbf{I_3} \times \mathbf{A}</im>
+<ul>
+<li><im>= \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \times \begin{bmatrix} a &amp; b &amp; c \\ d &amp; e &amp; f \\ g &amp; h &amp; i \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 1\times a + 0\times d + 0\times g &amp; 1\times b + 0\times e + 0\times h &amp; 1\times c + 0\times f + 0\times i \\ 0\times a + 1\times d + 0\times g &amp; 0\times b + 1\times e + 0\times h &amp; 0\times c + 1\times f + 0\times i \\ 0\times a + 0\times d + 1\times g &amp; 0\times b + 0\times e + 1\times h &amp; 0\times c + 0\times f + 1\times i \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} a &amp; b &amp; c \\ d &amp; e &amp; f \\ g &amp; h &amp; i \end{bmatrix} = \mathbf{A}</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

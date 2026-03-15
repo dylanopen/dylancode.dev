@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parity bit</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Parity bit</h1>
+<p>Parity bits are a super simple way to check for an error when transferring
+data over a network / cable.</p>
+<p>THe idea is that we add an extra bit to the end of our data, which is called the
+<em>parity bit</em>.</p>
+<h2>What does the parity bit store?</h2>
+<p>This parity bit will tell the receiver whether the number of 1s in the group of
+data is even or odd, through a single bit in each ‘group’ of data.</p>
+<p>For example, if we have the data <code>1010</code>, we have two 1s, which is an even
+number. So, depending on our convention, we could set the parity bit to 0 to
+indicate that the number of 1s is even. If we had the data <code>1011</code>, we have three
+1s, which is an odd number. So, we could set the parity bit to 1 to indicate
+that the number of 1s is odd.</p>
+<h2>How does the receiver use the parity bit?</h2>
+<p>When the receiver gets the data, it can count the number of 1s in the data and
+compare it to the parity bit. If the parity bit says there should be an even
+number of 1s, but the receiver counts an odd number, then it knows that something
+went wrong during the transmission of the data.</p>
+<p>It can ask the sender to send it again.</p>
+<h2>Benefits of parity bits</h2>
+<ul>
+<li>simple and easy to implement.</li>
+<li>Can usually detect single-bit errors (when one bit is flipped during
+transmission).</li>
+<li>Sometimes, for example, in ASCII, there is a ‘free bit’ in each character that
+can be used as a parity bit without needing to add extra bits to the data.</li>
+</ul>
+<h2>Downsides of parity bits</h2>
+<ul>
+<li>If two (or any even number of bits) are flipped, then the parity bit will
+still make it look like the data is correct, even though it’s not. So, it
+can’t detect all errors.</li>
+<li>It doesn’t tell you which bit is wrong, just that something is wrong. So, it
+can’t correct errors, just detect them.</li>
+<li>Like any ewrror detection method which sends more data, it means we need to
+send more data, so use more bandwidth. It can also make the data transfer
+slower.</li>
+<li>It doesn’t help at all with security. It’s only for detecting accidental
+errors, not malicious attacks by changing the data on purpose.</li>
+</ul>
+<h2>Even parity</h2>
+<p>In <em>even</em> parity, the parity bit is a <code>0</code> if the number of <code>1</code>s in the data is
+even, and a <code>1</code> if the number of <code>1</code>s is odd.</p>
+<h2>Odd parity</h2>
+<p>In <em>odd</em> parity, the parity bit is a <code>1</code> if the number of <code>1</code>s in the data is
+even, and a <code>0</code> if the number of <code>1</code>s is odd.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

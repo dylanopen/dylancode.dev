@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Translating graphs</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Translating graphs</h1>
+<h2>What is a translation?</h2>
+<p>A translation is basically when we <em>move</em> a graph (without changing its shape).</p>
+<p>We can represent a translation using a vector of coordinates, where the top
+number represents the movement in the <im>x</im> direction, and the bottom number
+represents the movement in the <im>y</im> direction.</p>
+<p>For example, the vector <im>\begin{pmatrix}3 \\ -2\end{pmatrix}</im> means we move 3
+units to the right (positive <im>x</im> direction) and 2 units down (negative <im>y</im>
+direction).</p>
+<h2>Equation of a translated graph</h2>
+<p>If we have a function <im>y = f(x)</im>, and we translate it using the vector
+<im>\begin{pmatrix}a \\ b\end{pmatrix}</im>, the equation of the translated graph will
+be:
+<ma>y = f(x - a) + b</ma></p>
+<p>This means we subtract <im>a</im> from <im>x</im> inside the function, and add <im>b</im> to the
+whole function.</p>
+<p>The way to remember this is:</p>
+<ul>
+<li>Inside the bracket is <im>x</im>, and it’s the opposite of what the vector says</li>
+<li>Outside the bracket is the whole function, and it’s the same as what the
+vector says</li>
+</ul>
+<p>There’s an easier way to think of this, though:</p>
+<ul>
+<li>If we want to move the graph in the <im>x</im> direction, we subtract from the <im>x</im>
+(which happens to be inside the function).</li>
+<li>If we want to move the graph in the <im>y</im> direction, we subtract from the <im>y</im>.</li>
+</ul>
+<p>Using this, a translation of <im>\begin{pmatrix}a \\ b\end{pmatrix}</im> would give us
+<im>y - b = f(x - a)</im>, which rearranges to the same equation as above:
+<im>y = f(x - a) + b</im>.</p>
+<h3>Example: find the equation of the graph <im>y=4x + 1</im> translated by <im>\begin{pmatrix}-2 \\ 3\end{pmatrix}</im></h3>
+<ul>
+<li>Start with the originaal equation:
+<ul>
+<li><im>y = 4x + 1</im></li>
+</ul>
+</li>
+<li>Translate using the vector <im>\begin{pmatrix}-2 \\ 3\end{pmatrix}</im>:
+<ul>
+<li><im>(y-3) = 4(x - (-2)) + 1</im></li>
+</ul>
+</li>
+<li>Simplify:
+<ul>
+<li><im>y - 3 = 4(x + 2) + 1</im></li>
+<li><im>y - 3 = 4x + 8 + 1</im></li>
+<li><im>y - 3 = 4x + 9</im></li>
+<li><im>y = 4x + 12</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = 4x + 12</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

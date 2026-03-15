@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Linear Programming</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Linear Programming</h1>
+<blockquote>
+<p>This section is part of <em>Discrete Mathematics</em>. If you do not study that,
+you may not need to learn this.</p>
+</blockquote>
+<h2>An introductory example</h2>
+<p>A factory produces two types of drink: an energy drink and a refresher drink.
+The day’s output is to be planned. Each drink requires syrup, vitamin supplement
+and concentrated flavouring, as shown in the table. The last row in the table
+show how much of each ingredient is available for the day’s production.</p>
+<table><thead><tr><th>Drink Type</th><th>Syrup (litres)</th><th>Vitamin Supplement (units)</th><th>Concentrated Flavouring (cc)</th></tr></thead><tbody>
+<tr><td>Energy Drink (5l)</td><td>3</td><td>2</td><td>30</td></tr>
+<tr><td>Refresher Drink (5l)</td><td>1.25</td><td>1</td><td>20</td></tr>
+<tr><td><strong>Available</strong></td><td>250</td><td>300</td><td><strong>30</strong></td></tr>
+</tbody></table>
+<ul>
+<li>Energy drinks sell for £1 per litre.</li>
+<li>Refresher drinks sell for £0.80 per litre.</li>
+</ul>
+<br/>
+<ul>
+<li>let <im>x</im> represent the litres of energy drink that can be produced.</li>
+<li>let <im>y</im> represent the litres of refresher drink that can be produced.</li>
+</ul>
+<h3>Syrup constraint:</h3>
+<ul>
+<li></li>
+</ul>
+<h3>Constraints</h3>
+<ul>
+<li><im>x+y\le1000</im></li>
+<li><im>2x+y\le1500</im></li>
+<li><im>6x+4y\le4800</im></li>
+<li><im>x\ge0</im></li>
+<li><im>y\ge0</im></li>
+</ul>
+<h3>Objective function</h3>
+<ul>
+<li><im>x+0.8y</im>.</li>
+</ul>
+<blockquote>
+<p>We have now <em><strong>formulated</strong></em> the linear programming problem.</p>
+</blockquote>
+<h3>Solving</h3>
+<p><img src="../../assets/linear-programming-1.png" alt="Graph of constraints and objective function" /></p>
+<ul>
+<li>A: <im>x=0</im>, <im>y=1000</im>: <im>1(0)+0.8(1000)=800</im></li>
+<li>B: <im>x=400</im>, <im>y=600</im>: <im>1(400)+0.8(600)=880</im></li>
+<li>C: <im>x=600</im>, <im>y=300</im>: <im>1(600)+0.8(300)=840</im></li>
+<li>D: <im>x=750</im>, <im>y=0</im>: <im>1(750)+0.8(0)=750</im></li>
+</ul>
+<p>The maximum profit is £880 at point B, where 400 litres of energy drink and 600
+litres of refresher drink are produced.</p>
+<h2>Another example</h2>
+<p>A factory produces two toys: a bicycle and a truck.
+Each toy requires time on a lathe and time on an assembler, as shown in the table.
+The last row in the table shows how much time is available on each machine for
+the day’s production.</p>
+<table><thead><tr><th>Toy Type</th><th>Lathe (hours)</th><th>Assembler (hours)</th></tr></thead><tbody>
+<tr><td>Bicycle</td><td>2</td><td>2</td></tr>
+<tr><td>Truck</td><td>1</td><td>3</td></tr>
+<tr><td><strong>Available</strong></td><td>16</td><td>12</td></tr>
+</tbody></table>
+<h3>Constraints</h3>
+<ul>
+<li><im>2x+y\le16</im> (lathe)</li>
+<li><im>2x+3y\le24</im> (assembler)</li>
+<li><im>x\ge0</im></li>
+<li><im>y\ge0</im></li>
+</ul>
+<h2>Objective function</h2>
+<ul>
+<li><im>P=16x+14y</im></li>
+</ul>
+<blockquote>
+<p>We have now <em><strong>formulated</strong></em> the linear programming problem.</p>
+</blockquote>
+<h2>A third example</h2>
+<p>A wall is to be built using two types of bricks of equal thickness. The wall is
+to be 3 metres high, 100 metres long and the thickness of a single brick. The
+large type of brick is of height 10cm and length 20cm. The small type of brick is of height 5cm and length 10cm.</p>
+<p>Ignoring the mortar between the bricks, the constraint <im>4L+s\ge60000</im> ensures
+that there are enough bricks to build the wall. Identify the meanings of the
+variables <im>L</im> and <im>S</im>, and explain why the constraint works.</p>
+<ul>
+<li><im>L</im> represents the number of large bricks used.</li>
+<li><im>S</im> represents the number of small bricks used.</li>
+<li>Each large brick has a face area of <im>10cm\times20cm=200cm^2</im>, or <im>0.02m^2</im>.</li>
+<li>Each small brick has a face area of <im>5cm\times10cm=50cm, or 0.005m^2</im>.</li>
+<li>So the large bricks are 4 times the area of the small bricks.</li>
+<li>The total area of the wall is <im>3m\times100m=300m^2</im>.</li>
+<li>This means that the total area of the bricks must be at least <im>300m^2</im>.</li>
+<li>Therefore, the constraint <im>0.02L+0.005S\ge300</im>.</li>
+<li>This constraint is equivalent to <im>4L+S\ge60000</im> when both sides are multiplied
+by 200.</li>
+</ul>
+<p>Each large brick needs 0.5 litres of mortar. Each small brick requires 0.25
+litres of mortar.</p>
+<p>Given that 10000 litres of mortar are available, write down a constraint for the
+number of large and small bricks that can be used.</p>
+<ul>
+<li><im>0.5L+0.25S\le10000</im>.</li>
+<li>Simplifies to <im>2L+S\le40000</im></li>
+</ul>
+<p>Large bricks cost 25p each to produce, and small bricks cost 5p each to produce.
+Formulate a linear programming to find how many bricks of each type should be
+used to build the wall as cheaply as possible.</p>
+<ul>
+<li>Let <im>L</im> represent the number of large bricks used.</li>
+<li>Let <im>S</im> represent the number of small bricks used.</li>
+<li>Constraints:
+<ul>
+<li><im>4L+S\ge60000</im></li>
+<li><im>2L+S\le40000</im></li>
+<li><im>L\ge0</im></li>
+<li><im>S\ge0</im></li>
+</ul>
+</li>
+<li>Objective function:
+<ul>
+<li><im>C=0.25L+0.05S</im></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>We have now <em><strong>formulated</strong></em> the linear programming problem.</p>
+</blockquote>
+<p>Use a graphical method to solve this. Interpret your solution.</p>
+<p><img src="../../assets/linear-programming-2.png" alt="Graph of constraints and objective function" /></p>
+<ul>
+<li>A: <im>x=10000</im>, <im>y=20000</im>: <im>0.25(10000)+0.05(20000)=2500+1000=£3500</im></li>
+<li>B: <im>x=15000</im>, <im>y=0</im>: <im>0.25(15000)+0.05(0)=3750+0=£3750</im></li>
+<li>C: <im>x=20000</im>, <im>y=0</im>: <im>0.25(20000)+0.05(0)=5000+0=£5000</im></li>
+</ul>
+<p>The cheapest way to build the wall is to use 10000 large bricks and 20000 small
+bricks, which will cost £3500.</p>
+<h2>A fourth example</h2>
+<p>A landscaping project is being planned to cover an area of <im>2000m^2</im>.
+£3700 has been allocated to buy plants for the project.
+Trees cost £30 each and require <im>30m^2</im> of space.
+Shrubs cost £9 each and require <im>4m^2</im> of space.
+It has been decided that at least 75 shrubs should be planted.
+Trees are five times as beneficial to the environment as shrubs.
+How many trees and shrubs should be planted to maximise the environmental
+benefit?</p>
+<ul>
+<li>Let <im>x</im> represent the number of trees planted.</li>
+<li>Let <im>y</im> represent the number of shrubs planted.</li>
+</ul>
+<h3>Objective function</h3>
+<ul>
+<li>Maximise <im>5x+y</im>.</li>
+</ul>
+<h3>Constraints</h3>
+<ul>
+<li><im>x\ge0</im> (can’t have negative trees)</li>
+<li><im>y\ge75</im> (minimum 75 shrubs)</li>
+<li><im>30x+4y\le2000</im> (space)</li>
+<li><im>30x+9y\le3700</im> (budget)</li>
+</ul>
+<blockquote>
+<p>We have now <em><strong>formulated</strong></em> the linear programming problem.</p>
+</blockquote>
+<h3>Solving</h3>
+<p><img src="../../assets/linear-programming-3.png" alt="Graph of constraints and objective function" /></p>
+<ul>
+<li>A: <im>x=0</im>, <im>y=411.111...</im> (but we can only have whole shrubs, so <im>y=411</im>):
+<ul>
+<li><im>5(0)+411=411</im></li>
+</ul>
+</li>
+<li>B: <im>x=21.333...</im>, <im>y=340</im> (but we can only have whole trees, so <im>x=21</im>):
+<ul>
+<li><im>5(21)+340=105+340=445</im></li>
+</ul>
+</li>
+<li>C: <im>x=56.666...</im>, <im>y=75</im> (but we can only have whole trees, so <im>x=56</im>):
+<ul>
+<li><im>5(56)+75=280+75=355</im></li>
+</ul>
+</li>
+</ul>
+<p>The maximum environmental benefit is 445 (arbitrary units) at point B. This
+involves planting 21 trees and 340 shrubs.</p>
+<h3>A more optimal solution?</h3>
+<p>Because we rounded down the number of trees, it is now possible that we could
+fit some more shrubs into the budget and space available. We have to check this
+to ensure that our solution is optimal.</p>
+<ul>
+<li>With 21 trees, we have used £630 of the budget and <im>630m^2</im> of space.</li>
+<li>This leaves £3070 and <im>1370m^2</im> for shrubs.</li>
+<li>Each shrub costs £9 and requires <im>4m^2</im> of space.</li>
+<li>The budget allows for a maximum of <im>\frac{3070}{9}=341.111...</im> shrubs.</li>
+<li>The space allows for a maximum of <im>\frac{1370}{4}=342.5</im> shrubs.</li>
+<li>Therefore, we can afford to plant 341 shrubs.</li>
+</ul>
+<p>Aha! We can plant another shrub, increasing our environmental benefit to
+<im>5(21)+341=105+341=446</im> (arbitrary units).</p>
+<p>You need to consider this in linear programming problems where the values are
+not integers. In exams, it is unlikely that you will be given a problem where
+this can happen, but it is worth being aware of.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tangent from differentiation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Tangent from differentiation</h1>
+<p>Using differentiation, we can find the equation of the tangent to a curve at
+<em>any</em> point we like!</p>
+<h2>Finding the gradient of a tangent</h2>
+<p>The tangent is a straight line, meaning that one thing we need to find is its
+<strong>gradient</strong>.</p>
+<p>As we already know, we can find the gradient of a curve at any point by
+differentiating the function to get its derivative (gradient function), and
+then substituting in the x-coordinate of the point we want the tangent at!</p>
+<h3>Find the gradient of the tangent to the curve <im>f(x) = x^3 - 2x + 1</im> at the point where <im>x = 2</im>.</h3>
+<ul>
+<li>First, we find the first derivative:
+<ul>
+<li><im>f&#39;(x) = 3x^{3-1} - 2\times1x^{1-1} + 0</im></li>
+<li><im>= 3x^2 - 2</im></li>
+</ul>
+</li>
+<li>Next, we substitute in <im>x = 2</im> to find the gradient of the tangent at that point:
+<ul>
+<li><im>f&#39;(2) = 3(2)^2 - 2</im></li>
+<li><im>= 3\times4 - 2</im></li>
+<li><im>= 12 - 2</im></li>
+<li><im>= 10</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: The gradient of the tangent at the point where <im>x = 2</im> is <im>10</im>.</li>
+</ul>
+<h2>Finding the full equation of the tangent</h2>
+<p>Let’s take the example from above one more step and find the <em>full</em> equation of
+the tangent. Currently, we just know its gradient.</p>
+<p>You may remember that we can find the y-intercept of <em>any</em> straight line if we
+know the <em>gradient</em> and <em>one point</em> on the line. Well, we do know a point on the
+line :)</p>
+<p>We know that the tangent intersects the curve at the point where <im>x = 2</im>. So if
+we substitute <im>x = 2</im> into the original function, we can find the corresponding
+y-coordinate, and so get the full point!</p>
+<ul>
+<li><im>f(2) = (2)^3 - 2(2) + 1</im></li>
+<li><im>= 8 - 4 + 1</im></li>
+<li><im>= 5</im></li>
+<li>So the tangent touches the curve at the point (2, 5).</li>
+</ul>
+<p>Now we have a point, we can substitute all the information we have into the
+equation of a straight line to find the y-intercept, <im>c</im>:</p>
+<ul>
+<li><im>y = mx + c</im></li>
+<li><im>5 = 10(2) + c</im></li>
+<li><im>5 = 20 + c</im></li>
+<li><im>c = 5 - 20</im></li>
+<li><im>c = -15</im></li>
+</ul>
+<p>Now we have our gradient and y-intercept, we can write the full equation of the
+tangent:</p>
+<p><ma>
+y = 10x - 15
+</ma></p>
+<h3>Find the equation of the tangent to the curve <im>f(x) = 2x^2 + 3x + 1</im> at the point where <im>x = -1</im>.</h3>
+<ul>
+<li>First, we find the first derivative:
+<ul>
+<li><im>f&#39;(x) = 2\times2x^{2-1} + 1\times3x^{1-1} + 0</im></li>
+<li><im>= 4x + 3</im></li>
+</ul>
+</li>
+<li>Next, we substitute in <im>x = -1</im> to find the gradient of the tangent at that point:
+<ul>
+<li><im>f&#39;(-1) = 4(-1) + 3</im></li>
+<li><im>= -4 + 3</im></li>
+<li><im>= -1</im></li>
+</ul>
+</li>
+<li>Now, we find the corresponding y-coordinate by substituting <im>x = -1</im> into the
+original function:
+<ul>
+<li><im>f(-1) = 2(-1)^2 + 3(-1) + 1</im></li>
+<li><im>= 2(1) - 3 + 1</im></li>
+<li><im>= 2 - 3 + 1</im></li>
+<li><im>= 0</im></li>
+</ul>
+</li>
+<li>So the tangent touches the curve at the point (-1, 0).</li>
+<li>Now we can substitute all the information we have into the equation of a
+straight line to find the y-intercept, <im>c</im>:
+<ul>
+<li><im>y = mx + c</im></li>
+<li><im>0 = -1(-1) + c</im></li>
+<li><im>0 = 1 + c</im></li>
+<li><im>c = 0 - 1</im></li>
+<li><im>c = -1</im></li>
+</ul>
+</li>
+<li>Now we have our gradient and y-intercept, we can write the full equation of
+the tangent:
+<ul>
+<li><im>y = -1x - 1</im></li>
+<li><im>y = -x - 1</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = -x - 1</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

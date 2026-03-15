@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Estimation using rounding</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Estimation using rounding</h1>
+<p>If we are asked to <em>estimate</em> the answer to a calculation, we do the following
+steps:</p>
+<ol>
+<li>Round each number to one significant figure.</li>
+<li>Perform the calculation using the rounded numbers.</li>
+</ol>
+<h2>Examples</h2>
+<h3>Estimate <im>23.7 + 58.9 + 12.1</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>23.7</im> rounds to <im>20</im></li>
+<li><im>58.9</im> rounds to <im>60</im></li>
+<li><im>12.1</im> rounds to <im>10</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>20 + 60 + 10 = 90</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>90</im></li>
+</ul>
+<h3>Estimate <im>6.3 \times 4.2</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>6.3</im> rounds to <im>6</im></li>
+<li><im>4.2</im> rounds to <im>4</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>6 \times 4 = 24</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>24</im></li>
+</ul>
+<h3>Estimate <im>150 \div 7.8</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>150</im> rounds to <im>200</im></li>
+<li><im>7.8</im> rounds to <im>8</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>200 \div 8 = 25</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>25</im></li>
+</ul>
+<h3>Estimate <im>45.6 - 19.3</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>45.6</im> rounds to <im>50</im></li>
+<li><im>19.3</im> rounds to <im>20</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>50 - 20 = 30</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>30</im></li>
+</ul>
+<h3>Estimate <im>12.4 + 5.6 \times 3.2 - 8.9 \div 2.1</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>12.4</im> rounds to <im>10</im></li>
+<li><im>5.6</im> rounds to <im>6</im></li>
+<li><im>3.2</im> rounds to <im>3</im></li>
+<li><im>8.9</im> rounds to <im>9</im></li>
+<li><im>2.1</im> rounds to <im>2</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>10 + 6 \times 3 - 9 \div 2</im></li>
+<li><im>= 10 + 18 - 4.5</im></li>
+<li><im>= 23.5</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>23.5</im></li>
+</ul>
+<h3>Estimate <im>7.4^2 + 3.6^2</im></h3>
+<ul>
+<li>Round each number to one significant figure:
+<ul>
+<li><im>7.4</im> rounds to <im>7</im></li>
+<li><im>3.6</im> rounds to <im>4</im></li>
+</ul>
+</li>
+<li>Perform the calculation using the rounded numbers:
+<ul>
+<li><im>7^2 + 4^2</im></li>
+<li><im>= 49 + 16</im></li>
+<li><im>= 65</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>65</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

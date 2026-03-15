@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Precision</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Precision</h1>
+<p>If we measure results in an experiment, one of the things we need to consider is
+how <em>precise</em> our measurements are.</p>
+<blockquote>
+<p>Precision is how close multiple measurements are to each other.</p>
+</blockquote>
+<p>For example, if we measure the length of a table three times and get 2.00m,
+2.01m, and 1.99m, those measurements are very precise because they are all very
+close to each other.</p>
+<p>However, if we measure the same table three times and get 2.00m, 2.50m, and
+1.50m, those measurements are not very precise because they are all over the
+place.</p>
+<h2>Significant figures</h2>
+<p>Sometimes we can write the precision of a measurement using <em>significant
+figures</em>. essentially, we look at all our non-anomalous results, and we see
+what the most precise number is that all our results will round to.</p>
+<p>If we have these results from measuring the time taken for a reaction to occur:</p>
+<ul>
+<li>12.38s</li>
+<li>12.36s</li>
+<li>12.35s</li>
+</ul>
+<p>Then we can round the results:</p>
+<ul>
+<li>All of the round to 10s</li>
+<li>All of them round to 12s</li>
+<li>All of them round to 12.4s</li>
+<li>However, their <em>fourth</em> significant figure is different (8, 6, and 5) so we
+can’t round any further.</li>
+<li>Our results are precise to <em>three significant figures</em>.</li>
+</ul>
+<h2>Uncertainty</h2>
+<p>Another way we can measure precision is using <a href="/uncertainty">uncertainty: see here</a>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

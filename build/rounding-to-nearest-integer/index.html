@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rounding to nearest integer</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Rounding to nearest integer</h1>
+<p>When rounding to the nearest integer, we do exactly the same steps as when
+<a href="/rounding-to-decimal-places">rounding to decimal places</a>, but the <im>n</im>th decimal
+place is the <em>units</em> column (the digit to the left of the decimal point).</p>
+<p>Make sure to round up if the next digit is <im>5</im> or more, and then we remove all digits after the decimal point.</p>
+<h2>Examples</h2>
+<h3>Round 4.3 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the <im>4</im>.</li>
+<li>The next digit is <im>3</im>, which is less than <im>5</im>, so we round down and keep the
+<im>4</im> the same.</li>
+<li><strong>Answer</strong>: <im>4</im>.</li>
+</ul>
+<h3>Round 5.7 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the <im>5</im>.</li>
+<li>The next digit is <im>7</im>, which is more than <im>5</im>, so we round up and increase the
+<im>5</im> by <im>1</im> to get <im>6</im>.</li>
+<li><strong>Answer</strong>: <im>6</im>.</li>
+</ul>
+<h3>Round 2.5 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the <im>2</im>.</li>
+<li>The next digit is <im>5</im>, which is equal to <im>5</im>, so we round up and increase the
+<im>2</im> by <im>1</im> to get <im>3</im>.</li>
+<li><strong>Answer</strong>: <im>3</im>.</li>
+</ul>
+<h3>Round 9.99 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the <im>9</im>.</li>
+<li>The next digit is <im>9</im>, which is more than <im>5</im>, so we round up and increase the
+<im>9</im> by <im>1</im> to get <im>10</im>.</li>
+<li>Since <im>9</im> becomes <im>10</im>, we set the units place to <im>0</im> and increase the tens
+place by <im>1</im> (which is also <im>9</im>) to get <im>10</im> (so now we have <im>10.0...</im>).</li>
+<li><strong>Answer</strong>: <im>10</im>.</li>
+</ul>
+<h3>Round 0.49 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the <im>0</im>.</li>
+<li>The next digit is <im>4</im>, which is less than <im>5</im>, so we round down and keep the
+<im>0</im> the same.</li>
+<li><strong>Answer</strong>: <im>0</im>.</li>
+</ul>
+<blockquote>
+<p>Don’t be tempted to round <im>0.49</im> to <im>0.5</im>, which would then round to <im>1</im>.
+Always look directly at the digit after the decimal point - don’t try to
+round in stages!</p>
+</blockquote>
+<h3>Round 999.50 to the nearest integer</h3>
+<ul>
+<li>The digit we are rounding to is the last <im>9</im> (the units place).</li>
+<li>The next digit is <im>5</im>, which is equal to <im>5</im>, so we round up and increase the last
+<im>9</im> by <im>1</im> to get <im>10</im>.</li>
+<li>Since <im>9</im> becomes <im>10</im>, we set the units place to <im>0</im> and increase the tens place by <im>1</im> (which is also <im>9</im>) to get <im>10</im>.</li>
+<li>We repeat this process for the hundreds place, resulting in <im>1000.0...</im>.</li>
+<li><strong>Answer</strong>: <im>1000</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

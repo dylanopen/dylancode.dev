@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bytecode</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Bytecode</h1>
+<p><em>Bytecode</em> is an ‘intermediate representation’ of code.</p>
+<p>Instead of directly translating high-level code (like Python or Java) into
+machine code that the CPU can execute, the high-level code is first compiled
+into bytecode.</p>
+<p>This bytecode is fairly low-level (it mostly consists of simple instructions
+that a virtual machine can understand), but it’s not specific to any particular
+hardware architecture.</p>
+<h2>How bytecode compilers+interpreters work</h2>
+<p>When you run a program written in a language that uses bytecode (like Java or
+Python), the following steps usually happen:</p>
+<ol>
+<li>The high-level code is compiled into bytecode by a compiler.</li>
+<li>The bytecode is then executed by a virtual machine (VM) or interpreter.</li>
+</ol>
+<p>So you can see that actually, bytecode languages are kind of a hybrid between
+compiled and interpreted languages!</p>
+<h2>Advantages of bytecode</h2>
+<ul>
+<li><strong>Portability</strong>: you’ve probably heard of Java’s slogan ‘write once, run
+anywhere’. And even though it’s often altered to ‘write once, debug
+everywhere’… the original idea still stands - that Java’s bytecode can run
+on any platform that has a Java Virtual Machine (JVM) installed.</li>
+<li><strong>Performance</strong>: bytecode can be optimized by the virtual machine at runtime,
+which can lead to better performance <em>compared to interpreted languages</em>.</li>
+<li><strong>Security</strong>: it runs under a virtual machine, which might give a sandboxed
+environment that could prevent certainn malware attacks (or just prevent
+poorly written code from crashing your entire system).</li>
+<li><strong>Easier debugging</strong>: bytecode can retain more information about the original
+source code (like variable names, line numbers, etc), which can make debugging
+easier than debugging a fully compiled binary (anyone who’s used <code>gdb</code> before
+will understand :sigh:)</li>
+</ul>
+<h2>Disadvantages of bytecode</h2>
+<ul>
+<li>It’s slower than native machine code, since it has to be interpreted or
+compiled at runtime by the virtual machine.</li>
+<li>It requires a virtual machine or interpreter to run, which adds an extra layer
+of complexity.</li>
+<li>All users need to install the <strong>correct</strong> virtual machine (interpreter) for
+the bytecode to run, which can lead to compatibility issues and general
+annoyance.</li>
+<li>It can often be much less efficient in terms of RAM usage (which in this day,
+isn’t ideal… $500 DDR5 anyone?)</li>
+<li>Bytecode can be reverse-engineered more easily than native machine code,
+so if a company wants to keep their code closed source, bytecode might not be
+the best choice.</li>
+</ul>
+<h2>Examples of bytecode languages</h2>
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>C# and other .NET languages</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

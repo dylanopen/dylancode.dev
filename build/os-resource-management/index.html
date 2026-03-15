@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OS resource management</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>OS resource management</h1>
+<p>One of the roles of the operating system is to <em>manage system resources</em>.</p>
+<p>These system resources include:</p>
+<ul>
+<li>CPU time</li>
+<li>Memory (RAM)</li>
+<li>Storage (disk space)</li>
+<li>Network bandwidth</li>
+<li>Peripheral devices (like printers, USB devices, etc)</li>
+<li>And more…</li>
+</ul>
+<p>The <em>application software</em> must ‘talk through’ the operating system, which makes
+sure that no application can hog all the resources, and that no application is
+trying to access memory or devices that it shouldn’t be allowed to.</p>
+<h2>Resource allocation</h2>
+<p>When a program requests more memory to be allocated to it, for example, it asks
+the operating system. The operating system checks if there is enough free
+memory, and if so, it allocates that memory to the program.</p>
+<p>If there isn’t enough memory available, the operating system might use a
+technique called <a href="/swapping">‘swapping’</a> to free up some memory by moving some
+data from RAM (also known as ‘paging’ or ‘virtual memory’).</p>
+<h2>Process scheduling</h2>
+<p>By default, software can’t use multiple <em>threads</em> and <em>cores</em> of the CPU. The
+operating system manages the CPU time by scheduling which processes get to use
+which threads of the CPU - it does this by rapidly switching between processes,
+giving the illusion that multiple processes are running at the same time (this
+is called ‘time slicing’).</p>
+<p>While most processors now have many cores, the operating system still might run
+multiple processes on the same core by time slicing, especially if there are
+more processes than there are cores (which there almost always are - try opening
+your system monitor/task manager to see how many processes are running on your
+computer right now!)</p>
+<p>Most processes also only use a tiny fraction of a CPU thread, so won’t need an
+entire thread dedicated to them. A good operating system will realise this and
+schedule processes accordingly!</p>
+<p>Also, some processes might be given higher priority than others, meaning they
+get more CPU time. The operating system manages this priority system to make
+sure that processes that need more of the CPU, get it.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

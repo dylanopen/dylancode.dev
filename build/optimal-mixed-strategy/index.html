@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Optimal mixed strategy</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Optimal mixed strategy</h1>
+<h2>Prerequisites to find the optimal mixed strategy</h2>
+<ol>
+<li>Check for and eliminate dominated strategies and remove them.</li>
+<li>Check for a stable solution (if max row min = min column max).</li>
+<li>If no stable solution, find the optimal mixed strategy:</li>
+</ol>
+<h2>Finding the optimal mixed strategy</h2>
+<ul>
+<li>Let player 1’s option <im>A</im> be played with probability <im>p</im>.</li>
+<li>This means player 1’s option <im>B</im> will be played with probability <im>1-p</im></li>
+<li>Create an expression for each of player 2’s options.</li>
+<li>Find the point(s) where all the expressions are equal.</li>
+<li>Of these points, find the one where the <em>lowest</em> lines at that value of <im>P</im>
+are the highest they can be.</li>
+<li>Solve these two lines simultaneously to find <im>p</im>.</li>
+</ul>
+<h3>Find the probabilities for a mixed strategy fro player 1, assuming player 2 plays randomly</h3>
+<table><thead><tr><th></th><th>Player 2 plays D</th><th>Player 2 plays E</th></tr></thead><tbody>
+<tr><td><strong>Player 1 plays A</strong></td><td>1</td><td>2</td></tr>
+<tr><td><strong>Player 1 plays C</strong></td><td>3</td><td>-1</td></tr>
+</tbody></table>
+<ul>
+<li>player 2 plays randomly between D and E.</li>
+<li>Let player 1 play A with probability <im>p</im>.</li>
+<li>They therefore play C with probability <im>1-p</im>.</li>
+<li>If player 2 plays D, player 1 wins <im>1p+3(1-p)=3-2p</im>.</li>
+<li>If player 2 plays E, player 1 wins <im>2p+(-1)(1-p)=3p-1</im>.</li>
+<li>Solve simultaneously:
+<ul>
+<li><im>3-2p=3p-1</im></li>
+<li><im>5p=4</im></li>
+<li><im>p=4/5</im>.</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: player 1 should play A with probability <im>4/5</im> and C with
+probability <im>1/5</im>. <im>p=0.8</im>.</li>
+</ul>
+<blockquote>
+<p>Remember that player 1 must play these strategies as randomly as possible.
+That’s because they don’t want player 2 to be able to predict what they will
+do.</p>
+</blockquote>
+<h3>Find the probabilities for a mixed strategy for player 1, assuming player 1 plays randomly (2xn)</h3>
+<table><thead><tr><th></th><th>Player 2 plays C</th><th>Player 2 plays D</th><th>Player 2 plays E</th></tr></thead><tbody>
+<tr><td><strong>Player 1 plays A</strong></td><td>0</td><td>-1</td><td>2</td></tr>
+<tr><td><strong>Player 1 plays B</strong></td><td>2</td><td>3</td><td>-2</td></tr>
+</tbody></table>
+<p>Add the row minima and column maxima:</p>
+<table><thead><tr><th></th><th>Player 2 plays C</th><th>Player 2 plays D</th><th>Player 2 plays E</th><th>Row minima</th></tr></thead><tbody>
+<tr><td><strong>Player 1 plays A</strong></td><td>0</td><td>-1</td><td>2</td><td>-1</td></tr>
+<tr><td><strong>Player 1 plays B</strong></td><td>2</td><td>3</td><td>-2</td><td>-2</td></tr>
+<tr><td><strong>Column maxima</strong></td><td>2</td><td>3</td><td>2</td><td></td></tr>
+</tbody></table>
+<ul>
+<li>Let player 1 play A with probability <im>p</im>.</li>
+<li>They therefore play B with probability <im>1-p</im>.</li>
+<li>If player 2 plays C, player 1 wins <im>0p+2(1-p)=2-2p</im>.</li>
+<li>If player 2 plays D, player 1 wins <im>-1p+3(1-p)=3-4p</im>.</li>
+<li>If player 2 plays E, player 1 wins <im>2p+(-2)(1-p)=4p-2</im>.</li>
+<li>Drawing the graph, the point where all the lines are the highest is at the
+intersection of <im>2-2p</im> and <im>4p-2</im>.</li>
+<li>Solve simultaneously:
+<ul>
+<li><im>2-2p=4p-2</im></li>
+<li><im>4=6p</im></li>
+<li><im>p=2/3</im>.</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: they should play A with probability <im>2/3</im> and B with probability
+<im>1/3</im>. <im>p=0.6667</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

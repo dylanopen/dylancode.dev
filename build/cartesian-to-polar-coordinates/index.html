@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cartesian to polar coordinates</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Cartesian to polar coordinates</h1>
+<p>If we have a Cartesian coordinate in the form <im>(x,y)</im>, then we can convert these
+to a polar coordinate, using our <a href="/polar-coordinate-identities">polar coordinate identities</a> from before!</p>
+<h2>General steps</h2>
+<p>Polar coordinates are in the form <im>(r,\theta)</im>, where:</p>
+<ul>
+<li><im>r</im> is the magnitude, the distance of a point from the origin</li>
+<li><im>\theta</im> is the <em>bearing</em> from the origin, starting from the right-stretching
+line and going <em>anticlockwise</em>.</li>
+</ul>
+<p>To find the magnitude of the polar coordinate, <im>r</im>:</p>
+<ul>
+<li>Just use the Pythagorean theorem to find the hypotenuse!</li>
+<li><im>r=\sqrt{x^2+y^2}</im></li>
+</ul>
+<p>Then to find the angle, <im>\theta</im>:</p>
+<ul>
+<li><im>\theta=\tan^{-1}(\frac yx)</im></li>
+</ul>
+<blockquote>
+<p><strong>Note</strong>: If the <im>x</im> coordinate is negative, we need to <em>add <im>\pi</im></em> to our
+answer for <im>\theta</im>. That’s because, otherwise, the angle we got from
+<im>\tan^{-1}(\frac yx)</im> would be in the wrong quadrant.</p>
+</blockquote>
+<h3>Find the polar coordinate from the Cartesian <im>(4,4)</im></h3>
+<ul>
+<li><im>r=\sqrt{4^2+4^2}</im></li>
+<li><im>r=\pm\sqrt32</im></li>
+<li><im>r=\pm4\sqrt2</im></li>
+<li><im>\theta=\tan^{-1}(\frac44)</im></li>
+<li><im>\theta=\tan^{-1}(1)</im></li>
+<li><im>\theta=\frac{\pi}4</im></li>
+<li><strong>Answer</strong>: <im>(4\sqrt2, \frac{\pi}4)</im></li>
+</ul>
+<h3>Convert the cartesian coordinate <im>(-1,4)</im> to polar coordinates (to 3sf)</h3>
+<ul>
+<li><im>r=\sqrt{(-1)^2+4^2}</im></li>
+<li><im>r=\sqrt{17}</im></li>
+<li><im>r\approx4.123</im></li>
+<li><im>\theta=\tan^{-1}(\frac4{-1})</im></li>
+<li><im>\theta=\tan^{-1}4{-1}</im></li>
+<li><im>\theta=\tan^{-1}(4)</im></li>
+<li><im>\theta=-\tan^{-1}(-4)</im></li>
+<li><im>\theta=-1.326</im></li>
+<li>Because our <im>x</im> coordinate is negative, we need to <em>add <im>\pi</im></em>:
+<ul>
+<li><im>\theta=-1.326+\pi</im></li>
+<li><im>\theta\approx1.816</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>(4.123, 1.816)</im></li>
+</ul>
+<h3>Convert the cartesian coordinate <im>(-1,-4)</im> to polar coordinates (to 3sf)</h3>
+<ul>
+<li><im>r=\sqrt{(-1)^2+(-4)^2}</im></li>
+<li><im>r=\sqrt{17}</im></li>
+<li><im>r\approx4.123</im></li>
+<li><im>\theta=\tan^{-1}(\frac{-4}{-1})</im></li>
+<li><im>\theta=\tan^{-1}4</im></li>
+<li><im>\theta=-\tan^{-1}(-4)</im></li>
+<li><im>\theta=-1.326</im></li>
+<li>Because our <im>x</im> coordinate is negative, we need to <em>add <im>\pi</im></em></li>
+<li><im>\theta=-1.326+\pi</im></li>
+<li><im>\theta\approx1.816</im></li>
+<li><strong>Answer</strong>: <im>(4.123, 1.816)</im></li>
+</ul>
+<h3>Convert the cartesian coordinate <im>(1,-4)</im> to polar coordinates (to 3sf)</h3>
+<ul>
+<li><im>r=\sqrt{1^2+(-4)^2}</im></li>
+<li><im>r=\sqrt{17}</im></li>
+<li><im>r\approx4.123</im></li>
+<li><im>\theta=\tan^{-1}(\frac{-4}{1})</im></li>
+<li><im>\theta=\tan^{-1}(-4)</im></li>
+<li><im>\theta=-\tan^{-1}4</im></li>
+<li><im>\theta=-1.326</im></li>
+<li>Because our <im>x</im> coordinate is positive, we don’t need to add <im>\pi</im>!</li>
+<li><strong>Answer</strong>: <im>(4.123, -1.326)</im></li>
+</ul>
+<h3>Write <im>(4,8)</im> as a set of polar coordinates</h3>
+<ul>
+<li><im>r=\sqrt{4^2+8^2}</im></li>
+<li><im>r=\sqrt{80}</im></li>
+<li><im>r=4\sqrt5</im></li>
+<li><im>\theta=\tan^{-1}(\frac8{4})</im></li>
+<li><im>\theta=\tan^{-1}2</im></li>
+<li><im>\theta=1.107</im></li>
+<li><strong>Answer</strong>: <im>(4\sqrt5, 1.107)</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prim's algorithm</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Prim’s algorithm</h1>
+<p>One common algorithm for finding the
+<a href="/minimum-spanning-tree">minimum spanning tree</a> is <em>Prim’s algorithm</em>. It
+works like this:</p>
+<ol>
+<li>Start with any node in the network and add it to the MST.</li>
+<li>Find the edge with the smallest weight that connects a node in the MST to a
+node outside the MST (i.e. connects to a node that is yet included).</li>
+<li>Add that edge and the connected node to the MST.</li>
+<li>Repeat steps 2 and 3 until all nodes are included in the MST.</li>
+</ol>
+<p>You’ll notice that, if you follow the constraint in step 2, you will never
+create a cycle in the MST. A <a href="/graph-tree">tree</a> by definition cannot contain
+cycles.</p>
+<h2>Example</h2>
+<p>Consider this network:</p>
+<pre><code>         2
+    A ------- B
+    |  \      | 
+  4 |   3\    | 3
+    |      \  |
+    D ------- C
+         5
+</code></pre>
+<p>To find the minimum spanning tree using Prim’s algorithm:</p>
+<ol>
+<li>Start with node A, for example.</li>
+<li>The smallest edge connected to A is AB with weight 2. Add it to the MST.</li>
+<li>The smallest edge connected to the MST (nodes A and B) is BC with weight 3.
+Add it to the MST (it could have also been AD - either is fine)</li>
+<li>The smallest edge connected to the MST (nodes A, B, and C) is AC with
+weight 3, but adding it would create a cycle (A-B-C-A). So skip it. The next
+smallest edge is AD with weight 4. Add it to the MST.</li>
+<li>We now have our MST!</li>
+</ol>
+<p>The resulting minimum spanning tree is:</p>
+<pre><code>         2
+    A ------- B
+    |         | 
+  3 |         | 3
+    |         |
+    D         C
+                 
+</code></pre>
+<p>We could also have had a slightly different MST, if we chose AC instead of BC.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

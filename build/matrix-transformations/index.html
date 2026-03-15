@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matrix transformations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Matrix transformations</h1>
+<h2>Examples of transformations</h2>
+<ul>
+<li><a href="/matrix-rotation">Rotations</a></li>
+<li><a href="/matrix-stretch">Stretches</a></li>
+<li><a href="/matrix-reflection">Reflections</a></li>
+<li><a href="/matrix-shear">Shears</a></li>
+<li><a href="/vector-translation">Translations</a> - but these aren’t matrix transformations
+because they don’t keep the origin fixed.</li>
+</ul>
+<h2>Combining transformations</h2>
+<p>When we combine transformations (e.g. do a transformation by matrix <im>A</im> followed
+by a transformation by matrix <im>B</im>), we can represent the combined transformation
+by multiplying the matrices in reverse:</p>
+<p><ma>
+BA
+</ma></p>
+<p>This is exactly the same as <a href="/composite-functions">composite functions</a>.</p>
+<h3>Find the single matrix which represents a 90° clockwise rotation followed by a reflection in the line y=x</h3>
+<ul>
+<li>90° clockwise rotation matrix:
+<ul>
+<li><im>\pmatrix{0 &amp; 1\\-1 &amp; 0}</im></li>
+</ul>
+</li>
+<li>Reflection in the line <im>y=x</im> matrix:
+<ul>
+<li><im>\pmatrix{0 &amp; 1\\1 &amp; 0}</im></li>
+</ul>
+</li>
+<li>Multiply them in reverse:
+<ul>
+<li><im>\pmatrix{0 &amp; 1\\1 &amp; 0} \pmatrix{0 &amp; 1\\-1 &amp; 0}</im></li>
+<li><im>= \pmatrix{0(0)+1(-1) &amp; 0(1)+1(0)\\1(0)+0(-1) &amp; 1(1)+0(0)}</im></li>
+<li><im>= \pmatrix{-1 &amp; 0\\0 &amp; 1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{-1 &amp; 0\\0 &amp; 1}</im></li>
+</ul>
+<h2>Linear transformations</h2>
+<ul>
+<li>A <em>linear</em> transformation is essentially a 2D transformation.</li>
+<li>If a shape has straight edges, a linear transformation will keep them
+straight.</li>
+</ul>
+<p>We can write a linear transformation either as:</p>
+<p><ma>
+\pmatrix{x\\y} \to \pmatrix{...\\...}
+</ma></p>
+<p>or as a matrix multiplication:</p>
+<p><ma>
+\pmatrix{a &amp; b\\c &amp; d} \pmatrix{x\\y} = \pmatrix{ax + by\\cx + dy}
+</ma></p>
+<h3>Find a matrix to map <im>\pmatrix{x\\y}</im> to <im>\pmatrix{2y+x\\3x}</im></h3>
+<ul>
+<li><im>\pmatrix{a &amp; b\\c &amp; d} \pmatrix{x\\y} = \pmatrix{2y+x\\3x}</im></li>
+<li>So we need to solve:
+<ul>
+<li><im>ax + by = 2y + x</im></li>
+<li><im>cx + dy = 3x</im></li>
+</ul>
+</li>
+<li>Solve <im>ax + by = 2y + x</im>:
+<ul>
+<li><im>a = 1</im></li>
+<li><im>b = 2</im></li>
+</ul>
+</li>
+<li>Solve <im>cx + dy = 3x</im>:
+<ul>
+<li><im>c = 3</im></li>
+<li><im>d = 0</im></li>
+</ul>
+</li>
+<li>Write this as a matrix:
+<ul>
+<li><im>\pmatrix{1 &amp; 2\\3 &amp; 0}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{1 &amp; 2\\3 &amp; 0}</im></li>
+</ul>
+<h3>Find a matrix to map <im>\pmatrix{x\\y}</im> to <im>\pmatrix{2y+x\\3x+y}</im></h3>
+<ul>
+<li><im>\pmatrix{a &amp; b\\c &amp; d} \pmatrix{x\\y} = \pmatrix{2y+x\\3x+y}</im></li>
+<li>Equations we can form:
+<ul>
+<li><im>ax+by=2y+x</im></li>
+<li><im>cx+dy=3x+y</im></li>
+</ul>
+</li>
+<li>Solve <im>ax + by = 2y + x</im>:
+<ul>
+<li><im>ax=1x \Rightarrow a=1</im></li>
+<li><im>by=2y \Rightarrow b=2</im></li>
+</ul>
+</li>
+<li>Solve <im>cx + dy = 3x + y</im>:
+<ul>
+<li><im>cx=3x \Rightarrow c=3</im></li>
+<li><im>dy=y \Rightarrow d=1</im></li>
+</ul>
+</li>
+<li>Write this as a matrix:
+<ul>
+<li><im>\pmatrix{1 &amp; 2\\3 &amp; 1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{1 &amp; 2\\3 &amp; 1}</im></li>
+</ul>
+<h3>Find the coordinates of the points <im>(1,1)</im>, <im>(3,1)</im>, <im>(3,3)</im> and <im>(1,3)</im> after a transformation by matrix <im>\pmatrix{-1 &amp; 2 \\ 2 &amp; 1}</im></h3>
+<ul>
+<li>Find a column matrix for all the points combined:
+<ul>
+<li>Write the corresponding coordinates in each column</li>
+<li><im>\pmatrix{1 &amp; 3 &amp; 3 &amp; 1\\1 &amp; 1 &amp; 3 &amp; 3}</im></li>
+</ul>
+</li>
+<li>Multiply the transformation matrix by the column matrix (make sure you do it
+in the right order, transformation matrix first):
+<ul>
+<li><im>\pmatrix{-1 &amp; 2 \\ 2 &amp; 1} \pmatrix{1 &amp; 3 &amp; 3 &amp; 1\\1 &amp; 1 &amp; 3 &amp; 3}</im></li>
+<li><im>= \pmatrix{-1(1)+2(1) &amp; -1(3)+2(1) &amp; -1(3)+2(3) &amp; -1(1)+2(3)\\2(1)+1(1) &amp; 2(3)+1(1) &amp; 2(3)+1(3) &amp; 2(1)+1(3)}</im></li>
+<li><im>= \pmatrix{1 &amp; -1 &amp; 3 &amp; 5\\3 &amp; 7 &amp; 9 &amp; 5}</im></li>
+</ul>
+</li>
+<li><strong>Answer(s)</strong>:
+<ul>
+<li><im>(1,3)</im></li>
+<li><im>(-1,7)</im></li>
+<li><im>(3,9)</im></li>
+<li><im>(5,5)</im></li>
+</ul>
+</li>
+</ul>
+<h2>Determinant and area scale factor</h2>
+<p>The <em>determinant</em> of the transformation matrix gives the area scale factor of
+the transformation.</p>
+<ul>
+<li>For example, If the determinant is 2, the area of any shape will double after
+the transformation.</li>
+</ul>
+<h3>Determinant of <im>1</im> or <im>-1</im></h3>
+<p>Transformations which do <em>not</em> change the size of shapes (e.g. rotations and
+reflections) have a determinant of either <im>1</im> or <im>-1</im>.</p>
+<ul>
+<li>A determinant of <im>1</im> means the shape keeps its orientation (e.g. a rotation)
+<strong>and</strong> its size the same.</li>
+<li>A determinant of <im>-1</im> means the shape changes its orientation (e.g. a
+reflection) <strong>but</strong> keeps its size the same.</li>
+</ul>
+<h3>Singular matrix</h3>
+<p>A singular matrix has a determinant of <im>0</im>, which means that it will create an
+image which has <strong>no area</strong>. For example:</p>
+<ul>
+<li>A line</li>
+<li>A single point (for a transformation of <im>\pmatrix{0 &amp; 0\\0 &amp; 0}</im>)</li>
+</ul>
+<h2>Self-inverse matrix transformations</h2>
+<p>With transformations, we can pre-multiply by the inverse of a transformation
+matrix to reverse the transformation.</p>
+<p>You need to do the inverse operations in the <em>opposite order</em> to how you did
+the transformations originally.</p>
+<p><ma>
+(X)(X)^{-1} = I
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

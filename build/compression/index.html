@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compression</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Compression</h1>
+<p>When we save any sort of file, for example, an image, audio file, etc. it can
+take up <em>a lot</em> of storage on our hard drive (or, more likely, SSD).</p>
+<p>To save space, we can use something called <strong>compression</strong>. This is when we
+take a large file and making it smaller, by removing some of the data from it.</p>
+<h2>Types of compression</h2>
+<p>Depending on whether the original file can be perfectly reconstructed from the
+compressed version or not, there are two types of compression:</p>
+<ul>
+<li><a href="/lossy-compression">Lossy compression</a></li>
+<li><a href="/lossless-compression">Lossless compression</a></li>
+</ul>
+<h2>Benefits of compression</h2>
+<p>Compressing a file makes it smaller: there are two main benefits to this:</p>
+<ul>
+<li>It takes up less storage space on our hard drive.</li>
+<li>If we’re sending/receiving it over the internet, it will take less time and
+bandwidth to transfer the file - that can sometimes save money, too!</li>
+</ul>
+<h2>Drawbacks of compression</h2>
+<ul>
+<li>If we use lossy compression, the original file can’t be perfectly reconstructed
+from the compressed version - some data is lost. This can lead to a loss in
+quality, and if we compress it too much, it can look really bad.</li>
+<li>If we use lossless compression, the original file can be perfectly reconstructed,
+but often, it uses a lot of CPU power to compress and decompress the file,
+which can make it slow to work with (think if you’ve ever tried to extract a
+large zip / gzipped-tarball file - it can take a long time).</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Binary prefixes</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Binary prefixes</h1>
+<p>Just like we have <em>decimal</em> prefixes, such as mega (for x1,000,000) and
+nano (for x0.000001), we also have <em>binary</em> prefixes, which are based on powers
+of 2.</p>
+<h2>Common binary prefixes</h2>
+<table><thead><tr><th>Prefix</th><th>Symbol</th><th>Factor</th></tr></thead><tbody>
+<tr><td>kibi</td><td>Ki</td><td><im>2^{10}</im></td></tr>
+<tr><td>mebi</td><td>Mi</td><td><im>2^{20}</im></td></tr>
+<tr><td>gibi</td><td>Gi</td><td><im>2^{30}</im></td></tr>
+<tr><td>tebi</td><td>Ti</td><td><im>2^{40}</im></td></tr>
+<tr><td>pebi</td><td>Pi</td><td><im>2^{50}</im></td></tr>
+</tbody></table>
+<blockquote>
+<p>An interesting pattern here is that each prefix is 1024 times larger than the
+previous one, since <im>2^{10} = 1024</im>.</p>
+</blockquote>
+<h2>Example conversions</h2>
+<h3>Example: Convert 4 kibibytes to bytes.</h3>
+<ul>
+<li>1 kibibyte (KiB) = <im>2^{10}</im> bytes (B)</li>
+<li>4 KiB = <im>4 \times 2^{10}</im> B = 4096 B</li>
+<li><strong>Answer</strong>: 4096 bytes</li>
+</ul>
+<h3>Example: Convert 3 mebibytes to bytes.</h3>
+<ul>
+<li>1 mebibyte (MiB) = <im>2^{20}</im> bytes (B)</li>
+<li>3 MiB = <im>3 \times 2^{20}</im> B = 3,145,728 B</li>
+<li><strong>Answer</strong>: 3,145,728 bytes</li>
+</ul>
+<h3>Example: Convert 2 gibibytes to mebibytes.</h3>
+<ul>
+<li>1 gibibyte (GiB) = <im>2^{30}</im> bytes (B)</li>
+<li>1 mebibyte (MiB) = <im>2^{20}</im> bytes (B)</li>
+<li>Therefore, 1 GiB = <im>2^{30} \div 2^{20} = 2^{10}</im> MiB = 1024 MiB</li>
+<li>2 GiB = <im>2 \times 1024</im> MiB = 2048 MiB</li>
+<li><strong>Answer</strong>: 2048 mebibytes</li>
+</ul>
+<h3>Example: Convert 5 tebibytes to gibibytes.</h3>
+<ul>
+<li>1 tebibyte (TiB) = <im>2^{40}</im> bytes (B)</li>
+<li>1 gibibyte (GiB) = <im>2^{30}</im> bytes (B)</li>
+<li>Therefore, 1 TiB = <im>2^{40} \div 2^{30} = 2^{10}</im> GiB = 1024 GiB</li>
+<li>5 TiB = <im>5 \times 1024</im> GiB = 5120 GiB</li>
+<li><strong>Answer</strong>: 5120 gibibytes</li>
+</ul>
+<h3>Example: Convert 1 pebibyte to gibibytes.</h3>
+<ul>
+<li>1 pebibyte (PiB) = <im>2^{50}</im> bytes (B)</li>
+<li>1 gibibyte (GiB) = <im>2^{30}</im> bytes (B)</li>
+<li>Therefore, 1 PiB = <im>2^{50} \div 2^{30} = 2^{20}</im> GiB = 1,048,576 GiB</li>
+<li>1 PiB = 1,048,576 GiB</li>
+<li><strong>Answer</strong>: 1,048,576 gibibytes</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

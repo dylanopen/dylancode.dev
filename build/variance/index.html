@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Variance</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Variance</h1>
+<p>Variance measures how spread out a set of numbers / results is - how <em>varied</em>
+they are.</p>
+<p>It’s a better measurement of spread than the range, because it takes into
+account all the values in the set, not just the absolute extremes.</p>
+<h2>Variance symbol</h2>
+<p>Because variance is just the <a href="/standard-deviation">standard deviation</a> squared,
+we write it as <im>\sigma^2</im> as <im>\sigma</im> is the symbol for standard deviation.</p>
+<blockquote>
+<p><ma>
+\text{variance:}\quad\sigma^2
+</ma></p>
+</blockquote>
+<h2>Calculating variance</h2>
+<p>To calculate variance, we first need to calculate the <em>mean</em> of the set of
+numbers.</p>
+<p>Then, for each number in the set, we calculate the difference between that
+number and the mean, and square that difference.</p>
+<p>Then finally, we average that sum of squared differences by dividing it by the
+number of values in the set (to find the mean).</p>
+<h2>Formula</h2>
+<p>There are three formulas we can use, they’re the same thing, but sometimes one
+is easier than the others, depending on what we know.</p>
+<h3>Calculating from <em>mean of squares</em> and <em>square of mean</em></h3>
+<p>If we know the mean of squares (the average of the squares of the numbers) -
+which we write as <im>\overline{x^2}</im> - and the square of the mean (the square of
+the average of the numbers) - which we write as <im>\overline{x}^2</im> - then we can
+calculate the variance using this formula:</p>
+<blockquote>
+<p><ma>
+\sigma^2 = \overline{x^2} - \overline{x}^2
+</ma></p>
+</blockquote>
+<p>(Remember that the <im>\overline{\quad}</im> (bar) symbol means “mean of”</p>
+<h3>Calculating from just the values</h3>
+<p>If we just have the values, then we can calculate the variance using this
+formula:</p>
+<blockquote>
+<p><ma>
+\sigma^2 = \frac{\sum(x-\overline{x})^2}{n}
+</ma></p>
+</blockquote>
+<p>That does mean we need to calculate the difference between the mean and each
+value. We can rearrange it to stop us having to do this:</p>
+<blockquote>
+<p><ma>
+\sigma^2 = \frac{\sum x^2}{n} - \left(\frac{\sum x}{n}\right)^2
+</ma></p>
+</blockquote>
+<p>Which, actually, is just the same as the first formula! We’ve just substituted
+<im>\overline{x^2}</im> for <im>\frac{\sum x^2}{n}</im> and <im>\overline{x}^2</im> for
+<im>\left(\frac{\sum x}{n}\right)^2</im> into our formula of <im>\sigma^2 =
+\overline{x^2} - \overline{x}^2</im>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eulerian graph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Eulerian graph</h1>
+<p>A graph can be either of:</p>
+<ul>
+<li>Eulerian</li>
+<li>Semi-Eulerian</li>
+<li>Non-Eulerian</li>
+</ul>
+<h2>Eulerian graphs</h2>
+<p>An <em>Eulerian graph</em> is a type of <a href="/graph">graph</a> which contains <strong>only</strong>
+vertices of <strong>even</strong> <a href="/graph-vertex">degrees</a>.</p>
+<p>If a graph is Eulerian, it means there exists a closed trail (route that starts
+and ends at the same vertex) that visits every edge exactly once - called an
+<strong>Eulerian cycle</strong>.</p>
+<blockquote>
+<p><strong>Eulerian graph</strong>: a graph where all vertices have even degrees.</p>
+</blockquote>
+<h2>Semi-Eulerian graphs</h2>
+<p>A <em>semi-Eulerian graph</em> is a type of <a href="/graph">graph</a> which contains exactly two
+vertices of <strong>odd</strong> <a href="/graph-vertex">degrees</a> (and all other vertices have even
+degrees).</p>
+<p>If a graph is semi-Eulerian, it means there exists a trail (route that does not
+start and end at the same vertex) that visits every edge exactly once - called
+an <strong>Eulerian trail</strong>.</p>
+<blockquote>
+<p><strong>Semi-Eulerian graph</strong>: a graph where exactly two vertices have odd degrees.</p>
+</blockquote>
+<h2>Non-Eulerian graphs</h2>
+<p>A <em>non-Eulerian graph</em> is a type of <a href="/graph">graph</a> which contains more than two
+vertices of <strong>odd</strong> <a href="/graph-vertex">degrees</a>.</p>
+<p>There isn’t any trail or cycle that visits every edge exactly once in a
+non-Eulerian graph.</p>
+<blockquote>
+<p><strong>Non-Eulerian graph</strong>: a graph where more than two vertices have odd degrees.</p>
+</blockquote>
+<h2>How does this work?</h2>
+<p>If a vertex has an even number of edges connected to it, every time you enter
+the vertex via one edge, you can leave it via another edge.</p>
+<p>This means you can
+traverse all edges without getting stuck at a vertex (you’d be stuck if you had
+already used all edges connected to that vertex, for example).</p>
+<h2>Summary</h2>
+<table><thead><tr><th>Graph type</th><th>Vertex degrees</th><th>Trail exists?</th><th>Gets back to start?</th></tr></thead><tbody>
+<tr><td>Eulerian</td><td>All even</td><td>Yes (Eulerian cycle)</td><td>Yes</td></tr>
+<tr><td>Semi-Eulerian</td><td>Exactly two odd, rest even</td><td>Yes (Eulerian trail)</td><td>No</td></tr>
+<tr><td>Non-Eulerian</td><td>More than two odd</td><td>No</td><td>No</td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arithmetic sequences</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Arithmetic sequences</h1>
+<p>An arithmetic sequence is a sequence of numbers in which the difference between consecutive terms is constant.</p>
+<p>That means that each term is <im>n</im> more than the last term.</p>
+<p>For example, the sequence:</p>
+<p><ma>
+2, 5, 8, 11, 14, \ldots
+</ma></p>
+<p>is an arithmetic sequence where each term is 3 more than the previous term.</p>
+<p>The constant difference between the terms is called the “common difference”.</p>
+<h2>Form of an arithmetic sequence</h2>
+<p>Arithmetic sequences can be written in the form:</p>
+<p><ma>
+an+b
+</ma></p>
+<p>Where:</p>
+<ul>
+<li><im>a</im> is the common difference</li>
+<li><im>b</im> is the first term minus the common difference</li>
+</ul>
+<p>This form is known as the “nth term” of the sequence.</p>
+<h2>Finding the nth term</h2>
+<p>To find the nth term of a sequence, we need to find two things:</p>
+<ul>
+<li>The common difference (<im>a</im>)</li>
+<li>The first term (<im>b</im>)</li>
+</ul>
+<p>Once we’ve found these, just substitute <im>a</im> and <im>b</im> into the formula <im>an+b</im>!</p>
+<h2>Finding the common difference</h2>
+<p>To find the common difference, simply subtract any term from the term after
+it.</p>
+<p>For example, in the sequence:</p>
+<p><ma>
+3, 7, 11, 15, 19, \ldots
+</ma></p>
+<p>The common difference is <im>4</im>, because, for example, <im>7 - 3 = 4</im>.</p>
+<h2>Finding the offset</h2>
+<p>The offset (<im>b</im>) can be found by subtracting the common difference from the
+first term.</p>
+<p>For example, in the sequence:</p>
+<p><ma>
+3, 7, 11, 15, 19, \ldots
+</ma></p>
+<p>The common difference is <im>4</im>, and the first term is <im>3</im>, so the offset is:</p>
+<p><ma>
+3 - 4 = -1
+</ma></p>
+<h2>Examples</h2>
+<h3>Find the nth term of the sequence <im>5, 10, 15, 20, \ldots</im></h3>
+<ol>
+<li>Find the common difference:
+<im>10 - 5 = 5</im></li>
+<li>Find the offset:
+<im>5 - 5 = 0</im></li>
+<li>Substitute into the formula:
+<im>5n + 0 = 5n</im></li>
+<li><strong>Answer</strong>: <im>5n</im>.</li>
+</ol>
+<h3>Find the nth term of the sequence <im>8, 12, 16, 20, \ldots</im></h3>
+<ol>
+<li>Find the common difference:
+<im>12 - 8 = 4</im></li>
+<li>Find the offset:
+<im>8 - 4 = 4</im></li>
+<li>Substitute into the formula:
+<im>4n + 4</im></li>
+<li><strong>Answer</strong>: <im>4n + 4</im>.</li>
+</ol>
+<h3>Find the 17th term of the sequence with nth term <im>3n + 2</im></h3>
+<ol>
+<li>Substitute <im>n = 17</im>:
+<im>3(17) + 2 = 51 + 2 = 53</im></li>
+<li><strong>Answer</strong>: The 17th term is <im>53</im>.</li>
+</ol>
+<h3>Find the 10th term of the sequence <im>2, 6, 10, 14, \ldots</im></h3>
+<ol>
+<li>Find the common difference:
+<im>6 - 2 = 4</im></li>
+<li>Find the offset:
+<im>2 - 4 = -2</im></li>
+<li>Substitute into the formula:
+<im>4n - 2</im></li>
+<li>We now know the nth term is <im>4n - 2</im>.</li>
+<li>Substitute <im>n = 10</im>:
+<im>4(10) - 2 = 40 - 2 = 38</im></li>
+<li><strong>Answer</strong>: The 10th term is <im>38</im>.</li>
+</ol>
+<h3>Find the 15th term of the sequence <im>7, 14, 21, 28, \ldots</im></h3>
+<ol>
+<li>Find the common difference:
+<im>14 - 7 = 7</im></li>
+<li>Find the offset:
+<im>7 - 7 = 0</im></li>
+<li>Substitute into the formula:
+<im>7n + 0 = 7n</im></li>
+<li>We now know the nth term is <im>7n</im>.</li>
+<li>Substitute <im>n = 15</im>:
+<im>7(15) = 105</im></li>
+<li><strong>Answer</strong>: The 15th term is <im>105</im>.</li>
+</ol>
+<h3>What is the common difference of the sequence with nth term <im>6n + 3</im>?</h3>
+<ul>
+<li>The common difference is the coefficient of <im>n</im>.</li>
+<li><strong>Answer</strong>: <im>6</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

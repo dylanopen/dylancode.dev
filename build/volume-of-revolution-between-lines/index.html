@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Volume of revolution between lines</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Volume of revolution between lines</h1>
+<p>If we have two lines, <im>y = f(x)</im> and <im>y = g(x)</im>, where <im>f(x) \geq g(x)</im> for all <im>x</im> in
+the interval we’re interested in, and we want to find the
+<a href="/volume-of-revolution">volume of revolution</a> when we revolve the area between
+those lines around the <im>x</im>-axis, we can either:</p>
+<ul>
+<li>find the volume of revolution of the area under <im>y = f(x)</im> and subtract the
+volume of revolution of the area under <im>y = g(x)</im>, or</li>
+<li>find <im>\pi \int_a^b (f(x)^2 - g(x)^2) \, dx</im></li>
+</ul>
+<h2>Formula</h2>
+<p>As just mentioned, we have a fancy formula for finding the volume of revolution
+of the area <em>between</em> two lines or curves, which is:</p>
+<blockquote>
+<p><ma>
+V = \pi \int_a^b (f(x)^2 - g(x)^2) \, dx
+</ma></p>
+</blockquote>
+<p>Where:</p>
+<ul>
+<li><im>V</im> is the volume of revolution of the area between the two lines or curves.</li>
+<li><im>f(x)</im> is the function that represents the upper line or curve (the one that’s
+further from the <im>x</im>-axis at the region we care about).</li>
+<li><im>g(x)</im> is the function that represents the lower line or curve (the one that’s
+closer to the <im>x</im>-axis at the region we care about).</li>
+<li><im>a</im> and <im>b</im> are the limits of integration, which represent the
+range of coordinates we’re rotating.</li>
+</ul>
+<h2>Common mistakes</h2>
+<ul>
+<li>You <strong>cannot</strong> square the whole integral. You need to square the functions
+first, and then integrate the difference of the <strong>squares</strong>.</li>
+<li>You <strong>cannot</strong> just integrate the difference of the functions, and then square
+the result. You need to square the functions first, and then integrate the
+difference of the <strong>squares</strong>.</li>
+<li>Forgetting to multiply by <im>\pi</im> at the end!</li>
+<li>Forgetting to subtract the smaller function from the larger function. You need
+to make sure that <im>f(x) \geq g(x)</im> for all <im>x</im> in the interval you’re
+interested in, otherwise you’ll get a negative volume, which doesn’t make
+sense!</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

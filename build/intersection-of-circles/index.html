@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Intersection of circles</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Intersection of circles</h1>
+<p>If we have two circles and know their radii and the distance between their
+centres, we can find out <em>how</em> their circles overlap.</p>
+<h2>Ways they can overlap</h2>
+<p>There are 6 ways that two circles can overlap:</p>
+<ul>
+<li>Completely <em>separate</em> (no points of intersection)</li>
+<li><em>Intersecting</em> at two points (the circles properly overlap, but neither is
+inside the other)</li>
+<li><em>Internally tangential</em> (the circles touch at just one point, from the inside,
+one circle is <strong>inside</strong> the other)</li>
+<li><em>Externally tangiential</em> (the circles touch at just one point, from the
+outside, one circle is <strong>not</strong> inside the other)</li>
+<li><em>Touching</em> at exactly one point (called <em>tangent</em>), of which they can be:
+<ul>
+<li><em>Externally tangential</em> (the circles touch from the outside, one circle is
+<strong>not</strong> inside the other)</li>
+<li><em>Internally tangential</em> (the circles touch from the inside, one circle
+<strong>is</strong> inside the other)</li>
+</ul>
+</li>
+<li><em>One circle inside the other</em> (the circles don’t touch, but one is completely
+inside the other)</li>
+<li><em>The circles are the same</em> (the circles have the same centre and radius, so
+they are literally the same shape)</li>
+</ul>
+<h2>Checking whether they overlap</h2>
+<p>If we know the radius of circle 1 and circle 2 (<im>r_1</im> and <im>r_2</im>), and the
+distance between their centres (<im>d</im>), we can check which of the 6 cases applies
+by checking some inequalities.</p>
+<h2>Separate circles</h2>
+<p>Two circles are completely separate if the distance between their centres is
+greater than the sum of their radii:</p>
+<p><ma>
+d &gt; r_1 + r_2
+</ma></p>
+<h2>Intersecting circles</h2>
+<p>Two circles intersect at two points if the distance between their centres is
+less than the sum of their radii, but greater than the difference of their
+radii:</p>
+<p><ma>
+|r_1 - r_2| &lt; d &lt; r_1 + r_2
+</ma></p>
+<h2>Internally tangential circles</h2>
+<p>Two circles are internally tangential if the distance between their centres is
+equal to the difference of their radii:</p>
+<p><ma>
+d = |r_1 - r_2|
+</ma></p>
+<h2>Externally tangential circles</h2>
+<p>Two circles are externally tangential if the distance between their centres is
+equal to the sum of their radii:</p>
+<p><ma>
+d = r_1 + r_2
+</ma></p>
+<h2>One circle inside the other</h2>
+<p>Two circles are such that one is completely inside the other if the distance
+between their centres is less than the difference of their radii:</p>
+<p><ma>
+d &lt; |r_1 - r_2|
+</ma></p>
+<h2>The circles are the same</h2>
+<p>Two circles are the same if the distance between their centres is zero, and
+their radii are the same:</p>
+<p><ma>
+d = 0 \quad \text{and} \quad r_1 = r_2
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

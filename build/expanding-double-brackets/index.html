@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Expanding double brackets</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Expanding double brackets</h1>
+<h3>Example: Expand <im>(x - 4)(x - 2)</im> using the grid method</h3>
+<p>Draw a grid with two rows and two columns, since we have two terms in each
+set of brackets:</p>
+<table><thead><tr><th><im>\times</im></th><th><im>x</im></th><th><im>-2</im></th></tr></thead><tbody>
+<tr><td><im>x</im></td><td></td><td></td></tr>
+<tr><td><im>-4</im></td><td></td><td></td></tr>
+</tbody></table>
+<p>Now, multiply each term in the first set of brackets by each term in the
+second set of brackets (with the grid method, this is as simple as filling in
+each box by multiplying the row and column headers):</p>
+<table><thead><tr><th><im>\times</im></th><th><im>x</im></th><th><im>-2</im></th></tr></thead><tbody>
+<tr><td><im>x</im></td><td><im>x^2</im></td><td><im>-2x</im></td></tr>
+<tr><td><im>-4</im></td><td><im>-4x</im></td><td><im>8</im></td></tr>
+</tbody></table>
+<blockquote>
+<p>Remember: The <im>-2</im> and <im>-4</im> headers multiply to give <em><strong>positive</strong></em> <im>8</im>,</p>
+</blockquote>
+<p>Add the terms in the middle of the grid together to get the final answer:</p>
+<ul>
+<li><im>x^2-4x-2x+8</im></li>
+<li>Answer: <im>x^2 - 6x + 8</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

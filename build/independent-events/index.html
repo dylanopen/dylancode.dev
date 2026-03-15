@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Independent events</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Independent events</h1>
+<p>If two events are <em>independent</em>, it means that the probability of each event
+does <strong>not</strong> depend on the outcome of the other event.</p>
+<p>This effectively means that:</p>
+<ul>
+<li>the probability of event A is the same regardless of whether event B occurs or
+not, and vice-versa.</li>
+</ul>
+<h2>Some facts about independent events</h2>
+<ul>
+<li>The probability of both events A and B occurring is the product of their
+individual probabilities.
+<ul>
+<li><im>P(A \cap B) = P(A) \times P(B)</im></li>
+</ul>
+</li>
+<li>The probability of either event A or B occurring is the sum of their
+individual probabilities minus the probability of both events occurring.
+<ul>
+<li><im>P(A \cup B) = P(A) + P(B) - P(A \cap B)</im></li>
+</ul>
+</li>
+<li>Using both of those rules above, we can write the probability of <em>either</em>
+A occurring or B occurring as:
+<ul>
+<li><im>P(A \cup B) = P(A) + P(B) - P(A) \times P(B)</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

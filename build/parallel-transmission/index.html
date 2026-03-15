@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parallel transmission</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Parallel transmission</h1>
+<p>Parallel transmission is when we have multiple wires which we send data down,
+all at the same time.</p>
+<p>For example, if we have 8 wires, we can send 8 different bits at the same time.</p>
+<h2>Advantages of parallel transmission</h2>
+<p>Compared to <a href="/serial-transmission">serial transmission</a>, parallel transmission
+<em>can</em> be faster, because it can send multiple bits at the same time. However,
+this isn’t always the case, as you’ll see.</p>
+<h2>Disadvantages of parallel transmission</h2>
+<p>The main disadvantages of parallel transmission compared to <a href="/serial-transmission">serial
+transmission</a> are that:</p>
+<ul>
+<li>It’s more expensive to implement as it requires multiple wires (and
+connectors, etc).</li>
+<li>It’s less reliable as there is more chance of interference between the wires
+(called <a href="/crosstalk">crosstalk</a>).</li>
+<li>It can only be used over short distances as the signal is more likely to degrade
+over multiple wires.</li>
+<li>It can be slower than serial transmission, as the wires can only be run at a
+lower frequency without interference.</li>
+<li>There can be <a href="/data-skew">skew</a> issues, where the bits can get out of sync, because they are sent at the same time, but can take different amounts of time to arrive at the destination.</li>
+<li>It’s harder to implement error detection and correction, as the bits are sent at the same time, so it’s harder to detect if a bit is missing or corrupted.</li>
+<li>(Among lots of other disadvantages)</li>
+</ul>
+<h2>Examples of parallel transmission</h2>
+<p>The main examples are the internal data buses in a computer.</p>
+<p>For example, modern computers are <em>64 bit</em>, which means that each data bus can
+carry 64 bits at a time.</p>
+<p>That means that there are actually 64 tiny wires on the motherboard, which can
+carry signals of 64 bits (or 8 bytes) at a time from/to the CPU and the
+different components.</p>
+<p>Outside of internal buses, parallel transmission is almost never used in the
+modern world because it’s just not worth the many disadvantages. You’ll see
+it a lot in older connections, because back then they thought that parallel
+was the future… turns out it wasn’t :)</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

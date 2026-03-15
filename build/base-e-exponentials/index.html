@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Base e exponentials</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Base e exponentials</h1>
+<p>There’s a special case of exponential functions, where we use a base of <im>e</im>.</p>
+<p>You can find more about <im>e</im> in the <a href="/euler-number">euler’s number</a> topic. It’s
+a number with some special properties, and it’s about <im>2.71828</im>.</p>
+<h2>Reciprocal exponentials</h2>
+<p>If, instead of <im>y=e^x</im>, we have <im>y=e^{-x}</im>, we can rewrite it as
+<im>y=\frac{1}{e^x}</im>.</p>
+<p>That’s a <em>decay</em> graph, as the base is less than <im>1</im> (because
+<im>\frac{1}{e}</im> is less than <im>1</im>).</p>
+<h2>Gradient of <im>e^x</im></h2>
+<p>The gradient of <im>e^x</im> is <em>exactly the same</em> as the <im>y</im> value at that point.</p>
+<blockquote>
+<p><im>\frac{d}{dx}e^x = e^x</im></p>
+</blockquote>
+<p>For example, at the point <im>(0, 1)</im>, the gradient is <im>1</im> (because <im>e^0=1</im>). At
+the point</p>
+<h2>Gradient of <im>e^{kx}</im></h2>
+<p><im>e^{kx}</im> doesn’t exactly <a href="/definition-of-differentiation">differentiate</a> to
+<im>e^{kx}</im>, but it does differentiate to a constant multiple of <im>e^{kx}</im>:
+<im>ke^{kx}</im>.</p>
+<blockquote>
+<p><im>\frac{d}{dx}e^{kx} = ke^{kx}</im></p>
+</blockquote>
+<h2>Gradient of <im>e^{-x}</im></h2>
+<p>The gradient of <im>e^{-x}</im> is <im>-e^{-x}</im> - it’s the same as the rule for <im>e^{kx}</im>,
+but with a negative constant instead of a positive one.</p>
+<blockquote>
+<p><im>\frac{d}{dx}e^{-x} = -e^{-x}</im></p>
+</blockquote>
+<h2>Gradient of <im>e^{-kx}</im></h2>
+<p>This is basically just saying that <im>k</im> is a negative constant, so the gradient
+of <im>e^{-kx}</im> is <im>-ke^{-kx}</im> - it follows the same rule as <im>e^{kx}</im>, but with a
+negative constant instead of a positive one.</p>
+<blockquote>
+<p><im>\frac{d}{dx}e^{-kx} = -ke^{-kx}</im></p>
+</blockquote>
+<h2>Gradient of <im>e^{f(x)}</im></h2>
+<p>The gradient of <im>e^{f(x)}</im> is <im>f&#39;(x)e^{f(x)}</im> - it’s the same as the rule for
+<im>e^{kx}</im>, but instead of <im>k</im> being a constant, it’s <im>f&#39;(x)</im>, which is the
+derivative of <im>f(x)</im>.</p>
+<blockquote>
+<p><im>\frac{d}{dx}e^{f(x)} = f&#39;(x)e^{f(x)}</im></p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

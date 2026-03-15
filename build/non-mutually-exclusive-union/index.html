@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Non-mutually exclusive union</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Non-mutually exclusive union</h1>
+<p>We know how to find the probability of either (at least one) of two
+<a href="/mutually-exclusive-events">mutually exclusive events</a> happening (see
+<a href="/mutually-exclusive-or">here</a>). The formula is <im>P(A)+P(B)</im>.</p>
+<p>How about if the events are <strong>not</strong> mutually exclusive?</p>
+<h2>Formula</h2>
+<p>The probability of <strong>either</strong> event A <strong>or</strong> event B occuring (A union B) is:</p>
+<blockquote>
+<p><ma>
+P(A\cup B)=P(A)+P(B)-P(A\cap B)
+</ma></p>
+</blockquote>
+<h2>Why subtract the intersection?</h2>
+<p>The reason we subtract the <em>intersection</em> <im>A\cap B</im> is because we double count
+it. Anything in both A and B will show up in the probability of both A and B,
+so we need to subtract one ‘lot’ of that intersection to remove the duplicates.</p>
+<h3>An example of why we need to</h3>
+<p>For an example, let’s say we have a fruit bowl, and we have a:</p>
+<ul>
+<li>70% chance of picking a yellowey-orange fruit</li>
+<li>60% chance of picking a round fruit</li>
+</ul>
+<p>If we just added their probabilities <a href="/mutually-exclusive-or">like we do</a> with
+<a href="/mutually-exclusive-events">mutually exclusive events</a>, we’d end up with a
+probability of 130%… which is impossible.</p>
+<h2>Finding the probability from a Venn diagram</h2>
+<p>If we have a Venn diagram showing the <em>frequency</em> of A, the frequency of B and
+the frequency of A <em>and</em> B (the <strong>intersection</strong>), we can just add the 3
+frequencies together (then divide by the total frequency of everything, to get
+our probability).</p>
+<p>That’s because the frequency shown in the A circle isn’t the frequency of the
+A, but the frequency of <strong>only A</strong> and nothing else, so A and not B. The same is
+true for the B circle. So we’re not double counting anything.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

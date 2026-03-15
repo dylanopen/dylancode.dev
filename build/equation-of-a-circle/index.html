@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Equation of a circle</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Equation of a circle</h1>
+<p>There is a general equation which defines the shape of a <em>circle</em> on a graph.</p>
+<p>For any point that lies on the circle, the equation will be true and this
+creates a circle if we would plot it using a graphing calculator, for example.</p>
+<h2>General equation of a circle</h2>
+<p><ma>
+(x-a)^2+(y-b)^2=r^2
+</ma>$</p>
+<p>Where:</p>
+<ul>
+<li><im>(a, b)</im> is the coordinate of the <strong>centre</strong> of the circle:
+<ul>
+<li><im>a</im> is the x-coordinate of the centre</li>
+<li><im>b</im> is the y-coordinate of the centre</li>
+</ul>
+</li>
+<li><im>r</im> is the <strong>radius</strong> of the circle.</li>
+</ul>
+<h2>Equation of a circle at the origin</h2>
+<p>If we have a circle with a centre at the origin (0,0), then the equation would
+be <im>(x-0)^2+(y-0)^2=r^2</im>, which simplifies to:</p>
+<p><ma>
+x^2+y^2=r^2
+</ma></p>
+<p>Where:</p>
+<ul>
+<li><im>r</im> is the radius</li>
+</ul>
+<h2>Finding the radius and centre of a circle from its equation</h2>
+<p>Knowing the equation above, we can use that to find the radius and/or the centre
+coordinates of a circle, given just its equation.</p>
+<h3>Example: find the radius of the circle with equation <im>(x-4)^2+(x+2)^2=36</im></h3>
+<ul>
+<li>Given the equation above, we know that <im>36</im> must be the radius <em>squared</em>:</li>
+<li><im>r^2=36</im></li>
+<li><im>r=\sqrt{36}=6</im></li>
+<li><strong>Answer</strong>: the radius is <im>6</im></li>
+</ul>
+<h3>Example: find the centre of the circle with equation <im>(x-3)^2+(x-2)^2=16</im></h3>
+<ul>
+<li>For the general form <im>(x-a)^2+(y-b)^2=r^2</im>:
+<ul>
+<li><im>a</im> is <im>3</im></li>
+<li><im>b</im> is <im>2</im></li>
+<li><im>r^2</im> is <im>4</im> (so <im>r</im> is <im>4</im>)</li>
+</ul>
+</li>
+<li>The coordinates of the centre are <im>(a,b)</im>.</li>
+<li><im>a=3</im> and <im>b=2</im>, so <im>(a,b)=(3,2)</im></li>
+<li><strong>Answer</strong>: the centre is <im>(3,2)</im></li>
+</ul>
+<h3>Example: find the centre of the circle with equation <im>(x+3)^2+(x-2)^2=16</im></h3>
+<ul>
+<li>For the general form <im>(x-a)^2+(y-b)^2=r^2</im>:
+<ul>
+<li><im>a</im> is <im>-3</im>: negative, because <im>x+3</im> is equivalent to <im>x-(-3)</im></li>
+<li><im>b</im> is <im>2</im></li>
+<li><im>r^2</im> is <im>4</im> (so <im>r</im> is <im>4</im>)</li>
+</ul>
+</li>
+<li>The coordinates of the centre are <im>(a,b)</im>.</li>
+<li><im>a=-3</im> and <im>b=2</im>, so <im>(a,b)=(-3,2)</im></li>
+<li><strong>Answer</strong>: the centre is <im>(-3,2)</im></li>
+</ul>
+<h3>Example: find the centre and radius of the circle with equation <im>x^2+y^2=25</im></h3>
+<ul>
+<li>Circle is at the origin, so:
+<ul>
+<li><im>a=0</im></li>
+<li><im>b=0</im></li>
+</ul>
+</li>
+<li>Centre at <im>(a,b)=(0,0)</im></li>
+<li><im>r^2=25</im></li>
+<li><im>r=\sqrt{25}=5</im></li>
+<li><strong>Answer</strong>: the centre is <im>(0,0)</im> and the radius is <im>5</im></li>
+</ul>
+<h2>Finding the equation of a circle from its centre and radius</h2>
+<p>We can also go the other way round - finding the equation of a circle if we know
+its centre <strong>and</strong> its radius.</p>
+<h3>Example: find the equation of the circle with centre <im>(4,5)</im> and radius <im>7</im></h3>
+<ul>
+<li><im>(a,b)=(4,5)</im></li>
+<li><im>a=4</im></li>
+<li><im>b=5</im></li>
+<li><im>r=7</im></li>
+<li><im>(x-a)^2+(x-b)^2=r^2</im></li>
+<li>Substitute for <im>a</im>, <im>b</im> and <im>r</im>:
+<ul>
+<li><im>(x-4)^2+(y-5)^2=7^2</im></li>
+<li><im>(x-4)^2+(y-5)^2=49</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: the equation is <im>(x-4)^2+(y-5)^2=49</im></li>
+</ul>
+<h3>Example: find the equation of the circle with centre <im>(-3,2)</im> and radius <im>5</im></h3>
+<ul>
+<li><im>(a,b)=(-3,2)</im></li>
+<li><im>a=-3</im></li>
+<li><im>b=2</im></li>
+<li><im>r=5</im></li>
+<li><im>(x-a)^2+(x-b)^2=r^2</im></li>
+<li>Substitute for <im>a</im>, <im>b</im> and <im>r</im>:
+<ul>
+<li><im>(x-(-3))^2+(y-2)^2=5^2</im></li>
+<li><im>(x+3)^2+(y-2)^2=25</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: the equation is <im>(x+3)^2+(y-2)^2=25</im></li>
+</ul>
+<h3>Example: find the equation of the circle with centre <im>(0,0)</im> and radius <im>4</im></h3>
+<ul>
+<li><im>(a,b)=(0,0)</im></li>
+<li><im>a=0</im></li>
+<li><im>b=0</im></li>
+<li><im>r=4</im></li>
+<li><im>(x-a)^2+(x-b)^2=r^2</im></li>
+<li>Substitute for <im>a</im>, <im>b</im> and <im>r</im>:
+<ul>
+<li><im>(x-0)^2+(y-0)^2=4^2</im></li>
+<li><im>x^2+y^2=16</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: the equation is <im>x^2+y^2=16</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Asynchronous transmission</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Asynchronous transmission</h1>
+<p>Asynchronous transmission is when we send data without a clock signal, and
+instead we send extra signals to indicate when data is being sent.</p>
+<p>For example, we might send a <em>start bit</em> to indicate that we’re about to send
+data, and then we send the data bits, and then we send a <em>stop bit</em> to indicate
+that we’re done sending data.</p>
+<p>The advantage of asynchronous transmission is that the sender and receiver don’t
+need to be synchronised to the same clock signal, and they don’t need to always
+be listening to a clock signal, which can save power.</p>
+<p>The disadvantage is that it can be slower than synchronous transmission, because
+there’s overhead of sending extra signals like start and stop bits, and the
+sender and receiver need to wait for each other to be ready before sending data.</p>
+<h2>Start and stop bits</h2>
+<p>We send a start bit when we’re about to send data, to indicate to the receiver
+that data is coming.</p>
+<p>Then, after we send the data bits, we send a stop bit to indicate that we’re
+done sending data.</p>
+<p>The start signal may be a 0 or a 1 depending on the protocol. The key thing
+is that it is <strong>different</strong> from the <strong>stop bit</strong>.</p>
+<h2>Synchronization</h2>
+<p>In asynchronous transmission, the sender and receiver are not synchronised to
+the same clock signal, so they need to use the start and stop bits to indicate
+when data is being sent. They <em>are</em> synchronised to each other, after the
+start bit. So they know when to read the next bit, but they don’t have to stay
+constantly synchronised to a clock signal, which can save power.</p>
+<h2>Examples of asynchronous transmission</h2>
+<ul>
+<li>UART (Universal Asynchronous Receiver Transmitter)</li>
+<li>RS-232 (a standard for serial communication)</li>
+<li>MIDI (Musical Instrument Digital Interface)</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

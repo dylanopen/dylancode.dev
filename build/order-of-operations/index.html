@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order of operations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Order of operations</h1>
+<p>The <em>order of operations</em> tells us which operations (e.g. addition,
+multiplication, powers) to do first when finding the value of an expression.</p>
+<h2>Abbreviations</h2>
+<p>There are lots of abbreviations to remember the order of operations. The most common ones are:</p>
+<ul>
+<li><strong>BIDMAS</strong> (Brackets, Indices, Division and Multiplication, Addition and
+Subtraction)</li>
+<li><strong>BODMAS</strong> (Brackets, Orders, Division and Multiplication, Addition and
+Subtraction)</li>
+<li><strong>PEMDAS</strong> (Parentheses, Exponents, Multiplication and Division, Addition) -
+this is more commonly used in the USA.</li>
+</ul>
+<p>In this page, we’ll use <strong>BIDMAS</strong>.</p>
+<h2>The order</h2>
+<p>Whenever we evaluate an expression, we should do it in this order:</p>
+<ol>
+<li><strong>Brackets</strong>: Anything inside brackets (parentheses) should be done first.</li>
+<li><strong>Indices</strong>: We then do any powers or roots (e.g. squares, square roots).</li>
+<li><strong>Division and multiplication</strong>:</li>
+<li><strong>Addition and subtraction</strong></li>
+</ol>
+<blockquote>
+<p>Note: When we have multiple operations of the same rank (e.g. both division
+and multiplication), we do them from left to right.</p>
+</blockquote>
+<h2>Examples</h2>
+<h3>Example: Evaluate <im>3 + 4 \times 2</im></h3>
+<ul>
+<li>First, we do the multiplication: <im>4 \times 2 = 8</im>.</li>
+<li>Then, we do the addition: <im>3 + 8 = 11</im>.</li>
+<li><strong>Answer</strong>: <im>11</im>.</li>
+</ul>
+<h3>Example: Evaluate <im>(2 + 3)^2</im></h3>
+<ul>
+<li>First, we do the brackets: <im>2 + 3 = 5</im>.</li>
+<li>Then, we do the indices: <im>5^2 = 25</im>.</li>
+<li><strong>Answer</strong>: <im>25</im>.</li>
+</ul>
+<h3>Example: Evaluate <im>10 - 4 \div 2 + 3 \times 2</im></h3>
+<ul>
+<li>First, we do the division: <im>4 \div 2 = 2</im>.</li>
+<li>Then, we do the multiplication: <im>3 \times 2 = 6</im>.</li>
+<li>Next, we do the subtraction: <im>10 - 2 = 8</im>.</li>
+<li>Finally, we do the addition: <im>8 + 6 = 14</im>.</li>
+<li><strong>Answer</strong>: <im>14</im>.</li>
+</ul>
+<h3>Example: Evaluate <im>5 + (6 - 2)^2 \div 2</im></h3>
+<ul>
+<li>First, we do the brackets: <im>6 - 2 = 4</im>.</li>
+<li>Then, we do the indices: <im>4^2 = 16</im>.</li>
+<li>Next, we do the division: <im>16 \div 2 = 8</im>.</li>
+<li>Finally, we do the addition: <im>5 + 8 = 13</im>.</li>
+<li><strong>Answer</strong>: <im>13</im>.</li>
+</ul>
+<h3>Example: Evaluate <im>8 \div 2(2 + 2)</im></h3>
+<ul>
+<li>First, we do the brackets: <im>2 + 2 = 4</im>.</li>
+<li>Then, we do the division: <im>8 \div 2 = 4</im>.</li>
+<li>Next, we do the multiplication: <im>4 \times 4 = 16</im>.</li>
+<li><strong>Answer</strong>: <im>16</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

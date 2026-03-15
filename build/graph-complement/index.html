@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Graph complement</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Graph complement</h1>
+<p>The <strong>complement</strong> of a <a href="/graph">graph</a> is a new graph that contains all the
+<a href="/graph-vertex">vertices</a> of the original graph, but only the
+<a href="/graph-edge">edges</a> that are <strong>not</strong> present in the original graph.</p>
+<h2>Finding the complement</h2>
+<p>To find the complement of a graph:</p>
+<ol>
+<li>Add all the edges that are missing between pairs of vertices, in order to
+make every possible connection (a <a href="/complete-graph">complete graph</a>).</li>
+<li>Remove all the edges that were in the original graph (so you are left with
+only the edges you added in step 1).</li>
+<li>This is the complement graph.</li>
+</ol>
+<h2>Example</h2>
+<p>Find the complement of this graph:</p>
+<pre><code>A     B
+| \ 
+|   \
+C     D
+</code></pre>
+<p>The complete graph would be:</p>
+<pre><code>A --- B
+| \ / |
+| / \ |
+C --- D
+</code></pre>
+<p>Now, remove the edges that were in the original graph (A-B and A-C):</p>
+<pre><code>A --- B
+    / |
+  /   |
+C --- D
+</code></pre>
+<p>That’s the <em>complement</em> of the original graph!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

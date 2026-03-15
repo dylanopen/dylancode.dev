@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Subgraph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Subgraph</h1>
+<p>A <em>subgraph</em> is <em>part</em> of a larger <a href="/graph">graph</a> that includes a subset of its
+<a href="/graph-vertex">vertices</a> and <a href="/graph-edge">edges</a>.</p>
+<p>In other words, if you take a bigger graph and select some of its vertices and
+the edges that connect them, you get a subgraph.</p>
+<h2>Rules for subgraphs</h2>
+<ul>
+<li>You <em>are</em> allowed to have <strong>isolated vertices</strong> - vertices which have no edges
+connecting them to other vertices in the subgraph (so aren’t connected to the
+rest of the subgraph).<br />
+In other words, the graph does not have to be <a href="/connected-graph">connected</a>.</li>
+<li>However, <em>if</em> an <strong>edge</strong> is included in the subgraph, <strong>both</strong> of the
+vertices it connects must also be included (because an edge has to connect two
+vertices).</li>
+</ul>
+<h2>Example</h2>
+<p>Consider the following graph:</p>
+<pre><code>A --- B
+| \   |
+|   \ |
+C --- D
+</code></pre>
+<p>A possible subgraph could be:</p>
+<pre><code>A --- B
+|
+|
+C
+</code></pre>
+<p>This is a subgraph, because it includes <em>only</em> vertices and edges from the
+original graph and does <strong>not</strong> have any ‘loose edges’.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

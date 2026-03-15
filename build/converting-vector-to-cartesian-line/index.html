@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting vector-form to cartesian-form line equations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Converting vector-form to cartesian-form line equations</h1>
+<h2>Vector form</h2>
+<p>A line in vector form has the equation:</p>
+<p><ma>
+\vec r = \vec a + \lambda \vec d
+</ma></p>
+<p>…where:</p>
+<ul>
+<li><im>\vec r</im> is the position vector of any point on the line,</li>
+<li><im>\vec a</im> is the position vector of a specific point on the line,</li>
+<li><im>\vec d</im> is the direction vector of the line,</li>
+<li><im>\lambda</im> is a scalar multiplier (changing it gives a new point on the line).</li>
+</ul>
+<h2>Cartesian form</h2>
+<p>Cartesian form is the standard equation of a line, written as:</p>
+<p><ma>
+y = mx + c
+</ma></p>
+<p>(or one of its variants).</p>
+<h2>Gradient</h2>
+<p>We can find the gradient of the line from the <im>\vec d</im> vector of the vector form
+equation.</p>
+<ul>
+<li>The top value of the direction vector <im>\vec d</im> is the change in <im>x</im>.</li>
+<li>The bottom value of the direction vector <im>\vec d</im> is the change in <im>y</im>.</li>
+</ul>
+<p>From this, we can use the formula for gradient:</p>
+<p><ma>
+\text{gradient} = \frac{\text{change in } y}{\text{change in } x}
+</ma></p>
+<h2>Converting from vector to cartesian form</h2>
+<p>Once we have the gradient, we can substitute it into the cartesian form equation
+(<im>y = mx + c</im>) to find <im>c</im>.</p>
+<h3>Convert the vector equation <im>\vec r = \pmatrix{1 \\ 2} + \lambda \pmatrix{3 \\ 4}</im> to cartesian form</h3>
+<ul>
+<li>The direction vector is <im>\vec d = \pmatrix{3 \\ 4}</im>
+<ul>
+<li>Change in <im>x = 3</im></li>
+<li>Change in <im>y = 4</im></li>
+</ul>
+</li>
+<li>Gradient <im>m = \frac{4}{3}</im></li>
+<li><im>\vec a = \pmatrix{1 \\ 2}</im> gives us that <im>(1, 2)</im> is a point on the line.</li>
+<li>Substitute into <im>y = mx + c</im> to find <im>c</im>:
+<ul>
+<li><im>2 = \frac{4}{3}(1) + c</im></li>
+<li><im>2 = \frac{4}{3} + c</im></li>
+<li><im>c = 2 - \frac{4}{3}</im></li>
+<li><im>c = \frac{2}{3}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = \frac{4}{3}x + \frac{2}{3}</im></li>
+</ul>
+<h3>Convert the vector equation <im>\vec r = \pmatrix{2 \\ 5} + \lambda \pmatrix{-1 \\ 2}</im> to cartesian form</h3>
+<ul>
+<li>The direction vector is <im>\vec d = \pmatrix{-1 \\ 2}</im>
+<ul>
+<li>Change in <im>x = -1</im></li>
+<li>Change in <im>y = 2</im></li>
+</ul>
+</li>
+<li>Gradient <im>m = \frac{2}{-1} = -2</im></li>
+<li><im>\vec a = \pmatrix{2 \\ 5}</im> gives us that <im>(2, 5)</im> is a point on the line.</li>
+<li>Substitute into <im>y = mx + c</im> to find <im>c</im>:
+<ul>
+<li><im>5 = -2(2) + c</im></li>
+<li><im>5 = -4 + c</im></li>
+<li><im>c = 5 + 4</im></li>
+<li><im>c = 9</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = -2x + 9</im></li>
+</ul>
+<h3>Convert the vector equation <im>\vec r = \pmatrix{-1 \\ 4} + \lambda \pmatrix{2 \\ -3}</im> to cartesian form</h3>
+<ul>
+<li>The direction vector is <im>\vec d = \pmatrix{2 \\ -3}</im>
+<ul>
+<li>Change in <im>x = 2</im></li>
+<li>Change in <im>y = -3</im></li>
+</ul>
+</li>
+<li>Gradient <im>m = \frac{-3}{2}</im></li>
+<li><im>\vec a = \pmatrix{-1 \\ 4}</im> gives us that <im>(-1, 4)</im> is a point on the line.</li>
+<li>Substitute into <im>y = mx + c</im> to find <im>c</im>:
+<ul>
+<li><im>4 = \frac{-3}{2}(-1) + c</im></li>
+<li><im>4 = \frac{3}{2} + c</im></li>
+<li><im>c = 4 - \frac{3}{2}</im></li>
+<li><im>c = \frac{5}{2}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = \frac{-3}{2}x + \frac{5}{2}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

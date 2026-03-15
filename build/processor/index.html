@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Processor</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Processor</h1>
+<blockquote>
+<p>The <strong>processor</strong> is the part of the computer that fetches, decodes and
+executes a program’s instructions.</p>
+</blockquote>
+<p>It’s the ‘brain’ of the computer, because it’s the part that tells all the other
+components what to do.</p>
+<h2>Role of the processor</h2>
+<ul>
+<li>Executing the instructions of a program
+<ul>
+<li>It does this with the <a href="fetch-decode-execute-cycle">fetch-decode-execute cycle</a></li>
+</ul>
+</li>
+<li>Managing the resources of the computer</li>
+<li>Handling user input, from the keyboard, mouse, etc.</li>
+<li>It basically connects all the other components together, and makes sure they
+work together to run the program.</li>
+</ul>
+<h2>Multi-thread processors</h2>
+<p>Pretty much every modern processor is <em>multi-threaded</em>. That means that it can
+be carrying out multiple instructions at the same time, if the program is
+written to allow it.</p>
+<p>If a processor has multiple cores, then it basically has lots of processors
+connected together, so they can work at the same time. This is called
+<strong>parallel processing</strong>.</p>
+<h2>What’s a processor made of?</h2>
+<p>Processors are made of tiny <em>transistors</em>, which are like tiny switches that can
+be turned on or off. The transistors are arranged so that they produce <a href="/logic-gates">logic
+gates</a>, which are the building blocks of the processor - we
+combine logic gates together to make more complex circuits.</p>
+<h2>Parts of the processor</h2>
+<ul>
+<li><a href="/control-unit">Control unit</a>: This is the part of the processor that fetches
+instructions from memory, decodes them, and tells the other parts of the
+processor what to do.</li>
+<li><a href="/alu">Arithmetic logic unit (ALU)</a>: This is the part of the processor
+that performs maths and boolean logic operations, like addition, subtraction,
+AND, OR, etc.</li>
+<li><a href="/register">Registers</a>: These are small, fast storage locations within the
+processor, where it can store data and instructions that it’s currently
+working on. They’re much faster than the main memory, so the processor can
+access them quickly.</li>
+<li><a href="/processor-cache">Cache</a>: This is a small amount of very fast memory that’s built into
+the processor. It’s used to store frequently accessed data and instructions,
+so the processor can access them quickly without having to go to the main
+memory. It’s like a ‘shortcut’ for the processor to access data it needs
+quickly.</li>
+<li><a href="/processor-clock">Clock</a>: This is a tiny circuit that generates an on and off
+signal, lots of times per second at a regular frequency, which
+is used to synchronise the operations of the processor. It basically tells
+the processor when to do things, and how fast to do them. The speed of the
+clock is measured in hertz (Hz), and it tells us how many instructions the
+processor can execute per second.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

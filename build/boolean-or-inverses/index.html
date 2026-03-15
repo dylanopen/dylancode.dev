@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boolean OR inverses</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Boolean OR inverses</h1>
+<p>If we OR together value <im>x</im> and its inverse (NOT <im>x</im>, or <im>\overline{x}</im>), we
+get <im>1</im>, because:</p>
+<ul>
+<li><im>0 + 1 = 1</im></li>
+<li><im>1 + 0 = 1</im></li>
+<li>So <im>x + \overline{x} = 1</im></li>
+</ul>
+<p>That’s because OR requires at least one side to be true if we want a true result,
+and we know that one of the sides is true and one is false, so at least one side
+is true.</p>
+<blockquote>
+<p><im>A + \overline{A} = 1</im></p>
+</blockquote>
+<p>Simplifying, just replace anywhere we have something ORed with its inverse with
+just <im>1</im>. For example, <im>\overline{A} + A</im> simplifies to just <im>1</im>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

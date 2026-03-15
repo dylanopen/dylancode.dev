@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rearranging equations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Rearranging equations</h1>
+<p>Rearranging equations involves taking an equation and changing its <em>form</em> to get
+one of the variables on its own.</p>
+<p>The key thing to remember when rearranging equations is that whatever you do to
+one side of the equation, you have to do to the other side as well. This keeps
+the equation balanced.</p>
+<p>The easiest way to rearrange equations is to think about what happens to the
+variable you are trying to find, and then <em>tell that story in reverse</em>.</p>
+<h2>Rearranging simple linear equations</h2>
+<p>Let’s try some examples</p>
+<h3>Example: Make <im>x</im> the subject of the equation <im>y = 2x + 3</im>.</h3>
+<ul>
+<li>Write down the equation:
+<ul>
+<li><im>y = 2x + 3</im></li>
+</ul>
+</li>
+<li>‘Tell a story’ of what has happened to <im>x</im>:
+<ul>
+<li>We started with <im>x</im></li>
+<li>We multiplied by 2.</li>
+<li>We added 3.</li>
+<li>We ended up with <im>y</im>.</li>
+</ul>
+</li>
+<li>Tell the story in reverse:
+<ul>
+<li>We start with <im>y</im>.</li>
+<li>We <strong>subtract</strong> 3.</li>
+<li>We <strong>divide</strong> by 2.</li>
+<li>We end up with <im>x</im>.</li>
+</ul>
+</li>
+<li>Subtract 3 from both sides:
+<ul>
+<li><im>y - 3 = 2x</im></li>
+</ul>
+</li>
+<li>Divide both sides by 2:
+<ul>
+<li><im>\frac{y - 3}{2} = x</im></li>
+</ul>
+</li>
+<li>Write the final answer:
+<ul>
+<li><im>x = \frac{y - 3}{2}</im></li>
+</ul>
+</li>
+</ul>
+<h3>Example: Make <im>V</im> the subject of the equation <im>P = IV</im>.</h3>
+<ul>
+<li>
+<p>Write down the equation:</p>
+<ul>
+<li><im>P = IV</im></li>
+</ul>
+</li>
+<li>
+<p>‘Tell a story’ of what has happened to <im>V</im>:</p>
+<ul>
+<li>We started with <im>V</im>.</li>
+<li>We multiplied by <im>I</im>.</li>
+<li>We ended up with <im>P</im>.</li>
+</ul>
+</li>
+<li>
+<p>Tell the story in reverse:</p>
+<ul>
+<li>We start with <im>P</im>.</li>
+<li>We <strong>divide</strong> by <im>I</im>.</li>
+<li>We end up with <im>V</im>.</li>
+</ul>
+</li>
+<li>
+<p>Divide both sides by <im>I</im>:</p>
+<ul>
+<li><im>\frac{P}{I} = V</im></li>
+</ul>
+</li>
+<li>
+<p>Write the final answer:</p>
+<ul>
+<li><im>V = \frac{P}{I}</im></li>
+</ul>
+<h2>More complex, non-linear rearrangements</h2>
+<h3>Example: Make <im>v</im> the subject of the equation <im>E = \frac{1}{2}mv^2</im>.</h3>
+</li>
+<li>
+<p>Write down the equation:</p>
+<ul>
+<li><im>E = \frac{1}{2}mv^2</im></li>
+</ul>
+</li>
+<li>
+<p>‘Tell a story’ of what has happened to <im>v</im>:</p>
+<ul>
+<li>We started with <im>v</im>.</li>
+<li>We squared it.</li>
+<li>We multiplied by <im>m</im>.</li>
+<li>We multiplied by <im>\frac{1}{2}</im>.</li>
+<li>We ended up with <im>E</im>.</li>
+</ul>
+</li>
+<li>
+<p>Tell the story in reverse:</p>
+<ul>
+<li>We start with <im>E</im>.</li>
+<li>We <strong>multiply</strong> by 2.</li>
+<li>We <strong>divide</strong> by <im>m</im>.</li>
+<li>We <strong>take the square root</strong>.</li>
+<li>We end up with <im>v</im>.</li>
+</ul>
+</li>
+<li>
+<p>Multiply both sides by 2:</p>
+<ul>
+<li><im>2E = mv^2</im></li>
+</ul>
+</li>
+<li>
+<p>Divide both sides by <im>m</im>:</p>
+<ul>
+<li><im>\frac{2E}{m} = v^2</im></li>
+</ul>
+</li>
+<li>
+<p>Take the square root of both sides:</p>
+<ul>
+<li><im>v = \sqrt{\frac{2E}{m}}</im></li>
+</ul>
+</li>
+<li>
+<p>Write the final answer:</p>
+<ul>
+<li><im>v = \sqrt{\frac{2E}{m}}</im></li>
+</ul>
+</li>
+</ul>
+<h3>Example: Make <im>q</im> the subject of the equation <im>V = \frac{E}{2q}</im>.</h3>
+<ul>
+<li>Write down the equation:
+<ul>
+<li><im>V = \frac{E}{2q}</im></li>
+</ul>
+</li>
+<li>‘Tell a story’ of what has happened to <im>q</im>:
+<ul>
+<li>We started with <im>q</im>.</li>
+<li>We multiplied by 2.</li>
+<li>We divided <im>E</im> by that result.</li>
+<li>We ended up with <im>V</im>.</li>
+</ul>
+</li>
+<li>Tell the story in reverse:
+<ul>
+<li>We start with <im>V</im>.</li>
+<li>We <strong>divide</strong> <im>E</im> by <im>V</im>.</li>
+<li>We <strong>divide</strong> by 2.</li>
+<li>We end up with <im>q</im>.</li>
+</ul>
+</li>
+<li>Multiply both sides by <im>2q</im>:
+<ul>
+<li><im>2qV = E</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>V</im>:
+<ul>
+<li><im>2q = \frac{E}{V}</im></li>
+</ul>
+</li>
+<li>Divide both sides by 2:
+<ul>
+<li><im>q = \frac{E}{2V}</im></li>
+</ul>
+</li>
+<li>Write the final answer:
+<ul>
+<li><im>q = \frac{E}{2V}</im></li>
+</ul>
+</li>
+</ul>
+<h2>What if the term we want is on both sides?</h2>
+<blockquote>
+<p>TODO</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

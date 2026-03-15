@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sine-cosine square identity</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Sine-cosine square identity</h1>
+<p>One trigonometric identity states that for any angle <im>\theta</im>:</p>
+<p><ma>
+\sin^2(\theta) + \cos^2(\theta) \equiv 1
+</ma></p>
+<h2>Proof</h2>
+<p>For a <em>unit triangle</em> (one where the hypotenuse has length 1), the lengths of
+the two other sides correspond to the sine and cosine of the angle <im>\theta</im>.</p>
+<p>In other words, the side <strong>opposite</strong> to angle <im>\theta</im> has length
+<im>\sin(\theta)</im>, and the side <strong>adjacent</strong> to angle <im>\theta</im> has length
+<im>\cos(\theta)</im>.</p>
+<p>From the pythagorean theorem, we know that for any right triangle with sides of
+lengths <im>a</im> and <im>b</im>, and hypotenuse of length <im>c</im>:</p>
+<p><ma>
+a^2 + b^2 \equiv c^2
+</ma></p>
+<p>In this case:</p>
+<ul>
+<li><im>a = \sin(\theta)</im></li>
+<li><im>b = \cos(\theta)</im></li>
+<li><im>c = 1</im></li>
+</ul>
+<p>So we can substitute these values into the pythagorean theorem!</p>
+<p><ma>
+(\sin(\theta))^2 + (\cos(\theta))^2 \equiv 1^2
+</ma></p>
+<p>which is otherwise written as:</p>
+<p><ma>
+\sin^2(\theta) + \cos^2(\theta) \equiv 1
+</ma></p>
+<h2>Finding missing values</h2>
+<h3>Given that <im>\sin(\theta) = 0.6</im>, find <im>\cos(\theta)</im></h3>
+<ul>
+<li><im>\sin^2(\theta) + \cos^2(\theta) \equiv 1</im></li>
+<li><im>(0.6)^2 + \cos^2(\theta) = 1</im></li>
+<li><im>0.36 + \cos^2(\theta) = 1</im></li>
+<li><im>\cos^2(\theta) = 1 - 0.36</im></li>
+<li><im>\cos^2(\theta) = 0.64</im></li>
+<li><im>\cos(\theta) = \pm\sqrt{0.64}</im></li>
+<li><im>\cos(\theta) = \pm0.8</im></li>
+</ul>
+<h3>Given that <im>\cos(\theta) = -0.5</im>, find <im>\sin(\theta)</im></h3>
+<ul>
+<li><im>\sin^2(\theta) + \cos^2(\theta) \equiv 1</im></li>
+<li><im>\sin^2(\theta) + (-0.5)^2 = 1</im></li>
+<li><im>\sin^2(\theta) + 0.25 = 1</im></li>
+<li><im>\sin^2(\theta) = 1 - 0.25</im></li>
+<li><im>\sin^2(\theta) = 0.75</im></li>
+<li><im>\sin(\theta) = \pm\sqrt{0.75}</im></li>
+<li><im>\sin(\theta) = \pm\frac{\sqrt{3}}{2}</im></li>
+</ul>
+<h3>Given that <im>\sin(\theta) = -\frac{3}{5}</im>, find <im>\cos(\theta)</im></h3>
+<ul>
+<li><im>\sin^2(\theta) + \cos^2(\theta) \equiv 1</im></li>
+<li><im>\left(-\frac{3}{5}\right)^2 + \cos^2(\theta) = 1</im></li>
+<li><im>\frac{9}{25} + \cos^2(\theta) = 1</im></li>
+<li><im>\cos^2(\theta) = 1 - \frac{9}{25}</im></li>
+<li><im>\cos^2(\theta) = \frac{16}{25}</im></li>
+<li><im>\cos(\theta) = \pm\sqrt{\frac{16}{25}}</im></li>
+<li><im>\cos(\theta) = \pm\frac{4}{5}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

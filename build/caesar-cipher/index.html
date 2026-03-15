@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caesar cipher</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Caesar cipher</h1>
+<p>A <em>Caesar cipher</em> is a super simple type of <a href="/cipher">cipher</a> where we shift the
+letters of the alphabet by a certain number of places. For example, if we shift
+by 3, then A becomes D, B becomes E, C becomes F, and so on.</p>
+<h2>Mathematical function</h2>
+<p><ma>
+E(x) = (x + k) \mod 26
+</ma></p>
+<ul>
+<li><im>E(x)</im> is the encryption function, which takes a letter (represented as a
+number from 0 to 25) and produces the ciphertext letter.</li>
+<li><im>x</im> is the plaintext letter, represented as a number from 0 to 25 (where A=0,
+B=1, …, Z=25).</li>
+<li><im>k</im> is the key, which is the number of positions we shift the letters by. It
+can be any whole number from 0 to 25.</li>
+</ul>
+<h2>Decryption function</h2>
+<p>To decrypt a message encrypted with a Caesar cipher, we can use this:</p>
+<p><ma>
+D(y) = (y - k) \mod 26
+</ma></p>
+<p>As you can see, all we do is <em>subtract</em> the key from the encrypted character, to
+find the plaintext letter.</p>
+<h2>Why is it so easy to crack?</h2>
+<p>The Caesar cipher isn’t used in any real encryption schemas, because it’s so
+insecure. The main reasons for that are:</p>
+<ul>
+<li>There are only 26 possible keys (shifts), so an attacker can easily try all of
+them to see which one produces a readable message.</li>
+<li>It doesn’t change the frequency of letters, so if you analyze the frequency of
+letters in the ciphertext, you can easily guess the key by looking at the most
+common letters (e.g., if ‘G’ is the most common letter in the ciphertext, it’s
+likely that the key is 2, as ‘E’ is the most common letter in English text,
+so shifting back by 2 would give you ‘E’ as the most common).</li>
+</ul>
+<h2>Examples</h2>
+<h3>Encrypt the text “HELLO” with a pad (key) of 3</h3>
+<p>We can first write out a table of the letters and their corresponding encrypted
+form:</p>
+<pre><code>Plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Cipher: DEFGHIJKLMNOPQRSTUVWXYZABC
+</code></pre>
+<p>Then we can encrypt each letter of “HELLO”:</p>
+<ul>
+<li>H (7) becomes K (10)</li>
+<li>E (4) becomes H (7)</li>
+<li>L (11) becomes O (14)</li>
+<li>L (11) becomes O (14)</li>
+<li>O (14) becomes R (17)</li>
+</ul>
+<p>So our final encrypted message is “KHOOR”.</p>
+<p><em>You may already be able to see an issue - we can immediately see there is a
+double letter in the 3rd and 4th positions of the word, which may help us crack
+the cipher!</em></p>
+<h3>Decrypt the text “KHOOR” with a pad (key) of 3</h3>
+<p>Obviously, we know what our answer will be, but let’s go through the decryption
+process to check it works!</p>
+<p>With a pad of 3, we can get from the encrypted letter to the plaintext letter by
+subtracting 3 from the encrypted letter’s position in the alphabet:</p>
+<pre><code>Cipher: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Plain:  DEFGHIJKLMNOPQRSTUVWXYZABC
+</code></pre>
+<p>Then we can decrypt each letter of “KHOOR”:</p>
+<ul>
+<li>K (10) becomes H (7)</li>
+<li>H (7) becomes E (4)</li>
+<li>O (14) becomes L (11)</li>
+<li>O (14) becomes L (11)</li>
+<li>R (17) becomes O (14)</li>
+</ul>
+<p>So our final decrypted message is “HELLO”, which is what we started with!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

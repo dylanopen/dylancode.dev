@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exponential function gradient</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Exponential function gradient</h1>
+<p>The <em>gradient</em> of an exponential graph at any point is directly proportional to
+the value of the function at that point (or the <im>y</im> coordinate of the graph).</p>
+<p>This can be written as:</p>
+<p><ma>
+\frac{dy}{dx} = ky
+</ma></p>
+<h2>Gradient of <im>e^x</im></h2>
+<p>The graph of <im>y=e^x</im> has an interesting property - its gradient at any point is
+identical to the <im>y</im> coordinate of that point.</p>
+<p>For example, at <im>x=4</im>, the point on the graph is <im>(4, e^4)</im>. The gradient at
+this point is also <im>e^4</im>.</p>
+<p>This can be written as:</p>
+<p><ma>
+\frac{dy}{dx} e^x = e^x
+</ma></p>
+<blockquote>
+<p>Reminder: this ONLY works for base <im>e</im>. Other bases will have different
+gradients to their <im>y</im> values.</p>
+</blockquote>
+<h2>Gradient of <im>e^{kx}</im></h2>
+<p>When we have an exponential function with a coefficient in the exponent, i.e.
+<im>y=e^{kx}</im>, the gradient is proportional to both the value of the function and
+the coefficient <im>k</im>.</p>
+<p>We can write this as:</p>
+<p><ma>
+\frac{dy}{dx} e^{kx} = k e^{kx}
+</ma></p>
+<p>For example, for the function <im>y=e^{3x}</im>, the gradient at any point is 3
+times the <im>y</im> value at that point.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

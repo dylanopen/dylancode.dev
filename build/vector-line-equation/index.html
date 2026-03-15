@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vector line equation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Vector line equation</h1>
+<p>As well as being able to represent a line in cartesian form (e.g. <im>y = mx + c</im>),
+we can also represent a line using vectors.</p>
+<h2>Equation of a line in vector form</h2>
+<p><ma>
+\vec r = \vec a + \lambda \vec d
+</ma></p>
+<h2>Finding the vectors between points</h2>
+<p>The first step to finding the equation of a line using vectors is to find the
+vectors between all points.</p>
+<h3>Find the vector between the point <im>A=(-2,4)</im> and <im>B=(3,7)</im></h3>
+<ul>
+<li><im>\vec a=\pmatrix{-2\\4}</im></li>
+<li><im>\vec b=\pmatrix{3\\7}</im></li>
+<li><im>\vec{AB}=\vec b - \vec a</im>
+<ul>
+<li><im>=\pmatrix{3\\7} - \pmatrix{-2\\4}</im></li>
+<li><im>=\pmatrix{5\\3}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\vec{AB}=\pmatrix{5\\3}</im></li>
+</ul>
+<h3>Find ALL vectors between the points <im>A=(1,2,3)</im>, <im>B=(4,0,5)</im> and <im>C=(2,6,1)</im></h3>
+<ul>
+<li><im>\vec a=\pmatrix{1\\2\\3}</im></li>
+<li><im>\vec b=\pmatrix{4\\0\\5}</im></li>
+<li><im>\vec c=\pmatrix{2\\6\\1}</im></li>
+<li><im>\vec{AB}=\vec b - \vec a</im>
+<ul>
+<li><im>=\pmatrix{4\\0\\5} - \pmatrix{1\\2\\3}</im></li>
+<li><im>=\pmatrix{3\\-2\\2}</im></li>
+</ul>
+</li>
+<li><im>\vec{AC}=\vec c - \vec a</im>
+<ul>
+<li><im>=\pmatrix{2\\6\\1} - \pmatrix{1\\2\\3}</im></li>
+<li><im>=\pmatrix{1\\4\\-2}</im></li>
+</ul>
+</li>
+<li><im>\vec{BC}=\vec c - \vec b</im>
+<ul>
+<li><im>=\pmatrix{2\\6\\1} - \pmatrix{4\\0\\5}</im></li>
+<li><im>=\pmatrix{-2\\6\\-4}</im></li>
+</ul>
+</li>
+<li><strong>Answers</strong>:
+<ul>
+<li><im>\vec{AB}=\pmatrix{3\\-2\\2}</im></li>
+<li><im>\vec{AC}=\pmatrix{1\\4\\-2}</im></li>
+<li><im>\vec{BC}=\pmatrix{-2\\6\\-4}</im></li>
+</ul>
+</li>
+</ul>
+<h2>Finding the vector equation from points</h2>
+<h3>Find a vector equation of the line between the points <im>(2,3)</im> and <im>(5,1)</im></h3>
+<ul>
+<li>Let <im>\vec a</im> be the position vector of <im>A</im> from the origin:
+<ul>
+<li><im>\vec A = \pmatrix{2 \\ 3}</im></li>
+</ul>
+</li>
+<li><im>\vec{AB} = \vec B - \vec A</im>
+<ul>
+<li><im>= \pmatrix{5 \\ 1} - \pmatrix{2 \\ 3}</im></li>
+<li><im>= \pmatrix{3 \\ -2}</im></li>
+</ul>
+</li>
+<li>So the <strong>direction</strong> vector is <im>\pmatrix{3 \\ -2}</im>.</li>
+<li>Equation of a line:
+<ul>
+<li><im>\vec r = \vec a + \lambda \vec d</im></li>
+<li><im>= \pmatrix{ 2 \\ 3 } + \lambda \pmatrix{ 3 \\ -2 }</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\vec r = \pmatrix{ 2 \\ 3 } + \lambda \pmatrix{ 3 \\ -2 }</im></li>
+</ul>
+<blockquote>
+<p>Note: there are multiple solutions to this line equation from the points
+given. We can find other ones by using different vectors (e.g. using
+<im>\vec{OB}</im> instead of <im>\vec{OA}</im>).</p>
+</blockquote>
+<h3>Find a vector equation of the line between the points <im>(1,0,2)</im> and <im>(4,6,5)</im></h3>
+<ul>
+<li>Let <im>\vec a</im> be the position vector of <im>A</im> from the origin:
+<ul>
+<li><im>\vec A = \pmatrix{1 \\ 0 \\ 2}</im></li>
+</ul>
+</li>
+<li><im>\vec{AB} = \vec B - \vec A</im>
+<ul>
+<li><im>= \pmatrix{4 \\ 6 \\ 5} - \pmatrix{1 \\ 0 \\ 2}</im></li>
+<li><im>= \pmatrix{3 \\ 6 \\ 3}</im></li>
+</ul>
+</li>
+<li>So the <strong>direction</strong> vector is <im>\pmatrix{3 \\ 6 \\ 3}</im>, which we can simplify
+to <im>\pmatrix{1 \\ 2 \\ 1}</im> (because it’s just a direction and the magnitude is
+not important here).</li>
+<li>Equation of a line:
+<ul>
+<li><im>\vec r = \vec a + \lambda \vec d</im></li>
+<li><im>= \pmatrix{ 1 \\ 0 \\ 2 } + \lambda \pmatrix{ 1 \\ 2 \\ 1 }</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\vec r = \pmatrix{ 1 \\ 0 \\ 2 } + \lambda \pmatrix{ 1 \\ 2 \\ 1 }</im></li>
+</ul>
+<blockquote>
+<p>Note: there are multiple solutions to this line equation from the points
+given. We can find other ones by using different vectors (e.g. using
+<im>\vec{OB}</im> instead of <im>\vec{OA}</im>).</p>
+</blockquote>
+<h3>Find a vector equation of the line between the points <im>(-2,4)</im> and <im>(1,-2)</im></h3>
+<ul>
+<li>Let <im>\vec a</im> be the position vector of <im>A</im> from the origin:
+<ul>
+<li><im>\vec A = \pmatrix{-2 \\ 4}</im></li>
+</ul>
+</li>
+<li><im>\vec{AB} = \vec B - \vec A</im>
+<ul>
+<li><im>= \pmatrix{1 \\ -2} - \pmatrix{-2 \\ 4}</im></li>
+<li><im>= \pmatrix{3 \\ -6}</im></li>
+</ul>
+</li>
+<li>So the <strong>direction</strong> vector is <im>\pmatrix{3 \\ -6}</im>, which we can simplify
+to <im>\pmatrix{1 \\ -2}</im> (because it’s just a direction and the magnitude is
+not important here).</li>
+<li>Equation of a line:
+<ul>
+<li><im>\vec r = \vec a + \lambda \vec d</im></li>
+<li><im>= \pmatrix{ -2 \\ 4 } + \lambda \pmatrix{ 1 \\ -2 }</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\vec r = \pmatrix{ -2 \\ 4 } + \lambda \pmatrix{ 1 \\ -2 }</im></li>
+</ul>
+<h2>More complex exam-style questions</h2>
+<h3><im>A</im> is the point <im>(3,1,4)</im> and <im>AQ=18</im>. Find <im>Q</im> if <im>A</im> and <im>Q</im> are on the line <im>r=\pmatrix{1 \\ 2 \\ 3} + \lambda \pmatrix{4 \\ -2 \\ -4}</im></h3>
+<ul>
+<li>Find the length of vector <im>\pmatrix{4 \\ -2 \\ -4}</im>:
+<ul>
+<li><im>|\vec{d}| = \sqrt{4^2 + (-2)^2 + (-4)^2} = \pm\sqrt{16 + 4 + 16} = \pm\sqrt{36} = \pm6</im></li>
+<li><im>\lambda\times|\pmatrix{4 \\ -2 \\ -4}|=18</im></li>
+<li><im>\lambda \times \pm6 = 18</im></li>
+<li><im>\lambda = \pm3</im></li>
+</ul>
+</li>
+<li>Find <im>Q</im>:
+<ul>
+<li><im>Q=\pmatrix{1 \\ 2 \\ 3} \pm 3 \pmatrix{4 \\ -2 \\ -4}</im></li>
+<li><im>=\pmatrix{1 \\ 2 \\ 3} \pm \pmatrix{12 \\ -6 \\ -12}</im></li>
+<li><im>=\pmatrix{13 \\ -4 \\ -9}</im> or <im>\pmatrix{-11 \\ 8 \\ 15}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>Q=\pmatrix{13 \\ -4 \\ -9}</im> or <im>Q=\pmatrix{-11 \\ 8 \\ 15}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

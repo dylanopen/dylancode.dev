@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boolean distributivity</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Boolean distributivity</h1>
+<h2>Distributivity of OR</h2>
+<p>The <strong>distributive law</strong> of boolean ORing says whenever we have an expression
+of the form <im>A \cdot (B + C)</im>, we can distribute the AND over the OR to get
+<im>A \cdot B + A \cdot C</im>.</p>
+<blockquote>
+<p><im>A \cdot (B + C) = A \cdot B + A \cdot C</im></p>
+</blockquote>
+<p>This is because the AND operation requires both sides to be true for the result
+to be true, so for <im>A \cdot (B + C)</im> to be true, we need <im>A</im> to be true and
+either <im>B</im> or <im>C</im> to be true, which is the same as saying we need <im>A</im> and <im>B</im>
+to be true or <im>A</im> and <im>C</im> to be true, which is what <im>A \cdot B + A \cdot C</im>
+says.</p>
+<p>Or, you can just think of it like how you ‘expand brackets’ in maths, it works
+basically the same way.</p>
+<p>This also works the other way around, we can factor out the <im>A</im> from <im>A \cdot
+B + A \cdot C</im> to get <im>A \cdot (B + C)</im>.</p>
+<blockquote>
+<p><im>A \cdot B + A \cdot C = A \cdot (B + C)</im></p>
+</blockquote>
+<p>The important thing is that we recognise the <im>A \cdot</im> is common in both of the
+terms which are ORed together, so that’s what goes on the outside of the
+brackets. This is the same as how we factorise in maths.</p>
+<p>We put the <im>+</im> inside the brackets because, when we take away the two <im>A \cdot</im>
+from the two terms, we are left with <im>B+C</im>. That goes inside the brackets, again,
+just like in normal factorising.</p>
+<p>This also works for more than 2 terms, for example:</p>
+<blockquote>
+<p><im>A \cdot (B + C + D) = A \cdot B + A \cdot C + A \cdot D</im></p>
+</blockquote>
+<h2>Distributivity of AND</h2>
+<p>We can also distribute a slightly different way, more similar to how we would
+expand and factorise <em>double brackets</em>.</p>
+<blockquote>
+<p><im>A + (B \cdot C) = (A + B) \cdot (A + C)</im></p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

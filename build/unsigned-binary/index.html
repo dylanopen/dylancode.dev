@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unsigned binary</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Unsigned binary</h1>
+<p>An <em>unsigned binary number</em> is simply a binary number that can only represent
+non-negative values (i.e., zero and positive integers).</p>
+<p>We can say that <em>all bits are used to represent the magnitude of the number</em>.</p>
+<h2>Range of values</h2>
+<p>In an unsigned 3-bit binary number, for example, the possible values are:</p>
+<ul>
+<li>000 (0 in decimal)</li>
+<li>001 (1 in decimal)</li>
+<li>010 (2 in decimal)</li>
+<li>011 (3 in decimal)</li>
+<li>100 (4 in decimal)</li>
+<li>101 (5 in decimal)</li>
+<li>110 (6 in decimal)</li>
+<li>111 (7 in decimal)</li>
+</ul>
+<p>We can see that an unsigned 3-bit binary number can represent values from 0 to
+7. We can calculate the maximum value of an unsigned binary number with <im>n</im> bits
+using the formula:</p>
+<p><ma>
+\text{maximum value} = 2^n - 1
+</ma></p>
+<p>For example, for an unsigned 5-bit binary number, the maximum value is
+<im>2^5 - 1 = 31</im>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

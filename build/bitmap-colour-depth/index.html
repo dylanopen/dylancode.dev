@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bitmap colour depth</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Bitmap colour depth</h1>
+<p>Because a bitmap image is really just a long string of 1s and 0s, it has no idea
+about the concept of colour.</p>
+<p>We <em>could</em> store each colour as 24 bits (or 32 bits if we need transparency).<br />
+That <em>would</em> allow us to store pretty much any colour, <em>but</em> it does mean that
+images which only use a few colours would take up a lot more storage than they
+need to.</p>
+<p>To fix this, we can store a <strong>bit depth</strong>, which will tell the program reading
+the image how many bits each pixel’s colour takes up.</p>
+<h2>Example: black and white images</h2>
+<p>If we store a black and white image, there are only two possible colours each
+pixel can have. We can represent a black-and-white image with just 1 bit per
+pixel (a 0 for black and a 1 for white, for example), and so our colour depth
+would be <strong>one bit</strong>.</p>
+<h2>Pre-set colour map</h2>
+<p>Some formats, such as Windows’ BMP bitmap format, have a hard-coded set of
+colours that all bitmaps will use.</p>
+<p>For example, if we store an image in 4 bits, there are only 16 possible colours,
+and these colours <strong>are the same for all bitmap images of that format</strong>.</p>
+<p>This isn’t very good if we want to store colours other than the pre-set map of
+the format’s colours.</p>
+<h2>Stored colour map</h2>
+<p>To fix this, we can use what I like to call a ‘stored colour map’. Instead of
+using the format’s default colour map, we can store a map (like a table) of the
+colour code, alongside the actual colour it makes up.</p>
+<p>That way, if we have a specific colour used in our image, we can replicate
+exactly that colour, while also using fewer bits per pixel.</p>
+<p>This map is stored in the metadata. It might look something like this if we
+visualise it:</p>
+<table><thead><tr><th>Code</th><th>Colour</th></tr></thead><tbody>
+<tr><td>0</td><td>black</td></tr>
+<tr><td>1</td><td>red</td></tr>
+<tr><td>2</td><td>green</td></tr>
+<tr><td>3</td><td>blue</td></tr>
+<tr><td>4</td><td>yellow</td></tr>
+<tr><td>…</td><td>…</td></tr>
+<tr><td>15</td><td>white</td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>

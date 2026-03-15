@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Polynomial division</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Polynomial division</h1>
+<p>Polynomial division is where we take a <em>polynomial</em> (an expression made up of
+only positive whole number powers of <im>x</im>) and divide it by another polynomial.</p>
+<p>For example: <im>\frac{x^2 - 5x + 6}{x - 2}</im>.</p>
+<h2>The grid method</h2>
+<p>Just like how we can use the grid method to multiply polynomials (also known as
+‘expanding brackets’), we can also use it to divide polynomials.</p>
+<h3>Example: Divide <im>x^2 - 5x + 6</im> by <im>x - 2</im> using the grid method</h3>
+<ul>
+<li>Add the thing we are dividing by (<im>x - 2</im>) to the left side of the grid.</li>
+</ul>
+<table><thead><tr><th><im>\times</im></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><im>x</im></td><td></td><td></td><td></td></tr>
+<tr><td><im>-2</im></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<p>We know that we must have an <im>x^2</im> term in the top-left of the main grid area
+(as there will only be one multiplication which makes a term with an <im>x^2</im> in
+it).<br />
+We also know that we have a <im>6</im> in the bottom-right of the main grid area (as
+there will only be one multiplication which makes a term without an <im>x</im> in it).</p>
+<table><thead><tr><th><im>\times</im></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><im>x</im></td><td><im>x^2</im></td><td></td><td></td></tr>
+<tr><td><im>-2</im></td><td></td><td></td><td><im>6</im></td></tr>
+</tbody></table>
+<p>Next, we can fill in the rest of the grid by looking at what terms we need to
+make.</p>
+<blockquote>
+<p>TODO: complete this example</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

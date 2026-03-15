@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text encoding</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Text encoding</h1>
+<p>A really important thing that computers need to do is to be able to represent
+<em>text</em>. Basically every program will use text, or <em>strings</em>, in some way.</p>
+<p>But the only thing that computers really understand is binary. So how do we
+represent text as these binary numbers?</p>
+<h2>Encoding</h2>
+<p>Encoding is essentially when we take our human-readable text, and convert it
+into a format that computers can more easily understand.</p>
+<p>When it comes to <em>text</em> encoding, we’re converting the human-readable letters,
+numbers and symbols into a binary number that the computer can understand.</p>
+<p>For example, the letter “A” might be represented as the binary number <code>01000001</code>,
+or <code>65</code>, in a particular encoding scheme.</p>
+<h2>Encoding schemes</h2>
+<p>Because the ‘A’ will now just be stored as some random number, we need to have
+a way of getting back to the letter ‘A’ from just reading the binary. That’s
+where encoding schemes come in!</p>
+<p>There are (a few) standards which say ‘this character should be represented by
+this number’. So if we see the number <code>65</code>, we can look it up in the encoding
+scheme and find out that it corresponds to the letter ‘A’.</p>
+<h2>Character code</h2>
+<p>I might refer to a ‘character code’ in future chapters. A character code just
+means a number which represents a particular character, in the specific
+encoding scheme we’re using.</p>
+<p>I may say ’The ASCII character code for ‘A’ is 65’, which just means that in the
+ASCII encoding scheme, the letter ‘A’ is represented by the number 65.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

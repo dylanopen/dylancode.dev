@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Solving linear equations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Solving linear equations</h1>
+<p>In order to solve <em>any</em> equation, we need to get the variable we are solving for
+on one side of the equation and everything else on the other side.</p>
+<p>To do this, we follow one simple rule:</p>
+<blockquote>
+<p>Whatever you do to one side of the equation, you must do to the other side.</p>
+</blockquote>
+<p>With that rule in mind, we can just use logic to think ‘what do I need to do in
+order to get the variable on its own?’</p>
+<blockquote>
+<p>Note: for a note explaining how to <em>rearrange</em> equations, see
+<a href="/rearranging-equations">rearranging-equations.md</a>.</p>
+</blockquote>
+<h2>Example questions</h2>
+<h3>Solve for x: <im>2x + 3 = 7</im></h3>
+<ul>
+<li>Subtract <im>3</im> from both sides:
+<ul>
+<li><im>2x + 3 - 3 = 7 - 3</im></li>
+<li><im>2x = 4</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>2</im>:
+<ul>
+<li><im>\frac{2x}{2} = \frac{4}{2}</im></li>
+<li><im>x = 2</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>x = 2</im></li>
+</ul>
+<h3>Solve for y: <im>5y - 10 = 15</im></h3>
+<ul>
+<li>Add <im>10</im> to both sides:
+<ul>
+<li><im>5y - 10 + 10 = 15 + 10</im></li>
+<li><im>5y = 25</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>5</im>:
+<ul>
+<li><im>\frac{5y}{5} = \frac{25}{5}</im></li>
+<li><im>y = 5</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = 5</im></li>
+</ul>
+<h3>Solve for z: <im>3z + 4 = 2z + 9</im></h3>
+<ul>
+<li>Subtract <im>2z</im> from both sides:
+<ul>
+<li><im>3z - 2z + 4 = 2z - 2z + 9</im></li>
+<li><im>z + 4 = 9</im></li>
+</ul>
+</li>
+<li>Subtract <im>4</im> from both sides:
+<ul>
+<li><im>z + 4 - 4 = 9 - 4</im></li>
+<li><im>z = 5</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>z = 5</im></li>
+</ul>
+<h3>Solve for a: <im>\frac{4a}2 + 6 = 10</im></h3>
+<ul>
+<li>Subtract <im>6</im> from both sides:
+<ul>
+<li><im>\frac{4a}2 + 6 - 6 = 10 - 6</im></li>
+<li><im>\frac{4a}2 = 4</im></li>
+</ul>
+</li>
+<li>Multiply both sides by <im>2</im>:
+<ul>
+<li><im>2 \times \frac{4a}2 = 4 \times 2</im></li>
+<li><im>4a = 8</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>4</im>:
+<ul>
+<li><im>\frac{4a}{4} = \frac{8}{4}</im></li>
+<li><im>a = 2</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>a = 2</im></li>
+</ul>
+<h3>Solve for b: <im>7 - 3b = 1 + 2b</im></h3>
+<ul>
+<li>Subtract <im>1</im> from both sides:
+<ul>
+<li><im>7 - 1 - 3b = 1 - 1 + 2b</im></li>
+<li><im>6 - 3b = 2b</im></li>
+</ul>
+</li>
+<li>Add <im>3b</im> to both sides:
+<ul>
+<li><im>6 - 3b + 3b = 2b + 3b</im></li>
+<li><im>6 = 5b</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>5</im>:
+<ul>
+<li><im>\frac{6}{5} = \frac{5b}{5}</im></li>
+<li><im>\frac{6}{5} = b</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>b = \frac{6}{5}</im></li>
+</ul>
+<h3>Solve for c: <im>2(c - 3) + 4 = 10</im></h3>
+<ul>
+<li>Expand the left side:
+<ul>
+<li><im>2c - 6 + 4 = 10</im></li>
+<li><im>2c - 2 = 10</im></li>
+</ul>
+</li>
+<li>Add <im>2</im> to both sides:
+<ul>
+<li><im>2c - 2 + 2 = 10 + 2</im></li>
+<li><im>2c = 12</im></li>
+</ul>
+</li>
+<li>Divide both sides by <im>2</im>:
+<ul>
+<li><im>\frac{2c}{2} = \frac{12}{2}</im></li>
+<li><im>c = 6</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>c = 6</im></li>
+</ul>
+<h3>Solve for d: <im>\frac{d + 2}3 = 5</im></h3>
+<ul>
+<li>Multiply both sides by <im>3</im>:
+<ul>
+<li><im>3 \times \frac{d + 2}3 = 5 \times 3</im></li>
+<li><im>d + 2 = 15</im></li>
+</ul>
+</li>
+<li>Subtract <im>2</im> from both sides:
+<ul>
+<li><im>d + 2 - 2 = 15 - 2</im></li>
+<li><im>d = 13</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>d = 13</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

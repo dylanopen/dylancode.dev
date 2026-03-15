@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adjacency matrix</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Adjacency matrix</h1>
+<p>An <em>adjacency matrix</em> is a way to represent a <a href="/graph">graph</a> using a square
+matrix.</p>
+<p>This is especially useful for representing graphs in computers.</p>
+<h2>Structure of an adjacency matrix</h2>
+<p>An adjacency matrix looks like this:</p>
+<table><thead><tr><th></th><th>V1</th><th>V2</th><th>V3</th></tr></thead><tbody>
+<tr><td>V1</td><td>A</td><td>B</td><td>C</td></tr>
+<tr><td>V2</td><td>D</td><td>E</td><td>F</td></tr>
+<tr><td>V3</td><td>G</td><td>H</td><td>I</td></tr>
+</tbody></table>
+<p>Where:</p>
+<ul>
+<li>The rows and columns represent the <a href="/graph-vertex">vertices</a> of the graph,
+<im>V1</im>, <im>V2</im>, <im>V3</im>, etc.</li>
+<li>The <em>entries</em> in the matrix (A, B, C, etc.) indicate the number of
+<a href="/graph-edge">edges</a> attaching a node to another node.</li>
+</ul>
+<h2>Symmetry</h2>
+<p>In an <em>undirected graph</em>, the adjacency matrix is <em>symmetric</em> along the main
+diagonal (from the top-left to the bottom-right).</p>
+<p>That’s because an edge from vertex <im>V1</im> to vertex <im>V2</im> is the same as an edge
+from <im>V2</im> to <im>V1</im> in an undirected graph.</p>
+<h2>Example 1</h2>
+<p>For the following undirected graph:</p>
+<pre><code>    A
+   / \
+  B---C
+</code></pre>
+<p>The adjacency matrix for this graph would be:</p>
+<table><thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead><tbody>
+<tr><td>A</td><td>0</td><td>1</td><td>1</td></tr>
+<tr><td>B</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>C</td><td>1</td><td>1</td><td>0</td></tr>
+</tbody></table>
+<h2>Example 2</h2>
+<p>For this undirected graph:</p>
+<pre><code>    A
+   / \
+  B===C
+   \
+    D
+</code></pre>
+<p>The adjacency matrix for this graph would be:</p>
+<table><thead><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody>
+<tr><td>A</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>B</td><td>1</td><td>0</td><td>2</td><td>1</td></tr>
+<tr><td>C</td><td>1</td><td>2</td><td>0</td><td>0</td></tr>
+<tr><td>D</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>

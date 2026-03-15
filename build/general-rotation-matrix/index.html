@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>General rotation matrix</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>General rotation matrix</h1>
+<p>In the chapter ‘<a href="/matrix-transformations-about-the-origin">matrix transformations about the origin</a>’,
+we learned how to represent common rotations (i.e. 90 and 180 degrees) about the
+origin.</p>
+<p>Here, we’ll learn how to represent a rotation of <em>any angle</em>.</p>
+<blockquote>
+<p>Note: because all matrix transformations <strong>must</strong> keep the origin at, well,
+the origin. This means that our centre of rotation is always <im>(0,0)</im> when
+working with matrix transformations.</p>
+</blockquote>
+<h2>General rotation matrix</h2>
+<p>A rotation anticlockwise by <im>\theta</im> degrees (an angle) can be written as a
+matrix tranformation:</p>
+<p><ma>
+\begin{pmatrix}
+\cos \theta &amp; -\sin \theta \\
+\sin \theta &amp; \cos \theta
+\end{pmatrix}
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

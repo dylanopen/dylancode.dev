@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Finding unknowns using matrix multiplication</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Finding unknowns using matrix multiplication</h1>
+<h3>Solve for <im>a</im>: <im>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}\begin{bmatrix} a \\ 5 \end{bmatrix} = \begin{bmatrix} 11 \\ 23 \end{bmatrix}</im></h3>
+<ul>
+<li>Expand the left-hand side:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}\begin{bmatrix} a \\ 5 \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 1\times a + 2\times 5 \\ 3\times a + 4\times 5 \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} a + 10 \\ 3a + 20 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Set the resulting matrix equal to the right-hand side:
+<ul>
+<li><im>\begin{bmatrix} a + 10 \\ 3a + 20 \end{bmatrix} = \begin{bmatrix} 11 \\ 23 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Now, we can literally just equate the <em>top</em> elements of the left and
+right-hand matrices, and the <em>bottom</em> elements of the matrices, separately:
+<ul>
+<li><im>a + 10 = 11</im></li>
+<li><im>3a + 20 = 23</im></li>
+</ul>
+</li>
+<li>Solving the first equation for <im>a</im>:
+<ul>
+<li><im>a = 11 - 10</im></li>
+<li><im>a = 1</im></li>
+</ul>
+</li>
+<li>Solving the second equation for <im>a</im>:
+<ul>
+<li><im>3a = 23 - 20</im></li>
+<li><im>3a = 3</im></li>
+<li><im>a = 1</im></li>
+</ul>
+</li>
+<li>Both equations give us the same value for <im>a</im>, so we can be pretty sure our
+answer is correct.</li>
+<li><strong>Answer</strong>: <im>a = 1</im></li>
+</ul>
+<h3>Solve for <im>x</im> and <im>y</im>: <im>\begin{bmatrix} 2 &amp; 3 \\ 4 &amp; 5 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 16 \\ 36 \end{bmatrix}</im></h3>
+<ul>
+<li>Expand the left-hand side:
+<ul>
+<li><im>\begin{bmatrix} 2 &amp; 3 \\ 4 &amp; 5 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 2\times x + 3\times y \\ 4\times x + 5\times y \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 2x + 3y \\ 4x + 5y \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Set the resulting matrix equal to the right-hand side:
+<ul>
+<li><im>\begin{bmatrix} 2x + 3y \\ 4x + 5y \end{bmatrix} = \begin{bmatrix} 16 \\ 36 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Now, we can equate the <em>top</em> elements of the left and right-hand matrices, and the <em>bottom</em> elements of the matrices, separately:
+<ul>
+<li><im>2x + 3y = 16</im></li>
+<li><im>4x + 5y = 36</im></li>
+</ul>
+</li>
+<li>Ah, they’re simultaneous equations! We can solve them using whatever method
+you like. Here’s <em>substitution</em>, as we know it always works no matter the
+numbers:
+<ul>
+<li>Rearrange <im>2x + 3y = 16</im>:
+<ul>
+<li><im>2x = 16 - 3y</im></li>
+<li><im>x = \frac{16 - 3y}{2}</im></li>
+</ul>
+</li>
+<li>Substitute that value for <im>x</im> into the second equation:
+<ul>
+<li><im>4\left(\frac{16 - 3y}{2}\right) + 5y = 36</im></li>
+<li><im>2(16 - 3y) + 5y = 36</im></li>
+<li><im>32 - 6y + 5y = 36</im></li>
+<li><im>32 - y = 36</im></li>
+<li><im>-y = 36 - 32</im></li>
+<li><im>-y = 4</im></li>
+<li><im>y = -4</im></li>
+</ul>
+</li>
+<li>Substitute that value for <im>y</im> back into the rearranged first equation:
+<ul>
+<li><im>x = \frac{16 - 3(-4)}{2}</im></li>
+<li><im>x = \frac{16 + 12}{2}</im></li>
+<li><im>x = \frac{28}{2}</im></li>
+<li><im>x = 14</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>x = 14</im> and <im>y = -4</im></li>
+</ul>
+<h3>Solve for <im>k</im> and <im>c</im>: <im>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}\begin{bmatrix} 2k &amp; 3k \\ 4c &amp; 5c \end{bmatrix} = \begin{bmatrix} 40 &amp; 54 \\ 96 &amp; 132 \end{bmatrix}</im></h3>
+<ul>
+<li>Expand the left-hand side:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}\begin{bmatrix} 2k &amp; 3k \\ 4c &amp; 5c \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 1\times 2k + 2\times 4c &amp; 1\times 3k + 2\times 5c \\ 3\times 2k + 4\times 4c &amp; 3\times 3k + 4\times 5c \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 2k + 8c &amp; 3k + 10c \\ 6k + 16c &amp; 9k + 20c \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Set the resulting matrix equal to the right-hand side:
+<ul>
+<li><im>\begin{bmatrix} 2k + 8c &amp; 3k + 10c \\ 6k + 16c &amp; 9k + 20c \end{bmatrix} = \begin{bmatrix} 40 &amp; 54 \\ 96 &amp; 132 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Now, we can equate the <em>top-left</em> elements of the left and right-hand matrices, the <em>top-right</em> elements of the matrices, the <em>bottom-left</em> elements of the matrices, and the <em>bottom-right</em> elements of the matrices, separately:
+<ul>
+<li><im>2k + 8c = 40</im></li>
+<li><im>3k + 10c = 54</im></li>
+<li><im>6k + 16c = 96</im></li>
+<li><im>9k + 20c = 132</im></li>
+</ul>
+</li>
+<li>We can rearrange the first two equations to express <im>k</im> in terms of <im>c</im>:
+<ul>
+<li><im>2k = 40 - 8c</im></li>
+<li><im>k = \frac{40 - 8c}{2}</im></li>
+<li><im>3k = 54 - 10c</im></li>
+<li><im>k = \frac{54 - 10c}{3}</im></li>
+</ul>
+</li>
+<li>Set those two expressions for <im>k</im> equal to each other:
+<ul>
+<li><im>\frac{40 - 8c}{2} = \frac{54 - 10c}{3}</im></li>
+<li><im>3(40 - 8c) = 2(54 - 10c)</im></li>
+<li><im>120 - 24c = 108 - 20c</im></li>
+<li><im>120 - 108 = -20c + 24c</im></li>
+<li><im>12 = 4c</im></li>
+<li><im>c = \frac{12}{4}</im></li>
+<li><im>c = 3</im></li>
+</ul>
+</li>
+<li>Substitute that value for <im>c</im> back into one of the rearranged equations to find <im>k</im>:
+<ul>
+<li><im>k = \frac{40 - 8(3)}{2}</im></li>
+<li><im>k = \frac{40 - 24}{2}</im></li>
+<li><im>k = \frac{16}{2}</im></li>
+<li><im>k = 8</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>k = 8</im> and <im>c = 3</im></li>
+</ul>
+<h3>Solve for <im>a</im>, <im>b</im> and <im>c</im>: <im>\begin{bmatrix} 1 &amp; 0 &amp; 2 \\ 0 &amp; 1 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{bmatrix}\begin{bmatrix} a \\ b \\ c \end{bmatrix} = \begin{bmatrix} 14 \\ 21 \\ 76 \end{bmatrix}</im></h3>
+<ul>
+<li>Expand the left-hand side:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; 0 &amp; 2 \\ 0 &amp; 1 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{bmatrix}\begin{bmatrix} a \\ b \\ c \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} 1\times a + 0\times b + 2\times c \\ 0\times a + 1\times b + 3\times c \\ 4\times a + 5\times b + 6\times c \end{bmatrix}</im></li>
+<li><im>= \begin{bmatrix} a + 2c \\ b + 3c \\ 4a + 5b + 6c \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Set the resulting matrix equal to the right-hand side:
+<ul>
+<li><im>\begin{bmatrix} a + 2c \\ b + 3c \\ 4a + 5b + 6c \end{bmatrix} = \begin{bmatrix} 14 \\ 21 \\ 76 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>Now, we can equate the <em>top</em> elements of the left and right-hand matrices, the <em>middle</em> elements of the matrices, and the <em>bottom</em> elements of the matrices, separately:
+<ul>
+<li><im>a + 2c = 14</im></li>
+<li><im>b + 3c = 21</im></li>
+<li><im>4a + 5b + 6c = 76</im></li>
+</ul>
+</li>
+<li>We can rearrange the first two equations to express <im>a</im> and <im>b</im> in terms of <im>c</im>:
+<ul>
+<li><im>a = 14 - 2c</im></li>
+<li><im>b = 21 - 3c</im></li>
+</ul>
+</li>
+<li>Substitute those values for <im>a</im> and <im>b</im> into the third equation:
+<ul>
+<li><im>4(14 - 2c) + 5(21 - 3c) + 6c = 76</im></li>
+<li><im>56 - 8c + 105 - 15c + 6c = 76</im></li>
+<li><im>161 - 17c = 76</im></li>
+<li><im>-17c = 76 - 161</im></li>
+<li><im>-17c = -85</im></li>
+<li><im>c = \frac{-85}{-17}</im></li>
+<li><im>c = 5</im></li>
+</ul>
+</li>
+<li>Substitute that value for <im>c</im> back into the rearranged first two equations:
+<ul>
+<li><im>a = 14 - 2(5) = 14 - 10 = 4</im></li>
+<li><im>b = 21 - 3(5) = 21 - 15 = 6</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>a = 4</im>, <im>b = 6</im> and <im>c = 5</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

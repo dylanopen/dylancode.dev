@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculating the number of electrons</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Calculating the number of electrons</h1>
+<p>When calculating the number of electrons, you’re really calculating the <em>charge</em>
+(because charge is just a multiple of the number of electrons).</p>
+<h2>Charge of a single electron</h2>
+<p>The charge of a single electron is about <im>-1.60\times 10^{-19}</im> coulombs.</p>
+<p>Similarly a coulomb has the same charge as <im>6.25\times 10^{18}</im> electrons.</p>
+<h2>Equation for the number of electrons in a charge</h2>
+<p><ma>
+n=\frac Qe
+</ma></p>
+<p>Where:</p>
+<ul>
+<li><im>n</im> is the number of electrons</li>
+<li><im>Q</im> is the total charge in coulombs</li>
+<li><im>e</im> is the charge of a single electron (<im>1.60\times 10^{-19}C</im>)</li>
+</ul>
+<h2>Example: if <im>0.032C</im> flows into a motoro in <im>0.20s</im>, calculate the current flow</h2>
+<ul>
+<li><im>Q=It</im></li>
+<li><im>0.032C=I\times 0.20s</im></li>
+<li><im>I=\frac{0.032C}{0.20s}</im></li>
+<li><im>I=0.16A</im></li>
+</ul>
+<h2>Estimate the number of electrons flowing in <im>20s</im> if a current of <im>25mA</im> flows</h2>
+<ul>
+<li><im>I=25mA=0.025A</im></li>
+<li><im>t=20s</im></li>
+<li><im>Q=It</im></li>
+<li><im>Q=0.025A\times 20s</im></li>
+<li><im>Q=0.50C</im></li>
+<li><im>n=\frac Qe</im></li>
+<li><im>n=\frac{0.50C}{1.60\times 10^{-19}C}</im></li>
+<li><im>n=3.1\times 10^{18}</im> electrons</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

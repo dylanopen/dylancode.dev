@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matrix transformations about the origin</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Matrix transformations about the origin</h1>
+<h2>Reflection in the x-axis</h2>
+<p>We can represent a reflection in the x-axis using the matrix:</p>
+<p><ma>
+\pmatrix{1 &amp; 0\\0 &amp; -1}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{1 &amp; 0\\0 &amp; -1}</im></li>
+</ul>
+<h2>Reflection in the y-axis</h2>
+<p>We can represent a reflection in the y-axis using the matrix:</p>
+<p><ma>
+\pmatrix{-1 &amp; 0\\0 &amp; 1}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{-1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{-1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{-1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{-1 &amp; 0\\0 &amp; 1}</im></li>
+</ul>
+<h2>Reflection in the line y = x</h2>
+<p>We can represent a reflection in the line <im>y = x</im> using the matrix:</p>
+<p><ma>
+\pmatrix{0 &amp; 1\\1 &amp; 0}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{0&amp;1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{0&amp;1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{0&amp;1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: $\pmatrix{0 &amp; 1\1 &amp; 0}</li>
+</ul>
+<h2>Reflection in the line y = -x</h2>
+<p>We can represent a reflection in the line <im>y = -x</im> using the matrix:</p>
+<p><ma>
+\pmatrix{0 &amp; -1\\-1 &amp; 0}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{0&amp;-1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{0&amp;-1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{0&amp;-1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{0 &amp; -1\\-1 &amp; 0}</im></li>
+</ul>
+<h2>Rotation 90° clockwise about the origin</h2>
+<p>We can represent a rotation of 90° clockwise about the origin using the matrix:</p>
+<p><ma>
+\pmatrix{0 &amp; 1\\-1 &amp; 0}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{0&amp;1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{0&amp;1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{0&amp;1\\-1&amp;0}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{0 &amp; 1\\-1 &amp; 0}</im></li>
+</ul>
+<h2>Rotation 90° anticlockwise about the origin</h2>
+<p>We can represent a rotation of 90° anticlockwise about the origin using the matrix:</p>
+<p><ma>
+\pmatrix{0 &amp; -1\\1 &amp; 0}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{0&amp;-1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{0&amp;-1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{0&amp;-1\\1&amp;0}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{0 &amp; -1\\1 &amp; 0}</im></li>
+</ul>
+<h2>Rotation 180° about the origin</h2>
+<p>We can represent a rotation of 180° about the origin using the matrix:</p>
+<p><ma>
+\pmatrix{-1 &amp; 0\\0 &amp; -1}
+</ma></p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{-1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{-1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{-1&amp;0\\0&amp;-1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{-1 &amp; 0\\0 &amp; -1}</im></li>
+</ul>
+<h2>Enlargement about the origin</h2>
+<p>We can represent an enlargement about the origin with scale factor <im>k</im> using the matrix:</p>
+<p><ma>
+\pmatrix{k &amp; 0\\0 &amp; k}
+</ma></p>
+<p>…where <im>k</im> is the scale factor.</p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{k&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{k&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{k&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{k &amp; 0\\0 &amp; k}</im></li>
+</ul>
+<h2>Horizontal stretch parallel to the x-axis</h2>
+<p>We can represent a horizontal stretch parallel to the x-axis with scale factor <im>k</im> using the matrix:</p>
+<p><ma>
+\pmatrix{k &amp; 0\\0 &amp; 1}
+</ma></p>
+<p>…where <im>k</im> is the scale factor.</p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{k&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{k&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{k&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{k &amp; 0\\0 &amp; 1}</im></li>
+</ul>
+<h2>Vertical stretch parallel to the y-axis</h2>
+<p>We can represent a vertical stretch parallel to the y-axis with scale factor <im>k</im> using the matrix:</p>
+<p><ma>
+\pmatrix{1 &amp; 0\\0 &amp; k}
+</ma></p>
+<p>…where <im>k</im> is the scale factor.</p>
+<h3>Finding this out</h3>
+<ul>
+<li>Write out the coordinates of two non-origin points on the unit square, as a
+column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;1}</im></li>
+</ul>
+</li>
+<li>Write out where the points will end up, as a column matrix:
+<ul>
+<li><im>\pmatrix{1&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li>Find the matrix <im>A</im> such that:
+<ul>
+<li><im>A \pmatrix{1&amp;0\\0&amp;1} = \pmatrix{1&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li>So:
+<ul>
+<li><im>A = \pmatrix{1&amp;0\\0&amp;k}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\pmatrix{1 &amp; 0\\0 &amp; k}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

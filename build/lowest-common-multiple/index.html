@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lowest common multiple</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Lowest common multiple</h1>
+<h2>What is the lowest common multiple?</h2>
+<p>The LCM (lowest common multiple) of numbers is the <em>smallest multiple that is
+common to both/all numbers</em>.</p>
+<p>In other words, it’s the smallest number that both/all numbers go into.</p>
+<p>For example, the LCM of <im>12</im> and <im>16</im> is <im>48</im>, because <im>48</im> is the smallest
+number that both <im>12</im> and <im>16</im> go into.</p>
+<h2>Finding the lowest common multiple</h2>
+<p>To find the lowest common multiple, you need to be familiar with
+<a href="prime-factorisation">prime factorisation</a>.</p>
+<p>Here are the steps:</p>
+<ol>
+<li>Find the prime factorisation of each number.</li>
+<li>For each different prime factor, take the highest power of that factor that
+appears in any of the numbers.</li>
+<li>Multiply these together to get the LCM.</li>
+</ol>
+<h3>Example: Find the LCM of <im>18</im> and <im>24</im>.</h3>
+<ol>
+<li>Find the prime factorisation of each number:
+<ul>
+<li><im>18 = 2 \times 3 \times 3 = 2^1 \times 3^2</im></li>
+<li><im>24 = 2 \times 2 \times 2 \times 3 = 2^3 \times 3^1</im></li>
+</ul>
+</li>
+<li>For each different prime factor, take the highest power:
+<ul>
+<li>For <im>2</im>, the highest power is <im>2^3</im> (from <im>24</im>)</li>
+<li>For <im>3</im>, the highest power is <im>3^2</im> (from <im>18</im>)</li>
+</ul>
+</li>
+<li>Multiply these together:
+<ul>
+<li><im>LCM(18, 24) = 2^3 \times 3^2 = 8 \times 9 = 72</im></li>
+</ul>
+</li>
+</ol>
+<p><strong>Answer</strong>: <im>72</im></p>
+<h3>Example: Find the LCM of <im>36</im>, <im>60</im> and <im>84</im>.</h3>
+<ol>
+<li>Find the prime factorisation of each number:
+<ul>
+<li><im>36 = 2 \times 2 \times 3 \times 3 = 2^2 \times 3^2</im></li>
+<li><im>60 = 2 \times 2 \times 3 \times 5 = 2^2 \times 3^1 \times 5^1</im></li>
+<li><im>84 = 2 \times 2 \times 3 \times 7 = 2^2 \times 3^1 \times 7^1</im></li>
+</ul>
+</li>
+<li>For each different prime factor, take the highest power:
+<ul>
+<li>For <im>2</im>, the highest power is <im>2^2</im> (from all three numbers)</li>
+<li>For <im>3</im>, the highest power is <im>3^2</im> (from <im>36</im>)</li>
+<li>For <im>5</im>, the highest power is <im>5^1</im> (from <im>60</im>)</li>
+<li>For <im>7</im>, the highest power is <im>7^1</im> (from <im>84</im>)</li>
+</ul>
+</li>
+<li>Multiply these together:
+<ul>
+<li><im>LCM(36, 60, 84) = 2^2 \times 3^2 \times 5^1 \times 7^1 = 4 \times 9 \times 5 \times 7 = 1260</im></li>
+</ul>
+</li>
+</ol>
+<p><strong>Answer</strong>: <im>1260</im></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

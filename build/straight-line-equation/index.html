@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Straight line equation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Straight line equation</h1>
+<p>You may be sitting there thinking “I know how to find the equation of a straight
+line! It’s just <im>y = mx + c</im> right?”</p>
+<p>You would be right. But actually, there’s more than one way to express the
+equation of a straight line, depending on what information you have about the
+line - sometimes, another form is easier to use.</p>
+<h2><im>y = mx + c</im></h2>
+<p>This is the form you’re used to seeing. The values in the equation represent:</p>
+<ul>
+<li><im>y</im>: the y-coordinate of any point on the line, which varies based on the
+x-coordinate.</li>
+<li><im>x</im>: the x-coordinate of any point on the line (this goes on forever to
+represent all values on a graph).</li>
+<li><im>m</im>: the gradient of the line - how steep it is. This is calculated by the
+change in <im>y</im> divided by the change in <im>x</im> between any two points on the line.</li>
+<li><im>c</im>: the y-intercept of the line - where it crosses the y-axis (where
+<im>x = 0</im>).</li>
+</ul>
+<h2><im>y - y_1 = m(x - x_1)</im></h2>
+<p>You may or may not have seen this form before. It’s called <em>point-gradient form</em>
+and we use it in this situation:</p>
+<ul>
+<li>We know the gradient of the line, <im>m</im>.</li>
+<li>We know <strong>one</strong> point on the line, <im>(x_1, y_1)</im>.</li>
+</ul>
+<blockquote>
+<p>Remember: <im>y</im> and <im>x</im> are the coordinates of <strong>any</strong> point on the line - we do
+not know these values. The equation of any line/curve will have an <im>x</im> and <im>y</im>
+in it - don’t be caught out by trying to find the values of them.</p>
+</blockquote>
+<p>This form is useful because we can substitute in the values we know (the
+gradient and the point) to get an equation that only has <im>x</im> and <im>y</im> in it -
+which is what we want for the equation of a line.</p>
+<p>The values in the equation represent:</p>
+<ul>
+<li><im>x_1</im>: the x-coordinate of the <strong>known</strong> point on the line.</li>
+<li><im>y_1</im>: the y-coordinate of the <strong>known</strong> point on the line.</li>
+<li><im>m</im>: the gradient of the line.</li>
+</ul>
+<h3>Find the equation of the line with gradient 3 that passes through the point (2, 5).</h3>
+<ul>
+<li>Values we know:
+<ul>
+<li><im>m = 3</im></li>
+<li><im>x_1 = 2</im></li>
+<li><im>y_1 = 5</im></li>
+</ul>
+</li>
+<li>Substitute into the formula:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 5 = 3(x - 2)</im></li>
+</ul>
+</li>
+<li>Technically, we’ve now found the equation, but we can still <em>simplify it</em>:
+<ul>
+<li><im>y - 5 = 3x - 6</im></li>
+<li><im>y = 3x - 6 + 5</im></li>
+<li><im>y = 3x - 1</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: The equation of the line is <im>y = 3x - 1</im>.</li>
+</ul>
+<h3>Find the equation of the line with gradient -2 that passes through the point (-1, 4).</h3>
+<ul>
+<li>Values we know:
+<ul>
+<li><im>m = -2</im></li>
+<li><im>x_1 = -1</im></li>
+<li><im>y_1 = 4</im></li>
+</ul>
+</li>
+<li>Substitute into the formula:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 4 = -2(x - (-1))</im></li>
+</ul>
+</li>
+<li>Again, we’ve now found the equation, but we can still <em>simplify it</em>:
+<ul>
+<li><im>y - 4 = -2(x + 1)</im></li>
+<li><im>y - 4 = -2x - 2</im></li>
+<li><im>y = -2x - 2 + 4</im></li>
+<li><im>y = -2x + 2</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: The equation of the line is <im>y = -2x + 2</im>.</li>
+</ul>
+<h2>Finding the gradient from two points</h2>
+<p>There isn’t an explicit formula for finding the equation of a straight line from
+two points.</p>
+<p>Technically, there could be. In fact, why don’t I make one up now?<br />
+Below, <im>(x_1, y_1)</im> and <im>(x_2, y_2)</im> are the two points we know:</p>
+<p><ma>
+y-y_1 = (\frac{y_2 - y_1}{x_2 - x_1})(x - x_1)
+</ma></p>
+<p>That isn’t too nice to look at. But actually, you may notice that <em>all</em> I have
+done is substitute the formula for gradient (<im>m = \frac{y_2 - y_1}{x_2 - x_1}</im>)
+into the point-gradient form of the straight line equation
+(<im>y - y_1 = m(x - x_1)</im>).</p>
+<p>That’s because we can calculate the gradient from two points like this:</p>
+<p><ma>
+m = \frac{y_2 - y_1}{x_2 - x_1}
+</ma></p>
+<p>(this is the mathematical way of saying ‘change in y over change in x’).</p>
+<p>Once we have the gradient, we can use either of the two forms of the straight
+line equation above to find the full equation of the line. The second form is
+usually easier to use, since we already have a point.</p>
+<p>We can also pick <em>either</em> point to use in the equation - it doesn’t matter
+which one we choose - but it generally is easier to use the first point
+listed :)</p>
+<h3>Find the equation of the line that passes through the points (1, 2) and (4, 8).</h3>
+<ul>
+<li>Values we know:
+<ul>
+<li><im>x_1 = 1</im></li>
+<li><im>y_1 = 2</im></li>
+<li><im>x_2 = 4</im></li>
+<li><im>y_2 = 8</im></li>
+</ul>
+</li>
+<li>First, we find the gradient:
+<ul>
+<li><im>m = \frac{y_2 - y_1}{x_2 - x_1}</im></li>
+<li><im>= \frac{8 - 2}{4 - 1}</im></li>
+<li><im>= \frac{6}{3}</im></li>
+<li><im>= 2</im></li>
+</ul>
+</li>
+<li>Next, we substitute the gradient and one of the points into the point-gradient form of the equation:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 2 = 2(x - 1)</im></li>
+</ul>
+</li>
+<li>Finally, we can simplify the equation:
+<ul>
+<li><im>y - 2 = 2x - 2</im></li>
+<li><im>y = 2x - 2 + 2</im></li>
+<li><im>y = 2x</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: The equation of the line is <im>y = 2x</im>.</li>
+</ul>
+<h3>Find the equation of the line that passes through the points (-2, 3) and (1, -1).</h3>
+<ul>
+<li>Values we know:
+<ul>
+<li><im>x_1 = -2</im></li>
+<li><im>y_1 = 3</im></li>
+<li><im>x_2 = 1</im></li>
+<li><im>y_2 = -1</im></li>
+</ul>
+</li>
+<li>First, we find the gradient:
+<ul>
+<li><im>m = \frac{y_2 - y_1}{x_2 - x_1}</im></li>
+<li><im>= \frac{-1 - 3}{1 - (-2)}</im></li>
+<li><im>= \frac{-4}{1 + 2}</im></li>
+<li><im>= \frac{-4}{3}</im></li>
+</ul>
+</li>
+<li>Next, we substitute the gradient and one of the points into the point-gradient form of the equation:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 3 = -\frac{4}{3}(x - (-2))</im></li>
+</ul>
+</li>
+<li>Finally, we can simplify the equation:
+<ul>
+<li><im>y - 3 = -\frac{4}{3}(x + 2)</im></li>
+<li><im>y - 3 = -\frac{4}{3}x - \frac{8}{3}</im></li>
+<li><im>y = -\frac{4}{3}x - \frac{8}{3} + 3</im></li>
+<li><im>y = -\frac{4}{3}x - \frac{8}{3} + \frac{9}{3}</im></li>
+<li><im>y = -\frac{4}{3}x + \frac{1}{3}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: The equation of the line is <im>y = -\frac{4}{3}x + \frac{1}{3}</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Torque</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Torque</h1>
+<p>A <em>torque</em> is when we have a <em>couple</em> acting on an object, to rotate it.</p>
+<p>It basically measures the <em>magnitude</em> of the turning effect (moment) caused by
+a couple.</p>
+<p>Because it’s a rotation, it must have a <a href="/moment">moment</a>!</p>
+<h2>Calculating torque</h2>
+<p>The turning effect is the <em>sum</em> of both moments in the couple.</p>
+<ul>
+<li>For example, if we have a couple with two forces:
+<ul>
+<li>A <im>5N</im> force <im>2m</im> away from the pivot, clockwise</li>
+<li>A <im>5N</im> force <im>3m</im> away from the pivot, clockwise</li>
+</ul>
+</li>
+<li>…then we know that the first moment must be <im>5\times2=10Nm</im> and the second
+moment must be <im>5\times3=15Nm</im>.</li>
+<li>Adding them together, we get <im>10Nm+15Nm=25Nm</im>, so our <em>torque</em> is 25Nm.</li>
+</ul>
+<p>We could also have done this by simply multiplying the force by the distance
+between the couple’s forces:</p>
+<ul>
+<li><im>2m+3m=5m</im></li>
+<li><im>M=5N\times5m=25Nm</im></li>
+<li>That gives us the same torque of <im>25Nm</im>.</li>
+</ul>
+<h2>Torque formula</h2>
+<p>We can use that to write a formula for torque, which looks very familiar:</p>
+<p><ma>
+\text{torque}=Fd
+</ma></p>
+<p>Where:</p>
+<ul>
+<li><im>\text{torque}</im> is the combined <strong>moment</strong> of the forces</li>
+<li><im>F</im> is the magnitude of <em>a single force</em> (one of the components of the couple)</li>
+<li><im>d</im> is the distance <em>between</em> the couple’s forces</li>
+</ul>
+<h2>Units of torque</h2>
+<p>Torque is just the combined <a href="/moment">moment</a>, so it’s measured in the same way:
+using newton-metres.</p>
+<h2>Calculations</h2>
+<h3>Two forces of <im>8N</im> act clockwise on a metal bar. The forces are <im>9m</im> away from each other. Find the turning effect.</h3>
+<ul>
+<li><im>M=Fd</im></li>
+<li><im>M=8N\times9m</im></li>
+<li><im>M=72Nm</im></li>
+</ul>
+<h3>The torque on a stick is 7Nm. The perpendicular distance between the couple is 3.5m. Find the <em>sum</em> of the magnitudes of the forces acting.</h3>
+<ul>
+<li><im>M=Fd</im></li>
+<li><im>F=\frac Md</im></li>
+<li><im>F=\frac7{3.5}</im></li>
+<li><im>F=2N</im></li>
+<li>The force of one is 2N</li>
+<li>So the combined force of <em>both</em> components of the couple must be <im>2\times2=4N</im></li>
+<li><strong>Answer</strong>: <im>4N</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

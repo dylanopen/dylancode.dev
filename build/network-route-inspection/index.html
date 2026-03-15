@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Network route inspection</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Network route inspection</h1>
+<p>The route inspection problem is when we have a network and we want to find the
+shortest path that will visit every <a href="/network-arc">arc</a> at least once.</p>
+<p>To do that, we need to find whether the network is:</p>
+<ul>
+<li>Eulerian</li>
+<li>Semi-Eulerian</li>
+<li>Non-Eulerian</li>
+</ul>
+<p>See <a href="/eulerian-graph">Eulerian graph</a> for how to determine this.</p>
+<h2>Eulerian network</h2>
+<p>If the network is eulerian, we can find a route that visits every arc <em>exactly
+once</em>.</p>
+<p>Importantly, we can start and end at the same vertex.</p>
+<h2>Semi-Eulerian network</h2>
+<p>If the network is semi-eulerian, we can find a route that visits every arc
+<em>exactly once</em>.</p>
+<p>However, we need to start at one of the vertices with odd degree, and end at the
+other vertex with odd degree. We can’t start and end at the same vertex.</p>
+<p>We can also add two arcs to the network to make it eulerian, if we’d like to
+start and end at the same vertex.<br />
+We should choose the two arcs so that the total distance of the added arcs is as
+small as possible - we don’t want to add too much extra distance to our route.</p>
+<h2>Non-Eulerian network</h2>
+<p>If the network is non-eulerian (more than two vertices with odd degree), we need
+to add arcs to the network to make it eulerian or semi-eulerian.</p>
+<p>Once we’ve added the arcs (keep in mind, make sure you’re adding the arcs so
+that the smallest extra distance is added as possible) we can find a route that
+visits every arc exactly once, using the rules for eulerian or semi-eulerian
+networks above!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

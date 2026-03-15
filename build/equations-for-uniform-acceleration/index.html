@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Equations for uniform acceleration</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Equations for uniform acceleration</h1>
+<p>When we’re working with calculations involving motion, we’re usually working
+with 3-4 of these 5 values:</p>
+<ul>
+<li><a href="/displacement">displacement</a> or <a href="/distance">distance</a>, <im>s</im></li>
+<li>initial <a href="/velocity">velocity</a> or <a href="/speed">speed</a>, <im>u</im></li>
+<li>final <a href="/velocity">velocity</a> or <a href="/speed">speed</a>, <im>v</im></li>
+<li><a href="/acceleration">acceleration</a>, <im>a</im></li>
+<li><a href="/time">time</a>, <im>t</im></li>
+</ul>
+<h2>The equations</h2>
+<p>If we know 3 of these values, we can work out the other 2 using these equations:</p>
+<p><ma>
+v=u+at
+</ma></p>
+<p><ma>
+s=\frac{u+v}2\times t
+</ma></p>
+<p><ma>
+s=ut+\frac12at^2
+</ma></p>
+<p><ma>
+v^2=u^2+2as
+</ma></p>
+<h2>Calculations</h2>
+<h3>A car accelerates from rest at <im>2\text{ m/s}^2</im> for <im>5\text{ s}</im>. How far does it go?</h3>
+<ul>
+<li><im>u=0\text{m/s}</im> (since it starts from rest)</li>
+<li><im>a=2\text{m/s}^2</im></li>
+<li><im>t=5\text{s}</im></li>
+<li><im>s=?</im></li>
+<li>Use <im>s=ut+\frac12at^2</im> to find <im>s</im></li>
+<li><im>s=0\times5+\frac12\times2\times5^2</im></li>
+<li><im>s=25\text{m}</im></li>
+</ul>
+<h3>A car accelerates from <im>10\text{ m/s}</im> to <im>30\text{ m/s}</im> in <im>4\text{ s}</im>. What is its acceleration?</h3>
+<ul>
+<li><im>u=10\text{ m/s}</im></li>
+<li><im>v=30\text{ m/s}</im></li>
+<li><im>t=4\text{ s}</im></li>
+<li><im>a=?</im></li>
+<li>Use <im>v=u+at</im> to find <im>a</im></li>
+<li><im>a=\frac{v-u}t</im></li>
+<li><im>a=\frac{30-10}4</im></li>
+<li><im>a=5\text{ m/s}^2</im></li>
+</ul>
+<h3>A car accelerates from <im>20\text{ m/s}</im> to <im>40\text{ m/s}</im> over a distance of <im>300\text{ m}</im>. How long does it take?</h3>
+<ul>
+<li><im>u=20\text{ m/s}</im></li>
+<li><im>v=40\text{ m/s}</im></li>
+<li><im>s=300\text{ m}</im></li>
+<li><im>t=?</im></li>
+<li>Use <im>v^2=u^2+2as</im> to find <im>a</im></li>
+<li><im>a=\frac{v^2-u^2}{2s}</im></li>
+<li><im>a=\frac{40^2-20^2}{2\times300}</im></li>
+<li><im>a=3.33\text{ m/s}^2</im></li>
+<li>Use <im>v=u+at</im> to find <im>t</im></li>
+<li><im>t=\frac{v-u}a</im></li>
+<li><im>t=\frac{40-20}{3.33}</im></li>
+<li><im>t=6\text{ s}</im></li>
+</ul>
+<h3>A car accelerates from <im>15\text{ m/s}</im> to <im>25\text{ m/s}</im> in <im>10\text{ s}</im>. How far does it go?</h3>
+<ul>
+<li><im>u=15\text{ m/s}</im></li>
+<li><im>v=25\text{ m/s}</im></li>
+<li><im>t=10\text{ s}</im></li>
+<li><im>s=?</im></li>
+<li>Use <im>s=\frac{u+v}2\times t</im> to find <im>s</im></li>
+<li><im>s=\frac{15+25}2\times10</im></li>
+<li><im>s=200\text{ m}</im></li>
+</ul>
+<h3>A car accelerates from <im>5\text{ m/s}</im> to <im>25\text{ m/s}</im> over a distance of <im>400\text{ m}</im>. How long does it take?</h3>
+<ul>
+<li><im>u=5\text{ m/s}</im></li>
+<li><im>v=25\text{ m/s}</im></li>
+<li><im>s=400\text{ m}</im></li>
+<li><im>t=?</im></li>
+<li>Use <im>v^2=u^2+2as</im> to find <im>a</im></li>
+<li><im>a=\frac{v^2-u^2}{2s}</im></li>
+<li><im>a=\frac{25^2-5^2}{2\times400}</im></li>
+<li><im>a=1.25\text{ m/s}^2</im></li>
+<li>Use <im>v=u+at</im> to find <im>t</im></li>
+<li><im>t=\frac{v-u}a</im></li>
+<li><im>t=\frac{25-5}{1.25}</im></li>
+<li><im>t=16\text{ s}</im></li>
+</ul>
+<h3>A car accelerates from <im>0\text{ m/s}</im> to <im>20\text{ m/s}</im> in <im>8\text{ s}</im>. How far does it go?</h3>
+<ul>
+<li><im>u=0\text{ m/s}</im></li>
+<li><im>v=20\text{ m/s}</im></li>
+<li><im>t=8\text{ s}</im></li>
+<li><im>s=?</im></li>
+<li>Use <im>s=\frac{u+v}2\times t</im> to find <im>s</im></li>
+<li><im>s=\frac{0+20}2\times8</im></li>
+<li><im>s=80\text{ m}</im></li>
+</ul>
+<h3>A car accelerates from <im>10\text{ m/s}</im> to <im>30\text{ m/s}</im> over a distance of <im>200\text{ m}</im>. How long does it take?</h3>
+<ul>
+<li><im>u=10\text{ m/s}</im></li>
+<li><im>v=30\text{ m/s}</im></li>
+<li><im>s=200\text{ m}</im></li>
+<li><im>t=?</im></li>
+<li>Use <im>v^2=u^2+2as</im> to find <im>a</im></li>
+<li><im>a=\frac{v^2-u^2}{2s}</im></li>
+<li><im>a=\frac{30^2-10^2}{2\times200}</im></li>
+<li><im>a=4\text{ m/s}^2</im></li>
+<li>Use <im>v=u+at</im> to find <im>t</im></li>
+<li><im>t=\frac{v-u}a</im></li>
+<li><im>t=\frac{30-10}{4}</im></li>
+<li><im>t=5\text{ s}</im></li>
+</ul>
+<h3>A car accelerates from <im>20\text{ m/s}</im> to <im>40\text{ m/s}</im> in <im>6\text{ s}</im>. How far does it go?</h3>
+<ul>
+<li><im>u=20\text{ m/s}</im></li>
+<li><im>v=40\text{ m/s}</im></li>
+<li><im>t=6\text{ s}</im></li>
+<li><im>s=?</im></li>
+<li>Use <im>s=\frac{u+v}2\times t</im> to find <im>s</im></li>
+<li><im>s=\frac{20+40}2\times6</im></li>
+<li><im>s=180\text{ m}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

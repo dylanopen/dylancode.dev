@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cubic roots and coefficients</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Cubic roots and coefficients</h1>
+<p>The roots in polynomials are closely linked to the coefficients of that
+polynomial.</p>
+<p>All polynomials in this chapter will be written as follows - the letters <em>are</em>
+important here:</p>
+<p><ma>
+ax^3+bx^2+cx+d
+</ma></p>
+<h2>Sum of roots</h2>
+<p>If <im>p</im>, <im>q</im> and <im>r</im> are roots of <im>ax^3+bx^2+cx+d=0</im>, then <im>p+q+r=-\frac ba</im>.</p>
+<p>This means that the <em>sum of roots</em> of a cubic is equal to <im>-\frac ba</im>.</p>
+<h3>Find the sum of the roots of <im>x^3-6x^2+11x-6=0</im></h3>
+<ul>
+<li>The sum of roots is <im>-\frac ba</im>:</li>
+<li><im>=-\frac{-6}1</im></li>
+<li><im>=6</im></li>
+<li><strong>Answer</strong>: sum of roots = <im>6</im></li>
+</ul>
+<h3>Find the sum of the roots of <im>2x^3+3x^2-4x+5=0</im></h3>
+<ul>
+<li>The sum of roots is <im>-\frac ba</im>:</li>
+<li><im>=-\frac32</im></li>
+<li><strong>Answer</strong>: sum of roots = <im>-\frac32</im></li>
+</ul>
+<h3>The sum of the roots of the polynomial <im>x^3+kx^2+4x-8=0</im> is 2. Find the value of <im>k</im>.</h3>
+<ul>
+<li>Sum of roots = <im>2</im> which represents <im>-\frac ba</im>.</li>
+<li><im>2=-\frac k1</im></li>
+<li><im>k=-2</im></li>
+<li><strong>Answer</strong>: <im>k=-2</im></li>
+</ul>
+<h3>The sum of the roots of the polynomial <im>3x^3+mx^2-9x+12=0</im> is -4. Find the value of <im>m</im>.</h3>
+<ul>
+<li>Sum of roots = <im>-4</im> which represents <im>-\frac ba</im>.</li>
+<li><im>-4=-\frac m3</im></li>
+<li><im>m=12</im></li>
+<li><strong>Answer</strong>: <im>m=12</im></li>
+</ul>
+<h2>Sum of products of roots taken two at a time (sum of product ‘pairs’)</h2>
+<p>If <im>p</im>, <im>q</im> and <im>r</im> are roots of <im>ax^3+bx^2+cx+d=0</im>, then <im>pq+pr+qr=\frac ca</im>.</p>
+<p>In other words, if we multiply together each possible pair of roots and then add
+those products, we get the same result as <im>\frac ca</im>.</p>
+<h3>Find the sum of product pairs for <im>x^3-6x^2+11x-6=0</im></h3>
+<ul>
+<li>The sum of product pairs is <im>\frac ca</im>:</li>
+<li><im>=\frac{11}1</im></li>
+<li><im>=11</im></li>
+<li><strong>Answer</strong>: sum of product pairs = <im>11</im></li>
+</ul>
+<h3>Find the sum of product pairs for <im>2x^3+3x^2-4x+5=0</im></h3>
+<ul>
+<li>The sum of product pairs is <im>\frac ca</im>:</li>
+<li><im>=\frac{-4}2</im></li>
+<li><im>=-2</im></li>
+<li><strong>Answer</strong>: sum of product pairs = <im>-2</im></li>
+</ul>
+<blockquote>
+<p>The actual roots of this polynomial (+ some others here) are complex numbers.
+This shows us that actually, the answer above isn’t really an answer! If we
+found the <em>actual</em> roots and found the sum of their product pairs, we wouldn’t
+get a real number.</p>
+</blockquote>
+<h2>Product of roots</h2>
+<p>If <im>p</im>, <im>q</im> and <im>r</im> are roots of <im>ax^3+bx^2+cx+d=0</im>, then
+<im>p\times q\times r=-\frac da</im>.</p>
+<p>In words, the <em>product of roots</em> of a cubic is equal to <im>-\frac da</im>.</p>
+<h3>Find the product of the roots of <im>x^3-6x^2+11x-6=0</im></h3>
+<ul>
+<li>The product of roots is <im>-\frac da</im>:</li>
+<li><im>=-\frac{-6}1</im></li>
+<li><im>=6</im></li>
+<li><strong>Answer</strong>: product of roots = <im>6</im></li>
+</ul>
+<h3>Find the product of the roots of <im>x^3-3x^2+3x-1=0</im></h3>
+<ul>
+<li>The product of roots is <im>-\frac da</im>:</li>
+<li><im>=-\frac{-1}1</im></li>
+<li><im>=1</im></li>
+<li><strong>Answer</strong>: product of roots = <im>1</im></li>
+</ul>
+<h3>The equation <im>x^3+4x^2-x+2k=0</im> has product of roots <im>6</im>. Find the value of <im>k</im>.</h3>
+<ul>
+<li>The product of roots is <im>6</im>, which represents <im>-\frac da</im>.</li>
+<li><im>6=-\frac{2k}1</im></li>
+<li><im>2k=-6</im></li>
+<li><im>k=-3</im></li>
+<li><strong>Answer</strong>: <im>k=-3</im></li>
+</ul>
+<h3>The equation <im>x^3-3x^2+4x+7=0</im> has roots <im>p</im>, <im>q</im> and <im>r</im>. Find the value of <im>\frac1p+\frac1q+\frac1r</im>.</h3>
+<ul>
+<li><im>\frac1p+\frac1q+\frac1r</im>
+<ul>
+<li><im>=\frac{pq}{pqr}+\frac{pr}{pqr}+\frac{qr}{pqr}</im></li>
+<li><im>=\frac{pq+pr+qr}{pqr}</im></li>
+</ul>
+</li>
+<li>Sum of product pairs = <im>\frac ca</im>:
+<ul>
+<li><im>=\frac41=4</im></li>
+<li>So <im>pq+pr+qr=4</im>.</li>
+</ul>
+</li>
+<li>Product of roots = <im>-\frac da</im>:
+<ul>
+<li><im>=-\frac71=-7</im></li>
+<li>So <im>pqr=-7</im>.</li>
+</ul>
+</li>
+<li>Therefore, <im>\frac1p+\frac1q+\frac1r</im>
+<ul>
+<li><im>=\frac{pq+pr+qr}{pqr}</im></li>
+<li><im>=\frac4{-7}</im></li>
+<li><im>=-\frac47</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\frac1p+\frac1q+\frac1r=-\frac47</im></li>
+</ul>
+<h2>Summary of finding roots and coefficients</h2>
+<table><thead><tr><th></th><th>Coefficient link</th><th>Positive/Negative</th></tr></thead><tbody>
+<tr><td>Sum of roots</td><td><im>-\frac ba</im></td><td>Negative</td></tr>
+<tr><td>Sum of products pairs</td><td><im>\frac ca</im></td><td>Positive</td></tr>
+<tr><td>Product of roots</td><td><im>-\frac da</im></td><td>Negative</td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>

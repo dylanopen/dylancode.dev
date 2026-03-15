@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lossless compression</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Lossless compression</h1>
+<p><strong>Lossless compression</strong> is a type of <a href="/compression">compression</a> where the
+original file can be perfectly reconstructed from the compressed version - no
+data is lost when we compress it.</p>
+<p>That means that we don’t lose any quality / details when we compress a file with
+lossless compression.</p>
+<blockquote>
+<p>In lossless compression, we can perfectly reconstruct the original file from
+the compressed version, as no data was lost during compression.</p>
+</blockquote>
+<h2>How does lossless compression work?</h2>
+<p>The main two ways that we can losslessly compress a file are:</p>
+<ul>
+<li><a href="/run-length-encoding">Run-length encoding</a></li>
+<li><a href="/dictionary-encoding">Dictionary encoding</a></li>
+</ul>
+<h2>Examples of lossless compression</h2>
+<ul>
+<li>PNG images</li>
+<li>GIF images</li>
+<li>ZIP files (and things like gzip)</li>
+<li>FLAC audio files</li>
+<li>Lossless x264 video files</li>
+</ul>
+<h2>Benefits of lossless compression</h2>
+<ul>
+<li>The original file can be perfectly reconstructed, so we don’t lose any quality
+or details when we compress it.</li>
+<li>If we need to edit the file later, it’s better to have a lossless version of
+it, as we can make edits without losing quality. If we edit a lossy compressed
+file, we will lose more quality each time we save it, as more data is lost
+each time we save it.
+<ul>
+<li>We don’t experience <strong>generational loss</strong></li>
+</ul>
+</li>
+<li>If we have a lossless compressed version, we can always get the original back
+if we need it.</li>
+<li>Archive projects can store the original file with no lost detail.</li>
+</ul>
+<h2>Drawbacks of lossless compression</h2>
+<ul>
+<li>It often uses a lot of CPU power to compress and decompress the file, which can
+make it slow to work with (think if you’ve ever tried to extract a large zip /
+gzipped-tarball file - it can take a long time).</li>
+<li>It doesn’t reduce the file size as much as lossy compression, so it may not save
+as much storage space or make it as fast to transfer over the internet.
+<ul>
+<li>If we don’t need the original file, and we just want a smaller file to save space or
+transfer over the internet, lossy compression may be a better choice, as it can
+reduce the file size much more than lossless compression.</li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+# dylancode.dev
+
+## About dylancode.dev
+
+I'm in college studying maths, physics and computing - so why not share the
+things I learn with others?
+
+This website aims to provide free (as in freedom) high-quality studying
+resources for various different levels.
+
+I created this website because as a private tutor, I realised the value of
+effective tutoring and help in education. I'd like to help as many people as
+possible through the years of their school, college, university and full-time
+employment.
+
+I hope our resources can help you!
+
+## Navigating the site
+
+All finished resources are listed in the sidebar to the left of the page,
+organised by topic.
+
+You can also use the search button at the top left of the sidebar (or ctrl+k) to
+search for specific topics or keywords.
+
+## What's there to see here?
+
+I post guides on various things that I find interesting. For example:
+
+- Maths resources, primarily for A-level but also some GCSE-level content
+- Physics resources, also primarily for A-level but some GCSE-level content
+- Programming language tutorials, including:
+  - [C programming](/c/hello-world)
+  - [C# programming](/cs/hello-world)
+  - [RISC-V assembly](/riscv/smallest-program)
+  - ...and *many* more to come in the future.
+- Game server resources, including:
+  - My [Minecraft server optimisation guide](/minecraft/optimisation)
+  - A [PaperMC plugin coding tutorial series](/minecraft-plugin/project-setup)

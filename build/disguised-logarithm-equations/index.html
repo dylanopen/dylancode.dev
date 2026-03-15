@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Disguised logarithm equations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Disguised logarithm equations</h1>
+<p>A <em>disguised logarithm equation</em> is an equation that can be rewritten in the
+form of a logarithmic equation, even though it may not look like one at
+first.</p>
+<p>It may help to remind yourself of <a href="/solving-disguised-quadratics">disguised quadratics</a>,
+as the process is very similar to solving those.</p>
+<h2>Solving disguised logarithm equations</h2>
+<p>The key idea is that we:</p>
+<ul>
+<li>Take an exponential equation, in the form:
+<ul>
+<li><im>(2a)^x+a^x = b</im></li>
+</ul>
+</li>
+<li>Rewrite it in the form of a quadratic:
+<ul>
+<li><im>(a^x)^2 + a^x - b = 0</im></li>
+</ul>
+</li>
+<li>Solve the quadratic for <im>a^x</im>, usually by <a href="/solving-quadratics-by-factorising">factorising</a>
+or using the <a href="/quadratic-formula">quadratic formula</a>.</li>
+<li>Take the logarithm of both sides to find <im>x</im>.</li>
+</ul>
+<h3>Solve for <im>x</im>: <im>9^x + 3^x = 12</im></h3>
+<ul>
+<li>Rewrite <im>9^x</im> into a quadratic term:
+<ul>
+<li><im>=(3^2)^x</im></li>
+<li><im>=3^{2x}</im></li>
+<li><im>=(3^x)^2</im></li>
+</ul>
+</li>
+<li>Replace <im>9^x</im> with <im>(3^x)^2</im>:
+<ul>
+<li><im>(3^x)^2 + 3^x = 12</im></li>
+</ul>
+</li>
+<li>Rearrange into the form of a quadratic:
+<ul>
+<li><im>(3^x)^2 + 3^x - 12 = 0</im></li>
+</ul>
+</li>
+<li>Factorise:
+<ul>
+<li><im>(3^x + 4)(3^x - 3) = 0</im></li>
+</ul>
+</li>
+<li>Set each factor equal to <im>0</im>:
+<ul>
+<li><im>3^x + 4 = 0</im> or <im>3^x - 3 = 0</im></li>
+</ul>
+</li>
+<li>Solve each equation using logarithms:
+<ul>
+<li>For <im>3^x + 4 = 0</im>:
+<ul>
+<li><im>3^x = -4</im></li>
+<li><im>\log_3(-4)</im> is undefined: no solutions for <im>3^x=-4</im></li>
+</ul>
+</li>
+<li>For <im>3^x - 3 = 0</im>:
+<ul>
+<li><im>3^x = 3</im></li>
+<li><im>x = \log_3(3)</im></li>
+<li><im>x = 1</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Answer: <im>x = 1</im></li>
+</ul>
+<h3>Solve for <im>x</im>: <im>4^x + 2^x = 20</im></h3>
+<ul>
+<li>Rewrite <im>4^x</im> into a quadratic term:
+<ul>
+<li><im>=(2^2)^x</im></li>
+<li><im>=2^{2x}</im></li>
+<li><im>=(2^x)^2</im></li>
+</ul>
+</li>
+<li>Replace <im>4^x</im> with <im>(2^x)^2</im>:
+<ul>
+<li><im>(2^x)^2 + 2^x = 20</im></li>
+</ul>
+</li>
+<li>Rearrange into the form of a quadratic:
+<ul>
+<li><im>(2^x)^2 + 2^x - 20 = 0</im></li>
+</ul>
+</li>
+<li>Factorise:
+<ul>
+<li><im>(2^x + 5)(2^x - 4) = 0</im></li>
+</ul>
+</li>
+<li>Set each factor equal to <im>0</im>:
+<ul>
+<li><im>2^x + 5 = 0</im> or <im>2^x - 4 = 0</im></li>
+</ul>
+</li>
+<li>Solve each equation using logarithms:
+<ul>
+<li>For <im>2^x + 5 = 0</im>:
+<ul>
+<li><im>2^x = -5</im></li>
+<li><im>\log_2(-5)</im> is undefined: no solutions for <im>2^x=-5</im></li>
+</ul>
+</li>
+<li>For <im>2^x - 4 = 0</im>:
+<ul>
+<li><im>2^x = 4</im></li>
+<li><im>x = \log_2(4)</im></li>
+<li><im>x = 2</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Answer: <im>x = 2</im></li>
+</ul>
+<h3>Solve for <im>x</im>: <im>16^x + 4^x = 20</im></h3>
+<ul>
+<li>Rewrite <im>16^x</im> into a quadratic term:
+<ul>
+<li><im>=(4^2)^x</im></li>
+<li><im>=4^{2x}</im></li>
+<li><im>=(4^x)^2</im></li>
+</ul>
+</li>
+<li>Replace <im>16^x</im> with <im>(4^x)^2</im>:
+<ul>
+<li><im>(4^x)^2 + 4^x = 20</im></li>
+</ul>
+</li>
+<li>Rearrange into the form of a quadratic:
+<ul>
+<li><im>(4^x)^2 + 4^x - 20 = 0</im></li>
+</ul>
+</li>
+<li>Factorise:
+<ul>
+<li><im>(4^x + 5)(4^x - 4) = 0</im></li>
+</ul>
+</li>
+<li>Set each factor equal to <im>0</im>:
+<ul>
+<li><im>4^x + 5 = 0</im> or <im>4^x - 4 = 0</im></li>
+</ul>
+</li>
+<li>Solve each equation using logarithms:
+<ul>
+<li>For <im>4^x + 5 = 0</im>:
+<ul>
+<li><im>4^x = -5</im></li>
+<li><im>\log_4(-5)</im> is undefined: no solutions for <im>4^x=-5</im></li>
+</ul>
+</li>
+<li>For <im>4^x - 4 = 0</im>:
+<ul>
+<li><im>4^x = 4</im></li>
+<li><im>x = \log_4(4)</im></li>
+<li><im>x = 1</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Answer: <im>x = 1</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

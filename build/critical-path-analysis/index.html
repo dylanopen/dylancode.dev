@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Critical Path Analysis</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Critical Path Analysis</h1>
+<h2>Activity box</h2>
+<ul>
+<li>Shows the activity name, the <strong>early start</strong> time, <strong>duration</strong> and <strong>late
+finish</strong> time.</li>
+<li>The <strong>early start</strong> time is the earliest time that the activity can start,
+based on the durations of <em>preceding</em> activities.</li>
+<li>The <strong>duration</strong> is how long the activity takes.</li>
+<li>The <strong>late finish</strong> time is the latest time that the activity can finish
+without delaying the overall project.</li>
+</ul>
+<h3>Example activity network</h3>
+<h2>Float</h2>
+<p>The float is the amount of time that an activity can be delayed without delaying
+the overall project.</p>
+<p>The float is calculated using:</p>
+<p><ma>
+\text{Float}=\text{Late Finish}-\text{Early Start}-\text{Duration}
+</ma></p>
+<p>The <strong>critical path</strong> is the sequence of activities that have zero float.
+Any delay in these activities will delay the overall project.</p>
+<p>The critical path can be found by:</p>
+<ul>
+<li>Calculating the early start and late finish times for each activity.</li>
+<li>Identifying the activities with zero float.</li>
+<li>Tracing the path through these activities from start to finish.</li>
+</ul>
+<h2>Activity network example 1</h2>
+<p>The table below shows the activities, durations and predecessors for a project.</p>
+<table><thead><tr><th>Activity</th><th>Duration (days)</th><th>Immediate predecessors</th></tr></thead><tbody>
+<tr><td>A</td><td>3</td><td>-</td></tr>
+<tr><td>B</td><td>4</td><td>-</td></tr>
+<tr><td>C</td><td>6</td><td>-</td></tr>
+<tr><td>D</td><td>5</td><td>A</td></tr>
+<tr><td>E</td><td>5</td><td>B</td></tr>
+<tr><td>F</td><td>6</td><td>B</td></tr>
+<tr><td>G</td><td>7</td><td>C, D, E</td></tr>
+</tbody></table>
+<p>Draw the activity network:
+<img src="../../assets/activity-networks-1.png" alt="Activity network example 1" /></p>
+<p>Find the early start times:
+<img src="../../assets/activity-networks-2.png" alt="Early start times example 1" /></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

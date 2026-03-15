@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exponential graph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Exponential graph</h1>
+<p>Exponential functions are in the form of <im>f(x)=a^x</im>, where <im>a</im> is a positive
+constant and <im>a \neq 1</im> (because if <im>a=1</im> then the function would be a
+constant).</p>
+<h2>Asymptotes</h2>
+<p><em>An asymptote is a line that a graph approaches but never touches.</em></p>
+<ul>
+<li>They have a horizontal asymptote at <im>y=0</im> (the x-axis) because the result
+of <im>a^x</im> will never be <im>0</im> or negative.</li>
+</ul>
+<blockquote>
+<p>Asymptote at <im>y=0</im></p>
+</blockquote>
+<h2>Growth</h2>
+<p>As you increase the value of <im>x</im> of an exponential graph, the <im>y</im> value
+increases <em>very</em> quickly. That’s because an increase of just <im>1</im> in <im>x</im>
+means that the <im>y</im> value is <em>multiplied</em> by <im>a</im>.</p>
+<p>For example, if <im>a=2</im> and <im>x</im> increases from <im>3</im> to <im>4</im>, the <im>y</im> value
+increases from <im>2^3=8</im> to <im>2^4=16</im> - it multiplies by <im>2</im>.</p>
+<h2>Domain</h2>
+<p>The domain of an exponential graph is <im>(-\infty, \infty)</im> (anything) because
+you can go as far left or right as you want on the x-axis (all values of <im>x</im>
+will give a valid output to the function).</p>
+<blockquote>
+<p>Domain: <im>(-\infty, \infty)</im></p>
+</blockquote>
+<h2>Range</h2>
+<p>The range is <im>(0, \infty)</im> (positive numbers) because the output of <im>a^x</im>
+will always be positive.</p>
+<blockquote>
+<p>Range: <im>(0, \infty)</im></p>
+</blockquote>
+<h2>Solving where <im>y=0</im></h2>
+<p>At <em>no point</em> on the graph is <im>y=0</im> because the output of <im>a^x</im> is always
+positive (never 0).</p>
+<p>That means there are no solutions to the equation <im>a^x=0</im>.</p>
+<p>There <em>can</em> be solutions to the equation <im>a^x+c=0</im> (where <im>c</im> is a
+negative constant) because the graph of <im>a^x+c</im> is just the graph of <im>a^x</im>
+shifted down by <im>c</im> units, so it can cross the x-axis.</p>
+<p>But the normal graph of <im>a^x</im> has no solutions to <im>a^x=0</im>.</p>
+<h2>Solving for a given <im>y</im> value</h2>
+<ul>
+<li>We have our equation:
+<ul>
+<li><im>y=a^x</im></li>
+</ul>
+</li>
+<li>If we want to find the value of <im>x</im> for a given <im>y</im> value, we can
+rearrange the equation into a logarithm:
+<ul>
+<li><im>a^x=y</im></li>
+<li><im>x=\log_a(y)</im></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>the solution to <im>y=a^x</im> is <im>x=\log_a(y)</im>.</p>
+</blockquote>
+<h2>Intercept</h2>
+<p>The <im>y</im> intercept is the <im>y</im> value when <im>x=0</im>.</p>
+<p><im>f(0) = a^0 = 1</im> (because any number to the power of <im>0</im> is <im>1</im>)</p>
+<p>So the <im>y</im> intercept is at <im>(0, 1)</im>.</p>
+<h2>Growth or decay?</h2>
+<ul>
+<li>The value of <im>y</im> will <em>increase</em> with the value of <im>x</im> if <im>a&gt;1</im> (in the
+function <im>f(x)=a^x</im>). That’s called <strong>growth</strong>.</li>
+<li>The value of <im>y</im> will <em>decrease</em> with the value of <im>x</im> if <im>0&lt;a&lt;1</im> (in the
+function <im>f(x)=a^x</im>). That’s called <strong>decay</strong>.</li>
+</ul>
+<blockquote>
+<p><im>a&gt;1</im>: growth<br />
+<im>0&lt;a&lt;1</im>: decay</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

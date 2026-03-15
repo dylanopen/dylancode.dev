@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Second derivative</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Second derivative</h1>
+<p>The <em>second derivative</em> of a function or polynomial is simply the derivative of
+its first derivative.</p>
+<p>In other words, we differentiate <strong>twice</strong>!</p>
+<p>It’s also sometimes said to be ‘the gradient of the gradient function’.</p>
+<p>Basically, it tells us how the gradient of a function is changing as we move
+along the curve.</p>
+<h2>Notation</h2>
+<p>As mentioned in <a href="/derivative-notation">derivative notation</a>, the second
+derivative of a <em>function</em> <im>f(x)</im> can be written as:</p>
+<p><ma>
+f&#39;&#39;(x)
+</ma></p>
+<p>If we just have a polynomial <im>y</im> (in terms of <im>x</im>) then the second derivative is
+written as:</p>
+<p><ma>
+\frac{d^2y}{dx^2}
+</ma></p>
+<blockquote>
+<p>Notice the position of the squares!</p>
+</blockquote>
+<h2>Finding the second derivative</h2>
+<p>To find the second derivative we just differentiate it… and then differentiate
+it again!</p>
+<p>It’s the derivative of the derivative.</p>
+<h3>Find the second derivative of <im>f(x)=x^3+2x^2+x</im></h3>
+<ul>
+<li>First, we find the first derivative:
+<ul>
+<li><im>f&#39;(x)=3x^{3-1} + 2\times2x^{2-1} + 1x^{1-1}</im></li>
+<li><im>=3x^2 + 4x + 1</im></li>
+</ul>
+</li>
+<li>Now we differentiate it again to find the second derivative:
+<ul>
+<li><im>f&#39;&#39;(x)=2\times3x^{2-1} + 1\times4x^{1-1} + 0</im></li>
+<li><im>=6x + 4</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>f&#39;&#39;(x)=6x + 4</im></li>
+</ul>
+<h3><im>f&#39;(x)=4x^3 - 2x + 7</im>. Find <im>f&#39;&#39;(x)</im>.</h3>
+<ul>
+<li>We differentiate <im>f&#39;(x)</im> (the first derivative) to find the second derivative:
+<ul>
+<li><im>f&#39;&#39;(x)=3\times4x^{3-1} - 1\times2x^{1-1} + 0</im></li>
+<li><im>=12x^2 - 2</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>f&#39;&#39;(x)=12x^2 - 2</im></li>
+</ul>
+<h3>Find the second derivative of <im>y=5x^4 - 3x^2 + x - 8</im>.</h3>
+<ul>
+<li>First, we find the first derivative:
+<ul>
+<li><im>\frac{dy}{dx}=4\times5x^{4-1} - 2\times3x^{2-1} + 1 - 0</im></li>
+<li><im>=20x^3 - 6x + 1</im></li>
+</ul>
+</li>
+<li>Now we differentiate it again to find the second derivative:
+<ul>
+<li><im>\frac{d^2y}{dx^2}=3\times20x^{3-1} - 1\times6x^{1-1} + 0</im></li>
+<li><im>=60x^2 - 6</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\frac{d^2y}{dx^2}=60x^2 - 6</im></li>
+</ul>
+<h3><im>\frac{dy}{dx}=7x^5 + 4x^2 - x + 3</im>. Find <im>\frac{d^2y}{dx^2}</im>.</h3>
+<ul>
+<li>We differentiate <im>\frac{dy}{dx}</im> (the first derivative) to find the second derivative:
+<ul>
+<li><im>\frac{d^2y}{dx^2}=5\times7x^{5-1} + 2\times4x^{2-1} - 1 + 0</im></li>
+<li><im>=35x^4 + 8x - 1</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\frac{d^2y}{dx^2}=35x^4 + 8x - 1</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

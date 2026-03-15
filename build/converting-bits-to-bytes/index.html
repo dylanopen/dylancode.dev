@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting bits to bytes</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Converting bits to bytes</h1>
+<p>If we have a number of bits and want to convert it to bytes, we can <em>divide</em> the
+number of bits by 8, since there are 8 bits in a byte:</p>
+<p><ma>
+\text{bytes} = \text{bits} \div 8
+</ma></p>
+<h2>Examples</h2>
+<h3>Convert <im>64</im> bits to bytes</h3>
+<ul>
+<li><im>64 \div 8 = 8</im> bytes</li>
+<li><strong>Answer</strong>: <im>8</im> bytes</li>
+</ul>
+<h3>Convert <im>1024</im> bits to bytes</h3>
+<ul>
+<li><im>1024 \div 8 = 128</im> bytes</li>
+<li><strong>Answer</strong>: <im>128</im> bytes</li>
+</ul>
+<h3>Convert <im>5000</im> bits to bytes</h3>
+<ul>
+<li><im>5000 \div 8 = 625</im> bytes</li>
+<li><strong>Answer</strong>: <im>625</im> bytes</li>
+</ul>
+<h3>Convert <im>12345</im> bits to bytes</h3>
+<ul>
+<li><im>12345 \div 8 = 1543.125</im> bytes</li>
+<li><strong>Answer</strong>: <im>1543.125</im> bytes</li>
+<li>(generally here, we would round to the nearest whole byte).</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mutually exclusive union</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Mutually exclusive union</h1>
+<p>If we know that event A and event B are mutually exclusive, the probability of
+<strong>either</strong> A <strong>or</strong> B happening is the sum of their probabilities:</p>
+<blockquote>
+<p><ma>
+P(A \cup B) = P(A) + P(B) \quad \text{if A and B are mutually exclusive}
+</ma></p>
+</blockquote>
+<p>this is because the probability of both A and B happening at the same time is
+zero, so we don’t need to subtract it from the sum of their probabilities like we</p>
+<h2>Example: rolling a die</h2>
+<p>If we roll a die, the probability of rolling a 1 is <im>\frac{1}{6}</im>, and the
+probability of rolling a 2 is also <im>\frac{1}{6}</im>. Because these two events are
+<a href="/mutually-exclusive-events">mutually exclusive</a>, the probability of rolling a 1
+or a 2 is <im>\frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3}</im>.</p>
+<h2>Example: drawing a card</h2>
+<p>If we draw a card from a standard deck of 52 playing cards, the probability of
+drawing a heart is <im>\frac{13}{52}</im>, and the probability of drawing a black card
+is <im>\frac{26}{52}</im>. Because these two events are mutually exclusive (it’s
+impossible to pick a black card and a heart, as hearts are red), the probability
+of drawing a heart <strong>or</strong> a black card is <im>\frac{13}{52} + \frac{26}{52} =
+\frac{39}{52}</im>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

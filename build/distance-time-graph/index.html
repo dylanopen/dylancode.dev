@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Distance-time graph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Distance-time graph</h1>
+<ul>
+<li>A <em>distance-time graph</em> is a graph which shows:
+<ul>
+<li>the <a href="/distance">distance</a> travelled by an object on the y-axis</li>
+<li>the <a href="/time">time</a> on the x-axis.</li>
+</ul>
+</li>
+<li>They tell us how far an object has travelled over a period of time.</li>
+</ul>
+<h2>Finding the distance</h2>
+<ul>
+<li>If we want to find the distance travelled at a specific time, we can read it
+off the graph:
+<ul>
+<li>Find the time on the x-axis.</li>
+<li>Move vertically up to the line on the graph.</li>
+<li>Move horizontally to the y-axis to read off the distance.</li>
+</ul>
+</li>
+</ul>
+<h3>Find the distance travelled by the object at 4 seconds</h3>
+<pre><code>(distance, $m$)
+24 |                         /
+   |                       /
+20 |                     /
+   |                   /
+16 |                 / 
+   |               /
+12 |             /
+   |           /
+ 8 |         /
+   |       /
+ 4 |     /
+   |   /
+ 0 | /
+   |________________________________
+     0  1  2  3  4  5  6  7  8  9 10  (time, $s$)
+</code></pre>
+<p>Read off the graph at 4 seconds:</p>
+<pre><code>(distance, $m$)
+24 |                         /
+   |                       /
+20 |                     /
+   |                   /
+16 |                 / 
+   |               /
+12 |-------------/
+   |           / |
+ 8 |         /   |
+   |       /     |
+ 4 |     /       |
+   |   /         |
+ 0 | /           |
+   |_____________|__________________
+     0  1  2  3  4  5  6  7  8  9 10  (time, $s$)
+</code></pre>
+<p>At 4 seconds, the distance is 12 m.</p>
+<p><strong>Answer</strong>: <im>12m</im>.</p>
+<h2>Finding the speed / velocity</h2>
+<p>To find the speed (or velocity) of an object from a distance-time graph, we need
+to find the gradient at that point.</p>
+<p>If the distance-time graph is a straight line, the speed is constant, and we can
+find the gradient of the line using <im>m=\frac{\Delta y}{\Delta x}</im> - the change
+in <im>y</im> divided by the change in <im>x</im>.</p>
+<p>If it’s not a straight line, we can draw a <em>tangent</em> to the curve at the point
+we want to find the speed, and then find the gradient of that tangent line.</p>
+<h2>Finding the average speed</h2>
+<p>To find the <em>average</em> speed over a period of time, we can use the formula:</p>
+<p><ma>
+\text{average speed} = \frac{\text{total distance}}{\text{total time}}
+</ma></p>
+<p>For example, to find the average speed between 2 seconds and 6 seconds:</p>
+<ul>
+<li>Assume the distance at 2 seconds is 8 m, and at 6 seconds is 20 m.</li>
+<li>Total distance = <im>20m - 8m = 12m</im></li>
+<li>Total time = <im>6s - 2s = 4s</im></li>
+<li>Average speed = <im>\frac{12m}{4s} = 3m/s</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

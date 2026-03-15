@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ASCII</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>ASCII</h1>
+<p>ASCII is one specific <a href="/text-encoding">text encoding</a> scheme.</p>
+<p>It was one of the first text encoding schemes that came about.</p>
+<h2>How many bits?</h2>
+<p>ASCII can store 128 different characters. That means we need to use 7 bits to
+store each character, because <im>2^7 = 128</im>.</p>
+<h2>ASCII character codes</h2>
+<p>The ASCII character code for ‘A’ is 65, and the ASCII character code for ‘a’ is
+97. If we include numbers, the character ‘0’ has the ASCII character code 48.</p>
+<p>From that, you can work out all the other letters, because they are sequential!</p>
+<p>The code for ‘B’ is 66, ‘C’ is 67, and so on. The code for ‘b’ is 98, ‘c’ is
+99, and again, so on. That’s one of the reasons ASCII is nice to work with!</p>
+<h2>Benefits of ASCII</h2>
+<ul>
+<li>It’s simple and easy to understand.</li>
+<li>It’s very widely supported and used almost everywhere</li>
+<li>It can represent all the basic English letters, numbers and symbols.</li>
+<li>It only takes up 7 bits per character (minimum, it can be stored in 8 bits
+or more depending on the implementation)</li>
+<li>If you look at <em>any</em> successive 7 bits, you know exactly which character it
+represents. With UTF-8, for example, not all characters are represented by
+the same number of bits.
+<ul>
+<li>This is an important one. Think of when you want to ‘substring’ a string
+when programming: with ASCII strings, we know <em>exactly</em> where the nth
+character is, just by adding an offset to the start of the string.</li>
+<li>With UTF-8, we can’t do that, because we don’t know how many bits each
+character is represented by. So we have to read through the string from
+the start to find the nth character.</li>
+</ul>
+</li>
+</ul>
+<h2>Drawbacks of ASCII</h2>
+<ul>
+<li>It can only represent 128 characters, which is not enough for many languages
+and symbols.</li>
+<li>Event extended-ASCII which uses 8 bits can only represent 256 characters,
+which is still not enough for many languages and symbols.</li>
+<li>It wasn’t really built for non-English languages</li>
+<li>We’re stuck with the characters we’ve got - there’s no way to add more
+characters to ASCII, like we can do with unicode!</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

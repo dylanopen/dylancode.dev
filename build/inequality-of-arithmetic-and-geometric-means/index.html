@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inequality of Arithmetic and Geometric Means</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Inequality of Arithmetic and Geometric Means</h1>
+<hr />
+<p>Inequality of Arithmetic and Geometric Means or <strong>AM-GM</strong> is one of the most powerful inequalities when dealing with positive real numbers.</p>
+<h2>Statement</h2>
+<p>In general:</p>
+<blockquote>
+<p>For any real positive numbers <im>x_1,x_2,x_3,\dots,x_n</im> :</p>
+</blockquote>
+<p><ma>\underbrace{x_1 + x_2 + x_3 + \dots + x_n}_{\text{ n elements }} \ge n\sqrt[n]{x_1x_2x_3\dots x_n}</ma></p>
+<p>The equality holds if and only if <im>x_1 = x_2 = x_3 = \dots = x_n</im></p>
+<h3>For 2 numbers:</h3>
+<p>For any real positive numbers <im>x,y</im> :</p>
+<p><ma>x+y \ge 2\sqrt{x\cdot y}</ma></p>
+<p>The equality holds if and only if <im>x=y</im></p>
+<h3>For 3 numbers</h3>
+<p>For any real positive numbers <im>x,y,z</im> :</p>
+<p><ma>x+y+z \ge 3\sqrt[2]{x\cdot y \cdot z}</ma></p>
+<p>The equality hold if and only if <im>x=y=z</im></p>
+<h2>Proof</h2>
+<p>For 2 numbers:</p>
+<p><ma>
+\begin{align*}
+x+y &amp; \ge 2\sqrt{x\cdot y}\\
+x+y - 2\sqrt{x\cdot y} &amp; \ge 0 \\
+\sqrt{x^2} + \sqrt{y^2} - 2\sqrt{x}\cdot \sqrt{y} &amp; \ge 0 \\
+(\sqrt{x})^2+(\sqrt{y})^2 - 2\sqrt{x}\cdot \sqrt{y} &amp; \ge 0 \\
+(\sqrt{x}-\sqrt{y})^2 &amp; \ge 0 \text{( always true for real positive numbers x and y)} \\
+\end{align*}
+</ma></p>
+<p>Hence, the statement is true for all real positive number x,y</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

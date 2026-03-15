@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Finding all cosine angles</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Finding all cosine angles</h1>
+<h2>Cosine rule</h2>
+<p><ma>
+\cos(360-\theta)=\cos\theta
+</ma></p>
+<p>This means that, if we know one solution for <im>\theta</im>, we can find another by
+subtracting that angle from <im>360\degree</im>.</p>
+<h2>Negative cosine angles</h2>
+<p><ma>
+\cos(-\theta)=\cos\theta
+</ma></p>
+<blockquote>
+<p>The cosine of a negative angle is the negative of the cosine of the positive
+angle</p>
+</blockquote>
+<h2>Periodicity of cosine</h2>
+<p>The cosine function has a period of <im>360\degree</im>. This means that every interval
+of <im>360\degree</im>, the cosine function repeats its values.</p>
+<p>This means that we can add or subtract <im>360\degree</im> any number of times to find
+more solutions to cosine equations:</p>
+<p><ma>
+\cos\theta=\cos(\theta+360n)
+</ma></p>
+<p>… where <im>n</im> is any integer.</p>
+<h2>Solving cosine equations</h2>
+<h3>Solve <im>cos\theta=0.5</im> for values of <im>\theta</im> between <im>0\degree</im> and <im>720\degree</im>.</h3>
+<ul>
+<li><im>\cos^{-1}(0.5)=60\degree</im></li>
+<li><im>360\degree-60\degree=300\degree</im></li>
+<li><im>60\degree+360\degree=420\degree</im></li>
+<li><im>300\degree+360\degree=660\degree</im></li>
+<li><strong>Answer</strong>: <im>\theta=60\degree,300\degree,420\degree,660\degree</im></li>
+</ul>
+<h3>Solve <im>cos\theta=-0.5</im> for values of <im>\theta</im> between <im>-360\degree</im> and <im>360\degree</im>.</h3>
+<ul>
+<li><im>\cos^{-1}(-0.5)=120\degree</im></li>
+<li><im>360\degree-120\degree=240\degree</im></li>
+<li><im>120\degree-360\degree=-240\degree</im></li>
+<li><im>240\degree-360\degree=-120\degree</im></li>
+<li><strong>Answer</strong>: <im>\theta=-240\degree,-120\degree,120\degree,240\degree</im></li>
+</ul>
+<h3>Solve <im>cos\theta=\frac{\sqrt{2}}{2}</im> for values of <im>\theta</im> between <im>0\degree</im> and <im>360\degree</im>.</h3>
+<ul>
+<li><im>\cos^{-1}(\frac{\sqrt{2}}{2})=45\degree</im></li>
+<li><im>360\degree-45\degree=315\degree</im></li>
+<li><strong>Answer</strong>: <im>\theta=45\degree,315\degree</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

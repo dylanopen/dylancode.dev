@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Discrete random median</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Discrete random median</h1>
+<p>The <strong>median</strong> of a dataset is the value that separates the higher half from the
+lower half.</p>
+<p>In terms of probability, the median of a random variable is the value that
+divides the probability distribution into two equal halves.</p>
+<p>In other words, it’s the value such that the probability of the numbers
+below it is equal to the probability of the numbers above it.</p>
+<p>For a discrete random variable, the median can be found by sorting the
+possible values and their corresponding probabilities, and then finding the
+value at which the cumulative probability reaches 0.5 (think: cumulative
+frequency graphs, but in probability).</p>
+<p>Here’s the good thing! Because they are <strong>discrete</strong>, we don’t have to find out
+how far into a category the median is. We can just find the category that
+contains the median, and that’s our answer.</p>
+<h2>Expressing the median with inequalities</h2>
+<p>We can write this relationship mathematically as:</p>
+<blockquote>
+<p><ma>
+P(X \leq M) \geq 0.5 \quad \text{and} \quad P(X \geq M) \geq 0.5
+</ma></p>
+</blockquote>
+<p>Where:</p>
+<ul>
+<li><im>X</im> is the random variable.</li>
+<li><im>M</im> is the median.</li>
+</ul>
+<p>In reality, this just makes things more complicated than they need to be.<br />
+We can just find the median using the cumulative probabilities method I
+explained at the top.</p>
+<h2>Two possible values</h2>
+<p>Just like with normal median questions, sometimes, there might be two possible
+values for the median, if it lies directly in between two categories.</p>
+<p>If so, just find the mean (midpoint) of those two values, and that will be your
+answer.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

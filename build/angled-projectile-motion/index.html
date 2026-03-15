@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Angled projectile motion</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Angled projectile motion</h1>
+<p>When we have a projectile which is launched at an angle (somewhat upwards,
+somewhat horizontally), we can treat it as a combination of vertical projectile
+motion and horizontal projectile motion.</p>
+<h2>Separating velocity into horizontal and vertical components</h2>
+<p>Let’s say we know a projectile is launched with an initial velocity of <im>v</im> at an
+angle of <im>\theta</im> to the horizontal. We can find the horizontal and vertical
+components of the velocity using trigonometry:</p>
+<ul>
+<li>Horizontal component: <im>v_x = v \cos \theta</im></li>
+<li>Vertical component: <im>v_y = v \sin \theta</im></li>
+</ul>
+<h2>Horizontal component</h2>
+<p>The horizontal component of the motion will be the same as in
+<a href="/horizontal-projectile-motion">horizontal projectile motion</a>, so we can use the
+same equations and values as in that chapter to solve problems involving the
+horizontal component of the motion:</p>
+<h3>Velocity</h3>
+<p>Gravity works on the <em>vertical</em> component of the motion (see
+<a href="/vertical-projectile-motion">vertical projectile motion</a>), so weight has no
+effect on the horizontal component of the motion.</p>
+<p>There’s no other forces involved after the projectile is launched! That means
+that the horizontal velocity of the projectile will stay constant throughout the
+motion.</p>
+<blockquote>
+<p>Horizontal velocity is constant.</p>
+</blockquote>
+<p>The horizontal velocity will be the same as it was launched with: the initial
+horizontal velocity.</p>
+<h3>Displacement</h3>
+<p>Because <im>\text{displacement} = \text{velocity} \times \text{time}</im>, the
+horizontal displacement of the projectile will be the horizontal velocity
+multiplied by the time it’s in the air for.</p>
+<h3>Acceleration</h3>
+<p>There’s no forces acting on the horizontal component of the motion, so the
+acceleration of the projectile in the horizontal direction will be zero.</p>
+<h2>Vertical component</h2>
+<p>The vertical component values can be calculated in a similar way to in the
+<a href="/vertical-projectile-motion">vertical projectile motion</a> chapter, but the
+object will likely fall <em>further</em> than it originally rose, because it was
+launched off a cliff, for example.</p>
+<p>(It may even fall <em>less far</em> than it rose, if it was launched from a hole in the
+ground, onto the surface, for example.)</p>
+<h3>Acceleration</h3>
+<p>The acceleration which acts vertically is caused by gravity, so the acceleration
+of the projectile in the vertical direction will be <im>-9.81ms^{-2}</im> (negative
+because it’s downwards).</p>
+<blockquote>
+<p>Vertical acceleration is <im>-9.81ms^{-2}</im>.</p>
+</blockquote>
+<h3>Velocity</h3>
+<p>The velocity will start at <im>u_v</im> (the vertical component of the initial
+velocity), and will increase in the negative direction (downwards) as the
+projectile falls, due to the acceleration of gravity.</p>
+<p>Unlike in <a href="/horizontal-projectile-motion">horizontal projectile motion</a>, the
+vertical velocity won’t start at <im>0ms^{-1}</im>, because the projectile is launched
+somewhat upwards at an angle, so it has an initial vertical velocity.</p>
+<p>That means that the vertical velocity will start positive, and will decrease to
+<im>0ms^{-1}</im> at the maximum height, before increasing in the negative direction
+(downwards) as the projectile falls, due to the acceleration of gravity.</p>
+<p>We can use <im>\text{velocity} = \text{initial velocity} + \text{acceleration} \times \text{time}</im>
+to find the vertical velocity at any point in time while the projectile is
+falling.</p>
+<blockquote>
+<p><im>\text{Vertical velocity} = u_v - 9.81ms^{-2} \times \text{time}</im></p>
+</blockquote>
+<h3>Displacement</h3>
+<p>We can use <im>\text{displacement} = \text{initial velocity} \times \text{time} + \frac12 \times \text{acceleration} \times \text{time}^2</im> to find the vertical displacement of the projectile at any point in time while it’s falling.</p>
+<p>We can find that equation from the SUVAT equation <im>s=ut+\frac12at^2</im> by substituting <im>u=u_v</im> (the vertical component of the initial velocity, since the projectile is launched at an angle, so it has an initial vertical velocity) instead of <im>u=0ms^{-1}</im> (since the projectile is launched horizontally, so no initial vertical velocity) as in horizontal projectile motion.</p>
+<h3>Time</h3>
+<p>Time is the same as in <a href="/horizontal-projectile-motion">horizontal projectile motion</a>.
+Just calculate it using our known values for:</p>
+<ul>
+<li><im>u_v</im> (the vertical component of the initial velocity)</li>
+<li><im>a</im> (the acceleration due to gravity, which is <im>-9.81ms^{-2}</im>)</li>
+<li><im>v</im> (the vertical velocity at the end of the motion, which will be negative,
+because it’s falling downwards)</li>
+</ul>
+<p><ma>
+t = \frac{v - u_v}{a}
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

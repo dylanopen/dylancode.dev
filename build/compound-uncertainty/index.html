@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compound uncertainty</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Compound uncertainty</h1>
+<h2>Uncertainty of a single measurement</h2>
+<p>If we know the <em>resolution</em> of a measuring apparatus (e.g. how far apart the
+lines are on a ruler), we can find the uncertainty using:</p>
+<p><ma>
+\text{uncertainty}=\pm\space\frac{\text{smallest division on the scale}}2
+</ma></p>
+<h2>Uncertainty of repeat measurements</h2>
+<p>To find the uncertainty of a <em>repeat</em> measurement (i.e. multiple tries), you
+find the <strong>mean</strong>, and then use the method above to find the uncertainty of a
+single measurement.</p>
+<p><ma>
+\text{uncertainty}=\pm\space\frac{\text{smallest division on the scale}}2\times2
+</ma></p>
+<p>…which simplifies to:</p>
+<p><ma>
+\text{uncertainty}=\pm\space\text{smallest division on the scale}
+</ma></p>
+<h2>Uncertainty of double-sided apparatus</h2>
+<p>If we have some apparatus where we need to measure something in two places (e.g.
+measuring ona ruler the start and end point) we <strong>double the uncertainty</strong>.</p>
+<h2>Overall percentage uncertainty</h2>
+<p>If we have a compound measurement which we find using a <em>formula</em> of different
+measurements (which each have their own uncertainty), we simply <strong>add</strong> the
+individual percentage uncertainties together.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

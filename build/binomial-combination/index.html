@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Binomial combination</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Binomial combination</h1>
+<p>To understand what a binomial combination is, let’s do an example.</p>
+<p>Suppose we are expanding the expression <im>(a+b)^2</im>, into <im>a^2 + 2ab + b^2</im>.</p>
+<p>THe <em>coefficient</em> of the <im>ab</im> term is <im>2</im>. The reason for that is because, when
+we multiply out all the brackets, there are <em>two times</em> where we multiply
+<im>a</im> and <im>b</im> together:</p>
+<ul>
+<li><im>a</im> from the first bracket and <im>b</im> from the second bracket</li>
+<li><im>b</im> from the first bracket and <im>a</im> from the second bracket</li>
+</ul>
+<p>That means that the <em>binomial combinations</em> for the <im>ab</im> term are <im>2</im>.</p>
+<p>We write that as <im>^2C_1</im>.</p>
+<p>That’s what <im>^nC_r</im> means!</p>
+<h2>On a calculator</h2>
+<p>There’s a button on a calculator to calculate <im>^nC_r</im>. Often it’s above the
+divide button (press shift), but on some of the new ‘upgraded™®’ casio calculators
+you have to:</p>
+<ul>
+<li>Press the <code>Catalog</code> button</li>
+<li>Scroll down and click <code>Probability</code></li>
+<li>Scroll down to <code>Combination</code> <strong>C</strong> and click it</li>
+<li>Then put the <im>n</im> value before it and the <im>r</im> value after it, e.g. <code>6 C 3</code> to
+calculate <im>^6C_3</im>.</li>
+</ul>
+<p><em>Casio CW calculator rant over</em>.</p>
+<h2>Finding the coefficient of a term</h2>
+<p>Let’s say we want to find the coefficient of the <im>a^2b^3</im> term of the expansion
+of <im>(a+b)^5</im>. That would be <im>^5C_2</im> because the <im>a^2b^3</im> term is the term where
+<im>a</im> has power <im>2</im>.</p>
+<h2>Terms with coefficients</h2>
+<p>If we want to find the coefficient of the <im>x^3</im> term of the expansion of
+<im>(2+3x)^5</im>:</p>
+<ul>
+<li>Find <im>^5C_3</im>:
+<ul>
+<li><im>^5C_3=10</im></li>
+</ul>
+</li>
+<li>The extra coefficients are:
+<ul>
+<li><im>(3x)^3 = 27x^3</im></li>
+<li><im>2^2 = 4</im></li>
+</ul>
+</li>
+<li>The extra coefficients are <im>4 \times 27x^3 = 108x^3</im></li>
+<li>If we times everything together, the coefficient of the <im>x^3</im> term is
+<im>10 \times 108 = 1080</im>.</li>
+</ul>
+<h3>Find the coefficient of the <im>x^4</im> term of the expansion of <im>(1+2x)^6</im>.</h3>
+<ul>
+<li><im>^6C_4=15</im></li>
+<li>The extra coefficients are:
+<ul>
+<li><im>(2x)^4 = 16x^4</im></li>
+<li><im>1^2 = 1</im></li>
+</ul>
+</li>
+<li>The extra coefficient is <im>1 \times 16x^4 = 16x^4</im></li>
+<li>If we times everything together, the coefficient of the <im>x^4</im> term is
+<im>15 \times 16 = 240</im>.</li>
+<li>Answer: <im>240</im>.</li>
+</ul>
+<h3>Find the first 3 terms of the expansion of <im>(3+x)^5</im>.</h3>
+<ul>
+<li>For the <im>x^0</im> term:
+<ul>
+<li><im>^5C_0=1</im></li>
+<li>The extra coefficients are:
+<ul>
+<li><im>(3)^5 = 243</im></li>
+<li><im>x^0 = 1</im></li>
+</ul>
+</li>
+<li>The extra coefficient is <im>243 \times 1 = 243</im></li>
+<li>The coefficient of the <im>x^0</im> term is <im>1 \times 243 = 243</im>.</li>
+</ul>
+</li>
+<li>For the <im>x^1</im> term:
+<ul>
+<li><im>^5C_1=5</im></li>
+<li>The extra coefficients are:
+<ul>
+<li><im>(3)^4 = 81</im></li>
+<li><im>x^1 = x</im></li>
+</ul>
+</li>
+<li>The extra coefficient is <im>81 \times x = 81x</im></li>
+<li>The coefficient of the <im>x^1</im> term is <im>5 \times 81 = 405</im>.</li>
+</ul>
+</li>
+<li>For the <im>x^2</im> term:
+<ul>
+<li><im>^5C_2=10</im></li>
+<li>The extra coefficients are:
+<ul>
+<li><im>(3)^3 = 27</im></li>
+<li><im>x^2 = x^2</im></li>
+</ul>
+</li>
+<li>The extra coefficient is <im>27 \times x^2 = 27x^2</im></li>
+<li>The coefficient of the <im>x^2</im> term is <im>10 \times 27 = 270</im>.</li>
+</ul>
+</li>
+<li>Answer: <im>243 + 405x + 270x^2 + ...</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

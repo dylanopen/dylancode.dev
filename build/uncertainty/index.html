@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Uncertainty</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Uncertainty</h1>
+<p>The <em>uncertainty</em> of a measurement is a way of telling us how <a href="/precision">precise</a>
+that measurement is.</p>
+<p>It basically says ‘how far off could our measurement be from the actual value?’</p>
+<h2>Representing uncertainty</h2>
+<p>We can represent uncertainty in two main ways:</p>
+<ul>
+<li>Absolute uncertainty</li>
+<li>Percentage uncertainty</li>
+</ul>
+<h2>Absolute uncertainty</h2>
+<p>To calculate the absolute uncertainty of a set of measurements, we can use the
+formula:</p>
+<p><ma>
+\text{absolute uncertainty} = \frac{\text{range}}{2}
+</ma></p>
+<p>Absolute uncertainty can be written like this:</p>
+<p><ma>
+\text{mean} \pm \text{absolute uncertainty}
+</ma></p>
+<p>For example, <im>5.0cm \pm 0.1cm</im> means the actual value could be anywhere between
+<im>4.9cm</im> and <im>5.1cm</im> (0.1cm above or below 5.0cm).</p>
+<h3>Find the absolute uncertainty of the measurements 5.1cm, 5.3cm, 5.2cm, and 5.4cm</h3>
+<ul>
+<li>Range: <im>5.4cm - 5.1cm = 0.3cm</im></li>
+<li>Absolute uncertainty: <im>\frac{0.3cm}{2} = 0.15cm</im></li>
+<li>Absolute uncertainty = <im>\pm0.15cm</im></li>
+</ul>
+<p>If we wanted to express it with the average measurement, we would do:</p>
+<ul>
+<li>Mean = <im>(5.1cm + 5.3cm + 5.2cm + 5.4cm)\div4 = 5.25cm</im></li>
+<li>Measurement with uncertainty = <im>5.25cm \pm 0.15cm</im></li>
+</ul>
+<h2>Percentage uncertainty</h2>
+<p>Percentage uncertainty basically tells us ‘what percentage of the measurement
+could we be off by?’</p>
+<p>For example, if we have a measurement of <im>10cm \pm 1cm</im>, that means we could be
+off by <im>1cm</im>. To find the percentage uncertainty, we can use the formula:</p>
+<p><ma>
+\text{percentage uncertainty} = \left(\frac{\text{absolute uncertainty}}{\text{measurement}}\right) \times 100\%
+</ma></p>
+<p>For example, to find the percentage uncertainty of our absolute uncertainty
+example above (<im>5.25cm \pm 0.15cm</im>):</p>
+<p><ma>
+\text{percentage uncertainty} = \left(\frac{0.15cm}{5.25cm}\right) \times 100\% \approx 2.86\%
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

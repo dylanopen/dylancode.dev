@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Completing the square</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Completing the square</h1>
+<p>Completing the square is a method used to rewrite a quadratic expression, from
+the form <im>ax^2+bx+c</im> to the form <im>a(x+d)^2+e</im>. This can be useful for solving
+quadratic equations, graphing quadratic functions, and understanding the
+properties of a quadratic graph (e.g. its turning point, otherwise known as
+the vertex).</p>
+<h2>Completing the square when (a=1)</h2>
+<p>When we have a nice, simple quadratic, in the form <im>x^2+bx+c</im> (no <im>x^2</im>
+coefficient) we can complete use this formula to complete the square:</p>
+<p><ma>
+x^2+bx+c = (x+\frac{b}{2})^2 - (\frac{b}{2})^2 + c
+</ma></p>
+<p>This makes a lot more sense with an example.</p>
+<h3>Example: Complete the square for <im>x^2 + 6x + 5</im></h3>
+<ul>
+<li>Find what <im>b</im> and <im>c</im> are:
+<ul>
+<li><im>b = 6</im></li>
+<li><im>c = 5</im></li>
+</ul>
+</li>
+<li>Calculate <im>\frac{b}{2}</im>:
+<ul>
+<li><im>\frac{b}{2} = \frac{6}{2} = 3</im></li>
+</ul>
+</li>
+<li>If we take <im>(x + 3)^2</im> and expand it, we get:
+<ul>
+<li><im>(x + 3)^2 = x^2 + 6x + 9</im></li>
+<li>This is what we want, we just have an extra <im>+9</im>, so take that away from the
+expression:
+<ul>
+<li><im>x^2 + 6x + 5 = (x + 3)^2 - 9 + 5</im></li>
+<li><im>= (x + 3)^2 - 4</im></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Answer</strong>: <im>(x + 3)^2 - 4</im></p>
+<h2>Completing the square when <im>a \ne 1</im></h2>
+<p>When the coefficient of <im>x^2</im> is not equal to <im>1</im>, we can still complete the
+square by factoring out the coefficient first from <strong>all terms</strong>.</p>
+<p>We have an equation equal to zero, which means we can divide by any number on
+the left side without worrying about changing the equation (as zero divided by
+any number is still zero).</p>
+<p>Our first step is to get rid of the <im>a</im> coefficient (it makes things more
+complicated) by dividing the whole equation by <im>a</im>. This means the equation
+will now be in the form <im>x^2 + \frac{b}{a}x + \frac{c}{a} = 0</im>.</p>
+<p>We can now simply use the method above to complete the square - as we don’t need
+to worry about the <im>a</im> coefficient anymore.</p>
+<h3>Example: Complete the square for <im>2x^2 + 8x + 6</im></h3>
+<ul>
+<li>First, divide the whole equation by <im>2</im> to get rid of the <im>2</im> coefficient:
+<ul>
+<li><im>x^2 + 4x + 3</im></li>
+</ul>
+</li>
+<li>Now, we can complete the square using the method above:
+<ul>
+<li><im>b = 4</im></li>
+<li><im>c = 3</im></li>
+<li><im>\frac{b}{2} = \frac{4}{2} = 2</im></li>
+<li><im>(x + 2)^2 = x^2 + 4x + 4</im></li>
+<li>So, we need to subtract <im>4</im> from the expression:
+<ul>
+<li><im>x^2 + 4x + 3 = (x + 2)^2 - 4 + 3</im></li>
+<li><im>= (x + 2)^2 - 1</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Finally, we need to remember that we divided the whole equation by <im>2</im> at the
+start, so we need to multiply the whole completed square expression by <im>2</im> to
+get back to the original equation:
+<ul>
+<li><im>2x^2 + 8x + 6 = 2((x + 2)^2 - 1)</im></li>
+<li><im>= 2(x + 2)^2 - 2</im></li>
+</ul>
+</li>
+</ul>
+<p><strong>Answer</strong>: <im>2(x + 2)^2 - 2</im></p>
+<h2>Finding the turning point from the completed square form</h2>
+<p>The turning point of <im>a(x+d)^2+e</im> is <im>(-d, e)</im>.</p>
+<blockquote>
+<p>Notice that we completely ignore the <im>a</im> coefficient when finding the turning
+point. It’s not important here!</p>
+</blockquote>
+<p>The number in the brackets tells us the <im>x</im> coordinate of the turning point, and
+the number outside the brackets tells us the <im>y</im> coordinate of the turning point.</p>
+<p>We <strong>negate</strong> the number inside the brackets to find our <im>x</im> coordinate. The
+reason for this is the same as when we solve equations from their factorised
+form.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Classifying stationary points</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Classifying stationary points</h1>
+<h2>What does the derivative mean?</h2>
+<ul>
+<li>If <im>\frac{dy}{dx} &gt; 0</im>, the function is increasing (as x increases, y increases)</li>
+<li>If <im>\frac{dy}{dx} &lt; 0</im>, the function is decreasing (as x increases, y decreases)</li>
+<li>If <im>\frac{dy}{dx} = 0</im>, the function is stationary</li>
+</ul>
+<h2>What does the <em>second</em> derivative mean?</h2>
+<p>If <im>\frac{dy}{dx} = 0</im> at some point <im>x = a</im>, then we can use the second
+derivative to find the <em>type</em> of stationary point:</p>
+<ul>
+<li>If <im>\frac{d^2y}{dx^2} &gt; 0</im>, the point is a local <strong>minimum</strong>.</li>
+<li>If <im>\frac{d^2y}{dx^2} &lt; 0</im>, the point is a local <strong>maximum</strong>.</li>
+<li>If <im>\frac{d^2y}{dx^2} = 0</im>, it <em>could</em> be a point of inflection, <em>but may not
+be</em>. We can’t say for sure what type of stationary point it is.</li>
+</ul>
+<h3>Example: find the stationary points of <im>y=x^3-3x^2+4</im> and classify each</h3>
+<ul>
+<li><im>\frac{dy}{dx} = 3x^2 - 6x</im></li>
+<li>Set <im>\frac{dy}{dx} = 0</im>:
+<ul>
+<li><im>3x^2 - 6x = 0</im></li>
+<li><im>3x(x - 2) = 0</im></li>
+<li><im>x = 0</im> or <im>x = 2</im></li>
+</ul>
+</li>
+<li>Substitute back to find y-coordinates:
+<ul>
+<li>At <im>x = 0</im>: <im>y = 0^3 - 3(0)^2 + 4 = 4</im> -&gt; Stationary point at (0, 4)</li>
+<li>At <im>x = 2</im>: <im>y = 2^3 - 3(2)^2 + 4 = 8 - 12 + 4 = 0</im> -&gt; Stationary point at (2, 0)</li>
+</ul>
+</li>
+<li>Now we find the second derivative:
+<ul>
+<li><im>\frac{d^2y}{dx^2} = 6x - 6</im></li>
+</ul>
+</li>
+<li>Evaluate the second derivative at each stationary point:
+<ul>
+<li>At <im>x = 0</im>: <im>\frac{d^2y}{dx^2} = 6(0) - 6 = -6</im> (less than 0) -&gt; Local maximum at (0, 4)</li>
+<li>At <im>x = 2</im>: <im>\frac{d^2y}{dx^2} = 6(2) - 6 = 6</im> (greater than 0) -&gt; Local minimum at (2, 0)</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: Local maximum at (0, 4) and local minimum at (2, 0)</li>
+</ul>
+<h2>Example: find the stationary points of <im>y=x^4-4x^3+6x^2</im> and classify each</h2>
+<ul>
+<li><im>\frac{dy}{dx} = 4x^3 - 12x^2 + 12x</im></li>
+<li>Set <im>\frac{dy}{dx} = 0</im>:
+<ul>
+<li><im>4x^3 - 12x^2 + 12x = 0</im></li>
+<li><im>4x(x^2 - 3x + 3) = 0</im></li>
+<li><im>x = 0</im> or <im>x = \frac{3 \pm \sqrt{3^2 - 4\times1\times3}}{2\times1}</im></li>
+<li><im>x = 0</im> or <im>x = \frac{3 \pm \sqrt{-3}}{2}</im></li>
+<li><im>x = 0</im> (the other two solutions are complex numbers)</li>
+</ul>
+</li>
+<li>Substitute back to find y-coordinate:
+<ul>
+<li>At <im>x = 0</im>: <im>y = 0^4 - 4(0)^3 + 6(0)^2 = 0</im> -&gt; Stationary point at (0, 0)</li>
+</ul>
+</li>
+<li>Now we find the second derivative:
+<ul>
+<li><im>\frac{d^2y}{dx^2} = 12x^2 - 24x + 12</im></li>
+</ul>
+</li>
+<li>Evaluate the second derivative at the stationary point:
+<ul>
+<li>At <im>x = 0</im>: <im>\frac{d^2y}{dx^2} = 12(0)^2 - 24(0) + 12 = 12</im> (greater than 0) -&gt; Local minimum at (0, 0)</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: Local minimum at (0, 0)</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scalar product of vectors</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Scalar product of vectors</h1>
+<p>If we have two vectors, <im>\vec a</im> and <im>\vec b</im>, we write the <em>scalar product</em> as:</p>
+<p><ma>
+\vec a \cdot \vec b
+</ma></p>
+<p>Because of the big dot operator which we use to mean ‘scalar product’, it is
+also called the <em>dot product</em>.</p>
+<h2>Scalar product rule for 2D</h2>
+<p>For vectors <im>\vec a=\pmatrix{a_1\\a_2}</im> and <im>b=\pmatrix{b_1\\b_2}</im>, then <im>\vec a\cdot\vec b=a_1b_1 + a_2b_2</im>.</p>
+<h2>Scalar product rule for 3D</h2>
+<p>For 3D, it’s exactly the same.</p>
+<p>For vectors <im>\vec a=\pmatrix{a_1\\a_2\\a_3}</im> and <im>b=\pmatrix{b_1\\b_2\\b_3}</im>, then <im>\vec a\cdot\vec b=a_1b_1 + a_2b_2 + a_3b_3</im>.</p>
+<h2>Geometric definition</h2>
+<p><ma>
+\vec a \cdot \vec b = |\vec a| |\vec b| \cos \theta
+</ma></p>
+<h3>Proof</h3>
+<ul>
+<li>The origin is at point <im>O</im>.</li>
+<li>Point <im>A</im> is at <im>(a_1, a_2)</im>.</li>
+<li>Point <im>B</im> is at <im>(b_1, b_2)</im>.</li>
+<li>let <im>\vec a=|OA|</im></li>
+<li>let <im>\vec b=|OB|</im></li>
+<li>let <im>\theta</im> be the angle between <im>\vec a</im> and <im>\vec b</im>.</li>
+<li><im>| \vec a | = \sqrt{a_1^2 + a_2^2}</im></li>
+<li><im>| \vec a |^2 = a_1^2 + a_2^2</im></li>
+<li><im>| \vec b | = \sqrt{b_1^2 + b_2^2}</im></li>
+<li><im>| \vec b |^2 = b_1^2 + b_2^2</im></li>
+<li>The cosine rule is <im>\cos C=\frac{a^2 + b^2 - c^2}{2ab}</im>.</li>
+<li><im>\cos C=\frac{|\vec a|^2 + |\vec b|^2 - |\vec{AB}|^2}{2 |\vec a| |\vec b|}</im></li>
+<li><im>\cos C=\frac{(a_1^2 + a_2^2) + (b_1^2 + b_2^2) - ((b_1 - a_1)^2 + (b_2 - a_2)^2)}{2 \sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}</im></li>
+<li><im>\cos C=\frac{(a_1^2 + a_2^2) + (b_1^2 + b_2^2) - (b_1^2 - 2a_1b_1 + a_1^2 + b_2^2 - 2a_2b_2 + a_2^2)}{2 \sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}</im></li>
+<li><im>\cos C=\frac{2a_1b_1 + 2a_2b_2}{2 \sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}</im></li>
+<li><im>\cos C=\frac{a_1b_1 + a_2b_2}{\sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}</im></li>
+<li><im>a_1b_1+a_2b_2=a\cdot b</im></li>
+<li><im>\cos C=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+</ul>
+<h2>Applying the rules: finding the angle between two vectors</h2>
+<h3>Find the angle between <im>\vec a=\pmatrix{3\\4}</im> and <im>\vec b=\pmatrix{5\\-12}</im></h3>
+<ul>
+<li><im>\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+<li><im>\vec a \cdot \vec b = 3 \times 5 + 4 \times -12</im>
+<ul>
+<li><im>= 15 - 48=-33</im></li>
+</ul>
+</li>
+<li><im>|\vec a| = \sqrt{3^2 + 4^2}</im>
+<ul>
+<li><im>= \sqrt{9 + 16}</im></li>
+<li><im>= \sqrt{25}=5</im></li>
+<li>so <im>|\vec a|=5</im></li>
+</ul>
+</li>
+<li><im>|\vec b| = \sqrt{5^2 + (-12)^2}</im>
+<ul>
+<li><im>= \sqrt{25 + 144}</im></li>
+<li><im>= \sqrt{169}=13</im></li>
+<li>so <im>|\vec b|=13</im></li>
+</ul>
+</li>
+<li><im>\cos\theta=\frac{-33}{5 \times 13}</im>
+<ul>
+<li><im>=\frac{-33}{65}</im></li>
+</ul>
+</li>
+<li><im>\theta=\cos^{-1}\left(\frac{-33}{65}\right)</im>
+<ul>
+<li><im>\approx 120.5^\degree</im></li>
+</ul>
+</li>
+<li>So the angle between the two vectors is <im>120.5^\circ</im> - we’ve solved it!!</li>
+</ul>
+<h3>Find the angle between <im>\vec a=\pmatrix{3\\5\\6}</im> and <im>\vec b=\pmatrix{4\\2\\1}</im></h3>
+<ul>
+<li><im>\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+<li><im>\vec a \cdot \vec b = a_1b_1 + a_2b_2 + a_3b_3</im></li>
+<li><im>\vec a \cdot \vec b = 3\times4+5\times2+6\times1</im>
+<ul>
+<li><im>=12+10+6=28</im></li>
+</ul>
+</li>
+<li><im>|\vec a| = \sqrt{3^2 + 5^2 + 6^2}</im>
+<ul>
+<li><im>= \sqrt{9 + 25 + 36}</im></li>
+<li><im>= \sqrt{70}</im></li>
+</ul>
+</li>
+<li><im>|\vec b| = \sqrt{4^2 + 2^2 + 1^2}</im>
+<ul>
+<li><im>= \sqrt{16 + 4 + 1}</im></li>
+<li><im>= \sqrt{21}</im></li>
+</ul>
+</li>
+<li><im>\cos\theta=\frac{28}{\sqrt{70} \times \sqrt{21}}</im>
+<ul>
+<li><im>=\frac{28}{\sqrt{1470}}</im></li>
+</ul>
+</li>
+<li><im>\theta=\cos^{-1}\left(\frac{28}{\sqrt{1470}}\right)</im>
+<ul>
+<li><im>\approx 51.2^\circ</im></li>
+</ul>
+</li>
+<li>So the angle between the two vectors is <im>51.2^\circ</im> :)</li>
+</ul>
+<h3>Find the angle between <im>\vec a=\pmatrix{3\\5\\6}</im> and <im>\vec b=\pmatrix{4\\2\\1}</im></h3>
+<h2>Checking if vectors are perpendicular</h2>
+<ul>
+<li><im>\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+<li>If <im>\vec a \perp \vec b</im>, then <im>\theta=90^\circ</im>.</li>
+<li><im>\cos90=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+<li><im>0=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}</im></li>
+<li><im>\vec a \cdot \vec b=0</im></li>
+<li>So if the scalar product of two vectors is zero, then the vectors are perpendicular:</li>
+</ul>
+<blockquote>
+<p>Key take-away: if <im>\vec a \cdot \vec b=0</im>, then <im>\vec a \perp \vec b</im>.</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

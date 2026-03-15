@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Highest common factor</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Highest common factor</h1>
+<h2>What is the highest common factor?</h2>
+<p>The HCF (highest common factor) of numbers is the <em>largest factor that goes into
+both/all numbers</em>.</p>
+<p>For example, the HCF of <im>12</im> and <im>15</im> is <im>3</im>, because <im>3</im> is the largest number
+that goes into both <im>12</im> and <im>15</im>.</p>
+<h2>Finding the highest common factor</h2>
+<p>To find the highest common factor, you need to be familiar with <a href="prime-factor-decomposition">prime factor decomposition</a>.</p>
+<p>Here are the steps:</p>
+<ol>
+<li>Find the prime factor decomposition of each number.</li>
+<li>Find the common prime factors (and <em>how many</em> of each there are)</li>
+<li>Multiply the common prime factors together to get the HCF</li>
+</ol>
+<h3>Example: Find the HCF of <im>18</im> and <im>24</im>.</h3>
+<ol>
+<li>Find the prime factor decomposition of each number:
+<ul>
+<li><im>18 = 2 \times 3 \times 3 = 2 \times 3^2</im></li>
+<li><im>24 = 2 \times 2 \times 2 \times 3 = 2^3 \times 3</im></li>
+</ul>
+</li>
+<li>Find the common prime factors:
+<ul>
+<li>Both have at least <im>2^1</im> as a factor</li>
+<li>Both have at least <im>3^1</im> as a factor</li>
+</ul>
+</li>
+<li>Multiply the common prime factors together:
+<ul>
+<li><im>HCF(18, 24) = 2^1 \times 3^1 = 2 \times 3 = 6</im></li>
+</ul>
+</li>
+</ol>
+<p><strong>Answer</strong>: <im>6</im></p>
+<h3>Example: Find the HCF of <im>36</im>, <im>60</im> and <im>84</im>.</h3>
+<ol>
+<li>Find the prime factor decomposition of each number:
+<ul>
+<li><im>36 = 2 \times 2 \times 3 \times 3 = 2^2 \times 3^2</im></li>
+<li><im>60 = 2 \times 2 \times 3 \times 5 = 2^2 \times 3^1 \times 5^1</im></li>
+<li><im>84 = 2 \times 2 \times 3 \times 7 = 2^2 \times 3^1 \times 7^1</im></li>
+</ul>
+</li>
+<li>Find the common prime factors:
+<ul>
+<li>All have at least <im>2^2</im> as a factor</li>
+<li>All have at least <im>3^1</im> as a factor</li>
+</ul>
+</li>
+<li>Multiply the common prime factors together:
+<ul>
+<li><im>HCF(36, 60, 84) = 2^2 \times 3^1 = 4 \times 3 = 12</im></li>
+</ul>
+</li>
+</ol>
+<p><strong>Answer</strong>: <im>12</im></p>
+<h2>Uses of the highest common factor</h2>
+<p>We can use the HCF to:</p>
+<ul>
+<li>simplify fractions</li>
+<li>divide things up more easily</li>
+<li>simplify ratios</li>
+<li>(and more)</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

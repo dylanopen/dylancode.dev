@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Volume of revolution formula</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Volume of revolution formula</h1>
+<h2>Rotation <im>360\degree</im> about the x axis</h2>
+<p>If we have a curve with the equation <im>y=f(x)</im>, we can calculate the volume of
+the (full) rotation about the <strong>x axis</strong> using the formula:</p>
+<blockquote>
+<p><ma>
+V=\pi\int_a^b y^2\space dx
+</ma></p>
+</blockquote>
+<p>It usually helps to find <im>y^2</im> first before trying to integrate and find the
+volume.</p>
+<h2>Rotation <im>360\degree</im> about the y axis</h2>
+<p>If instead we want to rotate the curve of <im>y=f(x)</im> about the <strong>y axis</strong> by 360
+degrees (or <im>2\pi</im> radians), then we just swap the <im>y</im> and <im>x</im>:</p>
+<blockquote>
+<p><ma>
+V=\pi\int_a^b x^2\space dx
+</ma></p>
+</blockquote>
+<p>This does mean you need to rearrange the function of <im>y</im> to make <im>x</im> the
+subject, then square it.</p>
+<h2>Rotation of less than <im>360\degree</im></h2>
+<p>If we’re not rotating the full way, then we may want to find a <em>fraction</em> of
+the full volume. This depends entirely on what the shape looks like. For
+example, if we already have a full ‘semicircle’ shape in the top two quadrants
+on the graph, then we’ll have fully created all the volume after just half a
+revolution about the y-axis (because it’s ‘two sided’ and symmetrical).</p>
+<p>The easiest thing to do is think logically about how much it needs to be
+rotated until it’s created its full volume.</p>
+<p>If it needs to rotate 360 degrees to create its full volume, and we’re only
+rotating it 180 degrees, then we can just take half of the full volume:</p>
+<p><ma>
+V=\frac{1}{2}\pi\int_a^b x^2\space dx
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

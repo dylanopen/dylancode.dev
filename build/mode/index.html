@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mode</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Mode</h1>
+<p>The <em>mode</em> is just the most common value in a data set.<br />
+It’s the value that appears most often.</p>
+<h2>Calculating mode</h2>
+<ol>
+<li>Count how many times each value appears in the data set.</li>
+<li>The value that appears the largest number of times is the mode.</li>
+</ol>
+<p>Basically:</p>
+<blockquote>
+<p>The mode is the most common value in a data set.</p>
+</blockquote>
+<h2>Bimodal, trimodal and beyond</h2>
+<p>Sometimes, we won’t have a single value that appears more often than all the
+others. For example, in this dataset.</p>
+<p><ma>
+\{1, 1, 2, 2, 3\}
+</ma></p>
+<p>Both <im>1</im> <strong>and</strong> <im>2</im> appear twice, which is more than any other value. So, this
+dataset actually has two modes: <im>1</im> and <im>2</im>.</p>
+<ul>
+<li>When there are two modes, we call the dataset “bimodal”.</li>
+<li>When there are three modes, we call the dataset “trimodal”.</li>
+<li>When there are more than three modes, we just call the dataset “multimodal”.</li>
+</ul>
+<h2>No mode</h2>
+<p>If all the values in a dataset appear the same number of times, then there is no
+mode. For example, in this dataset:</p>
+<p><ma>
+\{1, 1, 8, 8, 4, 4\}
+</ma></p>
+<p>We just say ‘no mode’.</p>
+<h2>Examples</h2>
+<h3>Find the mode of <im>\{2, 3, 5, 7, 11\}</im></h3>
+<ul>
+<li>Each value appears only once, so there is no mode.</li>
+<li><strong>Answer</strong>: no mode</li>
+</ul>
+<h3>Find the mode of <im>\{1, 4, 9, 16, 16, 25\}</im></h3>
+<ul>
+<li><im>16</im> appears twice, which is more than any other value.</li>
+<li><strong>Answer</strong>: <im>16</im></li>
+</ul>
+<h3>Find the mode of <im>\{3, 1, 4, 1, 5, 9\}</im></h3>
+<ul>
+<li><im>1</im> appears twice, which is more than any other value.</li>
+<li><strong>Answer</strong>: <im>1</im></li>
+</ul>
+<h3>Find the mode of <im>\{1, 3, 3, 4, 5, 5, 7, 8\}</im></h3>
+<ul>
+<li>Both <im>3</im> and <im>5</im> appear twice, which is more than any other value.</li>
+<li><strong>Answer</strong>: <im>3</im> and <im>5</im> (bimodal)</li>
+</ul>
+<h3>Find the mode of <im>\{1, 1, 3, 4, 4, 5, 6, 8, 8, 9\}</im></h3>
+<ul>
+<li><im>1</im>, <im>4</im> and <im>8</im> all appear twice, which is more than any other value.</li>
+<li><strong>Answer</strong>: <im>1</im>, <im>4</im> and <im>8</im> (trimodal)</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

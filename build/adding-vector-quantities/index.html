@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adding vector quantities</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Adding vector quantities</h1>
+<p>If we have two vector quantities, we can add them to get a new vector quantity.</p>
+<p>The thing we get after adding two vectors together is called the <em>resultant</em>, or
+more specifically, <em>resultant vector</em>.</p>
+<h2>Adding vectors of the same direction</h2>
+<p>Suppose we have two vectors, <im>\vec A</im> and <im>\vec B</im>, which are in the same
+direction. We can add them together by adding their magnitudes together.</p>
+<p>For example, if <im>\vec A</im> has a magnitude of <im>3m</im> and <im>\vec B</im> has a magnitude of
+<im>5m</im>, then the resultant vector <im>\vec R</im> will have a magnitude of <im>3m+5m=8m</im>.</p>
+<p>That’s because, if you suppose the vector represents a <em>movement</em>, then we will
+have moved <im>3m</im> in the direction of <im>\vec A</im>, and then <im>5m</im> in the same
+direction, so we will have moved a total of <im>8m</im> in that direction.</p>
+<h3>A car moves <im>30km</im> north, then <im>20km</im> north. What is the resultant vector for the car’s movement?</h3>
+<ul>
+<li>The car moves <im>30km</im> north, then <im>20km</im> north, so the car in total moves
+<im>30km+20km=50km</im>.</li>
+<li>We’re still going North, so the direction of the resultant vector is north.</li>
+<li><strong>Answer</strong>: <im>50km</im> north</li>
+</ul>
+<h2>Adding vectors of opposite directions</h2>
+<p>If we have two vectors, <im>\vec A</im> and <im>\vec B</im>, which are in opposite directions,
+then we can add them together by <em>subtracting</em> the smaller magnitude from the
+larger magnitude, and keeping the direction of the larger vector.</p>
+<ul>
+<li>Let’s suppose <im>\vec A</im> has a magnitude of <im>3m</im> and <im>\vec B</im> has a magnitude of
+<im>5m</im>, and <im>\vec A</im> is in the opposite direction to <im>\vec B</im>.</li>
+<li>the resultant vector <im>\vec R</im> will have a magnitude of <im>5m-3m=2m</im>, and the
+direction of <im>\vec R</im> will be the same as the direction of <im>\vec B</im> (because
+<im>\vec B</im> has the larger magnitude).</li>
+<li><strong>Answer</strong>: <im>2m</im> in the same direction as <im>\vec B</im></li>
+</ul>
+<h3>A car moves <im>30km</im> north, then <im>20km</im> south. What is the resultant vector for the car’s movement?</h3>
+<ul>
+<li>The car moves <im>30km</im> north, then <im>20km</im> south, so the car in total moves
+<im>30km-20km=10km</im>.</li>
+<li>The car is still moving north, because the north movement is larger than the
+south movement, so the direction of the resultant vector is north.</li>
+<li><strong>Answer</strong>: <im>10km</im> north</li>
+</ul>
+<h3>A person cycles <im>10km</im> east, then <im>15km</im> west. What is the resultant vector for the person’s movement?</h3>
+<ul>
+<li>The person cycles <im>10km</im> east, then <im>15km</im> west, so the person in total moves
+<im>15km-10km=5km</im>.</li>
+<li>The person is still moving west, because the west movement is larger than the
+east movement, so the direction of the resultant vector is west.</li>
+<li><strong>Answer</strong>: <im>5km</im> west</li>
+</ul>
+<h2>Bearings</h2>
+<p>We can write the direction of a vector as a bearing, which is the angle that the
+vector makes with the north direction, measured clockwise.</p>
+<p>For example, if a vector has a bearing of <im>90\degree</im>, then it is pointing
+east, because it is <im>90\degree</im> clockwise from north.</p>
+<h2>Adding vectors at right angles</h2>
+<p>We can also find the resultant of two vectors if they’re at right angles to each
+other.</p>
+<p>We can use:</p>
+<ul>
+<li>the Pythagorean theorem to find the magnitude of the resultant vector</li>
+<li>trigonometry to find the direction of the resultant vector</li>
+</ul>
+<h3>Boat A is <im>6km</im> east of a lighthouse, and boat B is <im>8km</im> north of the lighthouse. What is the resultant position vector OF <im>B</im> FROM <im>A</im>?</h3>
+<p>Draw a right triangle with the lighthouse at the right angle, boat A at one end
+of the hypotenuse, and boat B at the other end of the hypotenuse:</p>
+<pre><code>        B
+          +
+          | \
+          |   \
+          |     \
+          |       \
+     8km  |         \
+          |           \
+          |             \
+          |            θ  \
+          + --------------- +
+        L         6km         A
+</code></pre>
+<ul>
+<li>The magnitude is the <em>hypotenuse</em> of the triangle, so:
+<ul>
+<li><im>a^2+b^2=c^2</im></li>
+<li><im>6^2+8^2=c^2</im></li>
+<li><im>36+64=c^2</im></li>
+<li><im>100=c^2</im></li>
+<li><im>c=10km</im></li>
+</ul>
+</li>
+<li>The direction is the angle <im>\theta</im> that the hypotenuse makes with the east
+direction, so:
+<ul>
+<li><im>\tan\theta=\frac{8}{6}</im></li>
+<li><im>\theta=\tan^{-1}\frac{8}{6}</im></li>
+<li><im>\theta\approx53.13\degree</im></li>
+<li>To make it into a bearing north, add the <im>270\degree</im> that we need to rotate
+from north to the west line:
+<ul>
+<li><im>\theta=270\degree+53.13\degree=323.13\degree</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>10km</im> at a bearing of <im>323.13\degree</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

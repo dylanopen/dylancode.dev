@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lossy compression</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Lossy compression</h1>
+<p><strong>Lossy compression</strong> is a type of <a href="/compression">compression</a> where the original
+file can’t be perfectly reconstructed from the compressed version - some data
+is lost when we compress it. This can lead to a loss in quality, and if we
+compress it too much, it can look really bad.</p>
+<blockquote>
+<p>In lossy compression, we cannot perfectly reconstruct the original file from
+the compressed version, as some data was lost during compression.</p>
+</blockquote>
+<h2>Examples of lossy compression</h2>
+<ul>
+<li>JPEG images</li>
+<li>MP3 audio files</li>
+<li>MP4 video files, encoded with lossy codecs like H.264 or H.265</li>
+</ul>
+<h2>Benefits of lossy compression</h2>
+<ul>
+<li>It can massively reduce the file size, which can save a lot of storage space
+and make it much faster to transfer over the internet.</li>
+<li>We usually don’t need 100% of the original data to get a good quality image,
+video or audio file - for example, if we have a photo of a cat, we don’t need
+to keep every single pixel to have a good quality image of the cat - we can
+lose some of the data without worrying.</li>
+</ul>
+<h2>Drawbacks of lossy compression</h2>
+<ul>
+<li>The original file can’t be perfectly reconstructed, so if we compress it too
+much, it can look really bad.</li>
+<li>If we need to edit the file later, it’s better to have a lossless version of
+it, as we can make edits without losing quality. If we edit a lossy compressed
+file, we will lose more quality each time we save it, as more data is lost
+each time we save it.
+<ul>
+<li>This is called <strong>generational loss</strong></li>
+</ul>
+</li>
+<li>If all we have is a lossy compressed version, the original is lost forever.
+<ul>
+<li>This is especially important in archive projects.</li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

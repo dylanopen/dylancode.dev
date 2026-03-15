@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Isomorphic graph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Isomorphic graph</h1>
+<p>Two graphs are <em>isomorphic</em> if they have the same <em>structure</em>.</p>
+<p>In other words, we can redraw the graph to make them look identical, even if the
+vertices and edges are labeled differently.</p>
+<h2>Example</h2>
+<p>These two graphs are isomorphic:</p>
+<pre><code>Graph 1:        Graph 2:
+ A --- B        1 --- 2
+ |     |        |     |
+ C --- D        3 --- 4
+</code></pre>
+<p>Even though the vertices are labeled differently (A, B, C, D vs. 1, 2, 3, 4),
+the connections between them are the same. We can map A to 1, B to 2, C to 3,
+and D to 4.</p>
+<h2>Checking for isomorphism</h2>
+<p>To check if two graphs are isomorphic, we can look at:</p>
+<ul>
+<li>The number of vertices and edges in each graph.</li>
+<li>The degree of each vertex (how many edges connect to it).</li>
+<li>The overall structure and connections between vertices.
+If all these aspects match, the graphs are isomorphic!</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

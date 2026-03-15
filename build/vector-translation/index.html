@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vector translation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Vector translation</h1>
+<p><ma>
+\pmatrix{x\\y} + \pmatrix{a\\b} = \pmatrix{x+a\\y+b}
+</ma></p>
+<blockquote>
+<p>They can be represented by vectors, but <em>not</em> by matrices, because the origin
+moves.</p>
+</blockquote>
+<h2>Translate the point <im>(1,0)</im> by vector <im>\pmatrix{4\\-1}</im></h2>
+<ul>
+<li><im>x_1=1</im></li>
+<li><im>y_1=0</im></li>
+<li><im>\Delta x=4</im></li>
+<li><im>\Delta y=-1</im></li>
+<li><im>x_2=x_1+\Delta x=1+4=5</im></li>
+<li><im>y_2=y_1+\Delta y=0+(-1)=-1</im></li>
+<li>New point is <im>(5,-1)</im></li>
+</ul>
+<h2>Translate the point <im>(-2,3)</im> by vector <im>\pmatrix{-1\\2}</im></h2>
+<ul>
+<li><im>x_1=-2</im></li>
+<li><im>y_1=3</im></li>
+<li><im>\Delta x=-1</im></li>
+<li><im>\Delta y=2</im></li>
+<li><im>x_2=x_1+\Delta x=-2+(-1)=-3</im></li>
+<li><im>y_2=y_1+\Delta y=3+2=5</im></li>
+<li>New point is <im>(-3,5)</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

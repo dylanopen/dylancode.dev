@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Output controller</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Output controller</h1>
+<p>Just like an <a href="/input-controller">input controller</a> is a component that manages
+the input devices of the computer and sends the input data to the processor in
+a standard form, an <em>output controller</em> is a component that manages the output
+devices of the computer and means the processor can send output data to the
+output devices in a standard form it understands, and the output controller
+does the translating to make the output devices understand it.</p>
+<p>They are connected to the processor via the <a href="/computer-bus">buses</a>, so the
+processor can send output data to the output devices and only have to understand
+one way of communicating with them.</p>
+<blockquote>
+<p>An output controller is a circuit which accepts a standard protocol for the
+processor to use to send output data, and translates it into the
+specific protocol that an output device understands so the output device can
+display the output data.</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

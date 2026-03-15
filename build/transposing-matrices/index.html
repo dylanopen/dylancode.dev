@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transposing matrices</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Transposing matrices</h1>
+<p><em>Transposing</em> a matrix just means we make the rows into columns and the columns
+into rows. Or, in other words, we somewhat <em>flip</em> the matrix across its
+diagonal.</p>
+<p>For example, if we have the matrix:</p>
+<p><ma>
+\mathbf{A} = \begin{bmatrix}
+1 &amp; 2 &amp; 3 \\
+4 &amp; 5 &amp; 6
+\end{bmatrix}
+</ma></p>
+<p>The <em>transpose</em> of <im>\mathbf{A}</im>, which we write as <im>\mathbf{A}^T</im>, is:</p>
+<p><ma>
+\mathbf{A}^T = \begin{bmatrix}
+1 &amp; 4 \\
+2 &amp; 5 \\
+3 &amp; 6
+\end{bmatrix}
+</ma></p>
+<p>That’s because the first row, <im>[1 \quad 2 \quad 3]</im>, becomes the first column,
+and the second row, <im>[4 \quad 5 \quad 6]</im>, becomes the second column.</p>
+<h2>Example transpositions</h2>
+<h3>Find the transpose of <im>\mathbf{B} = \begin{bmatrix} 7 &amp; 8 \\ 9 &amp; 10 \\ 11 &amp; 12 \end{bmatrix}</im></h3>
+<ul>
+<li>The first row is <im>[7 \quad 8]</im>, which becomes the first column, so the matrix
+will look like this so far:
+<ul>
+<li><im>\begin{bmatrix} 7 &amp; ? \\ 8 &amp; ? \\ ? &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The second row is <im>[9 \quad 10]</im>, which becomes the second column, so we can
+fill in the second column:
+<ul>
+<li><im>\begin{bmatrix} 7 &amp; 9 \\ 8 &amp; 10 \\ ? &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The third row is <im>[11 \quad 12]</im>, which becomes the third column, so we can
+also fill in the third column:
+<ul>
+<li><im>\begin{bmatrix} 7 &amp; 9 &amp; 11 \\ 8 &amp; 10 &amp; 12 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\mathbf{B}^T = \begin{bmatrix} 7 &amp; 9 &amp; 11 \\ 8 &amp; 10 &amp; 12 \end{bmatrix}</im></li>
+</ul>
+<h3>Find the transpose of <im>\mathbf{C} = \begin{bmatrix} 13 &amp; 14 &amp; 15 \\ 16 &amp; 17 &amp; 18 \end{bmatrix}</im></h3>
+<ul>
+<li>The first row is <im>[13 \quad 14 \quad 15]</im>, which becomes the first column, so the
+matrix will look like this so far:
+<ul>
+<li><im>\begin{bmatrix} 13 &amp; ? \\ 14 &amp; ? \\ 15 &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The second row is <im>[16 \quad 17 \quad 18]</im>, which becomes the second column, so we can fill in the second column:
+<ul>
+<li><im>\begin{bmatrix} 13 &amp; 16 \\ 14 &amp; 17 \\ 15 &amp; 18 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\mathbf{C}^T = \begin{bmatrix} 13 &amp; 16 \\ 14 &amp; 17 \\ 15 &amp; 18 \end{bmatrix}</im></li>
+</ul>
+<h3>Find the transpose of <im>\mathbf{D} = \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}</im></h3>
+<ul>
+<li>The first row is <im>[a \quad b]</im>, which becomes the first column, so the matrix
+will look like this so far:
+<ul>
+<li><im>\begin{bmatrix} a &amp; ? \\ b &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The second row is <im>[c \quad d]</im>, which becomes the second column, so we can fill in the second column:
+<ul>
+<li><im>\begin{bmatrix} a &amp; c \\ b &amp; d \end{bmatrix}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\mathbf{D}^T = \begin{bmatrix} a &amp; c \\ b &amp; d \end{bmatrix}</im></li>
+</ul>
+<h3>Find the transpose of <im>\mathbf{E} = \begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \\ 5 &amp; 6 \end{bmatrix}</im></h3>
+<ul>
+<li>The first row is <im>[1 \quad 2]</im>, which becomes the first column, so the matrix
+will look like this so far:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; ? \\ 2 &amp; ? \\ ? &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The second row is <im>[3 \quad 4]</im>, which becomes the second column, so we can fill in the second column:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; 3 \\ 2 &amp; 4 \\ ? &amp; ? \end{bmatrix}</im></li>
+</ul>
+</li>
+<li>The third row is <im>[5 \quad 6]</im>, which becomes the third column, so we can fill in the third column:
+<ul>
+<li><im>\begin{bmatrix} 1 &amp; 3 &amp; 5 \\ 2 &amp; 4 &amp; 6 \end{bmatrix}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\mathbf{E}^T = \begin{bmatrix} 1 &amp; 3 &amp; 5 \\ 2 &amp; 4 &amp; 6 \end{bmatrix}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

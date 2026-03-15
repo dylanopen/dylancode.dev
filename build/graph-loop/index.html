@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Graph loop</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Graph loop</h1>
+<p>A loop is where a <a href="/graph-vertex">vertex</a> on a <a href="/graph">graph</a> has an
+<a href="/graph-edge">edge</a> that connects back to itself. In other words, the edge
+starts and ends at the same vertex.</p>
+<blockquote>
+<p>A loop is an edge that connects a vertex to itself.</p>
+</blockquote>
+<h2>Loops and vertex degrees</h2>
+<ul>
+<li>If a vertex has a loop, its <a href="/graph-vertex-degree">degree</a> increases by 2,
+since the loop technically attaches to the vertex twice (once at each end).</li>
+<li>This only applies if the graph is <em>not</em> <a href="/directed-graph">directed</a>.</li>
+</ul>
+<h2>Simple graphs</h2>
+<ul>
+<li>A <a href="/simple-graph">simple graph</a> is a graph that does not allow loops or
+multiple edges between the same pair of vertices.</li>
+<li>This means that loops can’t exist in simple graphs.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Factorising single brackets</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Factorising single brackets</h1>
+<p>When we have an expression such as <im>3(x+4)</im>, we can use the <em>distributive law</em>
+to expand it:</p>
+<ul>
+<li><im>3(x+4)=3x+12</im></li>
+</ul>
+<p>We know this from <a href="/expanding-single-brackets">expanding single brackets</a>.</p>
+<p>We can also <em>go the other way</em> - take the expression <im>3x+12</im> and put it <em>into</em>
+a bracket, which would give us <im>3(x+4)</im>. This is called <em>factorising</em>.</p>
+<h2>Steps</h2>
+<ol>
+<li>Find the <a href="/highest-common-factor">highest common factor (HCF)</a> of the terms
+in the expression.</li>
+<li>Write the HCF outside a set of brackets.</li>
+<li>Divide each term in the expression by the HCF, and write the results inside
+the brackets.</li>
+</ol>
+<h2>Examples</h2>
+<h3>Factorise <im>6x + 9</im></h3>
+<ul>
+<li>The HCF of <im>6x</im> and <im>9</im> is <im>3</im>.</li>
+<li>Write <im>3</im> outside the brackets:
+<ul>
+<li><im>3( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus or
+minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>3</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{6x}{3} = 2x</im></li>
+<li><im>\frac{9}{3} = 3</im></li>
+</ul>
+</li>
+<li>Write those results added together inside the brackets:
+<ul>
+<li><im>3(2x + 3)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>3(2x + 3)</im></li>
+</ul>
+<h3>Factorise <im>12y - 8</im></h3>
+<ul>
+<li>The HCF of <im>12y</im> and <im>8</im> is <im>4</im>.</li>
+<li>Write <im>4</im> outside the brackets:
+<ul>
+<li><im>4( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus or
+minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>4</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{12y}{4} = 3y</im></li>
+<li><im>\frac{-8}{4} = -2</im></li>
+</ul>
+</li>
+<li>Write those results subtracted inside the brackets:
+<ul>
+<li><im>4(3y - 2)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>4(3y - 2)</im></li>
+</ul>
+<h3>Factorise <im>15a + 25b</im></h3>
+<ul>
+<li>The HCF of <im>15a</im> and <im>25b</im> is <im>5</im>.</li>
+<li>Write <im>5</im> outside the brackets:
+<ul>
+<li><im>5( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus or
+minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>5</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{15a}{5} = 3a</im></li>
+<li><im>\frac{25b}{5} = 5b</im></li>
+</ul>
+</li>
+<li>Write those results added together inside the brackets:
+<ul>
+<li><im>5(3a + 5b)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>5(3a + 5b)</im></li>
+</ul>
+<h3>Factorise <im>x^2 - 3x</im></h3>
+<ul>
+<li>The HCF of <im>x^2</im> and <im>-3x</im> is <im>x</im>.</li>
+<li>Write <im>x</im> outside the brackets:
+<ul>
+<li><im>x( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus or
+minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>x</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{x^2}{x} = x</im></li>
+<li><im>\frac{-3x}{x} = -3</im></li>
+</ul>
+</li>
+<li>Write those results subtracted inside the brackets:
+<ul>
+<li><im>x(x - 3)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>x(x - 3)</im></li>
+</ul>
+<h3>Factorise <im>-8m^2n - 12mn^2</im></h3>
+<ul>
+<li>The HCF of <im>-8m^2n</im> and <im>-12mn^2</im> is <im>-4mn</im>.</li>
+<li>Write <im>-4mn</im> outside the brackets:
+<ul>
+<li><im>-4mn( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus
+or minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>-4mn</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{-8m^2n}{-4mn} = 2m</im></li>
+<li><im>\frac{-12mn^2}{-4mn} = 3n</im></li>
+</ul>
+</li>
+<li>Write those results added together inside the brackets:
+<ul>
+<li><im>-4mn(2m + 3n)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>-4mn(2m + 3n)</im></li>
+</ul>
+<h3>Factorise <im>14p^3 - 21p^2 + 28p</im></h3>
+<ul>
+<li>The HCF of <im>14p^3</im>, <im>-21p^2</im> and <im>28p</im> is <im>7p</im>.</li>
+<li>Write <im>7p</im> outside the brackets:
+<ul>
+<li><im>7p( ? )</im> (we don’t yet know what’s inside the brackets, or if it’s plus or minus).</li>
+</ul>
+</li>
+<li>Divide each term by <im>7p</im> and write the results inside the brackets:
+<ul>
+<li><im>\frac{14p^3}{7p} = 2p^2</im></li>
+<li><im>\frac{-21p^2}{7p} = -3 p</im></li>
+<li><im>\frac{28p}{7p} = 4</im></li>
+</ul>
+</li>
+<li>Write those results together inside the brackets:
+<ul>
+<li><im>7p(2p^2 - 3p + 4)</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>7p(2p^2 - 3p + 4)</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

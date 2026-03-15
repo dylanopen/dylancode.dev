@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resistivity</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Resistivity</h1>
+<p>Resistvity is the total resistance of a material</p>
+<h2>Equation for calculating resistance</h2>
+<p>If we know the:</p>
+<ul>
+<li>area of the cross-section of the wire</li>
+<li>length of the wire</li>
+<li>resistivity of the material</li>
+</ul>
+<p>we can calculate the resistance of the wire using the equation:</p>
+<p><ma>
+R = \frac{\rho L}{A}
+</ma></p>
+<p>where:</p>
+<ul>
+<li><im>R</im> is the resistance (in ohms, <im>\Omega</im>)</li>
+<li><im>\rho</im> is the resistivity of the material (in ohm metres, <im>\Omega m</im>)</li>
+<li><im>L</im> is the length of the wire (in metres, m)</li>
+<li><im>A</im> is the area of the cross-section of the wire (in square metres, <im>m^2</im>)</li>
+</ul>
+<h3>The resistivity of copper is <im>1.8\times10{-8}\Omega m</im>. Calculate the resistance of a copper wire of length <im>0.6m</im> and cross-sectional area of <im>1mm^2</im></h3>
+<ul>
+<li>R=<im>\frac{\rho L}{A}</im></li>
+<li><im>\rho=1.8\times10^{-8}\Omega m</im></li>
+<li><im>L=0.6m</im></li>
+<li><im>A=1mm^2=1\times10^{-6}m^2</im></li>
+<li><im>R=\frac{1.8\times10^{-8}\times0.6}{1\times10^{-6}}=1.08\times10^{-2}\Omega</im></li>
+<li><strong>Answer</strong>: <im>1.08\times10^{-2}\Omega</im></li>
+</ul>
+<h3>Two of these wires are used to connect a lamp to a power supply of negligible internal resistance. The p.d. across the lamp is <im>12V</im> and its power is <im>36W</im>. Calculate the potential difference across each wire.</h3>
+<ul>
+<li>Power, <im>P=\frac{V^2}{R}</im></li>
+<li>Rearranging for <im>R</im>: <im>R=\frac{V^2}{P}</im></li>
+<li><im>V=12V</im></li>
+<li><im>P=36W</im></li>
+<li><im>R=\frac{12^2}{36}=4\Omega</im></li>
+<li>Each wire has resistance of <im>4\Omega</im></li>
+<li>Total resistance of wires = <im>4\Omega + 4\Omega = 8\Omega</im></li>
+<li>Total resistance in circuit = <im>8\Omega +</im> resistance of lamp</li>
+<li>Using <im>V=IR</im> to find current, <im>I=\frac{V}{R}</im></li>
+<li><im>I=\frac{12V}{8\Omega}=1.5A</im></li>
+<li>Potential difference across each wire, <im>V=IR</im></li>
+<li><im>V=1.5A \times 4\Omega = 6V</im></li>
+<li><strong>Answer</strong>: <im>6V</im> across each wire</li>
+</ul>
+<h3>What length of copper wire of diameter 0.1mm is required to make a coil with resistance <im>0.5 \Omega</im>? (Resistivity of copper = <im>1.7 \times 10^{-8} \ \Omega m</im>)</h3>
+<ul>
+<li><im>R=\frac{\rho L}{A}</im></li>
+<li>Rearranging for <im>L</im>: <im>L=\frac{RA}{\rho}</im></li>
+<li><im>A=0.05^2 \pi \approx 7.85 \times 10^{-9} \ m^2</im></li>
+<li><im>R=0.5 \ \Omega</im></li>
+<li><im>\rho=1.7 \times 10^{-8} \ \Omega m</im></li>
+<li><im>L=\frac{0.5 \times 7.85 \times 10^{-9}}{1.7 \times 10^{-8}} \approx 0.23 \ m</im></li>
+<li><strong>Answer</strong>: <im>0.23 \ m</im></li>
+</ul>
+<h3>If the resistivity of copper is <im>1.7\times10^{-8}\Omega m</im> calculate the resistance of <im>1cm^3</im> of copper, when in the form of a wire of diameter <im>0.02cm</im></h3>
+<ul>
+<li><im>R=\frac{\rho L}{A}</im></li>
+<li><im>V=1cm^3=1\times10^{-6}m^3</im></li>
+<li><im>A=\pi r^2=\pi(0.01\times10^{-2})^2=\pi\times10^{-8}m^2</im></li>
+<li><im>L=\frac{V}{A}=\frac{1\times10^{-6}}{\pi\times10^{-8}}=\frac{100}{\pi}m</im></li>
+<li><im>\rho=1.7\times10^{-8}\Omega m</im></li>
+<li><im>R=\frac{1.7\times10^{-8}\times\frac{100}{\pi}}{\\pi\times10^{-8}}=\frac{1700}{\pi^2}\Omega</im></li>
+<li><strong>Answer</strong>: <im>\frac{1700}{\pi^2}\Omega \approx 172\Omega</im></li>
+</ul>
+<h2></h2>
+
+	    </div>
+	</div>
+    </body>
+</html>

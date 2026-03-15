@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boolean De Morgan</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Boolean De Morgan</h1>
+<h2>De Morgan’s law</h2>
+<p>De Morgan’s law can help us simplify expressions which have lots of NOTs in
+them. It says that if we have a NOT of an AND, we can rewrite it as an OR of
+NOTs, and if we have a NOT of an OR, we can rewrite it as an AND of NOTs.</p>
+<p>If you’d like a less wordy explanation of it, we ‘break the line and change the
+sign’, so, for example, <im>\overline{A \cdot B}</im> becomes <im>\overline{A} +
+\overline{B}</im>.</p>
+<blockquote>
+<p><im>\overline{A \cdot B} = \overline{A} + \overline{B}</im><br />
+<im>\overline{A + B} = \overline{A} \cdot \overline{B}</im></p>
+</blockquote>
+<p>Like all boolean identities, we can use this in both directions, so we can also
+say that <im>\overline{A} + \overline{B} = \overline{A \cdot B}</im> and
+<im>\overline{A} \cdot \overline{B} = \overline{A + B}</im>.</p>
+<h2>Using it to simplify expressions</h2>
+<p>It’s most useful when we have an expression with two NOTs ‘on top’ of each
+other, for example, in this example:</p>
+<h3>Simplify <im>\overline{\overline{A} \cdot \overline{B}}</im></h3>
+<ul>
+<li>Use De Morgan’s law to break the line and change the sign:
+<ul>
+<li><im>\overline{\overline{A}} + \overline{\overline{B}}</im></li>
+</ul>
+</li>
+<li>Now we have two NOTs on top of each other, so we can simplify them, using
+the fact that <im>\overline{\overline{A}} = A</im> (see <a href="/boolean-double-negation">double negation</a>):
+<ul>
+<li><im>A + B</im></li>
+</ul>
+</li>
+<li>So the final, simplified expression is <im>A + B</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

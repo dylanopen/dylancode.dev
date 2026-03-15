@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Factorising quadratics</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Factorising quadratics</h1>
+<h2>Factorising where <im>a=1</im></h2>
+<p>It is possible to <em>factorise</em> a quadratic expression, such as <im>x^2+3x+2</im>, into
+a <em>factorised form</em>*, such as <im>(x+2)(x+1)</im>.</p>
+<p>For a simple quadratic where <im>a</im> (the coefficient of <im>x^2</im>) is <im>1</im>, we find two
+numbers which multiply to give <im>2</im>, and add to give <im>3</im>. In this case: <im>2</im> and
+<im>1</im>.</p>
+<h3>Example: factorise <im>x^2+5x+6</im></h3>
+<ul>
+<li>We need two numbers which multiply to give <im>6</im>, and add to give <im>5</im>.</li>
+<li>The numbers <im>2</im> and <im>3</im> work, since <im>2\times3=6</im> and <im>2+3=5</im>.</li>
+<li>Therefore, we can factorise <im>x^2+5x+6</im> as <im>(x+2)(x+3)</im>.</li>
+</ul>
+<h2>Factorising where <im>a\ne1</im></h2>
+<p>When <im>a</im> is not equal to <im>1</im>, we can use a method called <em>splitting the
+middle term</em> (or simply called ‘the split method’).</p>
+<p>First, we multiply <im>a</im> and <im>c</im> together. Then, we find two numbers which
+multiply to give <im>ac</im>, and add to give <im>b</im>. We then split the middle term
+using these two numbers, and factor by grouping.</p>
+<h3>Example: factorise <im>2x^2+7x+3</im></h3>
+<ul>
+<li><im>a=2</im>, <im>b=7</im> and <im>c=3</im>.</li>
+<li><im>ac=2\times3=6</im>.</li>
+<li>We need two numbers which multiply to give <im>6</im>, and add to give <im>7</im></li>
+<li>The numbers <im>6</im> and <im>1</im> work, since <im>6\times1=6</im> and <im>6+1=7</im>.</li>
+<li>Split the middle term into <im>6x</im> and <im>1x</im>:
+<ul>
+<li><im>2x^2+6x+1x+3</im></li>
+</ul>
+</li>
+<li>Use the distributive law to factor by grouping:
+<ul>
+<li><im>2x(x+3)+1(x+3)</im></li>
+</ul>
+</li>
+<li>Factor out the common factor <im>(x+3)</im>:
+<ul>
+<li><im>(x+3)(2x+1)</im></li>
+</ul>
+</li>
+<li>Answer: <im>(x+3)(2x+1)</im>.</li>
+</ul>
+<h3>Example: factorise <im>3x^2-11x+10</im></h3>
+<ul>
+<li><im>a=3</im>, <im>b=-11</im> and <im>c=10</im>.</li>
+<li><im>ac=3\times10=30</im>.</li>
+<li>We need two numbers which multiply to give <im>30</im>, and add to give $-11</li>
+<li>The numbers <im>-5</im> and <im>-6</im> work, since <im>-5\times-6=30</im> and <im>-5+(-6)=-11</im>.</li>
+<li>Split the middle term into <im>-5x</im> and <im>-6x</im>:
+<ul>
+<li><im>3x^2-5x-6x+10</im></li>
+</ul>
+</li>
+<li>Use the distributive law to factor by grouping:
+<ul>
+<li><im>x(3x-5)-2(3x-5)</im></li>
+</ul>
+</li>
+<li>Factor out the common factor <im>(3x-5)</im>:
+<ul>
+<li><im>(3x-5)(x-2)</im></li>
+</ul>
+</li>
+<li>Answer: <im>(3x-5)(x-2)</im>.</li>
+</ul>
+<h2>Solving quadratic equations by factorising</h2>
+<p>Please see <a href="/solving-quadratics-by-factorising">solving-quadratics-by-factorising</a>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

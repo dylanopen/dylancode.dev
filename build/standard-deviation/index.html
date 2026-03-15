@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Standard deviation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Standard deviation</h1>
+<p>As mentioned in the <a href="/variance">variance</a> page, variance is just the standard
+deviation squared. So, to get the standard deviation, we just need to take the
+square root of the variance.</p>
+<h2>Standard deviation symbol</h2>
+<p>The symbol for standard deviation is <im>\sigma</im> (sigma).</p>
+<blockquote>
+<p><ma>
+\text{standard deviation:}\quad\sigma
+</ma></p>
+</blockquote>
+<h2>Calculating standard deviation</h2>
+<ol>
+<li>Find the <a href="/variance">variance</a> of the set of numbers.</li>
+<li>Take the square root of the variance.</li>
+</ol>
+<h2>Formula</h2>
+<blockquote>
+<p><ma>
+\sigma = \sqrt{\sigma^2}
+</ma></p>
+</blockquote>
+<p><ma>
+\text{standard deviation} = \sqrt{\text{variance}}
+</ma></p>
+<p>If we want to substitute our formulae for <a href="/variance">variance</a> into this, we
+can get any of:</p>
+<p><ma>
+\sigma = \sqrt{\overline{x^2} - \overline{x}^2}
+</ma></p>
+<p><ma>
+\sigma = \sqrt{\frac{\sum(x-\overline{x})^2}{n}}
+</ma></p>
+<p><ma>
+\sigma = \sqrt{\frac{\sum x^2}{n} - \left(\frac{\sum x}{n}\right)^2}
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

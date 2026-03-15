@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proof by induction</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Proof by induction</h1>
+<h2>The typical method</h2>
+<ol>
+<li>Make a <em>conjecture</em></li>
+<li>Show it is true for <im>n=1</im></li>
+<li>Assume it’s true for <im>n=k</im></li>
+<li>Show it must also be true for <im>n=k+1</im></li>
+<li>Conclude it’s true for all <em>natural</em> numbers <im>n</im> (where <im>n \ge 1</im>)</li>
+</ol>
+<h2>Prove that the series <im>\frac1{1\times2}+\frac1{2\times3}+\frac1{3\times4}+\cdots+\frac1{n(n+1)}=\frac n{n+1}</im></h2>
+<ul>
+<li>Test when <im>n=1</im>:
+<ul>
+<li>LHS: <im>\frac1{1\times2}=\frac12</im></li>
+<li>RHS: <im>\frac1{1+1}=\frac12</im></li>
+<li>LHS = RHS</li>
+<li>So it’s true for <im>n=1</im></li>
+</ul>
+</li>
+<li>Assume that the statement is true for <im>n=k</im>:
+<ul>
+<li><im>\frac1{1\times2}+\frac1{2\times3}+\frac1{3\times4}+\cdots+\frac1{k(k+1)}=\frac k{k+1}</im></li>
+</ul>
+</li>
+<li>Test for <im>n=k+1</im>:
+<ul>
+<li>LHS: <im>\frac1{1\times2}+\frac1{2\times3}+\frac1{3\times4}+\cdots+\frac1{k(k+1)}+\frac1{(k+1)(k+2)}</im></li>
+<li>Check if we can make the new sum of end terms equal our expected result
+(<im>\frac{k+1}{k+1+1}=\frac{k+1}{k+2}</im>):
+<ul>
+<li><im>\frac k{k+1}+\frac1{(k+1)(k+2)}</im></li>
+<li><im>=\frac{k(k+2)+1}{(k+1)(k+2)}</im></li>
+<li><im>=\frac{k^2+2k+1}{(k+1)(k+2)}</im></li>
+<li><im>=\frac{(k+1)^2}{(k+1)(k+2)}</im></li>
+<li><im>=\frac{k+1}{k+2}</im></li>
+</ul>
+</li>
+<li>So LHS: <im>\frac{k+1}{k+2}</im></li>
+<li>RHS: <im>\frac{k+1}{(k+1)+1}=\frac{k+1}{k+2}</im></li>
+<li>LHS = RHS</li>
+<li>So it’s true for <im>n=k+1</im></li>
+</ul>
+</li>
+<li>In conclusion:
+<ul>
+<li>It’s true for <im>n=1</im></li>
+<li><strong>IF</strong> it’s true for <im>n=k</im>, then it’s also true for $n=k+1</li>
+<li>Since it is true for <im>n=1</im>, by induction, it’s true for all integers <im>n</im>
+(where <im>n \ge 1</im>)</li>
+</ul>
+</li>
+</ul>
+<h2>How do we know that all integers <im>n</im> are covered?</h2>
+<p>You might be a bit confused as to how we can get from knowing that <im>n=1</im> is
+true, to knowing that <em>all</em> integers are true.</p>
+<p><strong>If</strong> <im>n=k</im> is true for a specific value of <im>k</im>, then the next integer must
+also be true. So:</p>
+<ul>
+<li>We know that <im>n=1</im></li>
+<li>let <im>k=n=1</im></li>
+<li>Because the value of <im>k</im> is satisfied, the value of <im>k+1</im> also is:
+<ul>
+<li><im>k+1=1+1=2</im></li>
+</ul>
+</li>
+<li>Now let <im>k=n=2</im>
+<ul>
+<li>We can do exactly the same as above to find that <im>n=3</im> is also true</li>
+</ul>
+</li>
+<li>…and so on, for <em>all</em> positive integers.</li>
+</ul>
+<h2>Proving using <a href="/standard-summation-results">standard summation results</a></h2>
+<h3>Prove <im>1^2+2^2+3^2+\cdots+n^2=\frac16n(n+1)(2n+1)</im></h3>
+<ul>
+<li>Check when <im>n=1</im>:
+<ul>
+<li>LHS: <im>1^2=1</im></li>
+<li>RHS: <im>\frac16(1)(1+1)(2(1)+1)=1</im></li>
+<li>So <im>n=1</im> is satisfied as it holds true!</li>
+</ul>
+</li>
+<li>We now <em>assume</em> that <im>n=k</im> also holds true.</li>
+<li>Find RHS when <im>n=k</im>:
+<ul>
+<li><im>=\frac16k(k+1)(2k+1)</im></li>
+<li><im>=\frac16(2k^2+3k+1)</im></li>
+<li>$=\frac13k^2-</li>
+</ul>
+</li>
+<li>Check if <im>n=k+1</im> holds true:
+<ul>
+<li>LHS:
+<ul>
+<li><im>1^2+2^2+3^2+\cdots+k^2+(k+1)^2</im></li>
+<li>…which is <im>(k+1)^2</im> more than when <im>n=k</im>, or <im>k^2+2k+1</im> more.</li>
+</ul>
+</li>
+<li>RHS:
+<ul>
+<li><im>\frac16(k+1)((k+1)+1)(2(k+1)+1)</im></li>
+<li><im>=\frac16(k+1)(k+2)(2k+3)</im></li>
+<li><im>=\frac16(k+1)(2k^2+7k+6)</im></li>
+<li><im>=\frac16(2k^3+9k^2+13k+6)</im></li>
+<li><im>=\frac13k^3+\frac32k^2+\frac{13}6k+1</im></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Distance from point to line</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Distance from point to line</h1>
+<p>For a line <im>l_1</im> and point <im>A</im>:</p>
+<ul>
+<li><im>l_1:r=\pmatrix{1\\1\\-3}+\lambda\pmatrix{2\\-2\\-1}</im></li>
+<li><im>A=(1,2,-1)</im></li>
+<li><im>l_1</im> has direction vector <im>\pmatrix{2\\-2\\-1}</im></li>
+<li>Let <im>B</im> be the point where <im>AB</im> makes a right angle to <im>l_1</im></li>
+<li>We need to find <im>B</im> so that <im>\vec{AB}\cdot d=0</im></li>
+<li><im>\vec{OB}=\pmatrix{1+2\lambda\\1-2\lambda\\-3-\lambda}</im></li>
+<li><im>\vec{AB}=\vec{OB}-\vec{OA}</im>
+<ul>
+<li><im>=\pmatrix{1+2\lambda\\1-2\lambda\\-3-\lambda}-\pmatrix{1,2,-1}</im></li>
+<li><im>=\pmatrix{1+2\lambda-1\\1-\lambda-2\\-3-\lambda--1}</im></li>
+<li><im>=\pmatrix{2\lambda\\-1-2\lambda\\-2-\lambda}</im></li>
+</ul>
+</li>
+<li>For <im>l_1</im> and <im>\vec{AB}</im> to be perpendicular:
+<ul>
+<li><im>\pmatrix{2\lambda\\-1-2\lambda\\-2-\lambda}\cdot\pmatrix{2\\-2\\-1}=0</im></li>
+<li><im>4\lambda-2(-1-2\lambda)-1(-2-\lambda)</im></li>
+<li>$(4\lambda+4\lambda+\lambda)+2+2=0</li>
+<li><im>9\lambda+4=0</im></li>
+<li><im>9\lambda=-4</im></li>
+<li><im>\lambda=-\frac49</im></li>
+</ul>
+</li>
+<li>We’ve found <im>\lambda=-\frac49</im>!</li>
+<li><im>\vec{AB}=\pmatrix{2\lambda\\-1-2\lambda\\-2-\lambda}</im>
+<ul>
+<li><im>\vec{AB}=\pmatrix{2(-\frac49)\\-1-2(-\frac49)\\-2-(\frac49)}</im></li>
+<li><im>\pmatrix{-\frac89\\-\frac19\\-\frac{14}9}</im></li>
+</ul>
+</li>
+<li>The perpendicular distance is of length <im>\vec{AB}</im>:
+<ul>
+<li><im>\sqrt{(-\frac89)^2+(-\frac19)^2\\+(-\frac{14}9)^2}</im></li>
+<li><im>=\frac{\sqrt{261}}9</im></li>
+<li><im>=\frac{\sqrt{29}}3</im></li>
+</ul>
+</li>
+</ul>
+<h2>Find the distance between the point <im>(2,3,4)</im> and the line <im>l:r=\pmatrix{1\\0\\2}+\lambda\pmatrix{3\\-1\\4}</im></h2>
+<ul>
+<li>The line <im>l</im> has direction vector <im>\pmatrix{3\\-1\\4}</im></li>
+<li>Let <im>B</im> be the point where <im>AB</im> makes a right angle to <im>l</im></li>
+<li>We need to find <im>B</im> so that <im>\vec{AB}\cdot d=0</im></li>
+<li><im>\vec{OB}=\pmatrix{1+3\lambda\\0-\lambda\\2+4\lambda}</im></li>
+<li><im>\vec{AB}=\vec{OB}-\vec{OA}</im>
+<ul>
+<li><im>=\pmatrix{1+3\lambda\\0-\lambda\\2+4\lambda}-\pmatrix{2,3,4}</im></li>
+<li><im>=\pmatrix{1+3\lambda-2\\0-\lambda-3\\2+4\lambda-4}</im></li>
+<li><im>=\pmatrix{3\lambda-1\\-3-\lambda\\4\lambda-2}</im></li>
+</ul>
+</li>
+<li>For <im>l</im> and <im>\vec{AB}</im> to be perpendicular:
+<ul>
+<li><im>\pmatrix{3\lambda-1\\-3-\lambda\\4\lambda-2}\cdot\pmatrix{3\\-1\\4}=0</im></li>
+<li><im>3(3\lambda-1)-1(-3-\lambda)+4(4\lambda-2)=0</im></li>
+<li><im>(9\lambda+\lambda+16\lambda)+(-3+3-8)=0</im></li>
+<li><im>26\lambda-8=0</im></li>
+<li><im>26\lambda=8</im></li>
+<li><im>\lambda=\frac{4}{13}</im></li>
+</ul>
+</li>
+<li>We’ve found <im>\lambda=\frac{4}{13}</im>!</li>
+<li><im>\vec{AB}=\pmatrix{3\lambda-1\\-3-\lambda\\4\lambda-2}</im>
+<ul>
+<li><im>\vec{AB}=\pmatrix{3(\frac{4}{13})-1\\-3-(\frac{4}{13})\\4(\frac{4}{13})-2}</im></li>
+<li><im>=\pmatrix{\frac{12}{13}-\frac{13}{13}\\-\frac{39}{13}-\frac{4}{13}\\\frac{16}{13}-\frac{26}{13}}</im></li>
+<li><im>=\pmatrix{-\frac{1}{13}\\-\frac{43}{13}\\-\frac{10}{13}}</im></li>
+</ul>
+</li>
+<li>The perpendicular distance is of length <im>\vec{AB}</im>:
+<ul>
+<li><im>\sqrt{(-\frac{1}{13})^2+(-\frac{43}{13})^2+(-\frac{10}{13})^2}</im></li>
+<li><im>=\frac{\sqrt{1+1849+100}}{13}</im></li>
+<li><im>=\frac{\sqrt{1950}}{13}</im></li>
+<li><im>=\frac{5\sqrt{78}}{13}</im></li>
+</ul>
+</li>
+<li>So the distance from the point <im>(2,3,4)</im> to the line <im>l</im> is <im>\frac{5\sqrt{78}}{13}</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Power rule for differentiation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Power rule for differentiation</h1>
+<p>The <strong>power rule</strong> allows us to easy differentiate any function, as long as we
+only have powers of <im>x</im> (i.e. no addition, subtraction, multiplication or
+division of <im>x</im> terms).</p>
+<p>To differentiate a term <im>ax^n</im>:</p>
+<ul>
+<li>Multiply the term by the power <im>n</im>: <im>a \times n</im>.</li>
+<li>Decrease the power by 1: <im>n - 1</im>.</li>
+<li>So the derivative of <im>ax^n</im> is: <im>a \times n \times x^{n-1}</im>.</li>
+</ul>
+<h2>Differentiating larger expressions</h2>
+<h3>Example: Differentiate <im>f(x) = 3x^4 + 2x^3 - 5x^2 + 7x - 4</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>3x^4</im>: Multiply by 4 and decrease power by 1: <im>3 \times 4 \times x^{4-1} = 12x^3</im>.</li>
+<li><im>2x^3</im>: Multiply by 3 and decrease power by 1: <im>2 \times 3 \times x^{3-1} = 6x^2</im>.</li>
+<li><im>-5x^2</im>: Multiply by 2 and decrease power by 1: <im>-5 \times 2 \times x^{2-1} = -10x</im>.</li>
+<li><im>7x</im>: Multiply by 1 and decrease power by 1: <im>7 \times 1 \times x^{1-1} = 7</im>.</li>
+<li><im>-4</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>f&#39;(x) = 12x^3 + 6x^2 - 10x + 7</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>f&#39;(x) = 12x^3 + 6x^2 - 10x + 7</im>.</li>
+</ul>
+<h3>Example: Differentiate <im>g(x) = 5x^5 - 3x^4 + x^2 - 8</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>5x^5</im>: Multiply by 5 and decrease power by 1: <im>5 \times 5 \times x^{5-1} = 25x^4</im>.</li>
+<li><im>-3x^4</im>: Multiply by 4 and decrease power by 1: <im>-3 \times 4 \times x^{4-1} = -12x^3</im>.</li>
+<li><im>x^2</im>: Multiply by 2 and decrease power by 1: <im>1 \times 2 \times x^{2-1} = 2x</im>.</li>
+<li><im>-8</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>g&#39;(x) = 25x^4 - 12x^3 + 2x</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>g&#39;(x) = 25x^4 - 12x^3 + 2x</im>.</li>
+</ul>
+<h3>Example: Differentiate <im>h(x) = 4x^3 + 6x - 9</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>4x^3</im>: Multiply by 3 and decrease power by 1: <im>4 \times 3 \times x^{3-1} = 12x^2</im>.</li>
+<li><im>6x</im>: Multiply by 1 and decrease power by 1: <im>6 \times 1 \times x^{1-1} = 6</im>.</li>
+<li><im>-9</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>h&#39;(x) = 12x^2 + 6</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>h&#39;(x) = 12x^2 + 6</im>.</li>
+</ul>
+<h3>Example: Differentiate <im>k(x) = 7x^6 - 2x^3 + 5x^2 - x + 1</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>7x^6</im>: Multiply by 6 and decrease power by 1: <im>7 \times 6 \times x^{6-1} = 42x^5</im>.</li>
+<li><im>-2x^3</im>: Multiply by 3 and decrease power by 1: <im>-2 \times 3 \times x^{3-1} = -6x^2</im>.</li>
+<li><im>5x^2</im>: Multiply by 2 and decrease power by 1: <im>5 \times 2 \times x^{2-1} = 10x</im>.</li>
+<li><im>-x</im>: Multiply by 1 and decrease power by 1: <im>-1 \times 1 \times x^{1-1} = -1</im>.</li>
+<li><im>1</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>k&#39;(x) = 42x^5 - 6x^2 + 10x - 1</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>k&#39;(x) = 42x^5 - 6x^2 + 10x - 1</im>.</li>
+</ul>
+<h2>Differentiating terms with negative or fractional powers</h2>
+<p>We can use the exact same power rule to differentiate terms with negative or
+fractional powers.</p>
+<p>Make sure to remember that, for negative powers, decreasing the power by 1 means
+making it more negative (e.g. from <im>-2</im> to <im>-3</im>).</p>
+<h3>Example: Differentiate <im>m(x) = 2x^{-3} + 4x^{1/2} - 5</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>2x^{-3}</im>: Multiply by -3 and decrease power by 1: <im>2 \times -3 \times x^{-3-1} = -6x^{-4}</im>.</li>
+<li><im>4x^{1/2}</im>: Multiply by 1/2 and decrease power by 1: <im>4 \times \frac{1}{2} \times x^{\frac{1}{2}-1} = 2x^{-\frac{1}{2}}</im>.</li>
+<li><im>-5</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>m&#39;(x) = -6x^{-4} + 2x^{-\frac{1}{2}}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>m&#39;(x) = -6x^{-4} + 2x^{-\frac{1}{2}}</im>.</li>
+</ul>
+<h3>Example: Differentiate <im>n(x) = 3x^{3/2} - 2x^{-1} + 7</im></h3>
+<ul>
+<li>Differentiate each term separately:
+<ul>
+<li><im>3x^{3/2}</im>: Multiply by 3/2 and decrease power by 1: <im>3 \times \frac{3}{2} \times x^{\frac{3}{2}-1} = \frac{9}{2}x^{\frac{1}{2}}</im>.</li>
+<li><im>-2x^{-1}</im>: Multiply by -1 and decrease power by 1: <im>-2 \times -1 \times x^{-1-1} = 2x^{-2}</im>.</li>
+<li><im>7</im>: Constant term, derivative is <im>0</im>.</li>
+</ul>
+</li>
+<li>Add together the results:
+<ul>
+<li><im>n&#39;(x) = \frac{9}{2}x^{\frac{1}{2}} + 2x^{-2}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>n&#39;(x) = \frac{9}{2}x^{\frac{1}{2}} + 2x^{-2}</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

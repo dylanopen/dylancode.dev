@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Potential divider</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Potential divider</h1>
+<p>A potential divider consists of an <im>8.0 \Omega</im> resistor, R, in series with a
+<im>12.0 \Omega</im> resistor and a <im>6.0 V</im> power supply.</p>
+<p>Calculate:</p>
+<ul>
+<li>
+<p>the current</p>
+</li>
+<li>
+<p>the p.d. across each resistor</p>
+</li>
+<li>
+<p>Calculating the current:</p>
+<ul>
+<li>Total resistance = <im>12.0 \Omega + 8.0 \Omega = 20.0 \Omega</im></li>
+<li><im>V=IR</im> -&gt; <im>I=\frac{V}{R}=\frac{6.0 V}{20.0 \Omega}=0.30 A</im></li>
+</ul>
+</li>
+<li>
+<p>Calculating the p.d. across each resistor:</p>
+<ul>
+<li><im>I=0.30 A</im></li>
+<li><im>R_1=12.0 \Omega</im>:
+<ul>
+<li><im>V_1=IR_1=0.30 A \times 12.0 \Omega=3.6 V</im></li>
+</ul>
+</li>
+<li><im>R_2=8.0 \Omega</im>:
+<ul>
+<li><im>V_2=IR_2=0.30 A \times 8.0 \Omega=2.4 V</im></li>
+</ul>
+</li>
+<li>Check that they add back up to the EMF:
+<ul>
+<li><im>V_1 + V_2 = 3.6 V + 2.4 V = 6.0 V</im></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>What if one of the resistors is variable?</h2>
+<ul>
+<li>If one resistor can change, the ratio of resistances will change.</li>
+<li>This will then change the p.d. across each resistor.</li>
+<li>This is useful in sensors - e.g. an LDR or thermistor.</li>
+</ul>
+<h3>A potential divider consists of an <im>8.0 \Omega</im> resistor, R, in series with a thermistor and a <im>6.0 V</im> power supply. Calculate the p.d. across <im>R</im> at each temperature.</h3>
+<blockquote>
+<p>The thermistor has a resistance of <im>16.0 \Omega</im> at 20°C and <im>6.0 \Omega</im> at
+100°C.</p>
+</blockquote>
+<ul>
+<li>At 20°C:
+<ul>
+<li><im>R_{total} = 8.0 \Omega + 16.0 \Omega = 24.0 \Omega</im></li>
+<li><im>I=\frac{V}{R}=\frac{6.0 V}{24.0 \Omega}=0.25 A</im></li>
+<li><im>V_R=IR=0.25 A \times 8.0 \Omega=2.0 V</im></li>
+</ul>
+</li>
+<li>At 100°C:
+<ul>
+<li><im>R_{total} = 8.0 \Omega + 6.0 \Omega = 14.0 \Omega</im></li>
+<li><im>I=\frac{V}{R}=\frac{6.0 V}{14.0 \Omega}=0.43 A</im></li>
+<li><im>V_R=IR=0.43 A \times 8.0 \Omega=3.4 V</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

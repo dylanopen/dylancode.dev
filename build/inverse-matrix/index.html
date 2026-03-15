@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inverse matrix</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Inverse matrix</h1>
+<h2>What is the inverse matrix?</h2>
+<p>Every matrix that <em>isn’t</em> <a href="/singular-matrix">singular</a> has an <em>inverse matrix</em>.
+Whenever we multiply a matrix by its inverse matrix, we get the <em>identity
+matrix</em>, <im>I</im>.</p>
+<h2>Representing the inverse matrix</h2>
+<ul>
+<li>The inverse matrix of <im>M</im> can be written as <im>M^{-1}</im>.</li>
+<li>This then makes sense why they multiply to the identity matrix: <im>MM^{-1} = I</im>
+<ul>
+<li>anything multiplied by its inverse is equal to the identity, or <im>1</im> if we’re
+working with regular scalars.</li>
+</ul>
+</li>
+</ul>
+<h2>Finding the inverse matrix</h2>
+<h3>Find the inverse matrix of <im>\begin{bmatrix} 4 &amp; 2 \\ 5 &amp; 3 \end{bmatrix}</im></h3>
+<ul>
+<li><im>\pmatrix{4 &amp; 2 \\ 5 &amp; 3}\pmatrix{a &amp; b \\ c &amp; d} = \pmatrix{1 &amp; 0 \\ 0 &amp; 1}</im></li>
+<li><im>4a + 2c = 1</im></li>
+<li><im>4b + 2d = 0</im></li>
+<li><im>5a + 3c = 0</im></li>
+<li><im>5b + 3d = 1</im></li>
+<li>Solve the equations with <im>a</im> and <im>c</im> simultaneously:
+<ul>
+<li><im>4a+2c=1</im> (1)</li>
+<li><im>5a+3c=0</im> (2)</li>
+<li>Multiply (1) by <im>3</im>: <im>12a + 6c = 3</im> (3)</li>
+<li>Multiply (2) by <im>-2</im>: <im>-10a - 6c = 0</im> (4)</li>
+<li>Solve using elimination:
+<ul>
+<li>(3) + (4): <im>2a = 3 \Rightarrow a = \frac{3}{2}</im></li>
+</ul>
+</li>
+<li>Substitute <im>a</im> into (1): <im>4(\frac{3}{2}) + 2c = 1 \Rightarrow 6 + 2c = 1 \Rightarrow 2c = -5 \Rightarrow c = -\frac{5}{2}</im></li>
+<li><im>a = \frac{3}{2}</im>, <im>c = -\frac{5}{2}</im></li>
+</ul>
+</li>
+</ul>
+<h2>General form of the inverse matrix</h2>
+<ul>
+<li>Let <im>M=\pmatrix{a&amp;b\\c&amp;d}</im></li>
+<li>Find the <a href="/matrix-determinant">determinant</a>:
+<ul>
+<li><im>ad-bc</im></li>
+</ul>
+</li>
+<li>Swap around the placement of  <im>a</im> and <im>d</im></li>
+<li>Negate <im>b</im> and <im>c</im></li>
+<li>Divide the resulting matrix by the determinant, which we said was <im>ad-bc</im></li>
+</ul>
+<p>From that, we can derive the formula of the inverse of a 2x2 matrix:</p>
+<p><ma>
+M^{-1}=\frac1{ad-bc}\pmatrix{d&amp;-b\\-c&amp;a}
+</ma></p>
+<h3>Find the inverse matrix of <im>\begin{bmatrix} 4 &amp; 2 \\ 5 &amp; 3 \end{bmatrix}</im> using the general form</h3>
+<ul>
+<li><im>a=4</im>, <im>b=2</im>, <im>c=5</im>, <im>d=3</im></li>
+<li><im>ad-bc = 4\times 3 - 2\times 5 = 12 - 10 = 2</im></li>
+<li><im>M^{-1} = \frac{1}{2}\pmatrix{3 &amp; -2 \\ -5 &amp; 4} = \pmatrix{\frac{3}{2} &amp; -1 \\ -\frac{5}{2} &amp; 2}</im></li>
+<li><strong>Answer</strong>: <im>\begin{bmatrix} \frac{3}{2} &amp; -1 \\ -\frac{5}{2} &amp; 2 \end{bmatrix}</im></li>
+</ul>
+<h3>Find the inverse of <im>\begin{bmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{bmatrix}</im></h3>
+<ul>
+<li><im>a=1</im>, <im>b=2</im>, <im>c=3</im>, <im>d=4</im></li>
+<li><im>ad-bc = 1\times 4 - 2\times 3 = 4 - 6 = -2</im></li>
+<li><im>M^{-1} = \frac{1}{-2}\pmatrix{4 &amp; -2 \\ -3 &amp; 1} = \pmatrix{-2 &amp; 1 \\ \frac{3}{2} &amp; -\frac{1}{2}}</im></li>
+<li><strong>Answer</strong>: <im>\begin{bmatrix} -2 &amp; 1 \\ \frac{3}{2} &amp; -\frac{1}{2} \end{bmatrix}</im></li>
+</ul>
+<h3>Find the inverse of <im>\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix}</im></h3>
+<ul>
+<li><im>a=1</im>, <im>b=0</im>, <im>c=0</im>, <im>d=1</im></li>
+<li><im>ad-bc = 1\times 1 - 0\times 0 = 1</im></li>
+<li><im>M^{-1} = \frac{1}{1}\pmatrix{1 &amp; 0 \\ 0 &amp; 1} = \pmatrix{1 &amp; 0 \\ 0 &amp; 1}</im></li>
+<li><strong>Answer</strong>: <im>\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix}</im></li>
+</ul>
+<h3>The inverse of a matrix <im>M</im> is <im>\begin{bmatrix} 2 &amp; 3 \\ 4 &amp; 5 \end{bmatrix}</im>. What is <im>M</im>?</h3>
+<ul>
+<li>The inverse is <em>reversable</em> - so just like we can find <im>M^{-1}</im> given <im>M</im> by
+finding the inverse of <im>M</im>, we can also find <im>M</im> given <im>M^{-1}</im> by finding the
+inverse of <im>M^{-1}</im>.</li>
+<li><im>M = (M^{-1})^{-1}</im></li>
+<li><im>M = \begin{bmatrix} 2 &amp; 3 \\ 4 &amp; 5 \end{bmatrix}^{-1}</im></li>
+<li><im>a=2</im>, <im>b=3</im>, <im>c=4</im>, <im>d=5</im></li>
+<li><im>ad-bc = 2\times 5 - 3\times 4 = 10 - 12 = -2</im></li>
+<li><im>M = \frac{1}{-2}\pmatrix{5 &amp; -3 \\ -4 &amp; 2} = \pmatrix{-\frac{5}{2} &amp; \frac{3}{2} \\ 2 &amp; -1}</im></li>
+<li><strong>Answer</strong>: <im>\begin{bmatrix} -\frac{5}{2} &amp; \frac{3}{2} \\ 2 &amp; -1 \end{bmatrix}</im></li>
+</ul>
+<h2>Find the inverse of matrix product <im>AB</im></h2>
+<ul>
+<li>Let the inverse function be <im>X</im></li>
+<li><im>ABX=I</im> (because matrix multiplication is associative)</li>
+<li><im>A^{-1}ABX=A^{-1}I</im> (pre-multiply both sides by <im>A^{-1}</im>)</li>
+<li><im>BX=A^{-1}I</im></li>
+<li><im>IBX=A^{-1}I</im></li>
+<li><im>BX=A^{-1}</im></li>
+<li><im>B^{-1}BX=B^{-1}A^{-1}</im></li>
+<li><im>IX=B^{-1}A^{-1}</im></li>
+<li><im>X=B^{-1}A{-1}</im></li>
+<li><strong>Answer</strong>: <im>X+B^{-1}A^{-1}</im></li>
+</ul>
+<blockquote>
+<p>Remember this. THe inverse of <im>AB=B^{-1}A^{-1}</im>.</p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

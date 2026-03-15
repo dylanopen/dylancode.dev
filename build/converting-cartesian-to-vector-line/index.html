@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting cartesian-form to vector-form line equations</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Converting cartesian-form to vector-form line equations</h1>
+<h2>Cartesian form</h2>
+<p>Cartesian form is the standard equation of a line, written as:</p>
+<p><ma>
+y = mx + c
+</ma></p>
+<p>(or one of its variants).</p>
+<h2>Vector form</h2>
+<p>A line in vector form has the equation:</p>
+<p><ma>
+\vec r = \vec a + \lambda \vec d
+</ma></p>
+<p>…where:</p>
+<ul>
+<li><im>\vec r</im> is the position vector of any point on the line,</li>
+<li><im>\vec a</im> is the position vector of a specific point on the line,</li>
+<li><im>\vec d</im> is the direction vector of the line,</li>
+<li><im>\lambda</im> is a scalar multiplier (changing it gives a new point on the line).</li>
+</ul>
+<h2>Direction vector</h2>
+<p>The <em>direction vector</em> has two components: the <em>change in x</em> and the <em>change in
+y</em>.</p>
+<p>We can find these components from the gradient <im>m</im> of the line.</p>
+<p>In short, the <im>denominator</im> of the gradient is the <em>change in x</em>, and the
+<im>numerator</im> is the <em>change in y</em>. (if there is no denominator, it is the same as
+a denominator of <im>1</im>).</p>
+<h3>Find the direction vector from the gradient of <im>\frac{3}{4}</im></h3>
+<ul>
+<li>Change in <im>x = 4</im></li>
+<li>Change in <im>y = 3</im></li>
+<li><strong>Answer</strong>: <im>\vec d = \pmatrix{4 \\ 3}</im></li>
+</ul>
+<h3>Find the direction vector from the gradient of <im>-2</im></h3>
+<ul>
+<li>Change in <im>x = 1</im></li>
+<li>Change in <im>y = -2</im></li>
+<li><strong>Answer</strong>: <im>\vec d = \pmatrix{1 \\ -2}</im></li>
+</ul>
+<h2>Finding a point on the line</h2>
+<p>To find a specific point on the line, we can substitute any value of <im>x</im> into
+the cartesian equation to find the corresponding value of <im>y</im>.</p>
+<p>However, the easiest point to find is the <strong>y-intercept</strong>, which is already
+stated by the cartesian line equation as the value of <im>c</im>.</p>
+<p>For the equation <im>y = mx + c</im>, the y-intercept is at the point <im>(0, c)</im>.</p>
+<h2>Converting from cartesian to vector form</h2>
+<p>Once we have the direction vector and a point on the line, we can substitute
+these into the vector form equation to get the final answer.</p>
+<h3>Convert the cartesian equation <im>y = \frac{2}{3}x + 4</im> to vector form</h3>
+<ul>
+<li>Gradient <im>m = \frac{2}{3}</im>
+<ul>
+<li>Change in <im>x = 3</im></li>
+<li>Change in <im>y = 2</im></li>
+<li>Direction vector <im>\vec d = \pmatrix{3 \\ 2}</im></li>
+</ul>
+</li>
+<li>Y-intercept is at point <im>(0, 4)</im>
+<ul>
+<li>Position vector <im>\vec a = \pmatrix{0 \\ 4}</im></li>
+</ul>
+</li>
+<li>Vector equation:
+<ul>
+<li><im>\vec r = \vec a + \lambda \vec d</im></li>
+<li><im>= \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>\vec r = \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

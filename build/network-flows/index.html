@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Network flows</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Network flows</h1>
+<blockquote>
+<p>Incomplete</p>
+</blockquote>
+<h2>Terminology</h2>
+<h2>Capacity</h2>
+<ul>
+<li>The capacity of an edge is the <em>weight</em> of the edge.</li>
+<li>It can be thought of as the <em>maximum flow</em> that can pass through that edge.</li>
+</ul>
+<h2>Cut</h2>
+<p>A <strong>cut</strong> is the is a line which divides the source(s) from the sink(s).
+The <strong>capacity of a cut</strong> is the sum of the capacities of the edges crossing the cut from source side to sink side.</p>
+<h2>Minimum cut theorem</h2>
+<p>The minimum cut theorem is able to tell us the maximum flow in a flow network.</p>
+<p>How to use it:</p>
+<ul>
+<li>Find all possible cuts in the network</li>
+<li>Calculate the capacity of each cut</li>
+<li>Find the cut which gives the <em>minimum</em> capacity</li>
+<li>This capacity is the <em>maximum flow</em> in the network</li>
+</ul>
+<h3>Analogy: water tap</h3>
+<h2>Supersources</h2>
+<p>A supersource is a single source node which has an infinite capacity edge to
+each of the original sources.</p>
+<h2>Supersinks</h2>
+<p>A supersink is a single sink node which has an infinite capacity edge from
+each of the original sinks.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

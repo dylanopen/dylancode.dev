@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Median</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Median</h1>
+<p>The <strong>median</strong> of a set of numbers is the middle value when the numbers are
+arranged in order. If there are an even number of values, the median is the
+average of the two middle values.</p>
+<h2>Calculating median</h2>
+<ol>
+<li>Arrange the numbers in order from smallest to largest.</li>
+<li>If there are an odd number of values, the median is the value in the middle.</li>
+<li>If there are an even number of values, the median is the average of the two
+middle values (the number between the two middle values).</li>
+</ol>
+<h2>Examples</h2>
+<h3>Find the median of <im>\{3, 1, 4, 1, 5\}</im></h3>
+<ul>
+<li>Arrange the numbers in order: <im>\{1, 1, 3, 4, 5\}</im></li>
+<li>There are 5 values, which is odd, so the median is the value in the middle.</li>
+<li>The value in the middle is <im>3</im>.</li>
+<li><strong>Answer</strong>: <im>\text{median} = 3</im></li>
+</ul>
+<h3>Find the median of <im>\{1, 4, 9, 16\}</im></h3>
+<ul>
+<li>The numbers are already in order: <im>\{1, 4, 9, 16\}</im></li>
+<li>There are 4 values, which is even, so the median is the average of the two middle values.</li>
+<li>The two middle values are <im>4</im> and <im>9</im>.</li>
+<li>The average of <im>4</im> and <im>9</im> is <im>\frac{4 + 9}{2} = \frac{13}{2} = 6.5</im>.</li>
+<li><strong>Answer</strong>: <im>\text{median} = 6.5</im></li>
+</ul>
+<h3>Find the median of <im>\{3, 1, 4, 1, 5, 9\}</im></h3>
+<ul>
+<li>Arrange the numbers in order: <im>\{1, 1, 3, 4, 5, 9\}</im></li>
+<li>There are 6 values, which is even, so the median is the average of the two middle values.</li>
+<li>The two middle values are <im>3</im> and <im>4</im>.</li>
+<li>The average of <im>3</im> and <im>4</im> is <im>\frac{3 + 4}{2} = \frac{7}{2} = 3.5</im>.</li>
+<li><strong>Answer</strong>: <im>\text{median} = 3.5</im></li>
+</ul>
+<h3>Find the median of <im>\{1, 2, 3, 4, 5, 6, 7, 8\}</im></h3>
+<ul>
+<li>The numbers are already in order: <im>\{1, 2, 3, 4, 5, 6, 7, 8\}</im></li>
+<li>There are 8 values, which is even, so the median is the average of the two middle values.</li>
+<li>The two middle values are <im>4</im> and <im>5</im>.</li>
+<li>The average of <im>4</im> and <im>5</im> is <im>\frac{4 + 5}{2} = \frac{9}{2} = 4.5</im>.</li>
+<li><strong>Answer</strong>: <im>\text{median} = 4.5</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

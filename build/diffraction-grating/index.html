@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diffraction grating</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Diffraction grating</h1>
+<p><em>DIffraction grating</em> is when we have a lot of tiny slits (openings) close to
+each other in a material, and we send waves through those slits.</p>
+<p>When the waves pass through the slits, they diffract (spread out) and overlap
+with each other</p>
+<p>This creates a pattern of bright and dark spots on a screen placed behind the
+grating. This is because of the <em>interference</em> of the waves - where the waves
+overlap, they can either add together (constructive) or cancel out
+(destructive).</p>
+<h2>Formula</h2>
+<p>The formula for diffraction grating is:</p>
+<p><ma>
+n \lambda = d \sin \theta
+</ma></p>
+<p>Where:</p>
+<ul>
+<li><im>n</im> is the <em>order of the spectrum</em> (or maximum).</li>
+<li><im>\lambda</im> is the <em>wavelength</em> of the wave.</li>
+<li><im>d</im> is the <em>distance between the slits</em> (also called the grating spacing).</li>
+<li><im>\theta</im> is the <em>angle</em> between the central maximum and the nth maximum.</li>
+</ul>
+<h2>Order of diffraction fringes</h2>
+<p>The <em>order</em> tells you how far the fringe we’re looking at is from the centre
+line. For example, a fringe 3 away from the centre line has an order of <im>3</im>.</p>
+<h2>Converting ‘lines per millimetre’ to ‘distance between slits’</h2>
+<p>If we know the <em>number of lines</em> that are in one millimetre of the diffraction
+grating, we can find the distance <em>between</em> the slits by doing:</p>
+<p><ma>
+\text{distance}=\frac1{\text{lines per millimetre}}
+</ma></p>
+<p>That gives you an answer in millimetres, so</p>
+<h2>Finding the highest order</h2>
+<p>Just make <im>\theta=90\degree</im>, and then rearrange and solve for <im>n</im>!</p>
+<p><ma>
+n=\frac{d\sin\theta}{\lambda}
+</ma></p>
+<h3>Given a grating with 400 lines per millimetre, how many orders can be produced on each side with an EM wave of wavelength 700nm?</h3>
+<ul>
+<li><im>d=\frac1{400}=2.5\times10^{-3}mm</im></li>
+<li><im>d=2.5\times10^{-6}m</im></li>
+<li><im>\lambda=7\times10^{-7}m</im></li>
+<li>Let <im>\theta=90\degree</im>:
+<ul>
+<li><im>\sin\theta=1</im></li>
+</ul>
+</li>
+<li>Rearrange the normal equation to find <im>n</im> on its own:
+<ul>
+<li><im>n=\frac{d\sin\theta}{\lambda}</im></li>
+</ul>
+</li>
+<li>Substitute the values and solve!
+<ul>
+<li><im>n=\frac{2.5\times10^{-6}\times1}{700}</im></li>
+<li><im>n\approx3.57\times10^{-9}</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

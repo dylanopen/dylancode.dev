@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Converting decimals to fractions</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Converting decimals to fractions</h1>
+<p>Because we work with base 10 (decimal) numbers, it’s very easy for us to
+convert decimals to fractions <em>where the denominator is a power of 10</em>.</p>
+<p>For example, we know that 0.1 is the same as 1/10, because the 1 is in the
+tenths place. Similarly, 0.72 is the same as 72/100, because the 2 is in the
+hundredths place and the 7 is in the tenths place.</p>
+<blockquote>
+<p>This only works for <em>terminating</em> decimals, which are decimals that come to
+an end. See <a href="/converting-recurring-decimals-to-fractions">converting recurring decimals to fractions</a>
+for a method to convert <em>recurring</em> decimals to fractions.</p>
+</blockquote>
+<h2>Simplifying</h2>
+<p>Once we’ve found the decimal as a fraction of a power of 10, we need to simplify
+it.</p>
+<p>To do this, we first need to find the <a href="/highest-common-factor">highest common factor</a>.
+See the link to learn how to find the HCF.</p>
+<h2>Example conversions</h2>
+<h3>Convert <im>0.5</im> to a fraction</h3>
+<ul>
+<li>The 5 is in the tenths place, so we can write it as <im>\frac{5}{10}</im>.</li>
+<li>Simplify:
+<ul>
+<li>The HCF of <im>5</im> and <im>10</im> is <im>5</im>.</li>
+<li><im>\frac{5 \div 5}{10 \div 5} = \frac{1}{2}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>0.5 = \frac{1}{2}</im>.</li>
+</ul>
+<h3>Convert <im>0.75</im> to a fraction</h3>
+<ul>
+<li>The 7 is in the tenths place and the 5 is in the hundredths place, so we can
+write it as <im>\frac{75}{100}</im>.</li>
+<li>Simplify:
+<ul>
+<li>The HCF of <im>75</im> and <im>100</im> is <im>25</im>.</li>
+<li><im>\frac{75 \div 25}{100 \div 25} = \frac{3}{4}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>0.75 = \frac{3}{4}</im>.</li>
+</ul>
+<h3>Convert <im>0.32</im> to a fraction</h3>
+<ul>
+<li>The 3 is in the tenths place and the 2 is in the hundredths place, so we can
+write it as <im>\frac{32}{100}</im>.</li>
+<li>Simplify:
+<ul>
+<li>The HCF of <im>32</im> and <im>100</im> is <im>4</im>.</li>
+<li><im>\frac{32 \div 4}{100 \div 4} = \frac{8}{25}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>0.32 = \frac{8}{25}</im>.</li>
+</ul>
+<h3>Convert <im>7.125</im> to a fraction</h3>
+<ul>
+<li>The 7 is in the units place, so we start with 7.</li>
+<li>The 1 is in the tenths place, the 2 is in the hundredths place, and the 5 is
+in the thousandths place, so we can write it as <im>\frac{7125}{1000}</im>.</li>
+<li>Simplify:
+<ul>
+<li>The HCF of <im>7125</im> and <im>1000</im> is <im>125</im>.</li>
+<li><im>\frac{7125 \div 125}{1000 \div 125} = \frac{57}{8}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>7.125 = \frac{57}{8}</im>.</li>
+</ul>
+<h3>Convert <im>0.04</im> to a fraction</h3>
+<ul>
+<li>The 4 is in the hundredths place, so we can write it as <im>\frac{4}{100}</im>.</li>
+<li>Simplify:
+<ul>
+<li>The HCF of <im>4</im> and <im>100</im> is <im>4</im>.</li>
+<li><im>\frac{4 \div 4}{100 \div 4} = \frac{1}{25}</im>.</li>
+</ul>
+</li>
+<li><strong>Answer:</strong> <im>0.04 = \frac{1}{25}</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

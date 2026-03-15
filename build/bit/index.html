@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bit</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Bit</h1>
+<p>A <em>bit</em> is the <em>fundamental unit of information</em>. It represents a choice
+between two values: usually written as 0 and 1.</p>
+<p>In computers, a bit represents an on-off state, and we can combine multiple
+bits to make larger units of information.</p>
+<h2>Number of values represented by bits</h2>
+<blockquote>
+<p><im>n</im> bits can represent <im>2^n</im> different values.</p>
+</blockquote>
+<p>For example:</p>
+<ul>
+<li>1 bit can represent 2 values: 0 or 1.</li>
+<li>2 bits can represent 4 values: 00, 01, 10, or 11.</li>
+<li>3 bits can represent 8 values: 000, 001, 010, 011, 100, 101, 110, or 111.</li>
+<li>4 bits can represent 16 values: 0000 to 1111.</li>
+<li>And so on.</li>
+</ul>
+<p>This is because each bit can be in one of two states, and the total number of
+combinations is <im>2^n</im>.</p>
+<h2>Number of bits needed for values</h2>
+<p>We can also go in reverse (assuming we know how to calculate logarithms):</p>
+<ul>
+<li>To represent <im>m</im> different values, we need at least <im>\log_2 m</im> bits.</li>
+<li>For example:
+<ul>
+<li>To represent 32 values, we need at least <im>\log_2 32 = 5</im> bits.</li>
+<li>To represent a full RGB color (16,777,216 values), we need at least
+<im>\log_2 16777216 = 24</im> bits. (that’s why it’s called “24-bit color”).</li>
+</ul>
+</li>
+</ul>
+<h2>Common multiples of bits</h2>
+<ul>
+<li>Most systems use a <code>64-bit</code> architecture nowadays, meaning they process data
+in chunks of 64 bits at a time.</li>
+<li>Another common size is <code>32-bit</code>, which was widely used in older systems and in
+old windows programs which are still using ancient technology - typical
+windows ;)</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

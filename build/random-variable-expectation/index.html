@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random variable expectation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Random variable expectation</h1>
+<blockquote>
+<p>The <em>expectation</em> of a random variable is the <strong>mean</strong> of the results we can
+expect to get if we measure the <a href="/random-variable">random variable</a> ‘infinite’
+times.</p>
+</blockquote>
+<p>It’s basically the mean value of the list of possible values multiplied by their
+individual probabilities.</p>
+<h2>Notation</h2>
+<p>We can write the expected value of a list of values <im>X</im> as <im>E(X)</im>.</p>
+<h2>Formula</h2>
+<p>Suppose we have a list of possible discrete values and their associated
+probabilities. The value at position <im>n</im> is <im>x_n</im> and the associated probability
+is <im>p_n</im>.</p>
+<p>That means we can write the <strong>expectation</strong> of a list of discrete values and
+their probabilities (<im>X</im>) as:</p>
+<blockquote>
+<p><ma>
+E(X) = \sum x_n p_n
+</ma></p>
+</blockquote>
+<p>A reminder that the <im>n</im> in the formula just means the position of the value. You
+don’t need to think about it: it’s just the way we write the formula.</p>
+<h2>Calculating the expectation</h2>
+<p>Given that formula, it tells us that we can calculate the <em>expectation</em> of a
+list of values and their probabilities by multiplying each value by its
+probability (chance of it happening) and then adding all those products
+together.</p>
+<p>This effectively calculates the mean of the values, weighted by their
+probabilities. We <em>don’t</em> need to divide by the sum of probabilities, because
+their sum is always 1 (since they represent all possible outcomes).</p>
+<h3>Example: Calculating the expectation of a fair die roll</h3>
+<p>Let’s say we have a standard six-sided die, and we want to calculate the
+expectation of what we’ll get when we roll it.</p>
+<p>The possible values are 1, 2, 3, 4, 5, and 6. Each value has an equal
+probability of <im>\frac{1}{6}</im> - because it’s a fair dice.</p>
+<p>Given that, we can then calculate the expectation using our formula:</p>
+<ul>
+<li><im>E(X)=\sum x_n p_n</im></li>
+<li><im>E(X) = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + 3 \cdot \frac{1}{6} + 4 \cdot \frac{1}{6} + 5 \cdot \frac{1}{6} + 6 \cdot \frac{1}{6}</im></li>
+<li><im>E(X) = \frac{1}{6} + \frac{2}{6} + \frac{3}{6} + \frac{4}{6} + \frac{5}{6} + \frac{6}{6}</im></li>
+<li><im>E(X) = \frac{21}{6}</im></li>
+<li><im>E(X) = 3.5</im></li>
+</ul>
+<p>So the expectation of rolling a fair die is 3.5. This means that if we were to
+roll the die an infinite number of times, the <strong>average</strong> (mean) value we would
+get would be 3.5.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

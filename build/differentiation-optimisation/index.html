@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Optimisation through differentiation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Optimisation through differentiation</h1>
+<p>Optimisation is where we find the maximum or minimum value of a function,
+usually in order to solve a real-world problem - e.g. what is the optimal
+dimensions of a box to maximise volume, or what is the optimal price to charge
+to maximise profits.</p>
+<h2>Steps</h2>
+<ol>
+<li>Find an expression for the quantity to be optimised (e.g. area, volume,
+profit) in terms of just one variable.<br />
+This often involves eliminating other variables using a limiting condition.</li>
+<li>Find the derivative of the thing to be optimised with respect to the
+variable.</li>
+<li>Find where the derivative is equal to zero - these are the critical points.</li>
+<li>Use the second derivative to work out if each critical point is a maximum or
+minimum point.</li>
+</ol>
+<h3>Example: a wire has length 12 cm - what is the maximum area of a rectangle that can be formed?</h3>
+<ul>
+<li>Let x = length</li>
+<li>Let y = width</li>
+<li>Area, A = xy</li>
+<li>Perimeter of rectangle = <im>2(x+y)=12</im></li>
+<li>Write <im>y</im> in terms of <im>x</im>:
+<ul>
+<li><im>2(x+y) = 12</im></li>
+<li><im>x + y = 6</im></li>
+<li><im>y = 6 - x</im></li>
+</ul>
+</li>
+<li>We can then substitute this expression for <im>y</im> into the area formula:
+<ul>
+<li><im>A = x(6 - x)</im></li>
+<li><im>A = 6x - x^2</im></li>
+</ul>
+</li>
+<li>We noww differentiate area with respect to <im>x</im>:
+<ul>
+<li><im>\frac{dA}{dx} = 6 - 2x</im></li>
+</ul>
+</li>
+<li>To find the maximum area, we set the derivative equal to zero:
+<ul>
+<li><im>6 - 2x = 0</im></li>
+<li><im>2x = 6</im></li>
+<li><im>x = 3</im></li>
+</ul>
+</li>
+<li>We can then find <im>y</im>:
+<ul>
+<li><im>y = 6 - x = 6 - 3 = 3</im>
+Find the area:</li>
+<li><im>A = xy = 3 \times 3 = 9</im>
+Answer: the maximum area is found when both <im>width=3</im> and <im>length=3</im> (a square).
+The area is <im>9 cm^2</im>.</li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

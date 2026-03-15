@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Solving simultaneous equations by substitution</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Solving simultaneous equations by substitution</h1>
+<p><em>Simultaneous equations</em> are when we have two or more equations with multiple
+<em>unknowns</em> (letters that represent numbers we don’t know yet). The goal is to find
+the values of these letters (variables) that make all the equations true at the
+same time.</p>
+<h2>When should we solve using substitution?</h2>
+<p>Using substitution for simple simultaneous equations is often more difficult
+than it is to use elimination. But we can’t always use elimination.</p>
+<p>We should generally use substitution when the equations are not both linear (not
+in the form <im>ax + by = c</im>).</p>
+<h2>Basic steps to solve</h2>
+<ul>
+<li>Rearrange one of the equations to make one variable the subject (get it on its
+own on one side of the equation).</li>
+<li>Substitute this expression into the other equation. This means replacing the
+variable you made the subject with the expression you found.</li>
+<li>Solve the resulting equation to find the value of one variable.</li>
+<li>Substitute this value back into one of the original equations to find the value
+of the other variable.</li>
+</ul>
+<h2>Writing our answer</h2>
+<p>When we have any sort of quadratic or non-linear equations, we may get more than
+one value for each variable.</p>
+<p>It’s important that we write out which values are ‘pairs’ of each other - for
+example, we may find <im>x</im> to have two different values, and <im>y</im> to have two
+different values. When we substitute each value of <im>x</im> back into one of the
+original equations to find the corresponding value of <im>y</im>, we need to make sure
+we write out which values of <im>x</im> produce which values of <im>y</im>.</p>
+<p>We write this as “when <im>x = a</im>, <im>y = b</im>” and “when <im>x = c</im>, <im>y = d</im>”, etc.</p>
+<h2>Examples</h2>
+<p>Like with most concepts, it’s much easier to see with some examples.</p>
+<h3>Example: solve the simultaneous equations <im>x + y = 10</im> and <im>x^2 + y^2 = 58</im>.</h3>
+<ul>
+<li>We have the two equations:
+<ul>
+<li><im>x + y = 10</im>  (Equation 1)</li>
+<li><im>x^2 + y^2 = 58</im>    (Equation 2)</li>
+</ul>
+</li>
+<li>We can rearrange Equation 1 to make <im>y</im> the subject:
+<ul>
+<li><im>y = 10 - x</im>
+We could also have made <im>x</im> the subject, but I’ll choose <im>y</im> here.</li>
+</ul>
+</li>
+<li>Next, we substitute this expression for <im>y</im> into Equation 2:
+<ul>
+<li><im>x^2 + (10 - x)^2 = 58</im></li>
+</ul>
+</li>
+<li>Now we solve this equation for <im>x</im>:
+<ul>
+<li><im>x^2 + (100 - 20x + x^2) = 58</im></li>
+<li><im>2x^2 - 20x + 100 = 58</im></li>
+<li><im>2x^2 - 20x + 42 = 0</im></li>
+<li><im>x^2 - 10x + 21 = 0</im></li>
+<li><im>(x - 3)(x - 7) = 0</im></li>
+<li>So, <im>x = 3</im> or <im>x = 7</im></li>
+</ul>
+</li>
+<li>Now we substitute BOTH these values back into Equation 1 to find the
+corresponding values of <im>y</im>:
+<ul>
+<li>If <im>x = 3</im>:
+<ul>
+<li><im>3 + y = 10</im></li>
+<li><im>y = 7</im></li>
+</ul>
+</li>
+<li>If <im>x = 7</im>:
+<ul>
+<li><im>7 + y = 10</im></li>
+<li><im>y = 3</im></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>We need to remember to write it in the correct form:
+<ul>
+<li>When <im>x = 3</im>, <im>y = 7</im></li>
+<li>When <im>x = 7</im>, <im>y = 3</im></li>
+</ul>
+</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

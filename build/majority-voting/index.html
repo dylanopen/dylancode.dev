@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Majority voting</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Majority voting</h1>
+<p>Majority voting, like <a href="/parity-bit">parity bits</a>, is a really simple way of
+checking for errors during data transmission.</p>
+<p>The idea is that, instead of just sending the data once, we send it multiple
+times, and then the receiver can look at all the copies of the data and take a
+‘vote’ on what the correct bit is likely to be.</p>
+<h2>How does majority voting work?</h2>
+<ul>
+<li>The data is sent multiple times
+<ul>
+<li>It must be an odd number of times, so that there is a clear majority</li>
+<li>The data can be sent by sending each bit 3 times in a row, or by sending
+the whole data 3 times, or just sending a packet 3 times, etc. There are
+lots of ways it can be implemented.</li>
+</ul>
+</li>
+<li>The receiver gets all the copies of the data, and for each bit, it looks at
+all the copies of that bit and takes a majority vote on what the correct bit
+is likely to be. If there are 2 <code>1</code> bits and 1 <code>0</code> bit, then the majority vote would be <code>1</code>. If there are 2 <code>0</code> bits and 1 <code>1</code> bit, then the majority vote would be <code>0</code>, etc.</li>
+</ul>
+<h2>Example</h2>
+<p>Let’s say we’re sending the data <code>1010</code>. With majority voting, we might send it
+something like this:</p>
+<pre><code>1010
+1010
+1010
+</code></pre>
+<p>If it’s received as this:</p>
+<pre><code>1000
+1011
+0010
+</code></pre>
+<p>…then the receiver will look at each of the bits:</p>
+<ul>
+<li>For the first bit, we have <code>1</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>1</code>, so we’d decode the first bit as <code>1</code>.</li>
+<li>For the second bit, we have <code>0</code>, <code>0</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the second bit as <code>0</code>.</li>
+<li>For the third bit, we have <code>1</code>, <code>1</code>, and <code>1</code>. The majority vote is <code>1</code>, so we’d decode the third bit as <code>1</code>.</li>
+<li>For the fourth bit, we have <code>0</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the fourth bit as <code>0</code>.</li>
+</ul>
+<p>So we’d correctly decode the data as <code>1010</code>, even though actually <em>none</em> of the
+individual copies of the data were correct. The majority voting allows us to
+correct the errors and get the right data.</p>
+<h2>Benefits of majority voting</h2>
+<ul>
+<li>It can detect errors even if multiple bits are flipped, as long as the
+majority of the copies are correct. So, it can detect more errors than parity
+bits.</li>
+<li>It can also correct errors, not just detect them. Whatever the majority vote
+is, it is more likely to be correct than a single copy of the data.</li>
+<li>It’s still pretty simple to implement, and doesn’t require any complex algorithms
+like some other error detection/correction methods.</li>
+<li>It can be used in situations where we have a lot of bandwidth and can afford
+to send the data multiple times. Perhaps, over a superfast USB cable when
+transferring files between a computer and a hard drive.</li>
+</ul>
+<h2>Downsides of majority voting</h2>
+<ul>
+<li>It takes up <em>way</em> more bits, especially compared to <a href="/parity-bit">parity bits</a>.
+<ul>
+<li>If we send the data 3 times, then we’re using 3 times as many bits.</li>
+<li>If we send it 5 times, then we’re using 5 times as many bits, etc.</li>
+<li>So, it can be very inefficient in terms of bandwidth.</li>
+</ul>
+</li>
+<li>It can also make the data transfer slower, since we have to send the data multiple times.</li>
+<li>Like any error detection/correction method, it doesn’t help at all with security. It’s only for detecting/correcting accidental errors, not malicious attacks by changing the data on purpose.</li>
+<li>It can only correct errors if the majority of the copies are correct. If more than half of the copies are wrong, then it will actually give us the wrong data. So, it’s not perfect, and there are still some cases where it can fail to detect/correct errors.
+<ul>
+<li>It can actually <em>confidently</em> be wrong, if this happens.</li>
+</ul>
+</li>
+<li>It doesn’t tell us which bits were wrong, just what the majority vote is. So, it can’t give us any information about where the errors occurred, just what the most likely correct data is.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

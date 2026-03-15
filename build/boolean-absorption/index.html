@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Boolean absorption</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Boolean absorption</h1>
+<h2>AND absorption</h2>
+<p>When we have an expression in the form <im>A \cdot (A + B)</im>, we can simplify it. We
+know that both <im>A</im> and the thing on the right must be true for the whole
+expression to be true. But if just <im>A</im> is true, then the right hand side <im>A+B</im>
+is also true, so we can just ignore it and simplify the expression to just <im>A</im>.</p>
+<blockquote>
+<p><im>A \cdot (A + B) = A</im></p>
+</blockquote>
+<h2>OR absorption</h2>
+<p>When we have an expression in the form <im>A + (A \cdot B)</im>, we can also simplify
+it. We know that either <im>A</im> or the thing on the right must be true for the
+whole expression to be true. But if just <im>A</im> is true, then the right hand side
+<im>A \cdot B</im> is also true, so we can just ignore it and simplify the expression
+to just <im>A</im>.</p>
+<blockquote>
+<p><im>A + (A \cdot B) = A</im></p>
+</blockquote>
+
+	    </div>
+	</div>
+    </body>
+</html>

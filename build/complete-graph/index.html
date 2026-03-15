@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Complete graph</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Complete graph</h1>
+<p>A <em>complete graph</em> is a type of <a href="/graph">graph</a> where every pair of vertices has
+a direct <a href="/graph-edge">edge</a> connecting them. In other words, in a complete
+graph, you can get from any vertex to any other vertex in just one step.</p>
+<blockquote>
+<p><strong>Complete graph</strong>: a graph where every pair of vertices is directly
+connected by an edge.</p>
+</blockquote>
+<h2>Notation</h2>
+<p>A complete graph with <em>n</em> vertices is often written as <im>K_n</im>. For example:</p>
+<ul>
+<li><im>K_3</im> is a complete graph with 3 vertices, where each vertex is connected to
+the other two vertices.</li>
+<li><im>K_4</im> is a complete graph with 4 vertices, where each vertex is connected to
+the other three vertices.</li>
+</ul>
+<h2>Number of edges</h2>
+<p>In a complete graph with <im>n</im> vertices:</p>
+<p><ma>
+\text{Number of edges} = \frac{n(n-1)}{2}
+</ma></p>
+<p>This assumes the graph is undirected.</p>
+<h2>Number of hamiltonian cycles</h2>
+<p>For a complete graph with <im>n</im> vertices:</p>
+<p><ma>
+\text{Number of Hamiltonian cycles} = \frac{(n-1)!}{2}
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

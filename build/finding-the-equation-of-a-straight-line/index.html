@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Finding the equation of a straight line</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Finding the equation of a straight line</h1>
+<h2>Finding the equation of a straight line from two points</h2>
+<p>Let’s suppose we know that two points are on a straight line - <im>(x, y)</im> and
+<im>(x_1, y_1)</im> - and we want to find the equation of that straight line.</p>
+<p>We need to know the <strong>gradient</strong> if we want to find the equation of the line,
+and after that, we can substitute in our values for <im>x</im>, <im>y</im>, <im>x_1</im>, <im>y_1</im> and
+<im>m</im> into the equation of a straight line: <im>y - y_1 = m(x - x_1)</im>.</p>
+<h3>Finding the gradient</h3>
+<p>The gradient of a graph can be found by calculating the change in <im>y</im> divided
+by the change in <im>x</im>, or:</p>
+<p><ma>
+m = \frac{\Delta y}{\Delta x}
+</ma></p>
+<ul>
+<li>The change in <im>y</im> is going to be the <em>difference</em> between the starting <im>y</im>
+value - <im>y_1</im> - and the ending <im>y</im> value - <im>y</im>, so <im>\Delta y = y - y_1</im>.</li>
+<li>The change in <im>x</im> is going to be the <em>difference</em> between the starting <im>x</im>
+value - <im>x_1</im> - and the ending <im>x</im> value - <im>x</im>, so <im>\Delta x = x - x_1</im>.</li>
+</ul>
+<p>So, the gradient can be calculated using:</p>
+<p><ma>
+m = \frac{y - y_1}{x - x_1}
+</ma></p>
+<h3>Finding the equation of the line</h3>
+<p>Once you have found the gradient, you can substitute it into the equation of a
+straight line:</p>
+<p><ma>
+y - y_1 = m(x - x_1)
+</ma></p>
+<h3>Example: find the equation of the straight line that passes through the points (2, 3) and (5, 11)</h3>
+<ul>
+<li>Find the gradient:
+<ul>
+<li><im>m = \frac{y - y_1}{x - x_1}</im></li>
+<li><im>= \frac{11 - 3}{5 - 2}</im></li>
+<li><im>= \frac{8}{3}</im></li>
+</ul>
+</li>
+<li>Substitute into the equation of a straight line:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 3 = \frac{8}{3}(x - 2)</im></li>
+</ul>
+</li>
+<li>We can rearrange this into the form <im>y = mx + c</im> <em>if we want to</em>:
+<ul>
+<li><im>y - 3 = \frac{8}{3}x - \frac{16}{3}</im></li>
+<li><im>y = \frac{8}{3}x - \frac{16}{3} + 3</im></li>
+<li><im>y = \frac{8}{3}x - \frac{16}{3} + \frac{9}{3}</im></li>
+<li><im>y = \frac{8}{3}x - \frac{7}{3}</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = \frac{8}{3}x - \frac{7}{3}</im></li>
+</ul>
+<h3>Example: find the equation of the straight line that passes through the points (1, 4) and (3, 10)</h3>
+<ul>
+<li>Find the gradient:
+<ul>
+<li><im>m = \frac{y - y_1}{x - x_1}</im></li>
+<li><im>= \frac{10 - 4}{3 - 1}</im></li>
+<li><im>= \frac{6}{2}</im></li>
+<li><im>= 3</im></li>
+</ul>
+</li>
+<li>Substitute into the equation of a straight line:
+<ul>
+<li><im>y - y_1 = m(x - x_1)</im></li>
+<li><im>y - 4 = 3(x - 1)</im></li>
+</ul>
+</li>
+<li>We can rearrange this into the form <im>y = mx + c</im> <em>if we want to</em>:
+<ul>
+<li><im>y - 4 = 3x - 3</im></li>
+<li><im>y = 3x - 3 + 4</im></li>
+<li><im>y = 3x + 1</im></li>
+</ul>
+</li>
+<li><strong>Answer</strong>: <im>y = 3x + 1</im></li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>

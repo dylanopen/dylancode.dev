@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Differentiation from first principles</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Differentiation from first principles</h1>
+<p>Differentiation from first principles essentially involves finding the
+derivative ‘manually’, without using the power rule.</p>
+<p>Normally, we could differentiate a function like <im>f(x)=x^2</im> by using the power
+rule:</p>
+<ul>
+<li><im>f&#39;(x)=2x^{2-1}</im></li>
+<li><im>=2x</im></li>
+</ul>
+<p>But from first principles, we would do it like this:</p>
+<ul>
+<li><im>f&#39;(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{(x+h)^2 - x^2}h</im></li>
+<li><im>=\lim_{h\to0}\frac{x^2 + 2xh + h^2 - x^2}h</im></li>
+<li><im>=\lim_{h\to0}\frac{2xh + h^2}h</im></li>
+<li><im>=\lim_{h\to0}(2x + h)</im></li>
+<li><im>=2x + 0</im></li>
+<li><im>=2x</im></li>
+</ul>
+<p>So we get the same answer of <im>2x</im>, but we had to do a lot more work to get
+there! Unfortunately, in an exam, they might ask you to do it this way, so it’s
+worth learning :(</p>
+<h2>The meaning of <im>\lim_{h\to0}</im></h2>
+<p>The notation <im>\lim_{h\to0}</im> means ‘the limit as <im>h</im> approaches <im>0</im>’. In this
+context, it essentially means that we are considering values of <im>h</im> that are
+incredibly close to <im>0</im>, but not actually equal to <im>0</im>. This is important
+because if we were to substitute <im>h=0</im> directly into the expression
+<im>\frac{f(x+h)-f(x)}h</im>, we would end up with a division by zero, which you may
+know that you can’t exactly do :)</p>
+<h2>Some examples of differentiation from first principles</h2>
+<h3>Differentiate <im>f(x)=3x^2+2</im> from first principles</h3>
+<ul>
+<li><im>f&#39;(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{3(x+h)^2 + 2 - (3x^2 + 2)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{3(x^2 + 2xh + h^2) + 2 - 3x^2 - 2}h</im></li>
+<li><im>=\lim_{h\to0}\frac{3x^2 + 6xh + 3h^2 + 2 - 3x^2 - 2}h</im></li>
+<li><im>=\lim_{h\to0}\frac{6xh + 3h^2}h</im></li>
+<li><im>=\lim_{h\to0}(6x + 3h)</im></li>
+<li><im>=6x + 0</im></li>
+<li><im>=6x</im></li>
+<li><strong>Answer</strong>: <im>f&#39;(x)=6x</im></li>
+</ul>
+<h3>Differentiate <im>f(x)=x^3 - x</im> from first principles</h3>
+<ul>
+<li><im>f&#39;(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{(x+h)^3 - (x+h) - (x^3 - x)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{(x^3 + 3x^2h + 3xh^2 + h^3) - x - h - x^3 + x}h</im></li>
+<li><im>=\lim_{h\to0}\frac{3x^2h + 3xh^2 + h^3 - h}h</im></li>
+<li><im>=\lim_{h\to0}(3x^2 + 3xh + h^2 - 1)</im></li>
+<li><im>=3x^2 + 0 + 0 - 1</im></li>
+<li><im>=3x^2 - 1</im></li>
+<li><strong>Answer</strong>: <im>f&#39;(x)=3x^2 - 1</im></li>
+</ul>
+<h2>Proof that the derivative of a constant is zero</h2>
+<p>One nice thing about differentiation from first principles is that it allows us
+to prove some stuff that otherwise we just have to accept as true! For example,
+you may have realised that the derivative of a constant function is always zero.
+But why is that true?</p>
+<h3>The power rule answer</h3>
+<p>One answer is that, with the power rule, we multiply the coefficient of <im>x</im> by
+the power of <im>x</im>, and then reduce the power by <im>1</im>. For a constant function,
+it’s the same thing as having a coefficient of <im>x^0</im>!</p>
+<p>So when we differentiate it, we take the power of <im>x</im> (0) to the front, and so
+multiply the coefficient by <im>0</im>, which gives us <im>0</im> (nothing).</p>
+<p>That’s one explanation as to why the derivative of a constant is zero.</p>
+<h3>The first principles answer</h3>
+<p>Let’s try our first principles method on a constant function, say <im>f(x)=5</im>:</p>
+<ul>
+<li><im>f&#39;(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h</im></li>
+<li><im>=\lim_{h\to0}\frac{5 - 5}h</im></li>
+<li><im>=\lim_{h\to0}\frac{0}h</im></li>
+<li><im>=\lim_{h\to0}0</im></li>
+<li><im>=0</im></li>
+</ul>
+<p>So we see that the derivative of a constant function is indeed zero, as we
+expected!</p>
+<p>In fact, we don’t even need the condition that <im>\lim_{h\to0}</im> here, because the
+expression is always zero, no matter what <im>h</im> is (as long as it’s not zero,
+because we can’t divide by zero!).</p>
+<p>This is important, because it shows us that the gradient of a constant function
+is always zero, even if we consider values of <im>h</im> that are not close to zero
+(measuring the gradient of a ‘larger triangle’ of the graph). That’s because
+a constant function is just a flat horizontal line, so the gradient is always
+zero!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>
