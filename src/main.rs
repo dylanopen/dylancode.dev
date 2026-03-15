@@ -16,8 +16,7 @@ fn generate_doc_html(markdown_data: String) -> String {
     let template = template.replace("{{title}}", &title);
 
     let mut template = template.replace("{{content}}", &html_output);
-
-    while template.contains("<span class=\"math math-inline\">") {
+while template.contains("<span class=\"math math-inline\">") {
         let start = template.find("<span class=\"math math-inline\">").unwrap();
         let end = template[start..].find("</span>").unwrap() + start + "</span>".len();
         let math_content = &template[start + "<span class=\"math math-inline\">".len()..end - "</span>".len()];
@@ -119,7 +118,7 @@ fn generate_pageindex() -> SidebarItem {
                 name = link.clone();
                 link = format!("___{}", current_id);
         }
-        let depth = spaces.len() / 2;
+        let depth = spaces.len() / 4;
         while category_stack.len() > depth {
             category_stack.pop();
         }

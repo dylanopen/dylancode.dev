@@ -339,7 +339,7 @@ pageIndex={
 },
 },
 "/___251":{
-"_name":"statistics",
+"_name":"Statistics",
 "/___252":{
 "_name":"Sampling strategies",
 "/census":"Census",
@@ -460,7 +460,8 @@ pageIndex={
 "/repeatability":"Repeatability",
 "/reproducibility":"Reproducibility",
 },
-"/___340":"Mechanics",
+"/___340":{
+"_name":"Mechanics",
 "/___341":{
 "_name":"Scalars and vectors",
 "/scalar-quantity":"Scalar quantity",
@@ -540,6 +541,7 @@ pageIndex={
 "/kinetic-energy":"Kinetic energy",
 "/gravitational-potential-energy":"Gravitational potential energy",
 },
+},
 "/___400":{
 "_name":"Electricity",
 "/basics-of-electricity":"Basics of electricity",
@@ -562,9 +564,10 @@ pageIndex={
 "/kirchoff-second-law":"Kirchoff's second law",
 "/electricity-revision":"Electricity revision",
 },
-"/___420":"Waves",
+"/___420":{
+"_name":"Waves",
 "/___421":{
-"_name":"label: Categorising waves",
+"_name":"Categorising waves",
 "/progressive-wave":"Progressive wave",
 "/types-of-wave":"Types of wave",
 "/transverse-wave":"Transverse wave",
@@ -572,7 +575,7 @@ pageIndex={
 "/electromagnetic-wave":"Electromagnetic wave",
 },
 "/___427":{
-"_name":"label: Wave properties",
+"_name":"Wave properties",
 "/wavelength":"Wavelength",
 "/wave-frequency":"Wave frequency",
 "/wave-period":"Wave period",
@@ -580,25 +583,25 @@ pageIndex={
 "/wave-speed-calculations":"Wave speed calculations",
 },
 "/___433":{
-"_name":"label: Refraction",
+"_name":"Refraction",
 "/refractive-index":"Refractive index",
 "/refractive-index-of-air":"Refractive index of air",
 "/snells-law":"Snell's law",
 "/refraction-of-light":"Refraction of light",
 },
 "/___438":{
-"_name":"label: Reflection",
+"_name":"Reflection",
 "/reflection-of-light":"Reflection of light",
 "/total-internal-reflection":"Total internal reflection",
 },
 "/___441":{
-"_name":"label: Fibre optics",
+"_name":"Fibre optics",
 "/fibre-optic-cable":"Fibre optic cable",
 "/fibre-optic-modal-dispersion":"Fibre optic modal dispersion",
 "/fibre-optic-material-dispersion":"Fibre optic material dispersion",
 },
 "/___445":{
-"_name":"label: Diffraction",
+"_name":"Diffraction",
 "/diffraction-of-waves":"Diffraction of waves",
 "/diffraction-grating":"Diffraction grating",
 "/double-slit-diffraction":"Double slit diffraction",
@@ -606,14 +609,16 @@ pageIndex={
 "/diffraction-of-polychromatic-light":"Diffraction of polychromatic light",
 },
 "/___451":{
-"_name":"label: Interference",
+"_name":"Interference",
 "/wave-interference":"Wave interference",
 "/constructive-interference":"Constructive interference",
 "/destructive-interference":"Destructive interference",
 "/wave-phase-difference":"Wave phase difference",
 "/wave-path-difference":"Wave path difference",
 "/coherent-wave":"Coherent wave",
-"/___458":"label: Polarisation",
+},
+"/___458":{
+"_name":"Polarisation",
 "/polarised-wave":"Polarised wave",
 "/polarisation":"Polarisation",
 "/uses-of-polarisation":"Uses of polarisation",
@@ -625,7 +630,9 @@ pageIndex={
 "/speed-of-electromagnetic-wave":"Speed of electromagnetic wave",
 "/waves-revision":"Waves revision",
 },
-"/___467":"Particles",
+},
+"/___467":{
+"_name":"Particles",
 "/___468":{
 "_name":"Electromagnetic spectrum",
 "/electromagnetic-spectrum":"Electromagnetic spectrum",
@@ -635,6 +642,7 @@ pageIndex={
 "/photon":"Photon",
 "/photon-energy":"Photon energy",
 "/photon-power":"Photon energy and power",
+},
 },
 },
 "/___474":{

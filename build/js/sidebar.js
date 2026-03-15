@@ -36,7 +36,7 @@ function expandCurrentPage() {
     let currentPage = window.location.pathname.split("/")[1];
     console.log("Current page:", currentPage);
     for (let link of document.getElementsByClassName("sidebar-link")) {
-	if (link.getAttribute("href").includes(currentPage)) {
+	if (link.getAttribute("href").includes("/" + currentPage + "/")) {
 	    let par = link.parentElement;
 	    while (par) {
 		if (par.tagName === "DETAILS") {
