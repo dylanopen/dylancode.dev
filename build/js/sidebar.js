@@ -5,6 +5,8 @@ function addSidebarSection(link, subpages, parSection, depth) {
     summary.textContent = name;
     if (!link.startsWith("/__")) {
 	summary.innerHTML = `<a class="sidebar-link inline" href="${link}/">${name}</a>`;
+    } else {
+	summary.setAttribute("class", summary.getAttribute("class") + " dead");
     }
     section.appendChild(summary);
     section.style.paddingLeft = "10px";
@@ -15,12 +17,20 @@ function addSidebarSection(link, subpages, parSection, depth) {
 	    continue;
 	}
 	if (typeof subpages[key] === "string") {
-	    let linkEl = document.createElement("a");
-	    linkEl.setAttribute("class", "sidebar-link");
-	    linkEl.style.paddingLeft = "27px";
-	    linkEl.href = key + "/";
-	    linkEl.textContent = subpages[key];
-	    section.appendChild(linkEl);
+	    if (!key.startsWith("/__")) {
+		let linkEl = document.createElement("a");
+		linkEl.setAttribute("class", "sidebar-link");
+		linkEl.style.paddingLeft = "27px";
+		linkEl.href = key + "/";
+		linkEl.textContent = subpages[key];
+		section.appendChild(linkEl);
+	    } else {
+		let linkEl = document.createElement("span");
+		linkEl.setAttribute("class", "sidebar-link dead");
+		linkEl.style.paddingLeft = "27px";
+		linkEl.textContent = subpages[key];
+		section.appendChild(linkEl);
+	    }
 	} else {
 	    addSidebarSection(key, subpages[key], section, depth + 1);
 	}
@@ -36,15 +46,19 @@ function expandCurrentPage() {
     let currentPage = window.location.pathname.split("/")[1];
     console.log("Current page:", currentPage);
     for (let link of document.getElementsByClassName("sidebar-link")) {
-	if (link.getAttribute("href").includes("/" + currentPage + "/")) {
-	    link.setAttribute("class", link.getAttribute("class") + " sidebar-section-active");
-	    let par = link.parentElement;
-	    while (par) {
-		if (par.tagName === "DETAILS") {
-		    par.open = true;
-		}
-		par = par.parentElement;
+	if (!link.getAttribute("href")) {
+	    continue;
+	}
+	if (!link.getAttribute("href").includes("/" + currentPage + "/")) {
+	    continue;
+	}
+	link.setAttribute("class", link.getAttribute("class") + " sidebar-section-active");
+	let par = link.parentElement;
+	while (par) {
+	    if (par.tagName === "DETAILS") {
+		par.open = true;
 	    }
+	    par = par.parentElement;
 	}
     }
 }

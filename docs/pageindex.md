@@ -650,6 +650,12 @@
          - network-topology
              - bus-topology
              - star-topology
+         - network-protocol
+            - transmission-control-protocol-internet-protocol
+            - transmission-control-protocol
+            - internet-protocol
+            - hypertext-transfer-protocol
+            - file-transfer-protocol
         - Server hosting
              - types-of-server-hosting
 - RISC-V assembly

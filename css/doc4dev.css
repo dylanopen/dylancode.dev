@@ -27,10 +27,6 @@ blockquote p {
 a {
     color: #5bf;
 }
-a.dead {
-    color: #38c;
-    text-decoration: none;
-}
 .container {
     display: grid;
     grid-template-columns: 350px 1fr;
@@ -45,6 +41,10 @@ a.dead {
     text-align: left;
     padding: 16px;
     max-width: 800px;
+    a.dead {
+	color: #38c;
+	text-decoration: none;
+    }
 }
 .sidebar-link,.sidebar-section {
     display: block;
