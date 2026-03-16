@@ -604,6 +604,13 @@
             - harvard-architecture
             - addressable-memory
         - fetch-execute-cycle
+        - processor-components
+            - arithmetic-logic-unit
+            - control-unit
+            - processor-clock
+            - registers
+            - processor-cache
+            - computer-buses
     - Networks
         - Servers and clients
              - server
