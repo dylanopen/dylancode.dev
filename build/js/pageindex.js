@@ -867,7 +867,7 @@ pageIndex={
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
-"/___629":"client-server-network",
+"/client-server-network":"Client-server network",
 "/___630":"peer-to-peer-network",
 },
 "/___631":{

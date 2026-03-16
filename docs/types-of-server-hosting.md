@@ -40,6 +40,6 @@ that's nearest to the user will respond to that request.
 > use.  
 > The reason it loads so fast is also partly because there's no annoying
 > Javascript on this website, and the HTML files are very small, so they can be
-> sent to your browser very quickly. All HTML files on the site are less than
-> 20KB in size, and the entire website can be loaded with just that file - so
-> 20KB.
+> sent to your browser very quickly. Basically all HTML files on the site are less than
+> 5KB in size (10KB for some of the long articles), and the entire website can be loaded with just that file - so
+> 5KB, if you've visited another page.
