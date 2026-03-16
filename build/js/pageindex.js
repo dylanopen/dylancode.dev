@@ -850,7 +850,7 @@ pageIndex={
 "/memory-address-register":"Memory address register",
 "/memory-buffer-register":"Memory buffer register",
 "/___619":"status-register",
-"/___620":"accumulator",
+"/accumulator":"Accumulator",
 },
 },
 "/___621":{
