@@ -3,7 +3,7 @@
     <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bus</title>
+	<title>Processor cache</title>
 	<style>body{background-color:#0c0c0c;color:#fff}</style>
 	<link defer rel="stylesheet" href="/css/doc4dev.css">
 	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
@@ -19,21 +19,20 @@
 		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
 	    </div>
 	    <div class="main-content">
-		<h1>Bus</h1>
+		<h1>Processor cache</h1>
 <blockquote>
-<p>A <em>bus</em> is effectively a collection of wires that are used to transfer data
-between different parts of a computer.</p>
+<p>Cache is a small amount of very fast memory that’s built into the CPU.</p>
 </blockquote>
-<p>Think of it as 32 or 64 wires all next to each other, which can be used to
-transfer data between the processor and the main memory, or between the
-processor and hardware controllers, etc.</p>
-<h2>Types of bus</h2>
-<p>The main 3 buses in a computer are:</p>
+<p>Cache is used to store:</p>
 <ul>
-<li>The <a href="/address-bus">address bus</a></li>
-<li>The <a href="/data-bus">data bus</a></li>
-<li>The <a href="/control-bus">control bus</a></li>
+<li>frequently used data and instructions</li>
+<li>data and instructions that the CPU is likely to need soon</li>
+<li>data and instructions that the CPU has recently used</li>
+<li>…and anything that it doesn’t want to have to go to RAM each time to fetch.</li>
 </ul>
+<h2>Performance</h2>
+<p>Cache is much faster than RAM, so if the CPU can get the data it needs from the cache, it can access it much more quickly than if it had to go to RAM to fetch it.</p>
+<p>If we have more cache, then the CPU can store more data and instructions in the cache, which means that it can access them more quickly, which means that the overall performance of the CPU will be better. So in general: more cache = better performance.</p>
 
 	    </div>
 	</div>

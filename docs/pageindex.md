@@ -621,6 +621,8 @@
             - status-register
             - accumulator
             - fetch-execute-cycle-registers
+        - processor-performance
+            - processor-core
     - Networks
         - Servers and clients
              - server

@@ -14,8 +14,3 @@ The main 3 buses in a computer are:
 - The [data bus](/data-bus)
 - The [control bus](/control-bus)
 
-## Bus width
-
-The width of a bus is the number of bits it can transfer at a time. For example,
-if a bus is 64 bits wide, it can transfer 64 bits of data at a time - usually
-every [processor clock](/processor-clock) cycle.

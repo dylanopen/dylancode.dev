@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Word length</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Word length</h1>
+<blockquote>
+<p>The <em>word length</em> is the size of data that a processor can process at once.</p>
+</blockquote>
+<p>Some common word lengths are:</p>
+<ul>
+<li>8 bits (1 byte)</li>
+<li>16 bits (2 bytes)</li>
+<li>32 bits (4 bytes)</li>
+<li>64 bits (8 bytes)</li>
+</ul>
+<h2>How word length affects performance</h2>
+<p>Generally, the larger the word length, the more data the processor can process at once, which can lead to better performance. For example, a 64-bit processor can process 64 bits of data at once, while a 32-bit processor can only process 32 bits of data at once.</p>
+<p>There are loads of other <a href="/processor-performance">factors affecting processor performance</a> - word length is just one of them.</p>
+<h2>Word length and memory addressing</h2>
+<p>The word length also affects how much memory a processor can address. For example, a 32-bit processor can only address up to 4 GB of memory (2^32 bytes), while a 64-bit processor can address up to 16 exabytes of memory (2^64 bytes). That’s because memory is addressed using a word, so the larger the word length, the more memory addresses there are available.</p>
+<p>Usually, the word length is the same as the <a href="/data-bus">data bus</a> and <a href="/address-bus">address bus</a>’ <a href="/bus-width">width</a>. For example, a 64-bit processor will usually have a 64-bit data bus and a 64-bit address bus, which means it can transfer 64 bits of data at once.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

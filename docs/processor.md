@@ -25,6 +25,8 @@ If a processor has multiple cores, then it basically has lots of processors
 connected together, so they can work at the same time. This is called
 **parallel processing**.
 
+See: [processor core](/processor-core).
+
 ## What's a processor made of?
 
 Processors are made of tiny *transistors*, which are like tiny switches that can
