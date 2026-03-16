@@ -656,6 +656,8 @@
             - internet-protocol
             - hypertext-transfer-protocol
             - file-transfer-protocol
+        - Wireless networking
+            - wifi
         - Server hosting
              - types-of-server-hosting
 - RISC-V assembly
