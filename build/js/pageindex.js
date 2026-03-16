@@ -868,7 +868,7 @@ pageIndex={
 "/server":"Server",
 "/client":"Client",
 "/client-server-network":"Client-server network",
-"/___630":"peer-to-peer-network",
+"/peer-to-peer-network":"Peer-to-peer network",
 },
 "/___631":{
 "_name":"Network scale",
