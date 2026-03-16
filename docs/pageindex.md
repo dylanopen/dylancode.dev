@@ -609,7 +609,7 @@
             - control-unit
             - processor-clock
                 - clock-speed
-            - registers
+            - processor-registers
             - processor-cache
             - computer-buses
     - Networks

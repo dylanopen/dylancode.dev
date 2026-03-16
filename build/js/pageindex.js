@@ -839,7 +839,7 @@ pageIndex={
 "_name":"Processor clock",
 "/clock-speed":"Clock speed",
 },
-"/___611":"registers",
+"/___611":"processor-registers",
 "/___612":"processor-cache",
 "/___613":"computer-buses",
 },
