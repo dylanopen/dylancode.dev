@@ -845,8 +845,8 @@ pageIndex={
 },
 "/processor-registers":{
 "_name":"Processor registers",
-"/___615":"program-counter",
-"/___616":"current-instruction-register",
+"/program-counter":"Program counter",
+"/current-instruction-register":"Current instruction register",
 "/___617":"memory-address-register",
 "/___618":"memory-buffer-register",
 "/___619":"status-register",
