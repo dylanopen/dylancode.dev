@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Addressable memory</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Addressable memory</h1>
+<blockquote>
+<p>Addressable memory is a way we can lay out the memory in a computer so that we can access it using addresses. Each piece of data or instruction is stored at a specific address in memory, and we can use that address to read or write data.</p>
+</blockquote>
+<p>For example, if we have a memory with 8 bytes, we can label each byte with an address, like this:</p>
+<table><thead><tr><th>Address</th><th>Data</th></tr></thead><tbody>
+<tr><td>0x00</td><td>H</td></tr>
+<tr><td>0x01</td><td>E</td></tr>
+<tr><td>0x02</td><td>L</td></tr>
+<tr><td>0x03</td><td>L</td></tr>
+<tr><td>0x04</td><td>O</td></tr>
+</tbody></table>
+<p>In this example, we have a total of 5 bytes stored in memory. Each <em>byte</em> has a unique address (0x00, 0x01, etc.) that we can use to access it. So if we want to read the data at address 0x02, we would get the value ‘L’. If we want to write a new value to address 0x03, we can do that as well.</p>
+<h2>Giving programs their own memory</h2>
+<p>In a modern <a href="/general-purpose-computer">general-purpose computer</a>, we can have loads of different programs running at the same time. Each program needs its own memory to store its data and instructions.</p>
+<p>We need to make sure we divide the memory in a way that each program can only access its own memory, and not the memory of other programs - it would be bad if one program could read or write the data of another program without permission!</p>
+<p>The <a href="/operating-system">operating system</a> is responsible for managing this. It creates separate memory spaces for each program, and it uses a technique called <a href="/virtual-memory">virtual memory</a> to give each program the illusion that it has its own private memory, even though it’s actually sharing the physical memory with other programs.</p>
+<h2>Memory addresses</h2>
+<p>A memory address is just the number we give to represent a location in memory. It’s like a label that we can use to refer to a specific byte or group of bytes in memory.</p>
+<h2>Address size</h2>
+<p>Based on the size of the <a href="/address-bus">address bus</a>, we can determine how many unique memory addresses we can have.</p>
+<p>For example, if we have a 32-bit address bus, we can have 2^32 unique addresses, which means we can address up to 4 GB of memory. If we have a 64-bit address bus, we can have 2^64 unique addresses, which means we can address up to 16 exabytes of memory (which is probably enough for a while).</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

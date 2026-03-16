@@ -601,6 +601,7 @@
     - stored-program-architecture
         - von-neumann-architecture
         - harvard-architecture
+        - addressable-memory
     - Networks
         - Servers and clients
              - server

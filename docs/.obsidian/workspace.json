@@ -32,7 +32,8 @@
               "state": {
                 "file": "stored-program-architecture.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "stored-program-architecture"
@@ -59,17 +60,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "harvard-architecture.md",
+                "file": "addressable-memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "harvard-architecture"
+              "title": "addressable-memory"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,11 +139,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4f17bea6477884b",
+  "active": "30c3d4a9848e5cbd",
   "lastOpenFiles": [
-    "harvard-architecture.md",
-    "von-neumann-architecture.md",
     "stored-program-architecture.md",
+    "von-neumann-architecture.md",
+    "addressable-memory.md",
+    "harvard-architecture.md",
     "general-purpose-computer.md",
     "pageindex.md",
     "vernam-cipher.md",

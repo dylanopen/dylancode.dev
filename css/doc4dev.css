@@ -7,7 +7,10 @@ body {
     font-size: 1.125em;
 }
 p {
-    color: #ddd;
+    color: #e7e7e7;
+}
+li {
+    color: #e7e7e7;
 }
 blockquote {
     margin: 0;
@@ -22,7 +25,11 @@ blockquote p {
     margin: 8px 0;
 }
 a {
-    color: #4af;
+    color: #5bf;
+}
+a.dead {
+    color: #38c;
+    text-decoration: none;
 }
 .container {
     display: grid;
