@@ -647,6 +647,9 @@
         - Latency
              - latency
              - ping-latency
+         - network-topology
+             - bus-topology
+             - star-topology
         - Server hosting
              - types-of-server-hosting
 - RISC-V assembly

@@ -40,5 +40,3 @@ because parallel can be slowed down by various different things.
 - SPI (Serial Peripheral Interface)
 - Ethernet (wired networking)
 - Wi-Fi (wireless networking) is *usually* serial
-
-#

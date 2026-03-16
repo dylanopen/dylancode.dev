@@ -37,3 +37,5 @@ Think of it like a motorway:
 - The bit rate is the actual speed of the cars on the motorway, which can be
   lower than the speed limit if there is traffic, or if the cars are not
   driving at the maximum speed, or various other things.
+
+> Bandwidth is **directly proportional** to bit rate.
