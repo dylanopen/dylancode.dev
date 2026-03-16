@@ -609,9 +609,16 @@
             - control-unit
             - processor-clock
                 - clock-speed
-            - processor-registers
+            - register
             - processor-cache
             - computer-buses
+        - processor-registers
+            - program-counter
+            - current-instruction-register
+            - memory-address-register
+            - memory-buffer-register
+            - status-register
+            - accumulator
     - Networks
         - Servers and clients
              - server

@@ -9,7 +9,7 @@ components what to do.
 ## Role of the processor
 
 - Executing the instructions of a program
-  - It does this with the [fetch-decode-execute cycle](fetch-decode-execute-cycle)
+  - It does this with the [fetch-decode-execute cycle](fetch-execute-cycle)
 - Managing the resources of the computer
 - Handling user input, from the keyboard, mouse, etc.
 - It basically connects all the other components together, and makes sure they
@@ -55,3 +55,9 @@ combine logic gates together to make more complex circuits.
   the processor when to do things, and how fast to do them. The speed of the
   clock is measured in hertz (Hz), and it tells us how many instructions the
   processor can execute per second.
+- [Bus](/processor-bus): This is a set of wires that connects the different parts of
+  the processor together, and allows them to communicate with each other. It
+  carries data, instructions, and control signals between the different parts
+  of the processor.
+
+See [processor components](processor-components).

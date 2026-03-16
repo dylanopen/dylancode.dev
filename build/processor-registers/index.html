@@ -3,7 +3,7 @@
     <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Harvard architecture</title>
+	<title>Processor registers</title>
 	<style>body{background-color:#0c0c0c;color:#fff}</style>
 	<link defer rel="stylesheet" href="/css/doc4dev.css">
 	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
@@ -19,16 +19,15 @@
 		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
 	    </div>
 	    <div class="main-content">
-		<h1>Harvard architecture</h1>
-<p>Unlike the <a href="/von-neumann-architecture">Von-Neumann architecture</a>, the Harvard architecture is a <a href="/stored-program-architecture">stored program architecture</a> where the instructions and data are stored in separate memory regions.</p>
-<p>This means that the CPU has two separate memory address spaces: one for instructions and one for data.</p>
-<blockquote>
-<p>The Harvard architecture is a <a href="/stored-program-architecture">stored program architecture</a> where the instructions and data are stored in separate memory regions to each other.</p>
-</blockquote>
-<h2>Where is Harvard used?</h2>
+		<h1>Processor registers</h1>
+<p>There are lots of different <a href="/register">registers</a> in the <a href="/processor">processor</a>, but the main 6 are the:</p>
 <ul>
-<li>It’s mainly used in embedded systems, for example, in digital signal processing (DSP).</li>
-<li>It’s not common to use it for a <a href="/general-purpose-computer">general-purpose computer</a>.</li>
+<li><a href="/program-counter">Program counter</a> (PC)</li>
+<li><a href="/current-instruction-register">Current instruction register</a> (CIR)</li>
+<li><a href="/memory-address-register">Memory address register</a> (MAR)</li>
+<li><a href="/memory-buffer-register">Memory buffer register</a> (MBR)</li>
+<li><a href="/status-register">Status register</a></li>
+<li><a href="/accumulator">Accumulator</a></li>
 </ul>
 
 	    </div>

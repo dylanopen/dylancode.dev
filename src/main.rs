@@ -1,3 +1,6 @@
+// Yes, this is the messiest code you'll probably ever see. No, I don't care.
+// Yes, it works. No, I won't clean it up, at least for a while ;)
+
 use std::{fs, io, path::Path};
 
 use indexmap::IndexMap;
@@ -15,23 +18,36 @@ fn generate_doc_html(markdown_data: String) -> String {
     let template = include_str!("../doc-template.html");
     let template = template.replace("{{title}}", &title);
 
-    let mut template = template.replace("{{content}}", &html_output);
-while template.contains("<span class=\"math math-inline\">") {
-        let start = template.find("<span class=\"math math-inline\">").unwrap();
-        let end = template[start..].find("</span>").unwrap() + start + "</span>".len();
-        let math_content = &template[start + "<span class=\"math math-inline\">".len()..end - "</span>".len()];
+    let mut html = template.replace("{{content}}", &html_output);
+    while html.contains("<span class=\"math math-inline\">") {
+        let start = html.find("<span class=\"math math-inline\">").unwrap();
+        let end = html[start..].find("</span>").unwrap() + start + "</span>".len();
+        let math_content = &html[start + "<span class=\"math math-inline\">".len()..end - "</span>".len()];
         let new_math_content = format!("<im>{}</im>", math_content);
-        template.replace_range(start..end, &new_math_content);
+        html.replace_range(start..end, &new_math_content);
     }
-    while template.contains("<span class=\"math math-display\">") {
-        let start = template.find("<span class=\"math math-display\">").unwrap();
-        let end = template[start..].find("</span>").unwrap() + start + "</span>".len();
-        let math_content = &template[start + "<span class=\"math math-display\">".len()..end - "</span>".len()];
+    while html.contains("<span class=\"math math-display\">") {
+        let start = html.find("<span class=\"math math-display\">").unwrap();
+        let end = html[start..].find("</span>").unwrap() + start + "</span>".len();
+        let math_content = &html[start + "<span class=\"math math-display\">".len()..end - "</span>".len()];
         let new_math_content = format!("<ma>{}</ma>", math_content);
-        template.replace_range(start..end, &new_math_content);
+        html.replace_range(start..end, &new_math_content);
     }
 
-    template
+    let mut current_pos = 0;
+    while let Some(start) = html[current_pos..].find("<a href=\"") {
+        // check that, if it's an internal link, it starts with a '/'
+        let link_start = current_pos + start + "<a href=\"".len();
+        let link_end = html[link_start..].find("\"").unwrap() + link_start;
+        let link = &html[link_start..link_end];
+        if !link.starts_with("http") && !link.contains(":") && !link.starts_with("/") {
+            let new_link = format!("/{}", link);
+            html.replace_range(link_start..link_end, &new_link);
+        }
+        current_pos = link_end - 1;
+    }
+
+    html
 }
 
 #[derive(Debug)]
@@ -65,6 +81,9 @@ fn main() {
     for entry in WalkDir::new("docs") {
         let entry = entry.expect("Failed to read directory entry");
         let path = entry.path();
+        if path.to_str().unwrap().contains("/.") {
+            continue;
+        }
 
         if path.extension().and_then(|s| s.to_str()) == Some("md") {
             let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
@@ -89,7 +108,7 @@ fn main() {
     let sidebar_json = generate_pageindex_json(&sidebar_items);
     fs::write("build/js/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
         .expect("Failed to write pageindex.js");
-}
+    }
 
 fn generate_pageindex() -> SidebarItem {
     let pageindex_md = fs::read_to_string("docs/pageindex.md").expect("Failed to read pageindex.md");
@@ -153,7 +172,7 @@ fn generate_pageindex_json(sidebar_items: &SidebarItem) -> String {
             json.push_str(generate_pageindex_json(item).as_str());
             json.push_str("},\n");
         }
-    }
+        }
     json
 }
 

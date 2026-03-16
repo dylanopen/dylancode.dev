@@ -7,7 +7,7 @@ function addSidebarSection(link, subpages, parSection, depth) {
 	summary.innerHTML = `<a class="sidebar-link inline" href="${link}/">${name}</a>`;
     }
     section.appendChild(summary);
-    section.style.paddingLeft = (depth * 12 - 16) + "px";
+    section.style.paddingLeft = (depth * 8 - 12) + "px";
     section.setAttribute("class", "sidebar-section");
     parSection.appendChild(section);
     for (let key in subpages) {
