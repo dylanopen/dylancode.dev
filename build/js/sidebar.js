@@ -43,8 +43,9 @@ function loadSidebar() {
 }
 
 function expandCurrentPage() {
-    let currentPage = window.location.pathname.split("/")[1];
-    console.log("Current page:", currentPage);
+    let currentPage = window.location.pathname;
+    currentPage = currentPage.substring(1, currentPage.length - 1);
+    console.log("Current page: " + currentPage);
     for (let link of document.getElementsByClassName("sidebar-link")) {
 	if (!link.getAttribute("href")) {
 	    continue;
