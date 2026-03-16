@@ -834,7 +834,7 @@ pageIndex={
 "/processor-components":{
 "_name":"Processor components",
 "/arithmetic-logic-unit":"Arithmetic logic unit",
-"/___608":"control-unit",
+"/control-unit":"Control unit",
 "/___609":"processor-clock",
 "/___610":"registers",
 "/___611":"processor-cache",
