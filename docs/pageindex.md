@@ -608,6 +608,7 @@
             - arithmetic-logic-unit
             - control-unit
             - processor-clock
+                - clock-speed
             - registers
             - processor-cache
             - computer-buses
