@@ -598,10 +598,12 @@
         - caesar-cipher
         - one-time-pad
         - vernam-cipher
-    - stored-program-architecture
-        - von-neumann-architecture
-        - harvard-architecture
-        - addressable-memory
+    - System architecture
+        - stored-program-architecture
+            - von-neumann-architecture
+            - harvard-architecture
+            - addressable-memory
+        - fetch-execute-cycle
     - Networks
         - Servers and clients
              - server

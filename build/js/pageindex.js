@@ -822,56 +822,60 @@ pageIndex={
 "/one-time-pad":"One-time pad",
 "/vernam-cipher":"Vernam cipher",
 },
+"/___600":{
+"_name":"System architecture",
 "/stored-program-architecture":{
 "_name":"Stored program architecture",
 "/von-neumann-architecture":"Von-Neumann architecture",
 "/harvard-architecture":"Harvard architecture",
 "/addressable-memory":"Addressable memory",
 },
-"/___604":{
+"/fetch-execute-cycle":"Fetch-execute cycle",
+},
+"/___606":{
 "_name":"Networks",
-"/___605":{
+"/___607":{
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
-"/___608":"client-server-network",
-"/___609":"peer-to-peer-network",
+"/___610":"client-server-network",
+"/___611":"peer-to-peer-network",
 },
-"/___610":{
+"/___612":{
 "_name":"Network scale",
 "/local-area-network":"Local area network",
 "/wide-area-network":"Wide area network",
 },
-"/___613":{
+"/___615":{
 "_name":"Network hardware",
 "/network-interface-card":"Network interface card",
 "/network-switch":"Network switch",
 },
-"/___616":{
+"/___618":{
 "_name":"Transmission methods",
 "/serial-transmission":"Serial transmission",
 "/parallel-transmission":"Parallel transmission",
 "/synchronous-transmission":"Synchronous transmission",
 "/asynchronous-transmission":"Asynchronous transmission",
 },
-"/___621":{
+"/___623":{
 "_name":"Data transfer rates",
 "/baud-rate":"Baud rate",
 "/bit-rate":"Bit rate",
 "/bandwidth":"Bandwidth",
 },
-"/___625":{
+"/___627":{
 "_name":"Latency",
 "/latency":"Latency",
 "/ping-latency":"Ping latency",
 },
-"/___628":{
+"/___630":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
 },
 },
-"/___630":{
+"/___632":{
 "_name":"RISC-V assembly",
 "/riscv/smallest-program":"Smallest program",
 "/riscv/immediate-and-register-instructions":"Immediate and register instructions",
@@ -885,9 +889,9 @@ pageIndex={
 "/riscv/labels":"Labels",
 "/riscv/jumping":"Jumping",
 },
-"/___642":{
+"/___644":{
 "_name":"C programming",
-"/___643":{
+"/___645":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -895,19 +899,19 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___649":{
+"/___651":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
 "/c/short":"Short",
 },
 },
-"/___653":{
+"/___655":{
 "_name":"C# programming",
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___657":{
+"/___659":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -916,7 +920,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___664":{
+"/___666":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -925,13 +929,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___671":{
+"/___673":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___675":{
+"/___677":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -939,14 +943,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___681":{
+"/___683":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___686":{
+"/___688":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -954,11 +958,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___692":{
+"/___694":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___694":{
+"/___696":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -967,14 +971,14 @@ pageIndex={
 "/cs/class-methods":"Class methods",
 },
 },
-"/___700":{
-"_name":"Minecraft plugin coding",
-"/___701":"minecraft-plugin/project-structure",
-},
 "/___702":{
+"_name":"Minecraft plugin coding",
+"/___703":"minecraft-plugin/project-structure",
+},
+"/___704":{
 "_name":"Minecraft server",
 "/minecraft/optimisation":"dylancode's Minecraft server optimisation guide",
-"/___704":{
+"/___706":{
 "_name":"server.properties",
 "/minecraft/properties/view-distance":"view-distance",
 "/minecraft/properties/simulation-distance":"simulation-distance",
@@ -982,12 +986,12 @@ pageIndex={
 "/minecraft/properties/network-compression-threshold":"network-compression-threshold",
 "/minecraft/properties/entity-broadcast-range-percentage":"entity-broadcast-range-percentage",
 },
-"/___710":{
+"/___712":{
 "_name":"bukkit.yml",
 "/minecraft/bukkit/spawn-limits":"spawn-limits",
 "/minecraft/bukkit/ticks-per":"ticks-per",
 },
-"/___713":{
+"/___715":{
 "_name":"spigot.yml",
 "/minecraft/spigot/nerf-spawner-mobs":"nerf-spawner-mobs",
 "/minecraft/spigot/merge-radius":"merge-radius",

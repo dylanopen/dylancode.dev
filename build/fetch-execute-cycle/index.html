@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fetch-execute cycle</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Fetch-execute cycle</h1>
+<p>The fetch-execute cycle (or fetch-decode-execute cycle) is the way that a processor executes a program’s instructions.</p>
+<p>The cycle has three main stages:</p>
+<ol>
+<li>Fetch data from memory</li>
+<li>Decode the instruction</li>
+<li>Execute the instruction</li>
+</ol>
+<h2>Fetch</h2>
+<ul>
+<li>The first thing it does is to actually <em>read the instruction</em> it needs to execute.</li>
+<li>It does this by copying the <em>program counter</em> (which stores the current memory address of the next instruction) into the <em>memory address register</em> (MAR), which is used to access memory.</li>
+<li>Then, it copies that address onto the <a href="/address-bus">address bus</a>, which it then carries to the <a href="/main-memory">main memory</a>.</li>
+<li>The memory then returns the instruction stored at that address, which is copied into the <em>memory buffer register</em> (MBR).</li>
+<li>Finally, the instruction is copied from the MBR into the <em>current instruction register</em> (CIR), which is where the processor holds the instruction it’s currently executing.</li>
+<li>The processor also increments the program counter, so that it points to the next instruction for the next cycle.</li>
+</ul>
+<h2>Decode</h2>
+<ul>
+<li>Sure, the processor now has the raw instruction in its CIR, but how does it know what to do with it? The instruction needs to be <em>decoded</em>.</li>
+<li>Decoding the instruction means that we take the raw instruction and figure out what operation it represents, and what data it needs to operate on.</li>
+<li>For example, we may look at an ADD instruction and decode it to mean “add the values in registers A and B, and store the result in register C”.</li>
+</ul>
+<h2>Execute</h2>
+<ul>
+<li>Once the instruction has been decoded, the processor can execute it.</li>
+<li>THat usually means sending signals to the parts of the processor (or the rest of the computer) that need to be involved in carrying out the instruction.</li>
+<li>For example, if the instruction is an ADD instruction, the processor would send signals to the <a href="/arithmetic-logic-unit">arithmetic logic unit</a> (ALU) to perform the addition, and then send signals to the registers to store the result.</li>
+<li>Often, it involves fetching or writing data to memory.</li>
+</ul>
+<h2>How frequently does this happen?</h2>
+<p>Processors have a <a href="/processor-clock">clock</a> that ticks at a certain frequency (measured in hertz). Each tick of the clock represents one cycle, and during each cycle, the processor can carry out one fetch-decode-execute cycle. So, if a processor has a clock speed of 3 GHz, it can carry out 3 billion fetch-decode-execute cycles per second!</p>
+<p>Look at the <a href="/clock-speed">clock speed</a> to see how quickly it does the fetch-execute cycle.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>
