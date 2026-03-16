@@ -604,6 +604,7 @@
             - harvard-architecture
             - addressable-memory
         - fetch-execute-cycle
+            - fetch-execute-cycle-registers
         - processor-components
             - arithmetic-logic-unit
             - control-unit
@@ -611,7 +612,7 @@
                 - clock-speed
             - register
             - processor-cache
-            - computer-buses
+            - computer-bus
         - processor-registers
             - program-counter
             - current-instruction-register
@@ -619,6 +620,7 @@
             - memory-buffer-register
             - status-register
             - accumulator
+            - fetch-execute-cycle-registers
     - Networks
         - Servers and clients
              - server

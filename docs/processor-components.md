@@ -6,4 +6,4 @@
 - The [clock](/processor-clock)
 - The [registers](processor-registers)
 - The [cache](/processor-cache)
-- The [buses](/computer-buses) (not all are in the CPU itself)
+- The [buses](/computer-bus) (not all are in the CPU itself)

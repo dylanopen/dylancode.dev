@@ -830,7 +830,10 @@ pageIndex={
 "/harvard-architecture":"Harvard architecture",
 "/addressable-memory":"Addressable memory",
 },
-"/fetch-execute-cycle":"Fetch-execute cycle",
+"/fetch-execute-cycle":{
+"_name":"Fetch-execute cycle",
+"/fetch-execute-cycle-registers":"Fetch-execute cycle registers",
+},
 "/processor-components":{
 "_name":"Processor components",
 "/arithmetic-logic-unit":"Arithmetic logic unit",
@@ -840,8 +843,8 @@ pageIndex={
 "/clock-speed":"Clock speed",
 },
 "/register":"Register",
-"/___612":"processor-cache",
-"/___613":"computer-buses",
+"/___613":"processor-cache",
+"/computer-bus":"Bus",
 },
 "/processor-registers":{
 "_name":"Processor registers",
@@ -849,54 +852,56 @@ pageIndex={
 "/current-instruction-register":"Current instruction register",
 "/memory-address-register":"Memory address register",
 "/memory-buffer-register":"Memory buffer register",
-"/___619":"status-register",
+"/___620":"status-register",
 "/accumulator":"Accumulator",
+"/fetch-execute-cycle-registers":"Fetch-execute cycle registers",
 },
+"/___623":"pro",
 },
-"/___621":{
+"/___624":{
 "_name":"Networks",
-"/___622":{
+"/___625":{
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
-"/___625":"client-server-network",
-"/___626":"peer-to-peer-network",
+"/___628":"client-server-network",
+"/___629":"peer-to-peer-network",
 },
-"/___627":{
+"/___630":{
 "_name":"Network scale",
 "/local-area-network":"Local area network",
 "/wide-area-network":"Wide area network",
 },
-"/___630":{
+"/___633":{
 "_name":"Network hardware",
 "/network-interface-card":"Network interface card",
 "/network-switch":"Network switch",
 },
-"/___633":{
+"/___636":{
 "_name":"Transmission methods",
 "/serial-transmission":"Serial transmission",
 "/parallel-transmission":"Parallel transmission",
 "/synchronous-transmission":"Synchronous transmission",
 "/asynchronous-transmission":"Asynchronous transmission",
 },
-"/___638":{
+"/___641":{
 "_name":"Data transfer rates",
 "/baud-rate":"Baud rate",
 "/bit-rate":"Bit rate",
 "/bandwidth":"Bandwidth",
 },
-"/___642":{
+"/___645":{
 "_name":"Latency",
 "/latency":"Latency",
 "/ping-latency":"Ping latency",
 },
-"/___645":{
+"/___648":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
 },
 },
-"/___647":{
+"/___650":{
 "_name":"RISC-V assembly",
 "/riscv/smallest-program":"Smallest program",
 "/riscv/immediate-and-register-instructions":"Immediate and register instructions",
@@ -910,9 +915,9 @@ pageIndex={
 "/riscv/labels":"Labels",
 "/riscv/jumping":"Jumping",
 },
-"/___659":{
+"/___662":{
 "_name":"C programming",
-"/___660":{
+"/___663":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -920,19 +925,19 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___666":{
+"/___669":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
 "/c/short":"Short",
 },
 },
-"/___670":{
+"/___673":{
 "_name":"C# programming",
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___674":{
+"/___677":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -941,7 +946,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___681":{
+"/___684":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -950,13 +955,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___688":{
+"/___691":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___692":{
+"/___695":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -964,14 +969,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___698":{
+"/___701":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___703":{
+"/___706":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -979,11 +984,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___709":{
+"/___712":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___711":{
+"/___714":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -992,14 +997,14 @@ pageIndex={
 "/cs/class-methods":"Class methods",
 },
 },
-"/___717":{
+"/___720":{
 "_name":"Minecraft plugin coding",
-"/___718":"minecraft-plugin/project-structure",
+"/___721":"minecraft-plugin/project-structure",
 },
-"/___719":{
+"/___722":{
 "_name":"Minecraft server",
 "/minecraft/optimisation":"dylancode's Minecraft server optimisation guide",
-"/___721":{
+"/___724":{
 "_name":"server.properties",
 "/minecraft/properties/view-distance":"view-distance",
 "/minecraft/properties/simulation-distance":"simulation-distance",
@@ -1007,12 +1012,12 @@ pageIndex={
 "/minecraft/properties/network-compression-threshold":"network-compression-threshold",
 "/minecraft/properties/entity-broadcast-range-percentage":"entity-broadcast-range-percentage",
 },
-"/___727":{
+"/___730":{
 "_name":"bukkit.yml",
 "/minecraft/bukkit/spawn-limits":"spawn-limits",
 "/minecraft/bukkit/ticks-per":"ticks-per",
 },
-"/___730":{
+"/___733":{
 "_name":"spigot.yml",
 "/minecraft/spigot/nerf-spawner-mobs":"nerf-spawner-mobs",
 "/minecraft/spigot/merge-radius":"merge-radius",
