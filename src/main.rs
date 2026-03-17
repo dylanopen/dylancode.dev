@@ -23,7 +23,6 @@ fn generate_doc_html(markdown_data: String, note_map: &HashMap<String, String>) 
                     replacement_title = replacement_title.to_lowercase();
                 }
             }
-            println!("Replacing '{}' with '{}' in markdown data", link_syntax, replacement_title);
             markdown_data = markdown_data.replace(&link_syntax, replacement_title.as_str());
         }
     }
@@ -129,7 +128,6 @@ fn main() {
 
         let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
         let title = markdown_data.lines().next().unwrap_or(&filename).trim_start_matches("# ").to_string();
-        println!("Mapping file '{}' to title '{}'", filename, title);
         note_map.insert(filename, title);
     }
 
@@ -175,7 +173,7 @@ fn generate_pageindex() -> SidebarItem {
     for line in pageindex_md.lines() {
         // let spaces = the thing before the '- ' and name is the thing after the '- '
         let spaces = line.chars().take_while(|c| c.is_whitespace()).collect::<String>();
-        let mut link = line.trim_start().trim_start_matches("- ").to_string();
+        let mut link = line.trim_start().trim_start_matches("- ").trim_start_matches("[[").trim_end_matches("]]").to_string();
         if link.is_empty() {
             continue;
         }

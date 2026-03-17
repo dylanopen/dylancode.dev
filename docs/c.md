@@ -1,0 +1,12 @@
+# C programming
+
+- [[Hello world]]
+    - [[c/project-setup]]
+    - [[c/hello-world]]
+    - [[c/compiling-and-running]]
+- [[c/comments]]
+- [[c/variables]]
+- [[Data types]]
+    - [[c/data-types]]
+    - [[c/integers]]
+    - [[c/short]]

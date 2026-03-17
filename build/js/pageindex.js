@@ -1,5 +1,5 @@
 pageIndex={
-"/___0":{
+"/numerical-mathematics":{
 "_name":"Numerical mathematics",
 "/___1":{
 "_name":"Types of number",
@@ -60,7 +60,7 @@ pageIndex={
 "/simplifying-ratios":"Simplifying ratios",
 },
 },
-"/___43":{
+"/algebra":{
 "_name":"Algebra",
 "/___44":{
 "_name":"Indices and surds",
@@ -166,25 +166,24 @@ pageIndex={
 "/binomial-expansion-by-factorial":"Binomial expansion by factorial",
 "/binomial-theorem":"Binomial theorem",
 },
-"/___124":{
+"/series":{
 "_name":"Series",
-"/series":"Series",
 "/summation":"Summation",
 "/standard-summation-results":"Standard summation results",
 "/method-of-differences":"Method of differences",
 "/maclaurin-series-standard-results":"Maclaurin series standard results",
 "/creating-maclaurin-series":"Creating Maclaurin series",
 },
-"/___131":{
+"/___130":{
 "_name":"Proof by induction",
 "/proof-by-induction":"Proof by induction",
 },
-"/___133":{
+"/___132":{
 "_name":"Coefficient and root relationships",
 "/quadratic-roots-and-coefficients":"Quadratic roots and coefficients",
 "/cubic-roots-and-coefficients":"Cubic roots and coefficients",
 },
-"/___136":{
+"/___135":{
 "_name":"Complex numbers",
 "/adding-complex-numbers":"Adding complex numbers",
 "/subtracting-complex-numbers":"Subtracting complex numbers",
@@ -198,9 +197,9 @@ pageIndex={
 "/multiplying-a-complex-number-by-its-conjugate":"Multiplying a complex number by its conjugate",
 },
 },
-"/___147":{
+"/geometry":{
 "_name":"Geometry",
-"/___148":{
+"/___147":{
 "_name":"Coordinate geometry",
 "/distance-between-two-points":"Distance between two points",
 "/midpoint-of-points":"Midpoint of points",
@@ -208,21 +207,21 @@ pageIndex={
 "/circle-line-intersection":"Circle-line intersection",
 "/intersection-of-circles":"Intersection of circles",
 },
-"/___154":{
+"/___153":{
 "_name":"Circles",
 "/equation-of-a-circle":"Equation of a circle",
 },
-"/___156":{
+"/___155":{
 "_name":"Vectors",
 "/position-vectors":"Position vectors",
 "/vector-translation":"Vector translation",
 },
-"/___159":{
+"/___158":{
 "_name":"Triangles",
 "/sine-rule":"Sine rule",
 "/cosine-rule":"Cosine rule",
 },
-"/___162":{
+"/___161":{
 "_name":"Trigonometric identities",
 "/finding-all-sine-angles":"Finding all sine angles",
 "/finding-all-cosine-angles":"Finding all cosine angles",
@@ -234,23 +233,23 @@ pageIndex={
 "/differentiating-cosine":"Differentiating cosine",
 "/inverse-trigonometry":"Inverse trigonometry",
 },
-"/___172":{
+"/___171":{
 "_name":"Radians",
 "/radian":"Radian",
 "/arc-length-from-radians":"Arc length from radians",
 "/sector-area-from-radians":"Sector area from radians",
 "/small-angle-approximation":"Small angle approximation",
 },
-"/___177":{
+"/___176":{
 "_name":"Arcs and sectors",
 "/arc":"Arc",
 "/sector":"Sector",
 },
-"/___180":{
+"/___179":{
 "_name":"Coordinates",
 "/cartesian-coordinates":"Cartesian coordinates",
 },
-"/___182":{
+"/___181":{
 "_name":"Hyperbolic functions",
 "/sinh":"sinh",
 "/cosh":"cosh",
@@ -260,14 +259,14 @@ pageIndex={
 "/hyperbolic-square-sum-identity":"Hyperbolic square sum identity",
 "/sinh2x-identity":"sinh2x identity",
 },
-"/___190":{
+"/___189":{
 "_name":"Graph transformations",
 "/translating-graphs":"Translating graphs",
 "/stretching-graphs":"Stretching graphs",
 "/parallel-line-equations":"Parallel line equations",
 "/perpendicular-line-equations":"Perpendicular line equations",
 },
-"/___195":{
+"/___194":{
 "_name":"Matrices",
 "/matrix-definition":"Matrix definition",
 "/matrix-dimensions":"Matrix dimensions",
@@ -288,7 +287,7 @@ pageIndex={
 "/solving-simultaneous-equations-using-matrices":"Solving simultaneous equations using matrices",
 "/general-rotation-matrix":"General rotation matrix",
 },
-"/___214":{
+"/___213":{
 "_name":"Vectors",
 "/vector-line-equation":"Vector line equation",
 "/cartesian-line-equation":"Cartesian line equation",
@@ -300,7 +299,7 @@ pageIndex={
 "/distance-from-point-to-line":"Distance from point to line",
 "/distance-between-two-lines":"Distance between two lines",
 },
-"/___224":{
+"/___223":{
 "_name":"Polar coordinates",
 "/polar-coordinates":"Polar coordinates",
 "/polar-coordinate-identities":"Polar coordinate identities",
@@ -309,9 +308,9 @@ pageIndex={
 },
 "/common-function-graphs":"Common function graphs",
 },
-"/___230":{
+"/calculus":{
 "_name":"Calculus",
-"/___231":{
+"/___230":{
 "_name":"Differentiation",
 "/definition-of-differentiation":"Definition of differentiation",
 "/derivative-notation":"Derivative notation",
@@ -324,23 +323,23 @@ pageIndex={
 "/tangent-from-differentiation":"Tangent from differentiation",
 "/normal-from-differentiation":"Normal from differentiation",
 },
-"/___242":{
+"/___241":{
 "_name":"Integration",
 "/definition-of-integration":"Definition of integration",
 "/integration-formula":"Integration formula",
 "/integration-of-other-expressions":"Integration of other expressions",
 },
 "/common-calculus-results":"Common calculus results",
-"/___247":{
+"/___246":{
 "_name":"Volume of revolution",
 "/volume-of-revolution":"Volume of revolution",
 "/volume-of-revolution-formula":"Volume of revolution formula",
 "/volume-of-revolution-between-lines":"Volume of revolution between lines",
 },
 },
-"/___251":{
+"/statistics":{
 "_name":"Statistics",
-"/___252":{
+"/___251":{
 "_name":"Sampling strategies",
 "/census":"Census",
 "/simple-random-sampling":"Simple random sampling",
@@ -349,23 +348,23 @@ pageIndex={
 "/stratified-sampling":"Stratified sampling",
 "/quota-sampling":"Quota sampling",
 },
-"/___259":{
+"/___258":{
 "_name":"Central tendency",
 "/median":"Median",
 "/mean":"Mean",
 "/mode":"Mode",
 },
-"/___263":{
+"/___262":{
 "_name":"Range",
 "/range":"Range",
 "/interquartile-range":"Interquartile range",
 },
-"/___266":{
+"/___265":{
 "_name":"Standard deviation",
 "/variance":"Variance",
 "/standard-deviation":"Standard deviation",
 },
-"/___269":{
+"/___268":{
 "_name":"Probability",
 "/mutually-exclusive-events":"Mutually exclusive events",
 "/mutually-exclusive-union":"Mutually exclusive union",
@@ -373,18 +372,18 @@ pageIndex={
 "/non-mutually-exclusive-union":"Non-mutually exclusive union",
 "/independent-events":"Independent events",
 },
-"/___275":{
+"/___274":{
 "_name":"binomial-distribution",
 "/binomial-distribution-conditions":"Binomial distribution conditions",
 "/binomial-distribution-notation":"Binomial distribution notation",
 "/binomial-distribution-formula":"Binomial distribution formula",
 },
-"/___279":{
+"/___278":{
 "_name":"Variable categorisation",
 "/random-variable":"Random variable",
 "/discrete-variable":"Discrete variable",
 },
-"/___282":{
+"/___281":{
 "_name":"Discrete random variables",
 "/discrete-random-variable":"Discrete random variable",
 "/random-variable-expectation":"Random variable expectation",
@@ -395,9 +394,9 @@ pageIndex={
 "/discrete-random-uniform-distribution":"Discrete random uniform distribution",
 },
 },
-"/___290":{
+"/discrete-mathematics":{
 "_name":"Discrete mathematics",
-"/___291":{
+"/___290":{
 "_name":"Graphs",
 "/graph-vertex":"Graph vertex",
 "/graph-edge":"Graph edge",
@@ -420,7 +419,7 @@ pageIndex={
 "/bipartite-graph":"Bipartite graph",
 "/isomorphic-graph":"Isomorphic graph",
 },
-"/___312":{
+"/___311":{
 "_name":"Networks",
 "/network-node":"Network node",
 "/network-arc":"Network arc",
@@ -430,32 +429,32 @@ pageIndex={
 "/kruskal-algorithm":"Kruskal's algorithm",
 "/network-route-inspection":"Network route inspection",
 },
-"/___320":"Activity networks",
-"/___321":{
+"/___319":"Activity networks",
+"/___320":{
 "_name":"Network flows",
 "/network-flows":"Network flows",
 },
-"/___323":{
+"/___322":{
 "_name":"Game theory",
 "/pay-off-matrices":"Pay-off matrices",
 "/play-safe-strategy":"Play safe strategy",
 "/dominating-strategies":"Dominating strategies",
 "/optimal-mixed-strategy":"Optimal mixed strategy",
 },
-"/___328":{
+"/___327":{
 "_name":"Linear programming",
 "/linear-programming":"Linear Programming",
 },
 },
-"/___330":{
+"/physics":{
 "_name":"Physics",
-"/___331":{
+"/___330":{
 "_name":"Measurements",
 "/base-units":"Base units",
 "/unit-prefixes":"Unit prefixes",
 "/energy-conversions":"Energy conversions",
 },
-"/___335":{
+"/___334":{
 "_name":"Errors",
 "/random-error":"Random error",
 "/systematic-error":"Systematic error",
@@ -466,16 +465,16 @@ pageIndex={
 "/repeatability":"Repeatability",
 "/reproducibility":"Reproducibility",
 },
-"/___344":{
+"/___343":{
 "_name":"Mechanics",
-"/___345":{
+"/___344":{
 "_name":"Scalars and vectors",
 "/scalar-quantity":"Scalar quantity",
 "/vector-quantity":"Vector quantity",
 "/adding-vector-quantities":"Adding vector quantities",
 "/separating-vectors-into-components":"Separating vectors into components",
 },
-"/___350":{
+"/___349":{
 "_name":"Moments",
 "/moment":"Moment",
 "/moment-formula":"Moment formula",
@@ -484,7 +483,7 @@ pageIndex={
 "/principle-of-moments":"Principle of moments",
 "/centre-of-gravity":"Centre of gravity",
 },
-"/___357":{
+"/___356":{
 "_name":"Linear motion",
 "/distance":"Distance",
 "/displacement":"Displacement",
@@ -496,32 +495,32 @@ pageIndex={
 "/speed-time-graph":"Speed-time graph",
 "/velocity-time-graph":"Velocity-time graph",
 },
-"/___367":{
+"/___366":{
 "_name":"Acceleration",
 "/equations-for-uniform-acceleration":"Equations for uniform acceleration",
 "/gravitational-acceleration":"Gravitational acceleration",
 "/free-fall":"Free fall",
 },
-"/___371":{
+"/___370":{
 "_name":"Projectiles",
 "/projectile-motion":"Projectile motion",
 "/vertical-projectile-motion":"Vertical projectile motion",
 "/horizontal-projectile-motion":"Horizontal projectile motion",
 "/angled-projectile-motion":"Angled projectile motion",
 },
-"/___376":{
+"/___375":{
 "_name":"Resistive forces",
 "/friction":"Friction",
 "/drag":"Drag",
 "/terminal-velocity":"Terminal velocity",
 },
-"/___380":{
+"/___379":{
 "_name":"Laws of motion",
 "/first-law-of-motion":"First law of motion",
 "/second-law-of-motion":"Second law of motion",
 "/third-law-of-motion":"Third law of motion",
 },
-"/___384":{
+"/___383":{
 "_name":"Momentum",
 "/momentum":"Momentum",
 "/momentum-and-forces":"Momentum and forces",
@@ -531,7 +530,7 @@ pageIndex={
 "/inelastic-collision":"Inelastic collision",
 "/explosion-momentum":"Explosion momentum",
 },
-"/___392":{
+"/___391":{
 "_name":"Energy",
 "/power":"Power",
 "/work-done":"Work done",
@@ -541,14 +540,14 @@ pageIndex={
 "/conservation-of-energy":"Conservation of energy",
 "/efficiency":"Efficiency",
 },
-"/___400":{
+"/___399":{
 "_name":"Energy forms",
 "/energy-forms":"Energy forms",
 "/kinetic-energy":"Kinetic energy",
 "/gravitational-potential-energy":"Gravitational potential energy",
 },
 },
-"/___404":{
+"/___403":{
 "_name":"Electricity",
 "/basics-of-electricity":"Basics of electricity",
 "/electrical-charge":"Electrical charge",
@@ -570,9 +569,9 @@ pageIndex={
 "/kirchoff-second-law":"Kirchoff's second law",
 "/electricity-revision":"Electricity revision",
 },
-"/___424":{
+"/___423":{
 "_name":"Waves",
-"/___425":{
+"/___424":{
 "_name":"Categorising waves",
 "/progressive-wave":"Progressive wave",
 "/types-of-wave":"Types of wave",
@@ -580,7 +579,7 @@ pageIndex={
 "/longitudinal-wave":"Longitudinal wave",
 "/electromagnetic-wave":"Electromagnetic wave",
 },
-"/___431":{
+"/___430":{
 "_name":"Wave properties",
 "/wavelength":"Wavelength",
 "/wave-frequency":"Wave frequency",
@@ -588,25 +587,25 @@ pageIndex={
 "/wave-speed":"Wave speed",
 "/wave-speed-calculations":"Wave speed calculations",
 },
-"/___437":{
+"/___436":{
 "_name":"Refraction",
 "/refractive-index":"Refractive index",
 "/refractive-index-of-air":"Refractive index of air",
 "/snells-law":"Snell's law",
 "/refraction-of-light":"Refraction of light",
 },
-"/___442":{
+"/___441":{
 "_name":"Reflection",
 "/reflection-of-light":"Reflection of light",
 "/total-internal-reflection":"Total internal reflection",
 },
-"/___445":{
+"/___444":{
 "_name":"Fibre optics",
 "/fibre-optic-cable":"Fibre optic cable",
 "/fibre-optic-modal-dispersion":"Fibre optic modal dispersion",
 "/fibre-optic-material-dispersion":"Fibre optic material dispersion",
 },
-"/___449":{
+"/___448":{
 "_name":"Diffraction",
 "/diffraction-of-waves":"Diffraction of waves",
 "/diffraction-grating":"Diffraction grating",
@@ -614,7 +613,7 @@ pageIndex={
 "/diffraction-path-difference":"Diffraction path difference",
 "/diffraction-of-polychromatic-light":"Diffraction of polychromatic light",
 },
-"/___455":{
+"/___454":{
 "_name":"Interference",
 "/wave-interference":"Wave interference",
 "/constructive-interference":"Constructive interference",
@@ -623,13 +622,13 @@ pageIndex={
 "/wave-path-difference":"Wave path difference",
 "/coherent-wave":"Coherent wave",
 },
-"/___462":{
+"/___461":{
 "_name":"Polarisation",
 "/polarised-wave":"Polarised wave",
 "/polarisation":"Polarisation",
 "/uses-of-polarisation":"Uses of polarisation",
 },
-"/___466":{
+"/___465":{
 "_name":"Stationary waves",
 "/stationary-wave":"Stationary wave",
 "/oscilloscope":"Oscilloscope",
@@ -637,26 +636,27 @@ pageIndex={
 "/waves-revision":"Waves revision",
 },
 },
-"/___471":{
+"/___470":{
 "_name":"Particles",
-"/___472":{
+"/___471":{
 "_name":"Electromagnetic spectrum",
 "/electromagnetic-spectrum":"Electromagnetic spectrum",
 },
-"/___474":{
+"/___473":{
 "_name":"Photons",
 "/photon":"Photon",
 "/photon-energy":"Photon energy",
 "/photon-power":"Photon energy and power",
 },
-"/___478":{
+"/___477":{
 "_name":"photoelectric-effect",
 "/work-function":"Work function",
+"/threshold-frequency":"Threshold frequency",
 "/photoelectric-effect-graph":"Photoelectric effect graph",
 },
 },
 },
-"/___481":{
+"/chemistry":{
 "_name":"Chemistry",
 "/___482":{
 "_name":"Atomic structure",
@@ -665,7 +665,7 @@ pageIndex={
 "/protons":"Protons",
 },
 },
-"/___486":{
+"/computer science":{
 "_name":"Computer science",
 "/___487":{
 "_name":"Computer architecture",
@@ -690,7 +690,7 @@ pageIndex={
 "/output-controller":"Output controller",
 "/universal-serial-bus":"Universal Serial Bus",
 },
-"/___502":{
+"/software":{
 "_name":"Software",
 "/software-classification":"Software classification",
 "/___504":{
@@ -932,7 +932,7 @@ pageIndex={
 },
 },
 },
-"/___669":{
+"/riscv":{
 "_name":"RISC-V assembly",
 "/riscv/smallest-program":"Smallest program",
 "/riscv/immediate-and-register-instructions":"Immediate and register instructions",
@@ -946,7 +946,7 @@ pageIndex={
 "/riscv/labels":"Labels",
 "/riscv/jumping":"Jumping",
 },
-"/___681":{
+"/c":{
 "_name":"C programming",
 "/___682":{
 "_name":"Hello world",
@@ -963,7 +963,7 @@ pageIndex={
 "/c/short":"Short",
 },
 },
-"/___692":{
+"/cs":{
 "_name":"C# programming",
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
@@ -1028,14 +1028,14 @@ pageIndex={
 "/cs/class-methods":"Class methods",
 },
 },
-"/___739":{
-"_name":"Minecraft plugin coding",
+"/minecraft-plugin":{
+"_name":"PaperMC plugin development",
 "/___740":"minecraft-plugin/project-structure",
 },
-"/___741":{
+"/minecraft":{
 "_name":"Minecraft server",
 "/minecraft/optimisation":"dylancode's Minecraft server optimisation guide",
-"/___743":{
+"/minecraft/properties":{
 "_name":"server.properties",
 "/minecraft/properties/view-distance":"view-distance",
 "/minecraft/properties/simulation-distance":"simulation-distance",
@@ -1043,12 +1043,12 @@ pageIndex={
 "/minecraft/properties/network-compression-threshold":"network-compression-threshold",
 "/minecraft/properties/entity-broadcast-range-percentage":"entity-broadcast-range-percentage",
 },
-"/___749":{
+"/minecraft/bukkit":{
 "_name":"bukkit.yml",
 "/minecraft/bukkit/spawn-limits":"spawn-limits",
 "/minecraft/bukkit/ticks-per":"ticks-per",
 },
-"/___752":{
+"/minecraft/spigot":{
 "_name":"spigot.yml",
 "/minecraft/spigot/nerf-spawner-mobs":"nerf-spawner-mobs",
 "/minecraft/spigot/merge-radius":"merge-radius",
