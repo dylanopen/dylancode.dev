@@ -23,3 +23,16 @@
 - The y-intercept of the graph will be the **negative** of the work function of the metal.
     - So, if the y-intercept of the graph is $-2.5\times10^{-19}J$, for example, then the work function of the metal is $2.5\times10^{-19}J$.
 - There's a note for this graph! See [[photoelectric-effect-graph]].
+
+## Work function and threshold frequency
+
+If we know the work function or the [[threshold-frequency]] of a metal, we can find the other one using the equation:
+
+> $$
+> \phi = hf_0
+> $$
+
+Where:
+- $\phi$ is the work function of the metal (in joules),
+- $h$ is Planck's constant ($6.63 \times 10^{-34}$ Js),
+- $f_0$ is the threshold frequency of the metal (in hertz).
