@@ -86,6 +86,13 @@ fn main() {
         }
 
         if path.extension().and_then(|s| s.to_str()) == Some("md") {
+            if path.to_str().unwrap().contains("/daily/") {
+                continue;
+            }
+            if path.to_str().unwrap().contains("/excalidraw/") {
+                continue;
+            }
+
             let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
             let html_content = generate_doc_html(markdown_data);
 

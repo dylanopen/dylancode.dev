@@ -273,6 +273,10 @@
         - non-mutually-exclusive-events
         - non-mutually-exclusive-union
         - independent-events
+    - binomial-distribution
+        - binomial-distribution-conditions
+        - binomial-distribution-notation
+        - binomial-distribution-formula
     - Variable categorisation
         - random-variable
         - discrete-variable
