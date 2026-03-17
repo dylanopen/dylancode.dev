@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sum of poisson distributions</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Sum of poisson distributions</h1>
+<blockquote>
+<p>If <im>X\sim Po(\lambda_X)</im> and <im>Y\sim Po(\lambda_Y)</im>, then <im>X+Y\sim Po(\lambda_X + \lambda_Y)</im>.</p>
+</blockquote>
+<p>What that means is that, if we have two independent <a href="/discrete-random-variable">discrete random variable</a>s following a <a href="/poisson-distribution">poisson distribution</a>, then their <strong>sum</strong> also follows a <a href="/poisson-distribution">poisson distribution</a>, with the <em>mean</em> being the sum of the means of the two original distributions.</p>
+<h2>Examples</h2>
+<ul>
+<li>If <im>X\sim Po(3)</im> and <im>Y\sim Po(5)</im>, then <im>X+Y\sim Po(3 + 5) = Po(8)</im>.</li>
+<li>If <im>X\sim Po(2)</im> and <im>Y\sim Po(4)</im>, then <im>X+Y\sim Po(2 + 4) = Po(6)</im>.</li>
+<li>If <im>X\sim Po(1)</im> and <im>X+Y\sim Po(2)</im>, then <im>Y\sim Po(2 - 1) = Po(1)</im>.</li>
+<li>If <im>Y\sim Po(6)</im> and <im>X+Y\sim Po(10)</im>, then <im>X\sim Po(10 - 6) = Po(4)</im>.</li>
+</ul>
+
+	    </div>
+	</div>
+    </body>
+</html>
