@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chi-squared value</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Chi-squared value</h1>
+<blockquote>
+<p>The chi-squared value tells us how different the data we observed is from what we would expect given the column totals and row totals.</p>
+</blockquote>
+<p>A high chi-squared value means that the observed data is very different from what we would expect. Though we do need to consider the <a href="/degrees-of-freedom">degrees of freedom</a> - a high chi-squared value might not necessarily be significant if the degrees of freedom are also high.</p>
+<h2>Calculating chi-squared for a single cell</h2>
+<p>If we want to calculate the chi-squared value for a single cell, and we know that the observed value is <im>O</im> and the expected value is <im>E</im>, then we can calculate the chi-squared value for that cell using the formula:</p>
+<blockquote>
+<p><ma>
+\chi^2 = \frac{(O - E)^2}{E}
+</ma></p>
+</blockquote>
+<h2>Calculating chi-squared for a whole table</h2>
+<p>We can just do the same formula above (<im>\chi^2 = \frac{(O - E)^2}{E}</im>) for each cell in the table, and then add up all of those values to get the total chi-squared value for the whole table.</p>
+<p>If we say that <im>O_r</im> represents the observed value for any cell indexed by <im>r</im> (just a way of saying ‘for any cell’), and that <im>E_r</im> represents the expected value for that cell, then we can write the formula for calculating the chi-squared value for the whole table as:</p>
+<blockquote>
+<p><ma>
+\chi^2 = \sum_{r} \frac{(O_r - E_r)^2}{E_r}
+</ma></p>
+</blockquote>
+<h2>Example</h2>
+<p>Let’s take our table from the <a href="/expected-contingency-frequency">expected contingency frequency</a> note.</p>
+<h3>Observed values</h3>
+<table><thead><tr><th>Age Group</th><th>Pop</th><th>Instrumental</th><th>Total</th></tr></thead><tbody>
+<tr><td>Under 18</td><td>30</td><td>10</td><td>40</td></tr>
+<tr><td>18-35</td><td>50</td><td>20</td><td>70</td></tr>
+<tr><td>35+</td><td>20</td><td>30</td><td>50</td></tr>
+<tr><td>Total</td><td>100</td><td>60</td><td>160</td></tr>
+</tbody></table>
+<h3>Expected values</h3>
+<table><thead><tr><th>Age Group</th><th>Pop</th><th>Instrumental</th><th>Total</th></tr></thead><tbody>
+<tr><td>Under 18</td><td>25</td><td>15</td><td>40</td></tr>
+<tr><td>18-35</td><td>43.75</td><td>26.25</td><td>70</td></tr>
+<tr><td>35+</td><td>31.25</td><td>18.75</td><td>50</td></tr>
+<tr><td>Total</td><td>100</td><td>60</td><td>160</td></tr>
+</tbody></table>
+<h3>Calculating the chi-squared value</h3>
+<table><thead><tr><th>Age Group</th><th>Pop</th><th>Instrumental</th></tr></thead><tbody>
+<tr><td>Under 18</td><td><im>\frac{(30 - 25)^2}{25}</im></td><td><im>\frac{(10 - 15)^2}{15}</im></td></tr>
+<tr><td>18-35</td><td><im>\frac{(50 - 43.75)^2}{43.75}</im></td><td><im>\frac{(20 - 26.25)^2}{26.25}</im></td></tr>
+<tr><td>35+</td><td><im>\frac{(20 - 31.25)^2}{31.25}</im></td><td><im>\frac{(30 - 18.75)^2}{18.75}</im></td></tr>
+</tbody></table>
+<p>Calculating those values gives us:</p>
+<table><thead><tr><th>Age Group</th><th>Pop</th><th>Instrumental</th></tr></thead><tbody>
+<tr><td>Under 18</td><td>1</td><td>1.67</td></tr>
+<tr><td>18-35</td><td>0.89</td><td>1.51</td></tr>
+<tr><td>35+</td><td>4.05</td><td>6.75</td></tr>
+</tbody></table>
+<p>Adding up all of those values gives us the total chi-squared value for the table:</p>
+<p><ma>
+\chi^2 = 1 + 1.67 + 0.89 + 1.51 + 4.05 + 6.75 = 15.87
+</ma></p>
+<p>We can then compare this to a <a href="/significance-level">significance-level</a>, considering the <a href="/degrees-of-freedom">degrees of freedom</a> and the <a href="/chi-squared-distribution">chi-squared-distribution</a>, to determine whether this chi-squared value is significant or not.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Degrees of freedom</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Degrees of freedom</h1>
+<p>If we have a <a href="/contingency-table">contingency table</a> with <a href="/contingency-table-dimensions">dimensions</a> <im>r \times c</im>, then the number of degrees of freedom (<im>v</im>) is:</p>
+<blockquote>
+<p><ma>
+v = (r - 1)(c - 1)
+</ma></p>
+</blockquote>
+<p>The degrees of freedom is the number of rows, minus one, all multiplied by the number of columns minus one.</p>
+<h2>How do we get this?</h2>
+<p>Let’s take this (very abstract) <a href="/contingency-table">contingency table</a> for example:</p>
+<table><thead><tr><th></th><th>Yes</th><th>No</th><th>Total</th></tr></thead><tbody>
+<tr><td>A</td><td>10</td><td>20</td><td>30</td></tr>
+<tr><td>B</td><td>15</td><td>25</td><td>40</td></tr>
+<tr><td>C</td><td>5</td><td>15</td><td>20</td></tr>
+<tr><td>Total</td><td>30</td><td>60</td><td>90</td></tr>
+</tbody></table>
+<p>We have <im>3</im> rows (A, B, C), and <im>2</im> columns (Yes, No).</p>
+<p>What is the maximum number of cells in the main body of the table (the cells with the numbers in them, but not the totals) can we completely remove, while still being able to find them from the rest of the table?</p>
+<p>Here’s one example of the maximum number of cells we can remove:</p>
+<table><thead><tr><th></th><th>Yes</th><th>No</th><th>Total</th></tr></thead><tbody>
+<tr><td>A</td><td>10</td><td></td><td>30</td></tr>
+<tr><td>B</td><td>15</td><td></td><td>40</td></tr>
+<tr><td>C</td><td></td><td></td><td>20</td></tr>
+<tr><td>Total</td><td>30</td><td>60</td><td>90</td></tr>
+</tbody></table>
+<p>From just these <im>2</im> values in the main table body, we can calculate all of the other values:</p>
+<table><thead><tr><th></th><th>Yes</th><th>No</th><th>Total</th></tr></thead><tbody>
+<tr><td>A</td><td>10</td><td><im>30-10</im></td><td>30</td></tr>
+<tr><td>B</td><td>15</td><td><im>40-15</im></td><td>40</td></tr>
+<tr><td>C</td><td><im>30-10-15</im></td><td><im>60-20-25</im></td><td>20</td></tr>
+<tr><td>Total</td><td><im>30</im></td><td><im>60</im></td><td><im>90</im></td></tr>
+</tbody></table>
+<p>Because the maximum number of cells we need to keep in order to retain all the data is <im>2</im>, it means our <strong>degrees of freedom</strong> is <im>2</im>.</p>
+<p>If we instead calculated the degrees of freedom using the formula, we would do <im>(3-1)(2-1) = 2</im>, which matches our result from the example. So that makes sense!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

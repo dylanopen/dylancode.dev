@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contingency table</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Contingency table</h1>
+<p>A contingency table is a table/matrix which shows the frequency of different combinations of two categorical variables.</p>
+<p>They show the <strong>frequency</strong> of each combination - the number of times each combination occurs in the data. They don’t show the proportion or frequency.</p>
+<h2>Total rows/columns</h2>
+<p>We can add a row and column to show the total of the rows and columns in the table. That’s useful if we want to find a <a href="/conditional-probability">conditional-probability</a> from it, or to calculate the <a href="/chi-squared-value">chi-squared value</a>.</p>
+<p>The total rows and columns just show the total frequency of each category of the variables - the values in the rows and columns, all added up.</p>
+<h2>Example</h2>
+<table><thead><tr><th></th><th>Likes pelicans</th><th>Likes axolotls</th><th>Likes parrots</th></tr></thead><tbody>
+<tr><td>Age &lt; 18</td><td>10</td><td>5</td><td>15</td></tr>
+<tr><td>Age 18-65</td><td>20</td><td>10</td><td>25</td></tr>
+<tr><td>Age &gt; 65+</td><td>5</td><td>15</td><td>10</td></tr>
+</tbody></table>
+<p>The two categorical variables in this example are:</p>
+<ul>
+<li>Age group, categories are:
+<ul>
+<li>Age &lt; 18</li>
+<li>Age 18-65</li>
+<li>Age &gt; 65</li>
+</ul>
+</li>
+<li>Animal preference, categories are:
+<ul>
+<li>Likes pelicans</li>
+<li>Likes axolotls</li>
+<li>Likes parrots</li>
+</ul>
+</li>
+</ul>
+<p>We can add up each row and column to find the row and column totals:</p>
+<table><thead><tr><th></th><th>Likes pelicans</th><th>Likes axolotls</th><th>Likes parrots</th><th>Total</th></tr></thead><tbody>
+<tr><td>Age &lt; 18</td><td>10</td><td>5</td><td>15</td><td>30</td></tr>
+<tr><td>Age 18-65</td><td>20</td><td>10</td><td>25</td><td>55</td></tr>
+<tr><td>Age &gt; 65+</td><td>5</td><td>15</td><td>10</td><td>30</td></tr>
+<tr><td>Total</td><td>35</td><td>30</td><td>50</td><td>115</td></tr>
+</tbody></table>
+
+	    </div>
+	</div>
+    </body>
+</html>
