@@ -1,12 +1,33 @@
 // Yes, this is the messiest code you'll probably ever see. No, I don't care.
 // Yes, it works. No, I won't clean it up, at least for a while ;)
 
+use std::collections::HashMap;
 use std::{fs, io, path::Path};
 
 use indexmap::IndexMap;
 use walkdir::WalkDir;
 
-fn generate_doc_html(markdown_data: String) -> String {
+fn generate_doc_html(markdown_data: String, note_map: &HashMap<String, String>) -> String {
+    // replace [[link-file]] with [First line in file](/link-file)
+    let mut markdown_data = markdown_data.clone();
+    for (filename, title) in note_map {
+        let link_syntax = format!("[[{}]]", filename);
+        //let link_syntax_with_alias = format!("[[{}|", filename);
+        if markdown_data.contains(&link_syntax) {
+            let index = markdown_data.find(&link_syntax).unwrap();
+            let mut replacement_title = format!("[{}](/{})", title, filename);
+            // make lowercase if 2 chars before there's a letter or number
+            if index > 1 {
+                let prev_char = markdown_data.chars().nth(index - 2).unwrap();
+                if prev_char.is_alphanumeric() {
+                    replacement_title = replacement_title.to_lowercase();
+                }
+            }
+            println!("Replacing '{}' with '{}' in markdown data", link_syntax, replacement_title);
+            markdown_data = markdown_data.replace(&link_syntax, replacement_title.as_str());
+        }
+    }
+
     let cmark_markdown_data = markdown_data.clone();
     let parser = pulldown_cmark::Parser::new_ext(&cmark_markdown_data, pulldown_cmark::Options::all());
 
@@ -33,6 +54,7 @@ fn generate_doc_html(markdown_data: String) -> String {
         let new_math_content = format!("<ma>{}</ma>", math_content);
         html.replace_range(start..end, &new_math_content);
     }
+    // set the maximum width of all <img> tags to 720px
 
     let mut current_pos = 0;
     while let Some(start) = html[current_pos..].find("<a href=\"") {
@@ -72,36 +94,60 @@ fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> 
     Ok(())
 }
 
+fn should_skip_file(path: &str) -> bool {
+    if path.contains("/.") {
+        return true;
+    }
+    if path.contains("/daily/") {
+        return true;
+    }
+    if path.contains("/excalidraw/") {
+        return true;
+    }
+    if !path.ends_with(".md") {
+        return true;
+    }
+    false
+}
+
 fn main() {
     fs::remove_dir_all("build").ok();
     fs::create_dir_all("build").expect("Failed to create build directory");
     copy_dir_all("js", "build/js").unwrap();
     copy_dir_all("css", "build/css").unwrap();
+    copy_dir_all("docs/res", "build/res").unwrap();
+
+    let mut note_map = HashMap::new();
+    for entry in WalkDir::new("docs") {
+        let entry = entry.expect("Failed to read directory entry");
+        let path = entry.path().to_str().unwrap().to_owned();
+        let filename = path.replace("docs/", "").replace(".md", "");
+
+        if should_skip_file(&path) {
+            continue;
+        }
+
+        let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
+        let title = markdown_data.lines().next().unwrap_or(&filename).trim_start_matches("# ").to_string();
+        println!("Mapping file '{}' to title '{}'", filename, title);
+        note_map.insert(filename, title);
+    }
 
     for entry in WalkDir::new("docs") {
         let entry = entry.expect("Failed to read directory entry");
         let path = entry.path();
-        if path.to_str().unwrap().contains("/.") {
+        if should_skip_file(path.to_str().unwrap()) {
             continue;
         }
 
-        if path.extension().and_then(|s| s.to_str()) == Some("md") {
-            if path.to_str().unwrap().contains("/daily/") {
-                continue;
-            }
-            if path.to_str().unwrap().contains("/excalidraw/") {
-                continue;
-            }
+        let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
+        let html_content = generate_doc_html(markdown_data, &note_map);
 
-            let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
-            let html_content = generate_doc_html(markdown_data);
-
-            let filename = path.to_str().unwrap();
-            let output_folder = format!("build/{}", filename.replace(".md", "").replace("docs/", ""));
-            fs::create_dir_all(&output_folder).expect("Failed to create output directory");
-            let output_path = format!("{}/index.html", output_folder);
-            fs::write(output_path, html_content).expect("Failed to write HTML file");
-        }
+        let filename = path.to_str().unwrap();
+        let output_folder = format!("build/{}", filename.replace(".md", "").replace("docs/", ""));
+        fs::create_dir_all(&output_folder).expect("Failed to create output directory");
+        let output_path = format!("{}/index.html", output_folder);
+        fs::write(output_path, html_content).expect("Failed to write HTML file");
 
         if fs::exists("build/index/index.html").unwrap() {
             fs::copy("build/index/index.html", "build/index.html").expect("Failed to copy index.html");
@@ -140,9 +186,9 @@ fn generate_pageindex() -> SidebarItem {
                 .lines().next()
                 .unwrap_or(&link)
                 .trim_start_matches("# ").to_string();
-            } else {
-                name = link.clone();
-                link = format!("___{}", current_id);
+        } else {
+            name = link.clone();
+            link = format!("___{}", current_id);
         }
         let depth = spaces.len() / 4;
         while category_stack.len() > depth {

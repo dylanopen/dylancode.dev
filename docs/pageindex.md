@@ -476,6 +476,9 @@
              - photon
              - photon-energy
              - photon-power
+         - photoelectric-effect
+             - work-function
+             - photoelectric-effect-graph
 - Chemistry
     - Atomic structure
         - atoms

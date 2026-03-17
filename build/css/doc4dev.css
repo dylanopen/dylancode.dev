@@ -107,6 +107,9 @@ code {
     margin: 0;
     border: none;
 }
+img {
+    max-width: 100%;
+}
 
 @media print {
     body {
