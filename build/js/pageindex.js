@@ -653,12 +653,13 @@ pageIndex={
 "/work-function":"Work function",
 "/threshold-frequency":"Threshold frequency",
 "/photoelectric-effect-graph":"Photoelectric effect graph",
+"/photoelectric-equation":"Photoelectric equation",
 },
 },
 },
 "/chemistry":{
 "_name":"Chemistry",
-"/___482":{
+"/___483":{
 "_name":"Atomic structure",
 "/atoms":"Atoms",
 "/nucleus":"Nucleus",
@@ -667,24 +668,24 @@ pageIndex={
 },
 "/computer science":{
 "_name":"Computer science",
-"/___487":{
+"/___488":{
 "_name":"Computer architecture",
 "/hardware":"Hardware",
 },
-"/___489":{
+"/___490":{
 "_name":"Components",
 "/processor":"Processor",
 "/main-memory":"Main memory",
 "/read-only-memory":"Read-only memory",
 },
-"/___493":{
+"/___494":{
 "_name":"Buses",
 "/computer-bus":"Bus",
 "/address-bus":"Address bus",
 "/data-bus":"Data bus",
 "/control-bus":"Control bus",
 },
-"/___498":{
+"/___499":{
 "_name":"Input and output",
 "/input-controller":"Input controller",
 "/output-controller":"Output controller",
@@ -693,30 +694,30 @@ pageIndex={
 "/software":{
 "_name":"Software",
 "/software-classification":"Software classification",
-"/___504":{
+"/___505":{
 "_name":"Systems software",
 "/systems-software":"Systems software",
 "/operating-systems":"Operating systems",
 "/utility-programs":"Utility programs",
 "/code-libraries":"Dynamic libraries",
 },
-"/___509":{
+"/___510":{
 "_name":"Operating system",
 "/operating-system-role":"Operating system role",
 "/os-resource-management":"OS resource management",
 "/application-software":"Application software",
 },
 },
-"/___513":{
-"_name":"Programming languages",
 "/___514":{
+"_name":"Programming languages",
+"/___515":{
 "_name":"Types of programming language",
 "/low-level-language":"Low level language",
 "/high-level-language":"High-level language",
 "/declarative-programming":"Declarative programming",
 "/imperative-programming":"Imperative programming",
 },
-"/___519":{
+"/___520":{
 "_name":"Code translation",
 "/source-code":"Source code",
 "/object-code":"Object code",
@@ -727,11 +728,11 @@ pageIndex={
 "/bytecode":"Bytecode",
 },
 },
-"/___527":{
+"/___528":{
 "_name":"Number systems",
 "/natural-numbers":"Natural numbers",
 },
-"/___529":{
+"/___530":{
 "_name":"Units of data",
 "/bit":"Bit",
 "/byte":"Byte",
@@ -741,22 +742,22 @@ pageIndex={
 "/decimal-prefixes":"Decimal prefixes",
 "/binary-prefixes":"Binary prefixes",
 },
-"/___537":{
+"/___538":{
 "_name":"Text encoding",
 "/text-encoding":"Text encoding",
 "/ascii":"ASCII",
 },
-"/___540":{
+"/___541":{
 "_name":"Data error checking",
 "/data-error-checking":"Data error checking",
 "/parity-bit":"Parity bit",
 "/majority-voting":"Majority voting",
 },
-"/___544":{
+"/___545":{
 "_name":"Binary",
 "/unsigned-binary":"Unsigned binary",
 },
-"/___546":{
+"/___547":{
 "_name":"Logic gates",
 "/logic-gates":"Logic gates",
 "/truth-table":"Truth table",
@@ -767,7 +768,7 @@ pageIndex={
 "/nand-gate":"NAND gate",
 "/nor-gate":"NOR gate",
 },
-"/___555":{
+"/___556":{
 "_name":"Boolean algebra",
 "/boolean-and":"Boolean AND",
 "/boolean-or":"Boolean OR",
@@ -791,9 +792,9 @@ pageIndex={
 "/boolean-de-morgan":"Boolean De Morgan",
 "/boolean-double-negation":"Boolean double negation",
 },
-"/___577":{
-"_name":"Image encoding",
 "/___578":{
+"_name":"Image encoding",
+"/___579":{
 "_name":"Bitmap images",
 "/bitmap-image":"Bitmap image",
 "/bitmap-metadata":"Bitmap metadata",
@@ -803,7 +804,7 @@ pageIndex={
 "/bitmap-advantages":"Bitmap advantages",
 },
 },
-"/___585":{
+"/___586":{
 "_name":"Analogue and digital",
 "/analogue-signal":"Analogue signal",
 "/digital-signal":"Digital signal",
@@ -811,12 +812,12 @@ pageIndex={
 "/digital-to-analogue":"Digital to analogue conversion",
 "/digital-sampling":"Digital sampling",
 },
-"/___591":{
+"/___592":{
 "_name":"Sound",
 "/sound-storage":"Sound storage",
 "/nyquist-theorem":"Nyquist theorem",
 },
-"/___594":{
+"/___595":{
 "_name":"Compression",
 "/compression":"Compression",
 "/lossy-compression":"Lossy compression",
@@ -824,7 +825,7 @@ pageIndex={
 "/run-length-encoding":"Run-length encoding",
 "/dictionary-encoding":"Dictionary encoding",
 },
-"/___600":{
+"/___601":{
 "_name":"Encryption",
 "/encryption":"Encryption",
 "/decryption":"Decryption",
@@ -833,7 +834,7 @@ pageIndex={
 "/one-time-pad":"One-time pad",
 "/vernam-cipher":"Vernam cipher",
 },
-"/___607":{
+"/___608":{
 "_name":"System architecture",
 "/stored-program-architecture":{
 "_name":"Stored program architecture",
@@ -863,7 +864,7 @@ pageIndex={
 "/current-instruction-register":"Current instruction register",
 "/memory-address-register":"Memory address register",
 "/memory-buffer-register":"Memory buffer register",
-"/___627":"status-register",
+"/___628":"status-register",
 "/accumulator":"Accumulator",
 "/fetch-execute-cycle-registers":"Fetch-execute cycle registers",
 },
@@ -872,39 +873,39 @@ pageIndex={
 "/processor-core":"Processor core",
 },
 },
-"/___632":{
-"_name":"Networks",
 "/___633":{
+"_name":"Networks",
+"/___634":{
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
 "/client-server-network":"Client-server network",
 "/peer-to-peer-network":"Peer-to-peer network",
 },
-"/___638":{
+"/___639":{
 "_name":"Network scale",
 "/local-area-network":"Local area network",
 "/wide-area-network":"Wide area network",
 },
-"/___641":{
+"/___642":{
 "_name":"Network hardware",
 "/network-interface-card":"Network interface card",
 "/network-switch":"Network switch",
 },
-"/___644":{
+"/___645":{
 "_name":"Transmission methods",
 "/serial-transmission":"Serial transmission",
 "/parallel-transmission":"Parallel transmission",
 "/synchronous-transmission":"Synchronous transmission",
 "/asynchronous-transmission":"Asynchronous transmission",
 },
-"/___649":{
+"/___650":{
 "_name":"Data transfer rates",
 "/baud-rate":"Baud rate",
 "/bit-rate":"Bit rate",
 "/bandwidth":"Bandwidth",
 },
-"/___653":{
+"/___654":{
 "_name":"Latency",
 "/latency":"Latency",
 "/ping-latency":"Ping latency",
@@ -917,16 +918,16 @@ pageIndex={
 "/network-protocol":{
 "_name":"Network protocol",
 "/transmission-control-protocol-internet-protocol":"Transmission Control Protocol/Internet Protocol",
-"/___661":"transmission-control-protocol",
-"/___662":"internet-protocol",
+"/___662":"transmission-control-protocol",
+"/___663":"internet-protocol",
 "/hypertext-transfer-protocol":"Hypertext Transfer Protocol",
 "/file-transfer-protocol":"File Transfer Protocol",
 },
-"/___665":{
+"/___666":{
 "_name":"Wireless networking",
 "/wifi":"WiFi",
 },
-"/___667":{
+"/___668":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
@@ -948,7 +949,7 @@ pageIndex={
 },
 "/c":{
 "_name":"C programming",
-"/___682":{
+"/___683":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -956,7 +957,7 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___688":{
+"/___689":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
@@ -968,7 +969,7 @@ pageIndex={
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___696":{
+"/___697":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -977,7 +978,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___703":{
+"/___704":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -986,13 +987,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___710":{
+"/___711":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___714":{
+"/___715":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -1000,14 +1001,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___720":{
+"/___721":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___725":{
+"/___726":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -1015,11 +1016,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___731":{
+"/___732":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___733":{
+"/___734":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -1030,7 +1031,7 @@ pageIndex={
 },
 "/minecraft-plugin":{
 "_name":"PaperMC plugin development",
-"/___740":"minecraft-plugin/project-structure",
+"/___741":"minecraft-plugin/project-structure",
 },
 "/minecraft":{
 "_name":"Minecraft server",

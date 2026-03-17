@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photoelectric equation</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Photoelectric equation</h1>
+<p>When working with the <a href="/photoelectric-effect">photoelectric-effect</a>, we can link together:</p>
+<ul>
+<li>the incident <a href="/photon-energy">photon energy</a></li>
+<li>the <a href="/work-function">work function</a> of the metal</li>
+<li>the maximum kinetic energy of the emitted electrons</li>
+</ul>
+<p>Linking them all together is the photoelectric equation!</p>
+<blockquote>
+<p><ma>
+E_\text{photon}=\phi+E_\text{kmax}
+</ma></p>
+</blockquote>
+<p>Where:</p>
+<ul>
+<li><im>E_\text{photon}</im> is the energy of the incident photon (in joules)</li>
+<li><im>\phi</im> is the <a href="/work-function">work function</a> of the metal (in joules)</li>
+<li><im>E_\text{kmax}</im> is the <em>maximum</em> kinetic energy of the emitted electrons (in joules). They may have less kinetic energy than this, but they can’t have more. See <a href="/threshold-frequency">threshold frequency</a> for an explanation on why.</li>
+</ul>
+<h2>Calculating from frequency</h2>
+<p>If we don’t have the <a href="/photon-energy">photon energy</a> but instead have the <strong>frequency</strong> of the incident light, we can calculate the energy of the photon using the equation:</p>
+<p><ma>
+E_\text{photon} = hf
+</ma></p>
+<p>And then just substitute that into the photoelectric equation. In one single equation, we can replace <im>E_\text{photon}</im> with <im>hf</im> to get:</p>
+<blockquote>
+<p><ma>
+hf = \phi + E_\text{kmax}
+</ma></p>
+</blockquote>
+<h2>Calculating from wavelength</h2>
+<p>To calculate from the wavelength, we need to use <em>three</em> equations…</p>
+<ul>
+<li>First, convert to frequency:
+<ul>
+<li>The speed of any EM wave is <im>3.00\times10^8ms^{-1}</im></li>
+<li>So we can calculate the frequency of the incident light using <im>f=\frac{3.00\times10^8}{\lambda}</im> (<im>\lambda</im> is the wavelength).</li>
+</ul>
+</li>
+<li>Then calculate the energy of the photon using <im>E_\text{photon} = hf</im>.</li>
+<li>We finally substitute that into the photoelectric equation to get our final equation.</li>
+</ul>
+<p>In one single equation, we get:</p>
+<blockquote>
+<p><ma>
+\frac{hc}{\lambda} = \phi + E_\text{kmax}
+</ma></p>
+</blockquote>
+<p><im>c</im> is the speed of light: <im>3.00\times10^8ms^{-1}</im>.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>
