@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Critical Chi-squared value</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Critical Chi-squared value</h1>
+<p>The critical chi-squared value is the value that we compare our calculated chi-squared value to, to determine whether our data is significantly different from the expected values.</p>
+<p>We can find it in a big table, called the chi-squared distribution table, which gives us the critical value based on two variables:</p>
+<ul>
+<li>The <a href="/significance-level">significance-level</a></li>
+<li>The <a href="/degrees-of-freedom">degrees of freedom</a> of our contingency table</li>
+</ul>
+<blockquote>
+<p>You need to use the column heading that corresponds to <em>one minus</em> your chosen significance level. For example, if you chose a significance level of 5% (0.05), you would look under the column heading for 0.95 (1 - 0.05 = 0.95).</p>
+</blockquote>
+<p>We should now have two things:</p>
+<ul>
+<li>Our calculated <a href="/chi-squared-value">chi-squared value</a></li>
+<li>The critical chi-squared value from the table</li>
+</ul>
+<p>If our calculated chi-squared value is greater than the critical chi-squared value, then we can say that there is significant evidence to suggest that the two variables are not independent.</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

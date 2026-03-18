@@ -408,11 +408,13 @@ pageIndex={
 "/contingency-table":"Contingency table",
 "/expected-contingency-frequency":"Expected contingency frequency",
 "/chi-squared-value":"Chi-squared value",
+"/degrees-of-freedom":"Degrees of freedom",
+"/chi-squared-significance-level":"Chi-squared significance level",
 },
 },
 "/discrete-mathematics":{
 "_name":"Discrete mathematics",
-"/___302":{
+"/___304":{
 "_name":"Graphs",
 "/graph-vertex":"Graph vertex",
 "/graph-edge":"Graph edge",
@@ -435,7 +437,7 @@ pageIndex={
 "/bipartite-graph":"Bipartite graph",
 "/isomorphic-graph":"Isomorphic graph",
 },
-"/___323":{
+"/___325":{
 "_name":"Networks",
 "/network-node":"Network node",
 "/network-arc":"Network arc",
@@ -445,29 +447,35 @@ pageIndex={
 "/kruskal-algorithm":"Kruskal's algorithm",
 "/network-route-inspection":"Network route inspection",
 },
-"/___331":"Activity networks",
+"/___333":"Activity networks",
 "/network-flows":"Network flows",
-"/___333":{
+"/___335":{
 "_name":"Game theory",
 "/pay-off-matrices":"Pay-off matrices",
 "/play-safe-strategy":"Play safe strategy",
 "/dominating-strategies":"Dominating strategies",
 "/optimal-mixed-strategy":"Optimal mixed strategy",
 },
-"/___338":{
+"/___340":{
 "_name":"Linear programming",
 "/linear-programming":"Linear Programming",
+},
+"/___342":{
+"_name":"binary-operator",
+"/simple-binary-operators":"Simple binary operators",
+"/properties-of-binary-operators":"Properties of binary operators",
+"/modular-arithmetic":"Modular arithmetic",
 },
 },
 "/physics":{
 "_name":"Physics",
-"/___341":{
+"/___347":{
 "_name":"Measurements",
 "/base-units":"Base units",
 "/unit-prefixes":"Unit prefixes",
 "/energy-conversions":"Energy conversions",
 },
-"/___345":{
+"/___351":{
 "_name":"Errors",
 "/random-error":"Random error",
 "/systematic-error":"Systematic error",
@@ -478,16 +486,16 @@ pageIndex={
 "/repeatability":"Repeatability",
 "/reproducibility":"Reproducibility",
 },
-"/___354":{
+"/___360":{
 "_name":"Mechanics",
-"/___355":{
+"/___361":{
 "_name":"Scalars and vectors",
 "/scalar-quantity":"Scalar quantity",
 "/vector-quantity":"Vector quantity",
 "/adding-vector-quantities":"Adding vector quantities",
 "/separating-vectors-into-components":"Separating vectors into components",
 },
-"/___360":{
+"/___366":{
 "_name":"Moments",
 "/moment":"Moment",
 "/moment-formula":"Moment formula",
@@ -496,7 +504,7 @@ pageIndex={
 "/principle-of-moments":"Principle of moments",
 "/centre-of-gravity":"Centre of gravity",
 },
-"/___367":{
+"/___373":{
 "_name":"Linear motion",
 "/distance":"Distance",
 "/displacement":"Displacement",
@@ -508,32 +516,32 @@ pageIndex={
 "/speed-time-graph":"Speed-time graph",
 "/velocity-time-graph":"Velocity-time graph",
 },
-"/___377":{
+"/___383":{
 "_name":"Acceleration",
 "/equations-for-uniform-acceleration":"Equations for uniform acceleration",
 "/gravitational-acceleration":"Gravitational acceleration",
 "/free-fall":"Free fall",
 },
-"/___381":{
+"/___387":{
 "_name":"Projectiles",
 "/projectile-motion":"Projectile motion",
 "/vertical-projectile-motion":"Vertical projectile motion",
 "/horizontal-projectile-motion":"Horizontal projectile motion",
 "/angled-projectile-motion":"Angled projectile motion",
 },
-"/___386":{
+"/___392":{
 "_name":"Resistive forces",
 "/friction":"Friction",
 "/drag":"Drag",
 "/terminal-velocity":"Terminal velocity",
 },
-"/___390":{
+"/___396":{
 "_name":"Laws of motion",
 "/first-law-of-motion":"First law of motion",
 "/second-law-of-motion":"Second law of motion",
 "/third-law-of-motion":"Third law of motion",
 },
-"/___394":{
+"/___400":{
 "_name":"Momentum",
 "/momentum":"Momentum",
 "/momentum-and-forces":"Momentum and forces",
@@ -543,7 +551,7 @@ pageIndex={
 "/inelastic-collision":"Inelastic collision",
 "/explosion-momentum":"Explosion momentum",
 },
-"/___402":{
+"/___408":{
 "_name":"Energy",
 "/power":"Power",
 "/work-done":"Work done",
@@ -553,24 +561,34 @@ pageIndex={
 "/conservation-of-energy":"Conservation of energy",
 "/efficiency":"Efficiency",
 },
-"/___410":{
+"/___416":{
 "_name":"Energy forms",
 "/energy-forms":"Energy forms",
 "/kinetic-energy":"Kinetic energy",
 "/gravitational-potential-energy":"Gravitational potential energy",
 },
 },
-"/___414":{
+"/___420":{
 "_name":"Electricity",
-"/basics-of-electricity":"Basics of electricity",
-"/electrical-charge":"Electrical charge",
+"/electrical-circuit":"Electrical circuit",
+"/electrical-quantities":{
+"_name":"## Summary of the 4 main quantities",
+"/electrical-charge":{
+"_name":"Electrical charge",
+"/calculating-the-number-of-electrons":"Calculating the number of electrons",
+},
 "/electrical-current":"Electrical current",
 "/voltage":"Voltage",
 "/electrical-resistance":"Electrical resistance",
+},
+"/___428":{
+"_name":"circuit-energy",
 "/electrical-energy":"Electrical energy",
 "/electrical-power":"Electrical power",
 "/units-of-energy":"Units of energy",
-"/calculating-the-number-of-electrons":"Calculating the number of electrons",
+},
+"/electrical-resistance":{
+"_name":"Electrical resistance",
 "/resistance-in-a-bulb":"Resistance in a bulb",
 "/diode":"Diode",
 "/potential-divider":"Potential divider",
@@ -578,13 +596,14 @@ pageIndex={
 "/resistivity":"Resistivity",
 "/resistance-in-a-wire":"Resistance in a wire",
 "/resistance-in-parallel":"Resistance in parallel",
+},
 "/kirchoff-first-law":"Kirchoff's first law",
 "/kirchoff-second-law":"Kirchoff's second law",
 "/electricity-revision":"Electricity revision",
 },
-"/___434":{
+"/___443":{
 "_name":"Waves",
-"/___435":{
+"/___444":{
 "_name":"Categorising waves",
 "/progressive-wave":"Progressive wave",
 "/types-of-wave":"Types of wave",
@@ -592,7 +611,7 @@ pageIndex={
 "/longitudinal-wave":"Longitudinal wave",
 "/electromagnetic-wave":"Electromagnetic wave",
 },
-"/___441":{
+"/___450":{
 "_name":"Wave properties",
 "/wavelength":"Wavelength",
 "/wave-frequency":"Wave frequency",
@@ -600,25 +619,25 @@ pageIndex={
 "/wave-speed":"Wave speed",
 "/wave-speed-calculations":"Wave speed calculations",
 },
-"/___447":{
+"/___456":{
 "_name":"Refraction",
 "/refractive-index":"Refractive index",
 "/refractive-index-of-air":"Refractive index of air",
 "/snells-law":"Snell's law",
 "/refraction-of-light":"Refraction of light",
 },
-"/___452":{
+"/___461":{
 "_name":"Reflection",
 "/reflection-of-light":"Reflection of light",
 "/total-internal-reflection":"Total internal reflection",
 },
-"/___455":{
+"/___464":{
 "_name":"Fibre optics",
 "/fibre-optic-cable":"Fibre optic cable",
 "/fibre-optic-modal-dispersion":"Fibre optic modal dispersion",
 "/fibre-optic-material-dispersion":"Fibre optic material dispersion",
 },
-"/___459":{
+"/___468":{
 "_name":"Diffraction",
 "/diffraction-of-waves":"Diffraction of waves",
 "/diffraction-grating":"Diffraction grating",
@@ -626,7 +645,7 @@ pageIndex={
 "/diffraction-path-difference":"Diffraction path difference",
 "/diffraction-of-polychromatic-light":"Diffraction of polychromatic light",
 },
-"/___465":{
+"/___474":{
 "_name":"Interference",
 "/wave-interference":"Wave interference",
 "/constructive-interference":"Constructive interference",
@@ -635,13 +654,13 @@ pageIndex={
 "/wave-path-difference":"Wave path difference",
 "/coherent-wave":"Coherent wave",
 },
-"/___472":{
+"/___481":{
 "_name":"Polarisation",
 "/polarised-wave":"Polarised wave",
 "/polarisation":"Polarisation",
 "/uses-of-polarisation":"Uses of polarisation",
 },
-"/___476":{
+"/___485":{
 "_name":"Stationary waves",
 "/stationary-wave":"Stationary wave",
 "/oscilloscope":"Oscilloscope",
@@ -649,19 +668,19 @@ pageIndex={
 "/waves-revision":"Waves revision",
 },
 },
-"/___481":{
+"/___490":{
 "_name":"Particles",
-"/___482":{
+"/___491":{
 "_name":"Electromagnetic spectrum",
 "/electromagnetic-spectrum":"Electromagnetic spectrum",
 },
-"/___484":{
+"/___493":{
 "_name":"Photons",
 "/photon":"Photon",
 "/photon-energy":"Photon energy",
 "/photon-power":"Photon energy and power",
 },
-"/___488":{
+"/___497":{
 "_name":"photoelectric-effect",
 "/work-function":"Work function",
 "/threshold-frequency":"Threshold frequency",
@@ -672,33 +691,33 @@ pageIndex={
 },
 "/chemistry":{
 "_name":"Chemistry",
-"/___494":{
+"/___503":{
 "_name":"Atomic structure",
 "/atoms":"Atoms",
 "/nucleus":"Nucleus",
 "/protons":"Protons",
 },
 },
-"/computer science":{
+"/computer-science":{
 "_name":"Computer science",
-"/___499":{
+"/___508":{
 "_name":"Computer architecture",
 "/hardware":"Hardware",
 },
-"/___501":{
+"/___510":{
 "_name":"Components",
 "/processor":"Processor",
 "/main-memory":"Main memory",
 "/read-only-memory":"Read-only memory",
 },
-"/___505":{
+"/___514":{
 "_name":"Buses",
 "/computer-bus":"Bus",
 "/address-bus":"Address bus",
 "/data-bus":"Data bus",
 "/control-bus":"Control bus",
 },
-"/___510":{
+"/___519":{
 "_name":"Input and output",
 "/input-controller":"Input controller",
 "/output-controller":"Output controller",
@@ -707,30 +726,30 @@ pageIndex={
 "/software":{
 "_name":"Software",
 "/software-classification":"Software classification",
-"/___516":{
+"/___525":{
 "_name":"Systems software",
 "/systems-software":"Systems software",
 "/operating-systems":"Operating systems",
 "/utility-programs":"Utility programs",
 "/code-libraries":"Dynamic libraries",
 },
-"/___521":{
+"/___530":{
 "_name":"Operating system",
 "/operating-system-role":"Operating system role",
 "/os-resource-management":"OS resource management",
 "/application-software":"Application software",
 },
 },
-"/___525":{
+"/___534":{
 "_name":"Programming languages",
-"/___526":{
+"/___535":{
 "_name":"Types of programming language",
 "/low-level-language":"Low level language",
 "/high-level-language":"High-level language",
 "/declarative-programming":"Declarative programming",
 "/imperative-programming":"Imperative programming",
 },
-"/___531":{
+"/___540":{
 "_name":"Code translation",
 "/source-code":"Source code",
 "/object-code":"Object code",
@@ -741,11 +760,11 @@ pageIndex={
 "/bytecode":"Bytecode",
 },
 },
-"/___539":{
+"/___548":{
 "_name":"Number systems",
 "/natural-numbers":"Natural numbers",
 },
-"/___541":{
+"/___550":{
 "_name":"Units of data",
 "/bit":"Bit",
 "/byte":"Byte",
@@ -755,22 +774,22 @@ pageIndex={
 "/decimal-prefixes":"Decimal prefixes",
 "/binary-prefixes":"Binary prefixes",
 },
-"/___549":{
+"/___558":{
 "_name":"Text encoding",
 "/text-encoding":"Text encoding",
 "/ascii":"ASCII",
 },
-"/___552":{
+"/___561":{
 "_name":"Data error checking",
 "/data-error-checking":"Data error checking",
 "/parity-bit":"Parity bit",
 "/majority-voting":"Majority voting",
 },
-"/___556":{
+"/___565":{
 "_name":"Binary",
 "/unsigned-binary":"Unsigned binary",
 },
-"/___558":{
+"/___567":{
 "_name":"Logic gates",
 "/logic-gates":"Logic gates",
 "/truth-table":"Truth table",
@@ -781,7 +800,7 @@ pageIndex={
 "/nand-gate":"NAND gate",
 "/nor-gate":"NOR gate",
 },
-"/___567":{
+"/___576":{
 "_name":"Boolean algebra",
 "/boolean-and":"Boolean AND",
 "/boolean-or":"Boolean OR",
@@ -805,9 +824,9 @@ pageIndex={
 "/boolean-de-morgan":"Boolean De Morgan",
 "/boolean-double-negation":"Boolean double negation",
 },
-"/___589":{
+"/___598":{
 "_name":"Image encoding",
-"/___590":{
+"/___599":{
 "_name":"Bitmap images",
 "/bitmap-image":"Bitmap image",
 "/bitmap-metadata":"Bitmap metadata",
@@ -817,7 +836,7 @@ pageIndex={
 "/bitmap-advantages":"Bitmap advantages",
 },
 },
-"/___597":{
+"/___606":{
 "_name":"Analogue and digital",
 "/analogue-signal":"Analogue signal",
 "/digital-signal":"Digital signal",
@@ -825,12 +844,12 @@ pageIndex={
 "/digital-to-analogue":"Digital to analogue conversion",
 "/digital-sampling":"Digital sampling",
 },
-"/___603":{
+"/___612":{
 "_name":"Sound",
 "/sound-storage":"Sound storage",
 "/nyquist-theorem":"Nyquist theorem",
 },
-"/___606":{
+"/___615":{
 "_name":"Compression",
 "/compression":"Compression",
 "/lossy-compression":"Lossy compression",
@@ -838,7 +857,7 @@ pageIndex={
 "/run-length-encoding":"Run-length encoding",
 "/dictionary-encoding":"Dictionary encoding",
 },
-"/___612":{
+"/___621":{
 "_name":"Encryption",
 "/encryption":"Encryption",
 "/decryption":"Decryption",
@@ -847,7 +866,7 @@ pageIndex={
 "/one-time-pad":"One-time pad",
 "/vernam-cipher":"Vernam cipher",
 },
-"/___619":{
+"/___628":{
 "_name":"System architecture",
 "/stored-program-architecture":{
 "_name":"Stored program architecture",
@@ -877,7 +896,7 @@ pageIndex={
 "/current-instruction-register":"Current instruction register",
 "/memory-address-register":"Memory address register",
 "/memory-buffer-register":"Memory buffer register",
-"/___639":"status-register",
+"/___648":"status-register",
 "/accumulator":"Accumulator",
 "/fetch-execute-cycle-registers":"Fetch-execute cycle registers",
 },
@@ -886,39 +905,39 @@ pageIndex={
 "/processor-core":"Processor core",
 },
 },
-"/___644":{
+"/___653":{
 "_name":"Networks",
-"/___645":{
+"/___654":{
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
 "/client-server-network":"Client-server network",
 "/peer-to-peer-network":"Peer-to-peer network",
 },
-"/___650":{
+"/___659":{
 "_name":"Network scale",
 "/local-area-network":"Local area network",
 "/wide-area-network":"Wide area network",
 },
-"/___653":{
+"/___662":{
 "_name":"Network hardware",
 "/network-interface-card":"Network interface card",
 "/network-switch":"Network switch",
 },
-"/___656":{
+"/___665":{
 "_name":"Transmission methods",
 "/serial-transmission":"Serial transmission",
 "/parallel-transmission":"Parallel transmission",
 "/synchronous-transmission":"Synchronous transmission",
 "/asynchronous-transmission":"Asynchronous transmission",
 },
-"/___661":{
+"/___670":{
 "_name":"Data transfer rates",
 "/baud-rate":"Baud rate",
 "/bit-rate":"Bit rate",
 "/bandwidth":"Bandwidth",
 },
-"/___665":{
+"/___674":{
 "_name":"Latency",
 "/latency":"Latency",
 "/ping-latency":"Ping latency",
@@ -931,16 +950,16 @@ pageIndex={
 "/network-protocol":{
 "_name":"Network protocol",
 "/transmission-control-protocol-internet-protocol":"Transmission Control Protocol/Internet Protocol",
-"/___673":"transmission-control-protocol",
-"/___674":"internet-protocol",
+"/___682":"transmission-control-protocol",
+"/___683":"internet-protocol",
 "/hypertext-transfer-protocol":"Hypertext Transfer Protocol",
 "/file-transfer-protocol":"File Transfer Protocol",
 },
-"/___677":{
+"/___686":{
 "_name":"Wireless networking",
 "/wifi":"WiFi",
 },
-"/___679":{
+"/___688":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
@@ -962,7 +981,7 @@ pageIndex={
 },
 "/c":{
 "_name":"C programming",
-"/___694":{
+"/___703":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -970,7 +989,7 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___700":{
+"/___709":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
@@ -982,7 +1001,7 @@ pageIndex={
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___708":{
+"/___717":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -991,7 +1010,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___715":{
+"/___724":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -1000,13 +1019,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___722":{
+"/___731":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___726":{
+"/___735":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -1014,14 +1033,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___732":{
+"/___741":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___737":{
+"/___746":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -1029,11 +1048,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___743":{
+"/___752":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___745":{
+"/___754":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -1044,7 +1063,7 @@ pageIndex={
 },
 "/minecraft-plugin":{
 "_name":"PaperMC plugin development",
-"/___752":"minecraft-plugin/project-structure",
+"/___761":"minecraft-plugin/project-structure",
 },
 "/minecraft":{
 "_name":"Minecraft server",

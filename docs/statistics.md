@@ -1,6 +1,6 @@
 # Statistics
 
-[[- Sampling strategies]]
+- [[Sampling strategies]]
     - [[census]]
     - [[simple-random-sampling]]
     - [[systematic-sampling]]

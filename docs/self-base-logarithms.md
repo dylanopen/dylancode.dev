@@ -1,6 +1,6 @@
 # Self-base logarithms
 
-Whenever we have a logarithm that's in the form:
+Whenever we have a [[logarithm]] that's in the form:
 
 $$
 \log_a{a^x}

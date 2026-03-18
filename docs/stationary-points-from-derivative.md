@@ -2,8 +2,12 @@
 
 ## Where are the stationary points?
 
-The stationary points of a function are where the (first) derivative is equal to
+The [[stationary-point]]s of a function are where the (first) derivative is equal to
 zero.
+
+## Derivative
+
+We find the first derivative by [differentiating the function](power-rule-for-differentiation).
 
 ## What does the derivative mean?
 

@@ -1,6 +1,6 @@
 # Play safe strategy
 
-> This page is about the play safe strategy in **zero sum games**.
+> This page is about the play safe strategy in a [[zero-sum-game]].
 
 In this strategy, the player(s) choose the option which minimises the possible
 loss.

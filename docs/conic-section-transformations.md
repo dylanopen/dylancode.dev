@@ -1,9 +1,10 @@
 # Conic section transformations
 
+There are a few different transformations we can apply to a [[conic-section]].
+
 ## Parabola translations
 
-Whenever a parabola is translated, we can just replace $x$ with $x-h$ and
-$y$ with $y-k$, where $(h,k)$ is the translation vector.
+Whenever a [[parabola]] is [translated](translation), we can just replace $x$ with $x-h$ and $y$ with $y-k$, where $(h,k)$ is the translation vector.
 
 ### Translate the parabola $y^2=4ax$ by the vector $(h, k)$ and find its new focus.
 

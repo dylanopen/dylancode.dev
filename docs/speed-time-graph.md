@@ -26,7 +26,7 @@ The acceleration at a specific time is the *gradient* of the graph at that time.
 
 We can find the gradient by drawing a tangent to the curve at that point, and then finding the gradient of that tangent.
 
-Or, we can just find the [derivative](/differentiation-formula) if we know an
+Or, we can just find the [derivative](/power-rule-for-differentiation) if we know an
 equation for the graph.
 
 ## Finding the average acceleration

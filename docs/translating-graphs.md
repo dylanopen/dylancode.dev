@@ -2,9 +2,9 @@
 
 ## What is a translation?
 
-A translation is basically when we *move* a graph (without changing its shape).
+A [[translation]] is basically when we *move* a graph (without changing its shape).
 
-We can represent a translation using a vector of coordinates, where the top
+We can represent a [[translation]] using a [[vector]] of [[coordinates]], where the top
 number represents the movement in the $x$ direction, and the bottom number
 represents the movement in the $y$ direction.
 
@@ -14,7 +14,7 @@ direction).
 
 ## Equation of a translated graph
 
-If we have a function $y = f(x)$, and we translate it using the vector
+If we have a function $y = f(x)$, and we translate it using the [[vector]]
 $\begin{pmatrix}a \\ b\end{pmatrix}$, the equation of the translated graph will
 be:
 $$y = f(x - a) + b$$

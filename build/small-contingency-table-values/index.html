@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Small contingency table values</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Small contingency table values</h1>
+<p>Let’s say we have this <a href="/contingency-table">contingency table</a> of <a href="/expected-contingency-frequency">expected values</a></p>
+<table><thead><tr><th></th><th>Likes dogs</th><th>Likes cats</th><th>Likes hamsters</th></tr></thead><tbody>
+<tr><td>Primary school</td><td>16.2</td><td>19.6</td><td>19.2</td></tr>
+<tr><td>Secondary school</td><td>14.1</td><td>12.6</td><td>15.3</td></tr>
+<tr><td>University</td><td>7.5</td><td>4.3</td><td>2.2</td></tr>
+</tbody></table>
+<p>It looks like a perfectly valid contingency table on the surface, but actually, we <em>can’t</em> calculate the <a href="/chi-squared-value">chi-squared value</a> from this data. That’s because some of the cells in the table are below 5.</p>
+<p>In order to calculate the chi-squared value, we need to make sure that all of the expected values in the contingency table are above 5. If any of the expected values are below 5, then we can’t use the chi-squared test to analyse the data.</p>
+<h2>How to fix this problem</h2>
+<p>We can combine some of the categories together to create a larger contingency table with expected values above 5!</p>
+<p>In this example, we can combine the “secondary school” and “university” categories together to create a new category called “secondary school or university”. That would give us this contingency table:</p>
+<table><thead><tr><th></th><th>Likes dogs</th><th>Likes cats</th><th>Likes hamsters</th></tr></thead><tbody>
+<tr><td>Primary school</td><td>16.2</td><td>19.6</td><td>19.2</td></tr>
+<tr><td>Secondary school or university</td><td>21.6</td><td>16.9</td><td>17.5</td></tr>
+</tbody></table>
+<p>Now all of the expected values are above 5, so we can calculate the <a href="/chi-squared%20value">chi-squared value</a> from this new contingency table!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>
