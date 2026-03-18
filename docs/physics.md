@@ -74,7 +74,7 @@
         - [[kinetic-energy]]
         - [[gravitational-potential-energy]]
 - [[Electricity]]
-    - [[basics-of-electricity]]
+    - [[electrical-circuit]]
     - [[electrical-charge]]
     - [[electrical-current]]
     - [[voltage]]
