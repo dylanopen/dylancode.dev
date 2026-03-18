@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Continuous random lower quartile </title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Continuous random lower quartile</h1>
+<p>Remember that the <a href="/lower-quartile">lower-quartile</a> of any <a href="/distribution">distribution</a> is the value where 25% of the data is below it and 75% of the data is above it.</p>
+<p>When talking about <a href="/probability">probability</a> and distributions, the lower quartile is where the cumulative probability is <im>0.25</im>.</p>
+<h2>Finding a formula</h2>
+<p>Knowing our formula for <a href="/continuous-random-probability">finding the probability of a continuous random variable</a>, <im>P(a \leq X \leq b) = \int_a^b f(x)\,dx</im>, as well as that the lower quartile is where the probability is 0.25, we can find that:</p>
+<blockquote>
+<p><ma>
+\int_0^af(x)dx=0.25
+</ma></p>
+</blockquote>
+<p>We can use definite integration and find the value of <im>a</im> - that’s the lower quartile!</p>
+
+	    </div>
+	</div>
+    </body>
+</html>

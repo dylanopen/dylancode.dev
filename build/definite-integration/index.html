@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Definite integration</title>
+	<style>body{background-color:#0c0c0c;color:#fff}</style>
+	<link defer rel="stylesheet" href="/css/doc4dev.css">
+	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
+	<script defer src="/js/tex.js"></script>
+	<script defer src="/js/pageindex.js"></script>
+	<script defer src="/js/sidebar.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <div class="sidebar">
+		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
+	    </div>
+	    <div class="main-content">
+		<h1>Definite integration</h1>
+<p>Definite integration follows the same normal steps as <a href="/indefinite-integration">indefinite-integration</a>.</p>
+<h2>Steps</h2>
+<ol>
+<li>We first integrate the expression (but don’t add the <im>+c</im> term).</li>
+<li>Then we <a href="/substitution">substitute</a> the upper limit into the integrated <a href="/expression">expression</a> - the upper limit is at the <em>top</em> of the integral sign - the <im>a</im> in <im>\int_a^b</im>.</li>
+<li>We next <a href="/substitution">substitute</a> the lower limit into the integrated <a href="/expression">expression</a> - the lower limit is at the <em>bottom</em> of the integral sign - the <im>b</im> in <im>\int_a^b</im>.</li>
+<li>Finally, we subtract the result of step 3 from the result of step 2 to get the final answer. <strong>We always take away the integral found from the lower limit from the upper limit.</strong></li>
+</ol>
+<h2>Notation</h2>
+<p>If we have the <em>unintegrated</em> function we write it like this:</p>
+<p><ma>
+\int_b^a f(x) \, dx
+</ma></p>
+<p>If we let <im>g(x)</im> be the intergral of <im>f(x)</im>, then we can write:</p>
+<p><ma>
+\left[g(x)\right]_b^a
+</ma></p>
+
+	    </div>
+	</div>
+    </body>
+</html>

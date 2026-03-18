@@ -38,4 +38,4 @@ $$
   - $\int 1x^{\frac12}\space dx=1\div(\frac12+1)\times x^{\frac12+1}=\frac23x^{\frac32}$
   - $\int 4x^{-\frac34}\space dx=1\div(-\frac34+1)\times x^{-\frac34+1}=-\frac47x^{\frac14}$
 
-> TODO: finish and correct example
+*TODO: finish and correct example*
