@@ -3,6 +3,10 @@
 The role of an operating system is to provide a bridge between the computer
 hardware and the software applications that run on it.
 
+In other words:
+
+> The role of the [[operating-system]] is to hide the complexities of the underlying [[hardware]] from the end user.
+
 ## The role for software developers
 
 It provides lots of *abstractions* so that the software developers don't have to
@@ -24,7 +28,7 @@ interface to your computer - the desktop environment, the file manager, the
 taskbar, and so on.
 
 It's not really clearly defined where the operating system ends and the
-*application software* begins, since many operating systems come with a whole
+[[application-software]] and other types of [[systems-software]] begins, since many operating systems come with a whole
 suite of applications pre-installed (like web browsers, file explorers, media
 players, and so on).
 

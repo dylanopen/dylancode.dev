@@ -1,10 +1,10 @@
 # Harvard architecture
 
-Unlike the [Von-Neumann architecture](/von-neumann-architecture), the Harvard architecture is a [stored program architecture](/stored-program-architecture) where the instructions and data are stored in separate memory regions.
+Unlike the [Von-Neumann architecture](/von-neumann-architecture), the Harvard architecture is a [stored program architecture](stored-program-concept.md) where the instructions and data are stored in separate memory regions.
 
 This means that the CPU has two separate memory address spaces: one for instructions and one for data.
 
-> The Harvard architecture is a [stored program architecture](/stored-program-architecture) where the instructions and data are stored in separate memory regions to each other.
+> The Harvard architecture is a [stored program architecture](stored-program-concept.md) where the instructions and data are stored in separate memory regions to each other.
 
 ## Where is Harvard used?
 

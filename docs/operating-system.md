@@ -1,4 +1,4 @@
-# Operating systems
+# Operating system
 
 ## Purpose of an operating system
 

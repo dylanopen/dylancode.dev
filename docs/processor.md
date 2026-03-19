@@ -39,7 +39,7 @@ combine logic gates together to make more complex circuits.
 - [Control unit](/control-unit): This is the part of the processor that fetches
   instructions from memory, decodes them, and tells the other parts of the
   processor what to do.
-- [Arithmetic logic unit (ALU)](/alu): This is the part of the processor
+- [Arithmetic logic unit (ALU)](arithmetic-logic-unit): This is the part of the processor
   that performs maths and boolean logic operations, like addition, subtraction,
   AND, OR, etc.
 - [Registers](/register): These are small, fast storage locations within the
@@ -57,7 +57,7 @@ combine logic gates together to make more complex circuits.
   the processor when to do things, and how fast to do them. The speed of the
   clock is measured in hertz (Hz), and it tells us how many instructions the
   processor can execute per second.
-- [Bus](/processor-bus): This is a set of wires that connects the different parts of
+- [Bus](/computer-bus): This is a set of wires that connects the different parts of
   the processor together, and allows them to communicate with each other. It
   carries data, instructions, and control signals between the different parts
   of the processor.

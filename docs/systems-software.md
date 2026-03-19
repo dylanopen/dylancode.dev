@@ -1,7 +1,7 @@
 # Systems software
 
 There are lots of types of system software which help 
-- [Operating systems](/operating-systems)
+- [Operating systems](operating-system.md)
 - [Utility programs](/utility-programs)
 - [Dynamic libraries](/dynamic-libraries)
 - [Translators](/code-translators)
