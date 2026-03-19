@@ -32,7 +32,7 @@
     - [[discrete-variable]]
 - [[Discrete random variables]]
     - [[discrete-random-variable]]
-    - [[random-variable-expectation]]
+    - [[discrete-random-expectation]]
     - [[discrete-random-variance]]
     - [[discrete-random-mode]]
     - [[discrete-random-median]]

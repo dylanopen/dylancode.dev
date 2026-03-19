@@ -1,6 +1,6 @@
 # Poisson distribution expectation
 
-If we have a [[poisson-distribution]], $X\sim Po(\lambda)$, then the [expectation](random-variable-expectation) of the distribution is just $\lambda$.
+If we have a [[poisson-distribution]], $X\sim Po(\lambda)$, then the [expectation](discrete-random-expectation.md) of the distribution is just $\lambda$.
 
 > $$
 > \text{For }X\sim Po(\lambda):\quad E(X) = \lambda

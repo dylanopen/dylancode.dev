@@ -1,4 +1,4 @@
-# Random variable expectation
+# Discrete random expectation
 
 > The *expectation* of a random variable is the **mean** of the results we can
 > expect to get if we measure the [random variable](/random-variable) 'infinite'

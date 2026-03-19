@@ -9,7 +9,7 @@ When talking about [[probability]] and distributions, the median is where the pr
 Knowing our formula for [finding the probability of a continuous random variable](continuous-random-probability), $P(a \leq X \leq b) = \int_a^b f(x)\,dx$, as well as that the median is where the probability is 0.5, we can find that:
 
 > $$
-> \int_0^mf(x)dx=0.5
+> \int_0^mf(x)\,\,dx=0.5
 > $$
 
 We can use [[definite-integration]] and find the value of $m$ - that's the median.
