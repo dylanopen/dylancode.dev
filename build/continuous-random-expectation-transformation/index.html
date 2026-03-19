@@ -3,7 +3,7 @@
     <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Continuous random mode</title>
+	<title>Continuous random expectation transformation</title>
 	<style>body{background-color:#0c0c0c;color:#fff}</style>
 	<link defer rel="stylesheet" href="/css/doc4dev.css">
 	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
@@ -19,13 +19,13 @@
 		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
 	    </div>
 	    <div class="main-content">
-		<h1>Continuous random mode</h1>
-<p>The <em>mode</em> of a <a href="/continuous-random-variable">continuous random variable</a> is the value of the variable that has the highest probability density.</p>
+		<h1>Continuous random expectation transformation</h1>
+<p>For a <a href="/continuous-random-variable">continuous random variable</a>, if the <a href="/probability-density-function">probability density function</a> is <im>f(x)</im> and the transformation function is <im>t(x)</im>:</p>
 <blockquote>
-<p>We can find the <a href="/mode">mode</a> by <a href="/power-rule-for-differentiation">differentiating</a> the <a href="/probability-density-function">probability density function</a> of the variable and then finding the value that gives us the maximum value of the PDF.</p>
+<p><ma>
+E(g(X))=\int_a^b\,t(x)\times f(x)\,\,dx
+</ma></p>
 </blockquote>
-<p>The <a href="/stationary-point">stationary point</a> will be where the derivative is <em>zero</em> - BUT we need to check whether it’s a maximum or minimum - however we want to, for example, by finding the <a href="/second-derivative">second derivative</a> or just sketching the graph to see.</p>
-<p>Sometimes, the mode of a continuous random distribution between two points is at the start or end of the range - that’s our mode, even if the derivative is not zero there.</p>
 
 	    </div>
 	</div>

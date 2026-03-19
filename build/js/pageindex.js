@@ -386,7 +386,7 @@ pageIndex={
 "/___281":{
 "_name":"Discrete random variables",
 "/discrete-random-variable":"Discrete random variable",
-"/random-variable-expectation":"Random variable expectation",
+"/discrete-random-expectation":"Discrete random expectation",
 "/discrete-random-variance":"Discrete random variance",
 "/discrete-random-mode":"Discrete random mode",
 "/discrete-random-median":"Discrete random median",
@@ -401,6 +401,12 @@ pageIndex={
 "/continuous-random-lower-quartile":"Continuous random lower quartile ",
 "/continuous-random-upper-quartile":"Continuous random upper quartile ",
 "/continuous-random-mode":"Continuous random mode",
+"/continuous-random-expectation":"Continuous random expectation",
+"/continuous-random-square-expectation":"Continuous random square expectation",
+"/continuous-random-variance":"Continuous random variance",
+"/continuous-random-expectation-transformation":"Continuous random expectation transformation",
+"/continuous-random-variance-transformation":"Continuous random variance transformation",
+"/continuous-random-linear-transformation":"Continuous random linear transformation",
 },
 "/poisson-distribution":{
 "_name":"Poisson distribution",
@@ -423,7 +429,7 @@ pageIndex={
 },
 "/discrete-mathematics":{
 "_name":"Discrete mathematics",
-"/___311":{
+"/___317":{
 "_name":"Graphs",
 "/graph-vertex":"Graph vertex",
 "/graph-edge":"Graph edge",
@@ -446,7 +452,7 @@ pageIndex={
 "/bipartite-graph":"Bipartite graph",
 "/isomorphic-graph":"Isomorphic graph",
 },
-"/___332":{
+"/___338":{
 "_name":"Networks",
 "/network-node":"Network node",
 "/network-arc":"Network arc",
@@ -456,20 +462,20 @@ pageIndex={
 "/kruskal-algorithm":"Kruskal's algorithm",
 "/network-route-inspection":"Network route inspection",
 },
-"/___340":"Activity networks",
+"/___346":"Activity networks",
 "/network-flows":"Network flows",
-"/___342":{
+"/___348":{
 "_name":"Game theory",
 "/pay-off-matrices":"Pay-off matrices",
 "/play-safe-strategy":"Play safe strategy",
 "/dominating-strategies":"Dominating strategies",
 "/optimal-mixed-strategy":"Optimal mixed strategy",
 },
-"/___347":{
+"/___353":{
 "_name":"Linear programming",
 "/linear-programming":"Linear Programming",
 },
-"/___349":{
+"/___355":{
 "_name":"binary-operator",
 "/simple-binary-operators":"Simple binary operators",
 "/properties-of-binary-operators":"Properties of binary operators",
@@ -478,13 +484,13 @@ pageIndex={
 },
 "/physics":{
 "_name":"Physics",
-"/___354":{
+"/___360":{
 "_name":"Measurements",
 "/base-units":"Base units",
 "/unit-prefixes":"Unit prefixes",
 "/energy-conversions":"Energy conversions",
 },
-"/___358":{
+"/___364":{
 "_name":"Errors",
 "/random-error":"Random error",
 "/systematic-error":"Systematic error",
@@ -495,16 +501,16 @@ pageIndex={
 "/repeatability":"Repeatability",
 "/reproducibility":"Reproducibility",
 },
-"/___367":{
+"/___373":{
 "_name":"Mechanics",
-"/___368":{
+"/___374":{
 "_name":"Scalars and vectors",
 "/scalar-quantity":"Scalar quantity",
 "/vector-quantity":"Vector quantity",
 "/adding-vector-quantities":"Adding vector quantities",
 "/separating-vectors-into-components":"Separating vectors into components",
 },
-"/___373":{
+"/___379":{
 "_name":"Moments",
 "/moment":"Moment",
 "/moment-formula":"Moment formula",
@@ -513,7 +519,7 @@ pageIndex={
 "/principle-of-moments":"Principle of moments",
 "/centre-of-gravity":"Centre of gravity",
 },
-"/___380":{
+"/___386":{
 "_name":"Linear motion",
 "/distance":"Distance",
 "/displacement":"Displacement",
@@ -525,32 +531,32 @@ pageIndex={
 "/speed-time-graph":"Speed-time graph",
 "/velocity-time-graph":"Velocity-time graph",
 },
-"/___390":{
+"/___396":{
 "_name":"Acceleration",
 "/equations-for-uniform-acceleration":"Equations for uniform acceleration",
 "/gravitational-acceleration":"Gravitational acceleration",
 "/free-fall":"Free fall",
 },
-"/___394":{
+"/___400":{
 "_name":"Projectiles",
 "/projectile-motion":"Projectile motion",
 "/vertical-projectile-motion":"Vertical projectile motion",
 "/horizontal-projectile-motion":"Horizontal projectile motion",
 "/angled-projectile-motion":"Angled projectile motion",
 },
-"/___399":{
+"/___405":{
 "_name":"Resistive forces",
 "/friction":"Friction",
 "/drag":"Drag",
 "/terminal-velocity":"Terminal velocity",
 },
-"/___403":{
+"/___409":{
 "_name":"Laws of motion",
 "/first-law-of-motion":"First law of motion",
 "/second-law-of-motion":"Second law of motion",
 "/third-law-of-motion":"Third law of motion",
 },
-"/___407":{
+"/___413":{
 "_name":"Momentum",
 "/momentum":"Momentum",
 "/momentum-and-forces":"Momentum and forces",
@@ -560,7 +566,7 @@ pageIndex={
 "/inelastic-collision":"Inelastic collision",
 "/explosion-momentum":"Explosion momentum",
 },
-"/___415":{
+"/___421":{
 "_name":"Energy",
 "/power":"Power",
 "/work-done":"Work done",
@@ -570,14 +576,14 @@ pageIndex={
 "/conservation-of-energy":"Conservation of energy",
 "/efficiency":"Efficiency",
 },
-"/___423":{
+"/___429":{
 "_name":"Energy forms",
 "/energy-forms":"Energy forms",
 "/kinetic-energy":"Kinetic energy",
 "/gravitational-potential-energy":"Gravitational potential energy",
 },
 },
-"/___427":{
+"/___433":{
 "_name":"Electricity",
 "/electrical-circuit":"Electrical circuit",
 "/electrical-quantities":{
@@ -590,7 +596,7 @@ pageIndex={
 "/voltage":"Voltage",
 "/electrical-resistance":"Electrical resistance",
 },
-"/___435":{
+"/___441":{
 "_name":"circuit-energy",
 "/electrical-energy":"Electrical energy",
 "/electrical-power":"Electrical power",
@@ -610,9 +616,9 @@ pageIndex={
 "/kirchoff-second-law":"Kirchoff's second law",
 "/electricity-revision":"Electricity revision",
 },
-"/___450":{
+"/___456":{
 "_name":"Waves",
-"/___451":{
+"/___457":{
 "_name":"Categorising waves",
 "/progressive-wave":"Progressive wave",
 "/types-of-wave":"Types of wave",
@@ -620,33 +626,40 @@ pageIndex={
 "/longitudinal-wave":"Longitudinal wave",
 "/electromagnetic-wave":"Electromagnetic wave",
 },
-"/___457":{
+"/___463":{
 "_name":"Wave properties",
+"/amplitude":"Amplitude",
 "/wavelength":"Wavelength",
 "/wave-frequency":"Wave frequency",
 "/wave-period":"Wave period",
 "/wave-speed":"Wave speed",
 "/wave-speed-calculations":"Wave speed calculations",
 },
-"/___463":{
+"/transverse-wave":"Transverse wave",
+"/longitudinal-wave":{
+"_name":"Longitudinal wave",
+"/longitudinal-wavelength":"Longitudinal wavelength",
+"/longitudinal-particle-displacement":"Longitudinal particle displacement",
+},
+"/___474":{
 "_name":"Refraction",
 "/refractive-index":"Refractive index",
 "/refractive-index-of-air":"Refractive index of air",
 "/snells-law":"Snell's law",
 "/refraction-of-light":"Refraction of light",
 },
-"/___468":{
+"/___479":{
 "_name":"Reflection",
 "/reflection-of-light":"Reflection of light",
 "/total-internal-reflection":"Total internal reflection",
 },
-"/___471":{
+"/___482":{
 "_name":"Fibre optics",
 "/fibre-optic-cable":"Fibre optic cable",
 "/fibre-optic-modal-dispersion":"Fibre optic modal dispersion",
 "/fibre-optic-material-dispersion":"Fibre optic material dispersion",
 },
-"/___475":{
+"/___486":{
 "_name":"Diffraction",
 "/diffraction-of-waves":"Diffraction of waves",
 "/diffraction-grating":"Diffraction grating",
@@ -654,7 +667,7 @@ pageIndex={
 "/diffraction-path-difference":"Diffraction path difference",
 "/diffraction-of-polychromatic-light":"Diffraction of polychromatic light",
 },
-"/___481":{
+"/___492":{
 "_name":"Interference",
 "/wave-interference":"Wave interference",
 "/constructive-interference":"Constructive interference",
@@ -663,33 +676,34 @@ pageIndex={
 "/wave-path-difference":"Wave path difference",
 "/coherent-wave":"Coherent wave",
 },
-"/___488":{
+"/___499":{
 "_name":"Polarisation",
 "/polarised-wave":"Polarised wave",
 "/polarisation":"Polarisation",
 "/uses-of-polarisation":"Uses of polarisation",
 },
-"/___492":{
-"_name":"Stationary waves",
-"/stationary-wave":"Stationary wave",
+"/stationary-wave":{
+"_name":"Stationary wave",
 "/oscilloscope":"Oscilloscope",
+"/stationary-wave-phase":"Stationary wave phase",
+"/stationary-wave-energy-transfer":"Stationary wave energy transfer",
+},
 "/speed-of-electromagnetic-wave":"Speed of electromagnetic wave",
 "/waves-revision":"Waves revision",
 },
-},
-"/___497":{
+"/___509":{
 "_name":"Particles",
-"/___498":{
+"/___510":{
 "_name":"Electromagnetic spectrum",
 "/electromagnetic-spectrum":"Electromagnetic spectrum",
 },
-"/___500":{
+"/___512":{
 "_name":"Photons",
 "/photon":"Photon",
 "/photon-energy":"Photon energy",
 "/photon-power":"Photon energy and power",
 },
-"/___504":{
+"/___516":{
 "_name":"photoelectric-effect",
 "/work-function":"Work function",
 "/threshold-frequency":"Threshold frequency",
@@ -700,7 +714,7 @@ pageIndex={
 },
 "/chemistry":{
 "_name":"Chemistry",
-"/___510":{
+"/___522":{
 "_name":"Atomic structure",
 "/atoms":"Atoms",
 "/nucleus":"Nucleus",
@@ -709,24 +723,24 @@ pageIndex={
 },
 "/computer-science":{
 "_name":"Computer science",
-"/___515":{
+"/___527":{
 "_name":"Computer architecture",
 "/hardware":"Hardware",
 },
-"/___517":{
+"/___529":{
 "_name":"Components",
 "/processor":"Processor",
 "/main-memory":"Main memory",
 "/read-only-memory":"Read-only memory",
 },
-"/___521":{
+"/___533":{
 "_name":"Buses",
 "/computer-bus":"Bus",
 "/address-bus":"Address bus",
 "/data-bus":"Data bus",
 "/control-bus":"Control bus",
 },
-"/___526":{
+"/___538":{
 "_name":"Input and output",
 "/input-controller":"Input controller",
 "/output-controller":"Output controller",
@@ -735,30 +749,30 @@ pageIndex={
 "/software":{
 "_name":"Software",
 "/software-classification":"Software classification",
-"/___532":{
+"/___544":{
 "_name":"Systems software",
 "/systems-software":"Systems software",
-"/operating-systems":"Operating systems",
+"/operating-system":"Operating system",
 "/utility-programs":"Utility programs",
 "/code-libraries":"Dynamic libraries",
 },
-"/___537":{
+"/operating-system":{
 "_name":"Operating system",
 "/operating-system-role":"Operating system role",
 "/os-resource-management":"OS resource management",
 "/application-software":"Application software",
 },
 },
-"/___541":{
+"/___553":{
 "_name":"Programming languages",
-"/___542":{
+"/___554":{
 "_name":"Types of programming language",
 "/low-level-language":"Low level language",
 "/high-level-language":"High-level language",
 "/declarative-programming":"Declarative programming",
 "/imperative-programming":"Imperative programming",
 },
-"/___547":{
+"/___559":{
 "_name":"Code translation",
 "/source-code":"Source code",
 "/object-code":"Object code",
@@ -769,11 +783,15 @@ pageIndex={
 "/bytecode":"Bytecode",
 },
 },
-"/___555":{
+"/___567":{
 "_name":"Number systems",
 "/natural-numbers":"Natural numbers",
+"/integers":"Integers",
+"/rational-numbers":"Rational numbers",
+"/irrational-numbers":"Irrational numbers",
+"/real-numbers":"Real numbers",
 },
-"/___557":{
+"/___573":{
 "_name":"Units of data",
 "/bit":"Bit",
 "/byte":"Byte",
@@ -783,22 +801,22 @@ pageIndex={
 "/decimal-prefixes":"Decimal prefixes",
 "/binary-prefixes":"Binary prefixes",
 },
-"/___565":{
+"/___581":{
 "_name":"Text encoding",
 "/text-encoding":"Text encoding",
 "/ascii":"ASCII",
 },
-"/___568":{
+"/___584":{
 "_name":"Data error checking",
 "/data-error-checking":"Data error checking",
 "/parity-bit":"Parity bit",
 "/majority-voting":"Majority voting",
 },
-"/___572":{
+"/___588":{
 "_name":"Binary",
 "/unsigned-binary":"Unsigned binary",
 },
-"/___574":{
+"/___590":{
 "_name":"Logic gates",
 "/logic-gates":"Logic gates",
 "/truth-table":"Truth table",
@@ -809,7 +827,7 @@ pageIndex={
 "/nand-gate":"NAND gate",
 "/nor-gate":"NOR gate",
 },
-"/___583":{
+"/___599":{
 "_name":"Boolean algebra",
 "/boolean-and":"Boolean AND",
 "/boolean-or":"Boolean OR",
@@ -833,9 +851,9 @@ pageIndex={
 "/boolean-de-morgan":"Boolean De Morgan",
 "/boolean-double-negation":"Boolean double negation",
 },
-"/___605":{
+"/___621":{
 "_name":"Image encoding",
-"/___606":{
+"/___622":{
 "_name":"Bitmap images",
 "/bitmap-image":"Bitmap image",
 "/bitmap-metadata":"Bitmap metadata",
@@ -845,7 +863,7 @@ pageIndex={
 "/bitmap-advantages":"Bitmap advantages",
 },
 },
-"/___613":{
+"/___629":{
 "_name":"Analogue and digital",
 "/analogue-signal":"Analogue signal",
 "/digital-signal":"Digital signal",
@@ -853,12 +871,13 @@ pageIndex={
 "/digital-to-analogue":"Digital to analogue conversion",
 "/digital-sampling":"Digital sampling",
 },
-"/___619":{
+"/___635":{
 "_name":"Sound",
 "/sound-storage":"Sound storage",
 "/nyquist-theorem":"Nyquist theorem",
+"/midi":"MIDI",
 },
-"/___622":{
+"/___639":{
 "_name":"Compression",
 "/compression":"Compression",
 "/lossy-compression":"Lossy compression",
@@ -866,7 +885,7 @@ pageIndex={
 "/run-length-encoding":"Run-length encoding",
 "/dictionary-encoding":"Dictionary encoding",
 },
-"/___628":{
+"/___645":{
 "_name":"Encryption",
 "/encryption":"Encryption",
 "/decryption":"Decryption",
@@ -874,11 +893,12 @@ pageIndex={
 "/caesar-cipher":"Caesar cipher",
 "/one-time-pad":"One-time pad",
 "/vernam-cipher":"Vernam cipher",
+"/vernam-caesar-comparison":"Vernam vs Caesar cipher",
 },
-"/___635":{
+"/___653":{
 "_name":"System architecture",
-"/stored-program-architecture":{
-"_name":"Stored program architecture",
+"/stored-program-concept":{
+"_name":"Stored program concept",
 "/von-neumann-architecture":"Von-Neumann architecture",
 "/harvard-architecture":"Harvard architecture",
 "/addressable-memory":"Addressable memory",
@@ -905,7 +925,7 @@ pageIndex={
 "/current-instruction-register":"Current instruction register",
 "/memory-address-register":"Memory address register",
 "/memory-buffer-register":"Memory buffer register",
-"/___655":"status-register",
+"/___673":"status-register",
 "/accumulator":"Accumulator",
 "/fetch-execute-cycle-registers":"Fetch-execute cycle registers",
 },
@@ -914,39 +934,39 @@ pageIndex={
 "/processor-core":"Processor core",
 },
 },
-"/___660":{
+"/___678":{
 "_name":"Networks",
-"/___661":{
+"/___679":{
 "_name":"Servers and clients",
 "/server":"Server",
 "/client":"Client",
 "/client-server-network":"Client-server network",
 "/peer-to-peer-network":"Peer-to-peer network",
 },
-"/___666":{
+"/___684":{
 "_name":"Network scale",
 "/local-area-network":"Local area network",
 "/wide-area-network":"Wide area network",
 },
-"/___669":{
+"/___687":{
 "_name":"Network hardware",
 "/network-interface-card":"Network interface card",
 "/network-switch":"Network switch",
 },
-"/___672":{
+"/___690":{
 "_name":"Transmission methods",
 "/serial-transmission":"Serial transmission",
 "/parallel-transmission":"Parallel transmission",
 "/synchronous-transmission":"Synchronous transmission",
 "/asynchronous-transmission":"Asynchronous transmission",
 },
-"/___677":{
+"/___695":{
 "_name":"Data transfer rates",
 "/baud-rate":"Baud rate",
 "/bit-rate":"Bit rate",
 "/bandwidth":"Bandwidth",
 },
-"/___681":{
+"/___699":{
 "_name":"Latency",
 "/latency":"Latency",
 "/ping-latency":"Ping latency",
@@ -959,16 +979,20 @@ pageIndex={
 "/network-protocol":{
 "_name":"Network protocol",
 "/transmission-control-protocol-internet-protocol":"Transmission Control Protocol/Internet Protocol",
-"/___689":"transmission-control-protocol",
-"/___690":"internet-protocol",
+"/___707":"transmission-control-protocol",
+"/___708":"internet-protocol",
 "/hypertext-transfer-protocol":"Hypertext Transfer Protocol",
 "/file-transfer-protocol":"File Transfer Protocol",
 },
-"/___693":{
+"/___711":{
 "_name":"Wireless networking",
 "/wifi":"WiFi",
 },
-"/___695":{
+"/___713":{
+"_name":"database",
+"/table-relationship":"Table relationship",
+},
+"/___715":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
@@ -990,7 +1014,7 @@ pageIndex={
 },
 "/c":{
 "_name":"C programming",
-"/___710":{
+"/___730":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -998,7 +1022,7 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___716":{
+"/___736":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
@@ -1010,7 +1034,7 @@ pageIndex={
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___724":{
+"/___744":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -1019,7 +1043,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___731":{
+"/___751":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -1028,13 +1052,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___738":{
+"/___758":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___742":{
+"/___762":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -1042,14 +1066,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___748":{
+"/___768":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___753":{
+"/___773":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -1057,11 +1081,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___759":{
+"/___779":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___761":{
+"/___781":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -1072,7 +1096,7 @@ pageIndex={
 },
 "/minecraft-plugin":{
 "_name":"PaperMC plugin development",
-"/___768":"minecraft-plugin/project-structure",
+"/___788":"minecraft-plugin/project-structure",
 },
 "/minecraft":{
 "_name":"Minecraft server",
