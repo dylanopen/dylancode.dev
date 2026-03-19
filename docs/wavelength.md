@@ -1,7 +1,6 @@
 # Wavelength
 
-The *wavelength* of a wave is the distance between two consecutive points that
-are in phase (for example, two consecutive peaks or troughs) in a wave.
+The *wavelength* of a wave is the distance between two consecutive points that are in phase (for example, two consecutive peaks or troughs) in a wave.
 
 ## Notation
 

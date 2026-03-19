@@ -8,7 +8,7 @@ This can be useful, see [uses of polarisation](/uses-of-polarisation).
 
 ## How do we polarise waves?
 
-Unpolarised waves have oscillations occuring in all sorts of directions. We
+Unpolarised waves have oscillations occurring in all sorts of directions. We
 *only* want to 'let through' one of those directions, so we need some way of
 filtering out the other directions.
 
@@ -20,6 +20,12 @@ For example, if we want to polarise a wave so that the oscillations occur in the
 vertical direction, we can create a vertical 'slot' for the wave to pass
 through. Then, waves oscillating in the horizontal direction (or any other
 direction) will be blocked.
+
+## What waves can be polarised?
+
+We can **only** polarise [[transverse-wave]]s - not [[longitudinal-wave]]s.
+
+That's because the [[wave-oscillation]]s of [[transverse-wave]]s can be *fixed to a plane* (direction) - but [[longitudinal-wave]]s can't.
 
 ## Polaroid
 
