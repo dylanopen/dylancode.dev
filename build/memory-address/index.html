@@ -3,7 +3,7 @@
     <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Address bus</title>
+	<title>Memory address</title>
 	<style>body{background-color:#0c0c0c;color:#fff}</style>
 	<link defer rel="stylesheet" href="/css/doc4dev.css">
 	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
@@ -19,12 +19,8 @@
 		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
 	    </div>
 	    <div class="main-content">
-		<h1>Address bus</h1>
-<blockquote>
-<p>The address bus is a <a href="/computer-bus">bus</a> that carries the <a href="/memory-address">addresses</a> of memory locations from the processor to the main memory, so the <a href="/main-memory">main memory</a> knows where to read or write data.</p>
-</blockquote>
-<p>The number of bits the address bus has determines how many <a href="/memory-location">memory-location</a>s the <a href="/processor">processor</a> can access. This is the <a href="/bus-width">bus width</a>. dFor most modern computers, the address bus is 64 bits wide, which means that the <a href="/processor">processor</a> can access <im>2^{64}</im> memory locations.<br />
-Older computers had narrower address buses, like 32 bits, which meant they could only access <im>2^{32}</im> memory locations.</p>
+		<h1>Memory address</h1>
+<p>A memory address is just the number we give to represent a location in <a href="/main-memory">main memory</a>. It’s like a label that we can use to refer to a specific <a href="/byte">byte</a> or group of bytes in memory.</p>
 
 	    </div>
 	</div>

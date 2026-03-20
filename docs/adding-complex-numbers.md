@@ -1,6 +1,6 @@
 # Adding complex numbers
 
-To add complex numbers, you simply add together the real parts and add together
+To add complex numbers, you simply add together the [[real-numbers|real parts]] and add together
 the imaginary parts separately.
 
 Let $z=a+bi$ and let $w=c+di$.  

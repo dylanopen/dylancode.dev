@@ -899,7 +899,7 @@ pageIndex={
 "_name":"System architecture",
 "/stored-program-concept":{
 "_name":"Stored program concept",
-"/von-neumann-architecture":"Von-Neumann architecture",
+"/von-neumann-architecture":"Von Neumann architecture",
 "/harvard-architecture":"Harvard architecture",
 "/addressable-memory":"Addressable memory",
 },
@@ -990,9 +990,10 @@ pageIndex={
 },
 "/___713":{
 "_name":"database",
+"/___714":"database-record",
 "/table-relationship":"Table relationship",
 },
-"/___715":{
+"/___716":{
 "_name":"Server hosting",
 "/types-of-server-hosting":"Types of server hosting",
 },
@@ -1014,7 +1015,7 @@ pageIndex={
 },
 "/c":{
 "_name":"C programming",
-"/___730":{
+"/___731":{
 "_name":"Hello world",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
@@ -1022,7 +1023,7 @@ pageIndex={
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/___736":{
+"/___737":{
 "_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
@@ -1034,7 +1035,7 @@ pageIndex={
 "/cs/hello-world":"Hello world",
 "/cs/comments":"Comments",
 "/cs/variables":"Variables",
-"/___744":{
+"/___745":{
 "_name":"Data types",
 "/cs/data-types":"Data types",
 "/cs/integers":"Integers",
@@ -1043,7 +1044,7 @@ pageIndex={
 "/cs/boolean":"Boolean",
 "/cs/type-casting":"Type casting",
 },
-"/___751":{
+"/___752":{
 "_name":"Operators",
 "/cs/arithmetic-operators":"Arithmetic operators",
 "/cs/division":"Division",
@@ -1052,13 +1053,13 @@ pageIndex={
 "/cs/comparison-operators":"Comparison operators",
 "/cs/logical-operators":"Logical operators",
 },
-"/___758":{
+"/___759":{
 "_name":"Selection",
 "/cs/if-statements":"If statements",
 "/cs/else-if-statements":"Else-if statements",
 "/cs/else-statements":"Else statements",
 },
-"/___762":{
+"/___763":{
 "_name":"Iteration",
 "/cs/loops":"Loops",
 "/cs/while-loops":"While loops",
@@ -1066,14 +1067,14 @@ pageIndex={
 "/cs/break-statements":"Break statements",
 "/cs/continue-statements":"Continue statements",
 },
-"/___768":{
+"/___769":{
 "_name":"Arrays",
 "/cs/creating-arrays":"Creating arrays",
 "/cs/indexing-arrays":"Indexing arrays",
 "/cs/iterating-arrays":"Iterating arrays",
 "/cs/foreach-loops":"Foreach loops",
 },
-"/___773":{
+"/___774":{
 "_name":"Methods",
 "/cs/method-declaration":"Method declaration",
 "/cs/method-calling":"Method calling",
@@ -1081,11 +1082,11 @@ pageIndex={
 "/cs/default-parameters":"Default arguments",
 "/cs/method-overloading":"Method overloading",
 },
-"/___779":{
+"/___780":{
 "_name":"User input",
 "/cs/readline":"Console.ReadLine",
 },
-"/___781":{
+"/___782":{
 "_name":"Classes",
 "/cs/classes":"Classes",
 "/cs/class-declaration":"Class declaration",
@@ -1096,7 +1097,7 @@ pageIndex={
 },
 "/minecraft-plugin":{
 "_name":"PaperMC plugin development",
-"/___788":"minecraft-plugin/project-structure",
+"/___789":"minecraft-plugin/project-structure",
 },
 "/minecraft":{
 "_name":"Minecraft server",

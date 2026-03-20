@@ -21,7 +21,7 @@
 	    <div class="main-content">
 		<h1>Addressable memory</h1>
 <blockquote>
-<p>Addressable memory is a way we can lay out the memory in a computer so that we can access it using addresses. Each piece of data or instruction is stored at a specific address in memory, and we can use that address to read or write data.</p>
+<p>Addressable memory is a way we can lay out the memory in a computer so that we can access it using <a href="/memory-address">memory address</a>es. Each piece of data or instruction is stored at a specific address in memory, and we can use that address to read or write data.</p>
 </blockquote>
 <p>For example, if we have a memory with 8 bytes, we can label each byte with an address, like this:</p>
 <table><thead><tr><th>Address</th><th>Data</th></tr></thead><tbody>
@@ -31,7 +31,7 @@
 <tr><td>0x03</td><td>L</td></tr>
 <tr><td>0x04</td><td>O</td></tr>
 </tbody></table>
-<p>In this example, we have a total of 5 bytes stored in memory. Each <em>byte</em> has a unique address (0x00, 0x01, etc.) that we can use to access it. So if we want to read the data at address 0x02, we would get the value ‘L’. If we want to write a new value to address 0x03, we can do that as well.</p>
+<p>In this example, we have a total of 5 bytes stored in <a href="/main-memory">main memory</a>. Each <a href="/byte">byte</a> has a unique address (0x00, 0x01, etc.) that we can use to access it. So if we want to read the data at address 0x02, we would get the value ‘L’. If we want to write a new value to address 0x03, we can do that as well.</p>
 <h2>Giving programs their own memory</h2>
 <p>In a modern <a href="/general-purpose-computer">general-purpose computer</a>, we can have loads of different programs running at the same time. Each program needs its own memory to store its data and instructions.</p>
 <p>We need to make sure we divide the memory in a way that each program can only access its own memory, and not the memory of other programs - it would be bad if one program could read or write the data of another program without permission!</p>

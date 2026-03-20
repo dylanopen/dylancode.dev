@@ -1,9 +1,9 @@
 # Adding surds
 
-We can only add surds that have the same **surd part** (the part under the
+We can only add [[surds]] that have the same **surd part** (the part under the
 root).
 
-When adding surds with the same surd part, we simply add the coefficients (the
+When adding surds with the same surd part, we simply add the [[coefficient]]s (the
 numbers in front of the surd).
 
 ### Example: simplify $3\sqrt{2}+5\sqrt{2}$

@@ -1,13 +1,12 @@
 # Adding fractions
 
-To add fractions together, they need to have the same **denominator** (the
+To add fractions together, they need to have the same [[denominator]] (the
 bottom part of the fraction). If they don't have the same denominator, we need
-to find the *lowest common multiple* (LCM) first.
+to find the [[lowest-common-multiple]] (LCM) first.
 
 ## Making the denominators the same
 
-See [lowest common multiple](/lowest-common-multiple) for more details on how to
-find the lowest common multiple.
+See [lowest common multiple](/lowest-common-multiple) for more details on how to find the lowest common multiple.
 
 Once you have the LCM of the denominators, you can convert each fraction to an
 equivalent fraction with the LCM as the new denominator. You do this by thinking

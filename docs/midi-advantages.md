@@ -9,5 +9,4 @@
 - **Easy to change instruments**
 - **No data is lost through sampling** an analogue wave
     - With normal audio files, sampling reduces quality
-    - There's no analogue sampling, so the notes can be perfectly recreated
-    - 
+    - There's *no analogue sampling*, so the notes can be perfectly recreated

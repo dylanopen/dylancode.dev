@@ -1,6 +1,6 @@
 # Adding vector quantities
 
-If we have two vector quantities, we can add them to get a new vector quantity.
+If we have two [[vector-quantity|vector quantities]], we can add them to get a new [[vector-quantity]].
 
 The thing we get after adding two vectors together is called the *resultant*, or
 more specifically, *resultant vector*.
@@ -55,7 +55,7 @@ larger magnitude, and keeping the direction of the larger vector.
 
 ## Bearings
 
-We can write the direction of a vector as a bearing, which is the angle that the
+We can write the direction of a vector as a [[bearing]], which is the angle that the
 vector makes with the north direction, measured clockwise.
 
 For example, if a vector has a bearing of $90\degree$, then it is pointing

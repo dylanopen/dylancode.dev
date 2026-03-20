@@ -712,6 +712,7 @@
         - [[Wireless networking]]
             - [[wifi]]
         - [[database]]
+            - [[database-record]]
             - [[table-relationship]]
         - [[Server hosting]]
              - [[types-of-server-hosting]]

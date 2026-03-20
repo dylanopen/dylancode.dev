@@ -15,16 +15,45 @@ fn generate_doc_html(markdown_data: String, note_map: &HashMap<String, String>) 
         //let link_syntax_with_alias = format!("[[{}|", filename);
         if markdown_data.contains(&link_syntax) {
             let index = markdown_data.find(&link_syntax).unwrap();
-            let mut replacement_title = format!("[{}](/{})", title, filename);
-            // make lowercase if 2 chars before there's a letter or number
-            if index > 1 {
-                let prev_char = markdown_data.chars().nth(index - 2).unwrap();
-                if prev_char.is_alphanumeric() {
-                    replacement_title = replacement_title.to_lowercase();
-                }
+            let mut replacement_title = format!("[[{filename}|{title}]]");
+            // make lowercase if 2 chars before there's a letter or number or space
+            let prev_char = markdown_data.chars().nth(index - 1).unwrap();
+            if prev_char.is_alphanumeric() || prev_char.is_whitespace() {
+                let mut v: Vec<char> = title.chars().collect();
+                v[0] = v[0].to_lowercase().next().unwrap();
+                let lowercased_title: String = v.into_iter().collect();
+                replacement_title = format!("[[{filename}|{lowercased_title}]]");
             }
             markdown_data = markdown_data.replace(&link_syntax, replacement_title.as_str());
         }
+            /*else if title.chars().nth(1).unwrap().is_uppercase() {
+                dbg!("second char uppercase");
+            } else if title.chars().nth(title.find(" ").unwrap_or(1)+1).unwrap().is_uppercase() {
+                dbg!("second char uppercase");
+            } else {
+                dbg!("lowercasing");
+                let mut v: Vec<char> = title.chars().collect();
+                v[0] = v[0].to_lowercase().next().unwrap();
+                let lowercased_title: String = v.into_iter().collect();
+                replacement_title = format!("[[{filename}|{lowercased_title}]]");
+                dbg!(&replacement_title);
+            }
+        }
+           while let Some(index) = markdown_data.find(&link_syntax_with_alias) {
+           let alias_start_pos = markdown_data[index..].find("|").unwrap() + 1 + index;
+           let mut alias = String::new();
+           let mut i = alias_start_pos;
+           loop {
+           let ch = markdown_data.chars().nth(i).unwrap();
+           if ch == ']' { break; }
+           alias.push(ch);
+           i += 1;
+           }
+           let old = format!("[[{filename}|{alias}]]");
+           let replacement= format!("[{alias}]({filename})");
+           markdown_data = markdown_data.replace(&old, &replacement);
+           }
+           */
     }
 
     let cmark_markdown_data = markdown_data.clone();
@@ -159,7 +188,7 @@ fn main() {
     let sidebar_json = generate_pageindex_json(&sidebar_items);
     fs::write("build/js/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
         .expect("Failed to write pageindex.js");
-    }
+}
 
 fn generate_pageindex() -> SidebarItem {
     let pageindex_md = fs::read_to_string("docs/pageindex.md").expect("Failed to read pageindex.md");
@@ -223,7 +252,7 @@ fn generate_pageindex_json(sidebar_items: &SidebarItem) -> String {
             json.push_str(generate_pageindex_json(item).as_str());
             json.push_str("},\n");
         }
-        }
+    }
     json
 }
 

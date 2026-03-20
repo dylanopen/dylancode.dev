@@ -13,8 +13,8 @@ General-purpose computers are designed to be able to run loads of different thin
 ## Types of stored program architecture
 
 Based on the way the instructions and data are laid out in memory, we can categorise stored program architectures into two main types:
-- [Von-Neumann architecture](von-neumann-architecture)
-- [Harvard architecture](harvard-architecture)
+- [[von-neumann-architecture]]
+- [[harvard-architecture]]
 
 ## Memory storage
 
