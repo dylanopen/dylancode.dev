@@ -1,7 +1,7 @@
 # Algebraic fractions
 
-An algebraic fraction is simply a fraction which contains a variable in the
-numerator, denominator, or both.
+An algebraic fraction is simply a [[fraction]] which contains a [[variable]] in the
+[[numerator]], [[denominator]], or both.
 
 ## Examples of algebraic fractions
 
@@ -17,7 +17,7 @@ To simplify an algebraic fraction, we follow similar steps to simplifying
 numerical fractions:
 
 1. Find the [highest common factor (HCF)](/highest-common-factor) of the
-   numerator and denominator.
+   [[numerator]] and [[denominator]].
 2. Divide both the numerator and denominator by the HCF.
 3. Write the simplified fraction.
 

@@ -1,6 +1,6 @@
 # Amplitude
 
-> The *amplitude* of a wave is the **maximum displacement** of a particle.
+> The *amplitude* of a wave is the **maximum [[displacement]]** of a particle.
 
 It's basically 'the highest/lowest it can get'.
 
