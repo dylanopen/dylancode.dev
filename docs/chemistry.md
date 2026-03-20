@@ -1,6 +1,6 @@
 # Chemistry
 
 - [[Atomic structure]]
-    - [[atoms]]
+    - [[atom]]
     - [[nucleus]]
-    - [[protons]]
+    - [[proton]]

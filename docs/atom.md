@@ -12,10 +12,10 @@
 
 Atoms are made up of 3 types of *subatomic* particles (the things inside the
 atom itself):
-- [protons](/protons) - positively charged particles found in the
+- [proton](proton.md) - positively charged particles found in the
   [nucleus](/nucleus)
-- [neutrons](/neutrons) - neutral particles found in the [nucleus](/nucleus)
-- [electrons](/electrons) - negatively charged particles which orbit the
+- [neutron](neutron.md) - neutral particles found in the [nucleus](/nucleus)
+- [electrons](electron.md) - negatively charged particles which orbit the
   nucleus
 
 ## Models of the atom

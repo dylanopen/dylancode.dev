@@ -1,9 +1,9 @@
-# Neutrons
+# Neutron
 
 ## Location
 
 - Neutrons are found in the [nucleus](/nucleus) of an atom.
-- They're found alongside the [protons](/protons).
+- They're found alongside the [proton](proton.md).
 
 ## Charge
 
@@ -13,5 +13,5 @@
 ## Mass
 
 - The *atomic mass* of a neutron is 1.
-- This is (almost) the same as the mass of a [proton](/protons), which is also 1.
-- It is much larger than an [electron](/electrons).
+- This is (almost) the same as the mass of a [proton](proton.md), which is also 1.
+- It is much larger than an [electron](electron.md).
