@@ -276,6 +276,8 @@
         - [[binomial-distribution-conditions]]
         - [[binomial-distribution-notation]]
         - [[binomial-distribution-formula]]
+        - [[binomial-distribution-expectation]]
+        - [[binomial-distribution-variance]]
     - [[Variable categorisation]]
         - [[random-variable]]
         - [[discrete-variable]]
