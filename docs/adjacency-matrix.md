@@ -27,7 +27,7 @@ In an [[undirected-graph]], the adjacency matrix is *symmetric* along the main
 diagonal (from the top-left to the bottom-right).
 
 That's because an edge from vertex $V1$ to vertex $V2$ is the same as an edge
-from V2$ to $V1$ in an undirected graph.
+from $V2$ to $V1$ in an undirected graph.
 
 ## Example 1
 

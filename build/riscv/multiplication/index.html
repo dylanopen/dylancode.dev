@@ -1,31 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Multiplication</title>
-	<style>body{background-color:#0c0c0c;color:#fff}</style>
-	<link defer rel="stylesheet" href="/css/doc4dev.css">
-	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
-
-	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
-	<script defer src="/js/tex.js"></script>
-	<script defer src="/js/pageindex.js"></script>
-	<script defer src="/js/sidebar.js"></script>
-    </head>
-    <body>
-	<div class="container">
-	    <div class="sidebar">
-		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
-	    </div>
-	    <div class="main-content">
-		<h1>Multiplication</h1>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Multiplication</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Multiplication</h1>
 <h2>Multiplying two registers</h2>
 <p>To multiply two values stored in registers, we use the <code>mul</code> instruction:</p>
 <pre><code class="language-asm">mul &lt;destination register&gt;, &lt;source register 1&gt;, &lt;source register 2&gt;
 </code></pre>
-<p>For example, to multiply the values in registers <code>x1</code> and <code>x2</code>, and store the
-result in <code>x3</code>, we would write:</p>
+<p>For example, to multiply the values in registers <code>x1</code> and <code>x2</code>, and store the result in <code>x3</code>, we would write:</p>
 <pre><code class="language-asm">mul x3, x1, x2
 </code></pre>
 <h3>Example program</h3>
@@ -82,7 +61,4 @@ mul x3, x1, x2 # Multiply x1 by x2 (which is 5), store result in x3
 <p>This will effectively multiply the value in <code>x1</code> by <code>5</code>, and store the result in
 <code>x3</code>.</p>
 
-	    </div>
-	</div>
-    </body>
-</html>
+</div></div></body></html>

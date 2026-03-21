@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>```dataview</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<pre><code class="language-dataview">TABLE without id 
+out AS "Uncreated files", file.link as "Origin"
+FLATTEN file.outlinks as out
+WHERE !(out.file) AND !contains(meta(out).path, "/")
+SORT Origin ASC
+</code></pre>
+
+</div></div></body></html>

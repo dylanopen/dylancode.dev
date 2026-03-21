@@ -1,5 +1,3 @@
-# C programming
-
 - [[Hello world]]
     - [[c/project-setup]]
     - [[c/hello-world]]

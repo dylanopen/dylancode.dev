@@ -40,7 +40,7 @@ The code for 'B' is 66, 'C' is 67, and so on. The code for 'b' is 98, 'c' is
 
 - It can only represent 128 characters, which is not enough for many languages
   and symbols.
-- Event extended-ASCII which uses 8 bits can only represent 256 characters,
+- Even extended-ASCII which uses 8 bits can only represent 256 characters,
   which is still not enough for many languages and symbols.
 - It wasn't really built for non-English languages
 - We're stuck with the characters we've got - there's no way to add more

@@ -1,22 +1,20 @@
 # Proton
 
+> Proton mass: $1.670\times10^{-27}kg$  
+> Proton charge: $+1.6\times10^{-19}C$
+
 ## Location
 
-- Protons are found in the [nucleus](/nucleus) of an atom.
-- They're found alongside the [neutron](neutron.md).
+- Protons are found in the [[nucleus]] of the [[atom]]
+- They're next to the [[neutron]]s.
 
 ## Charge
 
-- Protons have a positive charge.
-- Their charge *relative* to other subatomic particles is $1+$.
+- Protons have a **positive** charge.
+- Their charge is about $+1.6\times10^{-19}C$
 
 ## Mass
 
-- The *atomic mass* of a proton is 1.
-- This is (almost) the same as the mass of a neutron, which is also 1.
-- It is much larger than an [electron](electron.md).
-
-## Electrons in an atom
-
-- [[atom|Atoms]] have equal numbers of protons and electrons
-  - That's because atoms, unlike [ions](/ions), are *neutral* overall.
+- Protons have a [[mass]] almost the same as the [[neutron]] (but a tiny bit less).
+- Mass of a proton: $1.670\times10^{-27}kg$
+- Its [[relative-mass]] is 1.

@@ -8,8 +8,7 @@ To multiply two values stored in registers, we use the `mul` instruction:
 mul <destination register>, <source register 1>, <source register 2>
 ```
 
-For example, to multiply the values in registers `x1` and `x2`, and store the
-result in `x3`, we would write:
+For example, to multiply the values in registers `x1` and `x2`, and store the result in `x3`, we would write:
 
 ```asm
 mul x3, x1, x2

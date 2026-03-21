@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Network switch</title>
-	<style>body{background-color:#0c0c0c;color:#fff}</style>
-	<link defer rel="stylesheet" href="/css/doc4dev.css">
-	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
-
-	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
-	<script defer src="/js/tex.js"></script>
-	<script defer src="/js/pageindex.js"></script>
-	<script defer src="/js/sidebar.js"></script>
-    </head>
-    <body>
-	<div class="container">
-	    <div class="sidebar">
-		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
-	    </div>
-	    <div class="main-content">
-		<h1>Network switch</h1>
-<p>A <em>switch</em> in a local area network is a device which connects all the different
-devices together, and allows them to communicate with each other.</p>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Network switch</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Network switch</h1>
+<p>A <em>switch</em> in a local area network is a device which connects all the different devices together, and allows them to communicate with each other.</p>
+<blockquote>
+<p>A device sends packets of data via the central switch or <a href="/network-hub">hub</a>, and the <strong>switch</strong> will forward the packets to only the intended recipient.</p>
+</blockquote>
 <h2>How it works</h2>
 <ul>
 <li>A device sends a <em>frame</em> (basically a packet) over the wire to the switch
@@ -33,16 +15,6 @@ a unique identifier (basically name) for each device.</li>
 received and read / processed by that device.</li>
 </ul>
 <h2>‘Dumb’ switches, or <em>hubs</em></h2>
-<p>Generally, switches are ‘smart’ and they can look at the frames and send them
-to the correct device <strong>only</strong>.</p>
-<p>But we also have ‘dumb’ switches, which are called <em>hubs</em>. A hub just sends the
-frame to <em>every</em> device on the network, and then the device that it’s meant for
-can read it and process it, while the other devices just ignore it.</p>
-<p>This makes hubs act <em>logically</em> like a <a href="/bus-topology">bus topology</a> -
-because the data is sent to every device on the network, and the devices have to
-ignore the data if it’s not meant for them, just like in a bus network.</p>
+<p><a href="/network-hub">network hub</a></p>
 
-	    </div>
-	</div>
-    </body>
-</html>
+</div></div></body></html>

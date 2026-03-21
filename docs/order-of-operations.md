@@ -6,12 +6,9 @@ multiplication, powers) to do first when finding the value of an expression.
 ## Abbreviations
 
 There are lots of abbreviations to remember the order of operations. The most common ones are:
-- **BIDMAS** (Brackets, Indices, Division and Multiplication, Addition and
-  Subtraction)
-- **BODMAS** (Brackets, Orders, Division and Multiplication, Addition and
-  Subtraction)
-- **PEMDAS** (Parentheses, Exponents, Multiplication and Division, Addition) -
-  this is more commonly used in the USA.
+- **BIDMAS** (Brackets, Indices, Division and Multiplication, Addition and Subtraction)
+- **BODMAS** (Brackets, Orders, Division and Multiplication, Addition and Subtraction)
+- **PEMDAS** (Parentheses, Exponents, Multiplication and Division, Addition) - this is more commonly used in the USA.
 
 In this page, we'll use **BIDMAS**.
 

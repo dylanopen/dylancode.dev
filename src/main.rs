@@ -141,6 +141,7 @@ fn should_skip_file(path: &str) -> bool {
 fn main() {
     fs::remove_dir_all("build").ok();
     fs::create_dir_all("build").expect("Failed to create build directory");
+    copy_dir_all("res", "build/").unwrap();
     copy_dir_all("js", "build/js").unwrap();
     copy_dir_all("css", "build/css").unwrap();
     copy_dir_all("docs/res", "build/res").unwrap();
@@ -186,7 +187,7 @@ fn main() {
 
     let sidebar_items = generate_pageindex();
     let sidebar_json = generate_pageindex_json(&sidebar_items);
-    fs::write("build/js/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
+    fs::write("build/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
         .expect("Failed to write pageindex.js");
 }
 

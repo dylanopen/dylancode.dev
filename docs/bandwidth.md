@@ -1,6 +1,8 @@
 # Bandwidth
 
-The *bandwidth* is the amount of data that can be transmitted over a
+> *Bandwidth* is the **range of frequencies** that can be transmitted over a network connection.
+
+It can also refer to the amount of data that can be transmitted over a
 communication channel in a given amount of time, usually in a second.
 
 You can kind of think of it like a water pipe: the wider the pipe, the more water can flow through it in a given amount of time. Similarly, the higher the bandwidth of a communication channel, the more data can be transmitted through it in a given amount of time.

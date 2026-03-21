@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bytecode</title>
-	<style>body{background-color:#0c0c0c;color:#fff}</style>
-	<link defer rel="stylesheet" href="/css/doc4dev.css">
-	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css" integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq" crossorigin="anonymous">
-
-	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.js" integrity="sha384-H6s1ZrH2CKpFpqR680poRdStIRJGXty7fSkxAcIfxwl9iu6A4BOPtTk7vQ58Ovio" crossorigin="anonymous"></script>
-	<script defer src="/js/tex.js"></script>
-	<script defer src="/js/pageindex.js"></script>
-	<script defer src="/js/sidebar.js"></script>
-    </head>
-    <body>
-	<div class="container">
-	    <div class="sidebar">
-		<a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a>
-	    </div>
-	    <div class="main-content">
-		<h1>Bytecode</h1>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bytecode</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Bytecode</h1>
 <p><em>Bytecode</em> is an ‘intermediate representation’ of code.</p>
 <p>Instead of directly translating high-level code (like Python or Java) into
 machine code that the CPU can execute, the high-level code is first compiled
@@ -32,7 +12,7 @@ hardware architecture.</p>
 Python), the following steps usually happen:</p>
 <ol>
 <li>The high-level code is compiled into bytecode by a compiler.</li>
-<li>The bytecode is then executed by a virtual machine (VM) or interpreter.</li>
+<li>The bytecode is then executed by a <a href="/virtual-machine">virtual machine</a> (VM)</li>
 </ol>
 <p>So you can see that actually, bytecode languages are kind of a hybrid between
 compiled and interpreted languages!</p>
@@ -52,6 +32,9 @@ source code (like variable names, line numbers, etc), which can make debugging
 easier than debugging a fully compiled binary (anyone who’s used <code>gdb</code> before
 will understand :sigh:)</li>
 </ul>
+<blockquote>
+<p>Bytecode can be used if the code needs to run on multiple platforms, so needs to be platform-independent.</p>
+</blockquote>
 <h2>Disadvantages of bytecode</h2>
 <ul>
 <li>It’s slower than native machine code, since it has to be interpreted or
@@ -62,7 +45,7 @@ of complexity.</li>
 the bytecode to run, which can lead to compatibility issues and general
 annoyance.</li>
 <li>It can often be much less efficient in terms of RAM usage (which in this day,
-isn’t ideal… $500 DDR5 anyone?)</li>
+isn’t ideal… $600 DDR5 anyone?)</li>
 <li>Bytecode can be reverse-engineered more easily than native machine code,
 so if a company wants to keep their code closed source, bytecode might not be
 the best choice.</li>
@@ -74,7 +57,4 @@ the best choice.</li>
 <li>C# and other .NET languages</li>
 </ul>
 
-	    </div>
-	</div>
-    </body>
-</html>
+</div></div></body></html>

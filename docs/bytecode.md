@@ -16,7 +16,7 @@ When you run a program written in a language that uses bytecode (like Java or
 Python), the following steps usually happen:
 
 1. The high-level code is compiled into bytecode by a compiler.
-1. The bytecode is then executed by a virtual machine (VM) or interpreter.
+2. The bytecode is then executed by a [[virtual-machine]] (VM)
 
 So you can see that actually, bytecode languages are kind of a hybrid between
 compiled and interpreted languages!
@@ -37,6 +37,8 @@ compiled and interpreted languages!
   easier than debugging a fully compiled binary (anyone who's used `gdb` before
   will understand :sigh:)
 
+> Bytecode can be used if the code needs to run on multiple platforms, so needs to be platform-independent.
+
 ## Disadvantages of bytecode
 
 - It's slower than native machine code, since it has to be interpreted or
@@ -47,7 +49,7 @@ compiled and interpreted languages!
   the bytecode to run, which can lead to compatibility issues and general
   annoyance.
 - It can often be much less efficient in terms of RAM usage (which in this day,
-  isn't ideal... $500 DDR5 anyone?)
+  isn't ideal... $600 DDR5 anyone?)
 - Bytecode can be reverse-engineered more easily than native machine code,
   so if a company wants to keep their code closed source, bytecode might not be
   the best choice.

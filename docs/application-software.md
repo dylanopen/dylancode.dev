@@ -8,11 +8,13 @@ computer hardware, application software doesn't interact directly with the
 hardware. It instead relies on the system software (e.g. the operating system
 and drivers) to handle that.
 
+> Application software is for carrying out tasks that are user-oriented.
+
 ## Examples of application software
 
 - Web browsers (like Firefox, Chrome, Safari)
-- Word processors (like Microsoft Word, Google Docs)
-- Spreadsheets (like Microsoft Excel, Google Sheets)
+- Word processors (like Libreoffice writer, Microsoft Word, Google Docs)
+- Spreadsheets (like Libreoffice Calc, Microsoft Excel, Google Sheets)
 - Media players (like VLC)
 - Email clients (like Thunderbird)
 - Games

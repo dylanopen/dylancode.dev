@@ -1,17 +1,20 @@
 # Neutron
 
+> Neutron mass: $1.675\times10^{-27}kg$  
+> Neutron charge: $0$
+
 ## Location
 
-- Neutrons are found in the [nucleus](/nucleus) of an atom.
-- They're found alongside the [proton](proton.md).
+- Neutrons are found in the [[nucleus]] of an atom.
+- They're found alongside the [[proton]].
 
 ## Charge
 
 - Neutrons have no charge - they are neutral.
-- Their charge *relative* to other subatomic particles is $0$.
+- Their charge is $0$.
 
 ## Mass
 
-- The *atomic mass* of a neutron is 1.
-- This is (almost) the same as the mass of a [proton](proton.md), which is also 1.
-- It is much larger than an [electron](electron.md).
+- Neutrons have a tiny bit more mass than [[proton]]s and are way heavier than an [[electron]].
+- Mass of a neutron: $1.675\times10^{-27}$
+- Its [[relative-mass]] is about 1/1836 of a proton.
