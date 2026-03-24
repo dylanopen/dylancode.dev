@@ -1,10 +1,5 @@
 # Antimatter
 
-Every [[particle]] has an *antimatter* version.
+*Antimatter* is effectively the opposite of [[matter]]. It's made up of [[antiparticle]]s instead of [[particle]]s, and it's basically just a group of antiparticles that are bound together in some way.
 
-A matter's corresponding antimatter has:
-- the **same** [[mass]]
-- **opposite** [[charge]]s
-
-When matter meets its antimatter, they [[annihilation|annihilate]] each other. This produces 2 [[photon]]s. Its [[mass]] becomes [[energy]].  
-The photons move off in different directions, perpendicular to the direction of travel of the original [[particle]]s (at 90 degrees to them).
+When antimatter and matter meet, they [[annihilation|annihilate]] each other, producing two [[photon]]s.

@@ -31,8 +31,8 @@ I post guides on various things that I find interesting. For example:
 - Physics resources, also primarily for A-level but some GCSE-level content
 - Programming language tutorials, including:
   - [C programming](/c/hello-world)
-  - [C# programming](/cs/hello-world)
-  - [RISC-V assembly](/riscv/smallest-program)
+  - [C# programming](/cs)
+  - [RISC-V assembly](/riscv)
   - ...and *many* more to come in the future.
 - Game server resources, including:
   - My [Minecraft server optimisation guide](/minecraft/optimisation)

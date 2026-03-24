@@ -1,7 +1,6 @@
 # Speed of electromagnetic wave
 
-The speed of *any* electromagnetic (or EM) wave is around
-$3.00\times10^8ms^{-1}$ in a vacuum.
+The speed of *any* electromagnetic (or EM) wave is around $3.00\times10^8ms^{-1}$ in a vacuum.
 
 ## Wavelength and frequency changes
 
