@@ -1,4 +1,4 @@
-# Diffraction of waves
+# Diffraction
 
 Diffraction is when waves *spread out* as they pass through a gap or around an
 obstacle. The amount of diffraction depends on the *size of the gap* compared to
