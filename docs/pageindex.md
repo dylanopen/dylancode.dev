@@ -542,6 +542,7 @@
          - [[wave-particle-duality]]
              - [[electron-diffraction]]
              - [[explaining-light-properties]]
+             - [[de-broglie-wavelength]]
 - Computer science
     - [[Computer architecture]]
         - [[hardware]]
