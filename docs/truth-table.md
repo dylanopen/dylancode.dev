@@ -1,7 +1,7 @@
 # Truth table
 
 A *truth table* is just a way of us showing all the possible outputs of a
-logical operation (or [logic gate](/logic-gates)) based on all the possible
+logical operation (or [logic gate](logic-gate.md)) based on all the possible
 combinations of its inputs.
 
 ## An example: `AND`

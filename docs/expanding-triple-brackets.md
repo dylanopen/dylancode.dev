@@ -1,10 +1,9 @@
 # Expanding triple brackets
 
-### Example: Expand $(2x + 3)(x + 4)(x - 3)$ using the grid method
-
-When we have more than two sets of brackets, we can expand them separately -
-first expand two of the brackets, then expand the result with the remaining
+When we have more than two sets of brackets, we can [[expanding-brackets|expand them]] separately - first expand two of the brackets, then expand the result with the remaining
 bracket.
+
+### Example: Expand $(2x + 3)(x + 4)(x - 3)$ using the grid method
 
 First, expand the first two brackets, $(2x + 3)(x + 4)$:
 

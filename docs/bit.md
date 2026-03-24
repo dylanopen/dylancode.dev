@@ -1,10 +1,10 @@
 # Bit
 
-A *bit* is the *fundamental unit of information*. It represents a choice
-between two values: usually written as 0 and 1.
+A *bit* is the *fundamental unit of information* in computers. It represents a choice between two values: usually written as 0 and 1.
 
-In computers, a bit represents an on-off state, and we can combine multiple
-bits to make larger units of information.
+In computers, a bit represents an on-off state, and we can combine multiple bits to make larger units of information, such as a [[nibble]] or [[byte]].
+
+> A bit is a [[binary]] digit.
 
 ## Number of values represented by bits
 
@@ -23,7 +23,7 @@ combinations is $2^n$.
 
 ## Number of bits needed for values
 
-We can also go in reverse (assuming we know how to calculate logarithms):
+We can also go in reverse (assuming we know how to calculate [[logarithm]]s):
 - To represent $m$ different values, we need at least $\log_2 m$ bits.
 - For example:
   - To represent 32 values, we need at least $\log_2 32 = 5$ bits.
@@ -32,8 +32,6 @@ We can also go in reverse (assuming we know how to calculate logarithms):
 
 ## Common multiples of bits
 
-- Most systems use a `64-bit` architecture nowadays, meaning they process data
-  in chunks of 64 bits at a time.
-- Another common size is `32-bit`, which was widely used in older systems and in
-  old windows programs which are still using ancient technology - typical
+- Most systems use a `64-bit` [[instruction-set-architecture]] nowadays, meaning they process data in chunks of 64 bits at a time.
+- Another common size is `32-bit`, which was widely used in older systems and in windows programs which are still using ancient technology - typical
   windows ;)

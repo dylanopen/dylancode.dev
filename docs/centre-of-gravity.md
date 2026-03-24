@@ -1,11 +1,11 @@
 # Centre of gravity
 
-The *centre of gravity* of an object is basically where all its weight acts, or
-where all the mass is acting.
+The centre of [[gravity]] of an object is basically where all its [[weight]] acts, or
+where all the [[mass]] is acting.
 
 ## Moments around the centre of gravity
 
-The moments need to add so that the resultant moment is **zero**.
+The [[moment]]s need to add so that the [[resultant]] moment is **zero**.
 
 Basically, the clockwise moments need to equal the anticlockwise moments.
 

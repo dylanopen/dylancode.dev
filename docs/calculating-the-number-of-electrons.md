@@ -1,7 +1,7 @@
 # Calculating the number of electrons
 
-When calculating the number of electrons, you're really calculating the *charge*
-(because charge is just a multiple of the number of electrons).
+When calculating the number of electrons, you're really calculating the [[charge]]
+(because charge is just a multiple of the number of [[electron]]s).
 
 ## Charge of a single electron
 
@@ -17,7 +17,7 @@ $$
 
 Where:
 - $n$ is the number of electrons
-- $Q$ is the total charge in coulombs
+- $Q$ is the total charge in [[coulomb]]s
 - $e$ is the charge of a single electron ($1.60\times 10^{-19}C$)
 
 ## Example: if $0.032C$ flows into a motoro in $0.20s$, calculate the current flow

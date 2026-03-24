@@ -1,7 +1,7 @@
 # Binary prefixes
 
-Just like we have *decimal* prefixes, such as mega (for x1,000,000) and
-nano (for x0.000001), we also have *binary* prefixes, which are based on powers
+Just like we have [[decimal-prefixes]], such as mega (for x1,000,000) and
+nano (for x0.000001), we also have [[binary]] prefixes, which are based on powers 
 of 2.
 
 ## Common binary prefixes

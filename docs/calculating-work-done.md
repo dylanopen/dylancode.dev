@@ -1,6 +1,6 @@
 # Calculating work done
 
-We can calculate the work done by a force using the formula:
+We can calculate the [[work-done]] by a force using the formula:
 
 $$
 \text{Work done} = \text{Force} \times \text{Distance}
@@ -13,9 +13,9 @@ Or, in symbols:
 > $$
 
 Where:
-- $W$ is the work done, in joules, $J$
-- $F$ is the force applied, in newtons, $N$
-- $d$ is the distance moved **in the direction of the force**, in metres, $m$
+- $W$ is the work done, in [[joule]]s, $J$
+- $F$ is the [[force]] applied, in [[newton]]s, $N$
+- $d$ is the [[distance]] moved **in the direction of the force**, in [[metre]]s, $m$
 
 ## Examples
 

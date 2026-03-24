@@ -1,21 +1,20 @@
 # Census
 
 If we have a population which we want to study, we can either take a *small
-sample* of the population, or we can take a *census* of the population.
+sample* of the population (see [[sampling-strategies]], or we can take a *census* of the population.
 
 ## Census
 
-> A census is a survey of an entire population. Every member of the population
-> is included in the census.
+> A census is a survey of an entire population. Every member of the population is included in the census.
 
 ## Advantages of a census
 
 - A census gives us a complete picture of the population. We can be sure that
-  our results are accurate and represent the population as a whole.
+  our results are [[accuracy|accurate]] and [[representative]] of the population as a whole.
 - It allows us to study anything we want to about the population
-- It's much more accurate than a sample, befause we are not relying on a small
+- It's much more accurate than a sample, because we are not relying on a small
   group of people to represent the population.
-- Nobody is left out - results aren't biased.
+- Nobody is left out - results aren't [[bias]]ed.
 
 ## Disadvantages of a census
 
@@ -23,7 +22,7 @@ sample* of the population, or we can take a *census* of the population.
   the population is large.
 - It can be difficult to get everyone in the population to participate in the
   census, which can lead to incomplete or inaccurate data.
-- It can be difficult to analyse and interpret the results (takes a long time to
+- It can be difficult to anaslyse and interpret the results (takes a long time to
   process the statistics).
 
 ## When to use a census

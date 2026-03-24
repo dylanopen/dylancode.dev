@@ -29,7 +29,7 @@ We know that $P=VI$, so we can substitute this into the equation for energy to g
 
 - $E$ is the energy delivered (in joules, $J$)
 - $V$ is the [[voltage]] (more specifically, [[potential-difference]]) across the circuit (in volts, $V$)
-- $I$ is the [[current]] flowing through the circuit (in amperes, $A$)
+- $I$ is the [[electrical-current]] flowing through the circuit (in amperes, $A$)
 - $t$ is the time for which the circuit is delivering energy (in seconds, $s$)
 
 Again, we can rearrange this into 4 different forms:

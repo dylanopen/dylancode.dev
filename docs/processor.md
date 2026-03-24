@@ -30,8 +30,7 @@ See: [processor core](/processor-core).
 ## What's a processor made of?
 
 Processors are made of tiny *transistors*, which are like tiny switches that can
-be turned on or off. The transistors are arranged so that they produce [logic
-gates](/logic-gates), which are the building blocks of the processor - we
+be turned on or off. The transistors are arranged so that they produce [](logic-gate.md), which are the building blocks of the processor - we
 combine logic gates together to make more complex circuits.
 
 ## Parts of the processor

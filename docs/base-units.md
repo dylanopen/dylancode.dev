@@ -2,15 +2,13 @@
 
 There are seven base 'SI' units. They are:
 
-- Meter (m) - for length
-- Kilogram (kg) - for mass
-- Second (s) - for time
-- Ampere (A) - for electric current
-- Kelvin (K) - for temperature
-- Mole (mol) - for amount of substance
-- Candela (cd) - for light intensity
-
-(You probably don't need to worry about candelas!)
+- [[meter]] (m) - for [[length]]
+- [[kilogram]] (kg) - for [[mass]]
+- [[second]] (s) - for [[time]]
+- [[ampere]] (A) - for [[electrical-current]]
+- [[kelvin]] (K) - for [[temperature]]
+- [[mole]] (mol) - for [[amount-of-substance]]
+- [[candela]] (cd) - for [[light-intensity]]
 
 ## Summary of units
 

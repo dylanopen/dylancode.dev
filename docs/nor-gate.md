@@ -9,6 +9,8 @@ other cases, it will output a `0`.
 
 ## Truth table
 
+The [[truth-table]] for it looks like:
+
 | Input A | Input B | Output (A NOR B) |
 |---------|---------|------------------|
 |    0    |    0    |      **1**       |

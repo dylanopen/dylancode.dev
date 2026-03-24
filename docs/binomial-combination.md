@@ -1,8 +1,8 @@
 # Binomial combination
 
-To understand what a binomial combination is, let's do an example.
+To understand what a [[binomial]] [[combination]] is, let's do an example.
 
-Suppose we are expanding the expression $(a+b)^2$, into $a^2 + 2ab + b^2$.
+Suppose we are [[expanding-brackets|expanding]] the expression $(a+b)^2$, into $a^2 + 2ab + b^2$.
 
 THe *coefficient* of the $ab$ term is $2$. The reason for that is because, when
 we multiply out all the brackets, there are *two times* where we multiply
@@ -31,7 +31,7 @@ you have to:
 
 ## Finding the coefficient of a term
 
-Let's say we want to find the coefficient of the $a^2b^3$ term of the expansion
+Let's say we want to find the [[coefficient]] of the $a^2b^3$ term of the expansion
 of $(a+b)^5$. That would be $^5C_2$ because the $a^2b^3$ term is the term where
 $a$ has power $2$.
 

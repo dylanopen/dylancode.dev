@@ -1,10 +1,9 @@
 # Asynchronous transmission
 
-Asynchronous transmission is when we send data without a clock signal, and
-instead we send extra signals to indicate when data is being sent.
+Asynchronous transmission is [[data-transmission]] without a [[clock]] signal, and instead we send extra signals to indicate when data is being sent.
 
-For example, we might send a *start bit* to indicate that we're about to send
-data, and then we send the data bits, and then we send a *stop bit* to indicate
+For example, we might send a [[start-bit]] to indicate that we're about to send
+data, and then we send the data bits, and then we send a [[stop-bit]] to indicate
 that we're done sending data.
 
 The advantage of asynchronous transmission is that the sender and receiver don't
@@ -23,19 +22,19 @@ that data is coming.
 Then, after we send the data bits, we send a stop bit to indicate that we're
 done sending data.
 
-The start signal may be a 0 or a 1 depending on the protocol. The key thing
+The start signal may be a 0 or a 1 depending on the [[protocol]]. The key thing
 is that it is **different** from the **stop bit**.
 
-## Synchronization
+## Synchronisation
 
 In asynchronous transmission, the sender and receiver are not synchronised to
 the same clock signal, so they need to use the start and stop bits to indicate
-when data is being sent. They *are* synchronised to each other, after the
+when data is being sent. They *are* [[synchronised]] to each other, after the
 start bit. So they know when to read the next bit, but they don't have to stay
-constantly synchronised to a clock signal, which can save power.
+constantly synchronised to a [[clock]] signal, which can save power.
 
 ## Examples of asynchronous transmission
 
-- UART (Universal Asynchronous Receiver Transmitter)
-- RS-232 (a standard for serial communication)
-- MIDI (Musical Instrument Digital Interface)
+- [[uart|UART]] (Universal Asynchronous Receiver Transmitter)
+- [[rs232|RS-232]] (a standard for serial communication)
+- [[midi|MIDI]] (Musical Instrument Digital Interface)

@@ -2,7 +2,7 @@
 
 ## What are Cartesian coordinates?
 
-- Cartesian coordinates are a way of writing a position on a graph.
+- Cartesian [[coordinate]]s are a way of writing a [[position]] on a graph.
 - They're usually written as an ordered pair: (x, y).
 
 ## x and y coordinates

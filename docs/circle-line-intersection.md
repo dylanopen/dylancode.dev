@@ -1,10 +1,12 @@
 # Circle-line intersection
 
-If we want to find the points of intersection between a circle and a line, 
-there are three possiblities:
+If we want to find the points of [[intersection]] between a [[circle]] and a [[straight-line-equation|straight line]], 
+there are three possibilities:
 - The line does not intersect the circle (0 points of intersection)
 - The line is tangent to the circle (1 point of intersection)
 - The line intersects the circle in two places (2 points of intersection)
+
+See [[number-of-intersections-between-graphs]]
 
 ## Finding the points of intersection between a circle and a line
 
@@ -14,17 +16,17 @@ substitution.
 
 Here are the steps:
 1. Write down the equations of the circle and the line.
-2. Rearrange the equation of the line to make $y$ the subject (if it isn't
+2. [[rearranging-equations|Rearrange]] the equation of the line to make $y$ the subject (if it isn't
    already).
-3. Substitute the expression for $y$ from the line equation into the circle
+3. [[substitution|Substitute]] the expression for $y$ from the line equation into the circle
    equation.
 4. Rearrange the resulting equation into the form $ax^2 + bx + c = 0$.
-5. Solve the quadratic equation using the quadratic formula, factorisation, or
-   completing the square.
+5. Solve the quadratic equation using the [[quadratic-formula]], [[factorising-quadratics|factorising]], or
+   [[completing-the-square]].
 6. Substitute the $x$-values found back into the equation of the line to find
    the corresponding $y$-values.
 
-That's sounds like a lot of steps, but let's see it in action with an example.
+That's sounds like a lot of steps, but let's see it in practice with an example.
 
 ### find the points of intersection between the circle $x^2 + y^2 = 25$ and the line $y = 2x + 1$.
 

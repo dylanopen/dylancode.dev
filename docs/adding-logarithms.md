@@ -1,7 +1,6 @@
 # Adding logarithms
 
-When adding together two logarithms with the same base, it's equivalent to
-multiplying the values inside the logarithms:
+When adding together two [[logarithm]]s with the same [[logarithm-base|base]], it's equivalent to multiplying the values inside the logarithms:
 
 $$
 \log_b(x) + \log_b(y) = \log_b(xy)

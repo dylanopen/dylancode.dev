@@ -1,6 +1,6 @@
 # XOR gate
 
-An *XOR gate* (short for 'exclusive OR gate') takes two input signals and
+An *XOR* [[logic-gate]] (short for 'exclusive OR gate') takes two input signals and
 produces an output signal that is `1` if **exactly one** of the input signals is
 `1`.
 
@@ -9,6 +9,8 @@ each other; if both input signals are the same (both `0` or both `1`), the
 output will be `0`.
 
 ## Truth table
+
+The [[truth-table]] for it looks like:
 
 | Input A | Input B | Output (A XOR B) |
 |---------|---------|------------------|
