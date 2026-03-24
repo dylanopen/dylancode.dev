@@ -539,6 +539,9 @@
              - [[electronvolt]]
              - [[excitation-causes]]
              - [[de-excitation]]
+         - [[wave-particle-duality]]
+             - [[electron-diffraction]]
+             - [[explaining-light-properties]]
 - Computer science
     - [[Computer architecture]]
         - [[hardware]]
