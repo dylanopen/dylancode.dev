@@ -14,5 +14,3 @@ There's isn't a *proven* way of calculating it, but de Broglie theorised that:
     - $m$ is its [[mass]]
     - $v$ is its [[velocity]]
     - we multiply them together to get momentum.
-
-
