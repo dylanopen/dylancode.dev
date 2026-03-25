@@ -546,7 +546,7 @@
              - [[electron-diffraction]]
              - [[explaining-light-properties]]
              - [[de-broglie-wavelength]]
-         - Types of particle
+         - Particle interaction
              - [[antimatter]]
              - [[pair-production]]
              - [[annihilation]]
@@ -554,8 +554,11 @@
                  - [[positron]]
              - [[electromagnetic-force]]
              - [[gravitational-force]]
+         - Classifying particles
              - [[hadron]]
              - [[lepton]]
+             - [[baryon]]
+             - [[meson]]
          - [[particle-forces]]
              - [[gravitational-force]]
              - [[electromagnetic-force]]
