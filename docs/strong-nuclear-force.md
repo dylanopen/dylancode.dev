@@ -2,9 +2,9 @@
 
 Inside an [[atom]]'s [[nucleus]], the [[proton]]s are all positively charged, so they repel each other due to the [[electrostatic-force]]. 
 
-Holding them back together again is a [[force]] called the *strong nuclear force*, keeping the nucleus stable.
+Holding them back together again is a [[force]] called the *strong nuclear force*, keeping the nucleus stable. It acts between the [[proton]]s and the [[neutron]].
 
-## Short range
+## Range
 
 - The strong nuclear force is really strong, but it only works over very short distances (about the size of a nucleus). 
 - It's only got a range of about $3\times10^{-15}$ meters. That means it only works when the [[proton]]s and [[neutron]]s are really close together, like inside the nucleus.
