@@ -8,5 +8,9 @@ Hadrons are made up of 2-3 [[quark]]s.
 
 ## Types of hadron
 
-- [[baryon]]s
+- [[baryon]]
+    - [[proton]]
+    - [[neutron]]
 - [[meson]]s
+    - [[pion]]
+    - [[kaon]]
