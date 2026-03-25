@@ -551,6 +551,7 @@
                  - [[positron]]
              - [[electromagnetic-force]]
              - [[gravitational-force]]
+             - [[hadron]]
          - [[particle-forces]]
              - [[gravitational-force]]
              - [[electromagnetic-force]]
