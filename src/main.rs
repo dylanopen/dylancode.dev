@@ -142,8 +142,6 @@ fn main() {
     fs::remove_dir_all("build").ok();
     fs::create_dir_all("build").expect("Failed to create build directory");
     copy_dir_all("res", "build/").unwrap();
-    copy_dir_all("js", "build/js").unwrap();
-    copy_dir_all("css", "build/css").unwrap();
     copy_dir_all("docs/res", "build/res").unwrap();
 
     let mut note_map = HashMap::new();

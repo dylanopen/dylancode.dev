@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Colour map</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Colour map</h1>
+<p>A <a href="/bitmap-image">bitmap image</a> has a <a href="/bitmap-colour-depth">colour depth</a>. This determines the number of colours the image can represent.</p>
+<p>Every <a href="/pixel">pixel</a>’s colour is represented by a <a href="/binary">binary</a> number. To know which number represents which colour, we need to have a <em>colour map</em>.</p>
+<h2>What is a colour map?</h2>
+<p>A colour map just stores a map (table) of the number and the colour it represents, so we can associate a binary pixel number with a colour.</p>
+<h2>Pre-set colour map</h2>
+<p>Some formats, such as Windows’ <a href="/bmp-format">bmp-format</a>, have a hard-coded set of
+colours that all bitmaps will use.</p>
+<p>For example, if we store an image in 4 bits, there are only 16 possible colours,
+and these colours <strong>are the same for all bitmap images of that format</strong>.</p>
+<p>This isn’t very good if we want to store colours other than the pre-set map of
+the format’s colours.</p>
+<h2>Stored colour map</h2>
+<p>To fix this, we can use what I like to call a ‘stored colour map’. Instead of
+using the format’s default <a href="/colour-map">colour map</a>, we can store a map (like a table) of the
+colour code, alongside the actual colour it makes up.</p>
+<p>That way, if we have a specific colour used in our image, we can replicate
+exactly that colour, while also using fewer bits per pixel.</p>
+<p>This map is stored in the metadata. It might look something like this if we
+visualise it:</p>
+<table><thead><tr><th>Code</th><th>Colour</th></tr></thead><tbody>
+<tr><td>0</td><td>black</td></tr>
+<tr><td>1</td><td>red</td></tr>
+<tr><td>2</td><td>green</td></tr>
+<tr><td>3</td><td>blue</td></tr>
+<tr><td>4</td><td>yellow</td></tr>
+<tr><td>…</td><td>…</td></tr>
+<tr><td>15</td><td>white</td></tr>
+</tbody></table>
+
+</div></div></body></html>

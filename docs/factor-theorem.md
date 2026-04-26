@@ -13,6 +13,13 @@ From that equation, you know that $2$ must be a root of the polynomial (in other
 words, where $x=2$, the polynomial equals zero). You can also see that $(x-2)$
 is a factor of the polynomial. This is exactly what the factor theorem states.
 
+## Notation
+
+We can write the factor theorem as:
+$$
+(x-a)\text{ is a factor}
+$$
+
 ## Examples
 
 ### Find the two roots of the polynomial $f(x) = x^2 - x - 6$ using the factor theorem
