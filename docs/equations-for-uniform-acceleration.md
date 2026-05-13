@@ -26,6 +26,10 @@ s=ut+\frac12at^2
 $$
 
 $$
+s=vt-\frac12at^2
+$$
+
+$$
 v^2=u^2+2as
 $$
 

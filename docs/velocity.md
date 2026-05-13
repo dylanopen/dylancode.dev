@@ -37,6 +37,7 @@ Where:
 - $v$ is the velocity, measured in metres per second, $ms^{-1}$ ($m/s$)
 - $t$ is the time, measured in seconds, $s$
 
+This calculates the *average* velocity.
 
 ### A van drives 200m in 10s. Calculate the velocity.
 
