@@ -12,3 +12,5 @@ We can do a point distribution on a [[distribution]] which can only take [[discr
 
 - [[poisson-point-distribution]]
 - [[binomial-point-distribution]]
+
+For more info on why, see [[continous-random-point-distribution]].
