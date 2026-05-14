@@ -2,16 +2,23 @@
 
 Just like when working with any data involving probabilities:
 
-> The **mode** is the value with the highest probability.
+> The **[[mode]]** is the value with the highest probability.
 
 We know this, because the mode is defined as the value that appears most
-frequently in a data set. In the case of probability, the one that occurs most
+frequently in a data set. In the case of [[probability]], the one that occurs most
 frequently is the one with the highest probability, which then gives us that
 fact.
 
 ## Notation
 
 We can write the mode of a list of values $X$ as just $\text{Mode}(X)$.
+
+## Multiple modes
+
+If there are two or more values of $X$ with the same, highest probability, they are all modes of the variable.
+
+For two modes, we call it [[mode|bimodal]].
+
 
 ## Calculating the mode
 
