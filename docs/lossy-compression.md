@@ -1,6 +1,6 @@
 # Lossy compression
 
-**Lossy compression** is a type of [compression](/compression) where the original
+**Lossy compression** is a type of [file-compression](file-compression.md) where the original
 file can't be perfectly reconstructed from the compressed version - some data
 is lost when we compress it. This can lead to a loss in quality, and if we
 compress it too much, it can look really bad.

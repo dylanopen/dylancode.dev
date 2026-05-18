@@ -1,6 +1,6 @@
 # Lossless compression
 
-**Lossless compression** is a type of [compression](/compression) where the
+**Lossless compression** is a type of [file-compression](file-compression.md) where the
 original file can be perfectly reconstructed from the compressed version - no
 data is lost when we compress it.
 

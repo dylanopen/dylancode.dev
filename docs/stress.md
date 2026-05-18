@@ -1,7 +1,7 @@
 ---
 
 ---
-Z# Stress
+# Stress
 
 - *Stress* is the [[force]] applied per unit [[area]], similar to [[pressure]].
 - We can write it as $\sigma$.

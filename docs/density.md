@@ -16,4 +16,3 @@ Density measures the amount of [[mass]] per unit [[volume]].
 
 - The SI unit for density is $kg\,m^{-3}$.
 - We can also use $g\,cm^{-3}$.
-- 
