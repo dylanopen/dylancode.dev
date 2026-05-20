@@ -1,17 +1,16 @@
 # Real numbers
 
-*Real numbers* are all the numbers that can be found on a number line. This
-includes both *rational* and *irrational* numbers.
+*Real numbers* are all the numbers that can be found on a [[number-line]]. This
+includes both [[rational-numbers]] and [[irrational-numbers]].
 
-The opposite of a *real number* is a *complex number* (which includes the
+The opposite of a *real number* are [[complex-numbers]] (which include the
 imaginary unit $i$).
 
-> More simply, a real number is any number with only a real part (no imaginary
-> part, so no coefficient of $i$).
+> More simply, a real number is any number with only a [[real-part]] (no [[imaginary-part]], so no [[coefficient]] of $i$).
 
 ## Notation
 
-The set of real numbers is usually denoted by the symbol $\mathbb{R}$:
+The [[set]] of real numbers is usually denoted by the symbol $\mathbb{R}$:
 
 $$
 \mathbb{R} = \{ x \mid x \in \mathbb{Q} \text{ or } x \in \mathbb{I} \}
