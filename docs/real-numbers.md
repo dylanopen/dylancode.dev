@@ -3,7 +3,7 @@
 *Real numbers* are all the numbers that can be found on a [[number-line]]. This
 includes both [[rational-numbers]] and [[irrational-numbers]].
 
-The opposite of a *real number* are [[complex-numbers]] (which include the
+The opposite of a *real number* are [[complex-number]] (which include the
 imaginary unit $i$).
 
 > More simply, a real number is any number with only a [[real-part]] (no [[imaginary-part]], so no [[coefficient]] of $i$).

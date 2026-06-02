@@ -1,4 +1,4 @@
-# Complex numbers
+# Complex number
 
 A complex number is a number which contains both an *imaginary part* and a *real
 part*.

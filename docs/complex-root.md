@@ -1,0 +1,18 @@
+# Complex root
+
+## Solving $z^n=w$
+
+- There will be $n$ solutions.
+- They'll form a **regular** $n$-sided polygon centred at the origin, if we draw it on an Argand diagram.
+
+## Solve $z^2=4$
+
+- $z=2$ or $z=-2$
+
+## Solve $z^2=-4$
+
+- $z=2$ or $z=-2$
+
+## Solve $z^2=4$
+
+- $z=2$ or $z=-2$
