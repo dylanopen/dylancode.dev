@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Deriving Euler's formula</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+
+<h1>Deriving Euler’s formula</h1>
+<h2>Find <im>e^{i\theta}</im></h2>
+<ul>
+<li>We know that:
+<ul>
+<li><im>e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+...</im></li>
+</ul>
+</li>
+<li>Substitute in <im>x=i\theta</im>:
+<ul>
+<li><im>e^{i\theta}=1+i\theta+\frac{i^2\theta^2}{2!}+\frac{i^3\theta^3}{3!}+\frac{i^4\theta^4}{4!}...</im></li>
+</ul>
+</li>
+<li>Separate the real and imaginary parts:
+<ul>
+<li>Real: <im>1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\frac{\theta^6}{6!}+...</im></li>
+<li>Imaginary: <im>ri(\theta-\frac{\theta^3}{3!}+\frac{\theta^5}{5!}+...)</im></li>
+</ul>
+</li>
+<li>This gives us <im>e^{i\theta}=\cos\theta+i\sin\theta</im></li>
+<li>Therefore also, <im>re^{i\theta}=r(\cos\theta+i\sin\theta)</im>: modulus-argument form.</li>
+</ul>
+<h2>Finding Euler’s identity</h2>
+<ul>
+<li><im>\cos\pi=-1</im></li>
+<li><im>\sin\pi=0</im></li>
+<li><im>e^{i\pi}=\cos\pi+i\sin\pi</im></li>
+<li><im>e^i\pi=-1+0</im></li>
+<li><im>e^i\pi=-1</im></li>
+<li><im>e^i\pi+1=0</im></li>
+</ul>
+<h2>Linking with <a href="/de-moivre-theorem">de Moivre’s theorem</a></h2>
+<ul>
+<li><im>(e^{i\theta})^n=(\cos\theta+i\sin\theta)^n</im></li>
+</ul>
+
+
+</div></div></body></html>

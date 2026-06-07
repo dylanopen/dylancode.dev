@@ -103,7 +103,7 @@ pageIndex={
 "/factorising-quadratics":"Factorising quadratics",
 "/polynomial-division":"Polynomial division",
 "/difference-of-two-squares":"Difference of two squares",
-"/factor-theorem":"The factor theorem",
+"/factor-theorem":"Factor theorem",
 },
 "/___79":{
 "_name":"Quadratics",
@@ -189,7 +189,7 @@ pageIndex={
 "/subtracting-complex-numbers":"Subtracting complex numbers",
 "/complex-number-real-multiplication":"Multiplying a complex number by a real number",
 "/complex-conjugate":"Complex conjugate",
-"/complex-numbers":"Complex numbers",
+"/complex-number":"Complex number",
 "/complex-solutions-to-polynomials":"Complex solutions to polynomials",
 "/dividing-complex-numbers":"Dividing complex numbers",
 "/factorising-polynomials-with-complex-roots":"Factorising polynomials with complex roots",
@@ -524,7 +524,7 @@ pageIndex={
 "/principle-of-moments":"Principle of moments",
 "/centre-of-gravity":"Centre of gravity",
 },
-"/___391":{
+"/linear-motion":{
 "_name":"Linear motion",
 "/distance":"Distance",
 "/displacement":"Displacement",
@@ -582,7 +582,7 @@ pageIndex={
 },
 "/___433":{
 "_name":"Energy forms",
-"/energy-forms":"Energy forms",
+"/energy-form":"Energy form",
 "/kinetic-energy":"Kinetic energy",
 "/gravitational-potential-energy":"Gravitational potential energy",
 },
@@ -938,9 +938,9 @@ pageIndex={
 "/nyquist-theorem":"Nyquist theorem",
 "/midi":"MIDI",
 },
-"/___686":{
-"_name":"Compression",
-"/compression":"Compression",
+"/file-compression":{
+"_name":"File compression",
+"/file-compression":"File compression",
 "/lossy-compression":"Lossy compression",
 "/lossless-compression":"Lossless compression",
 "/run-length-encoding":"Run-length encoding",

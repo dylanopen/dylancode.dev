@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sum of roots of unity</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+
+<h1>Sum of roots of unity</h1>
+<p>The sum of the <a href="/roots-of-unity">roots of unity</a> of any degree is always <im>0</im>.</p>
+<h2>Proof</h2>
+<ul>
+<li>Let <im>z^n=1</im></li>
+<li>The roots are <im>1,z_1,z_2,z_3,z_4,...,z_{n-1}</im></li>
+<li>We know that, for a geometric sequence, <im>\Sigma=\frac{a(1-r^n)}{1-r}</im>, where:
+<ul>
+<li><im>a</im> is the first value</li>
+<li><im>r</im> is the step multiplier</li>
+<li><im>n</im> is the length of the series</li>
+</ul>
+</li>
+<li><im>\Sigma z=1+z_1+z_2+z_3+z_4+...+z_{n-1}</im></li>
+<li><im>\Sigma z=1+z_1+z_1\,^2+z_1\,^3+z_1\,^4+...+z_1\,^{n-1}</im></li>
+<li><im>a=1</im>, <im>r=z_1</im>, <im>n=n</im></li>
+<li><im>z_1=1</im>, so <im>z_1\,^n=1</im></li>
+<li><im>\Sigma z=\frac{1(1-z_1\,^n)}{1-z^1}=\frac{1(1-1)}{1-z_1}=\frac0{1-z_1}=0</im></li>
+<li>So the sum of all roots of unity is <im>0</im>.</li>
+</ul>
+
+
+</div></div></body></html>

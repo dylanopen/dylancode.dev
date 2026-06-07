@@ -116,12 +116,10 @@ a {
     text-align: left;
     padding: 16px;
     max-width: 800px;
-    min-width: 0; 
-    margin: 0 auto; /* THIS IS THE FIX: Centers the container */
-    
+    min-width: 0; /* THIS IS THE FIX: Prevents grid item from expanding beyond viewport */
     a.dead {
-        color: #38c;
-        text-decoration: none;
+    color: #38c;
+    text-decoration: none;
     }
 }
 .sidebar-link,.sidebar-section {
