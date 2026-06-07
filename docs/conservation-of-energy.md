@@ -8,6 +8,8 @@ The principle of conservation of energy basically states that:
 What that really means is that the total amount of energy in a system is always
 the same, even if the energy is transferred from one form to another.
 
+
+
 ## Why does it seem like things lose and gain energy?
 
 When we see things losing and gaining energy, it's because the energy is being

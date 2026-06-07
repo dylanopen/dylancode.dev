@@ -1,4 +1,4 @@
-# Energy forms
+# Energy form
 
 Energy can be in different 'forms' depending on what it is doing:
 

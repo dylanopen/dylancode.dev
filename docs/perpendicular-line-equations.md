@@ -1,18 +1,16 @@
 # Perpendicular line equations
 
-Two lines are perpendicular if they intersect at a right angle (90 degrees).
+Two lines are [[perpendicular]] if they [[line-intersection|intersect]] at a [[right-angle]] (90 degrees).
 
-The key thing to remember when looking at their *equations* is that:
+The key thing to remember when looking at their [[equation]]s is that:
 
-> **the gradients of perpendicular lines are negative reciprocals of each
-  other**
+> **the [[gradient]]s of perpendicular lines are [[negative-reciprocal]]s of each other**
 
 ## Finding the negative reciprocal
 
 To find the negative reciprocal of a number, you:
-- Take the reciprocal of the number (flip its fraction form upside down)
-- Change its sign (make it negative if it was positive, or positive if it was
-  negative)
+- Take the [[reciprocal]] of the number (flip its fraction form upside down)
+- Change its sign (make it negative if it was positive, or positive if it was negative)
 
 If you're using a calculator, just type in $-1 \div m$ to find the negative
 reciprocal of a gradient $m$.
@@ -35,12 +33,10 @@ reciprocal of a gradient $m$.
 Once you know the gradient of the new line, the steps are exactly the same as
 they are for [parallel line equations](/parallel-line-equations):
 
-1. Find the negative reciprocal of the gradient of the original line to get the
-   gradient of the new line.
-2. Substitute the gradient and the coordinates of the given point into the
-   equation of a straight line: $y = mx + c$.
-3. Solve for $c$ to find the y-intercept of the new line.
-4. Write the equation of the new line using the gradient and y-intercept.
+1. Find the [[negative-reciprocal]] of the [[gradient]] of the original [[line]] to get the gradient of the new line.
+2. Substitute the gradient and the coordinates of the given point into the [[straight-line-equation]]: $y = mx + c$.
+3. Solve for $c$ to find the [[y-intercept]] of the new line.
+4. Write the equation of the new line using the [[gradient]] and [[y-intercept]].
 
 ### Example: find the equation of the line perpendicular to $y = 2x + 3$ that goes through the point (4, 5)
 

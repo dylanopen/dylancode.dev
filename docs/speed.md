@@ -26,6 +26,8 @@ Where:
 - $v$ is the speed, measured in metres per second, $ms^{-1}$ ($m/s$)
 - $t$ is the time, measured in seconds, $s$
 
+This calculates *average speed*.
+
 ### A van drives 200m in 10s. Calculate the speed.
 
 - $v=\frac st$

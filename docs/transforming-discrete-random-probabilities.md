@@ -1,6 +1,6 @@
 # Transforming discrete random probabilities
 
-Let's say we have a discrete random variable, called $X$, and we know that
+Let's say we have a [[discrete-random-variable]], called $X$, and we know that
 there is another DRV which we can write as $Y=aX+b$ - where $a$ and $b$ are
 constants.
 
@@ -9,14 +9,12 @@ also find the expected value and variance of $Y$!
 
 ## Finding $E(X)$ 
 
-> - $E(Y)=aE(X)+b$
+> $E(Y)=aE(X)+b$
 
-## FInding $Var(X)$
+See [[discrete-random-expectation-transformation]] for an explanation.
 
-> - $Var(Y)=a^2Var(X)$
+## Finding $Var(X)$
 
-## Why square $a$ when finding the variance?
+> $Var(Y)=a^2Var(X)$
 
-If we didn't square $a$, we'd be finding the [standard deviation](
-/standard-deviation). If we want to find the variance from the standard
-deviation, then we'll need to **square the result**.
+See [[discrete-random-variance-transformation]] for an explanation.

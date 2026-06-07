@@ -3,11 +3,11 @@
 When we're working with calculations involving motion, we're usually working 
 with 3-4 of these 5 values:
 
-- [displacement](/displacement) or [distance](/distance), $s$
-- initial [velocity](/velocity) or [speed](/speed), $u$
-- final [velocity](/velocity) or [speed](/speed), $v$
-- [acceleration](/acceleration), $a$
-- [time](/time), $t$
+- [[displacement]] or [[distance]], $s$
+- initial [[velocity]] or [[speed]], $u$
+- final [[velocity]] or [[speed]], $v$
+- [[acceleration]], $a$
+- [[time]], $t$
 
 ## The equations
 
@@ -23,6 +23,10 @@ $$
 
 $$
 s=ut+\frac12at^2
+$$
+
+$$
+s=vt-\frac12at^2
 $$
 
 $$

@@ -1,4 +1,4 @@
-# Compression
+# File compression
 
 When we save any sort of file, for example, an image, audio file, etc. it can
 take up *a lot* of storage on our hard drive (or, more likely, SSD).

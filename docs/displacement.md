@@ -3,12 +3,12 @@
 *Displacement* measures how far we are from our starting position.
 
 Importantly, we measure it in a certain direction, so it's a
-[vector quantity](/vector-quantity).
+[[vector quantity]]
 
 ## Example
 
 - Let's suppose we walk 1km north, then 2km back.
-- THe total *distance* we travelled is 3km.
+- The total *distance* we travelled is 3km.
 - But our displacement is 1km south: because that's how much our current
   position has *changed*.
 

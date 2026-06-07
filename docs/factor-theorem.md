@@ -1,23 +1,21 @@
-# The factor theorem
+# Factor theorem
 
 The factor theorem states that:
-> If $f(x)$ is a polynomial and $f(c) = 0$ for some constant $c$, then $(x - c)$
-  is a factor of the polynomial $f(x)$.
+> If $f(x)$ is a [[polynomial]] and $f(c) = 0$ for some constant $c$, then $(x - c)$
+  is a [[factor]] of the polynomial $f(x)$.
 
-This looks incredibly complicated, but you've already seen it before.
+This looks complicated, but you've already seen it before.
 
 When you solve an equation that looks something like, for example,
 $(x-2)(x+3)=0$, you used the factor theorem without even knowing it!
 
-From that equation, you know that $2$ must be a root of the polynomial (in other
-words, where $x=2$, the polynomial equals zero). You can also see that $(x-2)$
-is a factor of the polynomial. This is exactly what the factor theorem states.
+From that equation, you know that $2$ must be a [[root]] of the [[polynomial]] (in other words, where $x=2$, the polynomial equals zero). You can also see that $(x-2)$ is a factor of the polynomial. This is exactly what the factor theorem states.
 
 ## Notation
 
 We can write the factor theorem as:
 $$
-(x-a)\text{ is a factor}
+\text{if} f(a)=0\text{, then } (x-a)\text{ is a factor of }f(x)$
 $$
 
 ## Examples

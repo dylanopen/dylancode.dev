@@ -2,8 +2,7 @@
 
 ## Standard series results
 
-It's important to remember our [standard series results](
-/standard-series-results) when working with discrete random uniform
+It's important to remember our [standard series results](/standard-series-results) when working with discrete random uniform
 distributions. The main two are these ones:
 
 - $\sum_{r=1}^n r = \frac12n(n+1)$
@@ -11,8 +10,7 @@ distributions. The main two are these ones:
 
 ## Transformations
 
-Another reminder of how we [transform discrete random probabilities](
-/transforming-discrete-random-probabilities).
+Another reminder of how we [transform discrete random probabilities](/transforming-discrete-random-probabilities).
 
 If $Y=aX+b$ is a transformation of the DRV $X$:
 - $E(Y)=aE(X)+b$
@@ -22,7 +20,7 @@ If $Y=aX+b$ is a transformation of the DRV $X$:
 
 If we have something that *looks* like a uniform distribution, but it's a 
 rectangle instead of vertical lines of the same height, then it's not a
-uniform distribution, but instead a rectangular distribution.
+uniform distribution, but instead a [[rectangular-distribution]].
 
 You should be able to tell: the graphs of rectangular distributions are,
 well, rectangles.
@@ -102,9 +100,12 @@ Now, our variance. This one's a little more complicated:
 
 > For a discrete random variable $X$ which follows a uniform distribution from
   $1$ to $n$:
-> $$
-> E(X)=\frac{n+1}{2}
-> Var(X)=\frac1{12}(n^2-1)
-> $$
+> - $E(X)=\frac{n+1}{2}$
+> - $Var(X)=\frac1{12}(n^2-1)$
 
-## 
+## Probability of a specific value
+
+To find the probability of getting $x$ from a [[discrete-random-variable]] following a [[uniform-distribution]]:
+
+> $P(X=x)=\frac1n\quad\text{for values in set}$
+> $0\quad\quad\quad\quad\quad\quad\quad \text{otherwise}$
