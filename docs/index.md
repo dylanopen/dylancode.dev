@@ -17,11 +17,11 @@ I hope our resources can help you!
 
 ## Navigating the site
 
-All finished resources are listed in the sidebar to the left of the page,
-organised by topic.
+Most finished resources are listed in the sidebar to the left of the page,
+organised by topic. Many are missing from the index but still exist as pages.
 
-You can also use the search button at the top left of the sidebar (or ctrl+k) to
-search for specific topics or keywords.
+You can also use your browser's search feature (usually ctrl+f5) to find
+specific topics by their name!
 
 ## What's there to see here?
 

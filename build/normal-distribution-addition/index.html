@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Normal distribution addition</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+
+<h1>Normal distribution addition</h1>
+<p>If we add together two <a href="/normal-distribution">normal distribution</a>s (they can be multiples) and an optional constant, the result will also follow a normal distribution. That’s because the normal distribution is a <a href="/scalable-distribution">scalable-distribution</a>.</p>
+<blockquote>
+<p><im>Z=aX+bY+c</im></p>
+<ul>
+<li><im>X</im>, <im>Y</im> and <im>Z</im> are <a href="/independent-events">independent</a> and <a href="/random-variable">random variable</a>s following a normal distribution</li>
+<li><im>a</im>, <im>b</im> and <im>c</im> are constants.</li>
+</ul>
+</blockquote>
+<p>See <a href="/continuous-random-expectation-transformation">continuous random expectation transformation</a> and <a href="/continuous-random-variance-transformation">continuous random variance transformation</a> for how to find <im>aX</im> and <im>bY</im>.</p>
+<h2>Subtraction</h2>
+<p>We can’t easily <em>subtract</em> two <a href="/normal-distribution">normal distribution</a>s, but we can add them if one of them is negative.</p>
+<p>If <im>Z=aX-bY</im>:</p>
+<ul>
+<li><im>E(Z)=E(aX)+E(-bY)=aE(X)-bE(Y)</im></li>
+<li><im>Var(Z)=Var(aX)+Var(-bY)=a^2Var(X)+b^2Var(Y)</im>
+<ul>
+<li>the negatives disappear because we are squaring the <im>-b</im></li>
+</ul>
+</li>
+</ul>
+
+
+</div></div></body></html>

@@ -40,7 +40,7 @@ symbol `×` or letter `x`):
 
 ```cs
 int product = 3 * 4; // 12
-double result = 2.5 * 4.0; // 10.0
+double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0double result = 2.5 * 4.0; // 10.0
 ```
 
 ## Order of operations

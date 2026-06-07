@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Continuous random linear transformation</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Continuous random linear transformation</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+
 <h1>Continuous random linear transformation</h1>
 <p>If we have a <a href="/continuous-random-variable">continuous random variable</a>, and we <em>transform</em> it by a linear function in the form <im>mx+c</im>, then we can apply some rules to find the <a href="/continuous-random-expectation">continuous random expectation</a> and <a href="/continuous-random-variance">continuous random variance</a> of the transformed variable.</p>
 <h2>Expectation after transformation</h2>
@@ -10,6 +11,7 @@ E(mX+c)=m\times E(X)+c
 </blockquote>
 <p>You might be able to see then that, for any <strong>linear</strong> transformation of a <a href="/continuous-random-variable">continuous random variable</a>, we just substitute the value of <im>E(X)</im> into the transformation function to get the expectation after the transformation:<br />
 <im>t(E(X))</im> for a transformation function <im>t(x)</im>.</p>
+<p>See <a href="/continuous-random-expectation-transformation">continuous random expectation transformation</a></p>
 <h2>Variance after transformation</h2>
 <p>If the <a href="/variance">variance</a> before the transformation was <im>Var(X)</im>, then, for a transformation of <im>mX+c</im> or <im>mX</im>, the transformed variance is the initial variance times the <strong>square</strong> of <im>m</im>.</p>
 <blockquote>
@@ -17,5 +19,7 @@ E(mX+c)=m\times E(X)+c
 Var(mX+c)=m^2\times Var(X)
 </ma></p>
 </blockquote>
+<p>See <a href="/continuous-random-variance-transformation">continuous random variance transformation</a></p>
+
 
 </div></div></body></html>
