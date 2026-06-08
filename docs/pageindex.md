@@ -85,7 +85,7 @@
         - [[quadratic-formula]]
         - [[solving-disguised-quadratics]]
     - [[Sequences]]
-        - [[arithmetic-sequences]]
+        - [[arithmetic-sequence]]
     - [[Simultaneous equations]]
         - [[simultaneous-equation-elimination]]
         - [[simultaneous-equation-substitution]]
