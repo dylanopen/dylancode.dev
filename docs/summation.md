@@ -3,7 +3,8 @@
 ## What does $\sum^n_{r=1} r^2$ mean?
 
 - We start our $r$ 'counter' at $1$
-- Each time, we increase $r$ by $1$ until we reach $n$
+- Each time, we increase $r$ by $1$ until we reach $n$.
+- **We include $r=n$**
 - For each value of $r$, we calculate $r^2$
 - Finally, we add all those $r^2$ values together.
 
