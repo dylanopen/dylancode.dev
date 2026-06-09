@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title></title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Coding a Minecraft plugin</h1>
+<p>dylancode.dev</p>
+<hr />
+<h2>Installing IntelliJ</h2>
+<ul>
+<li>IntelliJ is an <em>IDE</em> - it helps us write Java code more easily.</li>
+<li>Install it using your normal package manager, or from https://www.jetbrains.com/idea.</li>
+<li>Start IntelliJ and we’ll create a new plugin!</li>
+</ul>
+<hr />
+<h2>The full code</h2>
+<pre><code class="language-java">package dev.dylancode.tutorialplugin;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class TutorialPlugin extends JavaPlugin {  
+    @Override  
+    public void onEnable() {  
+        // startup code goes here
+    }
+    @Override  
+    public void onDisable() {
+        // shutdown code goes here
+    }
+}
+</code></pre>
+<hr />
+<h2><code>onEnable</code></h2>
+<ul>
+<li>Called when our plugin is <em>loaded</em> or <em>reloaded</em>.</li>
+<li>It’s the first thing that gets run, so any other classes or functions need to be added or called from here.</li>
+</ul>
+<hr />
+<h2>Plugin logger</h2>
+<ul>
+<li>The Bukkit API has separate loggers for each plugin</li>
+<li>We can get the logger for our plugin with the <code>getLogger</code> function of a <code>Plugin</code>.</li>
+<li>If we’re in the main plugin class, e.g. the <code>onEnable</code> method, just use <code>this.getLogger()</code>.</li>
+</ul>
+<pre><code class="language-java">this.getLogger().info("Hello from the logger!");
+</code></pre>
+<hr />
+<h2>Thanks for watching!</h2>
+<ul>
+<li>Find more resources and videos at <a href="https://dylancode.dev">dylancode.dev</a></li>
+<li>Subscribe for more programming content!</li>
+<li>Leave a comment if you have any questions about any topic you’d like to see covered.</li>
+<li>Obsidian Development: commissions for custom plugins available at <a href="https://dylancode.dev/commissions">dylancode.dev/commissions</a></li>
+<li>Talk to me on Discord: <a href="https://dylancode.dev/discord">dylancode.dev/discord</a></li>
+</ul>
+
+</div></div></body></html>

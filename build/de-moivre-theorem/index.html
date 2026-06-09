@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>De Moivre's theorem</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>De Moivre’s theorem</h1>
+<p>De Moivre’s theorem states that for a <a href="/complex-number">complex number</a> <im>z</im>:</p>
+<blockquote>
+<p><ma>
+ \text{for }z=r(\cos\theta+i\sin\theta)\text{, then }z^2=r^2(\cos n\theta+i\sin n\theta)
+</ma></p>
+</blockquote>
+<p>We can prove this using the modulus-argument form of the complex numbers</p>
+<h2>Proof for <im>r=2</im></h2>
+<ul>
+<li>Let <im>z=r(\cos\theta+i\sin\theta)</im></li>
+<li>It follows that <im>z^2=zz=r\cos\theta+i\sin\theta)\times r(\cos\theta+i\sin\theta)</im></li>
+<li>So <im>|z^2|=|z||z|=r\times r=r^2</im></li>
+<li>And <im>\arg(z^2)=\arg z+\arg z=\arg2z</im></li>
+<li>Therefore <im>z^2=r^2(\cos2z+i\sin2z)</im></li>
+</ul>
+<h2>Prove <im>z^n=r^n(\cos n\theta+i\sin n\theta)</im> for n = any positive integer</h2>
+<ul>
+<li>Prove by induction!</li>
+<li><im>z=r(\cos\theta+i\sin\theta)</im></li>
+<li>For <im>n=1</im>:
+<ul>
+<li><im>\text{LHS}=z^1=[r(\cos\theta+i\sin\theta)]^1=r(\cos\theta+i\sin\theta)</im></li>
+<li><im>\text{RHS}=r^1(\cos1\theta+i\sin1\theta)=r(\cos\theta+i\sin\theta)</im></li>
+<li>So true for <im>n=1</im></li>
+</ul>
+</li>
+<li>Assume true for <im>n=k</im>:
+<ul>
+<li>$z^k=r^k(\cos k\theta+i)</li>
+</ul>
+</li>
+<li>Test for <im>n=k+1</im>:
+<ul>
+<li><im>\text{LHS}=z^{k+1}=z^k\cdot z</im></li>
+<li><im>=r^k(\cos k\theta+i\sin i\theta)\cdot r(\cos\theta+i \sin\theta)</im></li>
+<li><im>=r^{k+1}(\cos k\theta+i\cos k\theta\sin\theta+i\sin k\theta\cos\theta+i^2\sin k\theta\sin\theta)</im></li>
+<li><im>=r^{k+1}[(\cos k\theta\cos\theta-\sin k\theta\sin\theta)+i(\cos k\theta\sin\theta+\sin k\theta\sin\theta)]</im></li>
+<li>Using our angle rules:</li>
+<li><im>=r^{k+1}(\cos(k\theta+\theta)+i\sin(k\theta+\theta))</im></li>
+<li><im>=r^{k+1}(\cos(k+1)\theta+i\sin(k+1)\theta)\Rightarrow\text{expected result for n=k+1}</im></li>
+</ul>
+</li>
+<li>Therefore we have proven that <im>z^n=r^n(\cos n\theta+i\sin n\theta)</im>, by induction.</li>
+</ul>
+
+</div></div></body></html>

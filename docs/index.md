@@ -36,4 +36,4 @@ I post guides on various things that I find interesting. For example:
   - ...and *many* more to come in the future.
 - Game server resources, including:
   - My [Minecraft server optimisation guide](/minecraft/optimisation)
-  - A [PaperMC plugin coding tutorial series](/minecraft-plugin/project-setup)
+  - A [PaperMC plugin coding tutorial series](/minecraft-plugin)

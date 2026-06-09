@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Project setup</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<h1>Project setup</h1>
+<p>This is how to <em>manually</em> set up a Paper plugin project without a specific IDE - it applies for any development environment you want, as long as you have a
+terminal or command line interface to work with.</p>
+<h2>File structure</h2>
+<p>Create a folder for your plugin - you can name it whatever you like, I’ll choose <code>firstplugin</code>. You’ll then need these files and folders inside it:</p>
+<pre><code>firstplugin
+├── build.gradle.kts
+├── settings.gradle.kts
+└── src
+    └── main
+        └── java
+            └── dev.dylancode.firstplugin
+                └── FirstPlugin.java
+</code></pre>
+<h3>Quick install script</h3>
+<p>If you don’t want to manually create these files and directories, you can run this instant setup script in a terminal.</p>
+<p>Feel free to replace <code>FirstPlugin</code> with whatever you’d like your plugin to be called.</p>
+<p>Bash script (Linux / macOS):</p>
+<pre><code class="language-bash">mkdir firstplugin
+cd firstplugin
+touch build.gradle.kts
+touch settings.gradle.kts
+touch gradle.properties
+mkdir -p src/main/java/dev.dylancode.firstplugin
+touch src/main/java/dev.dylancode.firstplugin/FirstPlugin.java
+mkdir -p src/main/resources
+touch src/main/resources/paper-plugin.yml
+</code></pre>
+<p>Command prompt script (Windows):</p>
+<p><em>I currently do not have a Windows environment available to test any commands, sorry :(</em></p>
+
+</div></div></body></html>

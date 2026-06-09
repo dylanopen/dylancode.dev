@@ -1,24 +1,19 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Transforming discrete random probabilities</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 <h1>Transforming discrete random probabilities</h1>
-<p>Let’s say we have a discrete random variable, called <im>X</im>, and we know that
+<p>Let’s say we have a <a href="/discrete-random-variable">discrete random variable</a>, called <im>X</im>, and we know that
 there is another DRV which we can write as <im>Y=aX+b</im> - where <im>a</im> and <im>b</im> are
 constants.</p>
 <p>If we know the expected value for <im>X</im>, as well as its variance, then we can
 also find the expected value and variance of <im>Y</im>!</p>
 <h2>Finding <im>E(X)</im></h2>
 <blockquote>
-<ul>
-<li><im>E(Y)=aE(X)+b</im></li>
-</ul>
+<p><im>E(Y)=aE(X)+b</im></p>
 </blockquote>
-<h2>FInding <im>Var(X)</im></h2>
+<p>See <a href="/discrete-random-expectation-transformation">discrete random expectation transformation</a> for an explanation.</p>
+<h2>Finding <im>Var(X)</im></h2>
 <blockquote>
-<ul>
-<li><im>Var(Y)=a^2Var(X)</im></li>
-</ul>
+<p><im>Var(Y)=a^2Var(X)</im></p>
 </blockquote>
-<h2>Why square <im>a</im> when finding the variance?</h2>
-<p>If we didn’t square <im>a</im>, we’d be finding the <a href="/standard-deviation">standard deviation</a>. If we want to find the variance from the standard
-deviation, then we’ll need to <strong>square the result</strong>.</p>
+<p>See <a href="/discrete-random-variance-transformation">discrete random variance transformation</a> for an explanation.</p>
 
 </div></div></body></html>

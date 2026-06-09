@@ -4,7 +4,6 @@
     - [[c/compiling-and-running]]
 - [[c/comments]]
 - [[c/variables]]
-- [[Data types]]
-    - [[c/data-types]]
+- [[c/data-types]]
     - [[c/integers]]
     - [[c/short]]

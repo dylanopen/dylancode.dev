@@ -64,9 +64,8 @@ main:
 
 [Run on creatorsim](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A)
 
-You might think this should work now, but it won't quit for one reason:
-> If there's no instructions after a label, it can't actually create the `main`
-> label in the output binary, because there's nothing to attach it to!
+You might think this should work now, but it won't quite for one reason:
+> If there's no instructions after a label, it can't actually create the `main` label in the output binary, because there's nothing to attach it to!
 
 It would give us this error:
 
