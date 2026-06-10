@@ -12,6 +12,7 @@ fn generate_doc_html(markdown_data: String, note_map: &HashMap<String, String>) 
     let mut markdown_data = markdown_data.clone();
     for (filename, title) in note_map {
         let link_syntax = format!("[[{}]]", filename);
+        let filename = filename.replace(" ", "-");
         //let link_syntax_with_alias = format!("[[{}|", filename);
         if markdown_data.contains(&link_syntax) {
             let index = markdown_data.find(&link_syntax).unwrap();
@@ -169,7 +170,7 @@ fn main() {
         let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
         let html_content = generate_doc_html(markdown_data, &note_map);
 
-        let filename = path.to_str().unwrap();
+        let filename = path.to_str().unwrap().replace(" ", "-");
         let output_folder = format!("build/{}", filename.replace(".md", "").replace("docs/", ""));
         fs::create_dir_all(&output_folder).expect("Failed to create output directory");
         let output_path = format!("{}/index.html", output_folder);
