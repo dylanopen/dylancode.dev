@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Setting registers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Setting registers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
+
 <h1>Setting registers</h1>
 <p>RISC-V has an <code>li</code> instruction, short for ‘load immediate’.</p>
 <p>It essentially writes a constant value to a register, for example, sets the
@@ -42,5 +43,6 @@ stop:
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x5%2C%2042%20%20%23%20Load%20the%20value%2042%20into%20register%20x5%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%20%20%20%23%20Load%20the%20exit%20system%20call%20number%20into%20register%20a7%0A%20%20%20%20ecall%20%20%20%20%20%23%20Make%20the%20system%20call%20to%20exit%20the%20program">Run on creatorsim</a></p>
 <p>If you run this program, you will see that the register <code>x5</code> contains the value
 <code>42</code>, and the program exits cleanly!</p>
+
 
 </div></div></body></html>
