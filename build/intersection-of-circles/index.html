@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Intersection of circles</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Intersection of circles</h1>
-<p>If we have two circles and know their radii and the distance between their
+<p>If we have two circles and know their radii and the <a href="/distance">distance</a> between their
 centres, we can find out <em>how</em> their circles overlap.</p>
 <h2>Ways they can overlap</h2>
 <p>There are 6 ways that two circles can overlap:</p>
@@ -28,41 +28,41 @@ they are literally the same shape)</li>
 </ul>
 <h2>Checking whether they overlap</h2>
 <p>If we know the radius of circle 1 and circle 2 (<im>r_1</im> and <im>r_2</im>), and the
-distance between their centres (<im>d</im>), we can check which of the 6 cases applies
+<a href="/distance">Distance</a> between their centres (<im>d</im>), we can check which of the 6 cases applies
 by checking some inequalities.</p>
 <h2>Separate circles</h2>
-<p>Two circles are completely separate if the distance between their centres is
+<p>Two circles are completely separate if the <a href="/distance">distance</a> between their centres is
 greater than the sum of their radii:</p>
 <p><ma>
 d &gt; r_1 + r_2
 </ma></p>
 <h2>Intersecting circles</h2>
-<p>Two circles intersect at two points if the distance between their centres is
+<p>Two circles intersect at two points if the <a href="/distance">distance</a> between their centres is
 less than the sum of their radii, but greater than the difference of their
 radii:</p>
 <p><ma>
 |r_1 - r_2| &lt; d &lt; r_1 + r_2
 </ma></p>
 <h2>Internally tangential circles</h2>
-<p>Two circles are internally tangential if the distance between their centres is
+<p>Two circles are internally tangential if the <a href="/distance">distance</a> between their centres is
 equal to the difference of their radii:</p>
 <p><ma>
 d = |r_1 - r_2|
 </ma></p>
 <h2>Externally tangential circles</h2>
-<p>Two circles are externally tangential if the distance between their centres is
+<p>Two circles are externally tangential if the <a href="/distance">distance</a> between their centres is
 equal to the sum of their radii:</p>
 <p><ma>
 d = r_1 + r_2
 </ma></p>
 <h2>One circle inside the other</h2>
-<p>Two circles are such that one is completely inside the other if the distance
+<p>Two circles are such that one is completely inside the other if the <a href="/distance">distance</a>
 between their centres is less than the difference of their radii:</p>
 <p><ma>
 d &lt; |r_1 - r_2|
 </ma></p>
 <h2>The circles are the same</h2>
-<p>Two circles are the same if the distance between their centres is zero, and
+<p>Two circles are the same if the <a href="/distance">distance</a> between their centres is zero, and
 their radii are the same:</p>
 <p><ma>
 d = 0 \quad \text{and} \quad r_1 = r_2

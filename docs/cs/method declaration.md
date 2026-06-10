@@ -21,11 +21,11 @@ The important thing that distinguishes a method from a *function* you may see in
 other programming languages is that a method is always associated with a class
 or an object.
 
-That means that methods are defined *inside* classes.
+That means that methods are defined *inside* [[classes]].
 
 ## Method declaration syntax
 
-Since the `Hello World` chapter, we've started off from this assumed code 
+Since the `[[cs/hello world|hello world]]` chapter, we've started off from this assumed code 
 structure:
 
 ```cs
@@ -61,7 +61,7 @@ There are a few different types, with the main 3 being:
 - `public`: The method can be called from anywhere.
 - `private`: The method can only be called from within the same class.
 - `protected`: The method can be called from within the same class and from
-  derived classes (inheritance).
+  derived [[classes]] (inheritance).
 
 ## Static keyword
 
@@ -101,14 +101,14 @@ The parameter list looks like this:
 (type1 param1, type2 param2, ...)
 ```
 
-For example, if we had a method that takes two integers as parameters, the
+For example, if we had a method that takes two [[integers]] as parameters, the
 parameter list would look like this:
 
 ```
 cs(int a, int b)
 ```
 
-`a` and `b` can be called anything you like. They're essentially just variables
+`a` and `b` can be called anything you like. They're essentially just [[cs/variables|variables]]
 which can be used in that method.
 
 When we call the method, we need to provide values (arguments) for each of the

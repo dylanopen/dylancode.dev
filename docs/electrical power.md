@@ -2,7 +2,7 @@
 
 ## Calculating power
 
-There are loads of different ways we can calculate the power:
+There are loads of different ways we can calculate the [[power]]:
 
 $$
 P=\frac{\Delta E}{\Delta t}

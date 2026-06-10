@@ -34,6 +34,6 @@ I post guides on various things that I find interesting. For example:
   - [[cs|C# programming]]
   - [[riscv|RISC-V assembly]]
   - ...and *many* more to come in the future.
-- Game server resources, including:
+- Game [[server]] resources, including:
   - My [[minecraft/optimisation|Minecraft server optimisation guide]]
   - A [[minecraft plugin|PaperMC plugin coding tutorial series]]

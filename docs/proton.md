@@ -15,6 +15,6 @@
 
 ## Mass
 
-- Protons have a [[mass]] almost the same as the [[neutron]] (but a tiny bit less).
+- Protons have a [[mass]] almost the same as the [[neutron]] (but a tiny [[bit]] less).
 - Mass of a proton: $1.670\times10^{-27}kg$
 - Its [[relative mass]] is 1.

@@ -30,7 +30,7 @@ effect.
        d        |
 ```
 
-- Both forces are the same distance from the pivot in this example.
+- Both forces are the same [[distance]] from the pivot in this example.
 - They have the same force, which means that the object isn't going to go up or
   down.
 - But the forces are in opposite directions: both are going **anticlockwise**

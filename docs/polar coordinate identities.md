@@ -30,4 +30,4 @@ So $\sin\theta=\frac{y}{r}$, and rearranging gives us $y=r\sin\theta$.
   - $\theta=\tan^{-1}\left(\frac yx\right)=\arctan\left(\frac yx\right)$
 
 > We do also need to check which *quadrant* it is in, to decide on what becomes
-> negative in the polar coordinates.
+> negative in the [[polar coordinates]].

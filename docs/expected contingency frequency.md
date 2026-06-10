@@ -1,6 +1,6 @@
 # Expected contingency frequency
 
-If we have a contingency table, we can use it to find the expected frequency of each cell in the table, which gives what we would expect if the two variables were independent of each other.
+If we have a [[contingency table]], we can use it to find the expected frequency of each cell in the table, which gives what we would expect if the two [[cs/variables|variables]] were independent of each other.
 
 ## Calculating the expected frequency
 
@@ -14,7 +14,7 @@ Sometimes, we refer to the expected frequency as $E_i$
 
 ## Example
 
-Suppose we have the following contingency table showing the number of people who like different types of music, split by their age group:
+Suppose we have the following [[contingency table]] showing the number of people who like different types of music, split by their age group:
 
 | Age Group    | Pop | Instrumental |
 | ------------ | --- | ------------ |

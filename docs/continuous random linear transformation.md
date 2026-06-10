@@ -17,7 +17,7 @@ See [[continuous random expectation transformation]]
 
 ## Variance after transformation
 
-If the [[variance]] before the transformation was $Var(X)$, then, for a transformation of $mX+c$ or $mX$, the transformed variance is the initial variance times the **square** of $m$.
+If the [[variance]] before the transformation was $Var(X)$, then, for a transformation of $mX+c$ or $mX$, the transformed [[variance]] is the initial [[variance]] times the **square** of $m$.
 
 > $$
 > Var(mX+c)=m^2\times Var(X)

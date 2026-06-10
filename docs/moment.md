@@ -6,7 +6,7 @@ A *moment* of a force is essentially a measure of how much a force causes an obj
 
 The turning force about any point (P) will be *greater* if the:
 - force is greater
-- perpendicular distance from P to the line in the direction of the force
+- perpendicular [[distance]] from P to the line in the direction of the force
 
 ## What's the distance measuring?
 

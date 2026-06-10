@@ -1,7 +1,7 @@
 # Rearranging equations
 
 Rearranging equations involves taking an equation and changing its *form* to get
-one of the variables on its own.
+one of the [[cs/variables|variables]] on its own.
 
 The key thing to remember when rearranging equations is that whatever you do to
 one side of the equation, you have to do to the other side as well. This keeps

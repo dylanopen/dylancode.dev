@@ -44,7 +44,7 @@ they are for [[parallel line equations]]:
 - Negative reciprocal of $2$ is $-\frac{1}{2}$
 - So the gradient of the new line is $-\frac{1}{2}$
 - We know that one of the points on the new line is (4, 5), so when $x=4$, $y=5$.
-- We can substitute these values into the equation of a straight line:
+- We can substitute these values into the [[equation of a straight line]]:
   - $y = mx + c$
   - $5 = -\frac{1}{2} \times 4 + c$
   - $5 = -2 + c$

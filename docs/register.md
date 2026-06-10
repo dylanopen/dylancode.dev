@@ -2,7 +2,7 @@
 
 [[processor|Processors]] have a small amount of very fast memory called *registers* that they use to hold data that they are currently working with.
 
-They can only hold a tiny amount of data - usually just 32-64 bits (4-8 bytes) - but they are much faster than the main memory (RAM) and can be accessed much more quickly by the CPU.
+They can only hold a tiny amount of data - usually just 32-64 bits (4-8 bytes) - but they are much faster than the [[main memory]] (RAM) and can be accessed much more quickly by the CPU.
 
 They're used to hold data that the CPU is currently processing, such as the operands for an [[arithmetic logic unit|maths operation]], or the address of a memory location that the CPU is about to access.
 

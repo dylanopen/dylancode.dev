@@ -1,6 +1,6 @@
 # nerf-spawner-mobs
 
-> This setting is in `spigot.yml`.
+> This setting is in `[[spigot]].yml`.
 
 The default value is:
 
@@ -10,14 +10,14 @@ nerf-spawner-mobs: false
 
 ## Recommended starting values
 
-If your server has lots of mob spawners, or if you find that dungeon mobs are
+If your [[server]] has lots of mob spawners, or if you find that dungeon mobs are
 causing lag, you can set this to `true`:
 
 ```yaml
 nerf-spawner-mobs: true
 ```
 
-If you *don't* think that mob spawners are a big issue for your server, just
+If you *don't* think that mob spawners are a big issue for your [[server]], just
 don't change it from the default `false`. There's no point in optimising
 something that doesn't cause any lag anyway - it will just annoy your players.
 The default value of false:
@@ -42,7 +42,7 @@ That means they won't be able to:
 
 The main thing that causes lag with mobs is their AI - pathfinding, attacking,
 looking for targets, etc. If you have lots of mobs from spawners, they can
-cause quite a bit of lag.
+cause quite a [[bit]] of lag.
 
 Disabling a mob's AI means they won't cause really any lag at all. Because
 spawner mobs usually don't need AI anyway (they are just there to be killed :P)

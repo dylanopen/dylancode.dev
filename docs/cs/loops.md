@@ -69,7 +69,7 @@ while (true) {
 ```
 
 These are almost always a mistake, unless you're writing something like an
-operating system or server that is supposed to run forever.
+[[operating system]] or [[server]] that is supposed to run forever.
 
 ### Infinite loops that we manually break out of
 

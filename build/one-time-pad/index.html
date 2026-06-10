@@ -5,9 +5,9 @@
 message that is being encrypted.</p>
 <p>It is <strong>only used once</strong> (hence the name) and then we never use it again. That’s
 because if we reuse the same pad for multiple messages, it becomes much easier
-to crack the encryption.</p>
+to crack the <a href="/encryption">encryption</a>.</p>
 <p>We can then use each character in the pad to encrypt the corresponding character
-in the plaintext message, using whatever encryption function the cipher uses.<br />
+in the plaintext message, using whatever <a href="/encryption">encryption</a> function the <a href="/cipher">cipher</a> uses.<br />
 For example, the <a href="/vernam-cipher">Vernam cipher</a> uses a one-time pad where each
 character in the pad is XORed with the plaintext character to produce the
 ciphertext character.</p>

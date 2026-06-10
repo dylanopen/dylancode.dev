@@ -1,6 +1,6 @@
 # hopper
 
-You can configure a lot of things about hoppers in the `spigot.yml` file, under
+You can configure a lot of things about hoppers in the `[[spigot]].yml` file, under
 the `world-settings` -> `default` section.
 
 The default values for the main options are:
@@ -16,7 +16,7 @@ hopper-can-load-chunks: false
 ## Recommended starting value
 
 If you care about redstone contraptions working as expected like in vanilla
-minecraft:
+[[minecraft]]:
 
 ```yaml
 ticks-per:
@@ -84,7 +84,7 @@ water stream, the hopper checks whether there's items above them.
 
 This says 'how many items should a hopper transfer at once'?
 
-The normal value is `1`. But if, for example, you have your `ticks-per/hopper-transfer`
+The normal value is `1`. But if, for example, you have your `[[ticks-per]]/hopper-transfer`
 value set to twice the normal rate, `16`, you may want 2 items to be transferred
 at once so that hopper transfers aren't 2x slower.
 

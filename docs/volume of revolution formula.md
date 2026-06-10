@@ -21,7 +21,7 @@ degrees (or $2\pi$ radians), then we just swap the $y$ and $x$:
 > V=\pi\int_a^b x^2\space dx
 > $$
 
-This does mean you need to rearrange the function of $y$ to make $x$ the
+This does [[mean]] you need to rearrange the function of $y$ to make $x$ the
 subject, then square it.
 
 ## Rotation of less than $360\degree$

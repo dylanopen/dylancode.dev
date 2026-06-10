@@ -1,6 +1,6 @@
 # Exponential function gradient
 
-The *gradient* of an exponential graph at any point is directly proportional to
+The *gradient* of an [[exponential graph]] at any point is directly proportional to
 the value of the function at that point (or the $y$ coordinate of the graph).
 
 This can be written as:
@@ -28,7 +28,7 @@ $$
 
 ## Gradient of $e^{kx}$
 
-When we have an exponential function with a coefficient in the exponent, i.e.
+When we have an [[exponential function]] with a coefficient in the exponent, i.e.
 $y=e^{kx}$, the gradient is proportional to both the value of the function and
 the coefficient $k$.
 

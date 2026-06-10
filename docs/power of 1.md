@@ -1,6 +1,6 @@
 # Power of 1
 
-Anything raised to the power of 1 is itself:
+Anything raised to the [[power]] of 1 is itself:
 
 $$
 a^1=a
@@ -16,5 +16,5 @@ $$
 
 ### Example: solve for $n$: $k^n=k$
 
-- Anything to the power of $1$ is itself...
+- Anything to the [[power]] of $1$ is itself...
 - so $n=1$

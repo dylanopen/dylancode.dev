@@ -1,7 +1,7 @@
 # Subtracting complex numbers
 
 To subtract complex numbers, you simply subtract the real parts and subtract the
-imaginary parts separately, then add the parts to form a complex number.
+imaginary parts separately, then add the parts to form a [[complex number]].
 
 Let $z=a+bi$ and let $w=c+di$.  
 $z-w=(a-c)+(b-d)i$

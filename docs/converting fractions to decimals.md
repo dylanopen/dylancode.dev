@@ -3,8 +3,8 @@
 To convert a fraction to a decimal, you **divide the numerator (top number) by
 the denominator (bottom number)**.
 
-You can do this using any method you like - such as short division, long
-division, or just a calculator (and then formatting your answer as a decimal).
+You can do this using any method you like - such as [[short]] [[riscv/division|division]], long
+[[riscv/division|division]], or just a calculator (and then formatting your answer as a decimal).
 
 ## Example conversions
 

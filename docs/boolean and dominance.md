@@ -1,6 +1,6 @@
 # Boolean AND dominance
 
-The *boolean dominance law* says that when we have a value $x$ ANDed with $0$,
+The *[[boolean]] dominance law* says that when we have a value $x$ ANDed with $0$,
 the result is always $0$, because:
 - $0 \cdot 0 = 0$
 - $1 \cdot 0 = 0$

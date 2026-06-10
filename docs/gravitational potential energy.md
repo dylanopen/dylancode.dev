@@ -3,8 +3,8 @@
 When objects are above the ground, they have the *potential* to fall down to the
 ground.
 
-When they do fall, they transfer that *gravitational* potential energy into
-[[kinetic energy]] as they speed up.
+When they do fall, they transfer that *gravitational* [[potential energy]] into
+[[kinetic energy]] as they [[speed]] up.
 
 ## Calculating the change in gravitational potential energy
 
@@ -13,7 +13,7 @@ If we know the:
 - height the object is lifted up by, in metres, $m$
 - gravitational field strength, in newtons per kilogram, $N/kg$
 
-...then we can calculate the *change* in gravitational potential energy when the
+...then we can calculate the *change* in gravitational [[potential energy]] when the
 object is lifted up or falls down!
 
 The formula we use is:
@@ -30,33 +30,33 @@ $$
 
 Where:
 
-- $\Delta E_p$ is the change in gravitational potential energy, in joules, $J$
+- $\Delta E_p$ is the change in gravitational [[potential energy]], in joules, $J$
 - $m$ is the mass of the object, in kilograms, $kg$
 - $g$ is the gravitational field strength, in newtons per kilogram, $N/kg$
-- $\Delta h$ is the change in the object's distance from the ground, in metres,
+- $\Delta h$ is the change in the object's [[distance]] from the ground, in metres,
   $m$
 
 ## Height
 
-Make sure the height is the shortest distance from the object to the ground.
+Make sure the height is the shortest [[distance]] from the object to the ground.
 
 The height should be *perpendicular* to the gravitational field lines
 (or parallel to the force of gravity).
 
 ## 'Change in'?
 
-We can't directly calculate the gravitational potential energy of an object,
-but we *can* calculate its *change* in gravitational potential energy when it
+We can't directly calculate the gravitational [[potential energy]] of an object,
+but we *can* calculate its *change* in gravitational [[potential energy]] when it
 falls or is lifted up.
 
 That's why we put the $\Delta$ symbol in front of $E_p$ and $h$ in the formula,
-to show that we're calculating the *change* in gravitational potential energy
-and height, not the actual gravitational potential energy or height.
+to show that we're calculating the *change* in gravitational [[potential energy]]
+and height, not the actual gravitational [[potential energy]] or height.
 
-If we were calculating the actual gravitational potential energy, that would
+If we were calculating the actual gravitational [[potential energy]], that would
 suggest that an object on the surface of the Earth has zero gravitational
-potential energy, which isn't true - the surface of the Earth isn't the absolute
-point where gravitational potential energy is zero, it's just the point where we
+[[potential energy]], which isn't true - the surface of the Earth isn't the absolute
+point where gravitational [[potential energy]] is zero, it's just the point where we
 usually choose to measure it from.
 
 ## Examples

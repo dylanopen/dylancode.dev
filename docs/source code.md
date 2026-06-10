@@ -16,4 +16,4 @@ If we save this code in a file called `example.c`, then `example.c` is the sourc
 
 But if we [[compilation|compile]] the program into a program [[binary]] called `example`, then `example` is *not* the source code - it's the compiled binary version of the source code, which is **not** human-readable.
 
-> In short, source code is the code we write, before it's [[compilation|compiled]] or [[interpretation|interpreted]] into a form that the computer can [[program execution|execute]].
+> In [[short]], source code is the code we write, before it's [[compilation|compiled]] or [[interpretation|interpreted]] into a form that the computer can [[program execution|execute]].

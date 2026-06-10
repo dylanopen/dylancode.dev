@@ -23,10 +23,10 @@ A prime number is any number which only has two factors: 1 and itself.
 
 ## [[composite numbers|Composite numbers]]
 
-You may think that all non-prime numbers are composite numbers, and you'd be
+You may think that all non-prime numbers are [[composite numbers]], and you'd be
 right... usually.
 
 The number $1$ has only one factor: $1$, so it is *not* prime because it does
 not have 2 factors.  
-It is also not composite, because composite numbers have **more than** 2
+It is also not composite, because [[composite numbers]] have **more than** 2
 factors.

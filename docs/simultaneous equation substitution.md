@@ -2,23 +2,23 @@
 
 *Simultaneous equations* are when we have two or more equations with multiple
 *unknowns* (letters that represent numbers we don't know yet). The goal is to find
-the values of these letters (variables) that make all the equations true at the
+the values of these letters ([[cs/variables|variables]]) that make all the equations true at the
 same time.
 
 ## When should we solve using substitution?
 
-Using substitution for simple simultaneous equations is often more difficult
+Using [[substitution]] for simple simultaneous equations is often more difficult
 than it is to use elimination. But we can't always use elimination.
 
-We should generally use substitution when the equations are not both linear (not
+We should generally use [[substitution]] when the equations are not both linear (not
 in the form $ax + by = c$).
 
 ## Basic steps to solve
 
 - Rearrange one of the equations to make one variable the subject (get it on its
   own on one side of the equation).
-- Substitute this expression into the other equation. This means replacing the
-  variable you made the subject with the expression you found.
+- Substitute this [[expression]] into the other equation. This means replacing the
+  variable you made the subject with the [[expression]] you found.
 - Solve the resulting equation to find the value of one variable.
 - Substitute this value back into one of the original equations to find the value
   of the other variable.
@@ -48,7 +48,7 @@ Like with most concepts, it's much easier to see with some examples.
 - We can rearrange Equation 1 to make $y$ the subject:
   - $y = 10 - x$
   We could also have made $x$ the subject, but I'll choose $y$ here.
-- Next, we substitute this expression for $y$ into Equation 2:
+- Next, we substitute this [[expression]] for $y$ into Equation 2:
   - $x^2 + (10 - x)^2 = 58$
 - Now we solve this equation for $x$:
   - $x^2 + (100 - 20x + x^2) = 58$

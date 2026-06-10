@@ -2,7 +2,7 @@
 
 > The chi-squared value tells us how different the data we observed is from what we would expect given the column totals and row totals.
 
-A high chi-squared value means that the observed data is very different from what we would expect. Though we do need to consider the [[degrees of freedom]] - a high chi-squared value might not necessarily be significant if the degrees of freedom are also high.
+A high chi-squared value means that the observed data is very different from what we would expect. Though we do need to consider the [[degrees of freedom]] - a high chi-squared value might not necessarily be significant if the [[degrees of freedom]] are also high.
 
 ## Calculating chi-squared for a single cell
 

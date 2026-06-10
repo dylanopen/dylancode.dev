@@ -10,4 +10,4 @@ The binomial theorem states that:
 > $$
 
 It's basically just a way of writing the *full* expansion of a binomial
-expression as a [[formula]]. You already know all this from the previous articles!
+[[expression]] as a [[formula]]. You already know all this from the previous articles!

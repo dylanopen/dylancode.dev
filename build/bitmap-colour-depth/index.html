@@ -3,17 +3,17 @@
 <h1>Bitmap colour depth</h1>
 <p>Because a <a href="/bitmap-image">bitmap image</a> is really just a long string of 1s and 0s (<a href="/binary">binary</a> digits, <a href="/bit">bit</a>s), it has no idea about the concept of colour.</p>
 <p>We <em>could</em> store each colour as 24 bits (or 32 bits if we need <a href="/transparency">transparency</a>).<br />
-That <em>would</em> allow us to store pretty much any colour, <em>but</em> it does mean that
+That <em>would</em> allow us to store pretty much any colour, <em>but</em> it does <a href="/mean">mean</a> that
 images which only use a few colours would take up a lot more storage than they
 need to.</p>
-<p>To fix this, we can store a <strong>bit depth</strong>, which will tell the program reading
+<p>To fix this, we can store a <strong><a href="/bit">Bit</a> depth</strong>, which will tell the program reading
 the image how many bits each <a href="/pixel">pixel</a>’s colour takes up.</p>
 <p>The colours represented by each number is stored in a <a href="/colour-map">colour map</a>.</p>
 <h2>Example: black and white images</h2>
 <p>If we store a black and white image, there are only two possible colours each
-pixel can have. We can represent a black-and-white image with just 1 bit per
+pixel can have. We can represent a black-and-white image with just 1 <a href="/bit">bit</a> per
 pixel (a 0 for black and a 1 for white, for example), and so our colour depth
-would be <strong>one bit</strong>.</p>
+would be <strong>one <a href="/bit">bit</a></strong>.</p>
 
 
 </div></div></body></html>

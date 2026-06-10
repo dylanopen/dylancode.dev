@@ -1,21 +1,21 @@
 # Factorising single brackets
 
-When we have an expression such as $3(x+4)$, we can use the *distributive law*
+When we have an [[expression]] such as $3(x+4)$, we can use the *distributive law*
 to expand it:
 
 - $3(x+4)=3x+12$
 
 We know this from [[expanding single brackets]].
 
-We can also *go the other way* - take the expression $3x+12$ and put it *into*
+We can also *go the other way* - take the [[expression]] $3x+12$ and put it *into*
 a bracket, which would give us $3(x+4)$. This is called *factorising*.
 
 ## Steps
 
 1. Find the [[highest common factor|highest common factor (HCF)]] of the terms
-   in the expression.
+   in the [[expression]].
 2. Write the HCF outside a set of brackets.
-3. Divide each term in the expression by the HCF, and write the results inside
+3. Divide each term in the [[expression]] by the HCF, and write the results inside
    the brackets.
 
 ## Examples

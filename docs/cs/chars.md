@@ -1,6 +1,6 @@
 # Chars
 
-A `char` is a data type in C# which represents a single 16-bit Unicode
+A `char` is a data type in C# which represents a single 16-[[bit]] Unicode
 character.  
 Essentially, it stores a single character, such as a letter, digit, or symbol.
 

@@ -1,6 +1,6 @@
 # Polynomial division
 
-Polynomial division is where we take a *polynomial* (an expression made up of
+Polynomial [[riscv/division|division]] is where we take a *polynomial* (an [[expression]] made up of
 only positive whole number powers of $x$) and divide it by another polynomial.
 
 For example: $\frac{x^2 - 5x + 6}{x - 2}$.
@@ -8,7 +8,7 @@ For example: $\frac{x^2 - 5x + 6}{x - 2}$.
 ## The grid method
 
 Just like how we can use the grid method to multiply polynomials (also known as
-'expanding brackets'), we can also use it to divide polynomials.
+'[[expanding brackets]]'), we can also use it to divide polynomials.
 
 ### Example: Divide $x^2 - 5x + 6$ by $x - 2$ using the grid method
 

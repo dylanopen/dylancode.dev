@@ -1,11 +1,11 @@
 # Impulse
 
-*Impulse* is the change in momentum of an object when a force is applied to it
+*Impulse* is the change in [[momentum]] of an object when a force is applied to it
 for a certain amount of time.
 
-In short:
+In [[short]]:
 
-> Impulse is the change in momentum.
+> Impulse is the change in [[momentum]].
 
 ## Impulse equation
 
@@ -20,7 +20,7 @@ $$
 $$
 
 Where:
-- $\text{Impulse}$ is the change in momentum of the object in kilogram meters
+- $\text{Impulse}$ is the change in [[momentum]] of the object in kilogram meters
   per second
   ($kgms^{-1}$)
 - $F$ is the force applied to the object in newtons ($N$)

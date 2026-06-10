@@ -2,7 +2,7 @@
 
 ## Distributivity of OR
 
-The **distributive law** of boolean ORing says whenever we have a [[boolean expression]] of the form $A \cdot (B + C)$, we can distribute the [[boolean and|AND]] over the [[boolean or|OR]] to get $A \cdot B + A \cdot C$.
+The **distributive law** of [[boolean]] ORing says whenever we have a [[boolean expression]] of the form $A \cdot (B + C)$, we can distribute the [[boolean and|AND]] over the [[boolean or|OR]] to get $A \cdot B + A \cdot C$.
 
 > $A \cdot (B + C) = A \cdot B + A \cdot C$
 

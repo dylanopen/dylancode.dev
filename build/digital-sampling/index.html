@@ -1,34 +1,34 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Digital sampling</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Digital sampling</h1>
-<p>When we <em>sample</em> an analogue signal, we take measurements of the analogue signal
+<p>When we <em>sample</em> an <a href="/analogue-signal">analogue signal</a>, we take measurements of the <a href="/analogue-signal">analogue signal</a>
 at regular intervals.<br />
-That means that we measure the <strong>amplitude</strong> of the analogue signal every, say,
+That means that we measure the <strong><a href="/amplitude">Amplitude</a></strong> of the <a href="/analogue-signal">analogue signal</a> every, say,
 1/44,100th of a second. We then convert those measurements each into a digital
-signal, which gives us a digital ‘equivalent’ of the analogue signal.</p>
-<p>It’s not exactly the same as the original analogue signal, but it’s a close approximation.</p>
+signal, which gives us a digital ‘equivalent’ of the <a href="/analogue-signal">analogue signal</a>.</p>
+<p>It’s not exactly the same as the original <a href="/analogue-signal">analogue signal</a>, but it’s a close approximation.</p>
 <h2>Improving quality</h2>
 <ul>
-<li>If we take more samples (measure the analogue signal more frequently), we get
-a better approximation of the original analogue signal, but it takes up more
+<li>If we take more samples (measure the <a href="/analogue-signal">analogue signal</a> more frequently), we get
+a better approximation of the original <a href="/analogue-signal">analogue signal</a>, but it takes up more
 storage space.</li>
-<li>If we store each analogue signal measurement using more bits, we can represent
+<li>If we store each <a href="/analogue-signal">analogue signal</a> measurement using more bits, we can represent
 more values, which gives us a better approximation of the original analogue
 signal, but again, takes up more storage space.</li>
-<li>Sometimes, we can use a better algorithm to convert the analogue signal into a
-more accurate digital signal. They can take more processing power, in cases,
+<li>Sometimes, we can use a better algorithm to convert the <a href="/analogue-signal">analogue signal</a> into a
+more accurate <a href="/digital-signal">digital signal</a>. They can take more processing <a href="/power">power</a>, in cases,
 though.</li>
 </ul>
 <h2>Sample rate</h2>
 <p>The sample rate is just the number of samples we take per second.</p>
 <p>FOr example, CD quality audio has a sample rate of 44,100 samples per second.
 That means that every second, we’ve taken 44,100 measurements of the analogue
-signal, and converted those into a digital signal.</p>
-<p>The higher the sample rate, the better the quality of the digital signal, but it
+signal, and converted those into a <a href="/digital-signal">digital signal</a>.</p>
+<p>The higher the sample rate, the better the quality of the <a href="/digital-signal">digital signal</a>, but it
 also takes up more storage.</p>
 <h2>Bit depth</h2>
-<p>The bit depth is the number of bits we use to store each sample.</p>
-<p>For example, CD quality audio has a bit depth of 16 bits. That means that each
+<p>The <a href="/bit">bit</a> depth is the number of bits we use to store each sample.</p>
+<p>For example, CD quality audio has a <a href="/bit">bit</a> depth of 16 bits. That means that each
 sample is stored using 16 bits, which allows us to represent 2^16 = 65,536
 different values for each sample.</p>
 

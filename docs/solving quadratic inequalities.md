@@ -1,10 +1,10 @@
 # Quadratic inequalities
 
-*Quadratic inequalities* are inequalities that involve a quadratic expression.
+*Quadratic inequalities* are inequalities that involve a quadratic [[expression]].
 For example: $5x^2 - 3x + 2 > 0$.
 
 They're a little trickier to solve than regular quadratic equations, because
-we need to find the *range* of values that satisfy the inequality, rather than
+we need to find the *[[range]]* of values that satisfy the inequality, rather than
 just specific values.
 
 ## The basic steps

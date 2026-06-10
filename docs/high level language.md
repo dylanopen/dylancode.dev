@@ -4,8 +4,8 @@ A *high-level programming language* is a programming language that is designed
 to be easy for humans to read and write.
 
 They create an *abstraction* over the low-level details of the computer's
-hardware, so that programmers can focus on solving problems and building
-software, rather than worrying about the nitty-gritty details of how the CPU and
+[[hardware]], so that programmers can focus on solving problems and building
+[[software]], rather than worrying about the nitty-gritty details of how the CPU and
 memory work.
 
 For example, instead of having to do this to print to the screen in assembly
@@ -47,7 +47,7 @@ high-level programming languages, including:
 
 - Web applications
 - Mobile apps
-- Desktop software
+- Desktop [[software]]
 - Games
 - Data analysis and machine learning
 - and much more!
@@ -56,20 +56,20 @@ high-level programming languages, including:
 
 - Easy to learn and use
 - Fast development time
-- Portable across different hardware architectures
+- Portable across different [[hardware]] architectures
   - This is a big one. Most high-level languages can be compiled or interpreted
     on different architectures with little to no changes (thanks to projects
     like [[https://llvm.org/|LLVM]]).
 - Large standard libraries and frameworks available
   - This means we don't always have to reinvent the wheel - we can use
-    existing libraries to speed up development.
+    existing libraries to [[speed]] up development.
 - Easier to read and maintain code
 
 ## Disadvantages of high-level languages
 
-- Less control over hardware
+- Less control over [[hardware]]
 - Potentially slower performance compared to low-level languages
-- May require a runtime or interpreter to execute
+- May require a runtime or [[interpreter]] to execute
 - Less efficient memory usage
 - Abstraction can sometimes lead to making mistakes if the programmer
   doesn't understand how the high-level constructs actually map to the low-level

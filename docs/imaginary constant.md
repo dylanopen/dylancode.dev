@@ -19,7 +19,7 @@ $$
 ## Simplifying imaginary numbers
 
 The second form has some interesting use-cases. Because we know that $i^2=-1$,
-we can rewrite any power of $i$ as a simple **real number**, or as just a
+we can rewrite any [[power]] of $i$ as a simple **real number**, or as just a
 coefficient of $i$.
 
 ### Example: Simplify $i^3$

@@ -16,7 +16,7 @@ $$
 \end{bmatrix}
 $$
 
-2x2 matrix of variables:
+2x2 matrix of [[cs/variables|variables]]:
 
 $$
 \begin{bmatrix}

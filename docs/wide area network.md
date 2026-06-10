@@ -28,12 +28,12 @@ LAN.
 The *transmission medium* is just the wires (or another way) that the routers
 can use to communicate with each other.
 
-- For long-distance communication, we usually use fibre-optic cables, which can
+- For long-[[distance]] communication, we usually use fibre-optic cables, which can
   transmti data really quickly over long distances without losing much of the
   signal.
 - For shorter distances, we can use things like copper cables. They're much
   slower and can be more prone to [[network interference]]
-  than fibre-optic cables, but they can be cheaper in the short-term.
+  than fibre-optic cables, but they can be cheaper in the [[short]]-term.
 - We can also use wireless communication, such as radio waves, to connect
   different LANs together. Wireless communication is often *wayy* slower than
   using cables.

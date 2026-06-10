@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>spawn-limits</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>spawn-limits</h1>
-<p>Spawn limits can be configured in the <code>bukkit.yml</code> file. By default, it looks
+<p>Spawn limits can be configured in the <code>[bukkit](/bukkit).yml</code> file. By default, it looks
 like this:</p>
 <pre><code class="language-yaml">spawn-limits:
   monsters: 70
@@ -13,9 +13,9 @@ like this:</p>
   ambient: 15
 </code></pre>
 <h2>Recommended starting values</h2>
-<p>If you run a small server with just a few friends, these values should work
+<p>If you run a small <a href="/server">server</a> with just a few friends, these values should work
 fine and still give a fairly vanilla experience (these are similar to the
-default Bukkit values):</p>
+default <a href="/bukkit">bukkit</a> values):</p>
 <pre><code class="language-yaml">spawn-limits:
   monsters: 60
   animals: 12
@@ -50,7 +50,7 @@ default Bukkit values):</p>
 make the mobs that do spawn closer to the players.</p>
 <p>Please see the <a href="/minecraft/spigot/mob-spawn-range">mob-spawn-range page</a> for
 help on doing this. As a general rule: if you <strong>lower</strong> the spawn limits, you
-should <strong>lower</strong> the mob spawn range as well.</p>
+should <strong>lower</strong> the mob spawn <a href="/range">range</a> as well.</p>
 <h2>A note on <code>per-player-mob-spawns</code></h2>
 <p>This page relies on the <code>per-player-mob-spawns</code> option being set to <code>true</code> in
 your <code>paper-world-defaults.yml</code> file. This is highly recommended, and the guide
@@ -59,8 +59,9 @@ does not support this option being set to <code>false</code>.</p>
 info on what this option does and why you should enable it.</p>
 <h2>What are spawn limits?</h2>
 <p>Spawn limits are probably <em>the most</em> important configuration option for
-optimisation, perhaps with the exception of [simulation-distance](/
-/minecraft/properties/simulation-distance).</p>
+<a href="/optimisation">optimisation</a>, perhaps with the exception of [
+/[[minecraft](/
+/[[minecraft)/<a href="/properties">properties</a>/simulation <a href="/distance">distance</a>|<a href="/simulation-distance">simulation-distance</a>]].</p>
 <blockquote>
 <p>Spawn limits are sometimes also referred to as “mob caps”. For the sake of
 this guide, they’re effectively the same thing.</p>
@@ -165,9 +166,9 @@ a detailed list of what mobs fall into each category.</p>
 <ul>
 <li>Bat</li>
 </ul>
-<p>Yep, that’s it… you can probably lower this one quite a bit, if not completely
+<p>Yep, that’s it… you can probably lower this one quite a <a href="/bit">bit</a>, if not completely
 to 0. I’ve seen some servers’ spark reports showing thousands of bats where
-optimisation has gone horribly wrong…</p>
+<a href="/optimisation">optimisation</a> has gone horribly wrong…</p>
 <h3>Water animals / water creature</h3>
 <ul>
 <li>Nautilus</li>
@@ -260,7 +261,7 @@ optimisation has gone horribly wrong…</p>
 <li>Fireball</li>
 <li>Minecart with Monster Spawner</li>
 <li>Lightning Bolt</li>
-<li>Minecart with Hopper</li>
+<li>Minecart with <a href="/hopper">hopper</a></li>
 </ul>
 
 

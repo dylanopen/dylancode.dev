@@ -23,9 +23,9 @@ A composite number is any number which has **more than** two factors.
 
 ## [[prime numbers|Prime numbers]]
 
-You may think that all non-composite numbers are prime numbers, and you'd be
+You may think that all non-composite numbers are [[prime numbers]], and you'd be
 right... usually.
 
 The number $1$ has only one factor: $1$, so it is *not* composite because it
 does not have more than 2 factors.  
-It is also not prime, because prime numbers have **exactly** 2 factors.
+It is also not prime, because [[prime numbers]] have **exactly** 2 factors.

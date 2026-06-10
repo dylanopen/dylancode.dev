@@ -32,10 +32,10 @@ will give a valid output to the function).
 
 ## Range
 
-The range is $(0, \infty)$ (positive numbers) because the output of $a^x$
+The [[range]] is $(0, \infty)$ (positive numbers) because the output of $a^x$
 will always be positive.
 
-> Range: $(0, \infty)$
+> [[range]]: $(0, \infty)$
 
 ## Solving where $y=0$
 
@@ -65,7 +65,7 @@ But the normal graph of $a^x$ has no solutions to $a^x=0$.
 
 The $y$ intercept is the $y$ value when $x=0$.
 
-$f(0) = a^0 = 1$ (because any number to the power of $0$ is $1$)
+$f(0) = a^0 = 1$ (because any number to the [[power]] of $0$ is $1$)
 
 So the $y$ intercept is at $(0, 1)$.
 

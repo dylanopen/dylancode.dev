@@ -4,8 +4,8 @@ The algebraic sum of the EMFs is equal to the sum of potential differences
 around a closed loop.
 
 This essentially means that:
-- the total EMF (voltage) supplied by the power source equals the total
-  potential difference (voltage) across the components in the loop.
+- the total EMF ([[voltage]]) supplied by the [[power]] source equals the total
+  potential difference ([[voltage]]) across the components in the loop.
 
 We can write this as:
 
@@ -15,7 +15,7 @@ $$
 
 ### Example
 
-In a simple circuit, a battery of EMF $12V$ is connected in series with two
+In a simple circuit, a battery of EMF $12V$ is connected in [[series]] with two
 resistors of resistance $2\Omega$ and $4\Omega$. Calculate the potential
 difference across each resistor.
 - Total resistance = $2\Omega + 4\Omega = 6\Omega$

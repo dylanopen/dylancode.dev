@@ -1,10 +1,10 @@
 # Bitmap advantages
 
 If we compare them to [[vector image|vector]] images, [[
-/bitmap image|bitmap images]] have some advantages. For example:
-- They're easier to create, as pretty much any image editing software can create
+/[[bitmap image]]|bitmap images]] have some advantages. For example:
+- They're easier to create, as pretty much any image editing [[software]] can create
   them.
-- They're widely supported - it's just a grid of pixels, so any software that
+- They're widely supported - it's just a grid of pixels, so any [[software]] that
   can display images can display them.
 - They're the only real way to store photos and other images which aren't
   made up just of flat shapes and solid colours. Vector images are made up of

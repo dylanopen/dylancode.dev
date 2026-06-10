@@ -1,9 +1,9 @@
 # merge-radius
 
-We can configure the distance at which items and experience orbs combine - for
+We can configure the [[distance]] at which items and experience orbs combine - for
 example, when you mine two blocks and they combine into one.
 
-The default values in `spigot.yml` are:
+The default values in `[[spigot]].yml` are:
 
 ```yaml
 merge-radius:
@@ -35,7 +35,7 @@ blocks of each other will combine.
 ## What's best for performance?
 
 Most options in this guide have a very clear impact on performance - i.e. it's 
-clear that \[increasing/decreasing\] the value will \[increase/decrease\] server
+clear that \[increasing/decreasing\] the value will \[increase/decrease\] [[server]]
 load, so cause more/fewer lag \[spikes\].
 
 This isn't one of them. A **higher** merge radius means both:
@@ -44,7 +44,7 @@ This isn't one of them. A **higher** merge radius means both:
 - BUT more CPU usage to check for nearby items to combine with (which is bad
   for performance).
 
-The performance impact entirely depends on the situation of your server, and
+The performance impact entirely depends on the situation of your [[server]], and
 it's impossble to give a definitive answer to what the best value is.
 
 ## What's best for gameplay?

@@ -4,13 +4,13 @@ If we have two lines, $y = f(x)$ and $y = g(x)$, where $f(x) \geq g(x)$ for all 
 the interval we're interested in, and we want to find the
 [[volume of revolution]] when we revolve the area between
 those lines around the $x$-axis, we can either:
-- find the volume of revolution of the area under $y = f(x)$ and subtract the
-  volume of revolution of the area under $y = g(x)$, or
+- find the [[volume of revolution]] of the area under $y = f(x)$ and subtract the
+  [[volume of revolution]] of the area under $y = g(x)$, or
 - find $\pi \int_a^b (f(x)^2 - g(x)^2) \, dx$
 
 ## Formula
 
-As just mentioned, we have a fancy formula for finding the volume of revolution
+As just mentioned, we have a fancy formula for finding the [[volume of revolution]]
 of the area *between* two lines or curves, which is:
 
 > $$
@@ -18,13 +18,13 @@ of the area *between* two lines or curves, which is:
 > $$
 
 Where:
-- $V$ is the volume of revolution of the area between the two lines or curves.
+- $V$ is the [[volume of revolution]] of the area between the two lines or curves.
 - $f(x)$ is the function that represents the upper line or curve (the one that's
   further from the $x$-axis at the region we care about).
 - $g(x)$ is the function that represents the lower line or curve (the one that's
   closer to the $x$-axis at the region we care about).
 - $a$ and $b$ are the limits of integration, which represent the
-  range of coordinates we're rotating.
+  [[range]] of coordinates we're rotating.
 
 ## Common mistakes
 

@@ -11,7 +11,7 @@ We use this equation:
 > $$
 
 - $E$ is the energy delivered (in joules, $J$)
-- $P$ is the power of the [[electrical circuit]] (in watts, $W$)
+- $P$ is the [[power]] of the [[electrical circuit]] (in watts, $W$)
 - $t$ is the time for which the circuit is delivering energy (in seconds, $s$)
 
 We can rearrange this equation, so there are 3 main forms you'll use it in:

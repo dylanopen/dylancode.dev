@@ -5,14 +5,14 @@ where all the [[mass]] is acting.
 
 ## Moments around the centre of gravity
 
-The [[moment]]s need to add so that the [[resultant]] moment is **zero**.
+The [[moment]]s need to add so that the [[resultant]] [[moment]] is **zero**.
 
 Basically, the clockwise moments need to equal the anticlockwise moments.
 
 ## Formula
 
-Because both moments must be equal, we can describe two objects of $W$ weight
-and $d$ distance from the centre of gravity:
+Because both moments must be equal, we can describe two objects of $W$ [[weight]]
+and $d$ [[distance]] from the centre of gravity:
 
 $$
 W_1d_1=W_2d_2

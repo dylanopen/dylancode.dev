@@ -17,9 +17,9 @@ main:
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
 <p>Let’s break it down.</p>
 <h2>The <code>.text</code> section</h2>
-<p>In the Von Neumann architecture, the code for a program is stored in memory,
+<p>In the <a href="/von-neumann-architecture">von Neumann architecture</a>, the code for a program is stored in memory,
 right alongside the data it is using.</p>
-<p>To tell the assembler that the following lines are <em><strong>code</strong></em> and not <em><strong>data</strong></em>
+<p>To tell the <a href="/assembler">assembler</a> that the following lines are <em><strong>code</strong></em> and not <em><strong>data</strong></em>
 we use the <code>.text</code> directive:</p>
 <pre><code class="language-asm">.text
 </code></pre>
@@ -34,7 +34,7 @@ we use the <code>.text</code> directive:</p>
 ───╯
 </code></pre>
 <h2>The <code>main</code> label</h2>
-<p>The processor won’t know where to start executing the program unless we tell it.</p>
+<p>The <a href="/processor">processor</a> won’t know where to start executing the program unless we tell it.</p>
 <p>We use a <a href="/riscv/labels">label</a> to indicate the starting point of the program:</p>
 <pre><code class="language-asm">main:
 </code></pre>
@@ -58,11 +58,11 @@ main:
 </code></pre>
 <p>So we need at least one instruction after the label.</p>
 <p>Technically, this <em>could</em> be anything and it would <strong>compile</strong> fine. But to
-<em>run</em> the program without errors, we need to tell the processor to exit.</p>
+<em>run</em> the program without errors, we need to tell the <a href="/processor">processor</a> to exit.</p>
 <p>If we don’t tell it to exit, it will just continue executing whatever random
 data is in memory after our program, which will likely lead to an error.</p>
 <h2>The <code>ecall</code> instruction</h2>
-<p>To tell the processor to exit the program cleanly, we use the <code>ecall</code>
+<p>To tell the <a href="/processor">processor</a> to exit the program cleanly, we use the <code>ecall</code>
 instruction:</p>
 <pre><code>ecall
 </code></pre>
@@ -72,12 +72,12 @@ main:
     ecall
 </code></pre>
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20ecall">Run on creatorsim</a></p>
-<p><code>ecall</code> is an instruction that makes a system call to the operating system.</p>
+<p><code>ecall</code> is an instruction that makes a system call to the <a href="/operating-system">operating system</a>.</p>
 <h2>The exit system call</h2>
 <p>You may thinkg we’re now done, however, we need to actually tell it <em>which</em>
 system call we want to make. To do that, we move a value into the <code>a7</code> (or
-<code>x17</code>) register before the <code>ecall</code> instruction.</p>
-<p>To move a value into a register, we use the <code>li</code> (load immediate) instruction.<br />
+<code>x17</code>) <a href="/register">register</a> before the <code>ecall</code> instruction.</p>
+<p>To move a value into a <a href="/register">register</a>, we use the <code>li</code> (load immediate) instruction.<br />
 We’ll cover how to use it in more detail later!</p>
 <p>For exiting a program, the system call number is <code>10</code>. At least, it is for the
 emulator we are using. So we would do this:</p>
@@ -87,7 +87,7 @@ main:
     ecall
 </code></pre>
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
-<p>In this case, it tells the operating system to terminate the program, so it
+<p>In this case, it tells the <a href="/operating-system">operating system</a> to terminate the program, so it
 stops any garbage instructions that might be after it from being executed.</p>
 <p>And there we have it! The smallest RISC-V program that compiles and runs
 without errors.</p>

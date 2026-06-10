@@ -1,7 +1,7 @@
 # Dictionary encoding
 
 > **Dictionary encoding** is a method of [[
-  /lossless compression|lossless compression]] where we replace repeated data with a reference to a
+  /[[lossless compression]]|[[lossless compression]]]] where we replace repeated data with a reference to a
   single copy of that data, stored in a sort of 'dictionary' that maps the
   reference to the original data.
 
@@ -37,4 +37,4 @@ That is, we have a dictionary that maps the reference `1` to the string `ABCD`, 
 - We have to actually store the dictionary itself. Sometimes that can make the
   file size bigger!
 - In certain cases, it can be less efficient than [[
-  /run length encoding|run length encoding]].
+  /[[run length encoding]]|[[run length encoding]]]].

@@ -23,4 +23,4 @@ In this example, we can combine the "secondary school" and "university" categori
 | Primary school                 | 16.2       | 19.6       | 19.2           |
 | Secondary school or university | 21.6       | 16.9       | 17.5           |
 
-Now all of the expected values are above 5, so we can calculate the [[chi squared value]] from this new contingency table!
+Now all of the expected values are above 5, so we can calculate the [[chi squared value]] from this new [[contingency table]]!

@@ -1,13 +1,13 @@
 # Arc length from radians
 
-To find the [[arc length|length of an arc]] (of a sector), we can just calculate:
+To find the [[arc length|length of an arc]] (of a [[sector]]), we can just calculate:
 
 $$
 r\theta
 $$
 
 Where:
-- $r$ is the [[circle radius|radius]] of the sector('s circle)
+- $r$ is the [[circle radius|radius]] of the [[sector]]('s circle)
 - $\theta$ is the [[sector angle|angle of the sector]]
 
 ## Equation
@@ -19,9 +19,9 @@ l=r\theta
 $$
 
 where:
-- $l$ is the length of the arc
+- $l$ is the length of the [[arc]]
 - $r$ is the radius of the circle
-- $\theta$ is the angle of the sector
+- $\theta$ is the angle of the [[sector]]
 
 ## Rearranging to find the arc length
 

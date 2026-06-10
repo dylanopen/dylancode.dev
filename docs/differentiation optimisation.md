@@ -1,19 +1,19 @@
 # Optimisation through differentiation
 
-Optimisation is where we find the maximum or minimum value of a function,
+[[optimisation]] is where we find the maximum or minimum value of a function,
 usually in order to solve a real-world problem - e.g. what is the optimal
 dimensions of a box to maximise volume, or what is the optimal price to charge
 to maximise profits.
 
 ## Steps
 
-1. Find an expression for the quantity to be optimised (e.g. area, volume,
+1. Find an [[expression]] for the quantity to be optimised (e.g. area, volume,
   profit) in terms of just one variable.  
-  This often involves eliminating other variables using a limiting condition.
+  This often involves eliminating other [[cs/variables|variables]] using a limiting condition.
 2. Find the derivative of the thing to be optimised with respect to the
   variable.
 3. Find where the derivative is equal to zero - these are the critical points.
-4. Use the second derivative to work out if each critical point is a maximum or
+4. Use the [[second derivative]] to work out if each critical point is a maximum or
   minimum point.
 
 ### Example: a wire has length 12 cm - what is the maximum area of a rectangle that can be formed?
@@ -26,7 +26,7 @@ to maximise profits.
   - $2(x+y) = 12$
   - $x + y = 6$
   - $y = 6 - x$
-- We can then substitute this expression for $y$ into the area formula:
+- We can then substitute this [[expression]] for $y$ into the area formula:
   - $A = x(6 - x)$
   - $A = 6x - x^2$
 - We noww differentiate area with respect to $x$:

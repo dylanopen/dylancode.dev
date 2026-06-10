@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>entity-tracking-range</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>entity-tracking-range</h1>
-<p>The <em>entity tracking range</em> basically tells the server how close a player has to
+<p>The <em>entity tracking <a href="/range">range</a></em> basically tells the <a href="/server">server</a> how close a player has to
 be to an entity (mob, other player, etc) before the player can see the entity.</p>
-<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+<p>You can change it in <code>[spigot](/spigot).yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
 default value is:</p>
 <pre><code class="language-yaml">entity-tracking-range:
   players: 128
@@ -24,7 +24,7 @@ these:</p>
   display: 128
   other: 64
 </code></pre>
-<p>If you’re running a larger server and want to reduce the number of entities
+<p>If you’re running a larger <a href="/server">server</a> and want to reduce the number of entities
 being sent to a player, you can lower the values to:</p>
 <pre><code class="language-yaml">entity-tracking-range:
   players: 128
@@ -36,10 +36,10 @@ being sent to a player, you can lower the values to:</p>
 </code></pre>
 <blockquote>
 <p>I’d recommend always keeping <code>players</code> at <code>128</code>, as lowering it can cause look
-a bit strange.</p>
+a <a href="/bit">bit</a> strange.</p>
 </blockquote>
 <h2>What does <code>entity-tracking-range</code> do?</h2>
-<p>As mentioned above, any entity which is <em>outside</em> of the tracking range (in
+<p>As mentioned above, any entity which is <em>outside</em> of the tracking <a href="/range">range</a> (in
 blocks) from a player won’t be sent to the player. The player simply won’t see
 the entity.</p>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Caesar cipher</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Caesar cipher</h1>
-<p>A <em>Caesar cipher</em> is a super simple type of <a href="/cipher">cipher</a> where we shift the
+<p>A <em>Caesar <a href="/cipher">cipher</a></em> is a super simple type of <a href="/cipher">cipher</a> where we shift the
 letters of the alphabet by a certain number of places. For example, if we shift
 by 3, then A becomes D, B becomes E, C becomes F, and so on.</p>
 <h2>Mathematical function</h2>
@@ -9,7 +9,7 @@ by 3, then A becomes D, B becomes E, C becomes F, and so on.</p>
 E(x) = (x + k) \mod 26
 </ma></p>
 <ul>
-<li><im>E(x)</im> is the encryption function, which takes a letter (represented as a
+<li><im>E(x)</im> is the <a href="/encryption">encryption</a> function, which takes a letter (represented as a
 number from 0 to 25) and produces the ciphertext letter.</li>
 <li><im>x</im> is the plaintext letter, represented as a number from 0 to 25 (where A=0,
 B=1, …, Z=25).</li>
@@ -17,14 +17,14 @@ B=1, …, Z=25).</li>
 can be any whole number from 0 to 25.</li>
 </ul>
 <h2>Decryption function</h2>
-<p>To decrypt a message encrypted with a Caesar cipher, we can use this:</p>
+<p>To decrypt a message encrypted with a Caesar <a href="/cipher">cipher</a>, we can use this:</p>
 <p><ma>
 D(y) = (y - k) \mod 26
 </ma></p>
 <p>As you can see, all we do is <em>subtract</em> the key from the encrypted character, to
 find the plaintext letter.</p>
 <h2>Why is it so easy to crack?</h2>
-<p>The Caesar cipher isn’t used in any real encryption schemas, because it’s so
+<p>The Caesar <a href="/cipher">cipher</a> isn’t used in any real <a href="/encryption">encryption</a> schemas, because it’s so
 insecure. The main reasons for that are:</p>
 <ul>
 <li>There are only 26 possible keys (shifts), so an attacker can easily try all of
@@ -53,9 +53,9 @@ Cipher: DEFGHIJKLMNOPQRSTUVWXYZABC
 <p>So our final encrypted message is “KHOOR”.</p>
 <p><em>You may already be able to see an issue - we can immediately see there is a
 double letter in the 3rd and 4th positions of the word, which may help us crack
-the cipher!</em></p>
+the <a href="/cipher">cipher</a>!</em></p>
 <h3>Decrypt the text “KHOOR” with a pad (key) of 3</h3>
-<p>Obviously, we know what our answer will be, but let’s go through the decryption
+<p>Obviously, we know what our answer will be, but let’s go through the <a href="/decryption">decryption</a>
 process to check it works!</p>
 <p>With a pad of 3, we can get from the encrypted letter to the plaintext letter by
 subtracting 3 from the encrypted letter’s position in the alphabet:</p>

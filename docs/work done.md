@@ -25,4 +25,4 @@ Because work done is just another way of saying energy transferred, it has the s
 
 ## Energy transfer
 
-Importantly, the *type* of energy often changes. For example, the energy may be transferred from chemical energy in fuel to kinetic energy of a moving car.
+Importantly, the *type* of energy often changes. For example, the energy may be transferred from chemical energy in fuel to [[kinetic energy]] of a moving car.

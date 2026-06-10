@@ -39,10 +39,10 @@ loop_start: addi t0, t0, -1
 ## Uses of labels
 
 We'll get into the main usage of labels in the next chapter when we learn about
-branching and jumping. The main uses of them are:
+branching and [[jumping]]. The main uses of them are:
 - for marking the start of functions (like `main:`)
 - for marking locations to jump to (like `stop:`)
 - for use in *selection* (assembly's equivalent of `if` statements)
-- for iteration (loops)
-- for marking data locations in the `.data` section, e.g. memory variables and
+- for iteration ([[loops]])
+- for marking data locations in the `.data` section, e.g. memory [[cs/variables|variables]] and
   constants.

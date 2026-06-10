@@ -6,7 +6,7 @@ Newton's *third* law of motion states that:
 
 It's worded more like this:
 
-> At any instant of time, the net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum is changing with time.
+> At any instant of time, the net force on a body is equal to the body's [[acceleration]] multiplied by its mass or, equivalently, the rate at which the body's [[momentum]] is changing with time.
 
 ## In simple terms
 
@@ -20,5 +20,5 @@ For example:
 ## What Newton's third law *isn't*
 
 - Suppose we have a book on a table.
-- You might think that the *normal contact force* from the table on the book is the 'equal and opposite' force to the *weight* of the book (the force of gravity pulling it down).
+- You might think that the *normal contact force* from the table on the book is the 'equal and opposite' force to the *[[weight]]* of the book (the force of gravity pulling it down).
 - But these two forces aren't actually an action-reaction pair, because they act on the same object (the book).

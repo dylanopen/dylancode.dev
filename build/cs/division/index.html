@@ -3,7 +3,7 @@
 <h1>Division</h1>
 <p>The reason that we didn’t cover division in the main
 <a href="/cs/arithmetic-operators">arithmetic operators</a> chapter is that division
-behaves a little differently depending on the data types of the values being
+behaves a little differently depending on the <a href="/cs/data-types">data types</a> of the values being
 divided.</p>
 <h2>Floating-point division</h2>
 <p>If we’re working with <code>float</code> or <code>double</code> values, division behaves as you’d
@@ -19,20 +19,20 @@ expect.<br />
 For example, <code>0.1 + 0.2</code> may evaluate to <code>0.30000000000000004</code> instead of
 <code>0.3</code>. That is perfectly normal, <em>but</em> can cause some unexpected behaviour if
 you’re not aware of it! You should always use ‘loose equality’ when working
-with floats</p>
+with <a href="/floats">floats</a></p>
 </blockquote>
 <h2>Integer division</h2>
 <p><em>Integer</em> division is a little different.</p>
 <p>Instead of giving us a decimal result, integer division <em>truncates</em> the decimal
 part and only gives us the whole number part of the result.</p>
 <p>For example, you may thing that <code>7 / 2</code> would evaluate to <code>3.5</code>, but because
-we’re using integers, the result is truncated to just <code>3</code>. Remember that
+we’re using <a href="/integers">integers</a>, the result is truncated to just <code>3</code>. Remember that
 truncation isn’t rounding, but rather ‘chopping off’ the decimal part entirely:</p>
 <pre><code class="language-cs">int result = 7 / 2; // 3.5 -&gt; 3
 int result2 = 5 / 3; // 1.666... -&gt; 1
 </code></pre>
-<p>If you want to get a decimal result from dividing two integers, you need to
-<em>cast</em> one (or both) of the integers to a floating-point type first:</p>
+<p>If you want to get a decimal result from dividing two <a href="/integers">integers</a>, you need to
+<em>cast</em> one (or both) of the <a href="/integers">integers</a> to a floating-point type first:</p>
 <pre><code class="language-cs">int a = 7;
 int b = 2;
 double result1 = (double)a / b; // 3.5

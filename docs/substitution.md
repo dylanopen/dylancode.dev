@@ -1,17 +1,17 @@
 # Substitution
 
 Substitution is simply when we relace every instance of a variable in an
-expression with a value we know.
+[[expression]] with a value we know.
 
-For example, we may be asked to work out the value of an expression when $x=$ a
+For example, we may be asked to work out the value of an [[expression]] when $x=$ a
 certain value.
 
 ## Steps
 
-1. Replace every instance of the variable in the expression with the given
+1. Replace every instance of the variable in the [[expression]] with the given
    value - put this value inside brackets to avoid mistakes with negative
    numbers.
-2. Evaluate the expression by just calculating the expression as normal. Make
+2. Evaluate the [[expression]] by just calculating the [[expression]] as normal. Make
    sure to follow the [[order of operations]].
 
 ## Examples
@@ -20,7 +20,7 @@ certain value.
 
 - Replace $x$ with $(4)$:
   - $2(4) + 3$
-- Evaluate the expression:
+- Evaluate the [[expression]]:
   - $2 \times 4 + 3$
   - $8 + 3$
   - $11$
@@ -30,7 +30,7 @@ certain value.
 
 - Replace $x$ with $(3)$:
   - $(3)^2 - 5(3) + 6$
-- Evaluate the expression:
+- Evaluate the [[expression]]:
   - $9 - 15 + 6$
   - $-6 + 6$
   - $0$
@@ -40,7 +40,7 @@ certain value.
 
 - Replace $y$ with $(-2)$:
   - $3(-2)^2 + 2(-2) - 4$
-- Evaluate the expression:
+- Evaluate the [[expression]]:
   - $3 \times 4 + (-4) - 4$
   - $12 - 4 - 4$
   - $8 - 4$
@@ -51,7 +51,7 @@ certain value.
 
 - Replace $a$ with $(6)$:
   - $\frac{2(6) + 5}{(6) - 1}$
-- Evaluate the expression:
+- Evaluate the [[expression]]:
   - $\frac{12 + 5}{6 - 1}$
   - $\frac{17}{5}$
 - **Answer**: $\frac{17}{5}$
@@ -60,7 +60,7 @@ certain value.
 
 - Replace $b$ with $\left(\frac{1}{2}\right)$:
   - $4\left(\frac{1}{2}\right)^2 - 3\left(\frac{1}{2}\right) + 2$
-- Evaluate the expression:
+- Evaluate the [[expression]]:
   - $4 \times \frac{1}{4} - \frac{3}{2} + 2$
   - $1 - \frac{3}{2} + 2$
   - $3 - \frac{3}{2}$

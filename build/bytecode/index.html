@@ -6,13 +6,13 @@
 machine code that the CPU can execute, the high-level code is first compiled
 into bytecode.</p>
 <p>This bytecode is fairly low-level (it mostly consists of simple instructions
-that a virtual machine can understand), but it’s not specific to any particular
-hardware architecture.</p>
+that a <a href="/virtual-machine">virtual machine</a> can understand), but it’s not specific to any particular
+<a href="/hardware">Hardware</a> architecture.</p>
 <h2>How bytecode compilers+interpreters work</h2>
 <p>When you run a program written in a language that uses bytecode (like Java or
 Python), the following steps usually happen:</p>
 <ol>
-<li>The high-level code is compiled into bytecode by a compiler.</li>
+<li>The high-level code is compiled into bytecode by a <a href="/compiler">compiler</a>.</li>
 <li>The bytecode is then executed by a <a href="/virtual-machine">virtual machine</a> (VM)</li>
 </ol>
 <p>So you can see that actually, bytecode languages are kind of a hybrid between
@@ -22,14 +22,14 @@ compiled and interpreted languages!</p>
 <li><strong>Portability</strong>: you’ve probably heard of Java’s slogan ‘write once, run
 anywhere’. And even though it’s often altered to ‘write once, debug
 everywhere’… the original idea still stands - that Java’s bytecode can run
-on any platform that has a Java Virtual Machine (JVM) installed.</li>
-<li><strong>Performance</strong>: bytecode can be optimized by the virtual machine at runtime,
+on any platform that has a Java <a href="/virtual-machine">virtual machine</a> (JVM) installed.</li>
+<li><strong>Performance</strong>: bytecode can be optimized by the <a href="/virtual-machine">virtual machine</a> at runtime,
 which can lead to better performance <em>compared to interpreted languages</em>.</li>
-<li><strong>Security</strong>: it runs under a virtual machine, which might give a sandboxed
+<li><strong>Security</strong>: it runs under a <a href="/virtual-machine">virtual machine</a>, which might give a sandboxed
 environment that could prevent certainn malware attacks (or just prevent
 poorly written code from crashing your entire system).</li>
 <li><strong>Easier debugging</strong>: bytecode can retain more information about the original
-source code (like variable names, line numbers, etc), which can make debugging
+<a href="/source-code">source code</a> (like variable names, line numbers, etc), which can make debugging
 easier than debugging a fully compiled binary (anyone who’s used <code>gdb</code> before
 will understand :sigh:)</li>
 </ul>
@@ -39,10 +39,10 @@ will understand :sigh:)</li>
 <h2>Disadvantages of bytecode</h2>
 <ul>
 <li>It’s slower than native machine code, since it has to be interpreted or
-compiled at runtime by the virtual machine.</li>
-<li>It requires a virtual machine or interpreter to run, which adds an extra layer
+compiled at runtime by the <a href="/virtual-machine">virtual machine</a>.</li>
+<li>It requires a <a href="/virtual-machine">virtual machine</a> or <a href="/interpreter">interpreter</a> to run, which adds an extra layer
 of complexity.</li>
-<li>All users need to install the <strong>correct</strong> virtual machine (interpreter) for
+<li>All users need to install the <strong>correct</strong> <a href="/virtual-machine">virtual machine</a> (<a href="/interpreter">Interpreter</a>) for
 the bytecode to run, which can lead to compatibility issues and general
 annoyance.</li>
 <li>It can often be much less efficient in terms of RAM usage (which in this day,

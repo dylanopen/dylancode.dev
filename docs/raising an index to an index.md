@@ -1,7 +1,7 @@
 # Raising an index to an index
 
-When we have a number, and we raise it to a power, then raise the result to the
-power of another number, we **multiply** the powers. This is much more easily
+When we have a number, and we raise it to a [[power]], then raise the result to the
+[[power]] of another number, we **multiply** the powers. This is much more easily
 shown using algebra:
 
 $$
@@ -9,7 +9,7 @@ $$
 $$
 
 > Note: if $a^x$ above is **not** surrounded with brackets, then this does not
-> work, as it is then the power itself that is being raised to the second power.
+> work, as it is then the [[power]] itself that is being raised to the second [[power]].
 
 ### Example: simplify $(a^4)^7$
 

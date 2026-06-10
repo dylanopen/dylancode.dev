@@ -19,7 +19,7 @@ $$
 
 ## $\sum^n_{r=1} r$
 
-- This means that we are adding all the integers from $1$ to $n$.
+- This means that we are adding all the [[integers]] from $1$ to $n$.
 - The result is the triangular number $n$!
 - The formula for finding triangle numbers is $\frac{n(n+1)}{2}$.
 
@@ -29,7 +29,7 @@ $$
 
 ## $\sum^n_{r=1} r^2$
 
-- This means that we are adding the squares of all the integers from $1$ to $n$.
+- This means that we are adding the squares of all the [[integers]] from $1$ to $n$.
 - The formula for finding this is $\frac{n(n+1)(2n+1)}{6}$.
 
 $$
@@ -38,7 +38,7 @@ $$
 
 ## $\sum^n_{r=1} r^3$
 
-- This means that we are adding the cubes of all the integers from $1$ to $n$.
+- This means that we are adding the cubes of all the [[integers]] from $1$ to $n$.
 - The formula for finding this is $\left(\frac{n(n+1)}{2}\right)^2$.
 
 $$
@@ -62,7 +62,7 @@ $$
 
 ### Using standard results, deduce the value of $\sum^{23}_{18} r^2$
 
-- The values in the range of $18-23$ will add up to the same as the values from   $1-23$ minus the values from $1-17$:
+- The values in the [[range]] of $18-23$ will add up to the same as the values from   $1-23$ minus the values from $1-17$:
   - $\sum^{23}_{r=18} r^2 = \sum^{23}_{r=1} r^2 - \sum^{17}_{r=1} r^2$
 - We can substitute in our standard results:
   - $\frac{23(23+1)(2\times23+1)}{6} - \frac{17(17+1)(2\times17+1)}6$

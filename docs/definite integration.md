@@ -4,7 +4,7 @@ Definite integration follows the same normal steps as [[indefinite integration]]
 
 ## Steps
 
-1. We first integrate the expression (but don't add the $+c$ term).
+1. We first integrate the [[expression]] (but don't add the $+c$ term).
 2. Then we [[substitution|substitute]] the upper limit into the integrated [[expression]] - the upper limit is at the *top* of the integral sign - the $a$ in $\int_a^b$.
 3. We next [[substitution|substitute]] the lower limit into the integrated [[expression]] - the lower limit is at the *bottom* of the integral sign - the $b$ in $\int_a^b$.
 4. Finally, we subtract the result of step 3 from the result of step 2 to get the final answer. **We always take away the integral found from the lower limit from the upper limit.**

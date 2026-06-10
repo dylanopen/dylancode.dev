@@ -1,6 +1,6 @@
 # Expanding brackets with surds
 
-When expanding brackets that contain surds, we use the same methods as we do with
+When [[expanding brackets]] that contain [[surds]], we use the same methods as we do with
 normal brackets, (e.g. the grid method).
 
 We just need to remember how to [[multiplying surds|multiply surds together]].

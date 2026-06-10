@@ -9,7 +9,7 @@ matrix*, $I$.
 ## Representing the inverse matrix
 
 - The inverse matrix of $M$ can be written as $M^{-1}$.
-- This then makes sense why they multiply to the identity matrix: $MM^{-1} = I$
+- This then makes sense why they multiply to the [[identity matrix]]: $MM^{-1} = I$
   - anything multiplied by its inverse is equal to the identity, or $1$ if we're
     working with regular scalars.
 
@@ -83,7 +83,7 @@ $$
 ## Find the inverse of matrix product $AB$
 
 - Let the inverse function be $X$
-- $ABX=I$ (because matrix multiplication is associative)
+- $ABX=I$ (because [[matrix multiplication]] is associative)
 - $A^{-1}ABX=A^{-1}I$ (pre-multiply both sides by $A^{-1}$)
 - $BX=A^{-1}I$
 - $IBX=A^{-1}I$

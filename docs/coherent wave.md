@@ -11,8 +11,8 @@ They need to have:
 
 ## Coherennce in diffraction
 
-We need the waves used in diffraction to be *coherent*, because otherwise an
-integer [[path difference]] multiple of the wavelength would not
+We need the waves used in [[diffraction]] to be *coherent*, because otherwise an
+integer [[path difference]] multiple of the [[wavelength]] would not
 always interfere constructively.
 
 We can put a *single slit* in front of the two slits to make sure that the waves

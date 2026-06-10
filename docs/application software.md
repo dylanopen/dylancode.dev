@@ -1,14 +1,14 @@
 # Application software
 
-*Application software* includes any software which is designed for end-users who
+*Application [[software]]* includes any [[software]] which is designed for end-users who
 are using the computer to perform a task.
 
 Unlike [[systems software|system software]], which manages and operates the
-computer hardware, application software doesn't interact directly with the
-hardware. It instead relies on the system software (e.g. the operating system
+computer [[hardware]], application [[software]] doesn't interact directly with the
+[[hardware]]. It instead relies on the system [[software]] (e.g. the [[operating system]]
 and drivers) to handle that.
 
-> Application software is for carrying out tasks that are user-oriented.
+> Application [[software]] is for carrying out tasks that are user-oriented.
 
 ## Examples of application software
 
@@ -18,6 +18,6 @@ and drivers) to handle that.
 - Media players (like VLC)
 - Email clients (like Thunderbird)
 - Games
-- Design software
+- Design [[software]]
 - Programming tools (like code editors, IDEs, compilers)
 - (almost anything else you use on your computer!)

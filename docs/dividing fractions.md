@@ -1,7 +1,7 @@
 # Dividing fractions
 
 To divide fractions, we can use the 'keep, change, flip' method. We keep the
-first fraction the same, change the division sign to a multiplication sign, and
+first fraction the same, change the [[division]] sign to a [[multiplication]] sign, and
 flip the second fraction (take its reciprocal).
 
 This can be written as:

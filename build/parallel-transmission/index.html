@@ -9,24 +9,24 @@ all at the same time.</p>
 <em>can</em> be faster, because it can send multiple bits at the same time. However,
 this isn’t always the case, as you’ll see.</p>
 <h2>Disadvantages of parallel transmission</h2>
-<p>The main disadvantages of parallel transmission compared to <a href="/serial-transmission">serial
-transmission</a> are that:</p>
+<p>The main disadvantages of parallel transmission compared to [[<a href="/%5B%5Bserial-transmission">serial transmission</a>|serial
+transmission]] are that:</p>
 <ul>
 <li>It’s more expensive to implement as it requires multiple wires (and
 connectors, etc).</li>
 <li>It’s less reliable as there is more chance of interference between the wires
 (called <a href="/crosstalk">crosstalk</a>).</li>
-<li>It can only be used over short distances as the signal is more likely to degrade
+<li>It can only be used over <a href="/short">short</a> distances as the signal is more likely to degrade
 over multiple wires.</li>
-<li>It can be slower than serial transmission, as the wires can only be run at a
+<li>It can be slower than <a href="/serial-transmission">serial transmission</a>, as the wires can only be run at a
 lower frequency without interference.</li>
 <li>There can be <a href="/data-skew">skew</a> issues, where the bits can get out of sync, because they are sent at the same time, but can take different amounts of time to arrive at the destination.</li>
-<li>It’s harder to implement error detection and correction, as the bits are sent at the same time, so it’s harder to detect if a bit is missing or corrupted.</li>
+<li>It’s harder to implement error detection and correction, as the bits are sent at the same time, so it’s harder to detect if a <a href="/bit">bit</a> is missing or corrupted.</li>
 <li>(Among lots of other disadvantages)</li>
 </ul>
 <h2>Examples of parallel transmission</h2>
 <p>The main examples are the internal data buses in a computer.</p>
-<p>For example, modern computers are <em>64 bit</em>, which means that each data bus can
+<p>For example, modern computers are <em>64 <a href="/bit">bit</a></em>, which means that each <a href="/data-bus">data bus</a> can
 carry 64 bits at a time.</p>
 <p>That means that there are actually 64 tiny wires on the motherboard, which can
 carry signals of 64 bits (or 8 bytes) at a time from/to the CPU and the

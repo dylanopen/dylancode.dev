@@ -2,16 +2,16 @@
 
 <h1>Von Neumann architecture</h1>
 <blockquote>
-<p>Von-Neumann’s architecture is a type of <a href="/stored-program-concept">stored program architecture</a> where the instructions and data are stored in the same memory region. This means that the CPU can access both instructions and data using the same memory address space.</p>
+<p>Von-Neumann’s architecture is a type of <a href="/stored-program-concept">stored program architecture</a> where the instructions and data are stored in the same memory region. This means that the CPU can access both instructions and data using the same <a href="/memory-address">memory address</a> space.</p>
 </blockquote>
-<p>In practice, what this means is that we have a block of memory, and we can store both our program instructions, and the data (variables and constants) that the program operates on, in that same block of memory. The CPU fetches instructions from memory and executes them, and it can also read and write data to that same memory as needed.</p>
+<p>In practice, what this means is that we have a block of memory, and we can store both our program instructions, and the data (<a href="/cs/variables">variables</a> and constants) that the program operates on, in that same block of memory. The CPU fetches instructions from memory and executes them, and it can also read and write data to that same memory as needed.</p>
 <h2>Separating the instructions from the data</h2>
 <p>Although they’re stored in the same memory, we do need to make sure we don’t accidentally treat data as instructions, or vice versa. To do this, we usually divide the memory into two main sections:</p>
 <ul>
 <li>The data section</li>
 <li>The instruction section</li>
 </ul>
-<p>But the key thing to remember is that it’s the same memory - we’ve just ‘artificially’ divided it in software.</p>
+<p>But the key thing to remember is that it’s the same memory - we’ve just ‘artificially’ divided it in <a href="/software">software</a>.</p>
 <h2>Where is Von-Neumann used?</h2>
 <p>In pretty much every general-purpose computer. It’s the standard way of creating <a href="/general-purpose-computer">general-purpose computers</a>.</p>
 <p>Some embedded systems also use Von-Neumann, but embedded systems are the most common use of the <a href="/harvard-architecture">Harvard architecture</a>.</p>

@@ -5,7 +5,7 @@
 
 This tells us that there's yet another way we can write complex numbers: as an *exponential*.
 
-If we also have a [[complex modulus]] in the [[complex number]], i.e. $r(\cos\theta+i\sin\theta)$, then we have just multiplied the number by the modulus, $r$. That means that we can just multiply $e^{i\theta}$ by $r$, if the number involves a modulus:
+If we also have a [[complex modulus]] in the [[complex number]], i.e. $r(\cos\theta+i\sin\theta)$, then we have just multiplied the number by the [[modulus]], $r$. That means that we can just multiply $e^{i\theta}$ by $r$, if the number involves a [[modulus]]:
 
 > $re^{i\theta}\equiv r(\cos\theta+i\sin\theta)$
 

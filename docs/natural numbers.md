@@ -1,11 +1,11 @@
 # Natural numbers
 
-Natural numbers are positive integers, starting from $1$ (not $0$). They're used
+Natural numbers are positive [[integers]], starting from $1$ (not $0$). They're used
 for counting *discrete* objects.
 
 However, in computer science, natural numbers often include $0$ as well.
 
-> In short, they are the set of numbers used for counting and ordering.
+> In [[short]], they are the set of numbers used for counting and ordering.
 
 ## Notation
 

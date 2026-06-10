@@ -9,7 +9,7 @@ quadratics.
 
 A disguised quadratic is a polynomial where we can substitute a variable to
 transform it into a quadratic form. This usually involves us spotting a pattern
-in the powers in the expression.
+in the powers in the [[expression]].
 
 ## Disguised quadratics where powers are multiples
 

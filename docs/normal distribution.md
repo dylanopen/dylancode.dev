@@ -6,6 +6,6 @@ $$
 Z=\frac{x-\mu}\sigma
 $$
 
-Number of standard deviations from the mean
+Number of standard deviations from the [[mean]]
 
 

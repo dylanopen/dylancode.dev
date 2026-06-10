@@ -3,7 +3,7 @@
 For any base `b` (as long as `b` is greater than $0$ and not equal to $1$),
 the logarithm of `1` is always `0`.
 
-That's because any number raised to the power of `0` equals `1`.
+That's because any number raised to the [[power]] of `0` equals `1`.
 
 We can write this as:
 

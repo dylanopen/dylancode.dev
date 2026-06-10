@@ -2,7 +2,7 @@
 
 A *radian* is a way we can measure angles - just like degrees!
 
-The radian has a few useful properties though.
+The radian has a few useful [[properties]] though.
 
 ## Radians in a full circle
 

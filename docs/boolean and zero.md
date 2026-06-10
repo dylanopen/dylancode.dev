@@ -1,6 +1,6 @@
 # Boolean AND zero
 
-If we have an expression like:
+If we have an [[expression]] like:
 
 $$
 A\cdot 0
@@ -9,13 +9,13 @@ $$
 ...then for any value of $A$, we are ANDing it with 0. If we and anything with
 0, then we just get `0` (because at least one is 0, so AND cannot be true).
 
-We know that, because of the `AND` truth table:
+We know that, because of the `AND` [[truth table]]:
 - `1 AND 0 = 0`
 - `0 AND 0 = 0`, so:
 - `A AND 0 = 0`
 - (because `A` must represent either a `1` or a `0`)
 
-In short:
+In [[short]]:
 
 $$
 A\cdot0=0

@@ -12,6 +12,6 @@
 - Relative mass = $48$
 - Mass = $48\times1.67\times10^{-27}=8.016\times10^{-26}\,kg$
     - Ignore the mass of electrons as they are so small.
-- Specific charge = $\frac{3.2\times10^{-19}}{8.016\times10^{-26}}$
-- Specific charge = $3.99\times10^{-20}$
+- [[specific charge]] = $\frac{3.2\times10^{-19}}{8.016\times10^{-26}}$
+- [[specific charge]] = $3.99\times10^{-20}$
 

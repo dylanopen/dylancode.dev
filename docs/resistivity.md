@@ -32,7 +32,7 @@ where:
 
 ### Two of these wires are used to connect a lamp to a power supply of negligible internal resistance. The p.d. across the lamp is $12V$ and its power is $36W$. Calculate the potential difference across each wire.
 
-- Power, $P=\frac{V^2}{R}$
+- [[power]], $P=\frac{V^2}{R}$
 - Rearranging for $R$: $R=\frac{V^2}{P}$
 - $V=12V$
 - $P=36W$

@@ -10,7 +10,7 @@ Using the formulae covered in these chapters:
 ## A reminder of the equation
 
 $$
-\text{Wave speed} = \text{Frequency} \times \text{Wavelength}
+\text{wave speed} = \text{Frequency} \times \text{wavelength}
 $$
 
 With symbols:
@@ -53,8 +53,8 @@ $$
 
 ### A wave travels at a speed of 600,000 mm/s and has a wavelength of 4 cm. What is its frequency?
 
-- $600,000 mm/s = 600 m/s$ (convert speed to metres per second)
-- $4 cm = 0.04 m$ (convert wavelength to metres)
+- $600,000 mm/s = 600 m/s$ (convert [[speed]] to metres per second)
+- $4 cm = 0.04 m$ (convert [[wavelength]] to metres)
 - $v=f\lambda$ (write our formula)
 - $f=\frac{v}{\lambda}$ (rearrange it)
 - $f=\frac{600}{0.04}$ (substitute in the values)
@@ -63,7 +63,7 @@ $$
 
 ### A wave has a speed of 2 km/s and a frequency of 500 Hz. What is its wavelength?
 
-- $2 km/s = 2000 m/s$ (convert speed to metres per second)
+- $2 km/s = 2000 m/s$ (convert [[speed]] to metres per second)
 - $v=f\lambda$ (write our formula)
 - $\lambda=\frac{v}{f}$ (rearrange it)
 - $\lambda=\frac{2000}{500}$ (substitute in the values)

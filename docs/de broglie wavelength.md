@@ -8,9 +8,9 @@ There's isn't a *proven* way of calculating it, but de Broglie theorised that:
 > \lambda=\frac h{mv}
 > $$
 
-- $\lambda$ is the wavelength of the particle
+- $\lambda$ is the [[wavelength]] of the particle
 - $h$ is the [[planck constant]], $6.63\times10^{-34}\,Js$
 - $mv$ is the [[momentum]] of the particle:
     - $m$ is its [[mass]]
     - $v$ is its [[velocity]]
-    - we multiply them together to get momentum.
+    - we multiply them together to get [[momentum]].

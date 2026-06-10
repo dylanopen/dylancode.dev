@@ -4,10 +4,10 @@
 
 It takes into account both the:
 - mass of the object (how much matter it contains)
-- velocity of the object (how fast it's moving)
+- [[velocity]] of the object (how fast it's moving)
 
 In a way, it's similar to inertia, though inertia only takes into account the
-mass of the object, not also the velocity.
+mass of the object, not also the [[velocity]].
 
 ## Units
 
@@ -29,7 +29,7 @@ $$
 Where:
 - $p$ is the momentum in kilogram meters per second ($kgms^{-1}$)
 - $m$ is the mass of the object in kilograms ($kg$)
-- $v$ is the velocity of the object in meters per second ($ms^{-1}$)
+- $v$ is the [[velocity]] of the object in meters per second ($ms^{-1}$)
 
 ## Stopping an object
 

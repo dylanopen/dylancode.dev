@@ -19,7 +19,7 @@ Frequency can be calculated using the re-arranged formula for
 [[wavelength]] and [[wave speed]]:
 
 $$
-\text{Frequency} = \frac{\text{Speed of wave}}{\text{Wavelength}}
+\text{Frequency} = \frac{\text{speed of wave}}{\text{wavelength}}
 $$
 
 Or, using symbols:
@@ -36,6 +36,6 @@ Where:
 ## Relationship with wavelength
 
 It is *inversely proportional* to the [[wavelength]] of the wave -
-that is, as frequency increases, wavelength decreases, and vice versa.
+that is, as frequency increases, [[wavelength]] decreases, and vice versa.
 
-> This assumes that the speed of the wave remains constant.
+> This assumes that the [[speed]] of the wave remains constant.

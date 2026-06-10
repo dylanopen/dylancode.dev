@@ -5,20 +5,20 @@
 checking for errors during data transmission.</p>
 <p>The idea is that, instead of just sending the data once, we send it multiple
 times, and then the receiver can look at all the copies of the data and take a
-‘vote’ on what the correct bit is likely to be.</p>
+‘vote’ on what the correct <a href="/bit">bit</a> is likely to be.</p>
 <h2>How does majority voting work?</h2>
 <ul>
 <li>The data is sent multiple times
 <ul>
 <li>It must be an odd number of times, so that there is a clear majority</li>
-<li>The data can be sent by sending each bit 3 times in a row, or by sending
+<li>The data can be sent by sending each <a href="/bit">bit</a> 3 times in a row, or by sending
 the whole data 3 times, or just sending a packet 3 times, etc. There are
 lots of ways it can be implemented.</li>
 </ul>
 </li>
-<li>The receiver gets all the copies of the data, and for each bit, it looks at
-all the copies of that bit and takes a majority vote on what the correct bit
-is likely to be. If there are 2 <code>1</code> bits and 1 <code>0</code> bit, then the majority vote would be <code>1</code>. If there are 2 <code>0</code> bits and 1 <code>1</code> bit, then the majority vote would be <code>0</code>, etc.</li>
+<li>The receiver gets all the copies of the data, and for each <a href="/bit">bit</a>, it looks at
+all the copies of that <a href="/bit">bit</a> and takes a majority vote on what the correct <a href="/bit">bit</a>
+is likely to be. If there are 2 <code>1</code> bits and 1 <code>0</code> <a href="/bit">bit</a>, then the majority vote would be <code>1</code>. If there are 2 <code>0</code> bits and 1 <code>1</code> <a href="/bit">bit</a>, then the majority vote would be <code>0</code>, etc.</li>
 </ul>
 <h2>Example</h2>
 <p>Let’s say we’re sending the data <code>1010</code>. With majority voting, we might send it
@@ -34,10 +34,10 @@ something like this:</p>
 </code></pre>
 <p>…then the receiver will look at each of the bits:</p>
 <ul>
-<li>For the first bit, we have <code>1</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>1</code>, so we’d decode the first bit as <code>1</code>.</li>
-<li>For the second bit, we have <code>0</code>, <code>0</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the second bit as <code>0</code>.</li>
-<li>For the third bit, we have <code>1</code>, <code>1</code>, and <code>1</code>. The majority vote is <code>1</code>, so we’d decode the third bit as <code>1</code>.</li>
-<li>For the fourth bit, we have <code>0</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the fourth bit as <code>0</code>.</li>
+<li>For the first <a href="/bit">bit</a>, we have <code>1</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>1</code>, so we’d decode the first <a href="/bit">bit</a> as <code>1</code>.</li>
+<li>For the second <a href="/bit">bit</a>, we have <code>0</code>, <code>0</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the second <a href="/bit">bit</a> as <code>0</code>.</li>
+<li>For the third <a href="/bit">bit</a>, we have <code>1</code>, <code>1</code>, and <code>1</code>. The majority vote is <code>1</code>, so we’d decode the third <a href="/bit">bit</a> as <code>1</code>.</li>
+<li>For the fourth <a href="/bit">bit</a>, we have <code>0</code>, <code>1</code>, and <code>0</code>. The majority vote is <code>0</code>, so we’d decode the fourth <a href="/bit">bit</a> as <code>0</code>.</li>
 </ul>
 <p>So we’d correctly decode the data as <code>1010</code>, even though actually <em>none</em> of the
 individual copies of the data were correct. The majority voting allows us to
@@ -51,7 +51,7 @@ bits.</li>
 is, it is more likely to be correct than a single copy of the data.</li>
 <li>It’s still pretty simple to implement, and doesn’t require any complex algorithms
 like some other error detection/correction methods.</li>
-<li>It can be used in situations where we have a lot of bandwidth and can afford
+<li>It can be used in situations where we have a lot of <a href="/bandwidth">bandwidth</a> and can afford
 to send the data multiple times. Perhaps, over a superfast USB cable when
 transferring files between a computer and a hard drive.</li>
 </ul>
@@ -61,7 +61,7 @@ transferring files between a computer and a hard drive.</li>
 <ul>
 <li>If we send the data 3 times, then we’re using 3 times as many bits.</li>
 <li>If we send it 5 times, then we’re using 5 times as many bits, etc.</li>
-<li>So, it can be very inefficient in terms of bandwidth.</li>
+<li>So, it can be very inefficient in terms of <a href="/bandwidth">bandwidth</a>.</li>
 </ul>
 </li>
 <li>It can also make the data transfer slower, since we have to send the data multiple times.</li>

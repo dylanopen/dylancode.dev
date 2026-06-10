@@ -1,8 +1,8 @@
 # NOR gate
 
-A *NOR gate* is a combination of an OR gate followed by a NOT gate.
+A *NOR gate* is a combination of an [[or gate]] followed by a [[not gate]].
 
-In other words, it's an inverted OR gate.
+In other words, it's an inverted [[or gate]].
 
 It will output a `1` only when **both** of its input signals are `0`. In all
 other cases, it will output a `0`.

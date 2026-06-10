@@ -29,7 +29,7 @@ If instead we got these results, our experiments would not be very repeatable:
 
 To make sure our repeatability is as good as possible, we can:
 - Use precise measuring apparatus
-- Control the environment (aka control variables)
+- Control the environment (aka control [[cs/variables|variables]])
 - Do exactly the same method each time
 - Take multiple measurements in each experiment and average them
 
@@ -37,7 +37,7 @@ To make sure our repeatability is as good as possible, we can:
 
 - Repeatability measures: if we do the same experiment multiple times under the
   same conditions, do we get similar results?
-- Reproducibility measures: if someone else does the same experiment under
+- [[reproducibility]] measures: if someone else does the same experiment under
   different conditions (e.g. different lab, different equipment), do they get
   similar results?
 

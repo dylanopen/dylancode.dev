@@ -1008,7 +1008,7 @@ For a quartic polynomial $ax^4+bx^3+cx^2+dx+e=0$ (degree 4) with roots $p$, $q$,
     + $(x-1)(x-2)(x-3)$
 + Critical points: $x=1$, $x=2$, $x=3$
 + Sketch the graph:
-+ ![[res/Pasted image 20260426205114.png]]
++ !res/Pasted image 20260426205114.png
 + The graph is above the $x$-axis (where $y>0$) when:
     + $1<x<2$ or $x>3$
 
@@ -1029,7 +1029,7 @@ For a quartic polynomial $ax^4+bx^3+cx^2+dx+e=0$ (degree 4) with roots $p$, $q$,
 
 Any function which is in the form of $y=\frac{ax+b}{cx+d}$ is a translation of the *hyperbola*, $y=\frac1x$, which looks like:
 
-![[res/Pasted image 20260426210342.png]]
+!res/Pasted image 20260426210342.png
 
 ---
 
@@ -1300,19 +1300,19 @@ TODO make better example
 
 ## Graph of $\sinh x$
 
-![[res/Pasted image 20260428110057.png]]
+!res/Pasted image 20260428110057.png
 
 ---
 
 ## Graph of $\cosh x$
 
-![[res/Pasted image 20260428110147.png]]
+!res/Pasted image 20260428110147.png
 
 ---
 
 ## Graph of $\tanh x$
 
-![[res/Pasted image 20260428110254.png]]
+!res/Pasted image 20260428110254.png
 
 ---
 

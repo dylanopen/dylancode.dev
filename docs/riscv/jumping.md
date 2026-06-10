@@ -1,10 +1,10 @@
 # Jumping
 
 *Jumping* is where we change the flow of our program by jumping to a different
-part of the code - we essentially 'goto' a certain line (or memory address) in
+part of the code - we essentially 'goto' a certain line (or [[memory address]]) in
 our code.
 
-Please have a look at the [[riscv/labels|last chapter]] to see how labels work.
+Please have a look at the [[riscv/labels|last chapter]] to see how [[labels]] work.
 
 ## The `j` instruction
 
@@ -22,7 +22,7 @@ j label_name
 ## Example
 
 For example, here, we jump to the `stop` label before we add `1` to the `a0`
-register:
+[[register]]:
 
 ```
 .text
@@ -37,7 +37,7 @@ stop:
 
 [[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|Run on creatorsim]]&asm=.text%0Amain%3A%0A%20%20%20%20li%20a0%2C%205%0A%20%20%20%20j%20stop%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall%0A%20%20%20%20)
 
-This program will load `5` into the `a0` register, then jump to the `stop`
+This program will load `5` into the `a0` [[register]], then jump to the `stop`
 label, skipping the line that would have added `1` to `a0`. Finally, it will
 exit the program.
 

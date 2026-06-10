@@ -8,4 +8,4 @@ The first three pairs of digits (the first 24 bits) represent the manufacturer o
 
 ## How they're different to IP addresses
 
-IP addresses identify a *local area network* on the internet. MAC addresses are specific to a device, not the entire LAN.
+IP addresses identify a *[[local area network]]* on the internet. MAC addresses are specific to a device, not the entire LAN.

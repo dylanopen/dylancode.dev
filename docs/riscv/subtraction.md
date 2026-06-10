@@ -3,7 +3,7 @@
 Subtraction in RISC-V assembly is done using one of two instructions:
 - `sub` for subtracting the values of two registers
 - `addi` with a negative immediate value for subtracting an immediate value
-  from a register
+  from a [[register]]
 
 ## Subtracting using registers
 
@@ -41,11 +41,11 @@ stop:
 
 [[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|View in Creatorsim!]]&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++li%20x2%2C%203%0A++++sub%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
 
-Once we run this code, the value in register `x3` will be `7`, or `07` in hex!
+Once we run this code, the value in [[register]] `x3` will be `7`, or `07` in hex!
 
 ## Subtracting an immediate value
 
-Suppose we have a register, `x1`, which contains the value `10`, and we want to
+Suppose we have a [[register]], `x1`, which contains the value `10`, and we want to
 subtract `3` from it and store the result in `x2`.
 
 In other words:
@@ -87,4 +87,4 @@ stop:
 [[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|View in Creatorsim!]]&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++addi%20x2%2C%20x1%2C%20-3%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
 
 As this code effectively does the same as the previous example, the value in
-register `x2` will also be `7` when running the code!
+[[register]] `x2` will also be `7` when running the code!

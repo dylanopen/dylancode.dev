@@ -1,16 +1,16 @@
 # Copying registers
 
-We already know that we can *set* the value of a register to a constant, using
+We already know that we can *set* the value of a [[register]] to a constant, using
 the `li` pseudo-instruction.
 
-WHat if we have a value in one register, and we want to copy it to another
-register?
+WHat if we have a value in one [[register]], and we want to copy it to another
+[[register]]?
 
 For that, we can use the `mv` pseudo-instruction.
 
 ## Syntax
 
-If we want to copy the value in register `a0` to register `a1`, we would write:
+If we want to copy the value in [[register]] `a0` to [[register]] `a1`, we would write:
 
 ```asm
 mv a1, a0
@@ -41,7 +41,7 @@ a1 = 20
 ## Implementation
 
 The `mv` pseudo-instruction is actually implemented using the `addi`
-instruction, which adds an immediate value to a register.
+instruction, which adds an immediate value to a [[register]].
 
 It's essentially the reverse of the `li` pseudo-instruction we saw earlier.
 

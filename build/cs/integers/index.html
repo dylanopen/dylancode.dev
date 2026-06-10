@@ -24,23 +24,23 @@
 zero and positive numbers).</li>
 </ul>
 <blockquote>
-<p>Importantly, unsigned integers can store a larger range of positive values
+<p>Importantly, unsigned integers can store a larger <a href="/range">range</a> of positive values
 compared to signed integers of the same size, since they don’t need to use a
-bit to represent the sign.</p>
+<a href="/bit">bit</a> to represent the sign.</p>
 </blockquote>
 <p>Usually, we can tell whether an integer is signed or unsigned by its name:</p>
 <ul>
-<li>Signed integers: <code>int</code>, <code>short</code>, <code>long</code></li>
+<li>Signed integers: <code>int</code>, <code>[short](/short)</code>, <code>long</code></li>
 <li>Unsigned integers: <code>uint</code>, <code>ushort</code>, <code>ulong</code></li>
 </ul>
 <p>Sometimes, signed integers are prefixed with an <code>s</code>, such as <code>sbyte</code> (while a
-<code>byte</code> is unsigned). This is non-standard, and it’s typical of microsoft to name
+<code>[Byte](/byte)</code> is unsigned). This is non-standard, and it’s typical of microsoft to name
 things badly ;)</p>
 <h2>Other types of integer</h2>
 <p>While <code>int</code> is the standard integer type, there are lots more which can store
 different ranges of whole numbers. The most common are:</p>
-<table><thead><tr><th>Data Type</th><th>Size (bits)</th><th>Range</th></tr></thead><tbody>
-<tr><td>byte</td><td>8</td><td>0 to 255 ($2^8)</td></tr>
+<table><thead><tr><th>Data Type</th><th>Size (bits)</th><th><a href="/range">range</a></th></tr></thead><tbody>
+<tr><td><a href="/byte">byte</a></td><td>8</td><td>0 to 255 ($2^8)</td></tr>
 <tr><td>short</td><td>16</td><td>- 32,768 to 32,767</td></tr>
 <tr><td>int</td><td>32</td><td><im>-2^31</im> to <im>2^31 - 1</im></td></tr>
 <tr><td>long</td><td>64</td><td>- <im>2^63</im> to <im>2^63 - 1</im></td></tr>
@@ -62,8 +62,8 @@ ulong veryLargeNumber = 18000000000000000000;
 <h2>Integer overflow</h2>
 <p>If you try to store a value that is too big (or small) to be stored in the
 integer type, then you will get an error. That’s called an <em>integer overflow</em>.</p>
-<p>For example, if you try to store the value <code>300</code> in a <code>byte</code> variable, you’ll
-get an overflow error, because <code>byte</code> can only store values from <code>0</code> to <code>255</code>.</p>
+<p>For example, if you try to store the value <code>300</code> in a <code>[Byte](/byte)</code> variable, you’ll
+get an overflow error, because <code>[Byte](/byte)</code> can only store values from <code>0</code> to <code>255</code>.</p>
 <pre><code class="language-csharp">byte myByte = 300; // Error: Overflow
 </code></pre>
 

@@ -12,7 +12,7 @@ class ClassName
 
 ## Example
 
-This code declares a class named `Person` with two fields: `name` and `age`.
+This code declares a class named `Person` with two [[fields]]: `name` and `age`.
 
 ```csharp
 class Person

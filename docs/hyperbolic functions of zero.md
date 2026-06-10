@@ -9,7 +9,7 @@ functions - by substituting for $x$.
 Proof:
 - $\sinh x=\frac{e^x-e^{-x}}2$
 - $\sinh0=\frac{e^0-e^{-0}}2$
-- $=\frac{1-1}2$ (anything to the power of 0 is 1)
+- $=\frac{1-1}2$ (anything to the [[power of 0]] is 1)
 - $=\frac02$
 - $=0$
 
@@ -18,7 +18,7 @@ Proof:
 Proof:
 - $\cosh x=\frac{e^x+e^{-x}}2$
 - $\cosh0=\frac{e^0+e^{-0}}2$
-- $=\frac{1+1}2$ (anything to the power of 0 is 1)
+- $=\frac{1+1}2$ (anything to the [[power of 0]] is 1)
 - $=\frac22$
 - $=1$
 
@@ -27,6 +27,6 @@ Proof:
 Proof:
 - $\tanh x=\frac{e^x-e^{-x}}{e^x+e^{-x}}$
 - $\tanh 0=\frac{e^0-e^{-0}}{e^0+e^{-0}}$
-- $=\frac{1-1}{1+1}$ (anything to the power of 0 is 1)
+- $=\frac{1-1}{1+1}$ (anything to the [[power of 0]] is 1)
 - $=\frac02$
 - $=0$

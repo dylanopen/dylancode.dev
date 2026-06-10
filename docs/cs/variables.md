@@ -63,7 +63,7 @@ int population = 1200;
 ## Reading a variable
 
 We can *read* the value of a variable by simply using its name in an
-expression. For example, to print the value of the `population` variable to
+[[expression]]. For example, to print the value of the `population` variable to
 the console, we would do:
 
 ```cs
@@ -116,9 +116,9 @@ a (mostly) comprehensive list of them:
 
 - Use *camelCase* for local variables and function/method parameters (e.g.,
   `myVariable`).
-- Use *PascalCase* for fields/properties and methods (e.g., `MyProperty`,
+- Use *PascalCase* for [[fields]]/[[properties]] and methods (e.g., `MyProperty`,
   `CalculateSum()`).
-- Use *PascalCase* for type names (classes, structs, enums, etc.) (e.g.,
+- Use *PascalCase* for type names ([[classes]], structs, enums, etc.) (e.g.,
   `MyClass`, `UserProfile`).
 - Don't use underscores in names.
 - Constants should use *PascalCase* (e.g., `MaxValue`).

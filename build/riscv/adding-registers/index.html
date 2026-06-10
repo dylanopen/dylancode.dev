@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Adding registers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Adding registers</h1>
-<p>Just as we can add the value stored in a register to an immediate value (a
-constant) and then save the result in another register, we can also add the
-values of two registers together - then save that result in a third register.</p>
+<p>Just as we can add the value stored in a <a href="/register">register</a> to an immediate value (a
+constant) and then save the result in another <a href="/register">register</a>, we can also add the
+values of two registers together - then save that result in a third <a href="/register">register</a>.</p>
 <h2>Adding two registers</h2>
 <p>The instruction for adding the values of two registers together is <code>add</code> (not
 <code>addi</code>, which we used for adding an immediate value).</p>
@@ -14,8 +14,8 @@ values of two registers together - then save that result in a third register.</p
 <h2>Example</h2>
 <p>If we wanted to:</p>
 <ul>
-<li>Load the value <code>22</code> into register <code>x1</code></li>
-<li>Load the value <code>8</code> into register <code>x2</code></li>
+<li>Load the value <code>22</code> into <a href="/register">register</a> <code>x1</code></li>
+<li>Load the value <code>8</code> into <a href="/register">register</a> <code>x2</code></li>
 <li>Add the values in <code>x1</code> and <code>x2</code> together, and store the result in <code>x3</code></li>
 </ul>
 <p>We would write:</p>
@@ -30,7 +30,7 @@ stop:
     ecall            # Make syscall
 </code></pre>
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A++++li%20x1%2C%2022%20%20%20%20%20%23%20x1%20%3D%2022%0A++++li%20x2%2C%208%20%20%20%20%20%23%20x2%20%3D%208%0A++++add%20x3%2C%20x1%2C%20x2%20%23%20x3%20%3D%20x1%20%2B%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%20%20%20%23%2010%20%3D%20exit%20syscall%0A++++ecall%20++++++-%20Make%20syscall">Try it out in Creatorsim!</a></p>
-<p>Now, when we run this code, the value in register <code>x3</code> will be <code>30</code>, or <code>1E</code> in
+<p>Now, when we run this code, the value in <a href="/register">register</a> <code>x3</code> will be <code>30</code>, or <code>1E</code> in
 hex!</p>
 <h2>The <code>+=</code> operation</h2>
 <p>In many programming languages, there is a shorthand way to add a value to a
@@ -42,7 +42,7 @@ int x2 = 5;
 x1 += x2;  // equivalent to x1 = x1 + x2;
 </code></pre>
 <p>We can effectively do the same in RISC-V assembly using the <code>add</code> instruction by
-using the same register for both the destination and one of the source
+using the same <a href="/register">register</a> for both the destination and one of the source
 registers.</p>
 <p>For this C code, we can instead write:</p>
 <pre><code class="language-asm">    li x1, 10       # x1 = 10

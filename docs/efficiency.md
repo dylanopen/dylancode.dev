@@ -2,7 +2,7 @@
 
 As mentioned in the article about [[conservation of energy]], [[energy]] cannot be created or destroyed.
 
-But it can be [[energy transfer|transferred]] from one form to another: and sometimes, we don't *want* that energy form.
+But it can be [[energy transfer|transferred]] from one form to another: and sometimes, we don't *want* that [[energy form]].
 
 For example, in a computer CPU, we want the energy to be transferred as efficiently as possible so that as little [[heat]] is produced as possible.
 
@@ -28,7 +28,7 @@ $$
 \text{Efficiency} = \left( \frac{\text{Useful energy output}}{\text{Total energy input}} \right) \times 100\%
 $$
 
-If we're instead measuring the *power* used and produced, we can use:
+If we're instead measuring the *[[power]]* used and produced, we can use:
 
 $$
 \text{Efficiency} = \left( \frac{\text{Useful power output}}{\text{Total power input}} \right) \times 100\%
@@ -40,7 +40,7 @@ Almost nothing can be 100% efficient, because there are always some energy losse
 
 For example, in a car engine, some of the energy from the fuel is lost as heat and sound, so the efficiency isn't anywhere close to 100%.
 
-However: all energy transfers usually will end up as heat in the end. In a way, heating machines (e.g. electric radiators) are 100% efficient, in that they  transfer all the energy they use into heat energy - which is what we want them to do!
+However: all energy transfers usually will end up as heat in the end. In a way, [[heating]] machines (e.g. electric radiators) are 100% efficient, in that they  transfer all the energy they use into heat energy - which is what we want them to do!
 
 ## Examples
 

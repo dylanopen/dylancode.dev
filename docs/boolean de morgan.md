@@ -13,13 +13,13 @@ sign', so, for example, $\overline{A \cdot B}$ becomes $\overline{A} +
 > $\overline{A \cdot B} = \overline{A} + \overline{B}$  
 > $\overline{A + B} = \overline{A} \cdot \overline{B}$
 
-Like all boolean identities, we can use this in both directions, so we can also
+Like all [[boolean]] identities, we can use this in both directions, so we can also
 say that $\overline{A} + \overline{B} = \overline{A \cdot B}$ and
 $\overline{A} \cdot \overline{B} = \overline{A + B}$.
 
 ## Using it to simplify expressions
 
-It's most useful when we have an expression with two NOTs 'on top' of each
+It's most useful when we have an [[expression]] with two NOTs 'on top' of each
 other, for example, in this example:
 
 ### Simplify $\overline{\overline{A} \cdot \overline{B}}$
@@ -28,6 +28,6 @@ other, for example, in this example:
   - $\overline{\overline{A}} + \overline{\overline{B}}$
 - Now we have two NOTs on top of each other, so we can simplify them, using
   the fact that $\overline{\overline{A}} = A$ (see [[
-  /boolean double negation|double negation]]):
+  /[[boolean double negation]]|double negation]]):
   - $A + B$
-- So the final, simplified expression is $A + B$.
+- So the final, simplified [[expression]] is $A + B$.

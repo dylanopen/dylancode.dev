@@ -19,27 +19,27 @@ a short variable:</p>
 </code></pre>
 <h2>When to use shorts</h2>
 <p>YOu should use a short when you need to save memory and you’re sure the values
-you’ll be working with will fit within the range of a short (-32,768 to 32,767).</p>
+you’ll be working with will fit within the <a href="/range">range</a> of a short (-32,768 to 32,767).</p>
 <p>Some good examples of when to use shorts include:</p>
 <ul>
 <li>Storing small counts, like the number of items in a list that won’t exceed
 32,767.</li>
 <li>Representing things like <em>ports</em> which use exactly 16 bits.</li>
 <li>When working with large arrays of numbers where memory usage is a concern and
-the values fit within the short range.</li>
+the values fit within the short <a href="/range">range</a>.</li>
 </ul>
 <p>However, if you need to work with larger numbers, or if you’re unsure about the
-range of values, it’s safer to use a regular <code>int</code> instead (or even a <code>long</code>).</p>
+<a href="/range">Range</a> of values, it’s safer to use a regular <code>int</code> instead (or even a <code>long</code>).</p>
 <h2>Integer constants with shorts</h2>
-<p>Just like with regular integers, we can use integer constants with shorts. For
+<p>Just like with regular <a href="/integers">integers</a>, we can use integer constants with shorts. For
 example:</p>
 <pre><code class="language-c">short a = 12345;
 short b = -30000;
 short c = a + b; // c will be -17655
 </code></pre>
 <p><em>As long as</em> the constant is being assigned to a short variable or passed to
-a function which expects a short, the compiler will handle it correctly.</p>
-<p>However, be careful not to assign a value that exceeds the range of a short,
+a function which expects a short, the <a href="/compiler">compiler</a> will handle it correctly.</p>
+<p>However, be careful not to assign a value that exceeds the <a href="/range">range</a> of a short,
 like this:</p>
 <pre><code class="language-c">short d = 40000; // This will cause an overflow!
 </code></pre>

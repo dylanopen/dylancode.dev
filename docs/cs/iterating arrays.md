@@ -29,11 +29,11 @@ This will output:
 
 - The reason this works is that the loop variable `i` starts at `0` and
   increases by `1` each time through the loop, until it reaches `5`.
-- Each time through the loop, we use `i` as the index to get the element from
+- Each time through the loop, we use `i` as the [[index]] to get the element from
   the `numbers` array at that position.
 - When `i` reaches `5`, the loop stops because the condition `i < 5` is no
   longer true. We end the loop before trying to access `numbers[5]`, which
-  would cause an error because there is no element at that index (it is 'out of
+  would cause an error because there is no element at that [[index]] (it is 'out of
   bounds').
 
 ## Using the Length property

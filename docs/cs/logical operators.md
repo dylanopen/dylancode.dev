@@ -1,10 +1,10 @@
 # Logical operators
 
-A *logical operator* is an operator that combines multiple boolean values
-(tests that evaluate to `true` or `false`) into a single boolean value.
+A *logical operator* is an operator that combines multiple [[boolean]] values
+(tests that evaluate to `true` or `false`) into a single [[boolean]] value.
 
-> The key thing is that they **work with boolean values** (true or false)
-> and produce another boolean value as a result.
+> The key thing is that they **work with [[boolean]] values** (true or false)
+> and produce another [[boolean]] value as a result.
 
 We can logically think of this as:
 - If `true AND true` the the result is `true`
@@ -94,7 +94,7 @@ We can write this as a truth table:
 | true  | false |
 | false | true  |
 
-In other words, it *inverts* the boolean value.
+In other words, it *inverts* the [[boolean]] value.
 
 Here's an example:
 
@@ -112,7 +112,7 @@ bool isWeekday = !isWeekend; // true
 
 ## Combining logical operators
 
-Logical operators can be combined to create more complex boolean expressions.
+Logical operators can be combined to create more complex [[boolean]] expressions.
 
 For example:
 

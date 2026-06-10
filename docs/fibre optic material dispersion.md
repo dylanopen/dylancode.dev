@@ -19,5 +19,5 @@ will arrive at different times.
 
 ## Solution
 
-We can solve this problem by sending *monochromatic* light (only one wavelength)
+We can solve this problem by sending *monochromatic* light (only one [[wavelength]])
 instead of white light.

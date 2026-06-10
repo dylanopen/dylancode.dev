@@ -7,7 +7,7 @@ $(x_1, y_1)$ - and we want to find the equation of that straight line.
 
 We need to know the **gradient** if we want to find the equation of the line,
 and after that, we can substitute in our values for $x$, $y$, $x_1$, $y_1$ and
-$m$ into the equation of a straight line: $y - y_1 = m(x - x_1)$.
+$m$ into the [[equation of a straight line]]: $y - y_1 = m(x - x_1)$.
 
 ### Finding the gradient
 
@@ -44,7 +44,7 @@ $$
   - $m = \frac{y - y_1}{x - x_1}$
   - $= \frac{11 - 3}{5 - 2}$
   - $= \frac{8}{3}$
-- Substitute into the equation of a straight line:
+- Substitute into the [[equation of a straight line]]:
   - $y - y_1 = m(x - x_1)$
   - $y - 3 = \frac{8}{3}(x - 2)$
 - We can rearrange this into the form $y = mx + c$ *if we want to*:
@@ -61,7 +61,7 @@ $$
   - $= \frac{10 - 4}{3 - 1}$
   - $= \frac{6}{2}$
   - $= 3$
-- Substitute into the equation of a straight line:
+- Substitute into the [[equation of a straight line]]:
   - $y - y_1 = m(x - x_1)$
   - $y - 4 = 3(x - 1)$
 - We can rearrange this into the form $y = mx + c$ *if we want to*:

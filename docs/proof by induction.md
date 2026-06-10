@@ -51,7 +51,7 @@ also be true. So:
   - We can do exactly the same as above to find that $n=3$ is also true
 - ...and so on, for *all* positive integers.
 
-## Proving using [[standard summation results]]
+## Proving using standard summation results
 
 ### Prove $1^2+2^2+3^2+\cdots+n^2=\frac16n(n+1)(2n+1)$
 

@@ -7,12 +7,12 @@
     return a + b;
 }
 </code></pre>
-<p>This method works great for adding two integers. But what if we want to add two
+<p>This method works great for adding two <a href="/integers">integers</a>. But what if we want to add two
 float numbers instead? We could create a new method with a different name,
 like <code>AddFloats</code>, but that would be less intuitive for users of our code.</p>
 <p>Instead, we can use <em>method overloading</em> to define multiple methods with the
 same name but different parameter types or counts!</p>
-<p>The compiler will choose the correct method to call based on the arguments we
+<p>The <a href="/compiler">compiler</a> will choose the correct method to call based on the arguments we
 provide.</p>
 <h2>The <code>Add</code> example</h2>
 <p>Have a look at this code:</p>
@@ -27,15 +27,15 @@ static float Add(float a, float b)
 </code></pre>
 <p>We’re defining the <code>Add</code> method twice. Normally, this would cause a compilation
 error, but because the parameter types are different (one takes <code>int</code>s and the
-other takes <code>float</code>s), the compiler can distinguish between them.</p>
-<p>Now, when we call <code>Add</code>, the compiler will pick the right method based on the
+other takes <code>float</code>s), the <a href="/compiler">compiler</a> can distinguish between them.</p>
+<p>Now, when we call <code>Add</code>, the <a href="/compiler">compiler</a> will pick the right method based on the
 argument types:</p>
 <pre><code class="language-cs">int sumInt = Add(3, 5);           // Calls the int version
 float sumFloat = Add(2.5f, 4.5f); // Calls the float version
 </code></pre>
 <h2>Distinguishing by return type</h2>
 <blockquote>
-<p>It’s important to note that the compiler <em>cannot</em> distinguish between methods
+<p>It’s important to note that the <a href="/compiler">compiler</a> <em>cannot</em> distinguish between methods
 that differ only by their return type.<br />
 For example, the following code would cause a compilation error:</p>
 </blockquote>

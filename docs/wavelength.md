@@ -1,6 +1,6 @@
 # Wavelength
 
-The *wavelength* of a wave is the distance between two consecutive points that are in phase (for example, two consecutive peaks or troughs) in a wave.
+The *wavelength* of a wave is the [[distance]] between two consecutive points that are in phase (for example, two consecutive peaks or troughs) in a wave.
 
 ## Notation
 
@@ -16,7 +16,7 @@ derivation of it, such as centimetres.
 Wavelength can be calculated using the formula:
 
 $$
-\text{Wavelength} = \frac{\text{Speed of wave}}{\text{Frequency}}
+\text{Wavelength} = \frac{\text{speed of wave}}{\text{Frequency}}
 $$
 
 Or, using symbols:

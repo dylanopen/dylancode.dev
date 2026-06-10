@@ -12,5 +12,5 @@ We can use that response to do things like:
 
 The key thing is that:
 - the **client** *sends* the request and *receives* the response
-- the **server** *receives* the request and *sends* the response
+- the **[[server]]** *receives* the request and *sends* the response
 - (usually)

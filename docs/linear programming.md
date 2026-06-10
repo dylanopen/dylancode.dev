@@ -71,7 +71,7 @@ the day's production.
 ### Constraints
 
 - $2x+y\le16$ (lathe)
-- $2x+3y\le24$ (assembler)
+- $2x+3y\le24$ ([[assembler]])
 - $x\ge0$
 - $y\ge0$
 
@@ -89,7 +89,7 @@ large type of brick is of height 10cm and length 20cm. The small type of brick i
 
 Ignoring the mortar between the bricks, the constraint $4L+s\ge60000$ ensures
 that there are enough bricks to build the wall. Identify the meanings of the
-variables $L$ and $S$, and explain why the constraint works.
+[[cs/variables|variables]] $L$ and $S$, and explain why the constraint works.
 
 - $L$ represents the number of large bricks used.
 - $S$ represents the number of small bricks used.
@@ -196,5 +196,5 @@ Aha! We can plant another shrub, increasing our environmental benefit to
 $5(21)+341=105+341=446$ (arbitrary units).
 
 You need to consider this in linear programming problems where the values are
-not integers. In exams, it is unlikely that you will be given a problem where
+not [[integers]]. In exams, it is unlikely that you will be given a problem where
 this can happen, but it is worth being aware of.

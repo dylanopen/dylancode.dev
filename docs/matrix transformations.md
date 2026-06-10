@@ -45,7 +45,7 @@ $$
 \pmatrix{x\\y} \to \pmatrix{...\\...}
 $$
 
-or as a matrix multiplication:
+or as a [[matrix multiplication]]:
 
 $$
 \pmatrix{a & b\\c & d} \pmatrix{x\\y} = \pmatrix{ax + by\\cx + dy}
@@ -119,7 +119,7 @@ reflections) have a determinant of either $1$ or $-1$.
 
 ### Singular matrix
 
-A singular matrix has a determinant of $0$, which means that it will create an
+A [[singular matrix]] has a determinant of $0$, which means that it will create an
 image which has **no area**. For example:
 
 - A line

@@ -12,17 +12,17 @@ and 3 - they're gaps.
 
 ## Discrete vs continuous variables
 
-Continuous variables are the opposite: they can represent *any value*, sometimes
-within a certain range. For example, a continuous variable could represent any
+Continuous [[cs/variables|variables]] are the opposite: they can represent *any value*, sometimes
+within a certain [[range]]. For example, a continuous variable could represent any
 value between 0 and 1, including 0.5, 0.25, 0.75, etc. There are no gaps between
 the possible values of a continuous variable, either. There are actually
 infinite possible values that a continuous variable can take.
 
-Discrete variables have a limited number of possible values they can take.
+Discrete [[cs/variables|variables]] have a limited number of possible values they can take.
 
 ## Discrete vs categorical variables
 
-Categorical variables are also different from discrete variables. Categorical variables represent categories or groups, and they don't have a natural order. For
+Categorical [[cs/variables|variables]] are also different from discrete [[cs/variables|variables]]. Categorical [[cs/variables|variables]] represent categories or groups, and they don't have a natural order. For
 example, the variable "colour" could be a categorical variable with categories like "red", "green", and "blue".
 
 We can sometimes call these 'qualitative' measures. They're different from discrete.

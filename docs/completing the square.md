@@ -1,9 +1,9 @@
 # Completing the square
 
-Completing the square is a method used to rewrite a quadratic expression, from
+Completing the square is a method used to rewrite a quadratic [[expression]], from
 the form $ax^2+bx+c$ to the form $a(x+d)^2+e$. This can be useful for solving
 quadratic equations, graphing quadratic functions, and understanding the 
-properties of a quadratic graph (e.g. its turning point, otherwise known as
+[[properties]] of a quadratic graph (e.g. its [[turning point]], otherwise known as
 the vertex).
 
 ## Completing the square when \(a=1\)
@@ -27,7 +27,7 @@ This makes a lot more sense with an example.
 - If we take $(x + 3)^2$ and expand it, we get:
   - $(x + 3)^2 = x^2 + 6x + 9$
   - This is what we want, we just have an extra $+9$, so take that away from the
-    expression:
+    [[expression]]:
     - $x^2 + 6x + 5 = (x + 3)^2 - 9 + 5$
     - $= (x + 3)^2 - 4$
 
@@ -58,11 +58,11 @@ to worry about the $a$ coefficient anymore.
   - $c = 3$
   - $\frac{b}{2} = \frac{4}{2} = 2$
   - $(x + 2)^2 = x^2 + 4x + 4$
-  - So, we need to subtract $4$ from the expression:
+  - So, we need to subtract $4$ from the [[expression]]:
     - $x^2 + 4x + 3 = (x + 2)^2 - 4 + 3$
     - $= (x + 2)^2 - 1$
 - Finally, we need to remember that we divided the whole equation by $2$ at the
-  start, so we need to multiply the whole completed square expression by $2$ to
+  start, so we need to multiply the whole completed square [[expression]] by $2$ to
   get back to the original equation:
   - $2x^2 + 8x + 6 = 2((x + 2)^2 - 1)$
   - $= 2(x + 2)^2 - 2$
@@ -72,13 +72,13 @@ to worry about the $a$ coefficient anymore.
 
 ## Finding the turning point from the completed square form
 
-The turning point of $a(x+d)^2+e$ is $(-d, e)$.
+The [[turning point]] of $a(x+d)^2+e$ is $(-d, e)$.
 
 > Notice that we completely ignore the $a$ coefficient when finding the turning
 > point. It's not important here!
 
-The number in the brackets tells us the $x$ coordinate of the turning point, and
-the number outside the brackets tells us the $y$ coordinate of the turning point.
+The number in the brackets tells us the $x$ coordinate of the [[turning point]], and
+the number outside the brackets tells us the $y$ coordinate of the [[turning point]].
 
 We **negate** the number inside the brackets to find our $x$ coordinate. The
 reason for this is the same as when we solve equations from their factorised

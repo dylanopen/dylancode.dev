@@ -34,7 +34,7 @@ $$
 
 ## Non-examples of real numbers
 
-- $i$ (imaginary constant)
-- $3 + 4i$ (complex number with real and imaginary parts)
+- $i$ ([[imaginary constant]])
+- $3 + 4i$ ([[complex number]] with real and imaginary parts)
 - $-2i$ (pure imaginary number)
-- $5 - i$ (complex number with real and imaginary parts)
+- $5 - i$ ([[complex number]] with real and imaginary parts)

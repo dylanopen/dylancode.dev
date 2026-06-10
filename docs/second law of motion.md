@@ -13,7 +13,7 @@ Newton's *second* law of [[motion]] states:
 
 ## Equations
 
-In short, Newton's second law of motion can be written as:
+In [[short]], Newton's second law of motion can be written as:
 
 $$
 \Sigma F = ma

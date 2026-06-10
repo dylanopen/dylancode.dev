@@ -1,6 +1,6 @@
 # Setting up a C project
 
-> Creating our project folder and C source code file.
+> Creating our project folder and C [[source code]] file.
 
 ## Operating system concerns
 

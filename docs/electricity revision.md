@@ -341,7 +341,7 @@ $$
 | V      | Terminal p.d.       | Volt         | V           |
 | E      | EMF                 | Volt         | V           |
 | I      | Current             | Ampere       | A           |
-| r      | Internal resistance | Ohm          | Ω           |
+| r      | [[internal resistance]] | Ohm          | Ω           |
 
 - We can rearrange this to find EMF: $E = V + I r$
 
@@ -353,21 +353,21 @@ $$
 ## Finding the internal resistance from a graph of V against I
 
 - Draw a line of best fit.
-- The gradient is the negative internal resistance.
-- So, to find the internal resistance, take the negative of the gradient.
+- The gradient is the negative [[internal resistance]].
+- So, to find the [[internal resistance]], take the negative of the gradient.
 
 # Potential dividers
 
 ## Definition of a potential divider
 
-A potential divider si a circuit which takes an input voltage and then splits it
+A [[potential divider]] si a circuit which takes an input [[voltage]] and then splits it
 across two or more components in a specific ratio.
 
-In other words, it 'divides' the voltage into smaller voltages.
+In other words, it 'divides' the [[voltage]] into smaller voltages.
 
 ## What is a potential divider made up of?
 
-- Two resistors in series.
+- Two resistors in [[series]].
 - They share the EMF in the ratio of the resistances.
 
 ## Equation for potential dividers
@@ -381,5 +381,5 @@ $$
 A potentiometer is a variable resistor which can be used like a potential
 divider.
 
-It is not very efficient, but it allows us to get the *full range* of EMFs
-(from 0V to the maximum voltage).
+It is not very efficient, but it allows us to get the *full [[range]]* of EMFs
+(from 0V to the maximum [[voltage]]).

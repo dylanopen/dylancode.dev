@@ -39,11 +39,11 @@ combine logic gates together to make more complex circuits.
   instructions from memory, decodes them, and tells the other parts of the
   processor what to do.
 - [[arithmetic logic unit|Arithmetic logic unit (ALU)]]: This is the part of the processor
-  that performs maths and boolean logic operations, like addition, subtraction,
+  that performs maths and [[boolean]] logic operations, like addition, [[subtraction]],
   AND, OR, etc.
 - [[register|Registers]]: These are small, fast storage locations within the
   processor, where it can store data and instructions that it's currently
-  working on. They're much faster than the main memory, so the processor can
+  working on. They're much faster than the [[main memory]], so the processor can
   access them quickly.
 - [[processor cache|Cache]]: This is a small amount of very fast memory that's built into
   the processor. It's used to store frequently accessed data and instructions,
@@ -53,7 +53,7 @@ combine logic gates together to make more complex circuits.
 - [[processor clock|Clock]]: This is a tiny circuit that generates an on and off
   signal, lots of times per second at a regular frequency, which
   is used to synchronise the operations of the processor. It basically tells
-  the processor when to do things, and how fast to do them. The speed of the
+  the processor when to do things, and how fast to do them. The [[speed]] of the
   clock is measured in hertz (Hz), and it tells us how many instructions the
   processor can execute per second.
 - [[computer bus|Bus]]: This is a set of wires that connects the different parts of

@@ -1,11 +1,11 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Poisson mean scaling</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Poisson mean scaling</h1>
-<p>When we’re trying to solve problems involving the <a href="/poisson-distribution">poisson distribution</a>, we might have a question which involves comparing two things that don’t have the mean set to the same scale.</p>
-<p>For example, we might know the mean number of cars that pass through a junction in 1 hour, but we want to know the probability that a certain number of cars pass through in 30 minutes.</p>
-<p>To solve these problems, we can just <strong>scale the mean</strong> up/down to the new, correct, time period.</p>
-<p>For our example, if we know that the mean number of cars that pass through a junction in 1 hour is 10, then the mean number of cars that pass through in 30 minutes is just half of that, so an average of 5 cars per 30 minutes.</p>
-<p>We <strong>can’t</strong> scale our value of <im>x</im> up/down. So if we wanted to find the probability of <im>3</im> cars passing in 30 minutes, we can’t scale <im>3/30min</im> up to <im>6/1hr</im>. We need to keep <im>x</im> as <im>3</im> and just scale the mean down to <im>5</im>.</p>
+<p>When we’re trying to solve problems involving the <a href="/poisson-distribution">poisson distribution</a>, we might have a question which involves comparing two things that don’t have the <a href="/mean">mean</a> set to the same scale.</p>
+<p>For example, we might know the <a href="/mean">mean</a> number of cars that pass through a junction in 1 hour, but we want to know the probability that a certain number of cars pass through in 30 minutes.</p>
+<p>To solve these problems, we can just <strong>scale the <a href="/mean">mean</a></strong> up/down to the new, correct, time period.</p>
+<p>For our example, if we know that the <a href="/mean">mean</a> number of cars that pass through a junction in 1 hour is 10, then the <a href="/mean">mean</a> number of cars that pass through in 30 minutes is just half of that, so an average of 5 cars per 30 minutes.</p>
+<p>We <strong>can’t</strong> scale our value of <im>x</im> up/down. So if we wanted to find the probability of <im>3</im> cars passing in 30 minutes, we can’t scale <im>3/30min</im> up to <im>6/1hr</im>. We need to keep <im>x</im> as <im>3</im> and just scale the <a href="/mean">mean</a> down to <im>5</im>.</p>
 
 
 </div></div></body></html>

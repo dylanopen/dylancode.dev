@@ -13,7 +13,7 @@ That makes the network function exactly like a bus, but just that the physical c
 ## Advantages of bus topology
 
 - It's really easy to set up, because you just have to connect all the devices to a single wire.
-- It's cheap, because you don't need a lot of cables or hardware to set it up.
+- It's cheap, because you don't need a lot of cables or [[hardware]] to set it up.
 
 ## Disadvantages of bus topology
 

@@ -3,10 +3,10 @@
 > Note: there is technically a difference between "object code" and "machine
 > code", but in this document, we'll treat them as the same thing for
 > simplicity.  
-> Object code is the output of a compiler before linking, while
+> Object code is the output of a [[compiler]] before linking, while
 > machine code is the final executable code.  
-> Also, "object code" is sometimes executed by the operating system and not
-> directly by the hardware, but again, we'll ignore that distinction here.
+> Also, "object code" is sometimes executed by the [[operating system]] and not
+> directly by the [[hardware]], but again, we'll ignore that distinction here.
 
 ## What is object code?
 
@@ -30,6 +30,6 @@ high-level code into object code (machine code).
 ## Summary
 
 - [[source code|Source code]] is the human-readable code that we write.
-- A [[compiler]] translates source code into object code (machine
+- A [[compiler]] translates [[source code]] into object code (machine
   code).
 - Object code is the low-level code that the CPU can execute directly.

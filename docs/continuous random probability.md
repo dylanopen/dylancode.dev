@@ -7,7 +7,7 @@ The [[probability]] of a [[continuous random variable]] taking on a value betwee
 > $$
 
 Where:
-- $X$ is the continuous random variable.
+- $X$ is the continuous [[random variable]].
 - $f(x)$ is the [[probability density function]] of $X$.
 - $a$ and $b$ are the bounds of the interval we're interested in.
 

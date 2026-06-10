@@ -12,7 +12,7 @@ For example, if we're surveying people in a shopping mall, we might divide the
 population into groups based on age and gender, and then survey people from each
 group as they walk past us - without trying to select them at random.
 
-This method is easier than stratified sampling, but it can give us a less
+This method is easier than [[stratified sampling]], but it can give us a less
 representative sample, if the people who happen to walk past aren't
 representative of the group as a whole.
 
@@ -21,16 +21,16 @@ the groups are made and how we know how many people to survey from each group.
 
 ## Advantages of quota sampling
 
-- It can be easier than stratified sampling, especially if there are many groups.
+- It can be easier than [[stratified sampling]], especially if there are many groups.
 - It can allow us to make comparisons between groups.
 - It lets us ensure that we have enough people from each group in our sample,
   which can be important if some groups are small.
 - It means that a single group can't dominate the sample, which can happen with
-  simple random sampling if you get unlucky.
+  [[simple random sampling]] if you get unlucky.
 
 ## Disadvantages of quota sampling
 
-- It can give us a less representative sample than stratified sampling, if the
+- It can give us a less representative sample than [[stratified sampling]], if the
   people who happen to walk past aren't representative of the group as a whole.
 - We need to know some things about the population first, which can be difficult
   or expensive to find out.
@@ -41,5 +41,5 @@ the groups are made and how we know how many people to survey from each group.
 - If we don't sample from each group in the right proportions, we might not get
   a representative sample. For example, if we sample too many people from one
   group and too few from another, we won't get a representative sample.
-- It can be more work than simple random sampling, especially if there are many
+- It can be more work than [[simple random sampling]], especially if there are many
   groups.

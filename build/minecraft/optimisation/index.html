@@ -1,23 +1,23 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>dylancode's Minecraft server optimisation guide</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>dylancode’s Minecraft server optimisation guide</h1>
-<p>I’ve been running a Minecraft server for a while now, and I became tired of the
-lack of quality Minecraft server optimisation guides out there. So I decided to
+<p>I’ve been running a <a href="/minecraft">minecraft server</a> <a href="/server">server</a> for a while now, and I became tired of the
+lack of quality <a href="/minecraft">minecraft server</a> <a href="/server">server</a> optimisation guides out there. So I decided to
 write my own!</p>
 <h2>Credits</h2>
 <p>This guide would not have been possible without the work of some amazing
 people over the years. A huge thank you to:</p>
 <ul>
 <li>The <a href="/https://papermc.io/">PaperMC team</a> for their incredible work on Paper,
-which is the only reason Minecraft servers can run beyond just a handful of
+which is the only reason <a href="/minecraft">minecraft server</a> servers can run beyond just a handful of
 online players.</li>
-<li><a href="/https://aikar.co/">Aikar</a> for his contributions to Minecraft server
+<li><a href="/https://aikar.co/">Aikar</a> for his contributions to <a href="/minecraft">minecraft server</a> <a href="/server">server</a>
 optimisation, mainly including Aikar’s Flags and his work on Paper.</li>
-<li><a href="/https://www.spigotmc.org/">SpigotMC</a> for their work on Spigot, which created
-the foundation for Paper and maintains the Bukkit API, making plugins
+<li><a href="/https://www.spigotmc.org/">SpigotMC</a> for their work on <a href="/spigot">spigot</a>, which created
+the foundation for Paper and maintains the <a href="/bukkit">bukkit</a> API, making plugins
 possible.</li>
 <li><a href="/https://spark.lucko.me/">Spark</a> by Lucko for being an amazing profiling tool
-that helps server admins identify performance issues.</li>
+that helps <a href="/server">server</a> admins identify performance issues.</li>
 <li><a href="/https://paper-chan.moe/paper-optimization">Paper Chan</a> for its detailed
 explanation of various Paper configuration options.</li>
 <li><a href="/https://github.com/YouHaveTrouble/minecraft-optimization">YouHaveTrouble</a>
@@ -25,15 +25,15 @@ for their optimisation guide, which served as inspiration for this guide.</li>
 </ul>
 <h2>So what does this guide do differently?</h2>
 <p>It is no doubt that all of the information you could ever need to know about
-server optimisation is already out there. However, it is scattered across
+<a href="/server">Server</a> optimisation is already out there. However, it is scattered across
 various sources, and some of it is outdated or incomplete. This guide aims to
 bring together all of that into a single guide, which is:</p>
 <ul>
-<li>up-to-date with the latest Minecraft versions</li>
-<li>comprehensive (covers almost all aspects of server optimisation)</li>
+<li>up-to-date with the latest <a href="/minecraft">minecraft server</a> versions</li>
+<li>comprehensive (covers almost all aspects of <a href="/server">server</a> optimisation)</li>
 <li>easy to understand</li>
 <li>explains the reasoning behind each optimisation so you can change it for
-your specific server</li>
+your specific <a href="/server">server</a></li>
 <li>all in one place</li>
 <li>useful both as a ‘best starter config’ <strong>and</strong> as a way to properly understand
 what each config option does</li>

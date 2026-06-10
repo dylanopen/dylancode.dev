@@ -1,6 +1,6 @@
 # Matrix multiplication identity
 
-For multiplication of any matrix, the [[identity matrix]] is:
+For [[multiplication]] of any matrix, the [[identity matrix]] is:
 
 $$
 \mathbf{I_n} =
@@ -13,7 +13,7 @@ $$
 \end{bmatrix}
 $$
 
-For a 2x2 identity matrix, it is:
+For a 2x2 [[identity matrix]], it is:
 
 $$
 \mathbf{I_2}=

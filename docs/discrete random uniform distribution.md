@@ -39,7 +39,7 @@ know the parameters: $b$, $c$, etc. to be able to work with it.
 > X \sim U(n)
 > $$
 
-This means that $X$ is a discrete random variable which follows a uniform
+This means that $X$ is a discrete [[random variable]] which follows a uniform
 distribution, from $1$ to $n$.
 
 ## Example: rolling a die
@@ -83,10 +83,10 @@ To calculate our expected value:
 - $E(X)=\frac{\sum_{r=1}^n r}n$
 - $E(X)=\frac{n(n+1)}{2n}$
 - $E(X)=\frac{n+1}{2}$
-- So the expected value of a discrete random variable which follows a uniform
+- So the expected value of a discrete [[random variable]] which follows a uniform
   distribution from $1$ to $n$ is $\frac{n+1}{2}$.
 
-Now, our variance. This one's a little more complicated:
+Now, our [[variance]]. This one's a little more complicated:
 - $E(X^2)=\sum x^2p$
 - $E(X)^2 = \left(\sum xp\right)^2$
 - $Var(X)=E(X^2)-E(X)^2$
@@ -98,7 +98,7 @@ Now, our variance. This one's a little more complicated:
 - $Var(x)=\frac1{12}(n+1)(n-1)$
 - $Var(X)=\frac1{12}(n^2-1)$
 
-> For a discrete random variable $X$ which follows a uniform distribution from
+> For a discrete [[random variable]] $X$ which follows a uniform distribution from
   $1$ to $n$:
 > - $E(X)=\frac{n+1}{2}$
 > - $Var(X)=\frac1{12}(n^2-1)$

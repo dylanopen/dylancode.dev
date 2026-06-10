@@ -7,8 +7,8 @@ A *scalar quantity* is a measurement which has a **magnitude only**.
 ## Examples of scalar quantities
 
 - Length
-- Distance
-- Speed
+- [[distance]]
+- [[speed]]
 - Temperature
 - Charge
 - Voltages (e.g. potential difference)

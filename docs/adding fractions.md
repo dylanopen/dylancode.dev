@@ -6,7 +6,7 @@ to find the [[lowest common multiple]] (LCM) first.
 
 ## Making the denominators the same
 
-See [[lowest common multiple]] for more details on how to find the lowest common multiple.
+See [[lowest common multiple]] for more details on how to find the [[lowest common multiple]].
 
 Once you have the LCM of the denominators, you can convert each fraction to an
 equivalent fraction with the LCM as the new denominator. You do this by thinking

@@ -35,7 +35,7 @@
   - $2x + 3y = 16$
   - $4x + 5y = 36$
 - Ah, they're simultaneous equations! We can solve them using whatever method
-  you like. Here's *substitution*, as we know it always works no matter the
+  you like. Here's *[[substitution]]*, as we know it always works no matter the
   numbers:
   - Rearrange $2x + 3y = 16$:
     - $2x = 16 - 3y$

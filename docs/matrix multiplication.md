@@ -10,14 +10,14 @@
 
 ## Commutitive
 
-- Matrix multiplication is **not commutative**.
+- Matrix [[multiplication]] is **not commutative**.
 - The order in which we multiply matrices matters:
   - $\mathbf{A} \times \mathbf{B} \neq \mathbf{B} \times \mathbf{A}$
 
 ## Associative
 
 - **IF** multiple matrices ***can*** be multiplied together (i.e. their orders are
-  compatible), matrix multiplication is **associative**.
+  compatible), matrix [[multiplication]] is **associative**.
 - We can group matrices in any way when multiplying:
   - $(\mathbf{A} \times \mathbf{B}) \times \mathbf{C} = \mathbf{A} \times (\mathbf{B} \times \mathbf{C})$
 

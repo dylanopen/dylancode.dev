@@ -19,7 +19,7 @@ variable.</p>
 value to a variable:</p>
 <pre><code class="language-cs">int myNumber = 5; // assigns the value 5 to the variable myNumber
 </code></pre>
-<p>We can combine it with other operators (e.g. arithmetic operators) to change the
+<p>We can combine it with other operators (e.g. <a href="/arithmetic-operators">arithmetic operators</a>) to change the
 value of a variable:</p>
 <pre><code class="language-cs">myNumber = myNumber + 3; // adds 3 to myNumber, so myNumber is now 8
 </code></pre>
@@ -32,28 +32,28 @@ myNumber += 3; // adds 3 to myNumber, so myNumber is now 8
 </code></pre>
 <p>This is effectively equivalent to <code>myNumber = myNumber + 3</code>.</p>
 <h2>Subtraction assignment operator</h2>
-<p>We can also use the <em>subtraction assignment operator</em> <code>-=</code>, which subtracts a
+<p>We can also use the <em><a href="/subtraction">subtraction</a> assignment operator</em> <code>-=</code>, which subtracts a
 value from a variable and assigns the result back to the variable:</p>
 <pre><code class="language-cs">int myNumber = 10; // assigns the value 10 to the variable myNumber
 myNumber -= 4; // subtracts 4 from myNumber, so myNumber is now 6
 </code></pre>
 <p>This is effectively equivalent to <code>myNumber = myNumber - 4</code>.</p>
 <h2>Multiplication assignment operator</h2>
-<p>We can use the <em>multiplication assignment operator</em> <code>*=</code>, which multiplies a
+<p>We can use the <em><a href="/multiplication">multiplication</a> assignment operator</em> <code>*=</code>, which multiplies a
 variable by a value and assigns the result back to the variable:</p>
 <pre><code class="language-cs">int myNumber = 5; // assigns the value 5 to the variable myNumber
 myNumber *= 3; // multiplies myNumber by 3, so myNumber is now 15
 </code></pre>
 <p>This is effectively equivalent to <code>myNumber = myNumber * 3</code>.</p>
 <h2>Division assignment operator</h2>
-<p>We can use the <em>division assignment operator</em> <code>/=</code>, which divides a variable by a
+<p>We can use the <em><a href="/riscv/division">division</a> assignment operator</em> <code>/=</code>, which divides a variable by a
 value and assigns the result back to the variable:</p>
 <pre><code class="language-cs">int myNumber = 20; // assigns the value 20 to the variable myNumber
 myNumber /= 4; // divides myNumber by 4, so myNumber is now 5
 </code></pre>
 <p>This is effectively equivalent to <code>myNumber = myNumber / 4</code>.</p>
 <h2>Modulus assignment operator</h2>
-<p>We can use the <em>modulus assignment operator</em> <code>%=</code>, which finds the remainder
+<p>We can use the <em><a href="/modulus">modulus</a> assignment operator</em> <code>%=</code>, which finds the remainder
 when a variable is divided by a value and assigns the result back to the variable:</p>
 <pre><code class="language-cs">int myNumber = 10; // assigns the value 10 to the variable myNumber
 myNumber %= 3; // finds the remainder when myNumber is divided by 3, so myNumber is now 1
@@ -69,7 +69,7 @@ myNumber++; // adds 1 to myNumber, so myNumber is now 6
 myNumber += 1;
 </code></pre>
 <blockquote>
-<p>It’s usually faster to use <code>++</code> than the other two forms, especially in loops,
+<p>It’s usually faster to use <code>++</code> than the other two forms, especially in <a href="/loops">loops</a>,
 because there’s often a dedicated CPU instruction for incrementing. In
 reality though, modern compilers are very good at optimising code, so the
 performance difference is negligible in most cases.</p>

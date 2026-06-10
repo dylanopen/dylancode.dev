@@ -10,7 +10,7 @@
 
 - Let player 1's option $A$ be played with probability $p$.
 - This means player 1's option $B$ will be played with probability $1-p$
-- Create an expression for each of player 2's options.
+- Create an [[expression]] for each of player 2's options.
 - Find the point(s) where all the expressions are equal.
 - Of these points, find the one where the *lowest* lines at that value of $P$
   are the highest they can be.

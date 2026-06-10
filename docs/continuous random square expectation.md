@@ -12,7 +12,7 @@ To find the [[expectation]] of $X^2$ then, we can just do:
 > E(X^2)=\int_a^bx^2\times f(x)\,\,dx
 > $$
 
-$a$ and $b$ represent the *range* of the [[continuous random variable]].
+$a$ and $b$ represent the *[[range]]* of the [[continuous random variable]].
 
 ## Why do we just square the $x^2$?
 

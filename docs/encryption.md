@@ -15,7 +15,7 @@ Sometimes we call this encryption algorithm the [[cipher|**cipher**]].
 ## Why use encryption?
 
 When we send data over the internet, anybody along the route of the 'packet' of
-data can read its contents.
+data can read its [[contents]].
 
 It's often important that we send data *privately* - things like passwords, card
 details, messages, etc. - so that only the intended person is able to read it!

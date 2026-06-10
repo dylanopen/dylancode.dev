@@ -31,7 +31,7 @@ y*.
 
 We can find these components from the gradient $m$ of the line.
 
-In short, the $denominator$ of the gradient is the *change in x*, and the
+In [[short]], the $denominator$ of the gradient is the *change in x*, and the
 $numerator$ is the *change in y*. (if there is no denominator, it is the same as
 a denominator of $1$).
 
@@ -53,7 +53,7 @@ To find a specific point on the line, we can substitute any value of $x$ into
 the cartesian equation to find the corresponding value of $y$.
 
 However, the easiest point to find is the **y-intercept**, which is already
-stated by the cartesian line equation as the value of $c$.
+stated by the [[cartesian line equation]] as the value of $c$.
 
 For the equation $y = mx + c$, the y-intercept is at the point $(0, c)$.
 

@@ -7,10 +7,10 @@ a revision guide.
 
 | Key term | Definition |
 |---|---|
-| Transverse wave | A wave where the direction of energy transfer/propegation is perpendicular to the direction of oscillation of the particles |
-| Longitudinal wave | A wave where the direction of energy transfer/propegation is parallel to the direction of oscillation of the particles |
-| Amplitude | The maximum displacement of a wave, from the centre line ($V$ or sometimes $m$) |
-| Wavelength | The distance between two adjacent peaks or troughs of the wave ($m$) |
+| [[transverse wave]] | A wave where the direction of energy transfer/propegation is perpendicular to the direction of oscillation of the particles |
+| [[longitudinal wave]] | A wave where the direction of energy transfer/propegation is parallel to the direction of oscillation of the particles |
+| [[amplitude]] | The maximum [[displacement]] of a wave, from the centre line ($V$ or sometimes $m$) |
+| [[wavelength]] | The [[distance]] between two adjacent peaks or troughs of the wave ($m$) |
 | Frequency | The number of oscillations per second ($Hz$) |
 
 ## Wave speed equation
@@ -32,7 +32,7 @@ $$
 
 ## Polarisation
 
-A *polarised wave* is a wave that is 'filtered' to only be let through if it's 
+A *[[polarised wave]]* is a wave that is 'filtered' to only be let through if it's 
 rotated the correct way.
 
 We can use a **polariser** to do this. They have a tiny slit(s) in one rotation,
@@ -61,45 +61,45 @@ We can also compare the phase difference of two points *on the same wave*:
 
 ## Principle of superposition
 
-When two waves interfere, the resultant amplitude at any point is equal to the
+When two waves interfere, the resultant [[amplitude]] at any point is equal to the
 sum of the amplitudes of the individual waves, at that point.
 
 ## Constructive interference
 
 When the waves interfere (superpose), if the peaks perfectly align with the
 other peaks and the troughs are perfectly aligned to the other troughs, that's
-**constructive interference**.
+**[[constructive interference]]**.
 
 In other words, the *phase difference* is $0$ or a multiple of $2\pi$.
 
-The amplitudes at any point will *double* if the waves have the same amplitude,
+The amplitudes at any point will *double* if the waves have the same [[amplitude]],
 or *add together* if they're somewhat different.
 
-> The waves are **in phase** in constructive interference
+> The waves are **in phase** in [[constructive interference]]
 
 ## Destructive interference
 
 When the waves interfere (superpose), if the peaks perfectly align with the
 other *troughs* and the troughs are perfectly aligned to the other *peaks*,
-that's **destructive interference**.
+that's **[[destructive interference]]**.
 
 In other words, the *phase difference* is $1\pi$ or another **odd** multiple of
 $\pi$.
 
-The amplitudes at any point will *cancel out* if the waves have the same amplitude,
+The amplitudes at any point will *cancel out* if the waves have the same [[amplitude]],
 or *subtract from each other* to make a much smaller wave otherwise.
 
-> The waves are in **antiphase** in destructive interference
+> The waves are in **antiphase** in [[destructive interference]]
 
 ## Refraction
-Refraction is when the speed of light or another wave changes when it passes
+Refraction is when the [[speed]] of light or another wave changes when it passes
 through a barrier into a new medium.
 
-The light will *bend*, as its speed changes so therefore so does its direction.
+The light will *bend*, as its [[speed]] changes so therefore so does its direction.
 
 ## Refractive index
 
-The refractive index tells us how the speed of a wave will change when passing
+The [[refractive index]] tells us how the [[speed]] of a wave will change when passing
 between two mediums.
 
 $$
@@ -114,20 +114,20 @@ $$
 
 ## Total internal reflection
 
-For total internal reflection to occur, the angle of incidence must be greater
+For [[total internal reflection]] to occur, the angle of incidence must be greater
 than the critical angle.
 
 $\theta_c=\frac{n_2}{n_1}$
 
-The key thing is that, for TIR to occur, the refractive index of the material
-the wave is currently in must be greater than the refractive index of the
+The key thing is that, for TIR to occur, the [[refractive index]] of the material
+the wave is currently in must be greater than the [[refractive index]] of the
 material it's moving into/towards.
 
 ## Single-slit diffraction pattern
 
 - The width of the central fringe is double the width of the other fringes.
 - If the slit width is increased, the fringes get narrower and closer together.
-- Larger wavelength means wider fringes, as the waves spread out more.
+- Larger [[wavelength]] means wider fringes, as the waves spread out more.
 - The central fringe is the brightest, because it has the most constructive
   interference.
 - The intensity of the fringes decreases as you move away from the central
@@ -139,7 +139,7 @@ If light is coherent, it means that the waves have a constant phase difference
 and the same frequency.
 
 We need coherent light to get a stable interference pattern, e.g. when
-investigating single or double slit diffraction patterns.
+investigating single or [[double slit diffraction]] patterns.
 
 We can make light coherent by using a laser, or by using a single slit to
 'filter' the light from a non-coherent source, like. a light bulb.
@@ -152,8 +152,8 @@ We can make light coherent by using a laser, or by using a single slit to
   fringe, as the waves are less in phase and therefore less constructive.
 - The fringes are equally spaced, as the path difference between the two slits
   is constant.
-- The fringe separation increases if the wavelength increases, as the waves spread out more.
-- The fringe separation decreases if the distance between the slits increases, as the path difference between the two slits is smaller.
+- The fringe separation increases if the [[wavelength]] increases, as the waves spread out more.
+- The fringe separation decreases if the [[distance]] between the slits increases, as the path difference between the two slits is smaller.
 
 ## Double slit equation
 
@@ -164,13 +164,13 @@ $$
 Where:
 - $n$ is the fringe number (e.g. 1 for the first bright fringe, 2 for the
   second, etc.)
-- $\lambda$ is the wavelength of the light
-- $d$ is the distance between the slits
+- $\lambda$ is the [[wavelength]] of the light
+- $d$ is the [[distance]] between the slits
 - $\theta$ is the angle between the central fringe and the nth fringe
 
 ## Path difference
 
-The difference in the distance travelled by two waves is called the *path
+The difference in the [[distance]] travelled by two waves is called the *path
 difference*.
 
 ## White light in double-slit interference
@@ -179,12 +179,12 @@ difference*.
 - Side fringes are spectra (basically rainbow) as the different wavelengths are
   projected on the screen at different angles, so show up at different
   positions.
-- Blue light is closest to the central fringe, as it has the smallest wavelength
+- Blue light is closest to the central fringe, as it has the smallest [[wavelength]]
   so is diffracted the least.
 
 ## Diffraction grating
 
-- Instead of having just two slits, a diffraction grating has loads of slits.
+- Instead of having just two slits, a [[diffraction grating]] has loads of slits.
 
 ## Diffraction grating pattern
 
@@ -213,24 +213,24 @@ $$
 
 ## How are stationary waves made?
 
-- When two waves in the opposite direction have the same wavelength speed and
-  amplitude, they can interfere to create a stationary wave.
+- When two waves in the opposite direction have the same [[wavelength]] [[speed]] and
+  [[amplitude]], they can interfere to create a [[stationary wave]].
 - The points where the waves always interfere destructively are called *nodes*.
-  - Nodes don't move at all - they have zero amplitude and displacement. They
+  - Nodes don't move at all - they have zero [[amplitude]] and [[displacement]]. They
     don't move because the two waves are always in antiphase at the nodes, so
     they always completely cancel out.
 - The points where the waves always interfere constructively are called
   *antinodes*.
-  - They have the *maximum amplitude* and displacement, because the two waves
+  - They have the *maximum [[amplitude]]* and [[displacement]], because the two waves
     are in phase and interfere constructively to add together to make a bigger
     wave.
-  - They oscillate between the maximum positive and negative amplitude each
+  - They oscillate between the maximum positive and negative [[amplitude]] each
     phase.
 
 ## Harmonics on a stationary wave
 
 - The *fundamental frequency* (or *first harmonic*) is the lowest frequency that
-  can be produced on a stationary wave. It has one antinode and two nodes.
+  can be produced on a [[stationary wave]]. It has one antinode and two nodes.
 - Each extra harmonic adds an extra node and antinode, and increases the
   frequency by a multiple of the fundamental frequency.
 

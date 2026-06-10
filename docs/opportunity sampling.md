@@ -42,13 +42,13 @@ find people to survey, and they are available at the time of the study.
 
 It's only really a good idea to use opportunity sampling when either:
 - We are doing a 'preliminary' study, and we just want to get some initial data to
-  work with, and we don't care about the accuracy of the results (e.g. we might
+  work with, and we don't care about the [[accuracy]] of the results (e.g. we might
   be doing a survey on a certain topic, and we just want to get some initial
-  data to work with, and we don't care about the accuracy of the results).
+  data to work with, and we don't care about the [[accuracy]] of the results).
 - We may not have the time or resources to do a proper study using a better
   sampling method.
 - We can use opportunity sample *in conjunction* with another sampling method
-  - For example, we may use stratified sampling to select a sample of the
+  - For example, we may use [[stratified sampling]] to select a sample of the
     population, and then use opportunity sampling to only survey people from that
     sample who are easy to survey and available at the time.
 - To get a very rough idea of the results.

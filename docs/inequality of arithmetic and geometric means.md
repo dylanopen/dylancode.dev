@@ -1,7 +1,7 @@
 # Inequality of Arithmetic and Geometric Means
 ---
 
-Inequality of Arithmetic and Geometric Means or __AM-GM__ is one of the most powerful inequalities when dealing with positive real numbers.
+Inequality of Arithmetic and Geometric Means or __AM-GM__ is one of the most powerful inequalities when dealing with positive [[real numbers]].
 
 ## Statement
 In general:

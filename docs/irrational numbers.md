@@ -6,7 +6,7 @@ numbers which are *not* rational are irrational.
 By definition, all irrational numbers are also **real** numbers.
 
 An irrational number is a real number which **can't** be written as a simple
-fraction of two integers.
+fraction of two [[integers]].
 
 ## Notation
 
@@ -18,10 +18,10 @@ $$
 
 ## Examples of irrational numbers
 
-- $\sqrt{2}$ (cannot be expressed as a fraction of two integers)
-- $\pi$ (cannot be expressed as a fraction of two integers)
-- $e$ (cannot be expressed as a fraction of two integers)
-- $\frac{7\pi}{4}$ (cannot be expressed as a fraction of two integers)
+- $\sqrt{2}$ (cannot be expressed as a fraction of two [[integers]])
+- $\pi$ (cannot be expressed as a fraction of two [[integers]])
+- $e$ (cannot be expressed as a fraction of two [[integers]])
+- $\frac{7\pi}{4}$ (cannot be expressed as a fraction of two [[integers]])
 
 ## Non-examples of irrational numbers
 

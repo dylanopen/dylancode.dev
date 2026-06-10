@@ -7,11 +7,11 @@ There are two main units of energy:
 ## Joules
 
 One joule is one watt-second, which means it's the energy transferred when one
-watt of power is applied for one second.
+watt of [[power]] is applied for one second.
 
 ## Kilowatt-hours
 
-One $kWh$ is the energy transferred when one kilowatt (1000 watts) of power is applied for one hour (3600 seconds).
+One $kWh$ is the energy transferred when one kilowatt (1000 watts) of [[power]] is applied for one hour (3600 seconds).
 
 $$
 1 \text{ kWh} = 1000 \text{ W} \times 3600 \text{ s} = 3,600,000 \text{ J}

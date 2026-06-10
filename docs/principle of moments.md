@@ -14,12 +14,12 @@ the same as the force rotating it anticlockwise.
 You might not have heard of the principle of moments before, but you'll have
 seen it in practice.
 
-When two people sit on a see-saw, one person is exerting a moment *clockwise*
-and one person is exerting a moment *anticlockwise*.
+When two people sit on a see-saw, one person is exerting a [[moment]] *clockwise*
+and one person is exerting a [[moment]] *anticlockwise*.
 
-The distance that you sit away from the pivot changes the moment. That's why
+The [[distance]] that you sit away from the pivot changes the [[moment]]. That's why
 people who weigh more (larger force) need to sit closer to the pivot, to
-minimise their moment in order to get the seesaw to balance.
+minimise their [[moment]] in order to get the seesaw to balance.
 
 That's the principle of moments!
 
@@ -27,14 +27,14 @@ That's the principle of moments!
 
 ### If an object with a clockwise moment of $8Nm$ is in equilibrium, what is its anticlockwise moment?
 
-- Clockwise moment = anticlockwise moment
-- So anticlockwsie moment = $8Nm$
+- Clockwise [[moment]] = anticlockwise [[moment]]
+- So anticlockwsie [[moment]] = $8Nm$
 
 ### A force of 8N acts clockwise 2m away from the pivot. Find the anticlickwise moment.
 
 - $M_{clockwise}=8\times2=16Nm$
-- Anticlockwise moment = clockwise moment
-- Anticlockwise moment = $16Nm$
+- Anticlockwise [[moment]] = clockwise [[moment]]
+- Anticlockwise [[moment]] = $16Nm$
 
 ### A parent of weight 600N sits on a seesaw with their child of weight 200N. How many times further should the child sit from the pivot, compared to the parent, so that the seesaw balances?
 

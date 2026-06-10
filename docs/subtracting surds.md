@@ -1,9 +1,9 @@
 # Subtracting surds
 
-We can only subtract surds that have the same **surd part** (the part under the
+We can only subtract [[surds]] that have the same **surd part** (the part under the
 root).
 
-When subtracting surds with the same surd part, we simply subtract the
+When subtracting [[surds]] with the same surd part, we simply subtract the
 coefficients (the numbers in front of the surd).
 
 ### Example: simplify $6\sqrt{5}-4\sqrt{5}$

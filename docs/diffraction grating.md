@@ -1,6 +1,6 @@
 # Diffraction grating
 
-*DIffraction grating* is when we have a lot of tiny slits (openings) close to
+*[[diffraction]] grating* is when we have a lot of tiny slits (openings) close to
 each other in a material, and we send waves through those slits.
 
 When the waves pass through the slits, they diffract (spread out) and overlap
@@ -13,7 +13,7 @@ overlap, they can either add together (constructive) or cancel out
 
 ## Formula
 
-The formula for diffraction grating is:
+The formula for [[diffraction]] grating is:
 
 $$
 n \lambda = d \sin \theta
@@ -21,8 +21,8 @@ $$
 
 Where:
 - $n$ is the *order of the spectrum* (or maximum).
-- $\lambda$ is the *wavelength* of the wave.
-- $d$ is the *distance between the slits* (also called the grating spacing).
+- $\lambda$ is the *[[wavelength]]* of the wave.
+- $d$ is the *[[distance]] between the slits* (also called the grating spacing).
 - $\theta$ is the *angle* between the central maximum and the nth maximum.
 
 ## Order of diffraction fringes
@@ -32,8 +32,8 @@ line. For example, a fringe 3 away from the centre line has an order of $3$.
 
 ## Converting 'lines per millimetre' to 'distance between slits'
 
-If we know the *number of lines* that are in one millimetre of the diffraction
-grating, we can find the distance *between* the slits by doing:
+If we know the *number of lines* that are in one millimetre of the [[diffraction]]
+grating, we can find the [[distance]] *between* the slits by doing:
 
 $$
 \text{distance}=\frac1{\text{lines per millimetre}}

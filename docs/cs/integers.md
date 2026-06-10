@@ -32,16 +32,16 @@ There exist two types of integers: *signed* and *unsigned*.
 - An *unsigned* integer can only represent non-negative whole numbers (i.e.,
   zero and positive numbers).
 
-> Importantly, unsigned integers can store a larger range of positive values
+> Importantly, unsigned integers can store a larger [[range]] of positive values
 > compared to signed integers of the same size, since they don't need to use a
-> bit to represent the sign.
+> [[bit]] to represent the sign.
 
 Usually, we can tell whether an integer is signed or unsigned by its name:
-- Signed integers: `int`, `short`, `long`
+- Signed integers: `int`, `[[short]]`, `long`
 - Unsigned integers: `uint`, `ushort`, `ulong`
 
 Sometimes, signed integers are prefixed with an `s`, such as `sbyte` (while a
-`byte` is unsigned). This is non-standard, and it's typical of microsoft to name
+`[[byte]]` is unsigned). This is non-standard, and it's typical of microsoft to name
 things badly ;)
 
 ## Other types of integer
@@ -49,9 +49,9 @@ things badly ;)
 While `int` is the standard integer type, there are lots more which can store
 different ranges of whole numbers. The most common are:
 
-| Data Type | Size (bits) | Range                          |
+| Data Type | Size (bits) | [[range]]                          |
 |-----------|-------------|--------------------------------|
-| byte      | 8           | 0 to 255 ($2^8)                |
+| [[byte]]      | 8           | 0 to 255 ($2^8)                |
 | short     | 16          | - 32,768 to 32,767             |
 | int       | 32          | $-2^31$ to $2^31 - 1$          |
 | long      | 64          | - $2^63$ to $2^63 - 1$         |
@@ -78,8 +78,8 @@ ulong veryLargeNumber = 18000000000000000000;
 If you try to store a value that is too big (or small) to be stored in the
 integer type, then you will get an error. That's called an *integer overflow*.
 
-For example, if you try to store the value `300` in a `byte` variable, you'll
-get an overflow error, because `byte` can only store values from `0` to `255`.
+For example, if you try to store the value `300` in a `[[byte]]` variable, you'll
+get an overflow error, because `[[byte]]` can only store values from `0` to `255`.
 
 ```csharp
 byte myByte = 300; // Error: Overflow

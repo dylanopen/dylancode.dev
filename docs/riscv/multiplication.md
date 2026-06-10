@@ -36,12 +36,12 @@ The result:
 ## Specialised multiplication instructions
 
 Usually, `mul` is enough. But if we multiply two large numbers, the result might
-not fit into the single 32-bit register that `mul` 'returns'.
+not fit into the single 32-[[bit]] [[register]] that `mul` 'returns'.
 
 For this, we need to specify whether our input values are signed or unsigned.
 We use these instructions:
 - `mulh`: get the upper (high) 32 bits of the result of multiplying two signed
-  integers
+  [[integers]]
 - `mulhu`: get the upper (high) 32 bits of the result of multiplying two
   unsigned
 - `mulhsu`: get the upper (high) 32 bits of the result of multiplying a signed
@@ -59,16 +59,16 @@ mulhsu x6, x1, x2
 
 ## Multiplying by an immediate value
 
-RISC-V doesn't have a direct instruction for multiplying a register by an
+RISC-V doesn't have a direct instruction for multiplying a [[register]] by an
 immediate value. There are a few reasons for this, including:
 - It keeps the instruction set simpler.
-- It's normally much faster to use a combination of bit-shifts and additions for
+- It's normally much faster to use a combination of [[bit]]-shifts and additions for
   multiplying by constants, rather than a dedicated multiply instruction.
 
 We'll get into how to do bitshifts later on!
 
-However, if you need to multiply a register by an immediate value, you can just
-first load the immediate value into a register using `li`, and then use `mul`.
+However, if you need to multiply a [[register]] by an immediate value, you can just
+first load the immediate value into a [[register]] using `li`, and then use `mul`.
 
 For example, to multiply the value in `x1` by `5`, you could write:
 

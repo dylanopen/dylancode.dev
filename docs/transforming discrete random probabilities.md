@@ -4,8 +4,8 @@ Let's say we have a [[discrete random variable]], called $X$, and we know that
 there is another DRV which we can write as $Y=aX+b$ - where $a$ and $b$ are
 constants.
 
-If we know the expected value for $X$, as well as its variance, then we can
-also find the expected value and variance of $Y$!
+If we know the expected value for $X$, as well as its [[variance]], then we can
+also find the expected value and [[variance]] of $Y$!
 
 ## Finding $E(X)$ 
 

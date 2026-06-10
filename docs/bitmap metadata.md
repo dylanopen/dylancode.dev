@@ -1,6 +1,6 @@
 # Bitmap metadata
 
-When we look at a bitmap image, we see a grid of pixels. But how does the
+When we look at a [[bitmap image]], we see a grid of pixels. But how does the
 computer know the size of the image, and what colours to display, etc?
 
 Some of those details are stored in the [[metadata]] of the image.

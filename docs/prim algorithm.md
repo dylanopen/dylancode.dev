@@ -4,7 +4,7 @@ One common algorithm for finding the
 [[minimum spanning tree]] is *Prim's algorithm*. It
 works like this:
 1. Start with any node in the network and add it to the MST.
-2. Find the edge with the smallest weight that connects a node in the MST to a
+2. Find the edge with the smallest [[weight]] that connects a node in the MST to a
    node outside the MST (i.e. connects to a node that is yet included).
 3. Add that edge and the connected node to the MST.
 4. Repeat steps 2 and 3 until all nodes are included in the MST.
@@ -27,17 +27,17 @@ Consider this network:
          5
 ```
 
-To find the minimum spanning tree using Prim's algorithm:
+To find the [[minimum spanning tree]] using Prim's algorithm:
 1. Start with node A, for example.
-2. The smallest edge connected to A is AB with weight 2. Add it to the MST.
-3. The smallest edge connected to the MST (nodes A and B) is BC with weight 3.
+2. The smallest edge connected to A is AB with [[weight]] 2. Add it to the MST.
+3. The smallest edge connected to the MST (nodes A and B) is BC with [[weight]] 3.
    Add it to the MST (it could have also been AD - either is fine)
 4. The smallest edge connected to the MST (nodes A, B, and C) is AC with
-   weight 3, but adding it would create a cycle (A-B-C-A). So skip it. The next
-   smallest edge is AD with weight 4. Add it to the MST.
+   [[weight]] 3, but adding it would create a cycle (A-B-C-A). So skip it. The next
+   smallest edge is AD with [[weight]] 4. Add it to the MST.
 5. We now have our MST!
 
-The resulting minimum spanning tree is:
+The resulting [[minimum spanning tree]] is:
 
 ```
          2

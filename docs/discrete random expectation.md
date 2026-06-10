@@ -1,10 +1,10 @@
 # Discrete random expectation
 
-> The *expectation* of a random variable is the **mean** of the results we can
+> The *expectation* of a [[random variable]] is the **[[mean]]** of the results we can
 > expect to get if we measure the [[random variable]] 'infinite'
 > times.
 
-It's basically the mean value of the list of possible values multiplied by their
+It's basically the [[mean]] value of the list of possible values multiplied by their
 individual probabilities.
 
 ## Notation
@@ -34,7 +34,7 @@ list of values and their probabilities by multiplying each value by its
 probability (chance of it happening) and then adding all those products
 together.
 
-This effectively calculates the mean of the values, weighted by their
+This effectively calculates the [[mean]] of the values, weighted by their
 probabilities. We *don't* need to divide by the sum of probabilities, because
 their sum is always 1 (since they represent all possible outcomes).
 
@@ -54,5 +54,5 @@ Given that, we can then calculate the expectation using our formula:
 - $E(X) = 3.5$
 
 So the expectation of rolling a fair die is 3.5. This means that if we were to
-roll the die an infinite number of times, the **average** (mean) value we would
+roll the die an infinite number of times, the **average** ([[mean]]) value we would
 get would be 3.5.

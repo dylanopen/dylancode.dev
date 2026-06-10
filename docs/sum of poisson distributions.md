@@ -2,7 +2,7 @@
 
 > If $X\sim Po(\lambda_X)$ and $Y\sim Po(\lambda_Y)$, then $X+Y\sim Po(\lambda_X + \lambda_Y)$.
 
-What that means is that, if we have two independent [[discrete random variable]]s following a [[poisson distribution]], then their **sum** also follows a [[poisson distribution]], with the *mean* being the sum of the means of the two original distributions.
+What that means is that, if we have two independent [[discrete random variable]]s following a [[poisson distribution]], then their **sum** also follows a [[poisson distribution]], with the *[[mean]]* being the sum of the means of the two original distributions.
 
 ## Examples
 

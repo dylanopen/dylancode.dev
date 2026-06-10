@@ -19,6 +19,6 @@ again:
 
 ## Boolean simplification
 
-Now we know that, we can simplify any expression that has something ORed with $0$. Whenever we see something ORed with $0$, we can just remove the $0$ and keep the other value.
+Now we know that, we can simplify any [[expression]] that has something ORed with $0$. Whenever we see something ORed with $0$, we can just remove the $0$ and keep the other value.
 
 For example, if we have $0 + A$, we can simplify it to just $A$.

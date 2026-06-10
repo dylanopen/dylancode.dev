@@ -8,29 +8,29 @@ Planck's contant:
 > $$
 
 Where:
-- $E$ is the energy of the photon (in joules)
+- $E$ is the energy of the [[photon]] (in joules)
 - $h$ is [[planck constant|Planck's constant]], which is approximately $6.63
   \times 10^{-34}$ joule-seconds
-- $f$ is the frequency of the photon (in hertz)
+- $f$ is the frequency of the [[photon]] (in hertz)
 
-*Remember, this finds the energy of **a single photon**. If you have a beam of
+*Remember, this finds the energy of **a single [[photon]]**. If you have a beam of
 light, you would need to multiply this by the number of photons in the beam to
 find the total energy.*
 
 ## Finding from wavelength
 
 We know that we can find the frequency using $f=\frac v\lambda$, from our 
-topic on [[wave speed#calculating wave speed|wave speed]]. Since the speed of
-light is constant, $c$, we can use that to find the energy of a photon from its
-wavelength:
+topic on [[wave speed#calculating wave speed|wave speed]]. Since the [[speed]] of
+light is constant, $c$, we can use that to find the energy of a [[photon]] from its
+[[wavelength]]:
 
 > $$
 > E=h\times \frac{c}{\lambda}=h\times\frac{3.00 \times 10^8}{\lambda}
 > $$
 
 Where:
-- $E$ is the energy of the photon (in joules)
+- $E$ is the energy of the [[photon]] (in joules)
 - $h$ is [[planck constant|Planck's constant]], which is approximately $6.63
   \times 10^{-34}$ joule-seconds
-- $c$ is the speed of light (approximately $3.00 \times 10^8$ meters per second)
-- $\lambda$ is the wavelength of the photon (in meters)
+- $c$ is the [[speed]] of light (approximately $3.00 \times 10^8$ meters per second)
+- $\lambda$ is the [[wavelength]] of the [[photon]] (in meters)

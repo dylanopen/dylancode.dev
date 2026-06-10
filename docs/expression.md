@@ -1,7 +1,7 @@
 # Expression
 
-An *algebraic expression* is a set of numbers, variables, and operations (like
-addition, subtraction, multiplication, and division) combined together to
+An *algebraic expression* is a set of numbers, [[cs/variables|variables]], and operations (like
+addition, [[subtraction]], [[multiplication]], and [[riscv/division|division]]) combined together to
 represent a value.
 
 The most important thing to remember is that it *does not* contain an equals
@@ -21,8 +21,8 @@ sign or an inequality sign.
 
 ## Terms
 
-A *term* is a single number or variable, or numbers and variables multiplied
-together. They're separated by addition or subtraction signs.
+A *term* is a single number or variable, or numbers and [[cs/variables|variables]] multiplied
+together. They're separated by addition or [[subtraction]] signs.
 
 For example, in the expression $3x^2 + 5y - 7$, there are three terms:
 - $3x^2$
@@ -38,7 +38,7 @@ multiplied by $4$.
 
 ## Constants
 
-A *constant* is a term that does not contain any variables. It is simply a fixed
+A *constant* is a term that does not contain any [[cs/variables|variables]]. It is simply a fixed
 number.
 
 For example, in the expression $2x + 3$, the constant is $3$.

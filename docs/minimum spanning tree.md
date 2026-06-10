@@ -12,9 +12,9 @@ Finding the minimum spanning tree is also known as the *minimum connector proble
 
 ## Properties of a minimum spanning tree
 
-Some important properties of a minimum spanning tree are:
+Some important [[properties]] of a minimum spanning tree are:
 - It includes all the nodes in the original network.
 - It has exactly `N-1` edges, where `N` is the number of
   [[network node|nodes]] in the network.
-- The total weight of the edges in the MST is the lowest possible.
+- The total [[weight]] of the edges in the MST is the lowest possible.
 - There are no cycles in the MST.

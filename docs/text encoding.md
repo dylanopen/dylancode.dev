@@ -33,5 +33,5 @@ I might refer to a 'character code' in future chapters. A character code just
 means a number which represents a particular character, in the specific
 encoding scheme we're using.
 
-I may say 'The ASCII character code for 'A' is 65', which just means that in the
-ASCII encoding scheme, the letter 'A' is represented by the number 65.
+I may say 'The [[ascii]] character code for 'A' is 65', which just means that in the
+[[ascii]] encoding scheme, the letter 'A' is represented by the number 65.

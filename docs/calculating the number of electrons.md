@@ -5,7 +5,7 @@ When calculating the number of electrons, you're really calculating the [[charge
 
 ## Charge of a single electron
 
-The charge of a single electron is about $-1.60\times 10^{-19}$ coulombs.
+The charge of a single [[electron]] is about $-1.60\times 10^{-19}$ coulombs.
 
 Similarly a coulomb has the same charge as $6.25\times 10^{18}$ electrons.
 
@@ -18,7 +18,7 @@ $$
 Where:
 - $n$ is the number of electrons
 - $Q$ is the total charge in [[coulomb]]s
-- $e$ is the charge of a single electron ($1.60\times 10^{-19}C$)
+- $e$ is the charge of a single [[electron]] ($1.60\times 10^{-19}C$)
 
 ## Example: if $0.032C$ flows into a motoro in $0.20s$, calculate the current flow
 

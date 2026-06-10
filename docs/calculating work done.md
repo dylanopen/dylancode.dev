@@ -3,7 +3,7 @@
 We can calculate the [[work done]] by a force using the formula:
 
 $$
-\text{Work done} = \text{Force} \times \text{Distance}
+\text{work done} = \text{Force} \times \text{distance}
 $$
 
 Or, in symbols:
@@ -13,7 +13,7 @@ Or, in symbols:
 > $$
 
 Where:
-- $W$ is the work done, in [[joule]]s, $J$
+- $W$ is the [[work done]], in [[joule]]s, $J$
 - $F$ is the [[force]] applied, in [[newton]]s, $N$
 - $d$ is the [[distance]] moved **in the direction of the force**, in [[metre]]s, $m$
 

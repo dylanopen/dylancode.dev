@@ -1,6 +1,6 @@
 # spawn-limits
 
-Spawn limits can be configured in the `bukkit.yml` file. By default, it looks
+Spawn limits can be configured in the `[[bukkit]].yml` file. By default, it looks
 like this:
 
 ```yaml
@@ -16,9 +16,9 @@ spawn-limits:
 
 ## Recommended starting values
 
-If you run a small server with just a few friends, these values should work
+If you run a small [[server]] with just a few friends, these values should work
 fine and still give a fairly vanilla experience (these are similar to the
-default Bukkit values):
+default [[bukkit]] values):
 
 ```yaml
 spawn-limits:
@@ -64,7 +64,7 @@ make the mobs that do spawn closer to the players.
 
 Please see the [[minecraft/spigot/mob spawn range|mob-spawn-range page]] for
 help on doing this. As a general rule: if you **lower** the spawn limits, you
-should **lower** the mob spawn range as well.
+should **lower** the mob spawn [[range]] as well.
 
 ## A note on `per-player-mob-spawns`
 
@@ -78,8 +78,8 @@ info on what this option does and why you should enable it.
 ## What are spawn limits?
 
 Spawn limits are probably *the most* important configuration option for
-optimisation, perhaps with the exception of [[
-/minecraft/properties/simulation distance|simulation-distance]].
+[[optimisation]], perhaps with the exception of [[
+/[[minecraft]]/[[properties]]/simulation [[distance]]|[[simulation-distance]]]].
 
 > Spawn limits are sometimes also referred to as "mob caps". For the sake of
 > this guide, they're effectively the same thing.
@@ -189,9 +189,9 @@ Feel free to search for specific mobs using your browser's search function
 
 - Bat
 
-Yep, that's it... you can probably lower this one quite a bit, if not completely
+Yep, that's it... you can probably lower this one quite a [[bit]], if not completely
 to 0. I've seen some servers' spark reports showing thousands of bats where
-optimisation has gone horribly wrong...
+[[optimisation]] has gone horribly wrong...
 
 ### Water animals / water creature
 
@@ -288,4 +288,4 @@ Everthing else:
 - Fireball
 - Minecart with Monster Spawner
 - Lightning Bolt
-- Minecart with Hopper
+- Minecart with [[hopper]]

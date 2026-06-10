@@ -26,12 +26,12 @@ stop:
 </ul>
 <h2>Specialised multiplication instructions</h2>
 <p>Usually, <code>mul</code> is enough. But if we multiply two large numbers, the result might
-not fit into the single 32-bit register that <code>mul</code> ‘returns’.</p>
+not fit into the single 32-<a href="/bit">Bit</a> <a href="/register">register</a> that <code>mul</code> ‘returns’.</p>
 <p>For this, we need to specify whether our input values are signed or unsigned.
 We use these instructions:</p>
 <ul>
 <li><code>mulh</code>: get the upper (high) 32 bits of the result of multiplying two signed
-integers</li>
+<a href="/integers">integers</a></li>
 <li><code>mulhu</code>: get the upper (high) 32 bits of the result of multiplying two
 unsigned</li>
 <li><code>mulhsu</code>: get the upper (high) 32 bits of the result of multiplying a signed
@@ -45,16 +45,16 @@ mulhu x5, x1, x2
 mulhsu x6, x1, x2
 </code></pre>
 <h2>Multiplying by an immediate value</h2>
-<p>RISC-V doesn’t have a direct instruction for multiplying a register by an
+<p>RISC-V doesn’t have a direct instruction for multiplying a <a href="/register">register</a> by an
 immediate value. There are a few reasons for this, including:</p>
 <ul>
 <li>It keeps the instruction set simpler.</li>
-<li>It’s normally much faster to use a combination of bit-shifts and additions for
+<li>It’s normally much faster to use a combination of <a href="/bit">bit</a>-shifts and additions for
 multiplying by constants, rather than a dedicated multiply instruction.</li>
 </ul>
 <p>We’ll get into how to do bitshifts later on!</p>
-<p>However, if you need to multiply a register by an immediate value, you can just
-first load the immediate value into a register using <code>li</code>, and then use <code>mul</code>.</p>
+<p>However, if you need to multiply a <a href="/register">register</a> by an immediate value, you can just
+first load the immediate value into a <a href="/register">register</a> using <code>li</code>, and then use <code>mul</code>.</p>
 <p>For example, to multiply the value in <code>x1</code> by <code>5</code>, you could write:</p>
 <pre><code class="language-asm">li x2, 5        # Load the immediate value 5 into register x2
 mul x3, x1, x2 # Multiply x1 by x2 (which is 5), store result in x3

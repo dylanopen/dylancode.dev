@@ -15,12 +15,12 @@ different devices. You'd need to have loads of different cables and ports on
 your computer to connect all your devices, which was really inconvenient.
 
 Not to mention, each device had its own specific protocol for communicating with
-the computer, so we needed an [[input controller]] or [[output controller|output
+the computer, so we needed an [[input controller]] or [[[[output controller]]|output
 controller]] for each type of device, which made the computer
 more complex and expensive to make.
 
 With USBs, we have a single standard for both the physical connectors and the
 protocols used to connect peripherals. This means we can use the same USB ports
 and cables to connect a wide variety of devices, and the computer only needs one
-input controller and one output controller to handle all USB devices, which
+[[input controller]] and one [[output controller]] to handle all USB devices, which
 makes the computer simpler and cheaper to make.

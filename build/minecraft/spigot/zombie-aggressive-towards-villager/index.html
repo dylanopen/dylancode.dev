@@ -2,7 +2,7 @@
 
 <h1>zombie-aggressive-towards-villager</h1>
 <p>If this config option is <code>true</code>, zombies will ‘aggro’ villagers.</p>
-<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+<p>You can change it in <code>[spigot](/spigot).yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
 default value is:</p>
 <pre><code class="language-yaml">zombie-aggressive-towards-villager: true
 </code></pre>
@@ -12,13 +12,13 @@ default value is:</p>
 <ul>
 <li>all villager-based farms will work (e.g. iron farms)</li>
 <li>villagers are at risk of being killed by zombies</li>
-<li>can lead to wayyy more server lag</li>
+<li>can lead to wayyy more <a href="/server">server</a> lag</li>
 </ul>
 <p>A value of <code>false</code> means:</p>
 <ul>
 <li>iron farms probably won’t work</li>
 <li>villagers are safe from zombies</li>
-<li>can cut down a lot of server lag</li>
+<li>can cut down a lot of <a href="/server">server</a> lag</li>
 </ul>
 <p>Please try starting with the default value of <code>true</code>, and if you notice a lot of
 lag caused by zombies pathfinding to villagers and villagers’ AI responding,
@@ -27,12 +27,12 @@ consider switching it to <code>fals</code>.</p>
 <p>When set to <code>true</code>, zombies will actively seek out villagers to attack them.<br />
 If a villager is within the <a href="/minecraft/spigot/entity-activation-range">activation-range</a>,
 the zombie will start pathfinding towards the villager to attack it.<br />
-This can cause a lot of server lag, especially if there are many villagers and
-zombies in the same area, as the server has to calculate the pathfinding for
+This can cause a lot of <a href="/server">server</a> lag, especially if there are many villagers and
+zombies in the same area, as the <a href="/server">server</a> has to calculate the pathfinding for
 each zombie towards the nearest villager, and the villagers have lots of complex
 tasks they run when being attacked.</p>
 <p>When set to <code>false</code>, zombies will ignore villagers completely, which can
-reduce a lot of server lag. Keyword: <strong>can</strong>.</p>
+reduce a lot of <a href="/server">server</a> lag. Keyword: <strong>can</strong>.</p>
 
 
 </div></div></body></html>

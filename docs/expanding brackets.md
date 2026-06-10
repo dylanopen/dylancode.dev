@@ -1,6 +1,6 @@
 # Expanding brackets
 
-Expanding brackets is when we have an expression, for example, $5(4x+3)$, and we want to 'remove' the brackets by multiplying out the terms inside the brackets.
+Expanding brackets is when we have an [[expression]], for example, $5(4x+3)$, and we want to 'remove' the brackets by multiplying out the terms inside the brackets.
 
 > You may also hear this as **multiplying [[polynomial]]s**. Polynomials are just
 > expressions with multiple terms, like $4x + 3$ or $x^2 - 2x + 1$, and they're

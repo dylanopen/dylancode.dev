@@ -1,6 +1,6 @@
 # Distance between two points
 
-To find the distance between two points (in a 2D plane) we can use the 
+To find the [[distance]] between two points (in a 2D plane) we can use the 
 pythagorean theorem:
 
 $$
@@ -11,14 +11,14 @@ $$
 
 We can derive this, however, by considering $a$ to be the difference in the
 $x$-coordinates of the two points, $b$ to be the difference in the
-$y$-coordinates of the two points, and $c$ to be the distance between the
+$y$-coordinates of the two points, and $c$ to be the [[distance]] between the
 two points:
 
 $$
 (x_2 - x_1)^2 + (y_2 - y_1)^2 = d^2
 $$
 
-Rearranging this to make $d$ the subject gives us the formula for the distance
+Rearranging this to make $d$ the subject gives us the formula for the [[distance]]
 between two points:
 
 $$
@@ -39,7 +39,7 @@ $$
   - $= \sqrt{16 + 9}$
   - $= \sqrt{25}$
   - $= 5$
-- **Answer**: The distance between the points (3, 4) and (7, 1) is 5 units.
+- **Answer**: The [[distance]] between the points (3, 4) and (7, 1) is 5 units.
 
 ### Find the distance between the points (-2, 5) and (4, -1).
 
@@ -55,5 +55,5 @@ $$
   - $= \sqrt{36 + 36}$
   - $= \sqrt{72}$
   - $= 6\sqrt{2}$
-- **Answer**: The distance between the points (-2, 5) and (4, -1) is
+- **Answer**: The [[distance]] between the points (-2, 5) and (4, -1) is
   $6\sqrt{2}$ units.

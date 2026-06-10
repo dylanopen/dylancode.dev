@@ -2,9 +2,9 @@
 
 ## Finding the modulus
 
-The modulus is the remainder when one number is divided by another.
+The [[modulus]] is the remainder when one number is divided by another.
 
-It's using represented using the modulus operator, often written as $\%$ or
+It's using represented using the [[modulus]] operator, often written as $\%$ or
 $mod$.
 
 ### Evaluate $7 \mod 4$
@@ -24,7 +24,7 @@ To find $7 \mod 4$, we divide 7 by 4:
 
 To find the modular addition of two numbers:
 1. Add the two numbers together.
-2. Find the modulus of the sum with respect to a given modulus.
+2. Find the [[modulus]] of the sum with respect to a given [[modulus]].
 
 ### Evaluate $(5 + 9) \mod 6$
 

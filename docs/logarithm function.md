@@ -32,7 +32,7 @@ $\log_e(x)$.
 
 - Divide both sides by 3:
   - $\ln(2+x)=2$
-- Rewrite the logarithm as a power of $e$:
+- Rewrite the logarithm as a [[power]] of $e$:
   - $e^2=2+x$
 - Subtract 2 from both sides:
   - $e^2-2=x$

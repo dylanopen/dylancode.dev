@@ -1,7 +1,7 @@
 # Modulus
 
 The *modulus* operator is represented by the `%` symbol, and it gives us the
-*remainder* of a division operation.
+*remainder* of a [[riscv/division|division]] operation.
 
 For example, the remainder of `7` divided by `3` is `1`, because `3` goes into
 `7` twice (which is `6`), and there is `1` left over.
@@ -49,7 +49,7 @@ int blueComponent = rgbValue % 256; // 0x33 (51 in decimal)
 ```
 
 This technique of using the modulus operator to 'wrap' values around a certain
-range is very common in programming!
+[[range]] is very common in programming!
 
 ## A case study: fizzbuzz
 
@@ -83,7 +83,7 @@ for (int i = 1; i <= 100; i++)
 ```
 
 > Don't worry if you don't understand all of this code yet. It covers concepts
-> that we haven't covered yet, such as loops and conditional statements. The key
+> that we haven't covered yet, such as [[loops]] and conditional statements. The key
 > parts are the modulus operations (`i % 3` and `i % 5`), which check whether
 > `i` is a multiple of `3` or `5`.
 

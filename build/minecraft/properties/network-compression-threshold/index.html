@@ -1,15 +1,15 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>network-compression-threshold</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>network-compression-threshold</h1>
-<p>You can change the server’s network compression threshold in <code>server.properties</code>
+<p>You can change the <a href="/server">server</a>’s network compression threshold in <code>[Server](/server).[properties](/properties)</code>
 - it has a default value of <code>256</code>:</p>
 <pre><code class="language-properties">network-compression-threshold=256
 </code></pre>
 <h2>Recommended starting values</h2>
-<p>If you have a good internet connection and a good bandwidth:</p>
+<p>If you have a good internet connection and a good <a href="/bandwidth">bandwidth</a>:</p>
 <pre><code class="language-properties">network-compression-threshold=512
 </code></pre>
-<p>If you have a poor internet connection or limited bandwidth:</p>
+<p>If you have a poor internet connection or limited <a href="/bandwidth">bandwidth</a>:</p>
 <pre><code class="language-properties">network-compression-threshold=256
 </code></pre>
 <p>If you are playing on a LAN or all players have a good, unlimited internet
@@ -18,27 +18,27 @@ connection, you can disable compression altogether:</p>
 </code></pre>
 <h2>What is <code>network-compression-threshold</code>?</h2>
 <p>The network compression threshold is the size in <strong>bytes</strong> beyond which packets
-start to be <em>compressed</em> by the minecraft server.</p>
+start to be <em>compressed</em> by the <a href="/minecraft">minecraft server</a> <a href="/server">server</a>.</p>
 <p>So, if you set it to <code>512</code>, any packet larger than 512 bytes will be compressed
-before being sent to the client over the internet.</p>
+before being sent to the <a href="/client">client</a> over the internet.</p>
 <h2>The benefits of compression</h2>
 <p>Just like if you’ve ever had to send a large file over email, for example,
 compressing a file means less data sent over the network. That means:</p>
 <ul>
-<li>reducing the network usage (so network speed is less of an issue)</li>
-<li>reducing bandwidth costs (if your hosting provider charges you for data
+<li>reducing the network usage (so network <a href="/speed">speed</a> is less of an issue)</li>
+<li>reducing <a href="/bandwidth">bandwidth</a> costs (if your hosting provider charges you for data
 transfer)</li>
-<li>potentially even reducing latency (so players experience less lag)</li>
+<li>potentially even reducing <a href="/latency">latency</a> (so players experience less lag)</li>
 </ul>
 <p>Also, if you have any players on poor internet connections, compression will
-mean that you can send them larger packets without overwhelming their
+<a href="/mean">Mean</a> that you can send them larger packets without overwhelming their
 connection.</p>
 <h2>The downsides of compression</h2>
-<p>The main downside is that it uses <em>CPU power</em> to compress and decompress
+<p>The main downside is that it uses <em>CPU <a href="/power">power</a></em> to compress and decompress
 packets. This means that if the value is <em>lower</em> (more packets get compressed),
-it will use <em>more</em> CPU power.</p>
+it will use <em>more</em> CPU <a href="/power">power</a>.</p>
 <p>In most cases, this is not a problem, as modern CPUs are very good at
-compression. However, if your server is already CPU-bound (by that, I mean the
+compression. However, if your <a href="/server">server</a> is already CPU-bound (by that, I <a href="/mean">mean</a> the
 cpu is the main bottleneck for performance), then lowering this value too much
 could make performance worse.</p>
 <p>Another downside is that compressing very small packets can actually make

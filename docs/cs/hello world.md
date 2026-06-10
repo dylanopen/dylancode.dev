@@ -27,13 +27,13 @@ Hello, World!
 ### `namespace HelloWorld`
 
 - A namespace is a way to organize code and avoid name conflicts.
-- Essentially, it's a container for classes and other types.
+- Essentially, it's a container for [[classes]] and other types.
 - Here, we define a namespace called `HelloWorld` to contain our program.
 
 ### `{}`
 
 - Curly braces `{}` are used to define the beginning and end of code blocks.
-- In short, we put them after we define a namespace, class, function, if
+- In [[short]], we put them after we define a namespace, class, function, if
   statement, or any other code structure.
 - Everything inside of them is *part of* that structure. In this case,
   everything between the `{}` after `namespace HelloWorld` is part of that

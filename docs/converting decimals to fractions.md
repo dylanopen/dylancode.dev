@@ -1,7 +1,7 @@
 # Converting decimals to fractions
 
 Because we work with base 10 (decimal) numbers, it's very easy for us to
-convert decimals to fractions *where the denominator is a power of 10*.
+convert decimals to fractions *where the denominator is a [[power]] of 10*.
 
 For example, we know that 0.1 is the same as 1/10, because the 1 is in the
 tenths place. Similarly, 0.72 is the same as 72/100, because the 2 is in the
@@ -13,7 +13,7 @@ hundredths place and the 7 is in the tenths place.
 
 ## Simplifying
 
-Once we've found the decimal as a fraction of a power of 10, we need to simplify
+Once we've found the decimal as a fraction of a [[power]] of 10, we need to simplify
 it.
 
 To do this, we first need to find the [[highest common factor]].

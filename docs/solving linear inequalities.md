@@ -1,11 +1,11 @@
 # Solving linear inequalities
 
 Linear inequalities are similar to linear equations, but instead of an equals
-sign (=), they use inequality signs.
+sign (=), they use [[inequality signs]].
 
 ## Solving linear inequalities
 
-Solving linear inequalities is very similar to solving linear equations. The
+Solving linear inequalities is very similar to [[solving linear equations]]. The
 main difference is that when we multiply or divide both sides of the inequality
 by a negative number, we need to reverse the direction of the inequality sign.
 

@@ -12,4 +12,4 @@ Knowing our formula for [[continuous random probability|finding the probability 
 > \int_0^af(x)dx=0.75
 > $$
 
-We can use definite integration and find the value of $a$ - that's the upper quartile!
+We can use [[definite integration]] and find the value of $a$ - that's the upper quartile!

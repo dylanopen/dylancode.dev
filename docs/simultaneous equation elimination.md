@@ -2,7 +2,7 @@
 
 *Simultaneous equations* are when we have two or more equations with multiple
 *unknowns* (letters that represent numbers we don't know yet). The goal is to
-find the values of these letters (variables) that make all the equations true at
+find the values of these letters ([[cs/variables|variables]]) that make all the equations true at
 the same time.
 
 ## When can we solve using elimination?
@@ -18,7 +18,7 @@ elimination are:
 
 - Find both equations in the form $ax + by = c$.
 - Multiply one or both equations by a number so that the coefficients (the numbers
-  in front of the variables) of one of the variables are the same (or
+  in front of the [[cs/variables|variables]]) of one of the [[cs/variables|variables]] are the same (or
   opposites). This allows us to cancel out that variable.
 - Add or subtract one equation from another. This involves adding or subtracting
   each term individually to form a new equation with just one variable.
@@ -35,7 +35,7 @@ Like with most concepts, it's much easier to see with some examples.
 - First, we have the two equations:
   - $2x + 3y = 16$  (Equation 1)
   - $4x - y = 2$    (Equation 2)
-- We want to eliminate one of the variables. You can do whichever you want, but
+- We want to eliminate one of the [[cs/variables|variables]]. You can do whichever you want, but
   I will eliminate $y$ here. To do this, we can multiply Equation 2 by 3 so that
   the coefficient of $y$ in both
   equations will be opposites:

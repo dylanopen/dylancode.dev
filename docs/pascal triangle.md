@@ -1,6 +1,6 @@
 # Pascal's triangle
 
-There's another way of finding the coefficients in a binomial expansion: it
+There's another way of finding the coefficients in a [[binomial expansion]]: it
 works well for small values of $n$ but takes a long time for larger values of
 $n$.
 

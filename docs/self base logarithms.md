@@ -14,7 +14,7 @@ $$
 
 ### Evaluate $\log_5{5^3}$
 
-- 5 to the power of what makes 5 to the power of 3?
+- 5 to the [[power]] of what makes 5 to the [[power]] of 3?
 - Well... 3.
 - So our answer is $3$!
 

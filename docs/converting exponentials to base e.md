@@ -5,18 +5,18 @@ exactly the same as the $y$ value at that point.
 
 That makes a lot of things much easier for us to work with!
 
-We can actually use this power of base e exponentials with *any* exponential
+We can actually use this [[power]] of [[base e exponentials]] with *any* exponential
 function - by converting them to base $e$.
 
 ## $a=e^{\ln(a)}$
 
-The key to converting any exponential function to base $e$ is the fact that we
+The key to converting any [[exponential function]] to base $e$ is the fact that we
 can rewrite any number $a$ as $e^{\ln(a)}$.
 
 Basically, what we're doing here is finding what number we need to raise
 $e$ to in order to get $a$ - and that number is $\ln(a)$.
 
-Then, we raise $e$ *to that power* to get $a$ back.
+Then, we raise $e$ *to that [[power]]* to get $a$ back.
 
 While it might seem like we've complicated things, we now have a term in base
 $e$, which we can find the gradient of!
@@ -60,7 +60,7 @@ $\frac{d}{dx}a^x = \ln(a)a^x$.
 ### Find the gradient of $2^x$ at the point $(1, 2)$
 
 - $\frac{d}{dx}2^x = \ln(2)2^x$ (using the rule for finding the gradient of $a^x$)
-- $\frac{d}{dx}2^x = \ln(2)2^1$ (substituting $x=1$ into the expression for the gradient)
+- $\frac{d}{dx}2^x = \ln(2)2^1$ (substituting $x=1$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}2^x = \ln(2) \cdot 2$ (simplifying)
 - Answer: $\ln(2) \cdot 2$
 
@@ -80,14 +80,14 @@ $\frac{d}{dx}a^x = \ln(a)a^x$.
 ### Find the gradient of $5^{2x}$ at the point $(0, 1)$
 
 - $\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}$ (using the rule for finding the gradient of $a^x$)
-- $\frac{d}{dx}5^{2x} = 2\ln(5)5^0$ (substituting $x=0$ into the expression for the gradient)
+- $\frac{d}{dx}5^{2x} = 2\ln(5)5^0$ (substituting $x=0$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}5^{2x} = 2\ln(5) \cdot 1$ (simplifying)
 - Answer: $2\ln(5)$
 
 ### Find the gradient of $5^{2x}$ at the point $(1, 25)$
 
 - $\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}$ (using the rule for finding the gradient of $a^x$)
-- $\frac{d}{dx}5^{2x} = 2\ln(5)5^2$ (substituting $x=1$ into the expression for the gradient)
+- $\frac{d}{dx}5^{2x} = 2\ln(5)5^2$ (substituting $x=1$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}5^{2x} = 2\ln(5) \cdot 25$ (simplifying)
 - Answer: $50\ln(5)$
 
@@ -107,13 +107,13 @@ $\frac{d}{dx}a^x = \ln(a)a^x$.
 ### Find the gradient of $10^{-x}$ at the point $(0, 1)$
 
 - $\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}$ (using the rule for finding the gradient of $a^x$)
-- $\frac{d}{dx}10^{-x} = -\ln(10)10^0$ (substituting $x=0$ into the expression for the gradient)
+- $\frac{d}{dx}10^{-x} = -\ln(10)10^0$ (substituting $x=0$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}10^{-x} = -\ln(10) \cdot 1$ (simplifying)
 - Answer: $-\ln(10)$
 
 ### Find the gradient of $10^{-x}$ at the point $(1, 0.1)$
 
 - $\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}$ (using the rule for finding the gradient of $a^x$)
-- $\frac{d}{dx}10^{-x} = -\ln(10)10^{-1}$ (substituting $x=1$ into the expression for the gradient)
+- $\frac{d}{dx}10^{-x} = -\ln(10)10^{-1}$ (substituting $x=1$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}10^{-x} = -\ln(10) \cdot 0.1$ (simplifying)
 - Answer: $-0.1\ln(10)$

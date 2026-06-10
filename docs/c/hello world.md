@@ -37,7 +37,7 @@ In our case: why would we write the implementation for printing to the console m
 
 We can import files in C using the `#include` statement. Interestingly, unlike most other programming languages, this code is *identical* to if we had written out the code for the `stdio` library manually. `#include <stdio.h>` is simply replaced with the code contained in `stdio.h`, which, in turn, allows us to use its functions.
 
-> The `#include` statement is executed by a program known as the *preprocessor*. This program is executed *before* the compiler reads the code, and it is the first step towards turning source code into machine code. *All statements in C which start with a `#` are preprocessor **directives***.
+> The `#include` statement is executed by a program known as the *preprocessor*. This program is executed *before* the [[compiler]] reads the code, and it is the first step towards turning [[source code]] into machine code. *All statements in C which start with a `#` are preprocessor **directives***.
 
 ### The difference between `#include <file.h>` and `#include "file.h"`
 
@@ -76,7 +76,7 @@ executed (run).
 ### What's special about `main`?
 
 The `main` function is a little different. Instead of being something that we
-call, it is instead automatically run by the operating system when we start our
+call, it is instead automatically run by the [[operating system]] when we start our
 program.
 
 We call it the *entrypoint* to our program. Interestingly, it is both where the
@@ -89,7 +89,7 @@ name, we have a return type. This tells C what value our function will *send
 back* to the caller.
 
 In the case of the `main` function, we return an integer, because we need to
-return a status code to the operating system (in order to tell it whether the
+return a status code to the [[operating system]] (in order to tell it whether the
 program was successful or not).
 
 The standard type for an integer in C is `int`, so we return an `int` and
@@ -120,7 +120,7 @@ things depending on the arguments that were passed to the program.
 
 `argv` has a slightly strange type. It is `char* argv[]`, which means a
 *pointer* to the start of an array, and this array contains other arrays of
-`char`s. An array of chars is a `string`, so essentially, `argv` is an array
+`char`s. An array of [[chars]] is a `string`, so essentially, `argv` is an array
 of strings.
 
 > We'll learn *why* C needs to take the length of the `argv` array as a seperate
@@ -137,7 +137,7 @@ with this signature:
 int main(int argc, char* argv[])
 ```
 
-... we need a way of telling the C compiler what code is part of a function
+... we need a way of telling the C [[compiler]] what code is part of a function
 body. For this, we use braces `{}`.
 
 Consider the following code:
@@ -184,7 +184,7 @@ Hello, World!
 ```
 
 `printf` can also take other arguments and use a **format string** - this allows
-us to print out the value of variables and other non-constant data. We'll get to
+us to print out the value of [[cs/variables|variables]] and other non-constant data. We'll get to
 that in another chapter!
 
 ## Statement termination
@@ -193,7 +193,7 @@ Every *statement* (essentially, a line of code that does something) in C must be
 terminated with a semicolon (`;`).
 
 That basically means that we need to put a semicolon at the end of every line of
-code, in order to tell the C compiler that the statement is finished.
+code, in order to tell the C [[compiler]] that the statement is finished.
 
 ## The `return` statement
 
@@ -203,8 +203,8 @@ Finally, we have this line:
 return 0;
 ```
 
-All programs can return a value to the operating system known as the **exit
-code**. This exit code tells the operating system whether the program completed
+All programs can return a value to the [[operating system]] known as the **exit
+code**. This exit code tells the [[operating system]] whether the program completed
 successfully or not.
 
 In our case, our program completed successfully (probably!) so we can return `0`

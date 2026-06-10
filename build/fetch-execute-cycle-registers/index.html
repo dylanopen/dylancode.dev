@@ -1,19 +1,19 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fetch-execute cycle registers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Fetch-execute cycle registers</h1>
-<p>During the <a href="/fetch-execute-cycle">fetch-execute cycle</a>, the processor uses the <a href="/processor-registers">processor registers</a> to hold data and addresses that it needs to access memory and execute instructions.</p>
+<p>During the <a href="/fetch-execute-cycle">fetch-execute cycle</a>, the <a href="/processor">processor</a> uses the <a href="/processor-registers">processor registers</a> to hold data and addresses that it needs to access memory and execute instructions.</p>
 <ul>
 <li>During the fetch stage:
 <ul>
 <li>The <a href="/program-counter">program counter</a> holds the address of the next instruction to be fetched from memory.</li>
-<li>We copy the program counter into the <a href="/memory-address-register">memory address register</a> (MAR).</li>
-<li>The processor fetches the instruction from memory at the address in the MAR, and stores that instruction in the <a href="/current-instruction-register">current instruction register</a> (CIR).</li>
-<li>The program counter is incremented so it points to the next instruction for the next cycle.</li>
+<li>We copy the <a href="/program-counter">program counter</a> into the <a href="/memory-address-register">memory address register</a> (MAR).</li>
+<li>The <a href="/processor">processor</a> fetches the instruction from memory at the address in the MAR, and stores that instruction in the <a href="/current-instruction-register">current instruction register</a> (CIR).</li>
+<li>The <a href="/program-counter">program counter</a> is incremented so it points to the next instruction for the next cycle.</li>
 </ul>
 </li>
 <li>During the execute stage:
 <ul>
-<li>The processor might request to read some memory from the <a href="/main-memory">main memory</a>, and it will use the <a href="/memory-address-register">MAR</a> to hold the address of the memory it wants to read from, and the <a href="/memory-buffer-register">memory buffer register</a> (MBR) to hold the data that it reads from memory.</li>
+<li>The <a href="/processor">processor</a> might request to read some memory from the <a href="/main-memory">main memory</a>, and it will use the <a href="/memory-address-register">MAR</a> to hold the address of the memory it wants to read from, and the <a href="/memory-buffer-register">memory buffer register</a> (MBR) to hold the data that it reads from memory.</li>
 <li>Or, it might want to write some data to memory, and it will use the MAR to hold the address of where it wants to write, and the MBR to hold the data that it wants to write to memory.</li>
 </ul>
 </li>

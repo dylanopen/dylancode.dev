@@ -16,7 +16,7 @@ through.
 - Gradient of original line is $2$
 - So the gradient of the new line is also $2$
 - We know that one of the points on the new line is (4, 5), so when $x=4$, $y=5$.
-- We can substitute these values into the equation of a straight line:
+- We can substitute these values into the [[equation of a straight line]]:
   - $y = mx + c$
   - $5 = 2 \times 4 + c$
   - $5 = 8 + c$
@@ -33,7 +33,7 @@ through.
 - Gradient of original line is $-\frac{1}{2}$
 - So the gradient of the new line is also $-\frac{1}{2}$
 - We know that one of the points on the new line is (6, 1), so when $x=6$, $y=1$.
-- We can substitute these values into the equation of a straight line:
+- We can substitute these values into the [[equation of a straight line]]:
   - $y = mx + c$
   - $1 = -\frac{1}{2} \times 6 + c$
   - $1 = -3 + c$
@@ -50,7 +50,7 @@ through.
 - Gradient of original line is $3$
 - So the gradient of the new line is also $3$
 - We know that one of the points on the new line is (2, 7), so when $x=2$, $y=7$.
-- We can substitute these values into the equation of a straight line:
+- We can substitute these values into the [[equation of a straight line]]:
   - $y = mx + c$
   - $7 = 3 \times 2 + c$
   - $7 = 6 + c$

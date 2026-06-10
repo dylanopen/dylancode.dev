@@ -44,7 +44,7 @@ To subtract matrices, simply subtract the corresponding elements from each matri
 
 ## Commutative
 
-- Matrix subtraction is **not** commutative, which means that
+- Matrix [[subtraction]] is **not** commutative, which means that
   $\mathbf{A} - \mathbf{B} \neq \mathbf{B} - \mathbf{A}$ (in
   general).
 - FOr example, if $A=\begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$ and $B=\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$, then
@@ -55,7 +55,7 @@ To subtract matrices, simply subtract the corresponding elements from each matri
 
 ## Associative
 
-- Matrix subtraction is also **not** associative, which means
+- Matrix [[subtraction]] is also **not** associative, which means
   that $\mathbf{A} - (\mathbf{B} - \mathbf{C}) \neq (\mathbf{A} -
   \mathbf{B}) - \mathbf{C}$ (in general).
 - For example, if $A=\begin{bmatrix} 15 & 25 \\ 35 & 45 \end{bmatrix}$, $B=\begin{bmatrix} 5 & 10 \\ 15 & 20 \end{bmatrix}$ and $C=\begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}$, then
@@ -65,7 +65,7 @@ To subtract matrices, simply subtract the corresponding elements from each matri
 
 ## Distributive
 
-- Matrix subtraction is **distributive** over matrix addition, which means that $\mathbf{A} - (\mathbf{B} + \mathbf{C}) = (\mathbf{A} - \mathbf{B}) - \mathbf{C}$.
+- Matrix [[subtraction]] is **distributive** over [[matrix addition]], which means that $\mathbf{A} - (\mathbf{B} + \mathbf{C}) = (\mathbf{A} - \mathbf{B}) - \mathbf{C}$.
 - For example, if $A=\begin{bmatrix} 15 & 25 \\ 35 & 45 \end{bmatrix}$, $B=\begin{bmatrix} 5 & 10 \\ 15 & 20 \end{bmatrix}$ and $C=\begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}$, then
   - $\mathbf{A} - (\mathbf{B} + \mathbf{C}) = \begin{bmatrix} 8 & 11 \\ 14 & 17 \end{bmatrix}$
   - $(\mathbf{A} - \mathbf{B}) - \mathbf{C} = \begin{bmatrix} 8 & 11 \\ 14 & 17 \end{bmatrix}$

@@ -9,7 +9,7 @@ $$
 The main use is for solving the *roots* of a quadratic equation (finding the
 values of $x$ where $y=0$)
 
-It also has another use - the *discriminant* (the part under the square root)
+It also has another use - the *[[discriminant]]* (the part under the square root)
 can tell us a lot, for example, the number of roots the equation has. See
 [[discriminant|the page on the discriminant]] for more information.
 
@@ -21,7 +21,7 @@ substitute the coefficients of the equation into the quadratic formula.
 The equation should be in the form $ax^2 + bx + c = 0$, so just substitute those
 values into the formula above.
 
-Remember to find both the positive and negative square roots of the discriminant
+Remember to find both the positive and negative square roots of the [[discriminant]]
 ($b^2 - 4ac$) to get both roots! You can do this on your calculator by
 calculating $+\sqrt{b^2 - 4ac}$ and $-\sqrt{b^2 - 4ac}$ separately.
 

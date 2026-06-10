@@ -12,7 +12,7 @@ their graphs like this:
    except the $y$ term.
 2. Set both equations equal to each other.
 3. Write the resulting equation in the form $ax^2 + bx + c = 0$.
-4. Calculate the discriminant using $D = b^2 - 4ac$.
+4. Calculate the [[discriminant]] using $D = b^2 - 4ac$.
 
 ## A reminder of the meaning of the discriminant
 
@@ -32,6 +32,6 @@ their graphs like this:
 - Rearrange to the form $ax^2 + bx + c = 0$:
   - $$x^2 + 2x + 3 - 3x + 1 = 0$$
   - $$x^2 - x + 4 = 0$$
-- Calculate the discriminant:
+- Calculate the [[discriminant]]:
   - $$D = (-1)^2 - 4 \times 1 \times 4 = -15$$
 - Since $D < 0$, there are no intersections between the graphs.

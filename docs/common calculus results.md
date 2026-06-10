@@ -1,6 +1,6 @@
 # Common calculus results
 
-| Expression      | Derivative              | Integral                     |
+| [[expression]]      | Derivative              | Integral                     |
 |-----------------|-------------------------|------------------------------|
 | $e^{kx}$        | $ke^{kx}$               | $\frac{1}{k}e^{kx} + c$      |
 | $\ln x$         | $\frac{1}{x}$           | N/A                          |

@@ -107,7 +107,7 @@ However, if we had used positional arguments, like in the second example, our
 code would still work perfectly fine, because positional arguments are based on
 the order of the parameters, not their names.
 
-> I've been a bit biased here, because you may realise that exactly the same
+> I've been a [[bit]] biased here, because you may realise that exactly the same
 > issue happens, but in reverse, if you change the order of parameters in a
 > method signature. That would then break the position argument method, but
 > *not* the named way. But this almost never happens - you don't just randomly

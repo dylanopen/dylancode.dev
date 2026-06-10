@@ -1,7 +1,7 @@
 # Multiplying surds
 
-When multiplying surds, we can multiply the numbers outside the surds and the
-numbers inside the surds separately.
+When multiplying [[surds]], we can multiply the numbers outside the [[surds]] and the
+numbers inside the [[surds]] separately.
 
 This can be written as:
 

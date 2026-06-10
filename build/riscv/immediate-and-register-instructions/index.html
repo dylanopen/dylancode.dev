@@ -4,20 +4,20 @@
 <p>Many instructions in the RISC-V instruction set have multiple variants:</p>
 <ul>
 <li>An <em>immediate</em> variant</li>
-<li>A <em>register</em> variant</li>
+<li>A <em><a href="/register">Register</a></em> variant</li>
 </ul>
 <h2>What is an immediate value?</h2>
-<p>Immediate mode is essentially when we are working with <em>constant values</em>.</p>
+<p>Immediate <a href="/mode">mode</a> is essentially when we are working with <em>constant values</em>.</p>
 <p>For example, consider this <code>addi</code> instruction:</p>
 <pre><code class="language-asm">addi x0, x1, 5 
 </code></pre>
-<p>Because we are adding a <em>constant</em> value (<code>5</code>) to the value of register <code>x1</code>,
+<p>Because we are adding a <em>constant</em> value (<code>5</code>) to the value of <a href="/register">register</a> <code>x1</code>,
 this is an example of an immediate instruction.</p>
 <p>In contrast, consider this <code>add</code> instruction:</p>
 <pre><code class="language-asm">add x0, x1, x2
 </code></pre>
-<p>Here, we’re not using a constant value, but rather the value stored in register
-<code>x2</code>. That means this is a register instruction.</p>
+<p>Here, we’re not using a constant value, but rather the value stored in <a href="/register">register</a>
+<code>x2</code>. That means this is a <a href="/register">register</a> instruction.</p>
 
 
 </div></div></body></html>

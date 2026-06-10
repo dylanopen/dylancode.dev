@@ -9,7 +9,7 @@
     - Real: $1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\frac{\theta^6}{6!}+...$
     - Imaginary: $ri(\theta-\frac{\theta^3}{3!}+\frac{\theta^5}{5!}+...)$ 
 - This gives us $e^{i\theta}=\cos\theta+i\sin\theta$
-- Therefore also, $re^{i\theta}=r(\cos\theta+i\sin\theta)$: modulus-argument form.
+- Therefore also, $re^{i\theta}=r(\cos\theta+i\sin\theta)$: [[modulus]]-argument form.
 
 ## Finding Euler's identity 
 

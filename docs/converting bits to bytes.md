@@ -1,7 +1,7 @@
 # Converting bits to bytes
 
 If we have a number of bits and want to convert it to bytes, we can *divide* the
-number of bits by 8, since there are 8 bits in a byte:
+number of bits by 8, since there are 8 bits in a [[byte]]:
 
 $$
 \text{bytes} = \text{bits} \div 8
@@ -28,4 +28,4 @@ $$
 
 - $12345 \div 8 = 1543.125$ bytes
 - **Answer**: $1543.125$ bytes
-- (generally here, we would round to the nearest whole byte).
+- (generally here, we would round to the nearest whole [[byte]]).

@@ -24,7 +24,7 @@ A     B
 C     D
 ```
 
-The complete graph would be:
+The [[complete graph]] would be:
 
 ```
 A --- B

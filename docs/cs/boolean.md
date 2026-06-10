@@ -9,7 +9,7 @@ off.
 
 ## Declaring and initializing booleans
 
-We can use the `bool` class to declare and initialize boolean variables:
+We can use the `bool` class to declare and initialize boolean [[cs/variables|variables]]:
 
 ```cs
 bool isLightOn = true;
@@ -25,4 +25,4 @@ Booleans are mainly used for *conditional statements* - for example, deciding
 whether to execute a block of code or whether to repeat a loop, depending on a
 boolean condition.
 
-We'll cover that when we cover **if statements** and **loops** later on!
+We'll cover that when we cover **[[if statements]]** and **[[loops]]** later on!

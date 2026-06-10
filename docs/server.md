@@ -9,12 +9,12 @@ video, an image, a script, or a downloadable file.
 
 ## Servers in a [[local area network|LAN]]
 
-In a local area network, we can have a central server that manages the network
+In a [[local area network]], we can have a central server that manages the network
 and all the devices on it. It can do things such as:
 - Store files and data for the devices on the network to access
 - Manage user accounts and permissions for the devices on the network
 - Provide security and other protections for the devices on the network
-  make sure the computers are up to date with the latest version of software
+  make sure the computers are up to date with the latest version of [[software]]
   (which is important for security and performance)
 - Keep backups of important data, so that if something goes wrong, the data can be restored easily from one central location.
 

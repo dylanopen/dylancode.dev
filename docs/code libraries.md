@@ -5,7 +5,7 @@
 - This means that programs don't need to include all of the code they need to
   function within their own files, which saves space on the computer.
 - Instead, they can just call the functions they need from the dynamic library.
-- The operating system loads these libraries when programs need them.
+- The [[operating system]] loads these libraries when programs need them.
 
 ### Examples of libraries
 

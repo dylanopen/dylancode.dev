@@ -1,15 +1,15 @@
 # Distance matrix
 
-A *distance matrix* is somewhat like an [[adjacency matrix]],
+A *[[distance]] matrix* is somewhat like an [[adjacency matrix]],
 but instead of simply showing whether two nodes in a network are connected,
-it provides information about the *weight* (e.g. distance) between them.
+it provides information about the *[[weight]]* (e.g. [[distance]]) between them.
 
 It's a way of representing a [[network]] in a table, where both the
 rows and columns correspond to the nodes in the network.
 
 ## Structure of a distance matrix
 
-An adjacency matrix looks like this:
+An [[adjacency matrix]] looks like this:
 
 |        | V1 | V2 | V3 |
 |--------|----|----|----|

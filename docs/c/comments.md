@@ -1,7 +1,7 @@
 # Comments
 
-A *comment* is a piece of text in source code that *isn't executed* - it's
-completely ignored by the compiler.
+A *comment* is a piece of text in [[source code]] that *isn't executed* - it's
+completely ignored by the [[compiler]].
 
 ## The uses of comments
 
@@ -11,7 +11,7 @@ ignores them, we can write anything we want in comments.
 ## Single-line comments
 
 In C, we can create a single-line comment using two forward slashes
-(`//`). Anything after the `//` on that line is ignored by the compiler.
+(`//`). Anything after the `//` on that line is ignored by the [[compiler]].
 
 For example:
 
@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
 
 C also supports multi-line comments. These start with `/*` and end with `*/`.
 
-Anything between these markers is ignored by the compiler.
+Anything between these markers is ignored by the [[compiler]].
 
 For example:
 

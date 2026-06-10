@@ -8,4 +8,4 @@
 A random variable will have a *probability distribution* which describes the
 likelihood of each possible value of the random variable, or potentially, if
 it is [[continuous variable|continuous]], the likelihood of the random variable
-taking on a value within a certain range.
+taking on a value within a certain [[range]].

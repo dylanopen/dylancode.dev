@@ -67,7 +67,7 @@ villagers-active-for-panic: true
 tick-inactive-villagers: false
 ```
 
-If you're trying to greatly reduce entity-related lag **spikes** on your server,
+If you're trying to greatly reduce entity-related lag **spikes** on your [[server]],
 try these:
 
 ```yaml
@@ -93,7 +93,7 @@ tick-inactive-villagers: false
 
 ## What is an inactive entity?
 
-An inactive entity is just an entity that is outside of its activation range,
+An inactive entity is just an entity that is outside of its activation [[range]],
 meaning it won't tick (i.e., it won't perform any actions, AI, or movement)
 until it is 'woken up'.
 
@@ -107,10 +107,10 @@ Inside the main `wake-up-inactive` section, we have three main types of options:
 ## `*-max-per-tick`
 
 The `max-per-tick` option for each entity type (animals, monsters, villagers,
-flying-monsters) tells the server the maximum number of inactive entities of
-that type that can be woken up in a single server tick.
+flying-monsters) tells the [[server]] the maximum number of inactive entities of
+that type that can be woken up in a single [[server]] tick.
 
-For example, if `animals-max-per-tick` is set to `4`, the server will wake up
+For example, if `animals-max-per-tick` is set to `4`, the [[server]] will wake up
 up to 4 inactive animals per tick.
 
 ## `*-every`
@@ -118,7 +118,7 @@ up to 4 inactive animals per tick.
 The `every` option for each entity type specifies the interval (in ticks)
 between each wake-up attempt for that entity type.
 
-For example, if `monsters-every` is set to `400`, the server will attempt to
+For example, if `monsters-every` is set to `400`, the [[server]] will attempt to
 wake up inactive monsters once every 400 ticks (20 seconds).
 
 ## `*-for`
@@ -126,5 +126,5 @@ wake up inactive monsters once every 400 ticks (20 seconds).
 This option specified the amount of time (ticks) that the entity will be woken
 up for before 'going back to sleep'.
 
-For example, if `villagers-for` is set to `100`, the server will wake up
+For example, if `villagers-for` is set to `100`, the [[server]] will wake up
 inactive villagers for 100 ticks (5 seconds) before putting them back to sleep.

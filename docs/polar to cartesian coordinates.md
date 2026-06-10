@@ -12,13 +12,13 @@ a lot to do this. Here they are summarised:
 
 ## Form of coordinates
 
-- Polar coordinates are in the form $(r,\theta)$, where:
-  - $r$ is the magnitude, the distance of a point from the origin
+- [[polar coordinates]] are in the form $(r,\theta)$, where:
+  - $r$ is the magnitude, the [[distance]] of a point from the origin
   - $\theta$ is the *bearing* from the origin, starting from the
     right-stretching line and going *anticlockwise*.
-- Cartesian coordinates are in the form $(x,y)$, where:
-  - $x$ is the horizontal distance of a point from the origin
-  - $y$ is the vertical distance of a point from the origin
+- [[cartesian coordinates]] are in the form $(x,y)$, where:
+  - $x$ is the horizontal [[distance]] of a point from the origin
+  - $y$ is the vertical [[distance]] of a point from the origin
 
 ## General steps
 

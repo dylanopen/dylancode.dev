@@ -43,7 +43,7 @@ y-coordinate, and so get the full point!
 - So the tangent touches the curve at the point (2, 5).
 
 Now we have a point, we can substitute all the information we have into the
-equation of a straight line to find the y-intercept, $c$:
+[[equation of a straight line]] to find the y-intercept, $c$:
 
 - $y = mx + c$
 - $5 = 10(2) + c$

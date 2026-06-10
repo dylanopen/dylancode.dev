@@ -14,9 +14,9 @@
 <p>The important thing that distinguishes a method from a <em>function</em> you may see in
 other programming languages is that a method is always associated with a class
 or an object.</p>
-<p>That means that methods are defined <em>inside</em> classes.</p>
+<p>That means that methods are defined <em>inside</em> <a href="/classes">classes</a>.</p>
 <h2>Method declaration syntax</h2>
-<p>Since the <code>Hello World</code> chapter, we’ve started off from this assumed code
+<p>Since the <code>[hello world](/cs/hello-world)</code> chapter, we’ve started off from this assumed code
 structure:</p>
 <pre><code class="language-cs">using System;
 class Program
@@ -43,7 +43,7 @@ we can start to create <em>other methods</em> than just <code>Main</code>.</p>
 <li><code>public</code>: The method can be called from anywhere.</li>
 <li><code>private</code>: The method can only be called from within the same class.</li>
 <li><code>protected</code>: The method can be called from within the same class and from
-derived classes (inheritance).</li>
+derived <a href="/classes">classes</a> (inheritance).</li>
 </ul>
 <h2>Static keyword</h2>
 <p>We can optionally use the <code>static</code> keyword to indicate that the method belongs
@@ -73,11 +73,11 @@ type. That just means ‘returns nothing’.</p>
 <p>The parameter list looks like this:</p>
 <pre><code class="language-cs">(type1 param1, type2 param2, ...)
 </code></pre>
-<p>For example, if we had a method that takes two integers as parameters, the
+<p>For example, if we had a method that takes two <a href="/integers">integers</a> as parameters, the
 parameter list would look like this:</p>
 <pre><code>cs(int a, int b)
 </code></pre>
-<p><code>a</code> and <code>b</code> can be called anything you like. They’re essentially just variables
+<p><code>a</code> and <code>b</code> can be called anything you like. They’re essentially just <a href="/cs/variables">variables</a>
 which can be used in that method.</p>
 <p>When we call the method, we need to provide values (arguments) for each of the
 parameters. These get ‘mapped’ to the parameter names in the order they are

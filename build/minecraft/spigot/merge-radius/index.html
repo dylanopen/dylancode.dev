@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>merge-radius</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>merge-radius</h1>
-<p>We can configure the distance at which items and experience orbs combine - for
+<p>We can configure the <a href="/distance">distance</a> at which items and experience orbs combine - for
 example, when you mine two blocks and they combine into one.</p>
-<p>The default values in <code>spigot.yml</code> are:</p>
+<p>The default values in <code>[spigot](/spigot).yml</code> are:</p>
 <pre><code class="language-yaml">merge-radius:
     item: 0.5
     exp: -1.0
@@ -25,7 +25,7 @@ blocks of each other will combine.</p>
 </blockquote>
 <h2>What’s best for performance?</h2>
 <p>Most options in this guide have a very clear impact on performance - i.e. it’s
-clear that [increasing/decreasing] the value will [increase/decrease] server
+clear that [increasing/decreasing] the value will [increase/decrease] <a href="/server">server</a>
 load, so cause more/fewer lag [spikes].</p>
 <p>This isn’t one of them. A <strong>higher</strong> merge radius means both:</p>
 <ul>
@@ -34,7 +34,7 @@ combine to form fewer individual items.</li>
 <li>BUT more CPU usage to check for nearby items to combine with (which is bad
 for performance).</li>
 </ul>
-<p>The performance impact entirely depends on the situation of your server, and
+<p>The performance impact entirely depends on the situation of your <a href="/server">server</a>, and
 it’s impossble to give a definitive answer to what the best value is.</p>
 <h2>What’s best for gameplay?</h2>
 <p>Usually, the <em>vanilla</em> behaviour is best for gameplay - so setting both values

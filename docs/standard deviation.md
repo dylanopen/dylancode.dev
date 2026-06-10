@@ -1,8 +1,8 @@
 # Standard deviation
 
-As mentioned in the [[variance]] page, variance is just the standard
+As mentioned in the [[variance]] page, [[variance]] is just the standard
 deviation squared. So, to get the standard deviation, we just need to take the
-square root of the variance.
+square root of the [[variance]].
 
 ## Standard deviation symbol
 
@@ -15,7 +15,7 @@ The symbol for standard deviation is $\sigma$ (sigma).
 ## Calculating standard deviation
 
 1. Find the [[variance]] of the set of numbers.
-1. Take the square root of the variance.
+1. Take the square root of the [[variance]].
 
 ## Formula
 

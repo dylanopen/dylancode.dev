@@ -2,7 +2,7 @@
 
 <h1>Modulus</h1>
 <p>The <em>modulus</em> operator is represented by the <code>%</code> symbol, and it gives us the
-<em>remainder</em> of a division operation.</p>
+<em>remainder</em> of a <a href="/riscv/division">division</a> operation.</p>
 <p>For example, the remainder of <code>7</code> divided by <code>3</code> is <code>1</code>, because <code>3</code> goes into
 <code>7</code> twice (which is <code>6</code>), and there is <code>1</code> left over.</p>
 <p>We can use the modulus operator like this:</p>
@@ -32,7 +32,7 @@ binary):</p>
 int blueComponent = rgbValue % 256; // 0x33 (51 in decimal)
 </code></pre>
 <p>This technique of using the modulus operator to ‘wrap’ values around a certain
-range is very common in programming!</p>
+<a href="/range">Range</a> is very common in programming!</p>
 <h2>A case study: fizzbuzz</h2>
 <p>A classic programming exercise is called <em>fizzbuzz</em>. The task is to print the
 numbers from <code>1</code> to <code>100</code>, but for multiples of <code>3</code>, print <code>"fizz"</code> instead of
@@ -61,7 +61,7 @@ multiples of both <code>3</code> and <code>5</code>, print <code>"fizzbuzz"</cod
 </code></pre>
 <blockquote>
 <p>Don’t worry if you don’t understand all of this code yet. It covers concepts
-that we haven’t covered yet, such as loops and conditional statements. The key
+that we haven’t covered yet, such as <a href="/loops">loops</a> and conditional statements. The key
 parts are the modulus operations (<code>i % 3</code> and <code>i % 5</code>), which check whether
 <code>i</code> is a multiple of <code>3</code> or <code>5</code>.</p>
 </blockquote>

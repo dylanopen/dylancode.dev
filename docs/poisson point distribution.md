@@ -10,7 +10,7 @@ The formula is:
 
 Where:
 - $P(X=x)$ is the probability of the outcome exactly equalling $x$.
-- $\lambda$ is the *mean* number of occurrences in the given interval - or the [[poisson distribution expectation|expectation]]
+- $\lambda$ is the *[[mean]]* number of occurrences in the given interval - or the [[poisson distribution expectation|expectation]]
 - $x$ is the number of occurrences we want to calculate the probability of (e.g. checking the probability of exactly 7 occurences). **This must be in the same time frame as the $\lambda$ value!**
 
 ## What does this calculate?

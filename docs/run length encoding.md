@@ -1,7 +1,7 @@
 # Run-length encoding
 
 > **Run-length encoding** is a method of [[
-> /lossless compression|lossless compression]] where we replace sequences of repeated data with a single
+> /[[lossless compression]]|[[lossless compression]]]] where we replace sequences of repeated data with a single
 > value and a count of how many times it was repeated.
 
 As an example, suppose we had this string of text:
@@ -31,7 +31,7 @@ Stored in binary, that's a lot less data to store than the original string.
 
 ## Run-length encoding in images
 
-We can do the same with images. For example, if we had a bitmap image that was
+We can do the same with images. For example, if we had a [[bitmap image]] that was
 10 pixels wide and 10 pixels high, and the top 5 rows were all red and the rest
 was all blue, we might store that as something like:
 

@@ -14,6 +14,6 @@ starts and ends at the same vertex.
 
 ## Simple graphs
 
-- A [[simple graph]] is a graph that does not allow loops or
+- A [[simple graph]] is a graph that does not allow [[loops]] or
   multiple edges between the same pair of vertices.
-- This means that loops can't exist in simple graphs.
+- This means that [[loops]] can't exist in simple graphs.

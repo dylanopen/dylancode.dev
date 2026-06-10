@@ -2,15 +2,15 @@
 
 We can link the concept of [[work done]] to [[power]]!
 
-Power usually refers to energy, as we'll revisit in a minute, but since work
-done just means energy transferred, we can also link power to work done.
+[[power]] usually refers to energy, as we'll revisit in a minute, but since work
+done just means energy transferred, we can also link [[power]] to [[work done]].
 
 ## Power and energy
 
-The normal formula for power is:
+The normal formula for [[power]] is:
 
 $$
-\text{Power} = \frac{\text{Energy transferred}}{\text{Time taken}}
+\text{power} = \frac{\text{Energy transferred}}{\text{Time taken}}
 $$
 
 Or, in symbols:
@@ -20,7 +20,7 @@ P = \frac{E}{t}
 $$
 
 Where:
-- $P$ is the power, in watts, $W$
+- $P$ is the [[power]], in watts, $W$
 - $E$ is the energy transferred, in joules, $J$
 - $t$ is the time taken, in seconds, $s$
 
@@ -30,7 +30,7 @@ Using the knowledge that [[work done]] is just the same thing as
 energy transferred, we can write this as:
 
 $$
-\text{Power} = \frac{\text{Work done}}{\text{Time taken}}
+\text{power} = \frac{\text{work done}}{\text{Time taken}}
 $$
 
 Or in symbols:
@@ -40,8 +40,8 @@ Or in symbols:
 > $$
 
 Where:
-- $P$ is the power, in watts, $W$
-- $W$ is the work done, in joules, $J$
+- $P$ is the [[power]], in watts, $W$
+- $W$ is the [[work done]], in joules, $J$
 - $t$ is the time taken, in seconds, $s$
 
 ### A machine does 500 J of work in 10 s. What is the power of the machine?

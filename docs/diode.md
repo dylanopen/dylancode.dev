@@ -6,11 +6,11 @@
 ## I-V characteristic of a diode
 
 In the forward direction:
-- The current is incredibly small until it reaches its *activation voltage*.
+- The current is incredibly small until it reaches its *activation [[voltage]]*.
 - That's usually about 0.7 V for a silicon diode.
-- After that, the current increases mostly proportionally with voltage.
+- After that, the current increases mostly proportionally with [[voltage]].
 In the reverse direction:
-- The current is almost zero, regardless of the voltage.
+- The current is almost zero, regardless of the [[voltage]].
 - This means the resistance is extremely high in the reverse direction.
 
 ## Uses of diodes

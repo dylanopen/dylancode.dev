@@ -6,7 +6,7 @@
 
 If we know the:
 - mass of the object, in kilograms, $kg$
-- speed of the object, in metres per second, $m/s$
+- [[speed]] of the object, in metres per second, $m/s$
 
 ...then we can calculate the amount of kinetic energy it has!
 
@@ -25,7 +25,7 @@ If we put it into symbols, we get:
 Where:
 - $E_k$ is the kinetic energy, in joules, $J$
 - $m$ is the mass of the object, in kilograms, $kg$
-- $v$ is the speed of the object, in metres per second, $m/s$
+- $v$ is the [[speed]] of the object, in metres per second, $m/s$
 
 ## Examples
 

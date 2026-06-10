@@ -11,10 +11,10 @@ where $a$, $b$ and $c$ are constants and $a\ne0$.
 
 ## Quadratic graph shape
 
-The shape of a quadratic function is called a **parabola**.
+The shape of a quadratic function is called a **[[parabola]]**.
 
-*Positive* quadratics have the shape of a *positive parabola* - they are upwards
+*Positive* quadratics have the shape of a *positive [[parabola]]* - they are upwards
 sloping (u-shape).
 
-*Negative* quadratics have the shape of a *negative parabola* - they are
+*Negative* quadratics have the shape of a *negative [[parabola]]* - they are
 downwards sloping (n-shape).

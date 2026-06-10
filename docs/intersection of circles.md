@@ -1,6 +1,6 @@
 # Intersection of circles
 
-If we have two circles and know their radii and the distance between their
+If we have two circles and know their radii and the [[distance]] between their
 centres, we can find out *how* their circles overlap.
 
 ## Ways they can overlap
@@ -27,12 +27,12 @@ There are 6 ways that two circles can overlap:
 ## Checking whether they overlap
 
 If we know the radius of circle 1 and circle 2 ($r_1$ and $r_2$), and the
-distance between their centres ($d$), we can check which of the 6 cases applies
+[[distance]] between their centres ($d$), we can check which of the 6 cases applies
 by checking some inequalities.
 
 ## Separate circles
 
-Two circles are completely separate if the distance between their centres is
+Two circles are completely separate if the [[distance]] between their centres is
 greater than the sum of their radii:
 
 $$
@@ -41,7 +41,7 @@ $$
 
 ## Intersecting circles
 
-Two circles intersect at two points if the distance between their centres is
+Two circles intersect at two points if the [[distance]] between their centres is
 less than the sum of their radii, but greater than the difference of their
 radii:
 
@@ -51,7 +51,7 @@ $$
 
 ## Internally tangential circles
 
-Two circles are internally tangential if the distance between their centres is
+Two circles are internally tangential if the [[distance]] between their centres is
 equal to the difference of their radii:
 
 $$
@@ -60,7 +60,7 @@ $$
 
 ## Externally tangential circles
 
-Two circles are externally tangential if the distance between their centres is
+Two circles are externally tangential if the [[distance]] between their centres is
 equal to the sum of their radii:
 
 $$
@@ -69,7 +69,7 @@ $$
 
 ## One circle inside the other
 
-Two circles are such that one is completely inside the other if the distance
+Two circles are such that one is completely inside the other if the [[distance]]
 between their centres is less than the difference of their radii:
 
 $$
@@ -78,7 +78,7 @@ $$
 
 ## The circles are the same
 
-Two circles are the same if the distance between their centres is zero, and
+Two circles are the same if the [[distance]] between their centres is zero, and
 their radii are the same:
 
 $$

@@ -6,7 +6,7 @@
 works like this:</p>
 <ol>
 <li>Start with any node in the network and add it to the MST.</li>
-<li>Find the edge with the smallest weight that connects a node in the MST to a
+<li>Find the edge with the smallest <a href="/weight">weight</a> that connects a node in the MST to a
 node outside the MST (i.e. connects to a node that is yet included).</li>
 <li>Add that edge and the connected node to the MST.</li>
 <li>Repeat steps 2 and 3 until all nodes are included in the MST.</li>
@@ -24,18 +24,18 @@ cycles.</p>
     D ------- C
          5
 </code></pre>
-<p>To find the minimum spanning tree using Prim’s algorithm:</p>
+<p>To find the <a href="/minimum-spanning-tree">minimum spanning tree</a> using Prim’s algorithm:</p>
 <ol>
 <li>Start with node A, for example.</li>
-<li>The smallest edge connected to A is AB with weight 2. Add it to the MST.</li>
-<li>The smallest edge connected to the MST (nodes A and B) is BC with weight 3.
+<li>The smallest edge connected to A is AB with <a href="/weight">weight</a> 2. Add it to the MST.</li>
+<li>The smallest edge connected to the MST (nodes A and B) is BC with <a href="/weight">weight</a> 3.
 Add it to the MST (it could have also been AD - either is fine)</li>
 <li>The smallest edge connected to the MST (nodes A, B, and C) is AC with
-weight 3, but adding it would create a cycle (A-B-C-A). So skip it. The next
-smallest edge is AD with weight 4. Add it to the MST.</li>
+<a href="/weight">weight</a> 3, but adding it would create a cycle (A-B-C-A). So skip it. The next
+smallest edge is AD with <a href="/weight">weight</a> 4. Add it to the MST.</li>
 <li>We now have our MST!</li>
 </ol>
-<p>The resulting minimum spanning tree is:</p>
+<p>The resulting <a href="/minimum-spanning-tree">minimum spanning tree</a> is:</p>
 <pre><code>         2
     A ------- B
     |         | 

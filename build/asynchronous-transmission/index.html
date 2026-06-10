@@ -7,23 +7,23 @@ data, and then we send the data bits, and then we send a <a href="/stop-bit">sto
 that we’re done sending data.</p>
 <p>The advantage of asynchronous transmission is that the sender and receiver don’t
 need to be synchronised to the same clock signal, and they don’t need to always
-be listening to a clock signal, which can save power.</p>
-<p>The disadvantage is that it can be slower than synchronous transmission, because
+be listening to a clock signal, which can save <a href="/power">power</a>.</p>
+<p>The disadvantage is that it can be slower than <a href="/synchronous-transmission">synchronous transmission</a>, because
 there’s overhead of sending extra signals like start and stop bits, and the
 sender and receiver need to wait for each other to be ready before sending data.</p>
 <h2>Start and stop bits</h2>
-<p>We send a start bit when we’re about to send data, to indicate to the receiver
+<p>We send a start <a href="/bit">bit</a> when we’re about to send data, to indicate to the receiver
 that data is coming.</p>
-<p>Then, after we send the data bits, we send a stop bit to indicate that we’re
+<p>Then, after we send the data bits, we send a stop <a href="/bit">bit</a> to indicate that we’re
 done sending data.</p>
 <p>The start signal may be a 0 or a 1 depending on the <a href="/protocol">protocol</a>. The key thing
-is that it is <strong>different</strong> from the <strong>stop bit</strong>.</p>
+is that it is <strong>different</strong> from the <strong>stop <a href="/bit">bit</a></strong>.</p>
 <h2>Synchronisation</h2>
 <p>In asynchronous transmission, the sender and receiver are not synchronised to
 the same clock signal, so they need to use the start and stop bits to indicate
 when data is being sent. They <em>are</em> <a href="/synchronised">synchronised</a> to each other, after the
-start bit. So they know when to read the next bit, but they don’t have to stay
-constantly synchronised to a <a href="/clock">clock</a> signal, which can save power.</p>
+start <a href="/bit">bit</a>. So they know when to read the next <a href="/bit">bit</a>, but they don’t have to stay
+constantly synchronised to a <a href="/clock">clock</a> signal, which can save <a href="/power">power</a>.</p>
 <h2>Examples of asynchronous transmission</h2>
 <ul>
 <li><a href="/uart">UART</a> (Universal Asynchronous Receiver Transmitter)</li>

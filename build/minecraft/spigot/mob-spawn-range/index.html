@@ -1,17 +1,17 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>mob-spawn-range</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>mob-spawn-range</h1>
-<p>The mob-spawn-range is the radius (in chunks) around each player in which mobs
+<p>The mob-spawn-<a href="/range">Range</a> is the radius (in chunks) around each player in which mobs
 can spawn.</p>
-<p>You can change it in <code>spigot.yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
+<p>You can change it in <code>[spigot](/spigot).yml</code>, under <code>world-settings</code> -&gt; <code>default</code>. Its
 default value is:</p>
 <pre><code class="language-yaml">mob-spawn-range: 8
 </code></pre>
 <h2>Recommended starting value</h2>
-<p>The recommended starting value depends entirely on your server’s spawn limits.</p>
+<p>The recommended starting value depends entirely on your <a href="/server">server</a>’s spawn limits.</p>
 <p>This helpful table from <a href="/https://paper-chan.moe/paper-optimization/#spawn-limits">Paper chan</a> provides some great guidance. The below table is moderately
 adapted from it:</p>
-<table><thead><tr><th>Mob spawn limit</th><th>Recommended mob-spawn-range</th></tr></thead><tbody>
+<table><thead><tr><th>Mob spawn limit</th><th>Recommended mob-spawn-<a href="/range">Range</a></th></tr></thead><tbody>
 <tr><td>70+</td><td>8</td></tr>
 <tr><td>63-69</td><td>8</td></tr>
 <tr><td>56-62</td><td>7</td></tr>
@@ -26,11 +26,11 @@ adapted from it:</p>
 </tbody></table>
 <blockquote>
 <p>You should generally use the <em>monsters</em> spawn limit to determine your
-mob-spawn-range.</p>
+mob-spawn-<a href="/range">Range</a>.</p>
 </blockquote>
 <h2>What does <code>mob-spawn-range</code> do?</h2>
-<p>It’s the distance in chunks from each player in which mobs can spawn. For
-example, if the <code>mob-spawn-range</code> is set to <code>8</code>, mobs can spawn in a radius of
+<p>It’s the <a href="/distance">distance</a> in chunks from each player in which mobs can spawn. For
+example, if the <code>mob-spawn-[Range](/range)</code> is set to <code>8</code>, mobs can spawn in a radius of
 8 chunks (128 blocks) around each player.</p>
 <p>Or, if it’s set to <code>4</code>, mobs can spawn in a radius of 4 chunks (64 blocks)
 around each player.</p>
@@ -38,15 +38,15 @@ around each player.</p>
 have lower spawn limits. That’s because you want the few mobs which <em>do</em> spawn
 to be concentrated around players, to give the illusion of more mobs spawning.</p>
 <p>For example, if you have a spawn limit of <code>21</code> monsters, and a
-<code>mob-spawn-range</code> of <code>8</code>, those <code>21</code> monsters will be spread out over a large
+<code>mob-spawn-[Range](/range)</code> of <code>8</code>, those <code>21</code> monsters will be spread out over a large
 area, meaning players may not see many mobs around them. But if you set the
-<code>mob-spawn-range</code> to <code>3</code>, those <code>21</code> monsters will be concentrated in a smaller
+<code>mob-spawn-[Range](/range)</code> to <code>3</code>, those <code>21</code> monsters will be concentrated in a smaller
 area, meaning players will see more mobs around them.</p>
 <h2>Simulation distance notes</h2>
-<p>You should <em>never</em> set the <code>mob-spawn-range</code> higher than your server’s
-<code>simulation-distance</code> (set in <code>server.properties</code>) or it just won’t do anything
+<p>You should <em>never</em> set the <code>mob-spawn-[Range](/range)</code> higher than your <a href="/server">server</a>’s
+<code>[simulation-distance](/simulation-distance)</code> (set in <code>[Server](/server).[properties](/properties)</code>) or it just won’t do anything
 useful. There’s no point spawning mobs outside of the area which can be ticked.</p>
-<p>You also shouldn’t set the <code>mob-spawn-range</code> to anything above <code>8</code>.</p>
+<p>You also shouldn’t set the <code>mob-spawn-[Range](/range)</code> to anything above <code>8</code>.</p>
 
 
 </div></div></body></html>

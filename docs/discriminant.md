@@ -1,7 +1,7 @@
 # The discriminant of a quadratic equation
 
 The *discriminant* of a quadratic equation is calculated using the part under
-the square root in the **quadratic formula**.
+the square root in the **[[quadratic formula]]**.
 
 $$
 D=b^2-4ac

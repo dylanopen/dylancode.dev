@@ -1,6 +1,6 @@
 # Find what you're looking for
 
-In the future, this site will list common topics and an index of their
+In the future, this site will list common topics and an [[index]] of their
 content!
 
 For now though, you can easily find what you're looking for using the search

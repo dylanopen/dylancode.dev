@@ -7,7 +7,7 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 </ma></p>
 <h2>Finding a series from standard results</h2>
 <h3>Create a series for <im>\cos2x^3</im></h3>
-<p>We know the maclaurin series for <im>\cos x</im>:</p>
+<p>We know the <a href="/maclaurin-series">maclaurin series</a> for <im>\cos x</im>:</p>
 <p><ma>
 \cos x = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
 </ma></p>
@@ -25,18 +25,18 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 </ma></p>
 <h3>Create a series for <im>e^{\sin x}</im></h3>
 <ul>
-<li>We know the maclaurin series for <im>e^x</im> and <im>\sin x</im>:
+<li>We know the <a href="/maclaurin-series">maclaurin series</a> for <im>e^x</im> and <im>\sin x</im>:
 <ul>
 <li><im>\sin x = x-\frac{x^3}{3!}+\frac{x^5}{5!}</im></li>
 <li><im>e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}</im></li>
 </ul>
 </li>
-<li>What if we substitute the series for <im>\sin x</im> into the series for <im>e^x</im>?
+<li>What if we substitute the <a href="/series">series</a> for <im>\sin x</im> into the <a href="/series">series</a> for <im>e^x</im>?
 <ul>
 <li><im>e^{x-\frac{x^3}6+\frac{x^5}{120}+\cdots} = e^x \cdot e^{-\frac{x^3}6} \cdot e^{\frac{x^5}{120}} \cdots</im></li>
 </ul>
 </li>
-<li>Again, we can substitute the series for <im>e^x</im> into each of these:
+<li>Again, we can substitute the <a href="/series">series</a> for <im>e^x</im> into each of these:
 <ul>
 <li><im>e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\frac{x^5}{5!}+\cdots</im></li>
 <li><im>e^{-\frac{x^3}6} = 1-\frac{x^3}6+\frac{\left(-\frac{x^3}6\right)^2}{2!}+\cdots = 1-\frac{x^3}6+\frac{x^6}{72}+\cdots</im></li>
@@ -49,7 +49,7 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 </blockquote>
 <h3>Create a series for <im>\ln(2-3x)</im></h3>
 <ul>
-<li>We know the maclaurin series for <im>\ln(1+x)</im>:
+<li>We know the <a href="/maclaurin-series">maclaurin series</a> for <im>\ln(1+x)</im>:
 <ul>
 <li><im>\ln(1+x) = x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots</im></li>
 </ul>
@@ -59,7 +59,7 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 <li><im>\ln(2-3x) = \ln\left(2\left(1-\frac{3x}2\right)\right) = \ln(2) + \ln\left(1-\frac{3x}2\right)</im></li>
 </ul>
 </li>
-<li>Now we substitute <im>-\frac{3x}2</im> in place of <im>x</im> in the series for <im>\ln(1+x)</im>:
+<li>Now we substitute <im>-\frac{3x}2</im> in place of <im>x</im> in the <a href="/series">series</a> for <im>\ln(1+x)</im>:
 <ul>
 <li><im>\ln\left(1-\frac{3x}2\right) = -\frac{3x}2 - \frac{\left(-\frac{3x}2\right)^2}{2} + \frac{\left(-\frac{3x}2\right)^3}{3} - \frac{\left(-\frac{3x}2\right)^4}{4} + \cdots</im></li>
 </ul>
@@ -69,7 +69,7 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 <li><im>\ln\left(1-\frac{3x}2\right) = -\frac{3x}2 - \frac{9x^2}{8} - \frac{27x^3}{24} - \frac{81x^4}{64} + \cdots</im></li>
 </ul>
 </li>
-<li>At the end, we combine this with <im>\ln(2)</im> to get the final series:
+<li>At the end, we combine this with <im>\ln(2)</im> to get the final <a href="/series">series</a>:
 <ul>
 <li><im>\ln(2-3x) = \ln(2) - \frac{3x}2 - \frac{9x^2}{8} - \frac{27x^3}{24} - \frac{81x^4}{64} + \cdots</im></li>
 </ul>
@@ -79,12 +79,12 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 <ul>
 <li><im>=\ln((1+2x)^{\frac12})</im></li>
 <li><im>=\frac12\ln(1+2x)</im></li>
-<li>We know the maclaurin series for <im>\ln(1+x)</im>:
+<li>We know the <a href="/maclaurin-series">maclaurin series</a> for <im>\ln(1+x)</im>:
 <ul>
 <li><im>\ln(1+x) = x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots</im></li>
 </ul>
 </li>
-<li>We can substitute <im>2x</im> in place of <im>x</im> in the series for <im>\ln(1+x)</im>:
+<li>We can substitute <im>2x</im> in place of <im>x</im> in the <a href="/series">series</a> for <im>\ln(1+x)</im>:
 <ul>
 <li><im>\ln(1+2x) = 2x - \frac{(2x)^2}{2} + \frac{(2x)^3}{3} - \frac{(2x)^4}{4} + \cdots</im></li>
 </ul>
@@ -94,7 +94,7 @@ f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\frac{f&#39;&#39;&#39;(0)}{3!}
 <li><im>\ln(1+2x) = 2x - 2x^2 + \frac{8x^3}{3} - 4x^4 + \cdots</im></li>
 </ul>
 </li>
-<li>Finally, we multiply the series by <im>\frac12</im> to get the final result:
+<li>Finally, we multiply the <a href="/series">series</a> by <im>\frac12</im> to get the final result:
 <ul>
 <li><im>\ln(\sqrt{1+2x}) = x - x^2 + \frac{4x^3}{3} - 2x^4 + \cdots</im></li>
 </ul>

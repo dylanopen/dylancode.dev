@@ -56,7 +56,7 @@ This is useful when:
 
 ## Inverse matrix
 
-> A singular matrix does not have an inverse matrix.
+> A singular matrix does not have an [[inverse matrix]].
 
 ### Does the matrix $\begin{bmatrix} 1 & 2 \\ 3 & 6 \end{bmatrix}$ have an inverse?
 

@@ -1,11 +1,11 @@
 # Converting exponentials into logarithms
 
 We know how to solve and manipulate logarithms (see [[laws of logarithms]]),
-but what if we have an exponential expression that we want to convert into a
+but what if we have an exponential [[expression]] that we want to convert into a
 logarithmic one?
 
 We can just use the definition of logarithms to rewrite the exponential
-expression $a^x=b$ as a logarithmic expression $x=\log_a(b)$.
+[[expression]] $a^x=b$ as a logarithmic [[expression]] $x=\log_a(b)$.
 
 ### Convert $2^3=8$ into a logarithmic expression
 

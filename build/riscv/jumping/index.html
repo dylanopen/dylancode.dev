@@ -2,9 +2,9 @@
 
 <h1>Jumping</h1>
 <p><em>Jumping</em> is where we change the flow of our program by jumping to a different
-part of the code - we essentially ‘goto’ a certain line (or memory address) in
+part of the code - we essentially ‘goto’ a certain line (or <a href="/memory-address">memory address</a>) in
 our code.</p>
-<p>Please have a look at the <a href="/riscv/labels">last chapter</a> to see how labels work.</p>
+<p>Please have a look at the <a href="/riscv/labels">last chapter</a> to see how <a href="/labels">labels</a> work.</p>
 <h2>The <code>j</code> instruction</h2>
 <p>The most basic instruction we can use to branch is <code>j</code>. It will <em>always</em> jump to
 the label you give it, no matter what.</p>
@@ -14,7 +14,7 @@ the label you give it, no matter what.</p>
 </code></pre>
 <h2>Example</h2>
 <p>For example, here, we jump to the <code>stop</code> label before we add <code>1</code> to the <code>a0</code>
-register:</p>
+<a href="/register">Register</a>:</p>
 <pre><code>.text
 main:
     li a0, 5        # Load 5 into a0
@@ -25,7 +25,7 @@ stop:
     ecall
 </code></pre>
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20a0%2C%205%0A%20%20%20%20j%20stop%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall%0A%20%20%20%20">Run on creatorsim</a></p>
-<p>This program will load <code>5</code> into the <code>a0</code> register, then jump to the <code>stop</code>
+<p>This program will load <code>5</code> into the <code>a0</code> <a href="/register">register</a>, then jump to the <code>stop</code>
 label, skipping the line that would have added <code>1</code> to <code>a0</code>. Finally, it will
 exit the program.</p>
 <p>The result in the registers will be:</p>

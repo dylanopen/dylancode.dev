@@ -22,10 +22,10 @@ troughs or wave cycles is $2\pi$ radians ($360\degree$).
 
 ## Moving one wave by half a wavelength
 
-If we move along a wave by half a wavelength, we move by a phase difference of
+If we move along a wave by half a [[wavelength]], we move by a phase difference of
 $\pi$ radians.
 
-This means that if we start at a peak, and move half a wavelength along the
+This means that if we start at a peak, and move half a [[wavelength]] along the
 wave, we'll end up at a trough, for example.
 
 - If the waves were previously *in phase*, they will now be in *antiphase*.

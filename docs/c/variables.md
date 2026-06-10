@@ -25,7 +25,7 @@ The syntax in C for declaring a variable is:
 type variableName;
 ```
 
-There are various different data types we can use - they will all be discussed
+There are various different [[cs/data types|data types]] we can use - they will all be discussed
 in a later chapter! One of them is the `int`, for a signed integer. We can 
 declare an integer variable called, for example, `numPages` like this:
 

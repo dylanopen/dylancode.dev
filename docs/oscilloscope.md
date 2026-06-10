@@ -8,22 +8,22 @@
 An oscilloscope has two axes:
 - The horizontal axis shows *time* (in seconds, milliseconds, microseconds,
   etc).
-- The vertical axis shows *voltage*, or *potential difference* (in volts,
+- The vertical axis shows *[[voltage]]*, or *potential difference* (in volts,
   millivolts, etc).
 
-The scale of the oscilloscope tells us how much each *division* (box) on the
+The scale of the oscilloscope tells us how much each *[[riscv/division|division]]* (box) on the
 axis represents.
 
-For example, if the time scale is set to `0.5 ms/div`, then each division (box)
+For example, if the time scale is set to `0.5 ms/div`, then each [[riscv/division|division]] (box)
 on the horizontal axis represents `0.5 milliseconds`.
 
-If the voltage scale is set to `2 V/div`, then each division (box) on the
+If the [[voltage]] scale is set to `2 V/div`, then each [[riscv/division|division]] (box) on the
 vertical axis represents `2 volts`.
 
 ## Amplitude
 
-The *amplitude* of a wave can be found from an oscilliscope plot. It's the
-distance from the centre line, to the peak (or trough) of a wave (the highest or
+The *[[amplitude]]* of a wave can be found from an oscilliscope plot. It's the
+[[distance]] from the centre line, to the peak (or trough) of a wave (the highest or
 lowest point).
 
 ## Period
@@ -31,7 +31,7 @@ lowest point).
 We can find the *period* of a wave from an oscilloscope plot. The period is the
 time taken for one complete cycle of the wave.
 
-To find it, we can measure the distance (in seconds) between two consecutive
+To find it, we can measure the [[distance]] (in seconds) between two consecutive
 peaks (or troughs) of the wave.
 
 ## Frequency

@@ -8,8 +8,8 @@ n_1\sin\theta_1=n_2\sin\theta_1
 $$
 
 Where:
-- $n_1$ is the refractive index of the first material.
-- $n_2$ is the refractive index of the second material.
+- $n_1$ is the [[refractive index]] of the first material.
+- $n_2$ is the [[refractive index]] of the second material.
 - $\theta_1$ is the angle at which light *enters* the boundary
 - $\theta_2$ is the angle at which light *leaves* the boundary
 

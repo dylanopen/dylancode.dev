@@ -1,6 +1,6 @@
 # Speed
 
-*Speed* measures how much the *distance* changes, every second.
+*Speed* measures how much the *[[distance]]* changes, every second.
 
 It's not in any specific direction, so it's a [[scalar quantity]].
 
@@ -22,7 +22,7 @@ v=\frac st
 $$
 
 Where:
-- $s$ is the distance, measured in metres, $m$
+- $s$ is the [[distance]], measured in metres, $m$
 - $v$ is the speed, measured in metres per second, $ms^{-1}$ ($m/s$)
 - $t$ is the time, measured in seconds, $s$
 

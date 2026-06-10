@@ -7,15 +7,15 @@ M = F \times d
 $$
 
 Where:
-- $M$ is the moment
+- $M$ is the [[moment]]
 - %F$ is the force
 - $d$ is the perpendicular distance from the centre 
 
 ## Units
 
-We can calculate a moment using $\text{force}\times\text{distance}$.
+We can calculate a moment using $\text{force}\times\text{[[distance]]}$.
 - Force is measured in **newtons**
-- Perpendicular Distance is measured in **metres**
+- Perpendicular distance is measured in **metres**
 
 So if we do $\text{newton}\times\text{metre}$, we get the unit for moments to be
 the **Newton-Metre**!
@@ -32,7 +32,7 @@ the **Newton-Metre**!
 
 ### A force of $5N$ is applied $2m$ away from the pivot. Another force, F, is applied $5m$ away from the pivot. The overall moment is $25Nm$. Calculate F.
 
-- Total moment = sum of all moments
+- Total [[moment]] = sum of all moments
 - $M_1=5\times2=10$
 - $M_2=M_{total}-M_1$
 - $M_2=25-10$

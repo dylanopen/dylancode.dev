@@ -1,6 +1,6 @@
 # Contingency table
 
-A contingency table is a table/matrix which shows the frequency of different combinations of two categorical variables.
+A contingency table is a table/matrix which shows the frequency of different combinations of two categorical [[cs/variables|variables]].
 
 They show the **frequency** of each combination - the number of times each combination occurs in the data. They don't show the proportion or frequency.
 
@@ -8,7 +8,7 @@ They show the **frequency** of each combination - the number of times each combi
 
 We can add a row and column to show the total of the rows and columns in the table. That's useful if we want to find a [[conditional probability]] from it, or to calculate the [[chi squared value]].
 
-The total rows and columns just show the total frequency of each category of the variables - the values in the rows and columns, all added up.
+The total rows and columns just show the total frequency of each category of the [[cs/variables|variables]] - the values in the rows and columns, all added up.
 
 ## Example
 

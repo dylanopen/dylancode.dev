@@ -1,22 +1,22 @@
 # Velocity
 
-*Velocity* measures how much the *displacement* changes, every second.
+*Velocity* measures how much the *[[displacement]]* changes, every second.
 
-It measures the rate of change of displacement in a *specific direction*, so it
+It measures the rate of change of [[displacement]] in a *specific direction*, so it
 is a [[vector quantity]].
 
 ## Example
 
 - We walk 25km north in 5 hours, so to find our *velocity*:
 
-- displacement = $25km$ north
+- [[displacement]] = $25km$ north
 
-- velocity = displacement / time
+- velocity = [[displacement]] / time
 
 - $v=25km\div5h=5kmh^{-1}$
 - Or, if we walk $400m$ north then 500m south in $200s$, finding our velocity:
 
-- displacement = $400m-500m=100m$ south
+- [[displacement]] = $400m-500m=100m$ south
 
 - $v=s\div t$
 
@@ -33,7 +33,7 @@ v=\frac st
 $$
 
 Where:
-- $s$ is the displacement, measured in metres, $m$
+- $s$ is the [[displacement]], measured in metres, $m$
 - $v$ is the velocity, measured in metres per second, $ms^{-1}$ ($m/s$)
 - $t$ is the time, measured in seconds, $s$
 
@@ -51,7 +51,7 @@ This calculates the *average* velocity.
 - Answer: $15ms^{-1}$
 
 ### A car drives south 50m then north 150m, in 20s. Calculate the average velocity.
-- displacement = $150m-50m=100m$ north
+- [[displacement]] = $150m-50m=100m$ north
 - $v=\frac st$
 - $v=\frac{100}{20}=5$
 - Answer: $5ms^{-1}$ north

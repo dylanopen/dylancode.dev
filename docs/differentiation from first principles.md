@@ -1,9 +1,9 @@
 # Differentiation from first principles
 
 Differentiation from first principles essentially involves finding the
-derivative 'manually', without using the power rule.
+derivative 'manually', without using the [[power]] rule.
 
-Normally, we could differentiate a function like $f(x)=x^2$ by using the power
+Normally, we could differentiate a function like $f(x)=x^2$ by using the [[power]]
 rule:
 - $f'(x)=2x^{2-1}$
 - $=2x$
@@ -27,8 +27,8 @@ worth learning :(
 The notation $\lim_{h\to0}$ means 'the limit as $h$ approaches $0$'. In this
 context, it essentially means that we are considering values of $h$ that are
 incredibly close to $0$, but not actually equal to $0$. This is important
-because if we were to substitute $h=0$ directly into the expression
-$\frac{f(x+h)-f(x)}h$, we would end up with a division by zero, which you may
+because if we were to substitute $h=0$ directly into the [[expression]]
+$\frac{f(x+h)-f(x)}h$, we would end up with a [[riscv/division|division]] by zero, which you may
 know that you can't exactly do :)
 
 ## Some examples of differentiation from first principles
@@ -65,11 +65,11 @@ But why is that true?
 
 ### The power rule answer
 
-One answer is that, with the power rule, we multiply the coefficient of $x$ by
-the power of $x$, and then reduce the power by $1$. For a constant function,
+One answer is that, with the [[power]] rule, we multiply the coefficient of $x$ by
+the [[power]] of $x$, and then reduce the [[power]] by $1$. For a constant function,
 it's the same thing as having a coefficient of $x^0$!
 
-So when we differentiate it, we take the power of $x$ (0) to the front, and so
+So when we differentiate it, we take the [[power]] of $x$ (0) to the front, and so
 multiply the coefficient by $0$, which gives us $0$ (nothing).
 
 That's one explanation as to why the derivative of a constant is zero.
@@ -88,7 +88,7 @@ So we see that the derivative of a constant function is indeed zero, as we
 expected!
 
 In fact, we don't even need the condition that $\lim_{h\to0}$ here, because the
-expression is always zero, no matter what $h$ is (as long as it's not zero,
+[[expression]] is always zero, no matter what $h$ is (as long as it's not zero,
 because we can't divide by zero!).
 
 This is important, because it shows us that the gradient of a constant function

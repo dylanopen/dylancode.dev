@@ -10,8 +10,8 @@ computer - it's 'read-only' data. That's the opposite of RAM, which is
 
 ## Role of ROM
 
-ROM stores the *firmware* of the computer, which is the software that is built
-into the hardware of the computer, and that controls how the hardware works.
+ROM stores the *firmware* of the computer, which is the [[software]] that is built
+into the [[hardware]] of the computer, and that controls how the [[hardware]] works.
 
 The main example you'll here is the **BIOS** (Basic Input/Output System), which 
 is the firmware that controls the basic functions of the computer, and it's 
@@ -23,6 +23,6 @@ the basic functions of the computer.*
 
 ## Volatility
 
-ROM is *non-volatile* - that means that, when we cut the power to the computer,
+ROM is *non-volatile* - that means that, when we cut the [[power]] to the computer,
 the data stored in ROM is not lost. It wouldn't be great if we lost the BIOS
 every time we shut down the computer...

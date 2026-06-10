@@ -1,8 +1,8 @@
 # Von Neumann architecture
 
-> Von-Neumann's architecture is a type of [[stored program concept|stored program architecture]] where the instructions and data are stored in the same memory region. This means that the CPU can access both instructions and data using the same memory address space.
+> Von-Neumann's architecture is a type of [[stored program concept|stored program architecture]] where the instructions and data are stored in the same memory region. This means that the CPU can access both instructions and data using the same [[memory address]] space.
 
-In practice, what this means is that we have a block of memory, and we can store both our program instructions, and the data (variables and constants) that the program operates on, in that same block of memory. The CPU fetches instructions from memory and executes them, and it can also read and write data to that same memory as needed.
+In practice, what this means is that we have a block of memory, and we can store both our program instructions, and the data ([[cs/variables|variables]] and constants) that the program operates on, in that same block of memory. The CPU fetches instructions from memory and executes them, and it can also read and write data to that same memory as needed.
 
 ## Separating the instructions from the data
 
@@ -10,7 +10,7 @@ Although they're stored in the same memory, we do need to make sure we don't acc
 - The data section
 - The instruction section
 
-But the key thing to remember is that it's the same memory - we've just 'artificially' divided it in software.
+But the key thing to remember is that it's the same memory - we've just 'artificially' divided it in [[software]].
 
 ## Where is Von-Neumann used?
 

@@ -12,14 +12,14 @@ This page lists some of them.
   x-axis (where $y=0$).
 - *Turning points* are points where the graph changes from increasing (positive
   gradient) to decreasing (negative gradient), or the other way round. It is
-  also sometimes called the vertex. The gradient of the line at a turning point
+  also sometimes called the vertex. The gradient of the line at a [[turning point]]
   is 0.
 - An *asymptote* is a line that the graph approaches as $x$ gets infinitely big
   or small, but never touches.
 
 ## Quadratics
 
-- Quadratics are the shape of a *parabola*.
+- Quadratics are the shape of a *[[parabola]]*.
 - They have the general form of $y=ax^2 + bx + c$.
 - The line that goes through the vertex and divides the graph into two
   symmetrical halves is called the *axis of symmetry*.

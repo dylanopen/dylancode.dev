@@ -4,7 +4,7 @@ When we transfer files over the internet, we usually use either one of two proto
 - FTP (File Transfer Protocol)
 - [[http protocol|HTTP (Hypertext Transfer Protocol)]]
 
-FTP is a protocol designed for transferring files over the internet. It usually allows users to upload and download files from a central server.
+FTP is a protocol designed for transferring files over the internet. It usually allows users to upload and download files from a central [[server]].
 
 ## What it's used for
 

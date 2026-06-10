@@ -6,9 +6,9 @@ origin.
 
 Here, we'll learn how to represent a rotation of *any angle*.
 
-> Note: because all matrix transformations **must** keep the origin at, well,
+> Note: because all [[matrix transformations]] **must** keep the origin at, well,
 > the origin. This means that our centre of rotation is always $(0,0)$ when
-> working with matrix transformations.
+> working with [[matrix transformations]].
 
 ## General rotation matrix
 

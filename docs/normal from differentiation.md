@@ -49,7 +49,7 @@ Find a point that the normal passes through - we can do that by substituting the
 x-coordinate of the intersection point into the original function to get the
 y-coordinate.
 
-Then, substitute the gradient and the point into the equation of a straight line
+Then, substitute the gradient and the point into the [[equation of a straight line]]
 to find the y-intercept, and finally write the full equation of the normal.
 
 ### Find the full equation of the normal to the curve $f(x) = x^3 - 2x + 1$ at the point where $x = 2$.

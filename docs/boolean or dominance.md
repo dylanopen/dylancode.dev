@@ -1,6 +1,6 @@
 # Boolean OR dominance
 
-The *boolean dominance law* says that when we have a value $x$ ORed with $1$,
+The *[[boolean]] dominance law* says that when we have a value $x$ ORed with $1$,
 the result is always $1$, because:
 - $0 + 1 = 1$
 - $1 + 1 = 1$

@@ -30,7 +30,7 @@ int myInteger = 42;
 ## Size of integers
 
 Integers are usually 4 bytes (32 bits) in size on modern systems, but this can
-vary depending on the architecture and compiler - because... C.
+vary depending on the architecture and [[compiler]] - because... C.
 
 If we assume integers are 4 bytes:
 - The smallest integer we can represent is -2,147,483,648 (which is $-2^31$)
@@ -41,7 +41,7 @@ If we assume integers are 4 bytes:
   billion)
 
 That's *usually* enough, but we also have other integer types if we need more or
-less range. We'll cover those later.
+less [[range]]. We'll cover those later.
 
 ## Integer constants
 
@@ -62,13 +62,13 @@ int c = -5;
 
 ## Operations on integers
 
-THere are lots of operations we can do to integer variables. For example:
+THere are lots of operations we can do to integer [[cs/variables|variables]]. For example:
 
 - Addition: `+`
-- Subtraction: `-`
-- Multiplication: `*`
-- Division: `/`
-- Modulus (remainder): `%`
+- [[subtraction]]: `-`
+- [[multiplication]]: `*`
+- [[riscv/division|division]]: `/`
+- [[modulus]] (remainder): `%`
 - Increment: `++`
 - Decrement: `--`
 - Bitwise AND: `&`

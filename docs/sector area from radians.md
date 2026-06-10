@@ -1,8 +1,8 @@
 # Sector area from radians
 
-We can calculate the area of a sector if we know the:
+We can calculate the area of a [[sector]] if we know the:
 - radius of the circle
-- angle of the sector (in radians)
+- angle of the [[sector]] (in radians)
 
 ## The equation
 
@@ -10,8 +10,8 @@ $$
 A=\frac12\theta r^2
 $$
 
-- $A$ is the area of the sector
-- $\theta$ is the angle of the sector
+- $A$ is the area of the [[sector]]
+- $\theta$ is the angle of the [[sector]]
 - $r$ is the radius of the circle
 
 ## Finding the angle of the sector

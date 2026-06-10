@@ -1,10 +1,10 @@
 # Direct proportion
 
-If two variables are directly proportional to each other, it means that if one
-of the variables *doubles*, for example, the other variable will also
+If two [[cs/variables|variables]] are directly proportional to each other, it means that if one
+of the [[cs/variables|variables]] *doubles*, for example, the other variable will also
 *double*.
 
-In other words, the ***ratio*** between the two variables remains
+In other words, the ***ratio*** between the two [[cs/variables|variables]] remains
 **constant**.
 
 Importantly, if $x$ is directly proportional to $y$, then $y$ is also directly
@@ -38,7 +38,7 @@ equal to a constant multiplied by $y$.
 
 ## Finding the constant of proportionality
 
-In any question, you will be given a pair of values for the two variables
+In any question, you will be given a pair of values for the two [[cs/variables|variables]]
 that are directly proportional to each other. You can use these values to find
 the constant of proportionality - just by substituting them into the equation
 $y = kx$, if $y$ is directly proportional to $x$.
@@ -67,9 +67,9 @@ Once you have found the constant of proportionality, you can use it to find
 unknown values of either variable.
 
 You will probably have a question that tells you:
-- that two variables are directly proportional to each other
-- gives you a pair of values for the two variables
-- asks you to find an unknown value of one of the variables, given a value of
+- that two [[cs/variables|variables]] are directly proportional to each other
+- gives you a pair of values for the two [[cs/variables|variables]]
+- asks you to find an unknown value of one of the [[cs/variables|variables]], given a value of
   the other variable
 
 ### $y\propto x$. When $x = 2$, $y = 8$. Find $y$ when $x = 5$.

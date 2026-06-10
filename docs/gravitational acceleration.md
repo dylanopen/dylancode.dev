@@ -2,7 +2,7 @@
 
 If an object is dropped, it will *accelerate* towards the ground.
 
-This is because of *gravity*. The force of gravity is known as the **weight** of
+This is because of *gravity*. The force of gravity is known as the **[[weight]]** of
 the object.
 
 ## Earth's acceleration due to gravity
@@ -10,7 +10,7 @@ the object.
 When an object is dropped in *Earth's* gravitational field, it will accelerate
 towards the ground at about $9.81ms^{-2}$.
 
-That's known as the *acceleration due to gravity*. We write it with a $g$.
+That's known as the *[[acceleration]] due to gravity*. We write it with a $g$.
 
 $$
 g=9.81ms^{-2}

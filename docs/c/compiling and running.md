@@ -1,6 +1,6 @@
 # Compiling and running code
 
-> Build an executable from our source code and run it.
+> Build an executable from our [[source code]] and run it.
 
 ## Compilation
 

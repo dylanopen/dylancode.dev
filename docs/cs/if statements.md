@@ -13,7 +13,7 @@ if (condition) {
 }
 ```
 
-The condition has to evaluate to a boolean value (`true` or `false`).
+The condition has to evaluate to a [[boolean]] value (`true` or `false`).
 
 ## Examples
 

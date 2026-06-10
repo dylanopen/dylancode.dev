@@ -26,10 +26,10 @@ int myInt = (int)myFloat; // myInt is now 5
 
 ## Implicit casting
 
-Implicit casting is when the compiler automatically converts a value from one
+Implicit casting is when the [[compiler]] automatically converts a value from one
 data type to another, based on the context.
 
-For example, here, the compiler will automatically convert the `int` to a
+For example, here, the [[compiler]] will automatically convert the `int` to a
 `double`:
 
 ```cs
@@ -38,8 +38,8 @@ double myDouble = myInt; // myDouble is now 5.0
 ```
 
 > This only works when converting from a 'smaller' type to a 'larger' type (for
-> example, from `short` to `int` or from `int` to `float`).  
-> The compiler can do this without us explicitly telling it to, because there is
+> example, from `[[short]]` to `int` or from `int` to `float`).  
+> The [[compiler]] can do this without us explicitly telling it to, because there is
 > no risk of losing data or the output not being what you'd expect.
 
 ## When do we need explicit casting?
@@ -63,7 +63,7 @@ There are also other type conversions where an explicit cast is needed.
 
 C# has a `Convert` class which has methods to convert between different data
 types. This is strange if you come from other programming languages, which often
-choose to create methods on the data types themselves (for example,
+choose to create methods on the [[cs/data types|data types]] themselves (for example,
 `myInt.ToString()` or `String.from(myInt)`).
 
 Here are some common uses of the `Convert` class:

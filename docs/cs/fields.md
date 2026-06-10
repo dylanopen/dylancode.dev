@@ -1,6 +1,6 @@
 # Fields
 
-Any *useful* class contains *fields* - variables that hold data relevant to
+Any *useful* class contains *fields* - [[cs/variables|variables]] that hold data relevant to
 the class.
 
 For example, in the `Person` class declared in a
@@ -44,7 +44,7 @@ There are a few common access modifiers in C#:
 |-----------------|--------------------------------------------------|
 | `public`        | The field can be accessed from anywhere.         |
 | `private`       | The field can only be accessed within the class. |
-| `protected`     | The field can be accessed within the class and by *inheriting* classes. |
+| `protected`     | The field can be accessed within the class and by *inheriting* [[classes]]. |
 | `internal`      | The field can be accessed within the same assembly. |
 
 If there are no access modifiers on it, the field is `private` by default.

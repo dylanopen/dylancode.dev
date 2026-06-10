@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hopper</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>hopper</h1>
-<p>You can configure a lot of things about hoppers in the <code>spigot.yml</code> file, under
+<p>You can configure a lot of things about hoppers in the <code>[spigot](/spigot).yml</code> file, under
 the <code>world-settings</code> -&gt; <code>default</code> section.</p>
 <p>The default values for the main options are:</p>
 <pre><code class="language-yaml">ticks-per:
@@ -12,7 +12,7 @@ hopper-can-load-chunks: false
 </code></pre>
 <h2>Recommended starting value</h2>
 <p>If you care about redstone contraptions working as expected like in vanilla
-minecraft:</p>
+<a href="/minecraft">Minecraft server</a>:</p>
 <pre><code class="language-yaml">ticks-per:
   hopper-transfer: 8
   hopper-check: 1
@@ -70,7 +70,7 @@ items to pull into itself from above’?</p>
 water stream, the hopper checks whether there’s items above them.</p>
 <h2><code>hopper-amount</code></h2>
 <p>This says ‘how many items should a hopper transfer at once’?</p>
-<p>The normal value is <code>1</code>. But if, for example, you have your <code>ticks-per/hopper-transfer</code>
+<p>The normal value is <code>1</code>. But if, for example, you have your <code>[ticks-per](/ticks-per)/hopper-transfer</code>
 value set to twice the normal rate, <code>16</code>, you may want 2 items to be transferred
 at once so that hopper transfers aren’t 2x slower.</p>
 <h2><code>hopper-can-load-chunks</code></h2>

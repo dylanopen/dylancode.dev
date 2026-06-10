@@ -25,7 +25,7 @@ value to a variable:
 int myNumber = 5; // assigns the value 5 to the variable myNumber
 ```
 
-We can combine it with other operators (e.g. arithmetic operators) to change the
+We can combine it with other operators (e.g. [[arithmetic operators]]) to change the
 value of a variable:
 
 ```cs
@@ -47,7 +47,7 @@ This is effectively equivalent to `myNumber = myNumber + 3`.
 
 ## Subtraction assignment operator
 
-We can also use the *subtraction assignment operator* `-=`, which subtracts a
+We can also use the *[[subtraction]] assignment operator* `-=`, which subtracts a
 value from a variable and assigns the result back to the variable:
 
 ```cs
@@ -59,7 +59,7 @@ This is effectively equivalent to `myNumber = myNumber - 4`.
 
 ## Multiplication assignment operator
 
-We can use the *multiplication assignment operator* `*=`, which multiplies a
+We can use the *[[multiplication]] assignment operator* `*=`, which multiplies a
 variable by a value and assigns the result back to the variable:
 
 ```cs
@@ -71,7 +71,7 @@ This is effectively equivalent to `myNumber = myNumber * 3`.
 
 ## Division assignment operator
 
-We can use the *division assignment operator* `/=`, which divides a variable by a
+We can use the *[[riscv/division|division]] assignment operator* `/=`, which divides a variable by a
 value and assigns the result back to the variable:
 
 ```cs
@@ -83,7 +83,7 @@ This is effectively equivalent to `myNumber = myNumber / 4`.
 
 ## Modulus assignment operator
 
-We can use the *modulus assignment operator* `%=`, which finds the remainder
+We can use the *[[modulus]] assignment operator* `%=`, which finds the remainder
 when a variable is divided by a value and assigns the result back to the variable:
 
 ```cs
@@ -109,7 +109,7 @@ myNumber = myNumber + 1;
 myNumber += 1;
 ```
 
-> It's usually faster to use `++` than the other two forms, especially in loops,
+> It's usually faster to use `++` than the other two forms, especially in [[loops]],
 > because there's often a dedicated CPU instruction for incrementing. In
 > reality though, modern compilers are very good at optimising code, so the
 > performance difference is negligible in most cases.

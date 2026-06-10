@@ -34,5 +34,5 @@ Person person1 = new Person();
 
 `person1` is an object of type `Person`. 
 
-We can access the *fields* of the `person1` object - see
+We can access the *[[fields]]* of the `person1` object - see
 [[cs/fields|fields]] - and assign values to them.

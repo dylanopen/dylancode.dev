@@ -59,7 +59,7 @@ villagers-work-immunity-for: 20
 villagers-active-for-panic: true
 tick-inactive-villagers: false
 </code></pre>
-<p>If you’re trying to greatly reduce entity-related lag <strong>spikes</strong> on your server,
+<p>If you’re trying to greatly reduce entity-related lag <strong>spikes</strong> on your <a href="/server">server</a>,
 try these:</p>
 <pre><code class="language-yaml">wake-up-inactive:
   animals-max-per-tick: 2
@@ -80,7 +80,7 @@ villagers-active-for-panic: true
 tick-inactive-villagers: false
 </code></pre>
 <h2>What is an inactive entity?</h2>
-<p>An inactive entity is just an entity that is outside of its activation range,
+<p>An inactive entity is just an entity that is outside of its activation <a href="/range">range</a>,
 meaning it won’t tick (i.e., it won’t perform any actions, AI, or movement)
 until it is ‘woken up’.</p>
 <h2>What does <code>wake-up-inactive</code> do?</h2>
@@ -92,19 +92,19 @@ until it is ‘woken up’.</p>
 </ul>
 <h2><code>*-max-per-tick</code></h2>
 <p>The <code>max-per-tick</code> option for each entity type (animals, monsters, villagers,
-flying-monsters) tells the server the maximum number of inactive entities of
-that type that can be woken up in a single server tick.</p>
-<p>For example, if <code>animals-max-per-tick</code> is set to <code>4</code>, the server will wake up
+flying-monsters) tells the <a href="/server">server</a> the maximum number of inactive entities of
+that type that can be woken up in a single <a href="/server">server</a> tick.</p>
+<p>For example, if <code>animals-max-per-tick</code> is set to <code>4</code>, the <a href="/server">server</a> will wake up
 up to 4 inactive animals per tick.</p>
 <h2><code>*-every</code></h2>
 <p>The <code>every</code> option for each entity type specifies the interval (in ticks)
 between each wake-up attempt for that entity type.</p>
-<p>For example, if <code>monsters-every</code> is set to <code>400</code>, the server will attempt to
+<p>For example, if <code>monsters-every</code> is set to <code>400</code>, the <a href="/server">server</a> will attempt to
 wake up inactive monsters once every 400 ticks (20 seconds).</p>
 <h2><code>*-for</code></h2>
 <p>This option specified the amount of time (ticks) that the entity will be woken
 up for before ‘going back to sleep’.</p>
-<p>For example, if <code>villagers-for</code> is set to <code>100</code>, the server will wake up
+<p>For example, if <code>villagers-for</code> is set to <code>100</code>, the <a href="/server">server</a> will wake up
 inactive villagers for 100 ticks (5 seconds) before putting them back to sleep.</p>
 
 

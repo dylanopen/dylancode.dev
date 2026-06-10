@@ -1,7 +1,7 @@
 # Class methods
 
-As previously mentioned, classes can store two different things:
-- [[cs/fields|fields]] - variables that hold data relevant to the class.
+As previously mentioned, [[classes]] can store two different things:
+- [[cs/fields|fields]] - [[cs/variables|variables]] that hold data relevant to the class.
 - *methods* - functions that are *attached* to the class and can operate on
   its data.
 
@@ -35,7 +35,7 @@ objectName.InstanceMethodName();
 
 We should use a static method whenever the function *doesn't need to* access any
 data from a specific object of the class - or when it operates on data that is
-shared across **the entire program** - `static` fields.
+shared across **the entire program** - `static` [[fields]].
 
 ## Method syntax
 
@@ -54,7 +54,7 @@ access_modifier return_type MethodName(parameter_list)
 
 ### Example
 
-Take our program from before about the `Car` class with fields for `make`,
+Take our program from before about the `Car` class with [[fields]] for `make`,
 `price` and `year`:
 
 ```csharp

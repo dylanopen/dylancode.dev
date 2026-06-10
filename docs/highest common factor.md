@@ -13,13 +13,13 @@ that goes into both $12$ and $15$.
 To find the highest common factor, you need to be familiar with [[prime factor decomposition]].
 
 Here are the steps:
-1. Find the prime factor decomposition of each number.
+1. Find the [[prime factor decomposition]] of each number.
 2. Find the common prime factors (and *how many* of each there are)
 3. Multiply the common prime factors together to get the HCF
 
 ### Example: Find the HCF of $18$ and $24$.
 
-1. Find the prime factor decomposition of each number:
+1. Find the [[prime factor decomposition]] of each number:
    - $18 = 2 \times 3 \times 3 = 2 \times 3^2$
    - $24 = 2 \times 2 \times 2 \times 3 = 2^3 \times 3$
 2. Find the common prime factors:
@@ -32,7 +32,7 @@ Here are the steps:
 
 ### Example: Find the HCF of $36$, $60$ and $84$.
 
-1. Find the prime factor decomposition of each number:
+1. Find the [[prime factor decomposition]] of each number:
    - $36 = 2 \times 2 \times 3 \times 3 = 2^2 \times 3^2$
    - $60 = 2 \times 2 \times 3 \times 5 = 2^2 \times 3^1 \times 5^1$
    - $84 = 2 \times 2 \times 3 \times 7 = 2^2 \times 3^1 \times 7^1$

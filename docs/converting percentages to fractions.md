@@ -2,7 +2,7 @@
 
 To convert a percentage to a fraction, follow these steps:
 - Convert the percentage to a decimal by dividing by $100\%$.
-- Convert the decimal to a fraction over a power of $10$.
+- Convert the decimal to a fraction over a [[power]] of $10$.
 - Simplify the fraction if possible.
 
 ## Useful links

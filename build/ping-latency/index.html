@@ -3,12 +3,12 @@
 <h1>Ping latency</h1>
 <p>You may have heard of ‘ping’ when playing games, for example. It’s very similar
 to checking the <a href="/latency">latency</a> of a network connection.</p>
-<p>When you ‘ping’ a server, you are sending a small packet of data to the server and then waiting for the server to send a response back to you. The time it takes
-for the packet to go from your computer to the server and back is called the
-‘ping latency’ or just ‘ping’.</p>
+<p>When you ‘ping’ a <a href="/server">server</a>, you are sending a small packet of data to the <a href="/server">server</a> and then waiting for the <a href="/server">server</a> to send a response back to you. The time it takes
+for the packet to go from your computer to the <a href="/server">server</a> and back is called the
+‘ping <a href="/latency">latency</a>’ or just ‘ping’.</p>
 <blockquote>
 <p>Ping is the time between sending a request and receiving a response from the
-server.</p>
+<a href="/server">server</a>.</p>
 </blockquote>
 <h2>Why is it used?</h2>
 <p>When you’re playing a game, or visiting a website, you want things to feel
@@ -18,13 +18,13 @@ websites should, ideally, load instantly when you click on a link.</p>
 <ul>
 <li>Your computer - the <a href="/client">client</a> - sends a <em>request</em> to the
 <a href="/server">server</a>. That has one ‘load’ of
-latency attached to it, which is the time it takes for the request to go from
-your computer to the server.</li>
+<a href="/latency">latency</a> attached to it, which is the time it takes for the request to go from
+your computer to the <a href="/server">server</a>.</li>
 <li>The <a href="/server">server</a> processes the request and sends a <em>response</em> back to
-your computer. That also has a ‘load’ of latency attached to it, which is the
+your computer. That also has a ‘load’ of <a href="/latency">latency</a> attached to it, which is the
 time it takes for the response to get back to the <a href="/client">client</a>.</li>
 </ul>
-<p>The <em>total</em> time it takes for the request to go from the client to the server
+<p>The <em>total</em> time it takes for the request to go from the <a href="/client">client</a> to the <a href="/server">server</a>
 and back is the <strong>ping</strong>!</p>
 <h2>How to check your ping</h2>
 <p>Open up a terminal (or a command prompt) and type this command:</p>
@@ -39,14 +39,14 @@ and back is the <strong>ping</strong>!</p>
 ...
 </code></pre>
 <p>This gives us the time it took for each packet to go from our computer to the
-server and back, which is the ping latency. In my case, it’s about 9ms, which is
+<a href="/server">Server</a> and back, which is the ping <a href="/latency">latency</a>. In my case, it’s about 9ms, which is
 pretty good.</p>
 <h2>Why measure ping?</h2>
-<p>We usually measure the ping instead of the latency of <em>just</em> the request or
+<p>We usually measure the ping instead of the <a href="/latency">latency</a> of <em>just</em> the request or
 <em>just</em> the response, because the ping gives us a better idea of how responsive
 the connection is. If the ping is high, it means that either the request or the
 response is taking a long time, which can make things feel slow and
-unresponsive. You might have a good connection to the server, but if the server
+unresponsive. You might have a good connection to the <a href="/server">server</a>, but if the <a href="/server">server</a>
 is slow to process requests, then the ping will be high, and things will feel
 slow.</p>
 

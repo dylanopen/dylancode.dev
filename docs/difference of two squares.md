@@ -1,6 +1,6 @@
 # Difference of two squares
 
-Whenever we have an expression in the form of:
+Whenever we have an [[expression]] in the form of:
 
 $$
 a^2 - b^2
@@ -12,7 +12,7 @@ $$
 (a - b)(a + b)
 $$
 
-Similarly, if we have an expression in the form of:
+Similarly, if we have an [[expression]] in the form of:
 
 $$
 (a - b)(a + b)

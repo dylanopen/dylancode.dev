@@ -1,6 +1,6 @@
 # Caesar cipher
 
-A *Caesar cipher* is a super simple type of [[cipher]] where we shift the
+A *Caesar [[cipher]]* is a super simple type of [[cipher]] where we shift the
 letters of the alphabet by a certain number of places. For example, if we shift
 by 3, then A becomes D, B becomes E, C becomes F, and so on.
 
@@ -10,7 +10,7 @@ $$
 E(x) = (x + k) \mod 26
 $$
 
-- $E(x)$ is the encryption function, which takes a letter (represented as a
+- $E(x)$ is the [[encryption]] function, which takes a letter (represented as a
   number from 0 to 25) and produces the ciphertext letter.
 - $x$ is the plaintext letter, represented as a number from 0 to 25 (where A=0,
   B=1, ..., Z=25).
@@ -19,7 +19,7 @@ $$
 
 ## Decryption function
 
-To decrypt a message encrypted with a Caesar cipher, we can use this:
+To decrypt a message encrypted with a Caesar [[cipher]], we can use this:
 
 $$
 D(y) = (y - k) \mod 26
@@ -30,7 +30,7 @@ find the plaintext letter.
 
 ## Why is it so easy to crack?
 
-The Caesar cipher isn't used in any real encryption schemas, because it's so
+The Caesar [[cipher]] isn't used in any real [[encryption]] schemas, because it's so
 insecure. The main reasons for that are:
 - There are only 26 possible keys (shifts), so an attacker can easily try all of
   them to see which one produces a readable message.
@@ -63,11 +63,11 @@ So our final encrypted message is "KHOOR".
 
 *You may already be able to see an issue - we can immediately see there is a
 double letter in the 3rd and 4th positions of the word, which may help us crack
-the cipher!*
+the [[cipher]]!*
 
 ### Decrypt the text "KHOOR" with a pad (key) of 3
 
-Obviously, we know what our answer will be, but let's go through the decryption
+Obviously, we know what our answer will be, but let's go through the [[decryption]]
 process to check it works!
 
 With a pad of 3, we can get from the encrypted letter to the plaintext letter by

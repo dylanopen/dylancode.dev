@@ -1,7 +1,7 @@
 # Solving quadratics by factorising
 
-Once a quadratic expression has been factorised, it can be used to solve
-the quadratic equation (when the expression is equal to zero).
+Once a quadratic [[expression]] has been factorised, it can be used to solve
+the quadratic equation (when the [[expression]] is equal to zero).
 
 If the product of two factors is equal to zero, then at least one of the
 factors must be equal to zero. This is called the *zero product property*.

@@ -4,7 +4,7 @@
 
 # Equation
 
-We can write Hooke's law, up until the limit of proportionality, as:
+We can write Hooke's law, up until the [[limit of proportionality]], as:
 
 > $F=k\Delta L$
 

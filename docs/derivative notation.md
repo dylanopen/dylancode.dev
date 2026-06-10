@@ -17,7 +17,7 @@ Notice the apostrophe after the $f$. That indicates the derivative.
 
 ## Writing the derivative of an expression
 
-If we instead have an expression, like $x^2 + 3x + 2$, we can write the
+If we instead have an [[expression]], like $x^2 + 3x + 2$, we can write the
 derivative in a different way:
 
 $$
@@ -49,7 +49,7 @@ $$
 ### Higher-order derivatives of an expression
 
 For expressions, it's a little more that we need to do, but nothing complicated.
-The *second* derivative, for example, of an expression for $y$ with respect to
+The *second* derivative, for example, of an [[expression]] for $y$ with respect to
 $x$ is written as:
 
 $$
@@ -62,9 +62,9 @@ $$
 \frac{d^3y}{dx^3}
 $$
 
-... and again, the pattern repeats (just increase the power for each order of
+... and again, the pattern repeats (just increase the [[power]] for each order of
 derivative).
 
-> Note that, for higher-order derivatives of expressions, we write the power
+> Note that, for higher-order derivatives of expressions, we write the [[power]]
 > after the $d$ (e.g. $d^2y$) in the numerator, and after the $x$ (e.g. $dx^2$)
 > in the denominator. This is just something you need to remember.

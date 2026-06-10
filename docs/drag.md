@@ -7,7 +7,7 @@ The most common example is **air resistance**.
 
 ## Direction of action
 
-Like friction, drag forces act in the *opposite* direction to the motion of an
+Like [[friction]], drag forces act in the *opposite* direction to the motion of an
 object.
 
 ## When does drag occur?
@@ -21,6 +21,6 @@ Moving these particles out of the way 'uses up' some of the energy of the
 object, which causes a force which opposes the motion of the object (e.g. it to
 slow down).
 
-Again, like friction, drag can only *oppose* an *existing* force or motion. It
+Again, like [[friction]], drag can only *oppose* an *existing* force or motion. It
 can't *create* a force or motion on its own - so basically, it can only slow
 down existing motion rather than actually make an object move.

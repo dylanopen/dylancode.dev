@@ -11,7 +11,7 @@ As $\theta$ becomes small:
 
 ## What is a small angle?
 
-A 'small' angle is considered anything under **half a radian**.
+A 'small' angle is considered anything under **half a [[radian]]**.
 
 ## Sine approximation
 

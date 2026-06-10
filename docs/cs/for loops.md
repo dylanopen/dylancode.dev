@@ -6,7 +6,7 @@ You may ask: "why do we need another type of loop? Isn't a while loop enough?"
 The answer is... yes. A while loop can do absolutely everything a for loop can
 do.
 
-So why do we use a for loop? Convenience. You'll grow to like for loops, I 
+So why do we use a for loop? Convenience. You'll grow to like for [[loops]], I 
 promise :)
 
 ## Basic syntax
@@ -37,11 +37,11 @@ start, then run the code in `update` at the end of each loop iteration.
 The second part - the `condition` - is exactly the same as in a while loop.
 
 The fact that the two code snippets above are equivalent is very useful - it
-makes for loops much easier to understand!
+makes for [[loops]] much easier to understand!
 
 ## Our example from before: counting to 5
 
-If you don't remember the code from the while loops chapter, here it is again:
+If you don't remember the code from the [[while loops]] chapter, here it is again:
 
 ```cs
 int count = 1;
@@ -78,7 +78,7 @@ Output:
 
 ## Changing the values of a for loop
 
-With a for loop, you can easily change the *range* of the loop just by changing
+With a for loop, you can easily change the *[[range]]* of the loop just by changing
 the values in the initialization, condition, and update sections.
 
 For example, to count from 0 to 10, you could write:
@@ -113,7 +113,7 @@ for (int count = 5; count >= 1; count--) {
 
 ## Don't know how to use for loops yet? Use while loops!
 
-As I mentioned earlier, for loops are just a while loop dressed up in fancy
+As I mentioned earlier, for [[loops]] are just a while loop dressed up in fancy
 clothes.
 
 You can use a while loop for any task, it's just much *neater* to use a for loop

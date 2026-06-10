@@ -6,7 +6,7 @@ $$
 \vec a \cdot \vec b
 $$
 
-Because of the big dot operator which we use to mean 'scalar product', it is
+Because of the big dot operator which we use to [[mean]] 'scalar product', it is
 also called the *dot product*.
 
 ## Scalar product rule for 2D
@@ -37,7 +37,7 @@ $$
 - $| \vec a |^2 = a_1^2 + a_2^2$
 - $| \vec b | = \sqrt{b_1^2 + b_2^2}$
 - $| \vec b |^2 = b_1^2 + b_2^2$
-- The cosine rule is $\cos C=\frac{a^2 + b^2 - c^2}{2ab}$.
+- The [[cosine rule]] is $\cos C=\frac{a^2 + b^2 - c^2}{2ab}$.
 - $\cos C=\frac{|\vec a|^2 + |\vec b|^2 - |\vec{AB}|^2}{2 |\vec a| |\vec b|}$
 - $\cos C=\frac{(a_1^2 + a_2^2) + (b_1^2 + b_2^2) - ((b_1 - a_1)^2 + (b_2 - a_2)^2)}{2 \sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}$
 - $\cos C=\frac{(a_1^2 + a_2^2) + (b_1^2 + b_2^2) - (b_1^2 - 2a_1b_1 + a_1^2 + b_2^2 - 2a_2b_2 + a_2^2)}{2 \sqrt{a_1^2 + a_2^2} \sqrt{b_1^2 + b_2^2}}$

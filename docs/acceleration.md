@@ -1,6 +1,6 @@
 # Acceleration
 
-> Acceleration is the rate of change of velocity.
+> Acceleration is the rate of change of [[velocity]].
 
 It's basically how quickly something speeds up.
 
@@ -21,7 +21,7 @@ $$
 
 ### The velocity of a car increases from $10ms^{-1}$ to $30ms^{-1}$ in 4s. Calculate its acceleration.
 
-- In this case we need to use the *change in velocity*, $\Delta v$.
+- In this case we need to use the *change in [[velocity]]*, $\Delta v$.
 - $\Delta v=30-10=20$
 - $a=\frac{\Delta v}t$
 - $a=\frac{20}4=5$

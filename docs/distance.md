@@ -7,7 +7,7 @@ It's not in any specific direction, so it's a [[scalar quantity]].
 ## Example
 
 - Let's suppose we walk 1km north, then 2km back.
-- THe total *distance* we travelled is 3km, because that's the length of the
+- The total *distance* we travelled is 3km, because that's the length of the
   path of the journey that we walked.
 
 ## $\text{distance}=\text{speed}\times\text{time}$
@@ -18,7 +18,7 @@ $$
 
 Where:
 - $s$ is the distance, measured in metres, $m$
-- $v$ is the speed, measured in metres per second, $ms^{-1}$ ($m/s$)
+- $v$ is the [[speed]], measured in metres per second, $ms^{-1}$ ($m/s$)
 - $t$ is the time, measured in seconds, $s$
 
 ### A van drives at a speed of $20ms^{-1}$ for 10s. Calculate the distance.

@@ -5,8 +5,8 @@ Nyquist's theorem relates to the [[digital sampling|sampling]] of an
 
 It states that:
 
-> To accurately sample an analogue signal, the sampling rate must be at least
-> twice the highest frequency present in the analogue signal.
+> To accurately sample an [[analogue signal]], the sampling rate must be at least
+> twice the highest frequency present in the [[analogue signal]].
 
 For music and voice audio, the highest frequency is usually around 20,000 Hz
 (20 kHz), which is why CD quality audio has a sample rate of 44,100 samples per

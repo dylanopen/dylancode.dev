@@ -8,11 +8,11 @@
 - RAM
 - Storage (HDD, SSD)
 - Motherboard
-- Power supply
+- [[power]] supply
 - GPU
 - Peripherals (keyboard, mouse, monitor)
 - Monitor
-- Network interface Card (NIC)
+- [[network interface card]] (NIC)
 - Cooling systems (fans, liquid cooling)
 
 ## Running the software

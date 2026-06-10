@@ -4,8 +4,8 @@
 <p>Division in RISC-V is actually… surprisingly simple!</p>
 <p>We just use the <code>div</code> instruction, which performs signed integer division.</p>
 <h2>Syntax</h2>
-<p>If we want to divide the value in register <code>x1</code> by the value in register <code>x2</code>,
-and store the result in register <code>x3</code>, we would write:</p>
+<p>If we want to divide the value in <a href="/register">register</a> <code>x1</code> by the value in <a href="/register">register</a> <code>x2</code>,
+and store the result in <a href="/register">register</a> <code>x3</code>, we would write:</p>
 <pre><code class="language-asm">div x3, x1, x2
 </code></pre>
 <p>For example, our full code may look something like:</p>
@@ -26,7 +26,7 @@ stop:
 <h2>Unsigned division</h2>
 <p>We can do unsigned division using the <code>divu</code> instruction.</p>
 <p>Everything else works exactly the same as <code>div</code>, except that the values in the
-source registers are treated as unsigned integers.</p>
+source registers are treated as unsigned <a href="/integers">integers</a>.</p>
 <p>For example:</p>
 <pre><code class="language-asm">.text
 main:

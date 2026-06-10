@@ -8,9 +8,9 @@
 ## Graph of $y=e^x$
 
 - The graph of $y=e^x$ passes through the point $(0,1)$.
-- The graph of $y=e^x$ increases faster than any other exponential graph
+- The graph of $y=e^x$ increases faster than any other [[exponential graph]]
   $y=a^x$ where $a>1$.
-- The graph of $y=e^x$ decreases slower than any other exponential graph
+- The graph of $y=e^x$ decreases slower than any other [[exponential graph]]
   $y=a^x$ where $0<a<1$.
 - The derivative of $y=e^x$ is equal to $e^x$ itself:
   - $\frac{dy}{dx} e^x = e^x$

@@ -2,9 +2,9 @@
 
 In the same way that multiplying a bracket involving a *surd* by the *conjugate*
 of the bracket will produce a rational number, the same is try for multiplying
-a complex number by the complex conjugate.
+a [[complex number]] by the [[complex conjugate]].
 
-Multiplying a complex number by its conjugate will always result in a real
+Multiplying a [[complex number]] by its conjugate will always result in a real
 number.
 
 ## Proof

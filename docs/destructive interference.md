@@ -1,10 +1,10 @@
 # Destructive interference
 
 When two waves meet which are [[wave phase difference|*in antiphase*]], their
-amplitudes add together to create a wave with a *smaller* amplitude.
+amplitudes add together to create a wave with a *smaller* [[amplitude]].
 
-This is because, at that point, one wave has a positive displacement, while one
-has a negative displacement - so they'll add to make a smaller amplitude.
+This is because, at that point, one wave has a positive [[displacement]], while one
+has a negative [[displacement]] - so they'll add to make a smaller [[amplitude]].
 
 Thsi is called *destructive interference*.
 
@@ -15,4 +15,4 @@ troughs line up exactly with the **peaks**.
 
 When this happens, if the waves are the same, they are in *antiphase* and
 so the trough is the negative of the peak. That means they will add together to
-make an amplitude of *zero* - they cancel out completely.
+make an [[amplitude]] of *zero* - they cancel out completely.

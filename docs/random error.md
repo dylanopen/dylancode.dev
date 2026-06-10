@@ -5,7 +5,7 @@ less accurate.
 
 They can be caused by:
 - Unexpected Environmental changes (e.g. temperature, humidity, vibrations)
-- Limitations of the measuring instrument (e.g. precision limits)
+- Limitations of the measuring instrument (e.g. [[precision]] limits)
 - Human error (e.g. slightly misreading the instrument)
 - Other unpredictable factors
 

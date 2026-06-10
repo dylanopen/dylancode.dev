@@ -776,13 +776,13 @@
     - [[riscv/labels]]
     - [[riscv/jumping]]
 - C programming
-    - Hello world
+    - [[cs/hello world|hello world]]
         - [[c/project setup]]
         - [[c/hello world]]
         - [[c/compiling and running]]
     - [[c/comments]]
     - [[c/variables]]
-    - Data types
+    - [[cs/data types|data types]]
         - [[c/data types]]
         - [[c/integers]]
         - [[c/short]]

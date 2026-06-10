@@ -1,7 +1,7 @@
 # Potential divider
 
-A potential divider consists of an $8.0 \Omega$ resistor, R, in series with a
-$12.0 \Omega$ resistor and a $6.0 V$ power supply.
+A potential divider consists of an $8.0 \Omega$ resistor, R, in [[series]] with a
+$12.0 \Omega$ resistor and a $6.0 V$ [[power]] supply.
 
 Calculate:
 - the current

@@ -6,7 +6,7 @@
 
 ## Capacity
 
-- The capacity of an edge is the *weight* of the edge.
+- The capacity of an edge is the *[[weight]]* of the edge.
 - It can be thought of as the *maximum flow* that can pass through that edge.
 
 ## Cut

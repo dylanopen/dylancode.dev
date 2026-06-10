@@ -45,8 +45,8 @@ These are some important data types that we'll cover in future chapters!
 |-----------|---------------------------------------|------------------------|
 | int       | Integer (whole) numbers               | 1, -5, 42              |
 | float     | Floating-point (decimal) numbers      | 3.14, -0.001, 2.0      |
-| string    | Textual data                          | "hello world", "123"   |
-| bool      | Boolean values (true or false)        | true, false            |
+| string    | Textual data                          | "[[cs/hello world|hello world]]", "123"   |
+| bool      | [[boolean]] values (true or false)        | true, false            |
 | char      | Single character                      | 'a', 'Z', '1'          | 
 | array     | Collection of values of the same type | [1, 2, 3], ["a", "b"]  |
 | object    | Complex data structure                | {name: "Bob", age: 30} |

@@ -21,7 +21,7 @@ We can have zero matrices of any order (dimensions), for example:
 
 ## [[identity matrix|Identity matrix]]
 
-A zero matrix is the identity matrix for *addition*. That's because, if we add a
+A zero matrix is the [[identity matrix]] for *addition*. That's because, if we add a
 zero matrix to any other matrix of the same order, we get that same matrix back.
 
 For example, if we have the matrix $\mathbf{A} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and the zero matrix $\mathbf{0} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$, then:

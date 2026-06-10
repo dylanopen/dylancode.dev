@@ -1,6 +1,6 @@
 # Graph tree
 
-A *tree* is a type of [[graph]] that has the properties of:
+A *tree* is a type of [[graph]] that has the [[properties]] of:
 - [[connected graph|being connected]]
 - having **no** [[graph loop|loops]]
 

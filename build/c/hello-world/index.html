@@ -25,7 +25,7 @@ get the following output printed to the console:</p>
 <p>In our case: why would we write the implementation for printing to the console manually, when the standard library already provides it for us?</p>
 <p>We can import files in C using the <code>#include</code> statement. Interestingly, unlike most other programming languages, this code is <em>identical</em> to if we had written out the code for the <code>stdio</code> library manually. <code>#include &lt;stdio.h&gt;</code> is simply replaced with the code contained in <code>stdio.h</code>, which, in turn, allows us to use its functions.</p>
 <blockquote>
-<p>The <code>#include</code> statement is executed by a program known as the <em>preprocessor</em>. This program is executed <em>before</em> the compiler reads the code, and it is the first step towards turning source code into machine code. <em>All statements in C which start with a <code>#</code> are preprocessor <strong>directives</strong></em>.</p>
+<p>The <code>#include</code> statement is executed by a program known as the <em>preprocessor</em>. This program is executed <em>before</em> the <a href="/compiler">compiler</a> reads the code, and it is the first step towards turning <a href="/source-code">source code</a> into machine code. <em>All statements in C which start with a <code>#</code> are preprocessor <strong>directives</strong></em>.</p>
 </blockquote>
 <h3>The difference between <code>#include &lt;file.h&gt;</code> and <code>#include "file.h"</code></h3>
 <p>When you’re looking at C tutorials, you might find that in some cases, angle brackets are used around the file included, while other times, quotes (speech marks) are used instead. What’s the difference?</p>
@@ -52,7 +52,7 @@ multiple times.</p>
 executed (run).</p>
 <h3>What’s special about <code>main</code>?</h3>
 <p>The <code>main</code> function is a little different. Instead of being something that we
-call, it is instead automatically run by the operating system when we start our
+call, it is instead automatically run by the <a href="/operating-system">operating system</a> when we start our
 program.</p>
 <p>We call it the <em>entrypoint</em> to our program. Interestingly, it is both where the
 program starts and where the program ends.</p>
@@ -61,7 +61,7 @@ program starts and where the program ends.</p>
 name, we have a return type. This tells C what value our function will <em>send
 back</em> to the caller.</p>
 <p>In the case of the <code>main</code> function, we return an integer, because we need to
-return a status code to the operating system (in order to tell it whether the
+return a status code to the <a href="/operating-system">operating system</a> (in order to tell it whether the
 program was successful or not).</p>
 <p>The standard type for an integer in C is <code>int</code>, so we return an <code>int</code> and
 therefore our function <strong>signature</strong> is <code>int main(...)</code>.</p>
@@ -81,7 +81,7 @@ command line arguments that were passed to the program.</p>
 things depending on the arguments that were passed to the program.</p>
 <p><code>argv</code> has a slightly strange type. It is <code>char* argv[]</code>, which means a
 <em>pointer</em> to the start of an array, and this array contains other arrays of
-<code>char</code>s. An array of chars is a <code>string</code>, so essentially, <code>argv</code> is an array
+<code>char</code>s. An array of <a href="/chars">chars</a> is a <code>string</code>, so essentially, <code>argv</code> is an array
 of strings.</p>
 <blockquote>
 <p>We’ll learn <em>why</em> C needs to take the length of the <code>argv</code> array as a seperate
@@ -94,7 +94,7 @@ in a later chapter.</p>
 with this signature:</p>
 <pre><code class="language-c">int main(int argc, char* argv[])
 </code></pre>
-<p>… we need a way of telling the C compiler what code is part of a function
+<p>… we need a way of telling the C <a href="/compiler">compiler</a> what code is part of a function
 body. For this, we use braces <code>{}</code>.</p>
 <p>Consider the following code:</p>
 <pre><code class="language-c">int randomFunction() {
@@ -124,19 +124,19 @@ will get this output:</p>
 <pre><code>Hello, World!
 </code></pre>
 <p><code>printf</code> can also take other arguments and use a <strong>format string</strong> - this allows
-us to print out the value of variables and other non-constant data. We’ll get to
+us to print out the value of <a href="/cs/variables">variables</a> and other non-constant data. We’ll get to
 that in another chapter!</p>
 <h2>Statement termination</h2>
 <p>Every <em>statement</em> (essentially, a line of code that does something) in C must be
 terminated with a semicolon (<code>;</code>).</p>
 <p>That basically means that we need to put a semicolon at the end of every line of
-code, in order to tell the C compiler that the statement is finished.</p>
+code, in order to tell the C <a href="/compiler">compiler</a> that the statement is finished.</p>
 <h2>The <code>return</code> statement</h2>
 <p>Finally, we have this line:</p>
 <pre><code class="language-c">return 0;
 </code></pre>
-<p>All programs can return a value to the operating system known as the <strong>exit
-code</strong>. This exit code tells the operating system whether the program completed
+<p>All programs can return a value to the <a href="/operating-system">operating system</a> known as the <strong>exit
+code</strong>. This exit code tells the <a href="/operating-system">operating system</a> whether the program completed
 successfully or not.</p>
 <p>In our case, our program completed successfully (probably!) so we can return <code>0</code>
 - the exit code for a successful program execution.</p>

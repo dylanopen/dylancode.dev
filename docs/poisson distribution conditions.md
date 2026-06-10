@@ -4,4 +4,4 @@ Just like how there are [[binomial distribution conditions]], there are also con
 
 - The events are completely [[independent events|independent]] of each other.
 - The events occur one at a time.
-- The average number of events in a fixed interval of time or space is known (mean is constant).
+- The average number of events in a fixed interval of time or space is known ([[mean]] is constant).

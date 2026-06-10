@@ -10,9 +10,9 @@ directions.
 > \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
 > $$
 
-- $a$ is the distance from the centre to the edge of the ellipse in the x
+- $a$ is the [[distance]] from the centre to the edge of the ellipse in the x
   direction (half the width).
-- $b$ is the distance from the centre to the edge of the ellipse in the y
+- $b$ is the [[distance]] from the centre to the edge of the ellipse in the y
   direction (half the height).
 
 We can also define $a$ and $b$ as:

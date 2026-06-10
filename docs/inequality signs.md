@@ -18,8 +18,8 @@ This means that $3$ is less than $5$.
 
 ## Greater than
 
-The $>$ symbol means that the value/expression on the left is **greater than**
-the value/expression on the right.
+The $>$ symbol means that the value/[[expression]] on the left is **greater than**
+the value/[[expression]] on the right.
 
 ### Example: $y > 2$
 
@@ -27,8 +27,8 @@ This means that $y$ is greater than $2$.
 
 ## Less than or equal to
 
-The $\leq$ symbol means that the value/expression on the left is **less than or
-equal to** the value/expression on the right.
+The $\leq$ symbol means that the value/[[expression]] on the left is **less than or
+equal to** the value/[[expression]] on the right.
 
 ### Example: $a \leq 10$
 
@@ -36,8 +36,8 @@ This means that $a$ is either less than $10$ or equal to $10$.
 
 ## Greater than or equal to
 
-The $\geq$ symbol means that the value/expression on the left is **greater than
-or equal to** the value/expression on the right.
+The $\geq$ symbol means that the value/[[expression]] on the left is **greater than
+or equal to** the value/[[expression]] on the right.
 
 ### Example: $b \geq 7$
 

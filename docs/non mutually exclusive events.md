@@ -4,7 +4,7 @@ If two events are *not* mutually exclusive, it means that it *is* possible for
 them both to happen.
 
 Pretty self-explanatory: they're the opposite of [[
-/mutually exclusive events|mutually exclusive events]]
+/[[mutually exclusive events]]|[[mutually exclusive events]]]]
 
 ## Venn diagram
 

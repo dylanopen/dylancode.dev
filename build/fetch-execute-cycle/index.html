@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Fetch-execute cycle</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Fetch-execute cycle</h1>
-<p>The fetch-execute cycle (or fetch-decode-execute cycle) is the way that a processor executes a program’s instructions.</p>
+<p>The fetch-execute cycle (or fetch-decode-execute cycle) is the way that a <a href="/processor">processor</a> executes a program’s instructions.</p>
 <p>The cycle has three main stages:</p>
 <ol>
 <li>Fetch data from memory</li>
@@ -11,27 +11,27 @@
 <h2>Fetch</h2>
 <ul>
 <li>The first thing it does is to actually <em>read the instruction</em> it needs to execute.</li>
-<li>It does this by copying the <em>program counter</em> (which stores the current memory address of the next instruction) into the <em>memory address register</em> (MAR), which is used to access memory.</li>
+<li>It does this by copying the <em><a href="/program-counter">Program counter</a></em> (which stores the current <a href="/memory-address">memory address</a> of the next instruction) into the <em><a href="/memory-address">Memory address</a> <a href="/register">register</a></em> (MAR), which is used to access memory.</li>
 <li>Then, it copies that address onto the <a href="/address-bus">address bus</a>, which it then carries to the <a href="/main-memory">main memory</a>.</li>
-<li>The memory then returns the instruction stored at that address, which is copied into the <em>memory buffer register</em> (MBR).</li>
-<li>Finally, the instruction is copied from the MBR into the <em>current instruction register</em> (CIR), which is where the processor holds the instruction it’s currently executing.</li>
-<li>The processor also increments the program counter, so that it points to the next instruction for the next cycle.</li>
+<li>The memory then returns the instruction stored at that address, which is copied into the <em><a href="/memory-buffer-register">Memory buffer register</a></em> (MBR).</li>
+<li>Finally, the instruction is copied from the MBR into the <em><a href="/current-instruction-register">Current instruction register</a></em> (CIR), which is where the <a href="/processor">processor</a> holds the instruction it’s currently executing.</li>
+<li>The <a href="/processor">processor</a> also increments the <a href="/program-counter">program counter</a>, so that it points to the next instruction for the next cycle.</li>
 </ul>
 <h2>Decode</h2>
 <ul>
-<li>Sure, the processor now has the raw instruction in its CIR, but how does it know what to do with it? The instruction needs to be <em>decoded</em>.</li>
+<li>Sure, the <a href="/processor">processor</a> now has the raw instruction in its CIR, but how does it know what to do with it? The instruction needs to be <em>decoded</em>.</li>
 <li>Decoding the instruction means that we take the raw instruction and figure out what operation it represents, and what data it needs to operate on.</li>
-<li>For example, we may look at an ADD instruction and decode it to mean “add the values in registers A and B, and store the result in register C”.</li>
+<li>For example, we may look at an ADD instruction and decode it to <a href="/mean">mean</a> “add the values in registers A and B, and store the result in <a href="/register">register</a> C”.</li>
 </ul>
 <h2>Execute</h2>
 <ul>
-<li>Once the instruction has been decoded, the processor can execute it.</li>
-<li>THat usually means sending signals to the parts of the processor (or the rest of the computer) that need to be involved in carrying out the instruction.</li>
-<li>For example, if the instruction is an ADD instruction, the processor would send signals to the <a href="/arithmetic-logic-unit">arithmetic logic unit</a> (ALU) to perform the addition, and then send signals to the registers to store the result.</li>
+<li>Once the instruction has been decoded, the <a href="/processor">processor</a> can execute it.</li>
+<li>THat usually means sending signals to the parts of the <a href="/processor">processor</a> (or the rest of the computer) that need to be involved in carrying out the instruction.</li>
+<li>For example, if the instruction is an ADD instruction, the <a href="/processor">processor</a> would send signals to the <a href="/arithmetic-logic-unit">arithmetic logic unit</a> (ALU) to perform the addition, and then send signals to the registers to store the result.</li>
 <li>Often, it involves fetching or writing data to memory.</li>
 </ul>
 <h2>How frequently does this happen?</h2>
-<p>Processors have a <a href="/processor-clock">clock</a> that ticks at a certain frequency (measured in hertz). Each tick of the clock represents one cycle, and during each cycle, the processor can carry out one fetch-decode-execute cycle. So, if a processor has a clock speed of 3 GHz, it can carry out 3 billion fetch-decode-execute cycles per second!</p>
+<p>Processors have a <a href="/processor-clock">clock</a> that ticks at a certain frequency (measured in hertz). Each tick of the clock represents one cycle, and during each cycle, the <a href="/processor">processor</a> can carry out one fetch-decode-execute cycle. So, if a <a href="/processor">processor</a> has a <a href="/clock-speed">clock speed</a> of 3 GHz, it can carry out 3 billion fetch-decode-execute cycles per second!</p>
 <p>Look at the <a href="/clock-speed">clock speed</a> to see how quickly it does the fetch-execute cycle.</p>
 
 

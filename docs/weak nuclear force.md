@@ -6,6 +6,6 @@ The *weak nuclear force* is one of the [[particle forces]].
 
 ## Range
 
-- The weak nuclear [[force]] has the *shortest range* of all the [[particle forces]].
-- Its range is about $1\times10^{18}\,m$.
+- The weak nuclear [[force]] has the *shortest [[range]]* of all the [[particle forces]].
+- Its [[range]] is about $1\times10^{18}\,m$.
 

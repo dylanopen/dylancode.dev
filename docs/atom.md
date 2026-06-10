@@ -14,12 +14,12 @@ Atoms are made up of 3 types of *subatomic* particles (the things inside the
 atom itself):
 - [[proton|proton]] - positively charged particles found in the [[nucleus]]
 - [[neutron]] - neutral particles found in the [[nucleus]]
-- [[electron]] - negatively charged particles which orbit the nucleus
+- [[electron]] - negatively charged particles which orbit the [[nucleus]]
 
 ## Models of the atom
 
 There are lots of different ways we can model the atom.
 
 The one that is most commonly used today is the *Bohr model*, which shows a
-small nucleus made up of protons and neutrons, with electrons orbiting around it
+small [[nucleus]] made up of protons and neutrons, with electrons orbiting around it
 in their own *energy levels* (called *shells*).

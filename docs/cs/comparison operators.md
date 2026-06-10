@@ -2,10 +2,10 @@
 
 A *comparison operator* is an operator which usually compares two values.
 
-It then gives a *boolean* result, which we can use to make decisions in our code
-(e.g. in if statements or loops).
+It then gives a *[[boolean]]* result, which we can use to make decisions in our code
+(e.g. in [[if statements]] or [[loops]]).
 
-> The key thing is that they **evaluate to a boolean value** (true or false).
+> The key thing is that they **evaluate to a [[boolean]] value** (true or false).
 
 ## Cheatsheet
 

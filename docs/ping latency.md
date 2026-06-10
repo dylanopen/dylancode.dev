@@ -3,12 +3,12 @@
 You may have heard of 'ping' when playing games, for example. It's very similar
 to checking the [[latency]] of a network connection.
 
-When you 'ping' a server, you are sending a small packet of data to the server and then waiting for the server to send a response back to you. The time it takes
-for the packet to go from your computer to the server and back is called the 
-'ping latency' or just 'ping'.
+When you 'ping' a [[server]], you are sending a small packet of data to the [[server]] and then waiting for the [[server]] to send a response back to you. The time it takes
+for the packet to go from your computer to the [[server]] and back is called the 
+'ping [[latency]]' or just 'ping'.
 
 > Ping is the time between sending a request and receiving a response from the
-> server.
+> [[server]].
 
 ## Why is it used?
 
@@ -19,13 +19,13 @@ websites should, ideally, load instantly when you click on a link.
 When either of those happen, what needs to happen is:
 - Your computer - the [[client]] - sends a *request* to the
   [[server]]. That has one 'load' of
-  latency attached to it, which is the time it takes for the request to go from
-  your computer to the server.
+  [[latency]] attached to it, which is the time it takes for the request to go from
+  your computer to the [[server]].
 - The [[server]] processes the request and sends a *response* back to
-  your computer. That also has a 'load' of latency attached to it, which is the
+  your computer. That also has a 'load' of [[latency]] attached to it, which is the
   time it takes for the response to get back to the [[client]].
 
-The *total* time it takes for the request to go from the client to the server
+The *total* time it takes for the request to go from the [[client]] to the [[server]]
 and back is the **ping**!
 
 ## How to check your ping
@@ -48,15 +48,15 @@ PING dylancode.dev (172.67.152.137) 56(84) bytes of data.
 ```
 
 This gives us the time it took for each packet to go from our computer to the
-server and back, which is the ping latency. In my case, it's about 9ms, which is
+[[server]] and back, which is the ping [[latency]]. In my case, it's about 9ms, which is
 pretty good.
 
 ## Why measure ping?
 
-We usually measure the ping instead of the latency of *just* the request or
+We usually measure the ping instead of the [[latency]] of *just* the request or
 *just* the response, because the ping gives us a better idea of how responsive
 the connection is. If the ping is high, it means that either the request or the
 response is taking a long time, which can make things feel slow and
-unresponsive. You might have a good connection to the server, but if the server
+unresponsive. You might have a good connection to the [[server]], but if the [[server]]
 is slow to process requests, then the ping will be high, and things will feel
 slow.

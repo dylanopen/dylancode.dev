@@ -7,7 +7,7 @@ If $w=x+yi$, then the conjugate of $w$ is $x-yi$.
 
 ## Representing the complex conjugate
 
-The complex conjugate of a complex number, $z$, is represented by $z^*$.
+The complex conjugate of a [[complex number]], $z$, is represented by $z^*$.
 
 ## Examples of complex conjugates
 
@@ -17,8 +17,8 @@ The complex conjugate of a complex number, $z$, is represented by $z^*$.
 
 ## Complex roots
 
-Complex roots come in conjugate pairs. This means that, if a complex number is
-a root of an equation, then the conjugate of that complex number is also a root.
+Complex roots come in conjugate pairs. This means that, if a [[complex number]] is
+a root of an equation, then the conjugate of that [[complex number]] is also a root.
 
 ### Given that $5+4i$ is a root of an equation, find another root
 

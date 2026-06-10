@@ -3,7 +3,7 @@
 There's a special case of exponential functions, where we use a base of $e$.
 
 You can find more about $e$ in the [[euler number|euler's number]] topic. It's
-a number with some special properties, and it's about $2.71828$.
+a number with some special [[properties]], and it's about $2.71828$.
 
 ## Reciprocal exponentials
 

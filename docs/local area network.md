@@ -22,7 +22,7 @@ It can do things like:
 - Store files and data for the devices on the network to access
 - Manage user accounts and permissions for the devices on the network
 - Provide security and other protections for the devices on the network
-- make sure the computers are up to date with the latest version of software
+- make sure the computers are up to date with the latest version of [[software]]
   (which is important for security and performance) 
 - Keep backups of important data, so that if something goes wrong, the data can
   be restored easily from one central location.

@@ -21,8 +21,8 @@ If $\frac{dy}{dx} = 0$ at some point $x = a$, then we can use the second
 derivative to find the *type* of stationary point:
 - If $\frac{d^2y}{dx^2} > 0$, the point is a local **minimum**.
 - If $\frac{d^2y}{dx^2} < 0$, the point is a local **maximum**.
-- If $\frac{d^2y}{dx^2} = 0$, it *could* be a point of inflection, *but may not
-  be*. We can't say for sure what type of stationary point it is.
+- If $\frac{d^2y}{dx^2} = 0$, it *could* be a [[point of inflection]], *but may not
+  be*. We can't say for sure what type of [[stationary point]] it is.
 
 ### Example: find the stationary points of $y=x^3-3x^2+4$
 
@@ -32,6 +32,6 @@ derivative to find the *type* of stationary point:
   - $3x(x - 2) = 0$
   - $x = 0$ or $x = 2$
 - Substitute back to find y-coordinates:
-  - At $x = 0$: $y = 0^3 - 3(0)^2 + 4 = 4$ → Stationary point at (0, 4)
-  - At $x = 2$: $y = 2^3 - 3(2)^2 + 4 = 8 - 12 + 4 = 0$ → Stationary point at (2, 0)
+  - At $x = 0$: $y = 0^3 - 3(0)^2 + 4 = 4$ → [[stationary point]] at (0, 4)
+  - At $x = 2$: $y = 2^3 - 3(2)^2 + 4 = 8 - 12 + 4 = 0$ → [[stationary point]] at (2, 0)
 Answer: $(0, 4)$ and $(2, 0)$

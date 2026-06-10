@@ -6,8 +6,8 @@ We just use the `div` instruction, which performs signed integer division.
 
 ## Syntax
 
-If we want to divide the value in register `x1` by the value in register `x2`,
-and store the result in register `x3`, we would write:
+If we want to divide the value in [[register]] `x1` by the value in [[register]] `x2`,
+and store the result in [[register]] `x3`, we would write:
 
 ```asm
 div x3, x1, x2
@@ -40,7 +40,7 @@ x3 = -5
 We can do unsigned division using the `divu` instruction.
 
 Everything else works exactly the same as `div`, except that the values in the
-source registers are treated as unsigned integers.
+source registers are treated as unsigned [[integers]].
 
 For example:
 

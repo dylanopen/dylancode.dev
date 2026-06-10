@@ -4,7 +4,7 @@ You may be sitting there thinking "I know how to find the equation of a straight
 line! It's just $y = mx + c$ right?"
 
 You would be right. But actually, there's more than one way to express the
-equation of a straight line, depending on what information you have about the
+[[equation of a straight line]], depending on what information you have about the
 line - sometimes, another form is easier to use.
 
 ## $y = mx + c$
@@ -72,7 +72,7 @@ The values in the equation represent:
 
 ## Finding the gradient from two points
 
-There isn't an explicit formula for finding the equation of a straight line from
+There isn't an explicit formula for [[finding the equation of a straight line]] from
 two points.
 
 Technically, there could be. In fact, why don't I make one up now?  

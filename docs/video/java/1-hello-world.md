@@ -87,6 +87,6 @@ Hello, world!
 ## Next steps
 
 + How the code works
-+ Understanding bytecode and the Java compiler
++ Understanding [[bytecode]] and the Java [[compiler]]
 + Creating a project using an IDE (IntelliJ)
 + 

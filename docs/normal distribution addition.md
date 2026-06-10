@@ -1,9 +1,9 @@
 # Normal distribution addition
 
-If we add together two [[normal distribution]]s (they can be multiples) and an optional constant, the result will also follow a normal distribution. That's because the normal distribution is a [[scalable distribution]].
+If we add together two [[normal distribution]]s (they can be multiples) and an optional constant, the result will also follow a [[normal distribution]]. That's because the [[normal distribution]] is a [[scalable distribution]].
 
 > $Z=aX+bY+c$
-> - $X$, $Y$ and $Z$ are [[independent events|independent]] and [[random variable]]s following a normal distribution
+> - $X$, $Y$ and $Z$ are [[independent events|independent]] and [[random variable]]s following a [[normal distribution]]
 > - $a$, $b$ and $c$ are constants.
 
 See [[continuous random expectation transformation]] and [[continuous random variance transformation]] for how to find $aX$ and $bY$.

@@ -2,7 +2,7 @@
 
 > Addressable memory is a way we can lay out the memory in a computer so that we can access it using [[memory address]]es. Each piece of data or instruction is stored at a specific address in memory, and we can use that address to read or write data.
 
-For example, if we have a memory with 8 bytes, we can label each byte with an address, like this:
+For example, if we have a memory with 8 bytes, we can label each [[byte]] with an address, like this:
 
 | Address | Data |
 | ------- | ---- |
@@ -24,10 +24,10 @@ The [[operating system]] is responsible for managing this. It creates separate m
 
 ## Memory addresses
 
-A memory address is just the number we give to represent a location in memory. It's like a label that we can use to refer to a specific byte or group of bytes in memory.
+A [[memory address]] is just the number we give to represent a location in memory. It's like a label that we can use to refer to a specific [[byte]] or group of bytes in memory.
 
 ## Address size
 
 Based on the size of the [[address bus]], we can determine how many unique memory addresses we can have.
 
-For example, if we have a 32-bit address bus, we can have 2^32 unique addresses, which means we can address up to 4 GB of memory. If we have a 64-bit address bus, we can have 2^64 unique addresses, which means we can address up to 16 exabytes of memory (which is probably enough for a while). 
+For example, if we have a 32-[[bit]] [[address bus]], we can have 2^32 unique addresses, which means we can address up to 4 GB of memory. If we have a 64-[[bit]] [[address bus]], we can have 2^64 unique addresses, which means we can address up to 16 exabytes of memory (which is probably enough for a while). 

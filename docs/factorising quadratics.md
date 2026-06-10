@@ -2,7 +2,7 @@
 
 ## Factorising where $a=1$
 
-It is possible to *factorise* a quadratic expression, such as $x^2+3x+2$, into
+It is possible to *factorise* a quadratic [[expression]], such as $x^2+3x+2$, into
 a *factorised form**, such as $(x+2)(x+1)$.
 
 For a simple quadratic where $a$ (the coefficient of $x^2$) is $1$, we find two

@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Setting registers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Setting registers</h1>
-<p>RISC-V has an <code>li</code> instruction, short for ‘load immediate’.</p>
-<p>It essentially writes a constant value to a register, for example, sets the
-value of the <code>x5</code> register to <code>42</code>.</p>
+<p>RISC-V has an <code>li</code> instruction, <a href="/short">short</a> for ‘load immediate’.</p>
+<p>It essentially writes a constant value to a <a href="/register">register</a>, for example, sets the
+value of the <code>x5</code> <a href="/register">register</a> to <code>42</code>.</p>
 <h2>Syntax</h2>
 <p>We can use the <code>li</code> instruction like this:</p>
 <pre><code class="language-asm">li &lt;register&gt;, &lt;immediate value&gt;
@@ -11,18 +11,18 @@ value of the <code>x5</code> register to <code>42</code>.</p>
 <p><code>&lt;register&gt;</code> needs to be a valid register name, and <code>&lt;immediate value&gt;</code> needs to
 be a valid immediate value (a constant integer).</p>
 <h2>Example</h2>
-<p>If we wanted to load the value <code>42</code> into register <code>x5</code>, we would write:</p>
+<p>If we wanted to load the value <code>42</code> into <a href="/register">register</a> <code>x5</code>, we would write:</p>
 <pre><code class="language-asm">li x5, 42
 </code></pre>
 <p>Now, the value of <code>x5</code> is <code>42</code> - you can see this by using a simulator like
 <a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=">Creatorsim</a>.</p>
 <h2>Pseudo-instruction</h2>
 <p><code>li</code> isn’t actually an instruction! It’s what’s called a <em>pseudo-instruction</em>.</p>
-<p>Basically, when the assembler sees <code>li</code>, it translates it into a different
+<p>Basically, when the <a href="/assembler">assembler</a> sees <code>li</code>, it translates it into a different
 instruction (or multiple instructions) that actually do the work of loading the
-immediate value into the register.</p>
-<p>For small immediate values (like <code>42</code>), the assembler translates <code>li</code> into an
-<code>addi</code> instruction that adds the immediate value to the zero register (<code>x0</code>),
+immediate value into the <a href="/register">register</a>.</p>
+<p>For small immediate values (like <code>42</code>), the <a href="/assembler">assembler</a> translates <code>li</code> into an
+<code>addi</code> instruction that adds the immediate value to the zero <a href="/register">register</a> (<code>x0</code>),
 which always contains <code>0</code>:</p>
 <pre><code class="language-asm">addi x5, x0, 42
 </code></pre>
@@ -41,7 +41,7 @@ stop:
     ecall         # Make the system call to exit the program
 </code></pre>
 <p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x5%2C%2042%20%20%23%20Load%20the%20value%2042%20into%20register%20x5%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%20%20%20%23%20Load%20the%20exit%20system%20call%20number%20into%20register%20a7%0A%20%20%20%20ecall%20%20%20%20%20%23%20Make%20the%20system%20call%20to%20exit%20the%20program">Run on creatorsim</a></p>
-<p>If you run this program, you will see that the register <code>x5</code> contains the value
+<p>If you run this program, you will see that the <a href="/register">register</a> <code>x5</code> contains the value
 <code>42</code>, and the program exits cleanly!</p>
 
 

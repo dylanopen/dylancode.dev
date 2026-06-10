@@ -1,9 +1,9 @@
 # Continue statements
 
-A *continue statement* is used inside loops to skip the current iteration and
+A *continue statement* is used inside [[loops]] to skip the current iteration and
 move on to the next one.
 
-In short, when a `continue` statement is encountered inside a loop, the
+In [[short]], when a `continue` statement is encountered inside a loop, the
 loop skips back to the beginning of the loop for the next iteration, bypassing
 any code that's left below to run.
 

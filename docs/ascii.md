@@ -2,7 +2,7 @@
 
 ASCII is one specific [[text encoding]] scheme.
 
-It was one of the first text encoding schemes that came about.
+It was one of the first [[text encoding]] schemes that came about.
 
 ## How many bits?
 

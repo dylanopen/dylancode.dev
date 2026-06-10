@@ -31,21 +31,21 @@ short myShort = 25565;
 ## When to use shorts
 
 YOu should use a short when you need to save memory and you're sure the values
-you'll be working with will fit within the range of a short (-32,768 to 32,767).
+you'll be working with will fit within the [[range]] of a short (-32,768 to 32,767).
 
 Some good examples of when to use shorts include:
 - Storing small counts, like the number of items in a list that won't exceed
   32,767.
 - Representing things like *ports* which use exactly 16 bits.
 - When working with large arrays of numbers where memory usage is a concern and
-  the values fit within the short range.
+  the values fit within the short [[range]].
 
 However, if you need to work with larger numbers, or if you're unsure about the
-range of values, it's safer to use a regular `int` instead (or even a `long`).
+[[range]] of values, it's safer to use a regular `int` instead (or even a `long`).
 
 ## Integer constants with shorts
 
-Just like with regular integers, we can use integer constants with shorts. For
+Just like with regular [[integers]], we can use integer constants with shorts. For
 example:
 
 ```c
@@ -55,9 +55,9 @@ short c = a + b; // c will be -17655
 ```
 
 *As long as* the constant is being assigned to a short variable or passed to
-a function which expects a short, the compiler will handle it correctly.
+a function which expects a short, the [[compiler]] will handle it correctly.
 
-However, be careful not to assign a value that exceeds the range of a short,
+However, be careful not to assign a value that exceeds the [[range]] of a short,
 like this:
 
 ```c

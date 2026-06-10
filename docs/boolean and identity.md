@@ -19,5 +19,5 @@ again:
 Knowing this identity can help us simplify expressions. Whenever we see 
 something ANDed with $1$, we can just remove the $1$ and keep the other value.
 
-For example, if we have the expression $A \cdot 1$, we can simplify it to just
+For example, if we have the [[expression]] $A \cdot 1$, we can simplify it to just
 $A$.

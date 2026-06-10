@@ -1,6 +1,6 @@
 # Probability distribution function
 
-We can represent the [[probability]] of each possible value of a [[discrete random variable]] using something similar to a [[probability density function]] (which we use all the time for [[continuous variable]]s, but can also use for discrete random variables).
+We can represent the [[probability]] of each possible value of a [[discrete random variable]] using something similar to a [[probability density function]] (which we use all the time for [[continuous variable]]s, but can also use for discrete random [[cs/variables|variables]]).
 
 We call it a probability distribution function.
 

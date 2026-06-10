@@ -1,10 +1,10 @@
 # Inverse proportion
 
-If two variables are inversely proportional to each other, it means that if
-one of the variables *doubles*, for example, the other variable will be
+If two [[cs/variables|variables]] are inversely proportional to each other, it means that if
+one of the [[cs/variables|variables]] *doubles*, for example, the other variable will be
 *halved*.
 
-In other words, the ***product*** of the two variables remains
+In other words, the ***product*** of the two [[cs/variables|variables]] remains
 **constant**.
 
 Importantly, if $x$ is inversely proportional to $y$, then $y$ is also
@@ -50,7 +50,7 @@ proportion.
 
 ## Finding the constant of proportionality
 
-In a question, you will likely be given a pair of values for the two variables
+In a question, you will likely be given a pair of values for the two [[cs/variables|variables]]
 that are inversely proportional to each other. You can use these values to
 find the constant of proportionality - just by substituting them into the
 equation $y = \frac{k}{x}$, if $y$ is inversely proportional to $x$.

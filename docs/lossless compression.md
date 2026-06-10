@@ -39,11 +39,11 @@ The main two ways that we can losslessly compress a file are:
 
 ## Drawbacks of lossless compression
 
-- It often uses a lot of CPU power to compress and decompress the file, which can
+- It often uses a lot of CPU [[power]] to compress and decompress the file, which can
   make it slow to work with (think if you've ever tried to extract a large zip /
   gzipped-tarball file - it can take a long time).
-- It doesn't reduce the file size as much as lossy compression, so it may not save
+- It doesn't reduce the file size as much as [[lossy compression]], so it may not save
   as much storage space or make it as fast to transfer over the internet.
   - If we don't need the original file, and we just want a smaller file to save space or
-    transfer over the internet, lossy compression may be a better choice, as it can
+    transfer over the internet, [[lossy compression]] may be a better choice, as it can
     reduce the file size much more than lossless compression.

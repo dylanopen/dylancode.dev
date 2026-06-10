@@ -6,7 +6,7 @@ vertices. In other words, a cycle is a closed loop in the graph.
 
 - The length of a cycle is the number of edges it contains.
 
-> In short, a cycle is a closed loop that doesn't visit any vertex twice
+> In [[short]], a cycle is a closed loop that doesn't visit any vertex twice
   (except the one it starts/ends at).
 
 ## Visiting vertices and edges

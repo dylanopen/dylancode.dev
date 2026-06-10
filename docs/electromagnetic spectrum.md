@@ -41,5 +41,5 @@ Each type of wave has different uses. Some examples:
 Electromagnetic waves travel at the [[speed of light]] - which
 is about $3.00 \times 10^8$ meters per second in a vacuum.
 
-This means that all EM waves, no matteer their wavelength / type, travel at the
-same speed in the same medium.
+This means that all EM waves, no matteer their [[wavelength]] / type, travel at the
+same [[speed]] in the same medium.

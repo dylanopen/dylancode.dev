@@ -1,13 +1,13 @@
 # Velocity-time graph
 
-- A *velocity-time graph* is a graph which shows:
+- A *[[velocity]]-time graph* is a graph which shows:
   - the [[velocity]] of an object on the y-axis
   - the [[time]] on the x-axis.
 - They tell us how fast an object is moving, and in which direction, over a period of time.
 
 ## Finding the displacement
 
-The displacement from one point in time to another point in time is the *area under the graph* between those times.
+The [[displacement]] from one point in time to another point in time is the *area under the graph* between those times.
 
 We can find the area under a graph using either [[integration formula|integration]]
 if we know the equation of the graph,
@@ -16,13 +16,13 @@ that way.
 
 ## Finding the velocity at a specific time
 
-The velocity at a specific time is the value of the graph at that time.
+The [[velocity]] at a specific time is the value of the graph at that time.
 
 We can find this by reading off the graph at that time, just like we would with a [[distance time graph|distance-time graph]] or a [[displacement time graph|displacement-time graph]].
 
 ## Finding the acceleration
 
-The acceleration at a specific time is the *gradient* of the graph at that time.
+The [[acceleration]] at a specific time is the *gradient* of the graph at that time.
 
 We can find the gradient by drawing a tangent to the curve at that point, and then finding the gradient of that tangent.
 
@@ -30,7 +30,7 @@ Or, we can just find the [[differentiation|derivative]] if we know an equation f
 
 ## Finding the average acceleration
 
-The average acceleration between two points in time is the change in velocity divided by the change in time.
+The average [[acceleration]] between two points in time is the change in [[velocity]] divided by the change in time.
 
-We can find this by finding the velocity at each of those times, and then using the normal [[acceleration|acceleration formula]] to find the average
-acceleration.
+We can find this by finding the [[velocity]] at each of those times, and then using the normal [[acceleration|acceleration formula]] to find the average
+[[acceleration]].

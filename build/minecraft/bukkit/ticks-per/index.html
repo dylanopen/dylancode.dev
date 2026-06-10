@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ticks-per</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>ticks-per</h1>
-<p>The default <code>ticks-per</code> settings are found in the <code>bukkit.yml</code> file and look
+<p>The default <code>ticks-per</code> settings are found in the <code>[bukkit](/bukkit).yml</code> file and look
 like this:</p>
 <pre><code class="language-yaml">ticks-per:
   animal-spawns: 400
@@ -14,7 +14,7 @@ like this:</p>
   autosave: 6000
 </code></pre>
 <h2>Recommended starting values</h2>
-<p>If you run a small server with just a few friends, thes values should
+<p>If you run a small <a href="/server">server</a> with just a few friends, thes values should
 work fine for a vanilla-like experience:</p>
 <pre><code class="language-yaml">ticks-per:
   animal-spawns: 400
@@ -50,16 +50,16 @@ performance without sacrificing too much gameplay:</p>
   autosave: 6000
 </code></pre>
 <p>Of course, this comes with the issue of far slower mob farm rates. Adapt it to
-your specific server needs.</p>
+your specific <a href="/server">server</a> needs.</p>
 <h2>What is the ticks-per setting?</h2>
-<p>One Minecraft tick is 1/20th of a second. So 20 ticks happens every second.</p>
-<p>The <code>ticks-per</code> settings determine how often the server will attempt to spawn
-mobs of each type. For example, if <code>axolotl-spawns</code> is set to 40, the server
+<p>One <a href="/minecraft">minecraft server</a> tick is 1/20th of a second. So 20 ticks happens every second.</p>
+<p>The <code>ticks-per</code> settings determine how often the <a href="/server">server</a> will attempt to spawn
+mobs of each type. For example, if <code>axolotl-spawns</code> is set to 40, the <a href="/server">server</a>
 will attempt to spawn axolotls every 40 ticks, or every 2 seconds.</p>
 <ul>
-<li>A <strong>lower</strong> <code>ticks-per</code> value means the server will try to spawn mobs <strong>more
+<li>A <strong>lower</strong> <code>ticks-per</code> value means the <a href="/server">server</a> will try to spawn mobs <strong>more
 often</strong> (so faster spawns, more lag).</li>
-<li>A <strong>higher</strong> <code>ticks-per</code> value means the server will try to spawn mobs <strong>less
+<li>A <strong>higher</strong> <code>ticks-per</code> value means the <a href="/server">server</a> will try to spawn mobs <strong>less
 often</strong> (so slower spawns, less lag).</li>
 </ul>
 <h2>The autosave setting</h2>
@@ -71,7 +71,7 @@ servers.</p>
 </ul>
 <p>You may want to <strong>decrease it</strong> (make autosaves happen <em>more</em> frequently) if:</p>
 <ul>
-<li>You have an unstable server that crashes often, and you want to minimize data
+<li>You have an unstable <a href="/server">server</a> that crashes often, and you want to minimize data
 loss.</li>
 <li>You have a small world with few players, and autosaves are not causing any
 performance issues.</li>
@@ -87,7 +87,7 @@ Even just a 15 minute loss of data can be very frustrating for players.</p>
 <p>YOu can change all of the settings for <em>mob</em> spawning per-world in the
 <code>paper-world.yml</code> config for each world, under the
 <code>entities&gt;spawning&gt;ticks-per-spawn</code> section. By default, everything is set to
-<code>-1</code>, which means it uses the global <code>bukkit.yml</code> settings.</p>
+<code>-1</code>, which means it uses the global <code>[bukkit](/bukkit).yml</code> settings.</p>
 
 
 </div></div></body></html>

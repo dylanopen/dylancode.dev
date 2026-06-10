@@ -224,6 +224,6 @@
 
 ## Distance between polar points
 
-- Two points in polar coordinates will make a triangle, with the two points and the origin as the vertices.
-- We can use the cosine rule to find the distance between the two points.
+- Two points in [[polar coordinates]] will make a triangle, with the two points and the origin as the vertices.
+- We can use the [[cosine rule]] to find the [[distance]] between the two points.
 - The angle between the two points is the difference between their $\theta$ values.

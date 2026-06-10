@@ -3,9 +3,9 @@
 An *array* is a data type which stores a *collection* of items.
 
 It's essentially a *list* of items, where:
-- each item is the same data type (e.g. all integers, or all strings)
+- each item is the same data type (e.g. all [[integers]], or all strings)
 - the size of the array is fixed (i.e. it cannot grow or shrink)
-- each item can be accessed by its *index* (i.e. its position in the list)
+- each item can be accessed by its *[[index]]* (i.e. its position in the list)
 
 ## Declaring an array
 
@@ -41,7 +41,7 @@ int[] numbers = new int[5];
 
 ## Assigning values to an array
 
-If we want to create an array called `primes` to hold the first 4 prime numbers,
+If we want to create an array called `primes` to hold the first 4 [[prime numbers]],
 we can do this:
 
 ```cs

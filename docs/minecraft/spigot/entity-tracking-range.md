@@ -1,9 +1,9 @@
 # entity-tracking-range
 
-The *entity tracking range* basically tells the server how close a player has to
+The *entity tracking [[range]]* basically tells the [[server]] how close a player has to
 be to an entity (mob, other player, etc) before the player can see the entity.
 
-You can change it in `spigot.yml`, under `world-settings` -> `default`. Its
+You can change it in `[[spigot]].yml`, under `world-settings` -> `default`. Its
 default value is:
 
 ```yaml
@@ -31,7 +31,7 @@ entity-tracking-range:
   other: 64
 ```
 
-If you're running a larger server and want to reduce the number of entities
+If you're running a larger [[server]] and want to reduce the number of entities
 being sent to a player, you can lower the values to:
 
 ```yaml
@@ -45,10 +45,10 @@ entity-tracking-range:
 ```
 
 > I'd recommend always keeping `players` at `128`, as lowering it can cause look
-> a bit strange.
+> a [[bit]] strange.
 
 ## What does `entity-tracking-range` do?
 
-As mentioned above, any entity which is *outside* of the tracking range (in
+As mentioned above, any entity which is *outside* of the tracking [[range]] (in
 blocks) from a player won't be sent to the player. The player simply won't see
 the entity.

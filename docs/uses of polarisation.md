@@ -6,7 +6,7 @@ Prior knowledge needed:
 
 ## Uses of polarisation
 
-There are a few different uses of polarisation in real life:
+There are a few different uses of [[polarisation]] in real life:
 - Reducing glare from surfaces
 - Improving contrast in LCD screens
 - Reducing reflections in photography
@@ -41,7 +41,7 @@ of oscillation, allowing only light oscillating in a specific direction to
 pass through.
 
 This helps improve the contrast of the screen, which helps with things like
-colour accuracy and viewing angles.
+colour [[accuracy]] and viewing angles.
 
 ## Polarised sunglasses
 
@@ -53,4 +53,4 @@ Only the light that you want to see (the light oscillating in the right
 direction) is allowed to pass through the lenses, while the rest is blocked.
 
 This makes it much easier to see in bright conditions, and can also help
-reduce *eye strain*.
+reduce *eye [[strain]]*.

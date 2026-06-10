@@ -6,4 +6,4 @@
 
 ## How do virtual machines execute bytecode?
 
-> A virtual machine interprets [[bytecode]] one instruction at a time. It translates the bytecode to object code **at runtime**, the [[object code]] being specific to the hardware's [[instruction set architecture]].
+> A virtual machine interprets [[bytecode]] one instruction at a time. It translates the [[bytecode]] to [[object code]] **at runtime**, the [[object code]] being specific to the [[hardware]]'s [[instruction set architecture]].

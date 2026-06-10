@@ -1,9 +1,9 @@
 # Arc
 
 The *arc* of a [[sector]] is the portion of the circumference that
-connects the two radii of the sector.
+connects the two radii of the [[sector]].
 
-In other words, it's the curved line on a sector.
+In other words, it's the curved line on a [[sector]].
 
 There's a few things we can calculate for/from it, including:
 - [[arc length from radians|finding the arc length from radians]]

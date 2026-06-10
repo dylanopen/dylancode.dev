@@ -2,12 +2,12 @@
 
 If we have a Cartesian coordinate in the form $(x,y)$, then we can convert these
 to a polar coordinate, using our [[
-/polar coordinate identities|polar coordinate identities]] from before!
+/[[polar coordinate identities]]|[[polar coordinate identities]]]] from before!
 
 ## General steps
 
-Polar coordinates are in the form $(r,\theta)$, where:
-- $r$ is the magnitude, the distance of a point from the origin
+[[polar coordinates]] are in the form $(r,\theta)$, where:
+- $r$ is the magnitude, the [[distance]] of a point from the origin
 - $\theta$ is the *bearing* from the origin, starting from the right-stretching
   line and going *anticlockwise*.
 

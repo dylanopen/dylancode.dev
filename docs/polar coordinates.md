@@ -4,7 +4,7 @@ Like any other coordinate, a *polar* coordinate describes a position on a
 2D plane.
 
 A polar coordinate is described by:
-- the distance from the origin
+- the [[distance]] from the origin
 - the *bearing* of the point from the origin
 
 ## Describing the bearing
@@ -36,6 +36,6 @@ More simply in a table:
 ## Format of a polar coordinate
 
 We write the polar coordinate in the form $(r,\theta)$, where:
-- $r$ is the distance from the origin
+- $r$ is the [[distance]] from the origin
 - $\theta$ is the bearing of the point from the origin, measured in radians
   - It's usually between $0$ and $2\pi$
