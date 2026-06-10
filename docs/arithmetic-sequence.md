@@ -1,6 +1,6 @@
 # Arithmetic sequence
 
-An arithmetic sequence is a sequence of numbers in which the difference between consecutive terms is constant.
+An arithmetic sequence is a [[sequence]] of numbers in which the difference between consecutive terms is constant.
 
 That means that each term is $n$ more than the last term.
 
@@ -12,7 +12,7 @@ $$
 
 is an arithmetic sequence where each term is 3 more than the previous term.
 
-The constant difference between the terms is called the "common difference".
+The constant difference between the terms is called the "[[common-difference]]".
 
 ## Form of an arithmetic sequence
 
@@ -38,8 +38,7 @@ Once we've found these, just substitute $a$ and $b$ into the formula $an+b$!
 
 ## Finding the common difference
 
-To find the common difference, simply subtract any term from the term after
-it.
+To find the common difference, simply subtract any term from the term after it.
 
 For example, in the sequence:
 

@@ -1,13 +1,10 @@
 # Efficiency
 
-As mentioned in the article about [conservation of energy](/conservation-of-energy),
-energy cannot be created or destroyed.
+As mentioned in the article about [[conservation-of-energy]], [[energy]] cannot be created or destroyed.
 
-But it can be transferred from one form to another: and sometimes, we don't
-*want* that energy form.
+But it can be [[energy-transfer|transferred]] from one form to another: and sometimes, we don't *want* that energy form.
 
-For example, in a computer CPU, we want the energy to be transferred as
-efficiently as possible so that as little *heat* is produced as possible.
+For example, in a computer CPU, we want the energy to be transferred as efficiently as possible so that as little [[heat]] is produced as possible.
 
 ## Calculating efficiency as a decimal
 
@@ -17,7 +14,7 @@ The formula for calculating efficiency as a *decimal* is:
 > \text{Efficiency} = \frac{\text{Useful energy output}}{\text{Total energy input}}
 > $$
 
-Or, if we're instead measuring the *power* used and produced, we can use:
+Or, if we're instead measuring the [[power]] used and produced, we can use:
 
 > $$
 > \text{Efficiency} = \frac{\text{Useful power output}}{\text{Total power input}}
@@ -25,7 +22,7 @@ Or, if we're instead measuring the *power* used and produced, we can use:
 
 ## Calculating efficiency as a percentage
 
-The formula for calculating efficiency as a *percentage* is:
+The formula for calculating efficiency as a [[percentage]] is:
 
 $$
 \text{Efficiency} = \left( \frac{\text{Useful energy output}}{\text{Total energy input}} \right) \times 100\%
@@ -39,15 +36,11 @@ $$
 
 ## 100% efficiency
 
-Almost nothing can be 100% efficient, because there are always some energy
-losses in the system.
+Almost nothing can be 100% efficient, because there are always some energy losses in the [[system]].
 
-For example, in a car engine, some of the energy from the fuel is lost as heat and sound, so the efficience isn't anywhere close to 100%.
+For example, in a car engine, some of the energy from the fuel is lost as heat and sound, so the efficiency isn't anywhere close to 100%.
 
-However: all energy transfers usually will end up as heat in the end. In a way,
-heating machines (e.g. electric radiators) are 100% efficient, in that they 
-transfer all the energy they use into heat energy - which is what we want them
-to do!
+However: all energy transfers usually will end up as heat in the end. In a way, heating machines (e.g. electric radiators) are 100% efficient, in that they  transfer all the energy they use into heat energy - which is what we want them to do!
 
 ## Examples
 

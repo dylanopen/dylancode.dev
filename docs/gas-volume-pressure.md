@@ -15,4 +15,3 @@
     - $P_2$ is the final pressure of the gas
     - $V_2$ is the final volume of the gas
 - If we know three out of four of these, we can find the other one.
-u

@@ -352,7 +352,7 @@
     - [[Activity networks]]
     - [[network-flows]]
     - [[Game theory]]
-        - [[pay-off-matrices]]
+        - [[pay-off-matrix]]
         - [[play-safe-strategy]]
         - [[dominating-strategies]]
         - [[optimal-mixed-strategy]]

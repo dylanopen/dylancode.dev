@@ -2,21 +2,23 @@
 
 ## Vector form
 
-A line in vector form has the equation:
+A [[line]] in vector form has the equation:
 
 $$
 \vec r = \vec a + \lambda \vec d
 $$
 
 ...where:
-- $\vec r$ is the position vector of any point on the line,
-- $\vec a$ is the position vector of a specific point on the line,
-- $\vec d$ is the direction vector of the line,
-- $\lambda$ is a scalar multiplier (changing it gives a new point on the line).
+- $\vec r$ is the [[position-vector]] of any [[point]] on the line,
+- $\vec a$ is the [[position-vector]] of a specific [[point]] on the line,
+- $\vec d$ is the [[direction-vector]] of the line,
+- $\lambda$ is a [[scalar-quantity|scalar]] multiplier (changing it gives a new point on the line).
+
+See [[vector-line-equation]].
 
 ## Cartesian form
 
-Cartesian form is the standard equation of a line, written as:
+Cartesian form is the standard equation of a line (see [[cartesian-line-equation]], written as:
 
 $$
 y = mx + c
@@ -26,7 +28,7 @@ $$
 
 ## Gradient
 
-We can find the gradient of the line from the $\vec d$ vector of the vector form
+We can find the [[gradient]] of the line from the $\vec d$ vector of the vector form
 equation.
 
 - The top value of the direction vector $\vec d$ is the change in $x$.
@@ -38,9 +40,11 @@ $$
 \text{gradient} = \frac{\text{change in } y}{\text{change in } x}
 $$
 
-## Converting from vector to cartesian form
+So the gradient of a line with direction vector $\vec d=\begin{pmatrix}2\\6\end{pmatrix}$, for example, will have gradient $\frac62=3$
 
-Once we have the gradient, we can substitute it into the cartesian form equation
+## Converting from vector to Cartesian form
+
+Once we have the gradient, we can substitute it into the Cartesian form equation
 ($y = mx + c$) to find $c$.
 
 ### Convert the vector equation $\vec r = \pmatrix{1 \\ 2} + \lambda \pmatrix{3 \\ 4}$ to cartesian form
@@ -54,8 +58,7 @@ Once we have the gradient, we can substitute it into the cartesian form equation
   - $2 = \frac{4}{3}(1) + c$
   - $2 = \frac{4}{3} + c$
   - $c = 2 - \frac{4}{3}$
-  - $c = \frac{2}{3}$
-- **Answer**: $y = \frac{4}{3}x + \frac{2}{3}$
+  - $c = \frac{2}{3}$ - **Answer**: $y = \frac{4}{3}x + \frac{2}{3}$
 
 ### Convert the vector equation $\vec r = \pmatrix{2 \\ 5} + \lambda \pmatrix{-1 \\ 2}$ to cartesian form
 

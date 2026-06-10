@@ -1,10 +1,8 @@
-# Pay-off matrices
+# Pay-off matrix
 
-A pay-off matrix shows the possible outcomes for each combination of strategies
-chosen by the players in a game.
+A pay-off [[matrix]] shows the possible outcomes for each combination of strategies chosen by the players in a game.
 
-Each cell represents the outcome *for Player 1*. In a zero-sum game, the outcome
-for Player 2 is the negative of the outcome for Player 1.
+Each cell represents the outcome *for Player 1*. In a [[zero-sum-game]], the outcome for Player 2 is the negative of the outcome for Player 1.
 
 ## Example pay-off matrix
 
@@ -25,5 +23,4 @@ the game:
 | **Column maxima**    | 2                | -1               | 1                |            |
 
 - The row minima are the worst outcomes for Player 1 for each of their strategies.
-- The column maxima are the best outcomes for Player 1 for each of Player 2's
-  strategies (so the worst outcomes for Player 2).
+- The column maxima are the best outcomes for Player 1 for each of Player 2's strategies (so the worst outcomes for Player 2).

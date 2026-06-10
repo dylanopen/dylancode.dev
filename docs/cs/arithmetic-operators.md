@@ -1,9 +1,8 @@
 # Arithmetic operators
 
-An *arithmetic operator* is essentially a symbol that performs maths.
+An *arithmetic* [[operator]] is essentially a symbol that performs maths.
 
-They're usually self-explanatory - the expression `3+4` evaluates to `7` - but
-you may not be familiar with all of the symbols used in C#!
+They're usually self-explanatory - the expression `3+4` evaluates to `7` - but you may not be familiar with all of the symbols used in C#!
 
 ## Addition
 

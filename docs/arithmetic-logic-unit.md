@@ -1,8 +1,8 @@
 # Arithmetic logic unit
 
-> An arithmetic logic unit (ALU) is a component of a [processor](/processor) that performs arithmetic and logical operations on data - that is, things involving maths and logical operations, like AND, OR, XOR, their bitwise variants, etc.
+> An arithmetic logic unit (ALU) is a component of a [processor](/processor) that performs arithmetic and logical operations on data - that is, things involving maths and logical operations, like [[and-gate|AND]], [[or-gate|OR]], [[xor-gate|XOR]], their bitwise variants, etc.
 
-The [control unit](/control-unit) will send the ALU what's called an *opcode* and *operands*:
+The [control unit](/control-unit) will send the ALU what's called an [[opcode]] and [[operand]]s:
 - The opcode is a code that tells the ALU what operation to perform. For example, it might be a code for addition, subtraction, AND, OR, etc.
 - The operands are the data that the ALU will operate on. For example, if the opcode is for addition, the operands might be two numbers that the ALU will add together.
 

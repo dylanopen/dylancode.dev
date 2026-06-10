@@ -1,10 +1,8 @@
 # Kirchoff's first law
 
-> The sum of currents entering a junction is equal to the sum of currents
-> leaving the junction.
+> The sum of [[current]]s entering a 'junction' is equal to the sum of currents leaving the junction.
 
-This is due to the **conservation of charge** - charge cannot be created or
-destroyed.
+This is due to the [[conservation-of-charge]] - [[charge]] cannot be created or destroyed.
 
 We can write this as:
 
@@ -22,7 +20,7 @@ is the value of the third current?
 - So the current leaving the junction must also be $8A$ due to Kirchoff's first
   law.
 
-## Sum of all currents
+## Sum of all currents is 0
 
 Kirchoff's first law can also be expressed as:
 

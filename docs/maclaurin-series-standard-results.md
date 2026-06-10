@@ -1,6 +1,6 @@
 # Maclaurin series standard results
 
-## Standard Maclaurin series results
+## Standard [[maclaurin-series]] results
 
 $$
 e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots

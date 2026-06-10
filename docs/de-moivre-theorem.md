@@ -6,7 +6,7 @@ De Moivre's theorem states that for a [[complex-number]] $z$:
 >  \text{for }z=r(\cos\theta+i\sin\theta)\text{, then }z^2=r^2(\cos n\theta+i\sin n\theta)
 > $$
 
-We can prove this using the modulus-argument form of the complex numbers
+We can prove this using the [[modulus-argument-form]] of the complex numbers
 
 ## Proof for $r=2$ 
 
@@ -18,7 +18,7 @@ We can prove this using the modulus-argument form of the complex numbers
 
 ## Prove $z^n=r^n(\cos n\theta+i\sin n\theta)$ for n = any positive integer
 
-- Prove by induction!
+- [[proof-by-induction]]!
 - $z=r(\cos\theta+i\sin\theta)$
 - For $n=1$:
     - $\text{LHS}=z^1=[r(\cos\theta+i\sin\theta)]^1=r(\cos\theta+i\sin\theta)$

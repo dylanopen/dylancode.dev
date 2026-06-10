@@ -1,7 +1,6 @@
 # Boolean commutativity
 
-> If a boolean expression is *commutative*, it means that we can swap the order
-> of the values and we get the same result. 
+> If a [[boolean-expression]] is [[commutative-law|commutative]], it means that we can swap the order of the values and we get the same result. 
 
 We can write this for the operation $\ominus$ as:
 
@@ -13,3 +12,6 @@ This applies for lots of operations, including:
 - XOR: $A \oplus B = B \oplus A$
 - NAND: $\overline{A \cdot B} = \overline{B \cdot A}$
 - NOR: $\overline{A + B} = \overline{B + A}$
+
+Links:
+- [[boolean]]

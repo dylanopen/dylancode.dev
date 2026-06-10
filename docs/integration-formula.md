@@ -1,7 +1,6 @@
 # Integration formula
 
-If you remember back to the [power rule for differentiation](/power-rule-for-differentiation),
-the derivative of $ax^n$ is:
+If you remember back to the [power rule for differentiation](/power-rule-for-differentiation), the derivative of $ax^n$ is:
 
 $$
 a\times n\times x^{n-1}
@@ -14,9 +13,7 @@ $$
 \int ax^n\space dx = a\div(n+1) \times x^{n+1}
 $$
 
-> We use $c$ here because we don't know what the constant term on the end was.
-> This constant was removed during differentiation - we can't know what it will
-> be after we integrate.
+> We use $c$ here because we don't know what the constant term on the end was. This constant was removed during differentiation - we can't know what it will be after we integrate.
 
 ### Find $\int 4x+3 \space dx$
 
