@@ -1,8 +1,6 @@
 # Boolean double negation
 
-*Double negation* is the idea that if we have a NOT of a NOT, we can simplify it
-to just the thing itself. So, for example, $\overline{\overline{A}}$ simplifies
-to just $A$.
+*Double negation* is the idea that if we have a NOT of a NOT, we can simplify it to just the thing itself. So, for example, $\overline{\overline{A}}$ simplifies to just $A$.
 
 > $\overline{\overline{A}} = A$
 

@@ -2,10 +2,7 @@
 
 > Learn the basic syntax and print text to the console.
 
-*It is important to note that this page is extremely detailed as I explain every
-single part of a hello world program in-depth. If you do not understand
-everything yet, don't worry - we will be going over each of the concepts in more
-detail in future chapters.*
+*It is important to note that this page is extremely detailed as I explain every single part of a hello world program in-depth. If you do not understand everything yet, don't worry - we will be going over each of the concepts in more detail in future chapters.*
 
 ## The code
 
@@ -34,38 +31,20 @@ Consider this snippet of code:
 #include <stdio.h>
 ```
 
-Most programming languages have a way of *importing code*. This allows us to use
-some of the code from other files, often known as *modules*, in our code,
-allowing for code re-use.
+Most programming languages have a way of *importing code*. This allows us to use some of the code from other files, often known as *modules*, in our code, allowing for code re-use.
 
-In our case: why would we write the implementation for printing to the console
-manually, when the standard library already provides it for us?
+In our case: why would we write the implementation for printing to the console manually, when the standard library already provides it for us?
 
-We can import files in C using the `#include` statement. Interestingly, unlike
-most other programming languages, this code is *identical* to if we had written
-out the code for the `stdio` library manually. `#include <stdio.h>` is simply
-replaced with the code contained in `stdio.h`, which, in turn, allows us to use
-its functions.
+We can import files in C using the `#include` statement. Interestingly, unlike most other programming languages, this code is *identical* to if we had written out the code for the `stdio` library manually. `#include <stdio.h>` is simply replaced with the code contained in `stdio.h`, which, in turn, allows us to use its functions.
 
-> The `#include` statement is executed by a program known as the
-  *preprocessor*.  
-> This program is executed *before* the compiler reads the code, and it is the
-  first step towards turning source code into machine code.  
-> *All statements in C which start with a `#` are preprocessor **directives***.
+> The `#include` statement is executed by a program known as the *preprocessor*. This program is executed *before* the compiler reads the code, and it is the first step towards turning source code into machine code. *All statements in C which start with a `#` are preprocessor **directives***.
 
 ### The difference between `#include <file.h>` and `#include "file.h"`
 
-When you're looking at C tutorials, you might find that in some cases, angle
-brackets are used around the file included, while other times, quotes (speech
-marks) are used instead. What's the difference?
+When you're looking at C tutorials, you might find that in some cases, angle brackets are used around the file included, while other times, quotes (speech marks) are used instead. What's the difference?
 
-- **Angle brackets** tell the preprocessor to look for the header file *in the
-  system path for C libraries*. On Linux, for example, the first place it looks
-  is usually the `/usr/include/` directory.
-- **Quotes** tell the preprocessor to look for the header file *relative to the
-  current directory*. For example, if we have 2 files: `main.c` and `lib.h`, we
-  use `#include "lib.h"` instead of `#include <lib.h>`, because `lib.h` is a
-  header *in the current directory* (i.e. project-specific).
+- **Angle brackets** tell the preprocessor to look for the header file *in the system path for C libraries*. On Linux, for example, the first place it looks is usually the `/usr/include/` directory.
+- **Quotes** tell the preprocessor to look for the header file *relative to the current directory*. For example, if we have 2 files: `main.c` and `lib.h`, we use `#include "lib.h"` instead of `#include <lib.h>`, because `lib.h` is a header *in the current directory* (i.e. project-specific).
 
 ## The main function
 

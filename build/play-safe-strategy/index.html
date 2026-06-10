@@ -1,30 +1,25 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Play safe strategy</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 <h1>Play safe strategy</h1>
 <blockquote>
-<p>This page is about the play safe strategy in a <a href="/zero-sum-game">zero-sum-game</a>.</p>
+<p>This page is about the play safe strategy <strong>in a <a href="/zero-sum-game">zero-sum-game</a></strong>.</p>
 </blockquote>
-<p>In this strategy, the player(s) choose the option which minimises the possible
-loss.</p>
-<p>Take this <a href="/pay-off-matrices">pay-off matrix</a> for example:</p>
+<p>In this strategy, the player(s) choose the option which <strong>minimises</strong> the possible loss.</p>
+<p>Take this <a href="/pay-off-matrix">pay-off matrix</a> for example:</p>
 <table><thead><tr><th></th><th>Player 2 plays C</th><th>Player 2 plays D</th><th>Player 2 plays E</th><th>Row minima</th></tr></thead><tbody>
 <tr><td><strong>Player 1 plays A</strong></td><td>2</td><td>-1</td><td>1</td><td>-1</td></tr>
 <tr><td><strong>Player 1 plays B</strong></td><td>1</td><td>-2 4</td><td>-3</td><td>-3</td></tr>
 <tr><td><strong>Column maxima</strong></td><td>2</td><td>-1</td><td>1</td><td></td></tr>
 </tbody></table>
 <blockquote>
-<p>The numbers in the table represent the benefit to player 1 - play 2 <em>loses</em>
-that amount.</p>
+<p>The numbers in the table represent the benefit to player 1 - play 2 <em>loses</em> that amount.</p>
 </blockquote>
 <ul>
 <li>The row minima is the <strong>worst</strong> that can happen for each of player 1’s options.</li>
-<li>The play safe strategy for player 1 is to choose the option with the
-<strong>highest</strong> row minima - in this case, option A.</li>
+<li>The play safe strategy for player 1 is to choose the option with the <strong>highest</strong> row minima - in this case, option A.</li>
 <li>The column maxima is the <strong>best</strong> that can happen for each of player 2’s options.</li>
-<li>The play safe strategy for player 2 is to choose the option with the
-<strong>lowest</strong> column maxima - in this case, option D.</li>
+<li>The play safe strategy for player 2 is to choose the option with the <strong>lowest</strong> column maxima - in this case, option D.</li>
 </ul>
 <h2>Value of the game</h2>
-<p>The value of the game is the amount that player 1 can expect to win (or lose)
-if both players play their play safe strategies.</p>
+<p>The <a href="/game-value">value of the game</a> for player 1 is the amount that player 1 can expect to win (or lose) <strong>if</strong> both players play their play safe strategies.</p>
 
 </div></div></body></html>

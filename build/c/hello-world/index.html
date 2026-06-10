@@ -3,10 +3,7 @@
 <blockquote>
 <p>Learn the basic syntax and print text to the console.</p>
 </blockquote>
-<p><em>It is important to note that this page is extremely detailed as I explain every
-single part of a hello world program in-depth. If you do not understand
-everything yet, don’t worry - we will be going over each of the concepts in more
-detail in future chapters.</em></p>
+<p><em>It is important to note that this page is extremely detailed as I explain every single part of a hello world program in-depth. If you do not understand everything yet, don’t worry - we will be going over each of the concepts in more detail in future chapters.</em></p>
 <h2>The code</h2>
 <p>In your <code>main.c</code> file you created in the last chapter, add the following code:</p>
 <pre><code class="language-c">#include &lt;stdio.h&gt;
@@ -23,35 +20,17 @@ get the following output printed to the console:</p>
 <p>Consider this snippet of code:</p>
 <pre><code class="language-c">#include &lt;stdio.h&gt;
 </code></pre>
-<p>Most programming languages have a way of <em>importing code</em>. This allows us to use
-some of the code from other files, often known as <em>modules</em>, in our code,
-allowing for code re-use.</p>
-<p>In our case: why would we write the implementation for printing to the console
-manually, when the standard library already provides it for us?</p>
-<p>We can import files in C using the <code>#include</code> statement. Interestingly, unlike
-most other programming languages, this code is <em>identical</em> to if we had written
-out the code for the <code>stdio</code> library manually. <code>#include &lt;stdio.h&gt;</code> is simply
-replaced with the code contained in <code>stdio.h</code>, which, in turn, allows us to use
-its functions.</p>
+<p>Most programming languages have a way of <em>importing code</em>. This allows us to use some of the code from other files, often known as <em>modules</em>, in our code, allowing for code re-use.</p>
+<p>In our case: why would we write the implementation for printing to the console manually, when the standard library already provides it for us?</p>
+<p>We can import files in C using the <code>#include</code> statement. Interestingly, unlike most other programming languages, this code is <em>identical</em> to if we had written out the code for the <code>stdio</code> library manually. <code>#include &lt;stdio.h&gt;</code> is simply replaced with the code contained in <code>stdio.h</code>, which, in turn, allows us to use its functions.</p>
 <blockquote>
-<p>The <code>#include</code> statement is executed by a program known as the
-<em>preprocessor</em>.<br />
-This program is executed <em>before</em> the compiler reads the code, and it is the
-first step towards turning source code into machine code.<br />
-<em>All statements in C which start with a <code>#</code> are preprocessor <strong>directives</strong></em>.</p>
+<p>The <code>#include</code> statement is executed by a program known as the <em>preprocessor</em>. This program is executed <em>before</em> the compiler reads the code, and it is the first step towards turning source code into machine code. <em>All statements in C which start with a <code>#</code> are preprocessor <strong>directives</strong></em>.</p>
 </blockquote>
 <h3>The difference between <code>#include &lt;file.h&gt;</code> and <code>#include "file.h"</code></h3>
-<p>When you’re looking at C tutorials, you might find that in some cases, angle
-brackets are used around the file included, while other times, quotes (speech
-marks) are used instead. What’s the difference?</p>
+<p>When you’re looking at C tutorials, you might find that in some cases, angle brackets are used around the file included, while other times, quotes (speech marks) are used instead. What’s the difference?</p>
 <ul>
-<li><strong>Angle brackets</strong> tell the preprocessor to look for the header file <em>in the
-system path for C libraries</em>. On Linux, for example, the first place it looks
-is usually the <code>/usr/include/</code> directory.</li>
-<li><strong>Quotes</strong> tell the preprocessor to look for the header file <em>relative to the
-current directory</em>. For example, if we have 2 files: <code>main.c</code> and <code>lib.h</code>, we
-use <code>#include "lib.h"</code> instead of <code>#include &lt;lib.h&gt;</code>, because <code>lib.h</code> is a
-header <em>in the current directory</em> (i.e. project-specific).</li>
+<li><strong>Angle brackets</strong> tell the preprocessor to look for the header file <em>in the system path for C libraries</em>. On Linux, for example, the first place it looks is usually the <code>/usr/include/</code> directory.</li>
+<li><strong>Quotes</strong> tell the preprocessor to look for the header file <em>relative to the current directory</em>. For example, if we have 2 files: <code>main.c</code> and <code>lib.h</code>, we use <code>#include "lib.h"</code> instead of <code>#include &lt;lib.h&gt;</code>, because <code>lib.h</code> is a header <em>in the current directory</em> (i.e. project-specific).</li>
 </ul>
 <h2>The main function</h2>
 <p>Let’s now look at this code snippet:</p>

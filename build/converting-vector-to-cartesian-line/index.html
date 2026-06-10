@@ -1,25 +1,26 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Converting vector-form to cartesian-form line equations</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 <h1>Converting vector-form to cartesian-form line equations</h1>
 <h2>Vector form</h2>
-<p>A line in vector form has the equation:</p>
+<p>A <a href="/line">line</a> in vector form has the equation:</p>
 <p><ma>
 \vec r = \vec a + \lambda \vec d
 </ma></p>
 <p>…where:</p>
 <ul>
-<li><im>\vec r</im> is the position vector of any point on the line,</li>
-<li><im>\vec a</im> is the position vector of a specific point on the line,</li>
-<li><im>\vec d</im> is the direction vector of the line,</li>
-<li><im>\lambda</im> is a scalar multiplier (changing it gives a new point on the line).</li>
+<li><im>\vec r</im> is the <a href="/position-vector">position-vector</a> of any <a href="/point">point</a> on the line,</li>
+<li><im>\vec a</im> is the <a href="/position-vector">position-vector</a> of a specific <a href="/point">point</a> on the line,</li>
+<li><im>\vec d</im> is the <a href="/direction-vector">direction-vector</a> of the line,</li>
+<li><im>\lambda</im> is a <a href="/scalar-quantity">scalar</a> multiplier (changing it gives a new point on the line).</li>
 </ul>
+<p>See <a href="/vector-line-equation">vector line equation</a>.</p>
 <h2>Cartesian form</h2>
-<p>Cartesian form is the standard equation of a line, written as:</p>
+<p>Cartesian form is the standard equation of a line (see <a href="/cartesian-line-equation">cartesian line equation</a>, written as:</p>
 <p><ma>
 y = mx + c
 </ma></p>
 <p>(or one of its variants).</p>
 <h2>Gradient</h2>
-<p>We can find the gradient of the line from the <im>\vec d</im> vector of the vector form
+<p>We can find the <a href="/gradient">gradient</a> of the line from the <im>\vec d</im> vector of the vector form
 equation.</p>
 <ul>
 <li>The top value of the direction vector <im>\vec d</im> is the change in <im>x</im>.</li>
@@ -29,8 +30,9 @@ equation.</p>
 <p><ma>
 \text{gradient} = \frac{\text{change in } y}{\text{change in } x}
 </ma></p>
-<h2>Converting from vector to cartesian form</h2>
-<p>Once we have the gradient, we can substitute it into the cartesian form equation
+<p>So the gradient of a line with direction vector <im>\vec d=\begin{pmatrix}2\\6\end{pmatrix}</im>, for example, will have gradient <im>\frac62=3</im></p>
+<h2>Converting from vector to Cartesian form</h2>
+<p>Once we have the gradient, we can substitute it into the Cartesian form equation
 (<im>y = mx + c</im>) to find <im>c</im>.</p>
 <h3>Convert the vector equation <im>\vec r = \pmatrix{1 \\ 2} + \lambda \pmatrix{3 \\ 4}</im> to cartesian form</h3>
 <ul>
@@ -47,10 +49,9 @@ equation.</p>
 <li><im>2 = \frac{4}{3}(1) + c</im></li>
 <li><im>2 = \frac{4}{3} + c</im></li>
 <li><im>c = 2 - \frac{4}{3}</im></li>
-<li><im>c = \frac{2}{3}</im></li>
+<li><im>c = \frac{2}{3}</im> - <strong>Answer</strong>: <im>y = \frac{4}{3}x + \frac{2}{3}</im></li>
 </ul>
 </li>
-<li><strong>Answer</strong>: <im>y = \frac{4}{3}x + \frac{2}{3}</im></li>
 </ul>
 <h3>Convert the vector equation <im>\vec r = \pmatrix{2 \\ 5} + \lambda \pmatrix{-1 \\ 2}</im> to cartesian form</h3>
 <ul>

@@ -12,8 +12,7 @@ A polar coordinate is described by:
 We usually use *radians* to describe the bearing of a polar point from the
 origin, but technically we could also use degrees.
 
-The bearing starts from the line which extends from the origin to the *right*.  
-On a cartesian system, this would be the 'positive X' line.
+The bearing starts from the line which extends from the origin to the *right*: called the [[initial-polar-line|initial line]] On a cartesian system, this would be the 'positive X' line.
 
 ### Common bearings
 

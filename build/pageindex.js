@@ -471,7 +471,7 @@ pageIndex={
 "/network-flows":"Network flows",
 "/___353":{
 "_name":"Game theory",
-"/pay-off-matrices":"Pay-off matrices",
+"/pay-off-matrix":"Pay-off matrix",
 "/play-safe-strategy":"Play safe strategy",
 "/dominating-strategies":"Dominating strategies",
 "/optimal-mixed-strategy":"Optimal mixed strategy",
