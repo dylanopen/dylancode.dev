@@ -1,6 +1,6 @@
 # Hadron
 
-> A **hadron** is a particle which is affected by the [[strong-nuclear-force]].
+> A **hadron** is a particle which is affected by the [[strong nuclear force]].
 
 ## Quarks
 

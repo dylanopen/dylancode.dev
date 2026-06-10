@@ -96,7 +96,7 @@ server setup.
 ## RAM effect
 
 The simulation distance does have a big effect on RAM usage, but the main thing
-to think about with RAM usage is the [view distance](/minecraft/view-distance).
+to think about with RAM usage is the [[minecraft/view distance|view distance]].
 
 When the server ticks chunks, it needs to keep them loaded in RAM. The more
 chunks it has to tick, the more RAM it needs. But the actual chunk data (that
@@ -106,11 +106,11 @@ the view distance controls) has a much bigger effect on RAM usage.
 
 The simulation distance is mainly all server-side. While some things are sent
 to the client, so it might have a small effect on network usage, it's not as
-significant as the [view distance](/minecraft/view-distance).
+significant as the [[minecraft/view distance|view distance]].
 
 ## An alternative: adaptive simulation distance
 
-Some plugins, such as [View Distance Tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/),
+Some plugins, such as [[https://www.spigotmc.org/resources/view distance tweaks.75164/|View Distance Tweaks]],
 claim to adjust the simulation distance dynamically based on server performance.
 
 > Don't be fooled by the name - despite being called "View Distance Tweaks", it

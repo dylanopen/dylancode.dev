@@ -1,7 +1,7 @@
 # Division
 
 The reason that we didn't cover division in the main
-[arithmetic operators](/cs/arithmetic-operators) chapter is that division
+[[cs/arithmetic operators|arithmetic operators]] chapter is that division
 behaves a little differently depending on the data types of the values being
 divided.
 

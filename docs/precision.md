@@ -34,4 +34,4 @@ Then we can round the results:
 
 ## Uncertainty
 
-Another way we can measure precision is using [uncertainty: see here](/uncertainty).
+Another way we can measure precision is using [[uncertainty|uncertainty: see here]].

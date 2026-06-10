@@ -1,6 +1,6 @@
 # Hyperbola
 
-A *hyperbola* is actually just an [ellipse](/ellipse) where the $y^2$ term is
+A *hyperbola* is actually just an [[ellipse]] where the $y^2$ term is
 negative instead of positive. So the equation of a hyperbola centred at the
 origin is:
 

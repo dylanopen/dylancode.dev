@@ -32,6 +32,6 @@ We can also go in reverse (assuming we know how to calculate [[logarithm]]s):
 
 ## Common multiples of bits
 
-- Most systems use a `64-bit` [[instruction-set-architecture]] nowadays, meaning they process data in chunks of 64 bits at a time.
+- Most systems use a `64-bit` [[instruction set architecture]] nowadays, meaning they process data in chunks of 64 bits at a time.
 - Another common size is `32-bit`, which was widely used in older systems and in windows programs which are still using ancient technology - typical
   windows ;)

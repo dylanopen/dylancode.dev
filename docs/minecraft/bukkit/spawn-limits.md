@@ -62,7 +62,7 @@ spawn-limits:
 Because lowering the spawn rate causes fewer mobs to spawn, you may want to
 make the mobs that do spawn closer to the players.
 
-Please see the [mob-spawn-range page](/minecraft/spigot/mob-spawn-range) for
+Please see the [[minecraft/spigot/mob spawn range|mob-spawn-range page]] for
 help on doing this. As a general rule: if you **lower** the spawn limits, you
 should **lower** the mob spawn range as well.
 
@@ -72,14 +72,14 @@ This page relies on the `per-player-mob-spawns` option being set to `true` in
 your `paper-world-defaults.yml` file. This is highly recommended, and the guide
 does not support this option being set to `false`.
 
-Please see [this page](/minecraft/paper-world/per-player-mob-spawns) for more
+Please see [[minecraft/paper world/per player mob spawns|this page]] for more
 info on what this option does and why you should enable it.
 
 ## What are spawn limits?
 
 Spawn limits are probably *the most* important configuration option for
-optimisation, perhaps with the exception of [simulation-distance](
-/minecraft/properties/simulation-distance).
+optimisation, perhaps with the exception of [[
+/minecraft/properties/simulation distance|simulation-distance]].
 
 > Spawn limits are sometimes also referred to as "mob caps". For the sake of
 > this guide, they're effectively the same thing.

@@ -23,4 +23,4 @@ conditions the experiment was done under.
 - Repeatability measures: if we do the same experiment multiple times under the
   same conditions, do we get similar results **doing it ourselves**?
 
-See more about [repeatability here](/repeatability).
+See more about [[repeatability|repeatability here]].

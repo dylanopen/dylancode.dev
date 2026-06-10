@@ -1,6 +1,6 @@
 # Decryption
 
-> **Decryption** is the opposite of [encryption](/encryption) - it's where we
+> **Decryption** is the opposite of [[encryption]] - it's where we
 > take the *ciphertext* and use a *reverse cipher* - usually using an
 > encryption key - to produce the *plaintext*.
 

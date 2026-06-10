@@ -3,7 +3,7 @@
 - Everything is made of atoms.
 - They are the 'building blocks of matter'.
 - Atoms are *very* small - they have a radius of about 0.1 nanometers.
-- They're made up of a [nucleus](/nucleus) (which contains protons and neutrons)
+- They're made up of a [[nucleus]] (which contains protons and neutrons)
   with electrons orbiting around it.
 
 > The definition of an atom is "the smallest part of an element that can exist".
@@ -12,8 +12,8 @@
 
 Atoms are made up of 3 types of *subatomic* particles (the things inside the
 atom itself):
-- [proton](proton.md) - positively charged particles found in the [nucleus](/nucleus)
-- [[neutron]] - neutral particles found in the [nucleus](/nucleus)
+- [[proton|proton]] - positively charged particles found in the [[nucleus]]
+- [[neutron]] - neutral particles found in the [[nucleus]]
 - [[electron]] - negatively charged particles which orbit the nucleus
 
 ## Models of the atom

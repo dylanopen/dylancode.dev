@@ -16,7 +16,7 @@ When you run a program written in a language that uses bytecode (like Java or
 Python), the following steps usually happen:
 
 1. The high-level code is compiled into bytecode by a compiler.
-2. The bytecode is then executed by a [[virtual-machine]] (VM)
+2. The bytecode is then executed by a [[virtual machine]] (VM)
 
 So you can see that actually, bytecode languages are kind of a hybrid between
 compiled and interpreted languages!

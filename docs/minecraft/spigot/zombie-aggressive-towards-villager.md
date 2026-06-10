@@ -30,7 +30,7 @@ consider switching it to `fals`.
 ## What does `zombie-aggressive-towards-villager` do?
 
 When set to `true`, zombies will actively seek out villagers to attack them.  
-If a villager is within the [activation-range](/minecraft/spigot/entity-activation-range),
+If a villager is within the [[minecraft/spigot/entity activation range|activation-range]],
 the zombie will start pathfinding towards the villager to attack it.  
 This can cause a lot of server lag, especially if there are many villagers and
 zombies in the same area, as the server has to calculate the pathfinding for

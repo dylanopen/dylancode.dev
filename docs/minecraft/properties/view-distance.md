@@ -145,7 +145,7 @@ it.
 
 ## An alternative: adaptive view distance
 
-Some plugins, such as [View Distance Tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/),
+Some plugins, such as [[https://www.spigotmc.org/resources/view distance tweaks.75164/|View Distance Tweaks]],
 claim to adjust the view distance dynamically based on server performance.
 
 If the server starts to lag, it lowers the view distance, and when the server is

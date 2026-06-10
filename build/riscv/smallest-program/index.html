@@ -13,7 +13,7 @@ main:
     li x17, 10
     ecall
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
 <p>Let’s break it down.</p>
 <h2>The <code>.text</code> section</h2>
 <p>In the Von Neumann architecture, the code for a program is stored in memory,
@@ -41,7 +41,7 @@ we use the <code>.text</code> directive:</p>
 <pre><code class="language-asm">.text
 main:
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A">Run on creatorsim</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A">Run on creatorsim</a></p>
 <p>You might think this should work now, but it won’t quite for one reason:</p>
 <blockquote>
 <p>If there’s no instructions after a label, it can’t actually create the <code>main</code> label in the output binary, because there’s nothing to attach it to!</p>
@@ -70,7 +70,7 @@ instruction:</p>
 main:
     ecall
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20ecall">Run on creatorsim</a></p>
 <p><code>ecall</code> is an instruction that makes a system call to the operating system.</p>
 <h2>The exit system call</h2>
 <p>You may thinkg we’re now done, however, we need to actually tell it <em>which</em>
@@ -85,7 +85,7 @@ main:
     li x17, 10
     ecall
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x17%2C%2010%0A%20%20%20%20ecall">Run on creatorsim</a></p>
 <p>In this case, it tells the operating system to terminate the program, so it
 stops any garbage instructions that might be after it from being executed.</p>
 <p>And there we have it! The smallest RISC-V program that compiles and runs

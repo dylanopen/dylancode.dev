@@ -8,7 +8,7 @@ account all the values in the set, not just the absolute extremes.
 
 ## Variance symbol
 
-Because variance is just the [standard deviation](/standard-deviation) squared,
+Because variance is just the [[standard deviation]] squared,
 we write it as $\sigma^2$ as $\sigma$ is the symbol for standard deviation.
 
 > $$

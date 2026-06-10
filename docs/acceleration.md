@@ -4,8 +4,8 @@
 
 It's basically how quickly something speeds up.
 
-Because it's the rate of change of [velocity](/velocity), it's a
-[vector quantity](/vector-quantity).
+Because it's the rate of change of [[velocity]], it's a
+[[vector quantity]].
 
 ## $\text{acceleration}=\text{velocity}\div\text{time}$
 

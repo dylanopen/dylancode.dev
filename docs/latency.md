@@ -14,6 +14,6 @@ go through before it reaches its destination.
 ## Types of latency
 
 The main three things that can contribute to latency are:
-- [Propagation latency](/propagation-latency)
-- [Transmission latency](/transmission-latency)
-- [Processing latency](/processing-latency)
+- [[propagation latency|Propagation latency]]
+- [[transmission latency|Transmission latency]]
+- [[processing latency|Processing latency]]

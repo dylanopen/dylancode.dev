@@ -7,6 +7,6 @@ It basically says 'how far off could our measurement be from the actual value?'
 ## Representing uncertainty
 
 We can represent uncertainty in two main ways:
-- [[absolute-uncertainty]]
-- [[percentage-uncertainty]]
+- [[absolute uncertainty]]
+- [[percentage uncertainty]]
 

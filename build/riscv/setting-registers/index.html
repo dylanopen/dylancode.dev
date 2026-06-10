@@ -14,7 +14,7 @@ be a valid immediate value (a constant integer).</p>
 <pre><code class="language-asm">li x5, 42
 </code></pre>
 <p>Now, the value of <code>x5</code> is <code>42</code> - you can see this by using a simulator like
-<a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=">Creatorsim</a>.</p>
+<a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=">Creatorsim</a>.</p>
 <h2>Pseudo-instruction</h2>
 <p><code>li</code> isn’t actually an instruction! It’s what’s called a <em>pseudo-instruction</em>.</p>
 <p>Basically, when the assembler sees <code>li</code>, it translates it into a different
@@ -39,7 +39,7 @@ stop:
     li a7, 10    # Load the exit system call number into register a7
     ecall         # Make the system call to exit the program
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x5%2C%2042%20%20%23%20Load%20the%20value%2042%20into%20register%20x5%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%20%20%20%23%20Load%20the%20exit%20system%20call%20number%20into%20register%20a7%0A%20%20%20%20ecall%20%20%20%20%20%23%20Make%20the%20system%20call%20to%20exit%20the%20program">Run on creatorsim</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x5%2C%2042%20%20%23%20Load%20the%20value%2042%20into%20register%20x5%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%20%20%20%23%20Load%20the%20exit%20system%20call%20number%20into%20register%20a7%0A%20%20%20%20ecall%20%20%20%20%20%23%20Make%20the%20system%20call%20to%20exit%20the%20program">Run on creatorsim</a></p>
 <p>If you run this program, you will see that the register <code>x5</code> contains the value
 <code>42</code>, and the program exits cleanly!</p>
 

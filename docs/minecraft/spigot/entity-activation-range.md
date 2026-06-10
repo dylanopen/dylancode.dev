@@ -3,7 +3,7 @@
 The `entity-activation-range` is the radius (in blocks) around each player that
 mobs will start to 'tick' (become active).
 
-See [wake-up-inactive](/minecraft/spigot/wake-up-inactive) for more information
+See [[minecraft/spigot/wake up inactive|wake-up-inactive]] for more information
 on that specific setting.
 
 You can change it in `spigot.yml`, under `world-settings` -> `default`. Its
@@ -100,7 +100,7 @@ Higher activation ranges will:
 
 ## Should you change this or the spawn limits?
 
-The [spawn-limits](/minecraft/bukkit/spawn-limits) tells the server *how many
+The [[minecraft/bukkit/spawn limits|spawn-limits]] tells the server *how many
 mobs to spawn*.
 
 YOu can compromsise either by:
@@ -129,7 +129,7 @@ server unless you change it back...
 
 Villagers... so laggy in fact there's an entire page dedicated to them:
 
-> [Villagers, oh villagers, oh villagers](/minecraft/villager-optimisation)
+> [[minecraft/villager optimisation|Villagers, oh villagers, oh villagers]]
 
 They're extremely laggy mobs. If you lower their activation range, you can cut
 down on a tonne of server lag.

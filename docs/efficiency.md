@@ -1,8 +1,8 @@
 # Efficiency
 
-As mentioned in the article about [[conservation-of-energy]], [[energy]] cannot be created or destroyed.
+As mentioned in the article about [[conservation of energy]], [[energy]] cannot be created or destroyed.
 
-But it can be [[energy-transfer|transferred]] from one form to another: and sometimes, we don't *want* that energy form.
+But it can be [[energy transfer|transferred]] from one form to another: and sometimes, we don't *want* that energy form.
 
 For example, in a computer CPU, we want the energy to be transferred as efficiently as possible so that as little [[heat]] is produced as possible.
 

@@ -41,4 +41,4 @@ To make sure our repeatability is as good as possible, we can:
   different conditions (e.g. different lab, different equipment), do they get
   similar results?
 
-See more about [reproducibility here](/reproducibility).
+See more about [[reproducibility|reproducibility here]].

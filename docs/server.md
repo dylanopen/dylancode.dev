@@ -1,13 +1,13 @@
 # Server
 
-A *server* is a computer which responds to requests from [clients](/client)
+A *server* is a computer which responds to requests from [[client|clients]]
 (other computers) and provides them with data or services.
 
 For example, a *web* server is a computer that responds to requests from a
 user's web browser and can then responds with something like a web page, a
 video, an image, a script, or a downloadable file.
 
-## Servers in a [LAN](/local-area-network)
+## Servers in a [[local area network|LAN]]
 
 In a local area network, we can have a central server that manages the network
 and all the devices on it. It can do things such as:

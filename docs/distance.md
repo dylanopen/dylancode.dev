@@ -2,7 +2,7 @@
 
 *Distance* measures how long the path that we travelled was.
 
-It's not in any specific direction, so it's a [scalar quantity](/scalar-quantity).
+It's not in any specific direction, so it's a [[scalar quantity]].
 
 ## Example
 

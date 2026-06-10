@@ -1,7 +1,7 @@
 # Census
 
 If we have a population which we want to study, we can either take a *small
-sample* of the population (see [[sampling-strategies]], or we can take a *census* of the population.
+sample* of the population (see [[sampling strategies]], or we can take a *census* of the population.
 
 ## Census
 

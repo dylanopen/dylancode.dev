@@ -30,10 +30,10 @@ I post guides on various things that I find interesting. For example:
 - Maths resources, primarily for A-level but also some GCSE-level content
 - Physics resources, also primarily for A-level but some GCSE-level content
 - Programming language tutorials, including:
-  - [C programming](/c/hello-world)
-  - [C# programming](/cs)
-  - [RISC-V assembly](/riscv)
+  - [[c/hello world|C programming]]
+  - [[cs|C# programming]]
+  - [[riscv|RISC-V assembly]]
   - ...and *many* more to come in the future.
 - Game server resources, including:
-  - My [Minecraft server optimisation guide](/minecraft/optimisation)
-  - A [PaperMC plugin coding tutorial series](/minecraft-plugin)
+  - My [[minecraft/optimisation|Minecraft server optimisation guide]]
+  - A [[minecraft plugin|PaperMC plugin coding tutorial series]]

@@ -1,6 +1,6 @@
 # ASCII
 
-ASCII is one specific [text encoding](/text-encoding) scheme.
+ASCII is one specific [[text encoding]] scheme.
 
 It was one of the first text encoding schemes that came about.
 

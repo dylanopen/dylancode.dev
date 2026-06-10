@@ -1,106 +1,11 @@
-// Yes, this is the messiest code you'll probably ever see. No, I don't care.
-// Yes, it works. No, I won't clean it up, at least for a while ;)
-
-use std::collections::HashMap;
-use std::{fs, io, path::Path};
-
 use indexmap::IndexMap;
+use regex::{Captures, Regex};
+use std::collections::HashMap;
+use std::path::Path;
+use std::{fs, io};
 use walkdir::WalkDir;
 
-fn generate_doc_html(markdown_data: String, note_map: &HashMap<String, String>) -> String {
-    // replace [[link-file]] with [First line in file](/link-file)
-    let mut markdown_data = markdown_data.clone();
-    for (filename, title) in note_map {
-        let link_syntax = format!("[[{}]]", filename);
-        let filename = filename.replace(" ", "-");
-        //let link_syntax_with_alias = format!("[[{}|", filename);
-        if markdown_data.contains(&link_syntax) {
-            let index = markdown_data.find(&link_syntax).unwrap();
-            let mut replacement_title = format!("[[{filename}|{title}]]");
-            // make lowercase if 2 chars before there's a letter or number or space
-            let prev_char = markdown_data.chars().nth(index - 1).unwrap();
-            if prev_char.is_alphanumeric() || prev_char.is_whitespace() {
-                let mut v: Vec<char> = title.chars().collect();
-                v[0] = v[0].to_lowercase().next().unwrap();
-                let lowercased_title: String = v.into_iter().collect();
-                replacement_title = format!("[[{filename}|{lowercased_title}]]");
-            }
-            markdown_data = markdown_data.replace(&link_syntax, replacement_title.as_str());
-        }
-            /*else if title.chars().nth(1).unwrap().is_uppercase() {
-                dbg!("second char uppercase");
-            } else if title.chars().nth(title.find(" ").unwrap_or(1)+1).unwrap().is_uppercase() {
-                dbg!("second char uppercase");
-            } else {
-                dbg!("lowercasing");
-                let mut v: Vec<char> = title.chars().collect();
-                v[0] = v[0].to_lowercase().next().unwrap();
-                let lowercased_title: String = v.into_iter().collect();
-                replacement_title = format!("[[{filename}|{lowercased_title}]]");
-                dbg!(&replacement_title);
-            }
-        }
-           while let Some(index) = markdown_data.find(&link_syntax_with_alias) {
-           let alias_start_pos = markdown_data[index..].find("|").unwrap() + 1 + index;
-           let mut alias = String::new();
-           let mut i = alias_start_pos;
-           loop {
-           let ch = markdown_data.chars().nth(i).unwrap();
-           if ch == ']' { break; }
-           alias.push(ch);
-           i += 1;
-           }
-           let old = format!("[[{filename}|{alias}]]");
-           let replacement= format!("[{alias}]({filename})");
-           markdown_data = markdown_data.replace(&old, &replacement);
-           }
-           */
-    }
-
-    let cmark_markdown_data = markdown_data.clone();
-    let parser = pulldown_cmark::Parser::new_ext(&cmark_markdown_data, pulldown_cmark::Options::all());
-
-    let mut html_output = String::new();
-    pulldown_cmark::html::push_html(&mut html_output, parser);
-
-    let title = markdown_data.lines().next().unwrap_or("Documentation").trim_start_matches("# ").to_string();
-
-    let template = include_str!("../doc-template.html");
-    let template = template.replace("{{title}}", &title);
-
-    let mut html = template.replace("{{content}}", &html_output);
-    while html.contains("<span class=\"math math-inline\">") {
-        let start = html.find("<span class=\"math math-inline\">").unwrap();
-        let end = html[start..].find("</span>").unwrap() + start + "</span>".len();
-        let math_content = &html[start + "<span class=\"math math-inline\">".len()..end - "</span>".len()];
-        let new_math_content = format!("<im>{}</im>", math_content);
-        html.replace_range(start..end, &new_math_content);
-    }
-    while html.contains("<span class=\"math math-display\">") {
-        let start = html.find("<span class=\"math math-display\">").unwrap();
-        let end = html[start..].find("</span>").unwrap() + start + "</span>".len();
-        let math_content = &html[start + "<span class=\"math math-display\">".len()..end - "</span>".len()];
-        let new_math_content = format!("<ma>{}</ma>", math_content);
-        html.replace_range(start..end, &new_math_content);
-    }
-    // set the maximum width of all <img> tags to 720px
-
-    let mut current_pos = 0;
-    while let Some(start) = html[current_pos..].find("<a href=\"") {
-        // check that, if it's an internal link, it starts with a '/'
-        let link_start = current_pos + start + "<a href=\"".len();
-        let link_end = html[link_start..].find("\"").unwrap() + link_start;
-        let link = &html[link_start..link_end];
-        if !link.starts_with("http") && !link.contains(":") && !link.starts_with("/") {
-            let new_link = format!("/{}", link);
-            html.replace_range(link_start..link_end, &new_link);
-        }
-        current_pos = link_end - 1;
-    }
-
-    html
-}
-
+/// Represents a node within the dynamic site navigation tree.
 #[derive(Debug)]
 struct SidebarItem {
     name: String,
@@ -108,13 +13,277 @@ struct SidebarItem {
     children: IndexMap<String, SidebarItem>,
 }
 
-// Thanks to https://stackoverflow.com/a/65192210
+fn main() {
+    // 1. Prepare environment
+    setup_build_directory().expect("Failed to initialize build workspace");
+
+    // 2. Scan and parse document titles to construct the global routing map
+    let note_map = build_note_map("docs");
+
+    // 3. Compile markdown source files into individual static page indexes
+    compile_markdown_docs("docs", &note_map);
+
+    // 4. Generate system sidebar indexes and persist to static JS delivery asset
+    generate_and_save_sidebar();
+}
+
+/// Prepares the target build workspace by resetting contents and copying static resources.
+fn setup_build_directory() -> io::Result<()> {
+    fs::remove_dir_all("build").ok();
+    fs::create_dir_all("build")?;
+
+    copy_dir_all("res", "build/")?;
+    copy_dir_all("docs/res", "build/res")?;
+    Ok(())
+}
+
+/// Scans the source folder to map original file tracks to their top-level `# Title`.
+fn build_note_map(source_dir: &str) -> HashMap<String, String> {
+    let mut note_map = HashMap::new();
+
+    for entry in WalkDir::new(source_dir).into_iter().flatten() {
+        let path = entry.path();
+        let path_str = path.to_string_lossy().into_owned();
+
+        if should_skip_file(&path_str) {
+            continue;
+        }
+
+        let filename = path_str.replace(&format!("{}/", source_dir), "").replace(".md", "");
+        if let Ok(markdown_data) = fs::read_to_string(path) {
+            let title = extract_title(&markdown_data, &filename);
+            note_map.insert(filename, title);
+        }
+    }
+    note_map
+}
+
+/// Compiles all markdown notes into HTML files inside clean routing sub-directories.
+fn compile_markdown_docs(source_dir: &str, note_map: &HashMap<String, String>) {
+    let template = include_str!("../doc-template.html");
+
+    for entry in WalkDir::new(source_dir).into_iter().flatten() {
+        let path = entry.path();
+        let path_str = path.to_string_lossy().into_owned();
+
+        if should_skip_file(&path_str) {
+            continue;
+        }
+
+        if let Ok(markdown_data) = fs::read_to_string(path) {
+            let html_content = generate_doc_html(markdown_data, note_map, template);
+
+            // Normalize disk path destination: Replace spaces with dashes
+            let normalized_path = path_str.replace(" ", "-");
+            let target_route = normalized_path
+                .replace(".md", "")
+                .replace(&format!("{}/", source_dir), "");
+
+            let output_folder = format!("build/{}", target_route);
+            fs::create_dir_all(&output_folder).expect("Failed to create layout structure");
+
+            let output_file = format!("{}/index.html", output_folder);
+            fs::write(output_file, html_content).expect("Failed to write static HTML file");
+        }
+    }
+
+    // Clean up top-level index routing mirrors
+    if Path::new("build/index/index.html").exists() {
+        fs::copy("build/index/index.html", "build/index.html").ok();
+    }
+    if Path::new("build/404/index.html").exists() {
+        fs::copy("build/404/index.html", "build/404.html").ok();
+    }
+}
+
+/// Parses Markdown content, process wikilinks, compiles formulas, and textures layouts.
+fn generate_doc_html(markdown_input: String, note_map: &HashMap<String, String>, template: &str) -> String {
+    // Regex pattern detects matching wikilinks while capturing look-behind text blocks
+    // Captures: Group 1 = Preceding Character, Group 2 = Core target path, Group 3 = Optional |Alias text
+    let wiki_rx = Regex::new(r#"(.)?\[\[([^\]|]+)(?:\|([^\]]+))?\]\]"#).unwrap();
+
+    let processed_markdown = wiki_rx.replace_all(&markdown_input, |caps: &Captures| {
+        let prev_char = caps.get(1).map_or("", |m| m.as_str());
+        let target_raw = &caps[2];
+        let alias_opt = caps.get(3).map(|m| m.as_str());
+
+        // Standardize: Replace spaces with dashes for target navigation link paths
+        let url_target = target_raw.replace(" ", "-");
+
+        let link_text = if let Some(alias) = alias_opt {
+            alias.to_string()
+        } else if let Some(title) = note_map.get(target_raw) {
+            // Apply contextual lowercasing based on preceding characters
+            if !prev_char.is_empty() && prev_char.chars().next().map_or(false, |c| c.is_alphanumeric() || c.is_whitespace()) {
+                let mut chars = title.chars();
+                chars.next().map_or(String::new(), |f| f.to_lowercase().collect::<String>() + chars.as_str())
+            } else {
+                title.clone()
+            }
+        } else {
+            target_raw.to_string()
+        };
+
+        format!("{}[{}](/{})", prev_char, link_text, url_target)
+    }).into_owned();
+
+    // Parse Markdown to HTML via pulldown-cmark
+    let parser = pulldown_cmark::Parser::new_ext(&processed_markdown, pulldown_cmark::Options::all());
+    let mut html_output = String::new();
+    pulldown_cmark::html::push_html(&mut html_output, parser);
+
+    let title = extract_title(&processed_markdown, "Documentation");
+    let mut html = template.replace("{{title}}", &title).replace("{{content}}", &html_output);
+
+// Sanitization Pass 1: Convert math formatting tags cleanly (with multi-line support)
+    let initial_html = html.clone();
+
+    let inline_math_rx = Regex::new(r#"(?s)<span class="math math-inline">(.*?)</span>"#).unwrap();
+    html = inline_math_rx.replace_all(&html, "<im>$1</im>").into_owned();
+
+    let display_math_rx = Regex::new(r#"(?s)<span class="math math-display">(.*?)</span>"#).unwrap();
+    html = display_math_rx.replace_all(&html, "<ma>$1</ma>").into_owned();
+
+    // Sanitization Pass 2: Canonicalize absolute relative URLs
+    let href_rx = Regex::new(r#"<a href="([^"]+)"#).unwrap();
+        html = href_rx.replace_all(&html, |caps: &Captures| {
+            let link = &caps[1];
+            if !link.starts_with("http") && !link.contains(':') && !link.starts_with('/') {
+                format!(r#"<a href="/{}"#, link)
+            } else {
+                format!(r#"<a href="{}"#, link)
+            }
+        }).into_owned();
+
+        html
+        }
+
+        /// Generates the full sidebar system and records it into the build's configuration.
+        fn generate_and_save_sidebar() {
+            let sidebar_items = generate_pageindex();
+            let sidebar_json = generate_pageindex_json(&sidebar_items);
+            fs::write("build/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
+                .expect("Failed to write system sidebar engine script");
+        }
+
+/// Constructs structural sidebar nodes dynamically from `docs/pageindex.md` tracking assets.
+fn generate_pageindex() -> SidebarItem {
+    let pageindex_md = fs::read_to_string("docs/pageindex.md").unwrap_or_default();
+    let mut sidebar_root = SidebarItem {
+        name: "Find a note".to_string(),
+        link: "/".to_string(),
+        children: IndexMap::new(),
+    };
+
+    // NEW ROBUST REGEX:
+    // Group 1 (\s*)  -> Captures leading indentation spaces
+    // Then it matches EITHER:
+    //   - [[Target|Optional Alias]] (Groups 2 and 3)
+    //   - OR any plain text trailing the item dash (Group 4)
+    let list_item_rx = Regex::new(r#"^(\s*)-\s+(?:\[\[([^\]|]+)(?:\|([^\]]+))?\]\]|(.*))"#).unwrap();
+    let mut category_stack: Vec<String> = Vec::new();
+    let mut current_id = 0;
+
+    for line in pageindex_md.lines() {
+        if let Some(caps) = list_item_rx.captures(line) {
+            let spaces = &caps[1];
+            
+            // Adjust the tree depth before reading the item type
+            let depth = spaces.len() / 4;
+            while category_stack.len() > depth {
+                category_stack.pop();
+            }
+
+            let mut name = String::new();
+            let mut link = String::new();
+
+            if let Some(target_match) = caps.get(2) {
+                // CASE 1: The item is a structural Wikilink
+                let target_raw = target_match.as_str();
+                let alias_opt = caps.get(3).map(|m| m.as_str());
+                
+                let doc_path = format!("docs/{}.md", target_raw);
+                let file_exists = Path::new(&doc_path).exists();
+
+                name = if let Some(alias) = alias_opt {
+                    alias.to_string()
+                } else if file_exists {
+                    let md_content = fs::read_to_string(&doc_path).unwrap_or_default();
+                    extract_title(&md_content, target_raw)
+                } else {
+                    target_raw.to_string()
+                };
+
+                link = target_raw.replace(" ", "-");
+                if !file_exists && alias_opt.is_none() {
+                    link = format!("___{}", current_id);
+                }
+            } else if let Some(plain_match) = caps.get(4) {
+                // CASE 2: The item is a plain text heading category
+                let plain_text = plain_match.as_str().trim();
+                if plain_text.is_empty() {
+                    continue; // Skip completely blank bullet lines
+                }
+                name = plain_text.to_string();
+                link = format!("___{}", current_id);
+            }
+
+            category_stack.push(link.clone());
+
+            // Traverse down to the appropriate nested parent
+            let mut parent_item = &mut sidebar_root;
+            for category in &category_stack[..category_stack.len() - 1] {
+                parent_item = parent_item.children.get_mut(category)
+                    .expect("Structural sync failure tracking structural layout tree");
+            }
+
+            parent_item.children.insert(link.clone(), SidebarItem {
+                name,
+                link: format!("/{}", link),
+                children: IndexMap::new(),
+            });
+            current_id += 1;
+        }
+    }
+    sidebar_root
+}
+/// Recursively serializes the navigation tree data structures without using Serde.
+fn generate_pageindex_json(sidebar_items: &SidebarItem) -> String {
+    let mut json = String::new();
+    for item in sidebar_items.children.values() {
+        if item.children.is_empty() {
+            json.push_str(&format!("\"{}\":\"{}\",\n", item.link, item.name));
+        } else {
+            json.push_str(&format!("\"{}\":{{\n", item.link));
+            json.push_str(&format!("\"_name\":\"{}\",\n", item.name));
+            json.push_str(&generate_pageindex_json(item));
+            json.push_str("},\n");
+        }
+        }
+    json
+}
+
+/// Helper: Extracts the first structural `# H1 Header` title line out of a target markdown string.
+fn extract_title(markdown: &str, fallback: &str) -> String {
+    markdown.lines()
+        .next()
+        .map(|line| line.trim_start_matches("# ").trim().to_string())
+        .filter(|title| !title.is_empty())
+        .unwrap_or_else(|| fallback.to_string())
+}
+
+/// Helper: Identifies system path tracks or directory configurations that should be skipped.
+fn should_skip_file(path: &str) -> bool {
+    path.contains("/.") || path.contains("/daily/") || path.contains("/excalidraw/") || !path.ends_with(".md") || path.ends_with("pageindex.md")
+}
+
+/// Helper: Thread-safe recursive directory replication.
 fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> {
     fs::create_dir_all(&dst)?;
     for entry in fs::read_dir(src)? {
         let entry = entry?;
-        let ty = entry.file_type()?;
-        if ty.is_dir() {
+        let file_type = entry.file_type()?;
+        if file_type.is_dir() {
             copy_dir_all(entry.path(), dst.as_ref().join(entry.file_name()))?;
         } else {
             fs::copy(entry.path(), dst.as_ref().join(entry.file_name()))?;
@@ -122,137 +291,3 @@ fn copy_dir_all(src: impl AsRef<Path>, dst: impl AsRef<Path>) -> io::Result<()> 
     }
     Ok(())
 }
-
-fn should_skip_file(path: &str) -> bool {
-    if path.contains("/.") {
-        return true;
-    }
-    if path.contains("/daily/") {
-        return true;
-    }
-    if path.contains("/excalidraw/") {
-        return true;
-    }
-    if !path.ends_with(".md") {
-        return true;
-    }
-    false
-}
-
-fn main() {
-    fs::remove_dir_all("build").ok();
-    fs::create_dir_all("build").expect("Failed to create build directory");
-    copy_dir_all("res", "build/").unwrap();
-    copy_dir_all("docs/res", "build/res").unwrap();
-
-    let mut note_map = HashMap::new();
-    for entry in WalkDir::new("docs") {
-        let entry = entry.expect("Failed to read directory entry");
-        let path = entry.path().to_str().unwrap().to_owned();
-        let filename = path.replace("docs/", "").replace(".md", "");
-
-        if should_skip_file(&path) {
-            continue;
-        }
-
-        let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
-        let title = markdown_data.lines().next().unwrap_or(&filename).trim_start_matches("# ").to_string();
-        note_map.insert(filename, title);
-    }
-
-    for entry in WalkDir::new("docs") {
-        let entry = entry.expect("Failed to read directory entry");
-        let path = entry.path();
-        if should_skip_file(path.to_str().unwrap()) {
-            continue;
-        }
-
-        let markdown_data = fs::read_to_string(path).expect("Failed to read markdown file");
-        let html_content = generate_doc_html(markdown_data, &note_map);
-
-        let filename = path.to_str().unwrap().replace(" ", "-");
-        let output_folder = format!("build/{}", filename.replace(".md", "").replace("docs/", ""));
-        fs::create_dir_all(&output_folder).expect("Failed to create output directory");
-        let output_path = format!("{}/index.html", output_folder);
-        fs::write(output_path, html_content).expect("Failed to write HTML file");
-
-        if fs::exists("build/index/index.html").unwrap() {
-            fs::copy("build/index/index.html", "build/index.html").expect("Failed to copy index.html");
-        }
-        if fs::exists("build/404/index.html").unwrap() {
-            fs::copy("build/404/index.html", "build/404.html").expect("Failed to copy 404.html");
-        }
-    }
-
-    let sidebar_items = generate_pageindex();
-    let sidebar_json = generate_pageindex_json(&sidebar_items);
-    fs::write("build/pageindex.js", format!("pageIndex={{\n{}\n}}", sidebar_json))
-        .expect("Failed to write pageindex.js");
-}
-
-fn generate_pageindex() -> SidebarItem {
-    let pageindex_md = fs::read_to_string("docs/pageindex.md").expect("Failed to read pageindex.md");
-    let mut sidebar_items = SidebarItem {
-        name: "Find a note".to_string(),
-        link: "/".to_string(),
-        children: IndexMap::new(),
-    };
-    let mut category_stack: Vec<String> = Vec::new();
-    let mut current_id = 0;
-    for line in pageindex_md.lines() {
-        // let spaces = the thing before the '- ' and name is the thing after the '- '
-        let spaces = line.chars().take_while(|c| c.is_whitespace()).collect::<String>();
-        let mut link = line.trim_start().trim_start_matches("- ").trim_start_matches("[[").trim_end_matches("]]").to_string();
-        if link.is_empty() {
-            continue;
-        }
-        let name;
-        if fs::exists(format!("docs/{}.md", link)).unwrap() {
-            name = fs::read_to_string(format!("docs/{}.md", link))
-                .expect("Failed to read markdown file")
-                .lines().next()
-                .unwrap_or(&link)
-                .trim_start_matches("# ").to_string();
-        } else {
-            name = link.clone();
-            link = format!("___{}", current_id);
-        }
-        let depth = spaces.len() / 4;
-        while category_stack.len() > depth {
-            category_stack.pop();
-        }
-        category_stack.push(link.clone());
-        let mut parent_item = &mut sidebar_items;
-        for category in &category_stack[..category_stack.len() - 1] {
-            if let Some(parent) = parent_item.children.get_mut(category) {
-                parent_item = parent;
-            } else {
-                panic!("Category '{}' not found in sidebar items", category);
-            }
-        }
-        parent_item.children.insert(link.clone(), SidebarItem {
-            name: name.clone(),
-            link: format!("/{}", link),
-            children: IndexMap::new(),
-        });
-        current_id += 1;
-    }
-    sidebar_items
-}
-
-fn generate_pageindex_json(sidebar_items: &SidebarItem) -> String {
-    // NO SERDE
-    let mut json = String::new();
-    for item in sidebar_items.children.values() {
-        if item.children.is_empty() {
-            json.push_str(format!("\"{}\":\"{}\",\n", item.link, item.name).as_str());
-        } else {
-            json.push_str(format!("\"{}\":{{\n", item.link).as_str());
-            json.push_str(format!("\"_name\":\"{}\",\n", item.name).as_str());
-            json.push_str(generate_pageindex_json(item).as_str());
-            json.push_str("},\n");
-        }
-    }
-    json
-}
-

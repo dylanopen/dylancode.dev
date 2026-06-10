@@ -5,7 +5,7 @@
 It's basically 'the highest/lowest it can get'.
 
 See also:
-- [[longitudinal-particle-displacement]]
-- [[transverse-particle-displacement]]
-- [[wave-oscillation]]
-- [[wave-energy-propagation]]
+- [[longitudinal particle displacement]]
+- [[transverse particle displacement]]
+- [[wave oscillation]]
+- [[wave energy propagation]]

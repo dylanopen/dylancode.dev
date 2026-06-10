@@ -71,4 +71,4 @@ short d = 40000; // This will cause an overflow!
 ## Operations on shorts
 
 We can do exactly the same operations on shorts as we do with regular
-[integers](/c/integers).
+[[c/integers|integers]].

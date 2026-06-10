@@ -1,6 +1,6 @@
 # Annihilation
 
-When [[matter]] and its [[antimatter]] (or [[particle]]s and their corresponding [[antiparticle]]s) collide, they can **annihilate** each other. That means they destroy each other and produce energy in the form of [[photon]]s, otherwise known as [[electromagnetic-wave]]s.
+When [[matter]] and its [[antimatter]] (or [[particle]]s and their corresponding [[antiparticle]]s) collide, they can **annihilate** each other. That means they destroy each other and produce energy in the form of [[photon]]s, otherwise known as [[electromagnetic wave]]s.
 
 > Annihilation converts the [[mass]] of the matter and antimatter into [[energy]].
 
@@ -18,4 +18,4 @@ The energy of the photons produced from the annihilation can be calculated using
 
 - $E$ is the [[energy]] of the photons produced
 - $m$ is the [[mass]] of the [[matter]] or [[antimatter]] that was annihilated
-- $c$ is the [[speed-of-electromagnetic-wave|speed of light]] in a vacuum. 
+- $c$ is the [[speed of electromagnetic wave|speed of light]] in a vacuum. 

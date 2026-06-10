@@ -1,6 +1,6 @@
 # Client
 
-A *client* is a computer that makes requests to a [server](/server) in order to
+A *client* is a computer that makes requests to a [[server]] in order to
 get a response.
 
 We can use that response to do things like:

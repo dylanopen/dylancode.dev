@@ -54,10 +54,10 @@ this.getLogger().info("Hello from the logger!");
 
 ## Thanks for watching!
 
-- Find more resources and videos at [dylancode.dev](https://dylancode.dev)
+- Find more resources and videos at [[https://dylancode.dev|dylancode.dev]]
 - Subscribe for more programming content!
 - Leave a comment if you have any questions about any topic you'd like to see covered.
-- Obsidian Development: commissions for custom plugins available at [dylancode.dev/commissions](https://dylancode.dev/commissions)
-- Talk to me on Discord: [dylancode.dev/discord](https://dylancode.dev/discord)
+- Obsidian Development: commissions for custom plugins available at [[https://dylancode.dev/commissions|dylancode.dev/commissions]]
+- Talk to me on Discord: [[https://dylancode.dev/discord|dylancode.dev/discord]]
 
 

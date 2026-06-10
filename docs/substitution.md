@@ -12,7 +12,7 @@ certain value.
    value - put this value inside brackets to avoid mistakes with negative
    numbers.
 2. Evaluate the expression by just calculating the expression as normal. Make
-   sure to follow the [order of operations](/order-of-operations).
+   sure to follow the [[order of operations]].
 
 ## Examples
 

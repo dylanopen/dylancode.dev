@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-indexmap = "2.13.0"
+indexmap = "2.14.0"
 pulldown-cmark = "0.13.1"
+regex = "1.12.4"
 walkdir = "2.5.0"

@@ -14,7 +14,7 @@ mob-spawn-range: 8
 
 The recommended starting value depends entirely on your server's spawn limits.
 
-This helpful table from [Paper chan](https://paper-chan.moe/paper-optimization/#spawn-limits) provides some great guidance. The below table is moderately
+This helpful table from [[https://paper chan.moe/paper optimization/#spawn limits|Paper chan]] provides some great guidance. The below table is moderately
 adapted from it:
 
 | Mob spawn limit | Recommended mob-spawn-range |

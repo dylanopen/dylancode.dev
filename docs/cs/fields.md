@@ -4,7 +4,7 @@ Any *useful* class contains *fields* - variables that hold data relevant to
 the class.
 
 For example, in the `Person` class declared in a
-[recent article](/cs/class-declaration), we have two fields: `name` and
+[[cs/class declaration|recent article]], we have two fields: `name` and
 `age`.
 
 ```csharp

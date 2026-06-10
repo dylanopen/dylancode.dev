@@ -18,7 +18,7 @@ stop:
     li a7, 10        # Load the exit system call number into register a7
     ecall            # Make the system call to exit the program
 </code></pre>
-<p><a href="https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%206%0A%20%20%20%20li%20x2%2C%207%0A%20%20%20%20mul%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Try it out in Creatorsim!</a></p>
+<p><a href="/https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&amp;asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%206%0A%20%20%20%20li%20x2%2C%207%0A%20%20%20%20mul%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall">Try it out in Creatorsim!</a></p>
 <p>The result:</p>
 <ul>
 <li><code>x3</code> will contain <code>42</code> (since <code>6 * 7 = 42</code>), or <code>2A</code> in hex!</li>

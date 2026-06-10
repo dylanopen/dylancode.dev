@@ -1,6 +1,6 @@
 # Byte
 
-A byte is simply **8 [bits](/bit)**.
+A byte is simply **8 [[bit|bits]]**.
 
 It's a term we use to make it easier to talk about larger amounts of data.
 

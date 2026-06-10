@@ -6,8 +6,8 @@
 The basic idea is that we take our original data, called *plaintext*, and we use
 a maths function, called an *encryption algorithm*, to transform that plaintext
 into a new form, called *ciphertext*, which is unreadable to anyone who doesn't
-have the key to [decrypt](/decryption) it.  
-Sometimes we call this encryption algorithm the [**cipher**](/cipher).
+have the key to [[decryption|decrypt]] it.  
+Sometimes we call this encryption algorithm the [[cipher|**cipher**]].
 
 > Importantly, only the intended recipient of the data should have the *key*
 > to decrypt it.

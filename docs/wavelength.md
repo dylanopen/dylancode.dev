@@ -27,5 +27,5 @@ $$
 
 Where:
 - $\lambda$ is the wavelength (in metres, $m$)
-- $v$ is the [speed of the wave](/wave-speed) (in metres per second, $m/s$)
-- $f$ is the [frequency](/wave-frequency) of the wave (in hertz, $Hz$)
+- $v$ is the [[wave speed|speed of the wave]] (in metres per second, $m/s$)
+- $f$ is the [[wave frequency|frequency]] of the wave (in hertz, $Hz$)

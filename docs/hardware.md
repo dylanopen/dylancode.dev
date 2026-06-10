@@ -17,7 +17,7 @@
 
 ## Running the software
 
-The [software](/software) is executed *by* the hardware. For example:
+The [[software]] is executed *by* the hardware. For example:
 - the CPU decodes and runs the instructions in our programs
 - it stores and fetches data from RAM
 - it reads and writes data to storage devices

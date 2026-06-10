@@ -39,7 +39,7 @@ stop:
     ecall
 ```
 
-[View in Creatorsim!](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++li%20x2%2C%203%0A++++sub%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
+[[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|View in Creatorsim!]]&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++li%20x2%2C%203%0A++++sub%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
 
 Once we run this code, the value in register `x3` will be `7`, or `07` in hex!
 
@@ -84,7 +84,7 @@ stop:
     ecall
 ```
 
-[View in Creatorsim!](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++addi%20x2%2C%20x1%2C%20-3%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
+[[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|View in Creatorsim!]]&asm=.text%0Amain%3A%0A++++li%20x1%2C%2010%0A++++addi%20x2%2C%20x1%2C%20-3%0A%0Astop%3A%0A++++li%20a7%2C%2010%0A++++ecall)
 
 As this code effectively does the same as the previous example, the value in
 register `x2` will also be `7` when running the code!

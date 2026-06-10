@@ -68,4 +68,4 @@ You shouldn't use comments to:
   maybe you can do that sometimes...)
 
 In general, I don't think you should write comments. Except in very rare
-circumstances. See [this video by CodeAesthetic](https://www.youtube.com/watch?v=Bf7vDBBOBUA).
+circumstances. See [[https://www.youtube.com/watch?v=Bf7vDBBOBUA|this video by CodeAesthetic]].

@@ -9,19 +9,19 @@ write my own!
 This guide would not have been possible without the work of some amazing
 people over the years. A huge thank you to:
 
-- The [PaperMC team](https://papermc.io/) for their incredible work on Paper,
+- The [[https://papermc.io/|PaperMC team]] for their incredible work on Paper,
   which is the only reason Minecraft servers can run beyond just a handful of
   online players.
-- [Aikar](https://aikar.co/) for his contributions to Minecraft server 
+- [[https://aikar.co/|Aikar]] for his contributions to Minecraft server 
   optimisation, mainly including Aikar's Flags and his work on Paper.
-- [SpigotMC](https://www.spigotmc.org/) for their work on Spigot, which created
+- [[https://www.spigotmc.org/|SpigotMC]] for their work on Spigot, which created
   the foundation for Paper and maintains the Bukkit API, making plugins
   possible.
-- [Spark](https://spark.lucko.me/) by Lucko for being an amazing profiling tool
+- [[https://spark.lucko.me/|Spark]] by Lucko for being an amazing profiling tool
   that helps server admins identify performance issues.
-- [Paper Chan](https://paper-chan.moe/paper-optimization) for its detailed
+- [[https://paper chan.moe/paper optimization|Paper Chan]] for its detailed
   explanation of various Paper configuration options.
-- [YouHaveTrouble](https://github.com/YouHaveTrouble/minecraft-optimization)
+- [[https://github.com/YouHaveTrouble/minecraft optimization|YouHaveTrouble]]
   for their optimisation guide, which served as inspiration for this guide.
 
 ## So what does this guide do differently?

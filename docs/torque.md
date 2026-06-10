@@ -5,7 +5,7 @@ A *torque* is when we have a *couple* acting on an object, to rotate it.
 It basically measures the *magnitude* of the turning effect (moment) caused by
 a couple.
 
-Because it's a rotation, it must have a [moment](/moment)!
+Because it's a rotation, it must have a [[moment]]!
 
 ## Calculating torque
 
@@ -39,7 +39,7 @@ Where:
 
 ## Units of torque
 
-Torque is just the combined [moment](/moment), so it's measured in the same way:
+Torque is just the combined [[moment]], so it's measured in the same way:
 using newton-metres.
 
 ## Calculations

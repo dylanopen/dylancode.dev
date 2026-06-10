@@ -1,6 +1,6 @@
 # Drag
 
-*Drag* is a type of resistive force just like [friction](/friction), but it acts
+*Drag* is a type of resistive force just like [[friction]], but it acts
 in a *fluid* (a gas or a liquid) rather than on a solid surface.
 
 The most common example is **air resistance**.

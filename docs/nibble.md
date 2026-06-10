@@ -1,6 +1,6 @@
 # Nibble
 
-A *nibble* is simply **4 [bits](/bit)**.
+A *nibble* is simply **4 [[bit|bits]]**.
 
 ## Number of values represented by nibbles
 

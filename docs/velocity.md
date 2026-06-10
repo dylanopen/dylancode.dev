@@ -3,7 +3,7 @@
 *Velocity* measures how much the *displacement* changes, every second.
 
 It measures the rate of change of displacement in a *specific direction*, so it
-is a [vector quantity](/vector-quantity).
+is a [[vector quantity]].
 
 ## Example
 

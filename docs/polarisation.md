@@ -1,10 +1,10 @@
 # Polarisation
 
-*Polarisation* is when we take an [*unpolarised* transverse wave](/polarised/wave)
+*Polarisation* is when we take an [[polarised/wave|*unpolarised* transverse wave]]
 and 'filter' it such that the oscillations (vibrations) only occur in a **single
 plane**.
 
-This can be useful, see [uses of polarisation](/uses-of-polarisation).
+This can be useful, see [[uses of polarisation]].
 
 ## How do we polarise waves?
 
@@ -23,9 +23,9 @@ direction) will be blocked.
 
 ## What waves can be polarised?
 
-We can **only** polarise [[transverse-wave]]s - not [[longitudinal-wave]]s.
+We can **only** polarise [[transverse wave]]s - not [[longitudinal wave]]s.
 
-That's because the [[wave-oscillation]]s of [[transverse-wave]]s can be *fixed to a plane* (direction) - but [[longitudinal-wave]]s can't.
+That's because the [[wave oscillation]]s of [[transverse wave]]s can be *fixed to a plane* (direction) - but [[longitudinal wave]]s can't.
 
 ## Polaroid
 

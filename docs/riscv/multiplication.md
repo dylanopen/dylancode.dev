@@ -28,7 +28,7 @@ stop:
     ecall            # Make the system call to exit the program
 ```
 
-[Try it out in Creatorsim!](https://creatorsim.github.io/creator/?architecture=RISC-V%20(RV32IMFD)&asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%206%0A%20%20%20%20li%20x2%2C%207%0A%20%20%20%20mul%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall)
+[[https://creatorsim.github.io/creator/?architecture=RISC V%20(RV32IMFD|Try it out in Creatorsim!]]&asm=.text%0Amain%3A%0A%20%20%20%20li%20x1%2C%206%0A%20%20%20%20li%20x2%2C%207%0A%20%20%20%20mul%20x3%2C%20x1%2C%20x2%0A%0Astop%3A%0A%20%20%20%20li%20a7%2C%2010%0A%20%20%20%20ecall)
 
 The result:
 - `x3` will contain `42` (since `6 * 7 = 42`), or `2A` in hex!

@@ -2,7 +2,7 @@
 
 *Speed* measures how much the *distance* changes, every second.
 
-It's not in any specific direction, so it's a [scalar quantity](/scalar-quantity).
+It's not in any specific direction, so it's a [[scalar quantity]].
 
 ## Example
 

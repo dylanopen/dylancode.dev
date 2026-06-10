@@ -23,7 +23,7 @@ careful. THe limit is there for a reason!
 
 ## Optimise explosions
 
-Paper has a setting called [optimize-explosions](/minecraft/paper-world/optimize-explosions).
+Paper has a setting called [[minecraft/paper world/optimize explosions|optimize-explosions]].
 
 It basically replaces Minecraft's slow explosion algorithm with a faster one
 that can handle more explosions at once.
