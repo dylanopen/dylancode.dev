@@ -703,7 +703,7 @@
             - [[von neumann architecture]]
             - [[harvard architecture]]
             - [[addressable memory]]
-        - [[fetch execute cycle]]
+        - [[fetch-execute cycle]]
             - [[fetch execute cycle registers]]
         - [[processor components]]
             - [[arithmetic logic unit]]

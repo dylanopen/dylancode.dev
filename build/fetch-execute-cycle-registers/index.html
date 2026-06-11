@@ -18,6 +18,15 @@
 </ul>
 </li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>In the <a href="/fetch-execute-cycle">fetch-execute cycle</a>, what do we do first with the <a href="/program-counter">program counter</a>?</td><td>Copy its value into the <a href="/memory-address-register">memory address register</a>.</td></tr>
+<tr><td>What do we do <em>to</em> the program counter near the end of the <strong>fetch</strong> stage?</td><td>Increment its value</td></tr>
+<tr><td>Why do we increment the value of the program counter after the fetch stage?</td><td>So that it points to the <a href="/memory-address">memory address</a> of the next instruction to be executed.</td></tr>
+<tr><td>What does the processor do after the value in the <a href="/program-counter">program counter</a> is copied into the <a href="/memory-address-register">memory address register</a>?</td><td>Fetches the data at that <a href="/memory-address">memory address</a>, stores the instruction first in the <a href="/memory-buffer-register">memory buffer register</a>, then copies that register to the <a href="/current-instruction-register">current instruction register</a>.</td></tr>
+<tr><td>During the execute stage, what does the processor use the <a href="/memory-address-register">memory address register</a> for?</td><td>To hold the <strong>address</strong> of memory it wants to read from or write to</td></tr>
+<tr><td>During the execute stage, what does the processor use the <a href="/memory-buffer-register">memory buffer register</a> for?</td><td>To hold the <strong>data</strong> that it reads from memory or wants to write to memory.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

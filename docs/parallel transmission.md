@@ -13,13 +13,12 @@ this isn't always the case, as you'll see.
 
 ## Disadvantages of parallel transmission
 
-The main disadvantages of parallel transmission compared to [[[[serial transmission]]|serial
-transmission]] are that:
+The main disadvantages of parallel transmission compared to [[serial transmission]] are that:
 - It's more expensive to implement as it requires multiple wires (and
   connectors, etc).
 - It's less reliable as there is more chance of interference between the wires
   (called [[crosstalk]]).
-- It can only be used over [[short]] distances as the signal is more likely to degrade
+- It can only be used over short distances as the signal is more likely to degrade
   over multiple wires.
 - It can be slower than [[serial transmission]], as the wires can only be run at a
   lower frequency without interference.
@@ -29,10 +28,11 @@ transmission]] are that:
 
 ## Examples of parallel transmission
 
-The main examples are the internal data buses in a computer.
+The main examples are the internal data [[computer bus|buses]] in a computer.
 
 For example, modern computers are *64 [[bit]]*, which means that each [[data bus]] can
 carry 64 bits at a time.
+- Technically there is a difference between the bus size and the 
 
 That means that there are actually 64 tiny wires on the motherboard, which can
 carry signals of 64 bits (or 8 bytes) at a time from/to the CPU and the

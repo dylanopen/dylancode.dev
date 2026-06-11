@@ -48,3 +48,12 @@ derivative to find the *type* of stationary point:
 - Evaluate the [[second derivative]] at the [[stationary point]]:
   - At $x = 0$: $\frac{d^2y}{dx^2} = 12(0)^2 - 24(0) + 12 = 12$ (greater than 0) -> Local minimum at (0, 0)
 - **Answer**: Local minimum at (0, 0)
+
+## [[flashcards]]
+
+| Question                                                                                                      | Answer                                 |
+| ------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| If the [[second derivative]] at a [[stationary point]] is 0, what may we know about that point?               | It *may* be a [[point of inflection]]. |
+| If the [[second derivative]] at a [[stationary point]] is *greater* than 0, what do we know about that point? | It is a [[local minimum]].             |
+| If the [[second derivative]] at a [[stationary point]] is *less* than 0, what do we know about that point?    | It is a [[local maximum]].             |
+| What do we need to find to classify a stationary point?                                                       | Its [[second derivative]].             |

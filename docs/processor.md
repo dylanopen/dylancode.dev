@@ -9,7 +9,7 @@ components what to do.
 ## Role of the processor
 
 - Executing the instructions of a program
-  - It does this with the [[fetch execute cycle|fetch-decode-execute cycle]]
+  - It does this with the [[fetch-execute cycle|fetch-decode-execute cycle]]
 - Managing the resources of the computer
 - Handling user input, from the keyboard, mouse, etc.
 - It basically connects all the other components together, and makes sure they

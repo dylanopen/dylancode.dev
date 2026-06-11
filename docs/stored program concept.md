@@ -7,7 +7,7 @@ There are two main types of computer systems:
 General-purpose computers are designed to be able to run loads of different things - depending on the programs we install and run on them. Because they *store* a *program* which they run, we often call these *stored program computers*.
 
 > In a stored program computer, instructions are stored in [[main memory]].  
-> Instructions are [[fetch execute cycle|fetched, decoded and executed]] one-by-one ([[serial]]ly) by the [[processor]].  
+> Instructions are [[fetch-execute cycle|fetched, decoded and executed]] one-by-one ([[serial]]ly) by the [[processor]].  
 > Programs can be moved in and out of [[main memory]].
 
 ## Types of stored program architecture
