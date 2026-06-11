@@ -21,3 +21,11 @@ $$
 \sin \theta & \cos \theta
 \end{pmatrix}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the centre of rotation for all matrix transformations? | $(0,0)$, because matrix transformations must keep the origin at the origin. |
+| What matrix represents an anticlockwise rotation by $\theta$ degrees about the origin? | $\begin{pmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \end{pmatrix}$ |
+

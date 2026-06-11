@@ -39,3 +39,19 @@ Similarly:
 If The [[speed]] of an EM wave changes, then the `[[wavelength]]` changes.
 
 The frequency doesn't change.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the speed of an electromagnetic wave in a vacuum? | $3.00 \times 10^8 \text{ ms}^{-1}$ |
+| What equation links wavelength ($\lambda$), frequency ($f$), and velocity ($v$) of a wave? | $v = f \lambda$ |
+| How do you rearrange $v = f \lambda$ to find frequency? | $f = \frac{v}{\lambda}$ |
+| How do you rearrange $v = f \lambda$ to find wavelength? | $\lambda = \frac{v}{f}$ |
+| If the velocity of an EM wave is constant and the wavelength increases, what happens to frequency? | The frequency decreases. |
+| If the velocity is constant and the wavelength decreases, what happens to frequency? | The frequency increases. |
+| If the frequency of an EM wave increases while velocity is constant, what happens to wavelength? | The wavelength decreases. |
+| If the frequency of an EM wave decreases while velocity is constant, what happens to wavelength? | The wavelength increases. |
+| If the speed of an EM wave changes, which property (wavelength or frequency) changes? | Wavelength. |
+| If the speed of an EM wave changes, which property (wavelength or frequency) stays constant? | The frequency does not change. |
+

@@ -13,3 +13,11 @@ $$
 
 We can prove that like this:
 - $\\vec{AB}=
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the position vector of the midpoint $M$ of $A$ and $B$, given position vectors $\vec a$ and $\vec b$? | $\vec{OM}=\frac12(\vec a+\vec b)$ |
+| How can you prove the midpoint vector formula $\vec{OM}=\frac12(\vec a+\vec b)$? | Start with $\\vec{AB}=$ (the provided document cuts off, so the full proof is not given; the formula is stated as proven). |
+

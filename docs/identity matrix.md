@@ -25,3 +25,14 @@ The identity matrix for *[[multiplication]]* is a matrix where all the elements 
 This is generally what people are talking about when they say 'the identity matrix', and we write it as $\mathbf{I}$.
 
 > See [[matrix multiplication identity]] for more details on the identity for [[matrix multiplication]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an identity matrix for a specific operation? | A matrix that, when combined with a compatible matrix using that operation, leaves the other matrix unchanged. |
+| If $\mathbf{A}$ and $\mathbf{I}$ are compatible, what are the equations for an identity for an operation $\oplus$? | $\mathbf{A} \oplus \mathbf{I} = \mathbf{A}$ and $\mathbf{I} \oplus \mathbf{A} = \mathbf{A}$. |
+| What is the identity matrix for addition? | The zero matrix, a matrix where all elements are zero. |
+| When people say "the identity matrix" without qualification, which operation are they usually referring to? | [[Matrix multiplication]]. |
+| What are the characteristics of the identity matrix for multiplication? | A matrix where all elements on the leading diagonal are 1, and all other elements are 0. |
+

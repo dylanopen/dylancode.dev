@@ -38,3 +38,16 @@ The [[bit]] depth is the number of bits we use to store each sample.
 For example, CD quality audio has a [[bit]] depth of 16 bits. That means that each
 sample is stored using 16 bits, which allows us to represent 2^16 = 65,536
 different values for each sample.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the definition of sampling an analogue signal? | Taking measurements of the analogue signal at regular intervals. |
+| What determines how frequently we measure an analogue signal during sampling? | The sample rate, which is the number of samples taken per second. |
+| What is the sample rate for CD quality audio? | 44,100 samples per second. |
+| What happens to storage space if we take more samples per second? | It takes up more storage space. |
+| How does using more bits per sample affect the digital signal? | It allows representing more values, giving a better approximation, but takes up more storage space. |
+| What is the bit depth of CD quality audio and how many values can it represent? | 16 bits, allowing $2^{16} = 65,536$ different values per sample. |
+| What are three factors that can improve the quality of a sampled digital signal? | Higher sample rate, higher bit depth, and a better conversion algorithm. |
+

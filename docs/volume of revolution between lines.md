@@ -38,3 +38,16 @@ Where:
   to make sure that $f(x) \geq g(x)$ for all $x$ in the interval you're
   interested in, otherwise you'll get a negative volume, which doesn't make
   sense!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for the volume of revolution about the $x$-axis of the area between $y=f(x)$ (upper) and $y=g(x)$ (lower)? | $V = \pi \int_a^b (f(x)^2 - g(x)^2) \, dx$ |
+| What must be true about $f(x)$ and $g(x)$ for all $x$ in the interval of interest to ensure a positive volume? | $f(x) \geq g(x)$ (the upper curve must be further from the $x$-axis) |
+| What is one method of finding the volume of revolution of the area between two curves, apart from the formula? | Find the volume of revolution under $y=f(x)$ and subtract the volume of revolution under $y=g(x)$. |
+| What is a common mistake regarding the order of operations for squaring and integrating in the formula? | You cannot square the whole integral; you must square the functions first, then integrate the difference of the squares. |
+| What is the mistake of integrating the difference of functions first and then squaring the result? | You must square the functions first, then integrate the difference of the squares. You cannot integrate $(f(x)-g(x))$ and then square the integral. |
+| What component of the formula is commonly forgotten? | Multiplying by $\pi$ at the end. |
+| What happens if you subtract the smaller function from the larger function in the wrong order? | You will get a negative volume, which does not make sense. |
+

@@ -34,3 +34,15 @@ The average [[acceleration]] between two points in time is the change in [[veloc
 
 We can find this by finding the [[velocity]] at each of those times, and then using the normal [[acceleration|acceleration formula]] to find the average
 [[acceleration]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is shown on a velocity-time graph? | The velocity of an object on the y-axis and time on the x-axis, showing how fast an object is moving and in which direction over a period of time. |
+| How do you find displacement from a velocity-time graph? | The displacement is the area under the graph between those times. |
+| How can you calculate the area under a velocity-time graph? | Using integration if the equation is known, or by drawing triangles, rectangles, or trapeziums to estimate the area. |
+| How do you find the velocity at a specific time from a velocity-time graph? | The velocity is the value of the graph at that time, read directly off the graph. |
+| How do you find the acceleration at a specific time from a velocity-time graph? | The acceleration is the gradient of the graph at that time, found by drawing a tangent and finding its gradient, or by differentiation if an equation is known. |
+| How do you find the average acceleration between two points in time? | The average acceleration is the change in velocity divided by the change in time, using the acceleration formula. |
+

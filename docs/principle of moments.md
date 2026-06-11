@@ -44,3 +44,13 @@ That's the principle of moments!
   - $3d_p=d_c$
 - That shows us that the child needs to sit *3 times further* from the pivot in
 order for the seesaw to balance!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the principle of moments? | If an object is in equilibrium (balanced and not moving), the sum of its anticlockwise moments is equal to the sum of its clockwise moments. |
+| An object with a clockwise moment of $8Nm$ is in equilibrium. What is its anticlockwise moment? | Anticlockwise moment = $8Nm$ |
+| A force of 8N acts clockwise 2m away from the pivot. Find the anticlockwise moment. | $M_{clockwise}=8\times2=16Nm$<br/>Anticlockwise moment = clockwise moment = $16Nm$ |
+| A parent of weight 600N sits on a seesaw with their child of weight 200N. How many times further should the child sit from the pivot, compared to the parent, so that the seesaw balances? | The child needs to sit 3 times further from the pivot. |
+

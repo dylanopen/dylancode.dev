@@ -47,3 +47,14 @@ immediately factorable using simple methods. But if we know one of the roots,
 we also know a factor, which then makes this much easier to factorise.
 
 We cover that in the [[polynomial division]] section.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| If $f(x)$ is a polynomial and $f(c) = 0$ for some constant $c$, then $(x - c)$ is a factor of the polynomial $f(x)$. | The factor theorem states that: If $f(x)$ is a polynomial and $f(c) = 0$ for some constant $c$, then $(x - c)$ is a factor of the polynomial $f(x)$. |
+| How is the factor theorem written in notation? | If $f(a)=0$, then $(x-a)$ is a factor of $f(x)$. |
+| Given that $(x-3)$ is a factor of $f(x)$, what is a root of $f(x)=0$? | The factor theorem states if $(x-3)$ is a factor, then $f(3)=0$, so $3$ is a root of $f(x)=0$. |
+| Using the factor theorem, find the two roots of $f(x) = x^2 - x - 6$. | Factorise to $(x-3)(x+2)$. Since $(x-3)$ is a factor, $f(3)=0$, and since $(x+2)$ is a factor, $f(-2)=0$. The roots are $x=3$ and $x=-2$. |
+| How can the factor theorem be used to help factorise complex polynomials like a cubic? | If one root is known, then a factor is known, simplifying factorisation (often using polynomial division). |
+

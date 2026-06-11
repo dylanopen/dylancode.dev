@@ -68,3 +68,14 @@ derivative).
 > Note that, for higher-order derivatives of expressions, we write the [[power]]
 > after the $d$ (e.g. $d^2y$) in the numerator, and after the $x$ (e.g. $dx^2$)
 > in the denominator. This is just something you need to remember.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| f'(x) | The derivative of a function $f(x)$. |
+| dy/dx (expression) | The derivative of the expression $y$ with respect to $x$. |
+| How do you write the second derivative of a function $g(x)$? | $g''(x)$ |
+| How do you write the third derivative of an expression for $y$ with respect to $x$? | $\frac{d^3y}{dx^3}$ |
+| Where does the power go for higher-order derivative notation of an expression? | The power goes after the $d$ in the numerator (e.g., $d^2y$) and after the $x$ in the denominator (e.g., $dx^2$). |
+

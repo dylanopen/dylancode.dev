@@ -18,3 +18,12 @@ If we use *very narrow* fibres, the difference in [[distance]] between the diffe
 possible routes (angles) is smaller, so this becomes less of an issue.
 
 > In [[short]], the solution is to use narrow fibres.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is modal dispersion in a fibre-optic cable? | When light takes different lengths of time to arrive depending on the angle it is shone through the cable at. |
+| Why does a greater angle of incidence (closer to the normal) cause a longer travel time in a fibre? | The light will bounce more times and travel a further total distance; since $\text{time}=\text{distance}\div\text{speed}$, the time taken increases. |
+| What is the solution to reduce modal dispersion? | Use very narrow fibres, because the difference in distance between the different possible routes (angles) is smaller. |
+

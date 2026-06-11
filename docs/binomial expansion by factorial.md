@@ -36,3 +36,14 @@ $$
 - $= \frac{5!}{0!(5-0)!} \times (2)^5 + \frac{5!}{1!(5-1)!} \times (2)^4 \times x + \frac{5!}{2!(5-2)!} \times (2)^3 \times x^2 + ...$
 - $= 1 \times 32 + 5 \times 16 \times x + 10 \times 8 \times x^2 + ...$
 - $= 32 + 80x + 80x^2 + ...$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the factorial formula for finding $^nC_r$? | $^nC_r = \frac{n!}{r!(n-r)!}$ |
+| Prove that $^5C_2 = 10$ using the factorial formula. | $^5C_2 = \frac{5!}{2!(5-2)!} = \frac{5!}{2! \times 3!} = \frac{5 \times 4 \times 3!}{2 \times 1 \times 3!} = \frac{20}{2} = 10$ |
+| Expand $(1+x)^4$ using factorials. | $(1+x)^4 = 1 + 4x + 6x^2 + 4x^3 + x^4$ |
+| How do you find the first 3 terms of $(2+x)^5$ using factorials? | $(2+x)^5 = 32 + 80x + 80x^2 + ...$ |
+| What is the term for $^4C_2 (1)^2 (x)^2$ in $(1+x)^4$ expressed in factorial form? | $\frac{4!}{2!(4-2)!} \times x^2 = 6x^2$ |
+

@@ -87,3 +87,20 @@ $$
   - $y = -1x - 1$
   - $y = -x - 1$
 - **Answer**: $y = -x - 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you find the gradient of the tangent to a curve at a specific point? | Differentiate the function to get its derivative, then substitute the x-coordinate of the point into the derivative. |
+| What is the derivative of $f(x) = x^3 - 2x + 1$? | $f'(x) = 3x^2 - 2$ |
+| What is the gradient of the tangent to $f(x) = x^3 - 2x + 1$ at $x = 2$? | $10$ |
+| How do you find the y-coordinate of the point where the tangent touches the curve? | Substitute the x-coordinate into the original function $f(x)$. |
+| What is the point of tangency for $f(x) = x^3 - 2x + 1$ at $x = 2$? | $(2, 5)$ |
+| What formula is used to find the full equation of the tangent given gradient $m$ and a point $(x_1, y_1)$? | $y = mx + c$, where $c$ is found by substituting the point. |
+| What is the equation of the tangent to $f(x) = x^3 - 2x + 1$ at $x = 2$? | $y = 10x - 15$ |
+| What is the derivative of $f(x) = 2x^2 + 3x + 1$? | $f'(x) = 4x + 3$ |
+| What is the gradient of the tangent to $f(x) = 2x^2 + 3x + 1$ at $x = -1$? | $-1$ |
+| What is the point of tangency for $f(x) = 2x^2 + 3x + 1$ at $x = -1$? | $(-1, 0)$ |
+| What is the equation of the tangent to $f(x) = 2x^2 + 3x + 1$ at $x = -1$? | $y = -x - 1$ |
+

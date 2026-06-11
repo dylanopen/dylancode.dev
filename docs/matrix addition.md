@@ -39,3 +39,15 @@ To add matrices, simply add up the corresponding elements from each matrix.
 - Matrix addition is **associative**.
 - We can group matrices in any way when adding:
   - $(\mathbf{A} + \mathbf{B}) + \mathbf{C} = \mathbf{A} + (\mathbf{B} + \mathbf{C})$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the requirement for adding two matrices? | They must have the same order (i.e., the same number of rows and columns). |
+| How do you add two matrices together? | Add the corresponding elements from each matrix. |
+| Find $\mathbf{A} + \mathbf{B}$ where $A=\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and $B=\begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$ | $\begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$ |
+| Find $\mathbf{C} + \mathbf{D}$ where $C=\begin{bmatrix} 2 & 4 & 6 \\ 8 & 10 & 12 \end{bmatrix}$ and $D=\begin{bmatrix} 1 & 3 & 5 \\ 7 & 9 & 11 \end{bmatrix}$ | $\begin{bmatrix} 3 & 7 & 11 \\ 15 & 19 & 23 \end{bmatrix}$ |
+| Is matrix addition commutative? | Yes, $\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$. |
+| Is matrix addition associative? | Yes, $(\mathbf{A} + \mathbf{B}) + \mathbf{C} = \mathbf{A} + (\mathbf{B} + \mathbf{C})$. |
+

@@ -198,3 +198,33 @@ $5(21)+341=105+341=446$ (arbitrary units).
 You need to consider this in linear programming problems where the values are
 not [[integers]]. In exams, it is unlikely that you will be given a problem where
 this can happen, but it is worth being aware of.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| In which area of mathematics is Linear Programming? | It is part of Discrete Mathematics. |
+| What are the two drink types in the introductory example? | Energy drink ($£1$ per litre) and refresher drink ($£0.80$ per litre). |
+| What does $x$ represent in the introductory example? | The litres of energy drink that can be produced. |
+| What does $y$ represent in the introductory example? | The litres of refresher drink that can be produced. |
+| What are the five constraints for the drink factory? | $x+y\le1000$<br/>$2x+y\le1500$<br/>$6x+4y\le4800$<br/>$x\ge0$<br/>$y\ge0$ |
+| What is the objective function for the drink factory? | $x+0.8y$ |
+| What is the maximum profit in the drink factory example? | £880 |
+| At what point (x, y) is the maximum profit achieved? | B: $x=400$, $y=600$ |
+| What are the two toy types in the second example? | A bicycle and a truck. |
+| What are the two machine constraints in the toy factory? | $2x+y\le16$ (lathe)<br/>$2x+3y\le24$ (assembler) |
+| What is the objective function for the toy factory? | $P=16x+14y$ |
+| What does $L$ represent in the wall example? | The number of large bricks used. |
+| What does $S$ represent in the wall example? | The number of small bricks used. |
+| Why does the constraint $4L+S\ge60000$ work for the wall? | Each large brick has 4 times the face area of a small brick.<br/>Total wall area is $300m^2$.<br/>$0.02L+0.005S\ge300$ becomes $4L+S\ge60000$ when multiplied by 200. |
+| What is the mortar constraint for the wall? | $0.5L+0.25S\le10000$ (simplifies to $2L+S\le40000$) |
+| What is the objective function for minimising cost of the wall? | $C=0.25L+0.05S$ |
+| What is the cheapest way to build the wall and what does it cost? | Use 10000 large bricks and 20000 small bricks, costing £3500. |
+| What does $x$ represent in the landscaping example? | The number of trees planted. |
+| What does $y$ represent in the landscaping example? | The number of shrubs planted. |
+| What is the objective function for the landscaping example? | Maximise $5x+y$. |
+| What are the constraints for the landscaping example? | $x\ge0$<br/>$y\ge75$<br/>$30x+4y\le2000$ (space)<br/>$30x+9y\le3700$ (budget) |
+| What is the maximum environmental benefit before checking rounding? | 445 (arbitrary units) with 21 trees and 340 shrubs. |
+| After rounding, how is the optimal solution improved? | With 21 trees, budget allows 341 shrubs, increasing benefit to 446. |
+| Why must you check solutions after rounding in linear programming? | Rounding down may leave resources to include more of another variable, improving the solution. |
+

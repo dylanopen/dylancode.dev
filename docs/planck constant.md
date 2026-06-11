@@ -19,3 +19,16 @@ The units of the Planck constant are **joule seconds (Js)**, which is energy mul
 - The energy of a [[photon]] is measured in joules (J).
 - The frequency of a [[photon]] is measured in hertz (Hz), which is the same as $s^{-1}$ (because it's the number of waves per second).
 - Rearranging the equation to find the Planck constant gives us $h = \frac{E}{f}$, which is $\frac{J}{s^{-1}}$, which is the same as $Js$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the Planck constant? | $h=6.63 \times 10^{-34}\,\,Js$ |
+| What is the symbol for the Planck constant? | $h$ |
+| What equation relates the energy of a photon to its frequency? | $E = hf$ |
+| What is the photoelectric equation? | $E_{kmax} = hf - \phi$ |
+| What equation links threshold frequency and work function? | $\phi = hf_0$ |
+| What are the units of the Planck constant? | **joule seconds (Js)** |
+| How can you derive the units of the Planck constant from $E = hf$? | $h = \frac{E}{f}$, so units are $\frac{J}{s^{-1}} = Js$ |
+

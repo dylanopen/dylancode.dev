@@ -9,3 +9,13 @@ To solve these problems, we can just **scale the [[mean]]** up/down to the new, 
 For our example, if we know that the [[mean]] number of cars that pass through a junction in 1 hour is 10, then the [[mean]] number of cars that pass through in 30 minutes is just half of that, so an average of 5 cars per 30 minutes.
 
 We **can't** scale our value of $x$ up/down. So if we wanted to find the probability of $3$ cars passing in 30 minutes, we can't scale $3/30min$ up to $6/1hr$. We need to keep $x$ as $3$ and just scale the [[mean]] down to $5$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What happens when you need to compare Poisson distribution quantities for different time periods? | Scale the mean up or down to the new time period; do not scale the value of $x$. |
+| If the mean number of cars is 10 per hour, what is the mean for 30 minutes? | 5 cars per 30 minutes. |
+| When solving a Poisson problem for a different time interval, can you scale the value of $x$? | No, you cannot scale $x$. Only scale the mean. |
+| To find the probability of 3 cars in 30 minutes when the mean is 10 per hour, what are the correct parameters? | Keep $x = 3$ and scale the mean down to $\lambda = 5$. |
+

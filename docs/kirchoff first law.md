@@ -27,3 +27,14 @@ Kirchoff's first law can also be expressed as:
 $$
 \sum I_{in} - \sum I_{out} = 0
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is Kirchhoff's first law? | The sum of currents entering a junction equals the sum of currents leaving the junction. |
+| Why does Kirchhoff's first law hold? | It is due to the conservation of charge; charge cannot be created or destroyed. |
+| How is Kirchhoff's first law written mathematically? | $\sum I_{in} = \sum I_{out}$ |
+| At a junction, two currents of $3A$ and $5A$ enter, and one current leaves. What is the value of the leaving current? | The leaving current is $8A$ because $3A + 5A = 8A$ (sum of currents in equals sum of currents out). |
+| What is the alternative expression of Kirchhoff's first law? | $\sum I_{in} - \sum I_{out} = 0$ (the sum of all currents at a junction is zero). |
+

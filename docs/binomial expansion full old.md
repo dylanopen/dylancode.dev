@@ -87,3 +87,21 @@ $$
 $$
 \pmatrix{n\\1}=\pmatrix{n\\n-1}=n
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the expanded form of $(a+b)^3$? | $a^3+3a^2b+3ab^2+b^3$ |
+| What is the expanded form of $(a+b)^6$? | $a^6+6a^5b+15a^4b^2+20a^3b^3+15a^2b^4+6ab^5+b^6$ |
+| What does each row of Pascal's triangle represent? | The coefficients in a binomial expansion, such as $(a+b)^n$, correspond to the row $n$ of Pascal's triangle. |
+| How do you write the coefficient at row $r$ and column $c$ of Pascal's triangle? | $^rC_c$ |
+| How do you find the coefficient of the $b^3$ term in $(a+b)^6$ using a calculator? | Evaluate $^6C_3$ which equals $20$. |
+| What is the formula for $^nC_r$ using factorials? | $^nC_r = \frac{n!}{r!(n-r)!}$ |
+| What is the general formula for the binomial expansion of $(a+b)^n$? | $(a+b)^n = {^nC_0 a^n b^0} + {^nC_1 a^{n-1} b^1} + {^nC_2 a^{n-2} b^2} + ... + {^nC_n a^0 b^n}$ |
+| What is the expanded form of $(2+x)^4$? | $16 + 32x + 24x^2 + 8x^3 + x^4$ |
+| What is the expanded form of $(1+2x)^6$? | $1 + 12x + 60x^2 + 160x^3 + 240x^4 + 192x^5 + 64x^6$ |
+| What are the two standard notations for the number of combinations of choosing $r$ items from $n$? | $^nC_r$ and $\pmatrix{n\\r}$. |
+| What is the value of $\pmatrix{n\\0}$ and $\pmatrix{n\\n}$? | $1$ |
+| What is the value of $\pmatrix{n\\1}$ and $\pmatrix{n\\n-1}$? | $n$ |
+

@@ -136,3 +136,21 @@ the transformations originally.
 $$
 (X)(X)^{-1} = I
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What is a translation? Why is it not a matrix transformation? | A translation moves points by a fixed vector; it does not keep the origin fixed, so it is not a matrix transformation. |
+| How do you combine two matrix transformations (e.g., matrix $A$ then matrix $B$)? | Multiply the matrices in reverse order: $BA$. |
+| Find the single matrix for a 90° clockwise rotation followed by a reflection in the line $y=x$. | 90° clockwise rotation: $\pmatrix{0 & 1\\-1 & 0}$, reflection in $y=x$: $\pmatrix{0 & 1\\1 & 0}$. Multiply in reverse: $\pmatrix{0 & 1\\1 & 0}\pmatrix{0 & 1\\-1 & 0} = \pmatrix{-1 & 0\\0 & 1}$. |
+| What is a linear transformation? | A 2D transformation that keeps straight edges straight. It can be written as $\pmatrix{x\\y} \to \pmatrix{...\\...}$ or as matrix multiplication $\pmatrix{a & b\\c & d}\pmatrix{x\\y} = \pmatrix{ax+by\\cx+dy}$. |
+| Find the matrix that maps $\pmatrix{x\\y}$ to $\pmatrix{2y+x\\3x}$. | Solve $ax+by=2y+x \Rightarrow a=1, b=2$; $cx+dy=3x \Rightarrow c=3, d=0$. Matrix: $\pmatrix{1 & 2\\3 & 0}$. |
+| Find the matrix that maps $\pmatrix{x\\y}$ to $\pmatrix{2y+x\\3x+y}$. | Solve $ax+by=2y+x \Rightarrow a=1, b=2$; $cx+dy=3x+y \Rightarrow c=3, d=1$. Matrix: $\pmatrix{1 & 2\\3 & 1}$. |
+| Find the coordinates of points $(1,1)$, $(3,1)$, $(3,3)$, $(1,3)$ after transformation by matrix $\pmatrix{-1 & 2\\2 & 1}$. | Write points as columns: $\pmatrix{1&3&3&1\\1&1&3&3}$. Multiply: $\pmatrix{-1 & 2\\2 & 1}\pmatrix{1&3&3&1\\1&1&3&3} = \pmatrix{1&-1&3&5\\3&7&9&5}$. Coordinates: $(1,3)$, $(-1,7)$, $(3,9)$, $(5,5)$. |
+| What does the determinant of a transformation matrix represent? | The area scale factor of the transformation. |
+| What does a determinant of $1$ or $-1$ mean for a transformation? | The size of the shape does not change. $1$ means orientation is kept (e.g., rotation), $-1$ means orientation changes (e.g., reflection). |
+| What happens if the transformation matrix is singular (determinant $0$)? | The image has no area, e.g., a line or a single point (like $\pmatrix{0 & 0\\0 & 0}$). |
+| What is a self-inverse matrix transformation? | A transformation that is its own inverse; pre-multiplying by its inverse reverses the transformation, requiring inverse operations in opposite order: $(X)(X)^{-1}=I$. |
+

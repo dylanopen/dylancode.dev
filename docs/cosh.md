@@ -21,3 +21,12 @@ $$
 $$
 \cosh=\frac{\sinh}{\tanh}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $\cosh$ (hyperbolic cosine) | $\cosh x = \frac{e^x + e^{-x}}{2}$\ |
+| What is the pronunciation of $\cosh$? | It is pronounced 'cosh' (as it is spelt).\ |
+| How do you find $\cosh$ from $\tanh$? | Using $\tanh = \frac{\sinh}{\cosh}$, we deduce $\cosh = \frac{\sinh}{\tanh}$. |
+

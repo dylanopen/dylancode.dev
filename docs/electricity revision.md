@@ -383,3 +383,61 @@ divider.
 
 It is not very efficient, but it allows us to get the *full [[range]]* of EMFs
 (from 0V to the maximum [[voltage]]).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the definition of electric current? | The rate of flow of electric charge. |
+| What is the equation linking charge, current and time? | $Q = I t$ |
+| What is the unit of electric charge and its symbol? | Coulomb, C |
+| What is the unit of electric current and its symbol? | Ampere, A |
+| What is the equation linking current, potential difference and resistance? | $V = I R$ |
+| What is the unit of potential difference and its symbol? | Volt, V |
+| What is the unit of resistance and its symbol? | Ohm, $\Omega$ |
+| Define 1 coulomb of charge. | The charge that flows past a point in 1 second when there is a current of 1 amp (an 'amp-second'). |
+| What equation links charge and the number of electrons? | $Q = n e$ |
+| How many electrons are in 1 coulomb of charge? | $6.25 \times 10^{18}$ |
+| In a series circuit, what is the rule for current? | The current is the same everywhere. |
+| In a series circuit, what is the rule for potential difference? | The potential difference is shared between the components. |
+| In a parallel circuit, what is the rule for current? | The current is shared between the branches. |
+| In a parallel circuit, what is the rule for potential difference? | The potential difference is the same across all branches. |
+| Define potential difference (p.d.). | The energy transferred *by* 1 coulomb of charge, across a component. |
+| Define electromotive force (EMF). | The energy transferred *to* 1 coulomb of charge, **by a power source** (i.e. a cell or a battery). |
+| What equation links energy, charge and potential difference? | $E = Q V$ (or $W= Q V$) |
+| What is a joule the unit of? | Energy transferred |
+| State Ohm's law. | The current through a conductor at a constant temperature is directly proportional to the potential difference across the conductor. |
+| What does the I-V graph for a fixed resistor look like? | A straight line through the origin. |
+| What does the I-V graph for a fixed resistor show? | The current is directly proportional to the voltage, so the resistor obeys Ohm's law. |
+| Describe the I-V graph for a filament lamp. | A curve that gets shallower as voltage increases. |
+| What does the I-V graph for a filament lamp show? | As the voltage increases, the current increases at a decreasing rate, so it does not obey Ohm's law. |
+| Why does the current not increase as much as the p.d. gets higher in a filament lamp? | The filament gets hotter, so its resistance increases, meaning less current can flow for a given p.d. |
+| Why do hotter filaments have a higher resistance? | 1. At higher temperatures, the atoms in the metal vibrate more.<br/>2. This makes it more difficult for electrons to pass through, because the metal ions collide more frequently with the electrons.<br/>3. This means that the resistance increases. |
+| Describe the negative-voltage region of an I-V graph for a diode. | The current is *almost* zero because the resistance is very high in the opposite direction. |
+| What happens in the positive voltage region of a diode's I-V graph *below* the threshold voltage? | The current is almost zero because diodes have a very high resistance below around 0.6V. |
+| What happens in the positive voltage region of a diode's I-V graph *above* the threshold voltage? | The current increases rapidly as the voltage increases because diodes have a very low resistance above around 0.6V. |
+| How does temperature affect the resistance of a thermistor? | The resistance *decreases* as the temperature increases. |
+| How does light intensity affect the resistance of an LDR? | The resistance *decreases* as the light intensity increases. |
+| What is the equation for resistors in series? | $R_{total} = R_1 + R_2 + R_3 + ...$ |
+| What happens to the total resistance when resistors are placed in parallel? | The total resistance decreases because the current has more paths to take. |
+| What is the equation for resistors in parallel? | $\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + ...$ (or $R_{total} = 1\div(\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + ...)$) |
+| What is the equation for resistivity? | $R = ρ \frac{L}{A}$ |
+| What are the units of resistivity? | Ohm metre ($\Omega$ m) |
+| What three factors affect the resistance of a wire? | Length, cross-sectional area, and the material's resistivity. |
+| How does length affect resistance? | The longer the wire, the higher the resistance (directly proportional). |
+| How does cross-sectional area affect resistance? | The larger the cross-sectional area, the lower the resistance (inversely proportional). |
+| How do you calculate the cross-sectional area of a wire? | 1. Find the diameter.<br/>2. Calculate the radius: $r = \frac{d}{2}$<br/>3. Calculate the area using: $A = \pi r^2$ |
+| Define electrical power. | The rate of transfer of electrical energy. |
+| What is the equation linking power, current and potential difference? | $P=VI$ |
+| What is the equation linking power, current and resistance? | $P=I^2R$ |
+| What is the equation linking power, potential difference and resistance? | $P=\frac{V^2}{R}$ |
+| What is the equation linking energy, power and time? | $E = Pt$ |
+| Define internal resistance. | The resistance *within* a power supply. |
+| What is the equation for internal resistance? | $V = E - I r$ |
+| How do you find the EMF from a graph of terminal p.d. (V) against current (I)? | The y-intercept is the EMF. |
+| How do you find the internal resistance from a graph of terminal p.d. (V) against current (I)? | The gradient is the negative internal resistance, so take the negative of the gradient. |
+| Define a potential divider. | A circuit which takes an input voltage and splits it across two or more components in a specific ratio; it 'divides' the voltage into smaller voltages. |
+| What is a simple potential divider made up of? | Two resistors in series. |
+| What is the equation for a potential divider? | $\frac{V_1}{V_2} = \frac{R_1}{R_2}$ |
+| What is a potentiometer? | A variable resistor which can be used as a potential divider. |
+

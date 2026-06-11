@@ -40,3 +40,18 @@ can use to communicate with each other.
 - *Coaxial* cables are really old. They're the same cables that are used to
   connect landline phones - but they can still be used in some cases to connect
   to the internet. That said, you would be stuck with ***dial-up speeds...***
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a wide area network (WAN)? | A network that covers a large geographical area, such as the internet covering the whole world. |
+| How is a WAN typically structured? | It is a group of different local area networks (LANs) all connected together. |
+| What device is used to connect multiple LANs together to form a WAN? | A router. |
+| What is the function of a router in a WAN? | To route traffic between different LANs (e.g., across the internet) so devices on one LAN can communicate with devices on another. |
+| What is the definition of a transmission medium in networking? | The wires or other methods that routers use to communicate with each other. |
+| What transmission medium is best for long-distance communication in a WAN? | Fibre-optic cables, because they transmit data quickly over long distances with little signal loss. |
+| What are the trade-offs of using copper cables compared to fibre-optic cables? | Copper cables are slower and more prone to network interference, but cheaper in the short term. |
+| What is a third method for connecting LANs in a WAN, besides cables? | Wireless communication, such as radio waves, though it is often much slower than using cables. |
+| What are coaxial cables, and what is a limitation of using them for internet? | They are very old cables (same as for landline phones); using them for internet typically results in slow dial-up speeds. |
+

@@ -33,3 +33,18 @@ high-level code into object code (machine code).
 - A [[compiler]] translates [[source code]] into object code (machine
   code).
 - Object code is the low-level code that the CPU can execute directly.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| source code | Human-readable code that we write. |
+| compiler | Translates source code into object code (machine code). |
+| object code | Low-level code that the CPU can execute directly. |
+| What does a compiler do? | Translates high-level source code into object code (machine code). |
+| Why can't a CPU directly execute high-level programming languages? | The CPU cannot be expected to understand every programming language. |
+| What is object code essentially? | The compiled version of a program, translated into a low-level language (machine code/machine language) that the computer's CPU can understand and execute directly. |
+| In what form is object code often referred to? | Machine code or machine language. |
+| What is the difference between object code and machine code in strict technical terms? | Object code is the output of a compiler before linking, while machine code is the final executable code. |
+| How is object code sometimes executed? | Object code is sometimes executed by the operating system and not directly by the hardware. |
+

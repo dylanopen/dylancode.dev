@@ -17,3 +17,14 @@ For example, if a vertex has 3 edges connected to it, its degree is 3.
 In a **directed graph**, we distinguish between:
 - **In-degree**: The number of edges coming *into* the vertex.
 - **Out-degree**: The number of edges going *out* from the vertex.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| vertex (node) | Part of a graph that edges connect to, can represent various things depending on graph usage |
+| degree of a vertex | Number of edges connected to it |
+| Example: degree of a vertex | If a vertex has 3 edges connected to it, its degree is 3 |
+| in-degree in directed graph | Number of edges coming into the vertex |
+| out-degree in directed graph | Number of edges going out from the vertex |
+

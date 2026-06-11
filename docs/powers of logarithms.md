@@ -72,3 +72,20 @@ This is very similar (but just the other way round) to the
 - $m^{\log_m{n}}=n$
 - $n=64$
 - Answer: $64$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the rule for $a^{\log_a{x}}$? | $a^{\log_a{x}} = x$, provided the base of the power matches the base of the logarithm. |
+| Evaluate $2^{\log_2{5}}$ | $2^{\log_2{5}} = 5$ |
+| Evaluate $10^{\log_{10}{0.01}}$ | $10^{\log_{10}{0.01}} = 0.01$ |
+| Evaluate $3^{\log_3{9}}$ | $3^{\log_3{9}} = 9$ |
+| Evaluate $5^{\log_5{25}}$ | $5^{\log_5{25}} = 25$ |
+| Evaluate $7^{\log_7{6^4}}$ | $7^{\log_7{6^4}} = 6^4 = 1296$ |
+| Simplify $4^{\log_4{(2x+1)}}$ | $4^{\log_4{(2x+1)}} = 2x+1$ |
+| Simplify $8^{\log_8{(x^2+1)}}$ | $8^{\log_8{(x^2+1)}} = x^2+1$ |
+| Simplify $k^{\log_k{(x^3+2)}}$ | $k^{\log_k{(x^3+2)}} = x^3+2$ |
+| Given $x^{\log_x{y}} = 16$, find $y$. | $x^{\log_x{y}} = y$, so $y = 16$. |
+| Given $m^{\log_m{n}} = 64$, find $n$. | $m^{\log_m{n}} = n$, so $n = 64$. |
+

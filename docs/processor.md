@@ -62,3 +62,20 @@ combine logic gates together to make more complex circuits.
   of the processor.
 
 See [[processor components]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the role of the processor? | It is the 'brain' of the computer, fetching, decoding, and executing a program's instructions, managing resources, handling user input, and connecting all components together. |
+| What cycle does the processor use to execute instructions? | The fetch-decode-execute cycle (also called the fetch-execute cycle). |
+| What does it mean for a processor to be multi-threaded? | It can carry out multiple instructions at the same time if the program allows it. |
+| What is parallel processing? | When a processor has multiple cores, which is essentially many processors connected together working simultaneously. |
+| What are transistors in a processor? | Tiny switches that can be turned on or off; they are arranged to form logic gates. |
+| What does the Control Unit (CU) do? | It fetches instructions from memory, decodes them, and tells other parts of the processor what to do. |
+| What does the Arithmetic Logic Unit (ALU) do? | It performs mathematical and boolean logic operations like addition, subtraction, AND, and OR. |
+| What are registers? | Small, fast storage locations within the processor for data and instructions currently being worked on, faster than main memory. |
+| What is the processor cache? | A small amount of very fast memory built into the processor to store frequently accessed data/instructions, acting as a shortcut so the processor doesn't have to access main memory as often. |
+| What is the function of the processor clock? | It generates a regular on/off signal at a set frequency to synchronise the processor's operations, measured in hertz (Hz), indicating how many instructions per second can be executed. |
+| What is a computer bus? | A set of wires that connects different parts of the processor, carrying data, instructions, and control signals for communication. |
+

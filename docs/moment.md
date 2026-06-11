@@ -30,3 +30,12 @@ P            A
              |
              |
 ```
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Moment of a force definition | Measure of how much a force causes an object to rotate about a point or axis |
+| What two factors affect the magnitude of a moment about a point P? | Greater force and greater perpendicular distance from P to the line of action of the force |
+| What does the perpendicular distance measure in the context of moments? | The distance from the pivot or point P to the line of action of the force, not necessarily directly to the point of application |
+

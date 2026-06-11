@@ -72,6 +72,20 @@ intersection of <im>2-2p</im> and <im>4p-2</im>.</li>
 <li><strong>Answer</strong>: they should play A with probability <im>2/3</im> and B with probability
 <im>1/3</im>. <im>p=0.6667</im>.</li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Player 1 plays A with probability <im>p</im></td><td>Player 1 therefore plays B (or C) with probability <im>1-p</im></td></tr>
+<tr><td>What is the first step before finding an optimal mixed strategy?</td><td>Check for and eliminate dominated strategies, then check for a stable solution (max row min = min column max).</td></tr>
+<tr><td>When should you find the optimal mixed strategy?</td><td>When there is no stable solution (max row min ≠ min column max).</td></tr>
+<tr><td>How do you create expressions for each of player 2’s options?</td><td>For each of player 2’s options, multiply the payoff when player 1 plays A by <im>p</im> plus the payoff when player 1 plays B (or C) by <im>1-p</im>, then simplify.</td></tr>
+<tr><td>How do you find the value of <im>p</im> for player 1’s mixed strategy?</td><td>Set the expressions for player 2’s options equal to each other at the point where the lowest lines at that <im>p</im> are the highest possible, then solve the two selected equations simultaneously.</td></tr>
+<tr><td>In a <im>2 \times 2</im> game with payoffs: (A,D)=1, (A,E)=2, (C,D)=3, (C,E)=-1, how do you find player 1’s optimal <im>p</im>?</td><td>Set <im>1p+3(1-p) = 2p+(-1)(1-p)</im> → <im>3-2p=3p-1</im> → <im>5p=4</im> → <im>p=4/5</im> (play A with 0.8, C with 0.2).</td></tr>
+<tr><td>Why must player 1 play their mixed strategy as randomly as possible?</td><td>So player 2 cannot predict what they will do.</td></tr>
+<tr><td>In a <im>2 \times 3</im> game with payoffs: (A,C)=0, (A,D)=-1, (A,E)=2, (B,C)=2, (B,D)=3, (B,E)=-2, what are the row minima and column maxima?</td><td>Row minima: -1 (row A), -2 (row B). Column maxima: 2 (col C), 3 (col D), 2 (col E). No stable solution because max row min (-1) ≠ min column max (2).</td></tr>
+<tr><td>For the <im>2 \times 3</im> game above, write the expressions for player 2’s options in terms of <im>p</im> (player 1 plays A with <im>p</im>).</td><td>Player 2 plays C: <im>2-2p</im>. D: <im>3-4p</im>. E: <im>4p-2</im>.</td></tr>
+<tr><td>For the <im>2 \times 3</im> game above, which two lines intersect at the optimal <im>p</im>?</td><td><im>2-2p</im> and <im>4p-2</im> (the point where the lowest lines are the highest).</td></tr>
+<tr><td>Solve <im>2-2p=4p-2</im> to find <im>p</im> for the <im>2 \times 3</im> game.</td><td><im>2-2p=4p-2</im> → <im>4=6p</im> → <im>p=2/3</im> (play A with 2/3, B with 1/3).</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

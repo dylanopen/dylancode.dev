@@ -67,3 +67,16 @@ where:
 - **Answer**: $\frac{1700}{\pi^2}\Omega \approx 172\Omega$
 
 ## 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the definition of resistivity? | Resistivity is the total resistance of a material. |
+| What is the equation for calculating the resistance of a wire given resistivity? | $R = \frac{\rho L}{A}$ where $R$ is resistance, $\rho$ is resistivity, $L$ is length, $A$ is cross-sectional area. |
+| What are the units of resistivity? | Ohm metres, $\Omega m$. |
+| Calculate the resistance of a copper wire of length $0.6m$ and cross-sectional area $1mm^2$, given resistivity of copper is $1.8\times10^{-8}\Omega m$. | $R = \frac{1.8\times10^{-8}\times0.6}{1\times10^{-6}} = 1.08\times10^{-2}\Omega$, where $A = 1mm^2 = 1\times10^{-6}m^2$. |
+| Two wires each of resistance $4\Omega$ connect a $36W$, $12V$ lamp to a power supply. What is the potential difference across each wire? | $6V$ across each wire. (Total wire resistance $=8\Omega$, current $I=1.5A$, so $V=1.5A \times 4\Omega = 6V$). |
+| What length of copper wire (resistivity $1.7\times10^{-8}\Omega m$) with diameter $0.1mm$ is needed for a $0.5\Omega$ coil? | $L = \frac{0.5 \times 7.85\times10^{-9}}{1.7\times10^{-8}} \approx 0.23m$ (where $A = \pi(0.05\times10^{-3})^2 \approx 7.85\times10^{-9}m^2$). |
+| Calculate the resistance of $1cm^3$ of copper formed into a wire of diameter $0.02cm$, given resistivity $1.7\times10^{-8}\Omega m$. | $\frac{1700}{\pi^2}\Omega \approx 172\Omega$. ($V=1\times10^{-6}m^3$, $A=\pi\times10^{-8}m^2$, $L=100/\pi m$). |
+

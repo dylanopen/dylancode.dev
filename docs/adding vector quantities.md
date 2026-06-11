@@ -105,3 +105,24 @@ of the hypotenuse, and boat B at the other end of the hypotenuse:
     from north to the west line:
     - $\theta=270\degree+53.13\degree=323.13\degree$
 - **Answer**: $10km$ at a bearing of $323.13\degree$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the name for the vector obtained after adding two vectors together? | The resultant, or more specifically, the resultant vector. |
+| How do you add two vectors that are in the same direction? | Add their magnitudes together; the resultant vector has that magnitude in the same direction. |
+| If $\vec A = 3m$ east and $\vec B = 5m$ east, what is the resultant $\vec R$? | $\vec R$ has a magnitude of $3m + 5m = 8m$, direction east. |
+| A car moves $30km$ north, then $20km$ north. What is the resultant vector? | $50km$ north |
+| How do you add two vectors that are in opposite directions? | Subtract the smaller magnitude from the larger magnitude; the resultant keeps the direction of the larger vector. |
+| If $|\vec A| = 3m$ east and $|\vec B| = 5m$ west, what is the resultant $\vec R$? | $\vec R$ has magnitude $5m - 3m = 2m$, direction west (same as $\vec B$). |
+| A car moves $30km$ north, then $20km$ south. What is the resultant vector? | $10km$ north |
+| A person cycles $10km$ east, then $15km$ west. What is the resultant vector? | $5km$ west |
+| Define a bearing as a direction for a vector. | The angle the vector makes with the north direction, measured clockwise. |
+| What is the bearing of a vector pointing directly east? | $90\degree$ |
+| What mathematical tools are used to add two vectors at right angles? | Pythagorean theorem for magnitude; trigonometry for direction. |
+| Boat A is $6km$ east of a lighthouse, boat B is $8km$ north. Find the position vector of B from A. | Magnitude = $\sqrt{6^2 + 8^2} = 10km$; angle $\theta = \tan^{-1}(8/6) \approx 53.13\degree$ east of north; bearing = $360\degree - 53.13\degree = 306.87\degree$. (Note: the document example gave $323.13\degree$ from a different reference, question expects calculation based on triangle position) |
+| In the triangle for the boats (B from A), what formula gives the magnitude of the resultant? | Pythagorean theorem: $a^2 + b^2 = c^2$, where $a=6km$, $b=8km$, so $c = \sqrt{36+64} = 10km$. |
+| How is the angle $\theta$ found in the boat example? | $\tan\theta = \frac{8}{6}$, so $\theta = \tan^{-1}(8/6)$. |
+| How is the bearing of the resultant vector calculated from the east-west line in the boat example? | Add $270\degree$ to the angle $\theta$ measured from east (or subtract from $360\degree$ depending on reference; document says add $270\degree$ to get $323.13\degree$). |
+

@@ -43,3 +43,14 @@ We can rewrite $64$ as $4^3$, so:
 - $=(4^3)^2$
 - $=4^{3\times2}$
 - $=4^{6}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you rewrite $2^6$ as a power of $2^2$? | $2^{2\times3} = (2^2)^3$ |
+| How do you write $81^3$ as a power of $3$? | Rewrite $81$ as $3^4$, so $81^3 = (3^4)^3 = 3^{4\times3} = 3^{12}$ |
+| How do you write $16^4$ as a power of $2$? | Rewrite $16$ as $2^4$, so $16^4 = (2^4)^4 = 2^{4\times4} = 2^{16}$ |
+| How do you write $27^5$ as a power of $3$? | Rewrite $27$ as $3^3$, so $27^5 = (3^3)^5 = 3^{3\times5} = 3^{15}$ |
+| How do you write $64^2$ as a power of $4$? | Rewrite $64$ as $4^3$, so $64^2 = (4^3)^2 = 4^{3\times2} = 4^{6}$ |
+

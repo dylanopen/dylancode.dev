@@ -44,3 +44,16 @@ make it usable. The entire package is often referred to as an '[[operating syste
 > In [[short]], the [[operating system]] also usually provides the user interface and
 > basic applications that users interact with on their computers, all as part of
 > an '[[operating system]] package'.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the primary role of an operating system? | To provide a bridge between computer hardware and software applications, hiding the complexities of the underlying hardware from the end user. |
+| How does an operating system help software developers? | It provides abstractions (APIs and services) so developers don't have to manage low-level hardware details like the CPU, memory, storage devices, and peripherals directly. |
+| What analogy is used to describe the operating system's function between hardware and software? | The operating system acts as a "middleman" that sits between hardware and software, managing resources and providing an interface. |
+| What does an end-user typically identify as their operating system? | The user interface, desktop environment, file manager, taskbar, and other basic applications that come with the operating system package. |
+| Is the line between the operating system and application software clearly defined? | No, it is not clearly defined, as many operating systems come pre-installed with a suite of applications like web browsers, file explorers, and media players. |
+| What is the Linux kernel, and how does it differ from a Linux distribution? | The Linux kernel is just the core operating system kernel. A Linux distribution (like Ubuntu, Fedora, Arch) bundles the kernel with additional software to make it usable as a full operating system package. |
+| If you used raw Linux without a distro, what would you be using? | You would be using just the Linux kernel, with everything else considered extra application software. |
+

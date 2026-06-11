@@ -31,3 +31,15 @@ other, for example, in this example:
   /[[boolean double negation]]|double negation]]):
   - $A + B$
 - So the final, simplified [[expression]] is $A + B$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is De Morgan's Law for breaking a NOT of an AND? | $\overline{A \cdot B} = \overline{A} + \overline{B}$ |
+| What is De Morgan's Law for breaking a NOT of an OR? | $\overline{A + B} = \overline{A} \cdot \overline{B}$ |
+| What is the concise phrase to remember De Morgan's Law? | We 'break the line and change the sign'. |
+| Can De Morgan's Law be applied in reverse? | Yes, we can use it in both directions, e.g. $\overline{A} + \overline{B} = \overline{A \cdot B}$. |
+| How do you simplify $\overline{\overline{A} \cdot \overline{B}}$ using De Morgan's Law? | First apply De Morgan: $\overline{\overline{A}} + \overline{\overline{B}}$, then use double negation to get $A + B$. |
+| What is the result of simplifying $\overline{\overline{A} \cdot \overline{B}}$? | $A + B$ |
+

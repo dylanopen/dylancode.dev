@@ -25,3 +25,14 @@ is $\frac{26}{52}$. Because these two events are mutually exclusive (it's
 impossible to pick a black card and a heart, as hearts are red), the probability
 of drawing a heart **or** a black card is $\frac{13}{52} + \frac{26}{52} =
 \frac{39}{52}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general formula for the probability of A or B when A and B are mutually exclusive? | $P(A \cup B) = P(A) + P(B)$ |
+| Why does the union rule for mutually exclusive events not include a subtraction term? | Because the probability of both events happening at the same time is zero, so we don't need to subtract the intersection. |
+| In the die roll example, what is the probability of rolling a 1 or a 2? | $\frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3}$ |
+| In a standard deck of 52 cards, what is the probability of drawing a heart or a black card? | $\frac{13}{52} + \frac{26}{52} = \frac{39}{52}$ |
+| Why are "drawing a heart" and "drawing a black card" mutually exclusive? | Because it is impossible to pick a black card and a heart, as hearts are red. |
+

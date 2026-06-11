@@ -21,3 +21,14 @@ A\cdot1=A
 $$
 
 We can use this to [[simplifying boolean algebra|simplify boolean algebra]]!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| A\cdot 1 = 1 | No, $A \cdot 1 = A$<br/>Because AND with 1 gives the original value: 1 AND 1 = 1, 0 AND 1 = 0. |
+| What does $A \cdot 1$ simplify to? | $A$ |
+| From the AND truth table, what is 1 AND 1? | 1 |
+| From the AND truth table, what is 0 AND 1? | 0 |
+| What is the effect of ANDing any boolean value with 1? | You get back the original value $A$ (i.e., $A \cdot 1 = A$) |
+

@@ -31,3 +31,13 @@ line to another, using the gradient.
 
 It's useful when we know the gradient of the line and points on it, but *don't*
 know the $y$-intercept.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $y = mx + c$ | $m$ = gradient, $c$ = $y$-intercept; $y$ changes by $m$ for unit change in $x$. |
+| What is the general form of a straight line? | $Ax + By + C = 0$, where $A$, $B$, $C$ are constants. |
+| What is the point-slope form of a straight line? | $y - y_1 = m(x - x_1)$, where $(x_1, y_1)$ is a specific point on the line. |
+| When is point-slope form most useful? | When we know gradient and a point on the line but not the $y$-intercept. |
+

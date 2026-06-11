@@ -17,3 +17,14 @@
 ### Find $\frac{dy}{dx}$ of $y=2\cos4x$
 
 - $\frac{dy}{dx}=-8\sin4x$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| If $y = a \cos(bx)$, what is the general formula for $\frac{dy}{dx}$? | $\frac{dy}{dx} = -ab \sin(bx)$ |
+| Find $\frac{dy}{dx}$ of $y = \frac{1}{3} \cos x$ | $\frac{dy}{dx} = -\frac{1}{3} \sin x$ |
+| Find $\frac{dy}{dx}$ of $y = \cos(2x)$ | $\frac{dy}{dx} = -2 \sin(2x)$ |
+| Find $\frac{dy}{dx}$ of $y = -\cos(7x)$ | $\frac{dy}{dx} = 7 \sin(7x)$ |
+| Find $\frac{dy}{dx}$ of $y = 2\cos(4x)$ | $\frac{dy}{dx} = -8 \sin(4x)$ |
+

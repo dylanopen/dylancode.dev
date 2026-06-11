@@ -6,3 +6,9 @@ and the coefficient of the imaginary part by the integer.
 $$
 a(x+yi)=ax+ayi
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

@@ -80,3 +80,37 @@ $$
   - $\int 2x^{-1} \, dx = 2 \ln|x|$
 - Adding them all together, we have:
   - $\int \left(\frac{6}{x^4} - \frac{5}{\sqrt{x}} + \frac{2}{x}\right) dx = -2x^{-3} - 10x^{\frac12} + 2 \ln|x| + c$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Integrate $\frac{dy}{dx}=\frac1{3x^{-4}}-\frac8{\sqrt x}$ | Rewrite as $\frac13 x^4 - 8x^{-\frac12}$, then integrate term-by-term. |
+| How do you rewrite $\frac7x$ in the form $ax^n$? | $7x^{-1}$ |
+| How do you rewrite $\frac3{\sqrt x}$ in the form $ax^n$? | $3x^{-\frac12}$ |
+| What is $\int 5x^2 \, dx$? | $\frac53 x^3$ |
+| What is $\int 7x^{-1} \, dx$? | $7 \ln|x|$ |
+| What is $\int -3x^{-\frac12} \, dx$? | $-6x^{\frac12}$ |
+| Integrate $5x^2 + \frac7x - \frac3{\sqrt x}$ | $\frac53 x^3 + 7 \ln|x| - 6x^{\frac12} + c$ |
+| How do you rewrite $\frac2{x^3}$ in the form $ax^n$? | $2x^{-3}$ |
+| How do you rewrite $\frac5{\sqrt[3]{x}}$ in the form $ax^n$? | $5x^{-\frac13}$ |
+| How do you rewrite $\frac4{x^2}$ in the form $ax^n$? | $4x^{-2}$ |
+| What is $\int 2x^{-3} \, dx$? | $-x^{-2}$ |
+| What is $\int 5x^{-\frac13} \, dx$? | $\frac{15}{2} x^{\frac23}$ |
+| What is $\int -4x^{-2} \, dx$? | $4x^{-1}$ |
+| Integrate $\frac2{x^3} + \frac5{\sqrt[3]{x}} - \frac4{x^2}$ | $-x^{-2} + \frac{15}{2} x^{\frac23} + 4x^{-1} + c$ |
+| Given $f'(x) = \frac{3}{x^2} - \frac{2}{\sqrt x} + 4x^3$ and $f(1)=7$, find $f(x)$ | $f(x) = -3x^{-1} - 4x^{\frac12} + x^4 + 13$ |
+| How do you rewrite $\frac{3}{x^2}$ in the form $ax^n$? | $3x^{-2}$ |
+| How do you rewrite $\frac{2}{\sqrt x}$ in the form $ax^n$? | $2x^{-\frac12}$ |
+| What is $\int 3x^{-2} \, dx$? | $-3x^{-1}$ |
+| What is $\int -2x^{-\frac12} \, dx$? | $-4x^{\frac12}$ |
+| What is $\int 4x^3 \, dx$? | $x^4$ |
+| How is the constant $c$ found using the initial condition $f(1)=7$? | $f(1) = -3(1)^{-1} - 4(1)^{\frac12} + (1)^4 + c = -6 + c = 7$, so $c=13$. |
+| Integrate $\frac{6}{x^4} - \frac{5}{\sqrt{x}} + \frac{2}{x}$ | $-2x^{-3} - 10x^{\frac12} + 2 \ln|x| + c$ |
+| How do you rewrite $\frac{6}{x^4}$ in the form $ax^n$? | $6x^{-4}$ |
+| How do you rewrite $\frac{5}{\sqrt{x}}$ in the form $ax^n$? | $5x^{-\frac12}$ |
+| How do you rewrite $\frac{2}{x}$ in the form $ax^n$? | $2x^{-1}$ |
+| What is $\int 6x^{-4} \, dx$? | $-2x^{-3}$ |
+| What is $\int -5x^{-\frac12} \, dx$? | $-10x^{\frac12}$ |
+| What is $\int 2x^{-1} \, dx$? | $2 \ln|x|$ |
+

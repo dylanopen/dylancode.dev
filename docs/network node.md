@@ -26,3 +26,14 @@ In a directed network, we distinguish between:
 
 - *in-degree*: the number of incoming connections to a node.
 - *out-degree*: the number of outgoing connections from a node.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Network node | A *node* on a network is the equivalent of a [[graph vertex|vertex]] in a [[graph]]. A node can represent different things depending on context. Nodes are often connected by [[network arc|arcs]] to form a [[network]]. |
+| Degree of a node | The *degree* of a node is the number of connections (or arcs) it has to other nodes in the network. |
+| How is degree shown in an example? | In the network where A connects to B, C, and D, the degree of node A is 3. |
+| In-degree in a directed network | The number of incoming connections to a node. |
+| Out-degree in a directed network | The number of outgoing connections from a node. |
+

@@ -251,3 +251,49 @@ where:
   - $\mu$ is the mass per unit length of the string
   - $m$ is the mass of the string
   - $l$ is the length of the string
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a transverse wave? | A wave where the direction of energy transfer/propagation is perpendicular to the direction of oscillation of the particles. |
+| What is a longitudinal wave? | A wave where the direction of energy transfer/propagation is parallel to the direction of oscillation of the particles. |
+| What is the amplitude of a wave? | The maximum displacement of a wave, from the centre line (V or sometimes m). |
+| What is the wavelength of a wave? | The distance between two adjacent peaks or troughs of the wave (m). |
+| What is the frequency of a wave? | The number of oscillations per second (Hz). |
+| What is the wave speed equation? | $\text{wave speed} = \text{frequency} \times \text{wavelength}$ |
+| State the law of reflection. | The angle of incidence is equal to the angle of reflection, written as $i=r$. |
+| What is a polarised wave? | A wave that is 'filtered' to only be let through if it's rotated the correct way. |
+| What type of wave can be polarised? | Only transverse waves can be polarised. |
+| What is the phase difference of two waves? | An angle, usually measured in radians, that tells us how 'offset' the waves' peaks and troughs are from each other. |
+| When are two waves in phase? | When their phase difference is $0\pi$ radians, $2\pi$ radians, or any multiple of $2\pi$ radians. |
+| When are two waves in antiphase? | When they have a phase difference of $1\pi$ radians, $3\pi$ radians, or any odd multiple of $\pi$ radians. |
+| What is the principle of superposition? | When two waves interfere, the resultant amplitude at any point is equal to the sum of the amplitudes of the individual waves, at that point. |
+| What is constructive interference? | When waves interfere and the peaks perfectly align with the other peaks and the troughs are perfectly aligned to the other troughs, meaning the phase difference is $0$ or a multiple of $2\pi$. |
+| What happens to the amplitude in constructive interference if the waves have the same amplitude? | The amplitudes will double. |
+| What is destructive interference? | When waves interfere and the peaks perfectly align with the other troughs and the troughs are perfectly aligned to the other peaks, meaning the phase difference is $1\pi$ or another odd multiple of $\pi$. |
+| What happens to the amplitude in destructive interference if the waves have the same amplitude? | The amplitudes will cancel out. |
+| What is refraction? | Refraction is when the speed of light or another wave changes when it passes through a barrier into a new medium. |
+| What is the formula for refractive index? | $n = \frac{c}{c_s}$ |
+| What is Snell's law? | $n_1\sin\theta_1 = n_2\sin\theta_2$ |
+| What two conditions are required for total internal reflection to occur? | The angle of incidence must be greater than the critical angle, and the refractive index of the material the wave is currently in must be greater than the refractive index of the material it's moving into. |
+| What is the equation for the critical angle? | $\theta_c = \frac{n_2}{n_1}$ |
+| What happens to the fringes in a single-slit diffraction pattern if the slit width is increased? | The fringes get narrower and closer together. |
+| In a single-slit diffraction pattern, what happens if the wavelength is larger? | The fringes get wider, as the waves spread out more. |
+| What does it mean if light is coherent? | The waves have a constant phase difference and the same frequency. |
+| In a double-slit interference pattern, how does the fringe separation change if the distance between the slits increases? | The fringe separation decreases. |
+| In a double-slit interference pattern, how does the fringe separation change if the wavelength increases? | The fringe separation increases. |
+| What is the double slit equation? | $Ws = \lambda D$ (Note: $W$ is fringe separation, $s$ is slit separation, $D$ is distance to screen) |
+| What colour of light is closest to the central fringe in a white light double-slit interference pattern? | Blue light, as it has the smallest wavelength so is diffracted the least. |
+| What is a diffraction grating? | A device with many slits. |
+| What is the central bright spot in a diffraction grating pattern called? | Order 0. |
+| What is the diffraction grating equation? | $n\lambda = d\sin\theta$ |
+| How do you calculate the distance between slits given lines per millimetre? | First, convert lines per millimetre to lines per metre by multiplying by 1000. Then do $\text{metres per line} = \frac{1}{\text{lines per metre}}$. |
+| How do you calculate the maximum number of orders for a diffraction grating? | Substitute $\theta$ for $90\degree$ (or $\sin\theta$ for $1$) in the diffraction grating equation and round down to the nearest whole number. |
+| How are stationary waves made? | When two waves in the opposite direction have the same wavelength, speed and amplitude, they can interfere to create a stationary wave. |
+| What are nodes in a stationary wave? | Points where the waves always interfere destructively, so they have zero amplitude and displacement. |
+| What are antinodes in a stationary wave? | Points where the waves always interfere constructively, so they have the maximum amplitude and displacement. |
+| What is the fundamental frequency (first harmonic) of a stationary wave? | The lowest frequency that can be produced, which has one antinode and two nodes. |
+| What is the equation for stationary waves on a string? | $f = \frac{1}{2l} \sqrt{\frac{T}{\mu}}$ |
+| What is the formula for the mass per unit length ($\mu$) of a string? | $\mu = \frac{m}{l}$ |
+

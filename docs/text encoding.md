@@ -35,3 +35,14 @@ encoding scheme we're using.
 
 I may say 'The [[ascii]] character code for 'A' is 65', which just means that in the
 [[ascii]] encoding scheme, the letter 'A' is represented by the number 65.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Define "text encoding" in computing. | Encoding is converting human-readable text (letters, numbers, and symbols) into a binary number that a computer can understand. |
+| What does the binary number 01000001 represent in a text encoding scheme? | It might represent the letter "A", as 01000001 equals the decimal value 65. |
+| What is an encoding scheme? | A standard which defines that "this character should be represented by this number," allowing binary numbers to be looked up and converted back to characters. |
+| What is a 'character code'? | A number which represents a particular character within a specific encoding scheme. |
+| What does it mean to say "The ASCII character code for 'A' is 65"? | It means that in the ASCII encoding scheme, the letter 'A' is represented by the number 65. |
+

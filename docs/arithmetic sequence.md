@@ -123,3 +123,22 @@ $$
 
 - The common difference is the coefficient of $n$.
 - **Answer**: $6$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an arithmetic sequence? | A sequence of numbers in which the difference between consecutive terms is constant. |
+| What is the constant difference between terms in an arithmetic sequence called? | The "common difference". |
+| Arithmetic sequences can be written in what general form? | $an+b$ |
+| In the form $an+b$ for an arithmetic sequence, what does $a$ represent? | The common difference. |
+| In the form $an+b$ for an arithmetic sequence, what does $b$ represent? | The first term minus the common difference (the offset). |
+| How do you find the common difference of an arithmetic sequence? | Subtract any term from the term after it. |
+| How do you find the offset $b$ for an arithmetic sequence? | Subtract the common difference from the first term. |
+| Find the nth term of the sequence: $5, 10, 15, 20, \ldots$ | $5n$ |
+| Find the nth term of the sequence: $8, 12, 16, 20, \ldots$ | $4n + 4$ |
+| Find the 17th term of the sequence with nth term $3n + 2$ | $53$ |
+| Find the 10th term of the sequence: $2, 6, 10, 14, \ldots$ | $38$ |
+| Find the 15th term of the sequence: $7, 14, 21, 28, \ldots$ | $105$ |
+| What is the common difference of the sequence with nth term $6n + 3$? | $6$ |
+

@@ -52,3 +52,15 @@ other.
 - If we don't sample from each group in the right proportions, we might not get
   a representative sample. For example, if we sample too many people from one
   group and too few from another, we won't get a representative sample.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is stratified sampling? | A sampling method where we divide the population into groups and then sample from each group separately at random. |
+| What must we know before using stratified sampling? | We need to know some things about the population first, such as groups to divide it into and the number/proportion of people in each group. |
+| In stratified sampling, how do we determine how many people to sample from each group? | We survey a proportional number of people from each group, based on the group's proportion of the overall population. |
+| Give an example of groups for stratified sampling based on age and gender. | Males aged 0-17, Males aged 18-65, Males aged 65+, Females aged 0-17, Females aged 18-65, Females aged 65+. |
+| What are the advantages of stratified sampling? | It can give a more representative sample, be more efficient, allow comparisons between groups, ensure enough people from small groups, and prevent a single group from dominating the sample. |
+| What are the disadvantages of stratified sampling? | It can be more work, requires prior knowledge of the population, may not be representative if wrong groups are chosen, and sampling must be in correct proportions. |
+

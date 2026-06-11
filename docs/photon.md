@@ -3,3 +3,10 @@
 A *photon* is effectively a 'bundle of energy'. It makes up any of the [[electromagnetic spectrum|electromagnetic waves]].
 
 It carries energy based on its frequency, and it's the way that EM waves are able to transfer energy from one place to another.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| photon | effectively a 'bundle of energy' that makes up any electromagnetic wave; carries energy based on its frequency and is how EM waves transfer energy |
+

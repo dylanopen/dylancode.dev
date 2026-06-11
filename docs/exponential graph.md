@@ -78,3 +78,26 @@ So the $y$ intercept is at $(0, 1)$.
 
 > $a>1$: growth  
 > $0<a<1$: decay
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general form of an exponential function? | $f(x)=a^x$, where $a$ is a positive constant and $a \neq 1$ |
+| Why can $a$ not be $1$ in the exponential function $f(x)=a^x$? | If $a=1$, the function would be a constant. |
+| What is an asymptote? | A line that a graph approaches but never touches. |
+| What is the horizontal asymptote of the graph of $f(x)=a^x$? | $y=0$ (the x-axis) |
+| Why do exponential graphs have a horizontal asymptote at $y=0$? | Because the result of $a^x$ will never be $0$ or negative. |
+| How does the $y$-value of an exponential graph change as $x$ increases by $1$? | The $y$ value is multiplied by $a$. |
+| What is the domain of an exponential graph? | $(-\infty, \infty)$ (all real numbers) |
+| Why is the domain of an exponential graph $(-\infty, \infty)$? | Because you can go as far left or right as you want on the x-axis (all values of $x$ will give a valid output). |
+| What is the range of an exponential graph? | $(0, \infty)$ (positive numbers) |
+| Why is the range of an exponential graph $(0, \infty)$? | Because the output of $a^x$ will always be positive. |
+| How many solutions does the equation $a^x=0$ have? | No solutions, because the output of $a^x$ is always positive. |
+| When can the equation $a^x+c=0$ (where c is a negative constant) have a solution? | When the graph of $a^x$ is shifted down by $c$ units, it can cross the x-axis. |
+| How do you solve for $x$ in the equation $y=a^x$? | $x=\log_a(y)$ |
+| What is the $y$-intercept of the graph of $f(x)=a^x$? | $(0, 1)$ |
+| Why is the $y$-intercept of $f(x)=a^x$ at $y=1$? | Because any number to the power of $0$ is $1$ ($a^0=1$). |
+| In the function $f(x)=a^x$, what type of behaviour is described as 'growth'? | The value of $y$ increases with the value of $x$, which occurs when $a>1$. |
+| In the function $f(x)=a^x$, what type of behaviour is described as 'decay'? | The value of $y$ decreases with the value of $x$, which occurs when $0<a<1$. |
+

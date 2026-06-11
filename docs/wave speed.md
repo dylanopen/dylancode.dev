@@ -36,3 +36,15 @@ Where:
   faster.
 > Similarly, if a wave has a long [[wavelength]] (more [[distance]] between waves), it
   must also be moving faster.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What symbol is used for wave speed? | $v$ (for velocity) |
+| What units is wave speed measured in? | Metres per second ($m/s$) |
+| Write the formula that relates wave speed, frequency, and wavelength. | $v = f\lambda$ |
+| What does each symbol in $v = f\lambda$ represent? | $v$ = wave speed ($m/s$), $f$ = frequency ($Hz$), $\lambda$ = wavelength ($m$) |
+| Why does a higher frequency mean a faster wave speed? | More waves pass per second, so the wave must be moving faster. |
+| Why does a longer wavelength mean a faster wave speed? | If there is more distance between wave peaks, the wave must move faster to cover that distance in the same time. |
+

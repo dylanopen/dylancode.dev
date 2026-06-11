@@ -71,6 +71,21 @@ Plain:  DEFGHIJKLMNOPQRSTUVWXYZABC
 <li>R (17) becomes O (14)</li>
 </ul>
 <p>So our final decrypted message is “HELLO”, which is what we started with!</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is a Caesar cipher?</td><td>A super simple type of cipher where we shift the letters of the alphabet by a certain number of places.</td></tr>
+<tr><td>What is the mathematical formula for Caesar cipher encryption?</td><td><im>E(x) = (x + k) \mod 26</im></td></tr>
+<tr><td>What does <im>x</im> represent in the encryption formula <im>E(x) = (x + k) \mod 26</im>?</td><td><im>x</im> is the plaintext letter, represented as a number from 0 to 25 (where A=0, B=1, …, Z=25).</td></tr>
+<tr><td>What does <im>k</im> represent in the Caesar cipher?</td><td><im>k</im> is the key, which is the number of positions we shift the letters by, and can be any whole number from 0 to 25.</td></tr>
+<tr><td>What is the mathematical formula for Caesar cipher decryption?</td><td><im>D(y) = (y - k) \mod 26</im></td></tr>
+<tr><td>How do you decrypt a message encrypted with a Caesar cipher?</td><td>Subtract the key from the encrypted character to find the plaintext letter.</td></tr>
+<tr><td>Why is the Caesar cipher considered insecure?</td><td>Because there are only 26 possible keys, so an attacker can easily try all of them, and it doesn’t change the frequency of letters.</td></tr>
+<tr><td>How can frequency analysis be used to crack a Caesar cipher?</td><td>By analyzing the frequency of letters in the ciphertext, you can guess the key by looking at the most common letters (e.g., if ‘G’ is most common, the key is likely 2 since ‘E’ is most common in English).</td></tr>
+<tr><td>Encrypt “HELLO” with a Caesar cipher using key 3.</td><td>KHOOR</td></tr>
+<tr><td>Show the encryption steps for “HELLO” with key 3.</td><td>H (7) becomes K (10), E (4) becomes H (7), L (11) becomes O (14), L (11) becomes O (14), O (14) becomes R (17), resulting in “KHOOR”.</td></tr>
+<tr><td>Decrypt “KHOOR” with a Caesar cipher using key 3.</td><td>HELLO</td></tr>
+<tr><td>Show the decryption steps for “KHOOR” with key 3.</td><td>K (10) becomes H (7), H (7) becomes E (4), O (14) becomes L (11), O (14) becomes L (11), R (17) becomes O (14), resulting in “HELLO”.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

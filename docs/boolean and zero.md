@@ -24,3 +24,10 @@ $$
 We can use this to [[simplifying boolean algebra|simplify boolean algebra]]!
 
 We can replace anywhere we see $A\cdot0$ with $0$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| A ⋅ 0 = 0 | For any value of A, ANDing it with 0 always gives 0 because the AND truth table shows 1 AND 0 = 0 and 0 AND 0 = 0, so A AND 0 = 0. |
+

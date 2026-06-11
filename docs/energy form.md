@@ -36,3 +36,19 @@ Here's a summary of them all:
 > - [[magnetic energy|Magnetic energy]]
 > - [[sound energy|Sound energy]]
 > - [[mechanical energy|Mechanical energy]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What form of energy makes objects move or vibrate? | Kinetic energy |
+| What form of energy makes objects fall to the ground? | Gravitational potential energy |
+| What form of energy makes objects stretch and compress? | Elastic potential energy |
+| What form of energy makes chemical reactions happen? | Chemical energy |
+| What form of energy makes things hot? | Thermal energy |
+| What form of energy makes nuclear reactions happen? | Nuclear energy |
+| What form of energy makes electric currents flow? | Electrical energy |
+| What form of energy makes magnets attract and repel? | Magnetic energy |
+| What is sound energy essentially a form of? | Kinetic energy (particles vibrating) |
+| What form of energy makes things move and do work? | Mechanical energy |
+

@@ -95,3 +95,19 @@ Where:
 - $W = Pt$
 - $W = 75\,W \times 8\,s$
 - $W = 600\,J$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula linking power and energy transferred? | $P = \frac{E}{t}$ |
+| What are the units for power, energy, and time in $P = \frac{E}{t}$? | Power ($P$) in watts ($W$), Energy ($E$) in joules ($J$), Time ($t$) in seconds ($s$) |
+| How can the power formula be written using work done? | $P = \frac{W}{t}$, where $W$ is work done |
+| A machine does 500 J of work in 10 s. What is its power? | $P = \frac{W}{t}$, $W = 500\,J$, $t = 10\,s$, $P = \frac{500}{10} = 50\,W$ |
+| A machine does 1000 J of work in 20 s. What is its power? | $P = \frac{W}{t}$, $W = 1000\,J$, $t = 20\,s$, $P = \frac{1000}{20} = 50\,W$ |
+| A machine has a power of 200 W and does 400 J of work. How long does it take? | $P = \frac{W}{t}$, so $t = \frac{W}{P}$, $t = \frac{400}{200} = 2\,s$ |
+| A machine has a power of 150 W and does 300 J of work. How long does it take? | $t = \frac{W}{P}$, $t = \frac{300}{150} = 2\,s$ |
+| A mechanical device does 50 W of power over 5 s. How much work does it do? | $P = \frac{W}{t}$, so $W = Pt$, $W = 50 \times 5 = 250\,J$ |
+| A mechanical device does 75 W of power over 8 s. How much work does it do? | $W = Pt$, $W = 75 \times 8 = 600\,J$ |
+| How is power related to work done and energy transferred? | Power equals energy transferred (or work done) divided by time taken, because work done is the same as energy transferred. |
+

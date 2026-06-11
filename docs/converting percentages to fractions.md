@@ -57,3 +57,14 @@ To convert a percentage to a fraction, follow these steps:
   - HCF of $273$ and $100$ is $1$.
   - $\frac{273 \div 1}{100 \div 1} = \frac{273}{100}$
 - **Answer**: $12.5\%=\frac{273}{100}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the steps to convert a percentage to a fraction? | 1. Convert the percentage to a decimal by dividing by $100\%$. <br/> 2. Convert the decimal to a fraction over a power of $10$. <br/> 3. Simplify the fraction if possible. |
+| How do you convert 75% to a fraction? | First, $75\% \div 100\% = 0.75$. <br/> Then, $0.75 = \frac{75}{100}$. <br/> The HCF of 75 and 100 is 25, so $\frac{75 \div 25}{100 \div 25} = \frac{3}{4}$. <br/> **Answer**: $75\% = \frac{3}{4}$ |
+| How do you convert 40% to a fraction? | First, $40\% \div 100\% = 0.40$. <br/> Then, $0.40 = \frac{40}{100}$. <br/> The HCF of 40 and 100 is 20, so $\frac{40 \div 20}{100 \div 20} = \frac{2}{5}$. <br/> **Answer**: $40\% = \frac{2}{5}$ |
+| How do you convert 12.5% to a fraction? | First, $12.5\% \div 100\% = 0.125$. <br/> Then, $0.125 = \frac{125}{1000}$. <br/> The HCF of 125 and 1000 is 125, so $\frac{125 \div 125}{1000 \div 125} = \frac{1}{8}$. <br/> **Answer**: $12.5\% = \frac{1}{8}$ |
+| How do you convert 273% to a fraction? | First, $273\% \div 100\% = 2.73$. <br/> Then, $2.73 = \frac{273}{100}$. <br/> The HCF of 273 and 100 is 1, so $\frac{273 \div 1}{100 \div 1} = \frac{273}{100}$. <br/> **Answer**: $273\% = \frac{273}{100}$ |
+

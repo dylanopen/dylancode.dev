@@ -14,3 +14,12 @@ The main [[boolean]] operations that are associative are:
 
 This means that we can group the values in any way we like when we're using
 these operations, and we'll get the same results.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does it mean for a boolean operator to be associative? | It means we can group the values in any way and get the same result: $A \ominus (B \ominus C) = (A \ominus B) \ominus C$ |
+| Which main boolean operations are associative? | AND ($A \cdot (B \cdot C) = (A \cdot B) \cdot C$), OR ($A + (B + C) = (A + B) + C$), and XOR ($A \oplus (B \oplus C) = (A \oplus B) \oplus C$) |
+| How can we rewrite an expression using an associative operator? | We can rewrite $A \ominus (B \ominus C)$ as $(A \ominus B) \ominus C$ |
+

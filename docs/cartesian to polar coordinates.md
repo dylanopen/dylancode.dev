@@ -82,3 +82,21 @@ Then to find the angle, $\theta$:
 - $\theta=\tan^{-1}2$
 - $\theta=1.107$
 - **Answer**: $(4\sqrt5, 1.107)$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for $r$ (magnitude) when converting Cartesian $(x,y)$ to polar coordinates? | $r=\sqrt{x^2+y^2}$ |
+| What is the formula for $\theta$ (angle) when converting Cartesian $(x,y)$ to polar coordinates? | $\theta=\tan^{-1}(\frac yx)$ |
+| What must you do to $\theta$ if the $x$ coordinate is negative when converting to polar coordinates? | We need to *add $\pi$* to our answer for $\theta$. |
+| Why must you add $\pi$ to $\theta$ when $x$ is negative? | Because otherwise the angle from $\tan^{-1}(\frac yx)$ would be in the wrong quadrant. |
+| Convert the Cartesian coordinate $(4,4)$ to polar coordinates. | $(4\sqrt2, \frac{\pi}4)$ |
+| Convert the Cartesian coordinate $(-1,4)$ to polar coordinates (to 3sf). | $(4.123, 1.816)$ |
+| Convert the Cartesian coordinate $(-1,-4)$ to polar coordinates (to 3sf). | $(4.123, 1.816)$ |
+| Convert the Cartesian coordinate $(1,-4)$ to polar coordinates (to 3sf). | $(4.123, -1.326)$ |
+| Convert the Cartesian coordinate $(4,8)$ to polar coordinates. | $(4\sqrt5, 1.107)$ |
+| What is the polar coordinate $r$ a measure of? | The magnitude, the [[distance]] of a point from the origin. |
+| What is the polar coordinate $\theta$ a measure of? | The *bearing* from the origin, starting from the right-stretching line and going *anticlockwise*. |
+| What do you need to do if $x$ is positive and $y$ is negative when finding $\theta$? | Do not add $\pi$ to the $\tan^{-1}(\frac yx)$ result. |
+

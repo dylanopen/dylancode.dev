@@ -111,3 +111,20 @@ its centre **and** its radius.
   - $(x-0)^2+(y-0)^2=4^2$
   - $x^2+y^2=16$
 - **Answer**: the equation is $x^2+y^2=16$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general equation of a circle? | $(x-a)^2+(y-b)^2=r^2$\| where $(a, b)$ is the centre and $r$ is the radius. |
+| In the general circle equation, what do $a$ and $b$ represent? | The x-coordinate and y-coordinate of the centre, respectively. |
+| What does $r$ represent in the equation $(x-a)^2+(y-b)^2=r^2$? | The radius of the circle. |
+| What is the equation of a circle with centre at the origin $(0,0)$? | $x^2+y^2=r^2$ |
+| If a circle has equation $(x-4)^2+(y+2)^2=36$, what is its radius? | $r=\sqrt{36}=6$ |
+| If a circle has equation $(x-3)^2+(y-2)^2=16$, what is the centre? | $(3,2)$ |
+| If a circle has equation $(x+3)^2+(y-2)^2=16$, what is the centre? | $(-3,2)$\;(because $x+3$ is $x-(-3)$) |
+| If a circle has equation $x^2+y^2=25$, what is its centre and radius? | Centre: $(0,0)$,\; Radius: $r=\sqrt{25}=5$ |
+| How do you find the equation of a circle with centre $(4,5)$ and radius $7$? | Substitute into $(x-a)^2+(y-b)^2=r^2$: $(x-4)^2+(y-5)^2=49$ |
+| How do you find the equation of a circle with centre $(-3,2)$ and radius $5$? | $(x-(-3))^2+(y-2)^2=5^2$ simplifies to $(x+3)^2+(y-2)^2=25$ |
+| How do you find the equation of a circle with centre $(0,0)$ and radius $4$? | $(x-0)^2+(y-0)^2=4^2$ simplifies to $x^2+y^2=16$ |
+

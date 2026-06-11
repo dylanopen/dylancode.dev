@@ -61,3 +61,20 @@ $$
 - Substitute the values and solve!
   - $n=\frac{2.5\times10^{-6}\times1}{700}$
   - $n\approx3.57\times10^{-9}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a diffraction grating? | "A material with many tiny slits close together that waves pass through, causing diffraction and interference." |
+| What pattern is created when waves pass through a diffraction grating? | "A pattern of bright and dark spots on a screen, caused by constructive and destructive interference." |
+| What is the formula for diffraction grating? | $n \lambda = d \sin \theta$ |
+| What does $n$ represent in the diffraction grating formula? | The order of the spectrum (or maximum). |
+| What does $\lambda$ represent in the diffraction grating formula? | The wavelength of the wave. |
+| What does $d$ represent in the diffraction grating formula? | The distance between the slits (grating spacing). |
+| What does $\theta$ represent in the diffraction grating formula? | The angle between the central maximum and the nth maximum. |
+| How do you convert 'lines per millimetre' to 'distance between slits'? | $\text{distance} = \frac{1}{\text{lines per millimetre}}$ |
+| What unit does the formula $\text{distance} = \frac{1}{\text{lines per millimetre}}$ give? | Millimetres. |
+| How do you find the highest order for a diffraction grating? | Set $\theta = 90\degree$ (so $\sin \theta = 1$), then rearrange the formula to solve for $n$: $n = \frac{d \sin \theta}{\lambda}$. |
+| Given a grating with 400 lines per millimetre and wavelength 700nm, what is the distance between slits $d$? | $2.5 \times 10^{-6}$ m (first $d = \frac{1}{400} = 2.5 \times 10^{-3}$ mm, then convert to $2.5 \times 10^{-6}$ m). |
+

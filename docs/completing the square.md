@@ -83,3 +83,18 @@ the number outside the brackets tells us the $y$ coordinate of the [[turning poi
 We **negate** the number inside the brackets to find our $x$ coordinate. The
 reason for this is the same as when we solve equations from their factorised
 form.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is completing the square? | Completing the square is a method used to rewrite a quadratic expression from the form $ax^2+bx+c$ to the form $a(x+d)^2+e$. |
+| What is the turning point of a quadratic graph also known as? | The vertex. |
+| What is the formula for completing the square when $a=1$? | $x^2+bx+c = (x+\frac{b}{2})^2 - (\frac{b}{2})^2 + c$ |
+| Complete the square for $x^2 + 6x + 5$: | $(x+3)^2 - 4$ |
+| What is the first step to complete the square when $a \ne 1$? | Divide the whole equation by $a$. |
+| Complete the square for $2x^2 + 8x + 6$: | $2(x+2)^2 - 2$ |
+| How do you find the turning point from the form $a(x+d)^2+e$? | The turning point is $(-d, e)$. |
+| What coordinate of the turning point does the number inside the bracket represent? | The $x$ coordinate. |
+| What coordinate of the turning point does the number outside the bracket represent? | The $y$ coordinate. |
+

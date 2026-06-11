@@ -89,3 +89,20 @@ The key idea is that we:
     - $x = \log_4(4)$
     - $x = 1$
 - Answer: $x = 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a disguised logarithm equation? | An equation that can be rewritten in the form of a logarithmic equation, even though it may not look like one at first. |
+| What is the first step in solving a disguised logarithm equation like $(2a)^x + a^x = b$? | Rewrite it in the form of a quadratic: $(a^x)^2 + a^x - b = 0$. |
+| After solving the quadratic for $a^x$, how do you find $x$? | Take the logarithm of both sides to find $x$. |
+| How do you rewrite $9^x$ into a quadratic term? | $9^x = (3^2)^x = 3^{2x} = (3^x)^2$. |
+| Solve for $x$: $9^x + 3^x = 12$. | $x = 1$.<br/>Steps: $(3^x)^2 + 3^x - 12 = 0$, factorise to $(3^x + 4)(3^x - 4) = 0$, $3^x = -4$ has no solution, $3^x = 3$ gives $x = \log_3(3) = 1$. |
+| Why does $3^x = -4$ have no solution in $9^x + 3^x = 12$? | $\log_3(-4)$ is undefined, so there are no solutions for $3^x = -4$. |
+| How do you rewrite $4^x$ into a quadratic term? | $4^x = (2^2)^x = 2^{2x} = (2^x)^2$. |
+| Solve for $x$: $4^x + 2^x = 20$. | $x = 2$.<br/>Steps: $(2^x)^2 + 2^x - 20 = 0$, factorise to $(2^x + 5)(2^x - 4) = 0$, $2^x = -5$ has no solution, $2^x = 4$ gives $x = \log_2(4) = 2$. |
+| Solve for $x$: $16^x + 4^x = 20$. | $x = 1$.<br/>Steps: $(4^x)^2 + 4^x - 20 = 0$, factorise to $(4^x + 5)(4^x - 4) = 0$, $4^x = -5$ has no solution, $4^x = 4$ gives $x = \log_4(4) = 1$. |
+| When solving $16^x + 4^x = 20$, why is $4^x = -5$ invalid? | $\log_4(-5)$ is undefined, so there are no solutions for $4^x = -5$. |
+| What is the common pattern for rewriting $a^{2x}$ in disguised logarithm equations? | $a^{2x} = (a^x)^2$. |
+

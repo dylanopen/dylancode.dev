@@ -77,3 +77,17 @@ We can solve these in just the same way.
 - $= x^4 - 16(-1)$
 - $= x^4 + 16$
 - Answer: $x^4 + 16$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general identity for factorising a sum of two squares $a^2 + b^2$ using complex numbers? | $(a + bi)(a - bi) = a^2 + b^2$ |
+| Show the expansion proof for $(a + bi)(a - bi) = a^2 + b^2$. | $(a + bi)(a - bi) = a^2 - abi + abi - b^2i^2 = a^2 - b^2i^2 = a^2 - b^2(-1) = a^2 + b^2$ |
+| How do you factorise $x^2 + 4$ as a sum of two squares? | $(x + 2i)(x - 2i)$ |
+| How do you factorise $9x^2 + 16$ as a sum of two squares? | $(3x + 4i)(3x - 4i)$ |
+| Expand $(x + 2i)(x - 2i)$. | $x^2 + 4$ |
+| Expand $(3x + 4i)(3x - 4i)$. | $9x^2 + 16$ |
+| How do you factorise the quartic $x^4 + 16$ as a sum of two squares? | $(x^2 + 4i)(x^2 - 4i)$ |
+| Expand $(x^2 + 4i)(x^2 - 4i)$. | $x^4 + 16$ |
+

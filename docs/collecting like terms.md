@@ -70,3 +70,16 @@ the variable part the same.
 - Write the simplified [[expression]]:
   - $2m + n + 11 - 4n^2$
 - **Answer:** $2m + n + 11 - 4n^2$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the definition of like terms in algebra? | Like terms are terms that have the same variable raised to the same power. |
+| What fundamental rule is used to combine like terms when adding? | $ax + bx = (a + b)x$ |
+| What is the simplified form of $4x + 3x - 2y + 5y$? | $7x + 3y$ |
+| Simplify $6a - 4a + 2b + 3b - b$ | $2a + 4b$ |
+| Simplify $5m + 2n - 3m + 4 - n + 7 - 4n^2$ | $2m + n + 11 - 4n^2$ |
+| In the expression $3x + 5x - 2y + 4y$, why are $3x$ and $5x$ considered like terms? | They both contain the variable $x$. |
+| Why are $x$ and $x^2$ not like terms? | The powers are different. |
+

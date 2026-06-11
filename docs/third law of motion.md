@@ -22,3 +22,9 @@ For example:
 - Suppose we have a book on a table.
 - You might think that the *normal contact force* from the table on the book is the 'equal and opposite' force to the *[[weight]]* of the book (the force of gravity pulling it down).
 - But these two forces aren't actually an action-reaction pair, because they act on the same object (the book).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

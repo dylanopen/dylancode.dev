@@ -10,3 +10,15 @@ What that means is that, if we have two independent [[discrete random variable]]
 - If $X\sim Po(2)$ and $Y\sim Po(4)$, then $X+Y\sim Po(2 + 4) = Po(6)$.
 - If $X\sim Po(1)$ and $X+Y\sim Po(2)$, then $Y\sim Po(2 - 1) = Po(1)$. 
 - If $Y\sim Po(6)$ and $X+Y\sim Po(10)$, then $X\sim Po(10 - 6) = Po(4)$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| If $X\sim Po(\lambda_X)$ and $Y\sim Po(\lambda_Y)$ are independent, what is the distribution of $X+Y$? | $X+Y\sim Po(\lambda_X + \lambda_Y)$ |
+| If $X\sim Po(3)$ and $Y\sim Po(5)$ are independent, what is the distribution of $X+Y$? | $X+Y\sim Po(3 + 5) = Po(8)$ |
+| If $X\sim Po(2)$ and $Y\sim Po(4)$ are independent, what is $X+Y$? | $X+Y\sim Po(2 + 4) = Po(6)$ |
+| If $X\sim Po(1)$ and $X+Y\sim Po(2)$ are independent, what is the distribution of $Y$? | $Y\sim Po(2 - 1) = Po(1)$ |
+| If $Y\sim Po(6)$ and $X+Y\sim Po(10)$ are independent, what is the distribution of $X$? | $X\sim Po(10 - 6) = Po(4)$ |
+| What is the mean of the sum of two independent Poisson distributions? | The mean is the sum of the means, i.e., $\lambda_X + \lambda_Y$ |
+

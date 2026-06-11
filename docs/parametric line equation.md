@@ -4,3 +4,11 @@ A *parametric* [[equation of a straight line|line equation]] represents a line i
 
 For example, this is a parametric line equation:
 - $x=\cos\theta,\,\,y=\sin\theta$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Parametric line equation definition | Represents a line in terms of its $x$ and $y$ components at each *angle*. |
+| Example of a parametric line equation | $x=\cos\theta,\,\,y=\sin\theta$ |
+

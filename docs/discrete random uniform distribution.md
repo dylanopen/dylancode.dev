@@ -109,3 +109,22 @@ To find the probability of getting $x$ from a [[discrete random variable]] follo
 
 > $P(X=x)=\frac1n\quad\text{for values in set}$
 > $0\quad\quad\quad\quad\quad\quad\quad \text{otherwise}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| X \sim U(n) | $X$ is a discrete random variable following a uniform distribution from $1$ to $n$. |
+| What is the sum of $r$ from 1 to $n$? | $\frac12 n(n+1)$ |
+| What is the sum of $r^2$ from 1 to $n$? | $\frac16 n(n+1)(2n+1)$ |
+| If $Y = aX + b$, what is $E(Y)$? | $aE(X) + b$ |
+| If $Y = aX + b$, what is $Var(Y)$? | $a^2 Var(X)$ |
+| What is the shape of the graph of a rectangular distribution? | A rectangle. |
+| How do you notate a uniform distribution for a discrete random variable $X$ with $n$ outcomes? | $X \sim U(n)$ |
+| For a DRV $X$ following $U(6)$, list the values of $P(X=r)$ for $r=1$ to $6$. | Each is $\frac16$. |
+| Calculate $E(X)$ for $X \sim U(6)$ | $3.5$ |
+| Calculate $Var(X)$ for $X \sim U(6)$ | $\frac{35}{12}$ |
+| What is the general formula for $E(X)$ when $X \sim U(n)$? | $\frac{n+1}{2}$ |
+| What is the general formula for $Var(X)$ when $X \sim U(n)$? | $\frac1{12}(n^2 - 1)$ |
+| What is the probability of $X=x$ for a DRV following a uniform distribution from 1 to $n$? | $\frac1n$ for values in the set, 0 otherwise. |
+

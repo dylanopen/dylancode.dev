@@ -7,6 +7,19 @@ WHERE !(out.file) AND !contains(meta(out).path, "/")
 SORT out ASC
 </code></pre>
 <p>p</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>question:</td><td>How do you list all uncreated files that are linked in your notes using Dataview?</td></tr>
+<tr><td>answer:</td><td>Use the query:<br/><code>dataview&lt;br/&gt;TABLE without id &lt;br/&gt;out AS "Uncreated files", file.link as "Origin"&lt;br/&gt;FLATTEN file.outlinks as out&lt;br/&gt;WHERE !(out.file) AND !contains(meta(out).path, "/")&lt;br/&gt;SORT out ASC&lt;br/&gt;</code></td></tr>
+<tr><td>question:</td><td>What does <code>FLATTEN file.outlinks as out</code> do in the Dataview query?</td></tr>
+<tr><td>answer:</td><td>It expands each file’s list of outlinks into individual rows, naming each link as <code>out</code>.</td></tr>
+<tr><td>question:</td><td>What condition does <code>!(out.file)</code> check in the Dataview WHERE clause?</td></tr>
+<tr><td>answer:</td><td>It checks if the outlink <code>out</code> does not point to an existing file (i.e., the file is missing/uncreated).</td></tr>
+<tr><td>question:</td><td>Why is <code>!contains(meta(out).path, "/")</code> used in the WHERE clause?</td></tr>
+<tr><td>answer:</td><td>To filter out links that contain a <code>/</code> in their path, which are likely external links or links to files in folders (only showing links without folder paths).</td></tr>
+<tr><td>question:</td><td>What does the <code>SORT out ASC</code> clause do?</td></tr>
+<tr><td>answer:</td><td>It sorts the resulting table by the <code>out</code> column (the uncreated file names) in ascending alphabetical order.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

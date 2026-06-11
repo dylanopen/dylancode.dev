@@ -19,3 +19,15 @@ cycle.
   graphics card, sound card, printers, etc.
 - The data that the [[processor]] receives from other components, like user input
   from the keyboard, mouse, etc.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the data bus? | A bus that carries actual data between the processor and main memory, allowing the processor to read or write data or communicate with other components. |
+| How does the width of the data bus affect data transfer? | It determines how much data the processor can read or write in each clock cycle; a 64-bit bus allows 64 bits per cycle. |
+| What does the data bus transfer for instructions? | The instructions the processor needs to execute. |
+| What does the data bus transfer for calculations? | The results of calculations done by the processor for storage. |
+| What does the data bus transfer for sending data to other components? | Data to components like the graphics card, sound card, and printers. |
+| What does the data bus transfer for receiving data from components? | Data from components like user input from the keyboard and mouse. |
+

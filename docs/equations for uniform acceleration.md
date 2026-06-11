@@ -124,3 +124,23 @@ $$
 - Use $s=\frac{u+v}2\times t$ to find $s$
 - $s=\frac{20+40}2\times6$
 - $s=180\text{ m}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the 5 key values typically used in uniform acceleration calculations? | [[displacement]] or [[distance]], $s$; initial [[velocity]] or [[speed]], $u$; final [[velocity]] or [[speed]], $v$; [[acceleration]], $a$; [[time]], $t$ |
+| What is the equation linking initial velocity, final velocity, acceleration, and time? | $v=u+at$ |
+| What is the equation linking displacement, initial velocity, final velocity, and time? | $s=\frac{u+v}2\times t$ |
+| What is the equation linking displacement, initial velocity, acceleration, and time? | $s=ut+\frac12at^2$ |
+| What is the equation linking displacement, final velocity, acceleration, and time? | $s=vt-\frac12at^2$ |
+| What is the equation linking final velocity, initial velocity, acceleration, and displacement? | $v^2=u^2+2as$ |
+| A car accelerates from rest at $2\text{ m/s}^2$ for $5\text{ s}$. How far does it go? | $25\text{ m}$ |
+| A car accelerates from $10\text{ m/s}$ to $30\text{ m/s}$ in $4\text{ s}$. What is its acceleration? | $5\text{ m/s}^2$ |
+| A car accelerates from $20\text{ m/s}$ to $40\text{ m/s}$ over a distance of $300\text{ m}$. How long does it take? | $6\text{ s}$ |
+| A car accelerates from $15\text{ m/s}$ to $25\text{ m/s}$ in $10\text{ s}$. How far does it go? | $200\text{ m}$ |
+| A car accelerates from $5\text{ m/s}$ to $25\text{ m/s}$ over a distance of $400\text{ m}$. How long does it take? | $16\text{ s}$ |
+| A car accelerates from $0\text{ m/s}$ to $20\text{ m/s}$ in $8\text{ s}$. How far does it go? | $80\text{ m}$ |
+| A car accelerates from $10\text{ m/s}$ to $30\text{ m/s}$ over a distance of $200\text{ m}$. How long does it take? | $5\text{ s}$ |
+| A car accelerates from $20\text{ m/s}$ to $40\text{ m/s}$ in $6\text{ s}$. How far does it go? | $180\text{ m}$ |
+

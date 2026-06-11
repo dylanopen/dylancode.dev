@@ -59,3 +59,19 @@ using newton-metres.
 - The force of one is 2N
 - So the combined force of *both* components of the [[couple]] must be $2\times2=4N$
 - **Answer**: $4N$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a torque? | A torque measures the magnitude of the turning effect (moment) caused by a couple. |
+| What is the turning effect of a couple the sum of? | The turning effect is the sum of both moments in the couple. |
+| A couple has a $5N$ force $2m$ from the pivot and a $5N$ force $3m$ from the pivot, both clockwise. What is the torque? | First moment: $5\times2=10Nm$<br/>Second moment: $5\times3=15Nm$<br/>Total torque: $10Nm+15Nm=25Nm$ |
+| How can you calculate the torque for a couple without adding individual moments? | Multiply the force by the distance between the couple's forces: $\text{torque}=Fd$ |
+| What is the formula for torque? | $$\text{torque}=Fd$$ |
+| In the torque formula $Fd$, what does $F$ represent? | $F$ is the magnitude of a single force (one component of the couple). |
+| In the torque formula $Fd$, what does $d$ represent? | $d$ is the distance between the couple's forces. |
+| What are the units of torque? | Newton-metres (Nm). |
+| Two forces of $8N$ act clockwise on a metal bar, $9m$ away from each other. Find the turning effect. | $M=Fd$<br/>$M=8N\times9m$<br/>$M=72Nm$ |
+| The torque on a stick is $7Nm$. The perpendicular distance between the couple is $3.5m$. Find the sum of the magnitudes of the forces acting. | $M=Fd$<br/>$F=\frac Md$<br/>$F=\frac7{3.5}$<br/>$F=2N$ (for one force)<br/>Sum of both forces: $2N\times2=4N$ |
+

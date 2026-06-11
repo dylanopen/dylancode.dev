@@ -45,3 +45,15 @@ We can round numbers to the nearest $n$ decimal places using these steps:
   1st decimal place by $1$ (which is $7$) to get $8$ (so now we have $0.80...$).
 - Remove all digits after the 2nd decimal place, giving $0.80$.
 - **Answer**: $0.80$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you round a number to $n$ decimal places? | 1. Find the digit at the $n$th decimal place.<br/>2. Check if the digit after it is less than 5: if so, keep the $n$th digit; if 5 or more, increase the $n$th digit by one (carrying if it is 9).<br/>3. Remove all digits after the $n$th decimal place. |
+| Round $3.14159$ to 2 decimal places. | $3.14$ (3rd decimal digit is $1$ < 5, round down). |
+| Round $2.71828$ to 3 decimal places. | $2.718$ (4th decimal digit is $2$ < 5, round down). |
+| Round $1.98765$ to 4 decimal places. | $1.9877$ (5th decimal digit is $5$, round up: $6$ becomes $7$). |
+| Round $0.798$ to 2 decimal places. | $0.80$ (3rd decimal digit is $8$ ≥ 5, round up: $9$ becomes $10$, so carry makes 1st decimal $7$ become $8$). |
+| What happens when you round up and the $n$th decimal digit is 9? | It becomes 0 and you carry 1 to the left (the $(n-1)$th decimal place), potentially causing further carries. |
+

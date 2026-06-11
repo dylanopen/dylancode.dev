@@ -15,3 +15,11 @@ As long as it is clearly defined, you can choose whatever you like.
 We use this 
 
 ## 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| In linear motion modelling, what must be defined before starting? | One direction as positive and one direction as negative (e.g., right = positive, left = negative). |
+| When defining direction for linear motion, what choices can you make? | Any choice is allowed as long as it is clearly defined (e.g., upward = negative, downward = positive). |
+

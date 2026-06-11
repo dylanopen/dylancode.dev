@@ -27,3 +27,9 @@ To check if two graphs are isomorphic, we can look at:
 - The degree of each vertex (how many edges connect to it).
 - The overall structure and connections between vertices.
 If all these aspects match, the graphs are isomorphic!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

@@ -84,3 +84,19 @@ This is useful when:
 - Determinant = $2\times 2 - 4\times 1 = 4 - 4 = 0$
 - **Answer**: No, because the determinant is zero, so the matrix is singular and
   doesn't have an inverse.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a singular matrix? | A matrix is called singular if its determinant is equal to zero. |
+| What is the determinant of matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and is it singular? | Determinant = $1\times 4 - 2\times 3 = 4 - 6 = -2$, so it is not singular because the determinant is not zero. |
+| What is the determinant of matrix $\begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$ and is it singular? | Determinant = $1\times 4 - 2\times 2 = 4 - 4 = 0$, so it is singular because the determinant is zero. |
+| Find $p$ such that $\begin{bmatrix} 4 & p+2 \\ -1 & 3-p \end{bmatrix}$ is singular. | Set determinant $0 = 4(3-p) - (p+2)(-1)$ to get $0 = 14 - 3p$, so $p = \frac{14}{3}$. |
+| Given $\begin{bmatrix} 1 & 2 \\ k & 4 \end{bmatrix}$ is singular, find $k$. | Set $0 = 1\times 4 - 2\times k$, so $0 = 4 - 2k$, hence $k = 2$. |
+| Find $p$ for the singular matrix $\begin{bmatrix} 2 & p-1 \\ 3 & 5 \end{bmatrix}$. | Set $0 = 2\times 5 - (p-1)\times 3$ to get $0 = 13 - 3p$, so $p = \frac{13}{3}$. |
+| Does a singular matrix have an inverse? | No, a singular matrix does not have an inverse matrix. |
+| Does matrix $\begin{bmatrix} 1 & 2 \\ 3 & 6 \end{bmatrix}$ have an inverse? | No, because its determinant is $1\times 6 - 2\times 3 = 0$, so it is singular and has no inverse. |
+| Does matrix $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ have an inverse? | Yes, because its determinant is $1\times 4 - 2\times 3 = -2$, which is not zero, so it is not singular. |
+| Does matrix $\begin{bmatrix} 2 & 4 \\ 1 & 2 \end{bmatrix}$ have an inverse? | No, because its determinant is $2\times 2 - 4\times 1 = 0$, so it is singular and has no inverse. |
+

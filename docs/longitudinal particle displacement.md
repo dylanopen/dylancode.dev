@@ -5,3 +5,11 @@ The *particle [[displacement]]* of a [[longitudinal wave]] is the [[distance]] t
 ## Direction
 
 In a [[longitudinal wave]], the particle [[displacement]] is **parallel** to the direction of wave travel, or [[wave energy propagation|energy propagation]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is particle displacement in a longitudinal wave? | The distance a particle is displaced from its equilibrium (rest) position. |
+| In a longitudinal wave, how does the direction of particle displacement relate to the wave's travel? | It is parallel to the direction of wave travel (energy propagation). |
+

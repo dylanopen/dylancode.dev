@@ -126,3 +126,20 @@ $$
   - $y_1 = 2 + 4$
   - $y_1 = 6$
 - **Answer**: Point C is (8, 6).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a midpoint? | The point that is exactly halfway between two points. |
+| How do you calculate the $x$ and $y$ coordinates of a midpoint? | They are the averages of the $x$ and $y$ coordinates of the two points respectively. |
+| What is the formula for the Midpoint between $(x_1, y_1)$ and $(x_2, y_2)$? | $\text{Midpoint} = ( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} )$ |
+| What are the formulas for $x_M$ and $y_M$, the coordinates of the midpoint? | $x_M = \frac{x_1 + x_2}{2}$ <br/> $y_M = \frac{y_1 + y_2}{2}$ |
+| Find the midpoint of (2, 3) and (6, 7). | (4, 5) |
+| Find the midpoint of (-1, 4) and (3, -2). | (1, 1) |
+| Find the midpoint of (0, 0) and (5, 10). | (2.5, 5) |
+| Find the midpoint of (-4, -6) and (4, 6). | (0, 0) |
+| How do you find point A given point B and the midpoint between them? | Set up two equations using the midpoint formula ($\frac{x_1 + x_2}{2} = x_M$ and $\frac{y_1 + y_2}{2} = y_M$) and solve for the unknown coordinates. |
+| Find point A, given midpoint (6, 10) and point B (4, 8). | (8, 12) |
+| Find point C, given midpoint (5, 1) and point D (2, -4). | (8, 6) |
+

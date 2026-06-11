@@ -1,73 +1,73 @@
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold-Italic.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold-Italic.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold-Italic.woff') format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-ExtraBold.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Italic.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Italic.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Italic.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium-Italic.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium-Italic.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium-Italic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'JetBrainsMono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    font-family: 'JetBrainsMono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 span.katex, span.katex-html, span.base {
@@ -76,7 +76,7 @@ span.katex, span.katex-html, span.base {
 
 body {
     font-family: "JetBrainsMono";
-    margin: 0;
+    margin: auto;
     background-color: #111215;
     color: #fff;
     line-height: 1.375;
@@ -118,8 +118,8 @@ a {
     max-width: 800px;
     min-width: 0; /* THIS IS THE FIX: Prevents grid item from expanding beyond viewport */
     a.dead {
-    color: #38c;
-    text-decoration: none;
+        color: #38c;
+        text-decoration: none;
     }
 }
 .sidebar-link,.sidebar-section {
@@ -173,8 +173,8 @@ pre {
     overflow-x: auto;
     min-width: 0;
     code {
-    font-size: 1em;
-    background-color: #0000;
+        font-size: 1em;
+        background-color: #0000;
     }
 }
 code {
@@ -192,27 +192,27 @@ img {
 
 @media print {
     body {
-    background-color: #fff;
-    color: #000;
+        background-color: #fff;
+        color: #000;
     }
     .sidebar {
-    display: none;
+        display: none;
     }
     .main-content {
-    max-width: none;
-    width: 100%;
+        max-width: none;
+        width: 100%;
     }
 }
 
 /* make grid 1 column by 2 rows on small screens */
 @media (max-width: 1150px) {
     .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
     }
     .sidebar {
-    border-right: none;
-    border-bottom: 1px solid #191a1f;
+        border-right: none;
+        border-bottom: 1px solid #191a1f;
     }
 }
 

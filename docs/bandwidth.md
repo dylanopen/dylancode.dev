@@ -29,3 +29,18 @@ Think of it like a motorway:
   driving at the maximum [[speed]], or various other things.
 
 > Bandwidth is **[[direct proportion|directly proportional]]** to [[bit rate]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is bandwidth in relation to frequencies? | Bandwidth is the range of frequencies that can be transmitted over a network connection. |
+| How is bandwidth like a water pipe? | The higher the bandwidth of a communication channel, the more data can be transmitted through it in a given amount of time, because more frequencies can be represented. |
+| What unit is bandwidth generally measured in? | Bandwidth is generally measured in bits per second, but its actual units are hertz (Hz). |
+| What determines the bandwidth of a communication channel? | The bandwidth of a communication channel is determined by the range of frequencies that it can transmit. |
+| If a communication channel can transmit frequencies between 20 Hz and 20 kHz, what is its bandwidth? | Its bandwidth is 20 kHz - 20 Hz = 19.98 kHz. |
+| What is the difference between bandwidth and bit rate? | Bandwidth is the maximum amount of data that can be transmitted over a channel in a given time, while bit rate is the actual amount of data being transmitted. |
+| In the motorway analogy, what does bandwidth represent? | The bandwidth is the speed limit of the motorway, representing the maximum speed cars can travel. |
+| In the motorway analogy, what does bit rate represent? | The bit rate is the actual speed of the cars on the motorway. |
+| What is the relationship between bandwidth and bit rate? | Bandwidth is directly proportional to bit rate. |
+

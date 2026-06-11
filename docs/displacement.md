@@ -52,3 +52,17 @@ Where:
 - $s=25\times12=300$
 - Answer: $300m$
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is displacement? | Displacement measures how far we are from our starting position, in a certain direction. It is a vector quantity. |
+| If you walk 1km north then 2km back, what is the total distance travelled and what is the displacement? | Total distance is 3km. Displacement is 1km south. |
+| What is the formula linking displacement, velocity, and time? | $s=vt$, where $s$ is displacement in $m$, $v$ is velocity in $ms^{-1}$, and $t$ is time in $s$. |
+| A lorry travels at $20ms^{-1}$ for 10s. Calculate the displacement. | $s=20 \times 10 = 200m$ |
+| A car travels at $15ms^{-1}$ for 5s. Calculate the displacement. | $s=15 \times 5 = 75m$ |
+| A bike travels at $0.5ms^{-1}$ for 20s. Calculate the displacement. | $s=0.5 \times 20 = 10m$ |
+| A car travels at $30ms^{-1}$ for 8s. Calculate the displacement. | $s=30 \times 8 = 240m$ |
+| A lorry travels at $25ms^{-1}$ for 12s. Calculate the displacement. | $s=25 \times 12 = 300m$ |
+

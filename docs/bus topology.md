@@ -25,3 +25,19 @@ That makes the network function exactly like a bus, but just that the physical c
 - You have to physically cut the bus to add or remove devices - that can cause downtime!
 
 *Buses really aren't used very often now, they're just not the best option.*
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Bus topology | All devices connected to a single shared communication line (the bus); all data travels along this single wire. |
+| Logical bus (star topology) | Configuring a network switch to forward packets to everyone, making it function like a bus even though cables are arranged in a star topology. |
+| Advantage of bus topology: Ease of setup | It is easy to set up because you just connect all devices to a single wire. |
+| Advantage of bus topology: Cost | It is cheap because you don't need a lot of cables or hardware. |
+| Disadvantage of bus topology: Bus breakage | If the bus (single wire) breaks, the whole network goes down. |
+| Disadvantage of bus topology: Scalability | It is not very scalable; adding more devices causes congestion and slows the network. |
+| Disadvantage of bus topology: Security | It is not very secure; all devices can see all data, so a compromised device can access all network data. |
+| Disadvantage of bus topology: Efficiency | It is not very efficient; devices must wait for their turn to use the bus, causing slowness with many devices. |
+| Disadvantage of bus topology: Reliability (collisions) | It is not very reliable; if one device sends much data, collisions can occur, causing data loss or requiring resending. |
+| Disadvantage of bus topology: Adding/removing devices | You must physically cut the bus to add or remove devices, which can cause downtime. |
+

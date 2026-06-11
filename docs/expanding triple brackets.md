@@ -34,3 +34,15 @@ Now, expand this result with the remaining bracket, $(x - 3)$:
 This simplifies to $2x^3 + 5x^2 - 21x - 36$.
 
 **Answer**: $2x^3 + 5x^2 - 21x - 36$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you expand three sets of brackets? | First expand two of the brackets, then expand the result with the remaining bracket. |
+| In the example $(2x + 3)(x + 4)(x - 3)$, what is the result of expanding the first two brackets $(2x + 3)(x + 4)$? | $2x^2 + 11x + 12$ |
+| In the example, after expanding $(2x + 3)(x + 4)$ to $2x^2 + 11x + 12$, what is the next step? | Expand $(2x^2 + 11x + 12)$ with the remaining bracket $(x - 3)$. |
+| What is the final expanded form of $(2x + 3)(x + 4)(x - 3)$? | $2x^3 + 5x^2 - 21x - 36$ |
+| In the example, what are the three terms obtained when multiplying $x$ by $2x^2$, $11x$, and $12$? | $2x^3$, $11x^2$, and $12x$ |
+| In the example, what are the three terms obtained when multiplying $-3$ by $2x^2$, $11x$, and $12$? | $-6x^2$, $-33x$, and $-36$ |
+

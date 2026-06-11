@@ -38,3 +38,16 @@ Calculate:
   - $R_{total} = 8.0 \Omega + 6.0 \Omega = 14.0 \Omega$
   - $I=\frac{V}{R}=\frac{6.0 V}{14.0 \Omega}=0.43 A$
   - $V_R=IR=0.43 A \times 8.0 \Omega=3.4 V$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a potential divider? | A circuit consisting of at least two resistors in series, used to split the potential difference from a power supply. |
+| In a potential divider with an $8.0 \Omega$ resistor and a $12.0 \Omega$ resistor in series with a $6.0 V$ supply, how do you calculate the current? | Calculate total resistance ($12.0 \Omega + 8.0 \Omega = 20.0 \Omega$), then use $I = \frac{V}{R} = \frac{6.0 V}{20.0 \Omega} = 0.30 A$. |
+| In a potential divider, how do you check that your calculated p.d. values are correct? | Check that the sum of the p.d. across each resistor equals the total EMF of the power supply. |
+| What happens to the p.d. across each resistor in a potential divider if one of the resistors is variable? | The ratio of resistances changes, which changes the p.d. across each resistor. |
+| Why is a potential divider with a variable resistor useful in sensors? | It allows the p.d. across a resistor to change in response to an environmental change, e.g. using an LDR or thermistor. |
+| In a potential divider with an $8.0 \Omega$ resistor R in series with a thermistor and a $6.0 V$ supply, what is the p.d. across R at 20°C? | $2.0 V$ (total resistance is $24.0 \Omega$, current is $0.25 A$). |
+| In a potential divider with an $8.0 \Omega$ resistor R in series with a thermistor and a $6.0 V$ supply, what is the p.d. across R at 100°C? | $3.4 V$ (total resistance is $14.0 \Omega$, current is $0.43 A$). |
+

@@ -101,3 +101,21 @@ You will probably have a question that tells you:
     - $a = 2 \times \sqrt{16}$
     - $a = 2 \times 4 = 8$
 - **Answer:** $a = 8$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $x \propto y$ (direct proportion) | $x$ is directly proportional to $y$, meaning the ratio between them is constant. |
+| $y \propto x$ expressed as equation | $y = kx$, where $k$ is the constant of proportionality. |
+| If two variables are directly proportional, what happens to one if the other doubles? | The other variable also doubles. |
+| What does it mean for the ratio between two directly proportional variables? | The ratio remains constant. |
+| $a \propto b$. Write $b$ in terms of $a$ and constant $k$ | $b = ka$ |
+| $y \propto x^2$. Write $y$ in terms of $x$ and constant $k$ | $y = kx^2$ |
+| If $y \propto x$, and $x=4, y=10$, find $k$ | $y=kx$, $10=k\times4$, $k=2.5$ |
+| If $a \propto b$, and $b=12, a=3$, find $k$ | $a=kb$, $3=k\times12$, $k=0.25$ |
+| $y\propto x$. When $x=2, y=8$. Find $y$ when $x=5$ | $k=4$, $y=4\times5=20$ |
+| $a \propto \sqrt{b}$. When $b=9, a=6$. Find $a$ when $b=16$ | $a=k\sqrt{b}$, $6=k\sqrt{9}$, $k=2$, $a=2\sqrt{16}=8$ |
+| How to find constant of proportionality given a pair of values? | Substitute the known values into the equation $y=kx$ (or equivalent) and solve for $k$. |
+| Once $k$ is found, how to find an unknown variable value? | Substitute $k$ and the known variable into the equation $y=kx$ (or equivalent) and solve. |
+

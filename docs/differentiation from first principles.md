@@ -96,3 +96,18 @@ is always zero, even if we consider values of $h$ that are not close to zero
 (measuring the gradient of a 'larger triangle' of the graph). That's because
 a constant function is just a flat horizontal line, so the gradient is always
 zero!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is differentiation from first principles? | Finding the derivative of a function manually using the limit definition, rather than using the power rule. |
+| What is the formula for differentiation from first principles? | $f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}h$ |
+| What does $\lim_{h\to0}$ mean? | 'The limit as $h$ approaches $0$', meaning we consider values of $h$ incredibly close to $0$ but not equal to $0$. |
+| Why can't we substitute $h=0$ directly into $\frac{f(x+h)-f(x)}h$? | Because it would result in a division by zero. |
+| Differentiate $f(x)=3x^2+2$ from first principles. | $f'(x)=6x$ |
+| Differentiate $f(x)=x^3 - x$ from first principles. | $f'(x)=3x^2 - 1$ |
+| According to the power rule, why is the derivative of a constant zero? | A constant function is like having a coefficient of $x^0$; when multiplying the coefficient by the power (0), the result is 0. |
+| Differentiate $f(x)=5$ from first principles. | $f'(x)=0$ |
+| Why is the derivative of a constant function always zero, even if $h$ is not close to zero? | Because a constant function is a flat horizontal line, so its gradient is always zero. |
+

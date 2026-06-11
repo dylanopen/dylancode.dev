@@ -85,3 +85,24 @@ However: all energy transfers usually will end up as heat in the end. In a way, 
 - $0.8 = \frac{\text{Useful energy output}}{500\,J}$
 - $\text{Useful energy output} = 0.8 \times 500\,J$
 - $\text{Useful energy output} = 400\,J$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for calculating efficiency as a decimal when using energy? | $\text{Efficiency} = \frac{\text{Useful energy output}}{\text{Total energy input}}$ |
+| What is the formula for calculating efficiency as a decimal when using power? | $\text{Efficiency} = \frac{\text{Useful power output}}{\text{Total power input}}$ |
+| What is the formula for calculating efficiency as a percentage when using energy? | $\text{Efficiency} = \left( \frac{\text{Useful energy output}}{\text{Total energy input}} \right) \times 100\%$ |
+| What is the formula for calculating efficiency as a percentage when using power? | $\text{Efficiency} = \left( \frac{\text{Useful power output}}{\text{Total power input}} \right) \times 100\%$ |
+| Why can almost nothing achieve 100% efficiency? | Because there are always some energy losses in the system. |
+| Give an example of energy losses in a car engine. | Some of the energy from the fuel is lost as heat and sound. |
+| When would a heating machine (e.g. electric radiator) be considered 100% efficient? | When it transfers all the energy it uses into heat energy, which is the desired output. |
+| A machine uses 1000 J of energy to produce 800 J of useful energy. What is its efficiency as a decimal and as a percentage? | $0.8$ (or $80\%$) |
+| A machine uses 2000 J of energy to produce 1500 J of useful energy. What is its efficiency as a decimal and as a percentage? | $0.75$ (or $75\%$) |
+| How do you calculate the total energy input when you know the efficiency (as a decimal) and the useful energy output? | $\text{Total energy input} = \frac{\text{Useful energy output}}{\text{Efficiency}}$ |
+| A machine has an efficiency of 90% and produces 900 J of useful energy. What is its total energy input? | $1000\,J$ |
+| How do you calculate useful energy output when you know the total energy input and the efficiency (as a decimal)? | $\text{Useful energy output} = \text{Efficiency} \times \text{Total energy input}$ |
+| A machine with an efficiency of 0.8 uses 500 J of energy. What is its useful energy output? | $400\,J$ |
+| A person charges a power bank with 800 kJ of input energy at 80% efficiency, then charges a phone from the bank at 90% efficiency. How much energy is transferred to the phone in the end? | $576\,kJ$ |
+| A machine has an efficiency of 70% and produces 700 J of useful energy. What is its total energy input? | $1000\,J$ |
+

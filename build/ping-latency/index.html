@@ -49,6 +49,16 @@ response is taking a long time, which can make things feel slow and
 unresponsive. You might have a good connection to the <a href="/server">server</a>, but if the <a href="/server">server</a>
 is slow to process requests, then the ping will be high, and things will feel
 slow.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Ping latency</td><td>Ping latency, also known simply as ‘ping’, is the time between sending a request and receiving a response from a server. It is measured by sending a small packet of data to the server and waiting for the server to send a response back, calculating the round-trip time.</td></tr>
+<tr><td>How is ping measured?</td><td>Ping is measured by sending a packet of data from your computer (the client) to a server, waiting for the server to send a response back, and measuring the total time this round trip takes.</td></tr>
+<tr><td>What contributes to the total time of a client-server interaction?</td><td>1. The client sends a request to the server (one ‘load’ of latency).<br/>2. The server processes the request and sends a response back to the client (another ‘load’ of latency). The total time for both is the ping.</td></tr>
+<tr><td>Why is ping used in gaming and web browsing?</td><td>To measure the responsiveness of a connection. A low ping means actions feel quick and responsive, while a high ping can make things feel slow and unresponsive.</td></tr>
+<tr><td>What command is used to check your ping in a terminal?</td><td><code>ping dylancode.dev</code></td></tr>
+<tr><td>What does the output of the <code>ping dylancode.dev</code> command show?</td><td>It shows the time it took for each packet to go from your computer to the server and back. For example: <code>time=9.22 ms</code> means a ping latency of 9.22 milliseconds.</td></tr>
+<tr><td>Why is the total round-trip time (ping) measured instead of just the one-way latency of the request or response?</td><td>The ping gives a better idea of how responsive the whole connection is. If the ping is high, it indicates either the request or the response is slow, which can make things feel unresponsive, as the server may be slow to process requests even if the client’s connection is good.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

@@ -44,3 +44,14 @@ If we add more resistors in parallel, the equivalent resistance **decreases**.
 This is because adding more paths for the current to flow reduces the overall
 resistance of the circuit (because there are more pathways for the electrons to
 'choose').
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for calculating the total resistance ($R_{eq}$) of resistors in parallel? | $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots$ |
+| How can you rearrange the parallel resistance formula to solve for $R_{eq}$? | $R_{eq} = \frac{1}{\left(\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots\right)}$ |
+| What is the equivalent resistance of a $12\Omega$ and $18\Omega$ resistor connected in parallel? | $\frac{1}{R_{eq}} = \frac{1}{12\Omega} + \frac{1}{18\Omega} = \frac{5}{36\Omega}$, so $R_{eq} = \frac{36\Omega}{5} = 7.2\Omega$ |
+| What happens to the equivalent resistance when you add more resistors in parallel? | The equivalent resistance decreases. |
+| Why does adding more resistors in parallel reduce the overall resistance? | Because adding more paths for current to flow provides more pathways for electrons to 'choose', reducing overall resistance. |
+

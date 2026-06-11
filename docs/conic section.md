@@ -11,3 +11,12 @@ The type of conic section we get depends on the angle at which we slice through 
 - An [[ellipse]]
 - A [[parabola]]
 - Or a [[hyperbola]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a conic section? | The shapes obtained by slicing through a cone in different directions. |
+| What determines the type of conic section obtained? | The angle at which the cone is sliced. |
+| What are the four types of conic section? | Circle, ellipse, parabola, and hyperbola. |
+

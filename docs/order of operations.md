@@ -61,3 +61,21 @@ Whenever we evaluate an [[expression]], we should do it in this order:
 - Next, we do the [[multiplication]]: $4 \times 4 = 16$.
 - **Answer**: $16$.
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the order of operations? | The order of operations tells us which operations (e.g. addition, multiplication, powers) to do first when finding the value of an expression. |
+| What does BIDMAS stand for? | Brackets, Indices, division and multiplication, Addition and subtraction. |
+| What does BODMAS stand for? | Brackets, Orders, division and multiplication, Addition and subtraction. |
+| What does PEMDAS stand for? | Parentheses, Exponents, multiplication and division, Addition. |
+| What is done first in the order of operations? | Brackets (parentheses). |
+| What is done second in the order of operations? | Indices (powers or roots like squares, square roots). |
+| What is the rule when you have multiple operations of the same rank (e.g. both division and multiplication)? | Do them from left to right. |
+| Evaluate: $3 + 4 \times 2$ | First, multiplication: $4 \times 2 = 8$.<br/>Then, addition: $3 + 8 = 11$.<br/>Answer: $11$. |
+| Evaluate: $(2 + 3)^2$ | First, brackets: $2 + 3 = 5$.<br/>Then, indices: $5^2 = 25$.<br/>Answer: $25$. |
+| Evaluate: $10 - 4 \div 2 + 3 \times 2$ | First, division: $4 \div 2 = 2$.<br/>Then, multiplication: $3 \times 2 = 6$.<br/>Next, subtraction: $10 - 2 = 8$.<br/>Finally, addition: $8 + 6 = 14$.<br/>Answer: $14$. |
+| Evaluate: $5 + (6 - 2)^2 \div 2$ | First, brackets: $6 - 2 = 4$.<br/>Then, indices: $4^2 = 16$.<br/>Next, division: $16 \div 2 = 8$.<br/>Finally, addition: $5 + 8 = 13$.<br/>Answer: $13$. |
+| Evaluate: $8 \div 2(2 + 2)$ | First, brackets: $2 + 2 = 4$.<br/>Then, division: $8 \div 2 = 4$.<br/>Next, multiplication: $4 \times 4 = 16$.<br/>Answer: $16$. |
+

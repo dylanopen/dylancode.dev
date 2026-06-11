@@ -215,3 +215,31 @@ $$
 - So:
   - $A = \pmatrix{1&0\\0&k}$
 - **Answer**: $\pmatrix{1 & 0\\0 & k}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Reflection in the x-axis matrix | $\pmatrix{1 & 0\\0 & -1}$ |
+| Reflection in the y-axis matrix | $\pmatrix{-1 & 0\\0 & 1}$ |
+| Reflection in the line $y=x$ matrix | $\pmatrix{0 & 1\\1 & 0}$ |
+| Reflection in the line $y=-x$ matrix | $\pmatrix{0 & -1\\-1 & 0}$ |
+| Rotation 90° clockwise about origin matrix | $\pmatrix{0 & 1\\-1 & 0}$ |
+| Rotation 90° anticlockwise about origin matrix | $\pmatrix{0 & -1\\1 & 0}$ |
+| Rotation 180° about origin matrix | $\pmatrix{-1 & 0\\0 & -1}$ |
+| Enlargement about origin with scale factor $k$ matrix | $\pmatrix{k & 0\\0 & k}$ |
+| Horizontal stretch parallel to x-axis with scale factor $k$ matrix | $\pmatrix{k & 0\\0 & 1}$ |
+| Vertical stretch parallel to y-axis with scale factor $k$ matrix | $\pmatrix{1 & 0\\0 & k}$ |
+| Method to find transformation matrix from unit square points | Use coordinates of $(1,0)$ and $(0,1)$ as column matrix $\pmatrix{1&0\\0&1}$, find where they map to as column matrix, then solve $A \times \text{original} = \text{image}$ to get $A$ |
+| What does a reflection in the x-axis do to the point $(x,y)$? | Maps it to $(x, -y)$ |
+| What does a reflection in the y-axis do to the point $(x,y)$? | Maps it to $(-x, y)$ |
+| What does a reflection in $y=x$ do to the point $(x,y)$? | Maps it to $(y, x)$ |
+| What does a reflection in $y=-x$ do to the point $(x,y)$? | Maps it to $(-y, -x)$ |
+| What does a 90° clockwise rotation do to $(x,y)$? | Maps it to $(y, -x)$ |
+| What does a 90° anticlockwise rotation do to $(x,y)$? | Maps it to $(-y, x)$ |
+| What does a 180° rotation do to $(x,y)$? | Maps it to $(-x, -y)$ |
+| What does an enlargement scale factor $k$ about origin do to $(x,y)$? | Maps it to $(kx, ky)$ |
+| What does a horizontal stretch scale factor $k$ do to $(x,y)$? | Maps it to $(kx, y)$ |
+| What does a vertical stretch scale factor $k$ do to $(x,y)$? | Maps it to $(x, ky)$ |
+| Unit square initial column matrix for finding transformations | $\pmatrix{1&0\\0&1}$ |
+

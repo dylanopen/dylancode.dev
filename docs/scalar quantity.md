@@ -28,3 +28,14 @@ It works the same way as adding them:
 
 - $5J-2J=3J$
 - $8\degree C - 3\degree C = 5 \degree C$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| scalar quantity | measurement with magnitude only |
+| magnitude | the size of the quantity, usually the number |
+| Examples of scalar quantities | Length, distance, speed, temperature, charge, voltages (e.g. potential difference), energy |
+| How to add scalars | Add them together directly, e.g. $2m + 3m = 5m$ |
+| How to subtract scalars | Same as adding, e.g. $5J - 2J = 3J$ |
+

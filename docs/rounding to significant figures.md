@@ -80,3 +80,19 @@ To find the $n$th significant figure in a number:
 > Note: Make sure you include *both* significant figures (including the $0$) in
 ? your answer. Even though $0.10 = 0.1$, writing $0.10$ shows that you have
 ? rounded to 2 significant figures instead of just 1.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you identify the nth significant figure in a number? | Start counting from the first non-zero digit (this is the 1st significant figure). Continue counting each digit (including zeroes) until you reach the nth significant figure. |
+| What are the steps to round a number to $n$ significant figures? | 1. Find the position of the nth significant figure. 2. Check the digit after that: if less than 5, round down (keep the nth figure); if 5 or more, round up (increase nth figure by one, carrying if 9 becomes 0). 3. Remove all digits after the nth significant figure; if they are before the decimal point, replace them with zeroes to keep place value. |
+| What is $0.0045678$ rounded to 3 significant figures? | $0.00457$ |
+| What is $12345$ rounded to 2 significant figures? | $12000$ |
+| What is $0.09986$ rounded to 2 significant figures? | $0.10$ |
+| What is $450600$ rounded to 3 significant figures? | $451000$ |
+| What is $0.09974$ rounded to 2 significant figures? | $0.10$ |
+| Why must we write $0.10$ instead of $0.1$ when rounding $0.09986$ or $0.09974$ to 2 significant figures? | Writing $0.10$ shows that the number has been rounded to 2 significant figures, whereas $0.1$ only shows 1 significant figure. Even though they are numerically equal, the trailing zero indicates the precision. |
+| How do you round when the nth significant figure is 9 and the digit after is 5 or more? | Increase the 9 to 10, so set the nth significant figure to 0 and carry 1 to the left (increase the previous digit by 1). |
+| When rounding to significant figures, what do you do with digits removed that are before the decimal point? | Replace them with zeroes to keep the place value the same. |
+

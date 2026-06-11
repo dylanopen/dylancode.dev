@@ -29,3 +29,23 @@ right... usually.
 The number $1$ has only one factor: $1$, so it is *not* composite because it
 does not have more than 2 factors.  
 It is also not prime, because [[prime numbers]] have **exactly** 2 factors.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a composite number? | A number with more than two factors. |
+| Give an example of a composite number and list its factors | $4$ (factors: $1$, $2$, $4$) |
+| Give an example of a composite number and list its factors | $6$ (factors: $1$, $2$, $3$, $6$) |
+| Give an example of a composite number and list its factors | $9$ (factors: $1$, $3$, $9$) |
+| Give an example of a composite number and list its factors | $15$ (factors: $1$, $3$, $5$, $15$) |
+| Give an example of a composite number and list its factors | $100$ (factors: $1$, $2$, $4$, $5$, $10$, $20$, $25$, $50$, $100$) |
+| Why is $2$ not a composite number? | It has only two factors ($1$, $2$), so it is prime. |
+| Why is $3$ not a composite number? | It has only two factors ($1$, $3$), so it is prime. |
+| Why is $5$ not a composite number? | It has only two factors ($1$, $5$), so it is prime. |
+| Why is $29$ not a composite number? | It has only two factors ($1$, $29$), so it is prime. |
+| Why is $97$ not a composite number? | It has only two factors ($1$, $97$), so it is prime. |
+| Why is $1$ not a composite number or a prime number? | It has only one factor ($1$), so it is neither prime nor composite. |
+| How many factors does a prime number have? | A prime number has exactly two factors. |
+| How many factors does the number $1$ have? | The number $1$ has only one factor. |
+

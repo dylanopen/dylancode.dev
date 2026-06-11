@@ -23,3 +23,14 @@ So the gradient of $y=\log{ax}$ is $\frac{1}{x}$ as well.
   - $\frac{dy}{dx} k\ln x = k \frac{1}{x} = \frac{k}{x}$
 
 So the gradient of $y=k\ln x$ is $\frac{k}{x}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the gradient of $y = \ln x$? | $\frac{dy}{dx} \ln x = \frac{1}{x}$ |
+| How do you rewrite $y = \log{ax}$ before differentiating? | $y = \log a + \log x$ |
+| What is the derivative of a constant like $\log a$? | 0 |
+| What is the gradient of $y = \log{ax}$? | $\frac{1}{x}$ |
+| What is the gradient of $y = k\ln x$? | $\frac{k}{x}$ |
+

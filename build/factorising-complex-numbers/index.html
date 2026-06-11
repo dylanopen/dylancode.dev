@@ -1,6 +1,17 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Factorising complex numbers</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
 <h1>Factorising complex numbers</h1>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Factorising a quadratic over complex numbers</td><td>Use the quadratic formula <im>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</im> with <im>i = \sqrt{-1}</im> to find complex roots, then write as <im>a(x - \alpha)(x - \beta)</im>.</td></tr>
+<tr><td>Factorising a cubic over complex numbers given one root</td><td>If <im>z = a</im> is a root, divide the cubic by <im>(z - a)</im> using polynomial division to get a quadratic factor, then factorise that quadratic over complex numbers.</td></tr>
+<tr><td>Factorising <im>z^3 - 8</im> over complex numbers</td><td>Using the difference of cubes <im>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</im>, we get <im>(z - 2)(z^2 + 2z + 4)</im>. Then solve <im>z^2 + 2z + 4 = 0</im> using quadratic formula to get <im>z = -1 \pm i\sqrt{3}</im>, so fully factorised as <im>(z - 2)(z + 1 - i\sqrt{3})(z + 1 + i\sqrt{3})</im>.</td></tr>
+<tr><td>Factorising <im>z^3 + 27</im> over complex numbers</td><td>Using sum of cubes <im>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</im>, we get <im>(z + 3)(z^2 - 3z + 9)</im>. Then solve <im>z^2 - 3z + 9 = 0</im> to get <im>z = \frac{3 \pm i3\sqrt{3}}{2}</im>, so fully factorised as <im>(z + 3)\left(z - \frac{3 + i3\sqrt{3}}{2}\right)\left(z - \frac{3 - i3\sqrt{3}}{2}\right)</im>.</td></tr>
+<tr><td>Factorising a quartic over complex numbers when two roots are given</td><td>If <im>z = a</im> and <im>z = b</im> are roots, the factors are <im>(z - a)(z - b)</im>. Multiply these, then divide the original quartic by this quadratic product to find the remaining quadratic factor, then factor that further over complex numbers if needed.</td></tr>
+<tr><td>Factorising <im>z^4 - 4z^3 + 9z^2 - 4z + 8</im> given <im>z = 2i</im> and <im>z = 1 + i</im> are roots</td><td>Since coefficients are real, complex roots come in conjugate pairs, so <im>z = -2i</im> and <im>z = 1 - i</im> are also roots. The four linear factors are <im>(z - 2i)(z + 2i)(z - 1 - i)(z - 1 + i) = (z^2 + 4)(z^2 - 2z + 2)</im>.</td></tr>
+<tr><td>How to factorise <im>z^4 - 1</im> over complex numbers</td><td>Recognise as difference of squares: <im>z^4 - 1 = (z^2 - 1)(z^2 + 1) = (z - 1)(z + 1)(z - i)(z + i)</im>.</td></tr>
+<tr><td>Given polynomial <im>f(z)</im> and one complex root <im>a+bi</im>, what happens?</td><td>If coefficients are real, the complex conjugate <im>a - bi</im> is also a root.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

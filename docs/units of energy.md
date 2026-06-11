@@ -26,3 +26,15 @@ $$
 $$
 
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the two main units of energy? | Joules and Kilowatt-hours (kWh). |
+| What is one joule defined as? | One watt-second, the energy transferred when one watt of power is applied for one second. |
+| What is one kilowatt-hour ($kWh$) defined as? | The energy transferred when one kilowatt (1000 watts) of power is applied for one hour (3600 seconds). |
+| How many joules are in one kilowatt-hour? | $1 \text{ kWh} = 3,600,000 \text{ J}$. |
+| Show the calculation to convert 1 kWh to joules. | $1 \text{ kWh} = 1000 \text{ W} \times 3600 \text{ s} = 3,600,000 \text{ J}$. |
+| Where are kilowatt-hours commonly used? | In things like electricity bills. |
+

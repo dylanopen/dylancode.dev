@@ -50,3 +50,16 @@ The *actual value* is around $0.92106$, so:
 - $\frac{0.00106}{0.92106}$
 - $=0.00115$
 - $=0.115\%$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| sinθ ≈ θ | For a small angle θ in radians, sin θ is approximately equal to θ. |
+| cosθ ≈ 1 - ½θ² | For a small angle θ in radians, cos θ is approximately equal to 1 minus one-half θ squared. |
+| tanθ ≈ θ | For a small angle θ in radians, tan θ is approximately equal to θ. |
+| What units must be used for the small angle approximations? | Radians. |
+| What is considered a 'small' angle for these approximations? | Any angle under half a radian. |
+| Approximate cos(0.4) using the small angle approximation. | 1 - ½(0.4)² = 1 - 0.08 = 0.92. |
+| Calculate the percentage error when approximating cos(0.4) as 0.92 (actual value ≈ 0.92106). | Difference = 0.00106; Percentage error = (0.00106 / 0.92106) × 100% ≈ 0.115%. |
+

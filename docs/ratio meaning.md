@@ -42,3 +42,16 @@
 - **Answer**: there are $16$ girls.
 
 > This was probably the most awkwardly worded example I've ever written.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a ratio? | A way of comparing two or more quantities; it tells how much of one thing there is compared to another, but not the actual amounts. |
+| How do you write the ratio of $n$ apples to $m$ oranges? | $n:m$ |
+| If there are 3 apples and 5 oranges, what is the ratio of apples to oranges? | $3:5$ |
+| How can a ratio like $3:5$ be rewritten? | In any equivalent form e.g. $6:10$ or $9:15$. |
+| How do you find equivalent ratios? | Multiply or divide both sides of the ratio by the same number. |
+| A fruit bowl has pears and bananas in ratio $2:3$. If there are 8 pears, how many bananas are there? | Each part pear equals $8 \div 2 = 4$ actual pears, so bananas are $3 \times 4 = 12$. |
+| A classroom has boys and girls in ratio $5:4$. If there are 20 boys, how many girls are there? | Each part boy equals $20 \div 5 = 4$ actual boys, so girls are $4 \times 4 = 16$. |
+

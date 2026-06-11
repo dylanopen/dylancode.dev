@@ -55,3 +55,15 @@ using these two numbers, and factor by grouping.
 ## Solving quadratic equations by factorising
 
 Please see [[solving quadratics by factorising|solving-quadratics-by-factorising]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the conditions for the two numbers when factorising $x^2 + bx + c$? | We need two numbers which multiply to give $c$, and add to give $b$. |
+| Factorise $x^2 + 5x + 6$. | $(x+2)(x+3)$, because $2 \times 3 = 6$ and $2 + 3 = 5$. |
+| What is the first step in the split method for factorising $ax^2 + bx + c$ when $a \neq 1$? | Multiply $a$ and $c$ together to get $ac$. |
+| In the split method, what condition must the two numbers satisfy after finding $ac$? | The two numbers must multiply to give $ac$, and add to give $b$. |
+| Factorise $2x^2 + 7x + 3$ using the split method. | 1. $ac=6$, numbers are $6$ and $1$.<br/>2. Split: $2x^2+6x+1x+3$.<br/>3. Group: $2x(x+3)+1(x+3)$.<br/>4. Factor: $(x+3)(2x+1)$. |
+| Factorise $3x^2 - 11x + 10$ using the split method. | 1. $ac=30$, numbers are $-5$ and $-6$.<br/>2. Split: $3x^2-5x-6x+10$.<br/>3. Group: $x(3x-5)-2(3x-5)$.<br/>4. Factor: $(3x-5)(x-2)$. |
+

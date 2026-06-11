@@ -109,3 +109,19 @@ direction (downwards) due to the [[acceleration]] of gravity, while the horizont
 [[velocity]] stays constant. So the gradient of the curve gets steeper and steeper
 as the projectile falls, because the vertical [[velocity]] is increasing
 (negatively) but the horizontal [[velocity]] is constant.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Horizontal velocity in projectile motion | Constant, because no horizontal forces act after launch. |
+| Horizontal acceleration | $0 ms^{-2}$, because no horizontal forces act. |
+| Vertical acceleration | $-9.81 ms^{-2}$ (downwards), due to gravity. |
+| Initial vertical velocity for a horizontally launched projectile | $0 ms^{-1}$. |
+| Formula for vertical velocity at time $t$ | Vertical velocity $= -9.81 ms^{-2} \times \text{time}$. |
+| Formula for vertical displacement at time $t$ (from $s = ut + \frac{1}{2}at^2$ with $u=0$) | $\text{displacement} = \frac12 \times (-9.81 ms^{-2}) \times \text{time}^2$ |
+| Which variable is shared between horizontal and vertical components in projectile motion? | Time. The time in the air is the same for both components. |
+| Why must you use the correct values for each component? | Because horizontal displacement has nothing to do with vertical displacement; only time is shared. |
+| Describe the path of a horizontally launched projectile. | A curve that slopes downwards, getting steeper as it falls because vertical velocity increases (downwards) while horizontal velocity stays constant. |
+| Equation for horizontal displacement | Horizontal displacement $=$ horizontal velocity $\times$ time. |
+

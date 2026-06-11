@@ -7,3 +7,10 @@ Once an [[electron]] has been [[excited electron|excited]], it's quite easy for 
 When an [[electron]] moves into a lower energy level, its energy *decreases* which means that energy must go somewhere.
 
 It will release a [[photon]]. The [[photon energy|energy of the photon]] is equal to the amount of energy the [[electron]] lost. If it moved from an energy level of $-2.5eV$ into an energy level of $-8.7eV$, it lost $-8.7eV-(-2.5eV)=-6.2eV$ of energy, so the [[photon]] will have an energy of $6.2eV$, and we can find its *frequency* from its energy by dividing by the [[planck constant]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What happens when an electron moves into a lower energy level? | It releases a photon, and the photon's energy equals the amount of energy the electron lost. |
+

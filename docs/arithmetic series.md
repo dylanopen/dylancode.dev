@@ -23,3 +23,16 @@ As we derived above:
 > $$
 > \Sigma^n_{r=1}\frac n2(2a+(n-1)\,d)
 > $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an arithmetic series? | The sum of an arithmetic sequence. |
+| What does $S_n$ represent in the context of an arithmetic sequence? | The sum of the first $n$ terms. |
+| What is the formula for the sum of an arithmetic sequence in terms of the first term $a$ and last term $l$? | $S_n = \frac n2(a+l)$ |
+| In the formula $S_n = \frac n2(a+l)$, what does $l$ represent? | The last term of the sequence. |
+| How do you express the last term $l$ in an arithmetic sequence? | $l = a + (n-1)d$ |
+| Starting from $S_n = \frac n2(a+l)$, what is the formula after substituting $l$ with the general term $a+(n-1)d$? | $S_n = \frac n2(2a+(n-1)d)$ |
+| What is the formula for the sum of the first $n$ terms of an arithmetic series? | $\Sigma^n_{r=1}\frac n2(2a+(n-1)d)$ |
+

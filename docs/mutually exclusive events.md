@@ -23,3 +23,14 @@ probability:
 > $$
 > P(A \cap B) = 0
 > $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are mutually exclusive events? | Events where *both* cannot happen; only one of them can occur. |
+| What is an example of mutually exclusive events when rolling a die? | "Rolling a 1" and "rolling a 2" are mutually exclusive, because rolling a 1 means you cannot also roll a 2. |
+| What is an example of events that are *not* mutually exclusive when rolling a die? | "Rolling an even number" and "rolling a prime number" are not mutually exclusive, because rolling a 2 satisfies both conditions. |
+| How are mutually exclusive events represented in a Venn diagram? | As two circles that do not overlap. |
+| If A and B are mutually exclusive events, what is the probability $P(A \cap B)$? | $P(A \cap B) = 0$ |
+

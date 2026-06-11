@@ -28,3 +28,23 @@ THis means though that the clients don't need to have much [[power]] at all. The
 - The security of an individual [[client]] is better, but if someone gains access to the *[[server]]*, then they can potentially access all the data and resources on the network, which is a big risk if the [[server]] isn't well protected.
 - Requires an expensive, powerful [[server]]
 - Requires a lot of maintenance - the organisation will need a specialist IT team
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Client-server network | "A network where a central server provides resources and services to client computers." |
+| What does an authoritative server setup mean? | "The server has complete control over the data and resources it provides, and clients must ask for access." |
+| Where is a client-server network often used? | "In schools and businesses where they don't want everyone to have full control to access everything." |
+| Where is most processing power located in a client-server network? | "On the central server, which does all the heavy computational work." |
+| What hardware specifications does the server need? | "A fast processor, lots of memory, a large storage drive, and likely many processor cores." |
+| What is a key requirement for client computers in terms of power? | "They don't need much power; they just need to connect to the server and display returned data." |
+| What happens when software needs updating? | "Software can be installed and updated on just the server, and it will update everywhere." |
+| How is data backup easier? | "Because all data is stored on the server." |
+| How does the server improve security? | "The server can control who has access to what resources." |
+| What is a single point of failure in a client-server network? | "If the server goes down, the whole network becomes unusable because all clients rely on it." |
+| How does having many clients affect the server? | "The server can become a bottleneck, slowing down if too many clients try to access it at once." |
+| What is a major security risk regarding the server? | "If someone gains access to the server, they can potentially access all data and resources on the network." |
+| What is a disadvantage regarding the server's cost? | "It requires an expensive, powerful server." |
+| What is a disadvantage regarding maintenance? | "It requires a lot of maintenance and a specialist IT team. |
+

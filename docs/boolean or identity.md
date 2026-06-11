@@ -22,3 +22,11 @@ again:
 Now we know that, we can simplify any [[expression]] that has something ORed with $0$. Whenever we see something ORed with $0$, we can just remove the $0$ and keep the other value.
 
 For example, if we have $0 + A$, we can simplify it to just $A$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the identity of the Boolean OR operation? | The value 0, because $0 + 0 = 0$ and $1 + 0 = 1$. |
+| How do you simplify $A + 0$? | It simplifies to $A$. Since OR with 0 returns the value of the other operand: $A + 0 = A$. |
+

@@ -48,3 +48,18 @@ This would represent this network:
        1     
 ```
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a distance matrix in a network? | A table where rows and columns correspond to nodes, and entries show the weight (e.g., distance) between them, rather than just whether they are connected. |
+| How does a distance matrix differ from an adjacency matrix? | An adjacency matrix shows only whether nodes are connected, while a distance matrix provides the weight (e.g., distance) of the connections. |
+| What do the rows and columns represent in a distance matrix? | They represent the nodes (vertices) in the network. |
+| What does a dash (`-`) represent in a distance matrix? | It indicates that there is no direct connection between the nodes, or that the vertices are the same (although same-node entries may sometimes be $0$). |
+| What might replace a dash for the distance from a node to itself? | $0$, indicating the distance from a node to itself is zero. |
+| In the given example distance matrix, what is the distance between node A and node B? | $5$ |
+| In the given example distance matrix, what is the distance between node A and node C? | $2$ |
+| In the given example distance matrix, what is the distance between node C and node D? | $7$ |
+| In the given example network, how many edges are directly represented? | There are 4 edges: A-B ($5$), A-C ($2$), B-D ($1$), and C-D ($7$). |
+

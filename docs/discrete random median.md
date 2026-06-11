@@ -41,3 +41,17 @@ values for the [[median]], if it lies directly in between two categories.
 
 If so, just find the [[mean]] (midpoint) of those two values, and that will be your
 answer.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the definition of the median of a dataset? | The value that separates the higher half from the lower half. |
+| How is the median of a random variable defined in terms of probability? | The value that divides the probability distribution into two equal halves. |
+| What condition must the median $M$ satisfy regarding probabilities? | $P(X \leq M) \geq 0.5$ and $P(X \geq M) \geq 0.5$ |
+| For a discrete random variable, what method is used to find the median? | Sort the possible values and their probabilities, then find the value where the cumulative probability reaches 0.5. |
+| Do you need to interpolate between categories to find the median of a discrete random variable? | No, you just find the category containing the median. |
+| What is the rule for the discrete median regarding probabilities below and above? | The probability of numbers below it equals the probability of numbers above it. |
+| What should you do if the median lies directly between two categories? | Find the mean (midpoint) of those two values. |
+| How is finding the median of a discrete random variable similar to working with data? | It is like using cumulative frequency graphs, but in probability. |
+

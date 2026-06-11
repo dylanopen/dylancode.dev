@@ -29,3 +29,14 @@ Compressing a file makes it smaller: there are two main benefits to this:
   but often, it uses a lot of CPU [[power]] to compress and decompress the file,
   which can make it slow to work with (think if you've ever tried to extract a
   large zip / gzipped-tarball file - it can take a long time).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is file compression? | Taking a large file and making it smaller by removing some data. |
+| What are the two main types of file compression? | Lossy compression and lossless compression. |
+| What is the main benefit of compressing a file? | It takes up less storage space and takes less time and bandwidth to transfer over the internet. |
+| What is a drawback of lossy compression? | The original file cannot be perfectly reconstructed; some data is lost, which can reduce quality. |
+| What is a drawback of lossless compression? | The original file can be perfectly reconstructed, but it often uses a lot of CPU power to compress and decompress, making it slow. |
+

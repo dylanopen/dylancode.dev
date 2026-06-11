@@ -86,3 +86,21 @@ Then we can decrypt each letter of "KHOOR":
 - R (17) becomes O (14)
 
 So our final decrypted message is "HELLO", which is what we started with!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a Caesar cipher? | A super simple type of cipher where we shift the letters of the alphabet by a certain number of places. |
+| What is the mathematical formula for Caesar cipher encryption? | $E(x) = (x + k) \mod 26$ |
+| What does $x$ represent in the encryption formula $E(x) = (x + k) \mod 26$? | $x$ is the plaintext letter, represented as a number from 0 to 25 (where A=0, B=1, ..., Z=25). |
+| What does $k$ represent in the Caesar cipher? | $k$ is the key, which is the number of positions we shift the letters by, and can be any whole number from 0 to 25. |
+| What is the mathematical formula for Caesar cipher decryption? | $D(y) = (y - k) \mod 26$ |
+| How do you decrypt a message encrypted with a Caesar cipher? | Subtract the key from the encrypted character to find the plaintext letter. |
+| Why is the Caesar cipher considered insecure? | Because there are only 26 possible keys, so an attacker can easily try all of them, and it doesn't change the frequency of letters. |
+| How can frequency analysis be used to crack a Caesar cipher? | By analyzing the frequency of letters in the ciphertext, you can guess the key by looking at the most common letters (e.g., if 'G' is most common, the key is likely 2 since 'E' is most common in English). |
+| Encrypt "HELLO" with a Caesar cipher using key 3. | KHOOR |
+| Show the encryption steps for "HELLO" with key 3. | H (7) becomes K (10), E (4) becomes H (7), L (11) becomes O (14), L (11) becomes O (14), O (14) becomes R (17), resulting in "KHOOR". |
+| Decrypt "KHOOR" with a Caesar cipher using key 3. | HELLO |
+| Show the decryption steps for "KHOOR" with key 3. | K (10) becomes H (7), H (7) becomes E (4), O (14) becomes L (11), O (14) becomes L (11), R (17) becomes O (14), resulting in "HELLO". |
+

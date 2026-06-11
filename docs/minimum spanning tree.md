@@ -18,3 +18,14 @@ Some important [[properties]] of a minimum spanning tree are:
   [[network node|nodes]] in the network.
 - The total [[weight]] of the edges in the MST is the lowest possible.
 - There are no cycles in the MST.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a minimum spanning tree (MST)? | A special subgraph that connects all nodes in a network with the minimum possible total weight. |
+| What is another name for the problem of finding a minimum spanning tree? | The minimum connector problem. |
+| How many edges does a minimum spanning tree have? | Exactly $N-1$ edges, where $N$ is the number of nodes. |
+| Does a minimum spanning tree contain any cycles? | No, it does not contain any cycles. |
+| How many paths exist between any two nodes in a minimum spanning tree? | Exactly one path. |
+

@@ -24,3 +24,12 @@ conditions the experiment was done under.
   same conditions, do we get similar results **doing it ourselves**?
 
 See more about [[repeatability|repeatability here]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Reproducibility | Reproducibility measures how well an experiment can be repeated by a different person in different conditions (e.g. a different lab). |
+| What is the difference between repeatability and reproducibility? | Reproducibility measures if someone else does the same experiment under **different conditions** (e.g. different lab, different equipment) and gets similar results. Repeatability measures if we do the same experiment multiple times under the same conditions and get similar results ourselves. |
+| Give an example of results that are NOT reproducible. | Experiment 1 measured a boiling point at 109.2°C, and Experiment 2 measured 102.4°C done by a different person. These results are not reproducible because they vary depending on the conditions. |
+

@@ -54,3 +54,18 @@ Where:
 - $v = \sqrt{\frac{2E_k}{m}}$
 - $v = \sqrt{\frac{2 \times 50\,J}{0.5\,kg}}$
 - $v = 14.14\,m/s$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Kinetic energy | The energy which makes objects move or vibrate. |
+| What is the formula for calculating kinetic energy? | $\text{Kinetic energy} = \frac{1}{2} \times \text{mass} \times \text{speed}^2$ |
+| What is the symbolic formula for kinetic energy? | $E_k = \frac{1}{2}mv^2$ |
+| What does $E_k$ represent, and what is its unit? | Kinetic energy, in joules ($J$) |
+| What does $m$ represent, and what is its unit? | Mass of the object, in kilograms ($kg$) |
+| What does $v$ represent, and what is its unit? | Speed of the object, in metres per second ($m/s$) |
+| A car has a mass of 1000 kg and is moving at 20 m/s. Calculate its kinetic energy. | $E_k = \frac{1}{2} \times 1000\,kg \times (20\,m/s)^2 = 200,000\,J$ |
+| A cyclist has a kinetic energy of 1400 J and moves at 7 m/s. Find the mass of the cyclist. | $m = \frac{2E_k}{v^2} = \frac{2 \times 1400\,J}{(7\,m/s)^2} = 57.14\,kg$ |
+| A ball has a kinetic energy of 50 J and a mass of 0.5 kg. Find the speed of the ball. | $v = \sqrt{\frac{2E_k}{m}} = \sqrt{\frac{2 \times 50\,J}{0.5\,kg}} = 14.14\,m/s$ |
+

@@ -45,3 +45,20 @@ The code for 'B' is 66, 'C' is 67, and so on. The code for 'b' is 98, 'c' is
 - It wasn't really built for non-English languages
 - We're stuck with the characters we've got - there's no way to add more
   characters to ASCII, like we can do with unicode!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the name of the specific text encoding scheme described? | ASCII |
+| How many different characters can ASCII store? | 128 |
+| How many bits are needed to store each ASCII character? | 7 bits, because $2^7 = 128$ |
+| What is the ASCII code for the character 'A'? | 65 |
+| What is the ASCII code for the character 'a'? | 97 |
+| What is the ASCII code for the character '0' (zero)? | 48 |
+| If 'B' has ASCII code 66 and 'A' has code 65, how are the letter codes arranged? | They are sequential. |
+| What is a benefit of ASCII regarding extracting a substring? | With ASCII, you know exactly where the nth character is by adding an offset to the start of the string. |
+| Why can't you find the nth character of a UTF-8 string by simply adding an offset? | Because in UTF-8, not all characters are represented by the same number of bits (unlike ASCII). |
+| What is a major drawback of ASCII concerning languages? | It can only represent 128 (or 256 with extended-ASCII) characters, which is not enough for many languages and symbols. |
+| Why can't we add more characters to ASCII? | ASCII doesn't support adding more characters like Unicode does. |
+

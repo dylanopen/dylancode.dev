@@ -53,3 +53,15 @@ $$
 - $\log_5(10)$ cannot be simplified further.
 - So, $\log_5(1250) = 3 + \log_5(10)$.
 - **Answer:** $3 + \log_5(10)$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| When adding two logarithms with the same base | It is equivalent to multiplying the values inside: $\log_b(x) + \log_b(y) = \log_b(xy)$ |
+| Evaluate $\log_2(8) + \log_2(4)$ | $\log_2(8) + \log_2(4) = \log_2(32) = 5$ |
+| Evaluate $\log_{10}(100) + \log_{10}(1000)$ | $\log_{10}(100) + \log_{10}(1000) = \log_{10}(100000) = 5$ |
+| When adding more than two logarithms with the same base | Multiply all the values inside, e.g. $\log_3(9) + \log_3(27) + \log_3(81) = \log_3(19683)$ |
+| How do you split a logarithm into the sum of two logarithms? | $\log_b(xy) = \log_b(x) + \log_b(y)$ |
+| Write $\log_5(1250)$ as the sum of an integer and a logarithm | $\log_5(1250) = \log_5(125) + \log_5(10) = 3 + \log_5(10)$ |
+

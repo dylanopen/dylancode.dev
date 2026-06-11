@@ -22,3 +22,12 @@ $$
 - $=15\times2\sqrt{3}$
 - $=30\sqrt{3}$
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| a\sqrt{x}\times b\sqrt{y}=(a\times b)\sqrt{xy}$ | Multiply coefficients together (a × b) and radicands together (x × y), then simplify if possible. |
+| $2\sqrt{3}\times4\sqrt{5}$ | $(2\times4)\sqrt{3\times5}=8\sqrt{15}$ |
+| $3\sqrt{2}\times5\sqrt{6}$ | $(3\times5)\sqrt{2\times6}=15\sqrt{12}=15\sqrt{4\times3}=15\times2\sqrt{3}=30\sqrt{3}$ |
+

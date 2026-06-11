@@ -35,3 +35,16 @@ effect.
   down.
 - But the forces are in opposite directions: both are going **anticlockwise**
   around the pivot (`+`). That means that the plank will turn *anticlockwise*.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a couple? | A set of two forces that have the same magnitude and opposite directions |
+| Give an example of a couple | One force acting upwards at $9N$ and another acting downwards at $9N$ on a different part of the object |
+| Where do the forces in a couple act? | They do not act on the same point; usually on opposite sides of a pivot |
+| What is the translational effect of a couple? | They do not translate (move) the object |
+| What is the rotational effect of a couple? | They do rotate the object |
+| In the example diagram, both forces are the same distance from the pivot and have the same force — what does this mean for the object's vertical motion? | The object is not going to go up or down |
+| In the example diagram, both forces act anticlockwise around the pivot — what happens to the plank? | The plank will turn anticlockwise |
+

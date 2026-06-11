@@ -50,6 +50,15 @@ where you do the same).</li>
 <li>Remove all digits after the 2nd decimal place, giving <im>0.80</im>.</li>
 <li><strong>Answer</strong>: <im>0.80</im>.</li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>How do you round a number to <im>n</im> decimal places?</td><td>1. Find the digit at the <im>n</im>th decimal place.<br/>2. Check if the digit after it is less than 5: if so, keep the <im>n</im>th digit; if 5 or more, increase the <im>n</im>th digit by one (carrying if it is 9).<br/>3. Remove all digits after the <im>n</im>th decimal place.</td></tr>
+<tr><td>Round <im>3.14159</im> to 2 decimal places.</td><td><im>3.14</im> (3rd decimal digit is <im>1</im> &lt; 5, round down).</td></tr>
+<tr><td>Round <im>2.71828</im> to 3 decimal places.</td><td><im>2.718</im> (4th decimal digit is <im>2</im> &lt; 5, round down).</td></tr>
+<tr><td>Round <im>1.98765</im> to 4 decimal places.</td><td><im>1.9877</im> (5th decimal digit is <im>5</im>, round up: <im>6</im> becomes <im>7</im>).</td></tr>
+<tr><td>Round <im>0.798</im> to 2 decimal places.</td><td><im>0.80</im> (3rd decimal digit is <im>8</im> ≥ 5, round up: <im>9</im> becomes <im>10</im>, so carry makes 1st decimal <im>7</im> become <im>8</im>).</td></tr>
+<tr><td>What happens when you round up and the <im>n</im>th decimal digit is 9?</td><td>It becomes 0 and you carry 1 to the left (the <im>(n-1)</im>th decimal place), potentially causing further carries.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

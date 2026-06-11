@@ -81,3 +81,16 @@ are `1`.
 
 That's all there is to truth tables! They're just a simple way of showing how
 logical operations work based on their inputs.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a truth table? | A truth table is a way of showing all possible outputs of a logical operation (or logic gate) based on all possible combinations of its inputs. |
+| For an AND gate, when is the output "1" (true)? | For an AND gate to output a 1, both of its inputs must be 1. |
+| In the AND truth table, what is the output when Input A is 0 and Input B is 1? | The output is 0 (because A AND B is false). |
+| Describe the NOT operation output. | The NOT operation takes a single input and produces an output that is the opposite of the input. |
+| In the NOT truth table, what is the output for an Input A of 0? | The output is **1**. |
+| In the 3-input truth table described, what condition causes the output to be 1? | The output is 1 if *at least two* of its three inputs are 1. |
+| In a 3-input truth table, what is the output when Inputs A=0, B=1, and C=1? | The output is **1** (since at least two inputs are 1). |
+

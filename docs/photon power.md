@@ -37,3 +37,12 @@ Where:
 - $P$ is the [[power]] of the beam (in watts)
 - $n$ is the number of photons emitted per second
 - $E$ is the energy of a single [[photon]] (in joules)
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you calculate the number of photons emitted per second given the power of the beam and the energy of a single photon? | $n = \frac{P}{E}$ where $n$ is the number of photons per second, $P$ is the power in watts, and $E$ is the energy of a single photon in joules. |
+| How do you calculate the power of a beam given the number of photons emitted per second and the energy of a single photon? | $P = n \times E$ where $P$ is the power in watts, $n$ is the number of photons per second, and $E$ is the energy of a single photon in joules. |
+| What do you need to know to find the number of photons emitted per second from a beam? | The power of the beam (in watts) and the energy of a single photon (in joules). |
+

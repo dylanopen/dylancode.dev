@@ -21,3 +21,13 @@ We can derive a formula.
 - $P_2$ is the [[pressure]] of the [[gas]] *at the end* (see [[gas pressure]])
 - $V_2$ is the [[volume]] of the [[gas]] *at the end* (see [[gas volume]])
 - $T_2$ is the [[temperature]] of the [[gas]] *at the end* (see [[gas temperature]])
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the combined gas law formula relating pressure, volume, and temperature? | $\frac{PV}{T} = \text{constant}$ |
+| What does $P$, $V$, and $T$ represent in the formula $\frac{PV}{T} = \text{constant}$? | $P$ is pressure, $V$ is volume, $T$ is temperature of the gas. |
+| What is the formula for comparing initial and final states of a gas? | $\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$ |
+| In $\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}$, what do the subscripts 1 and 2 indicate? | Subscript 1 indicates initial conditions (pressure $P_1$, volume $V_1$, temperature $T_1$).<br/>Subscript 2 indicates final conditions (pressure $P_2$, volume $V_2$, temperature $T_2$). |
+

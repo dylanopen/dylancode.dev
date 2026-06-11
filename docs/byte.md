@@ -14,3 +14,12 @@ states (0 or 1). Therefore, the total number of combinations of 8 bits is:
 $$
 2^8 = 256
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a byte? | Simply 8 bits. |
+| How many different values can a byte represent? | 256 different values. |
+| Why can a byte represent 256 values? | Because a byte is 8 bits ($2^8 = 256$), each bit has 2 states (0 or 1). |
+

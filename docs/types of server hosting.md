@@ -43,3 +43,15 @@ that's nearest to the user will respond to that request.
 > sent to your browser very quickly. Basically all HTML files on the site are less than
 > 5KB in size (10KB for some of the long articles), and the entire website can be loaded with just that file - so
 > 5KB, if you've visited another page.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a shared server node? | A hosting setup where multiple websites are hosted on the same server by a hosting company, typically used for small sites. |
+| What is a dedicated server node? | A hosting setup where a company or person has the entire server to themselves, which is more expensive and often requires self-management. |
+| What is a Cloud Delivery Network (CDN)? | A network of servers distributed around the world; when a user accesses a website, the nearest CDN server responds to the request. |
+| What are two advantages of using a CDN? | Faster data delivery because data travels a shorter distance; it provides redundancy, so if one server goes down, other servers can still respond. |
+| What is a limitation of hosting on a CDN? | Only static sites can be hosted on a CDN. |
+| What is a static site? | A site that contains a set of pre-existing files (e.g., HTML, CSS, Javascript) and does not rely on a central server to generate files upon request. |
+

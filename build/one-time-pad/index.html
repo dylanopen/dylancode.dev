@@ -16,6 +16,15 @@ very secure, as long as the pad is truly random and kept secret. However, the
 main challenge with one-time pads is that they can be difficult to actually
 <em>distribute</em> - how does the receiver get the pad without it being intercepted by
 an attacker?</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is a one-time pad in cryptography?</td><td>A <em>key</em> used by a cipher that is as long as the message being encrypted.</td></tr>
+<tr><td>Why is a one-time pad only used once?</td><td>Because if we reuse the same pad for multiple messages, it becomes much easier to crack the encryption.</td></tr>
+<tr><td>How is each character in a one-time pad used to encrypt the plaintext?</td><td>Each character in the pad encrypts the corresponding character in the plaintext message using whatever encryption function the cipher uses.</td></tr>
+<tr><td>How does the Vernam cipher use a one-time pad?</td><td>Each character in the pad is XORed with the plaintext character to produce the ciphertext character.</td></tr>
+<tr><td>What makes one-time pads very secure?</td><td>The fact that each character is encoded with a different key, as long as the pad is truly random and kept secret.</td></tr>
+<tr><td>What is the main challenge with using one-time pads?</td><td>They can be difficult to actually <em>distribute</em> - how does the receiver get the pad without it being intercepted by an attacker?</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

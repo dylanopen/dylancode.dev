@@ -21,3 +21,13 @@ and drivers) to handle that.
 - Design [[software]]
 - Programming tools (like code editors, IDEs, compilers)
 - (almost anything else you use on your computer!)
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is application software? | Application software includes any software designed for end-users who are using the computer to perform a task. |
+| How does application software differ from system software in terms of hardware interaction? | Application software doesn't interact directly with the hardware; it relies on system software (e.g. the operating system and drivers) to handle that. |
+| What is the main purpose of application software? | Application software is for carrying out tasks that are user-oriented. |
+| Name four examples of application software. | Web browsers (like Firefox, Chrome, Safari), word processors (like Libreoffice writer, Microsoft Word, Google Docs), spreadsheets (like Libreoffice Calc, Microsoft Excel, Google Sheets), and media players (like VLC). |
+

@@ -10,3 +10,10 @@ We *number* each [[electron energy level]] in the energy ladder: starting from `
 
 - If an [[electron]] moves from a lower energy level (closer to the [[ground state]]) to a higher energy level (further from the [[ground state]] and [[nucleus]]) then it has been [[excited electron|excited]].
 - If it gains enough energy to fully leave the [[atom]], then the [[atom]] has been [[ionisation|ionised]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| isotope | An isotope can have many discrete electron energy levels, described as an energy ladder. |
+

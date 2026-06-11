@@ -52,3 +52,12 @@ defines the conditions that a point must satisfy to be on the line.
 For the line with that equation, it essentially means that *every* point on
 the line has $x$ coordinate $5$ and $z$ coordinate of $-2$, **but** the $y$
 coordinate could be anything.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| x-coordinate | Why does the cartesian form $y=mx+c$ work for describing a line?	Any point $(x,y)$ along the line will satisfy the equation; substituting the point makes the equation true. |
+| vertical line | How do you represent a vertical line in cartesian form?	$x=7$ means any point on the line has its x-coordinate equal to 7. |
+| 3D constraint | What does it mean if a 3D line has equation $x=5$ and $z=-2$?	Every point on the line has $x=5$ and $z=-2$, but the $y$ coordinate can be any value. |
+

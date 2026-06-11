@@ -46,3 +46,16 @@ the **Newton-Metre**!
 - $d=\frac MF$
 - $d=\frac{1200}{200}$
 - $d=6m$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for calculating the moment (M)? | $M = F \times d$<br/>Where $F$ is the force and $d$ is the perpendicular distance from the centre. |
+| What unit is force measured in when calculating a moment? | Newtons (N) |
+| What unit is perpendicular distance measured in when calculating a moment? | Metres (m) |
+| What is the unit for moments derived from force and distance? | Newton-Metre ($Nm$) |
+| A force of $5N$ is applied $10m$ away from a pivot. Calculate the moment. | $M = 5 \times 10 = 50\ Nm$ |
+| A force of $5N$ is applied $2m$ away from the pivot. Another force, $F$, is applied $5m$ away from the pivot. The overall moment is $25Nm$. Calculate $F$. | $M_1 = 5 \times 2 = 10$<br/>$M_2 = 25 - 10 = 15$<br/>$F \times 5 = 15$<br/>$F = 3N$ |
+| A person can exert 200N on a plank. The moment needed to snap the wood is $1200Nm$. How far away must the person press? | $d = M / F = 1200 / 200 = 6m$ |
+

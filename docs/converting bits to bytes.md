@@ -29,3 +29,16 @@ $$
 - $12345 \div 8 = 1543.125$ bytes
 - **Answer**: $1543.125$ bytes
 - (generally here, we would round to the nearest whole [[byte]]).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert bits to bytes? | Divide the number of bits by 8. |
+| What is the formula for converting bits to bytes? | $\text{bytes} = \text{bits} \div 8$ |
+| How many bytes are in 64 bits? | $8$ bytes |
+| How many bytes are in 1024 bits? | $128$ bytes |
+| How many bytes are in 5000 bits? | $625$ bytes |
+| How many bytes are in 12345 bits? | $1543.125$ bytes |
+| What do we generally do with the result when converting 12345 bits to bytes? | Round to the nearest whole byte. |
+

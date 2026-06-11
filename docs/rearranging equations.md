@@ -105,3 +105,15 @@ Let's try some examples
 ## What if the term we want is on both sides?
 
 > TODO
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the key rule when rearranging equations? | Whatever you do to one side of the equation, you must do to the other side to keep it balanced. |
+| What method is recommended for rearranging equations? | Think about what happens to the variable you are trying to find, and then tell that story in reverse. |
+| How do you make $x$ the subject of $y = 2x + 3$? | $x = \frac{y - 3}{2}$ |
+| How do you make $V$ the subject of $P = IV$? | $V = \frac{P}{I}$ |
+| How do you make $v$ the subject of $E = \frac{1}{2}mv^2$? | $v = \sqrt{\frac{2E}{m}}$ |
+| How do you make $q$ the subject of $V = \frac{E}{2q}$? | $q = \frac{E}{2V}$ |
+

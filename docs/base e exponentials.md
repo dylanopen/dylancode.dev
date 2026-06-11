@@ -52,3 +52,18 @@ $e^{kx}$, but instead of $k$ being a constant, it's $f'(x)$, which is the
 derivative of $f(x)$.
 
 > $\frac{d}{dx}e^{f(x)} = f'(x)e^{f(x)}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the approximate value of Euler's number $e$? | $e \approx 2.71828$ |
+| How can $y=e^{-x}$ be rewritten? | $y=\frac{1}{e^x}$ |
+| Why is $y=e^{-x}$ considered a decay graph? | The base $\frac{1}{e}$ is less than $1$. |
+| What is the derivative of $e^x$? | $\frac{d}{dx}e^x = e^x$ |
+| What is the gradient of $e^x$ at the point $(0, 1)$? | The gradient is $1$ (because $e^0=1$). |
+| What is the derivative of $e^{kx}$? | $\frac{d}{dx}e^{kx} = ke^{kx}$ |
+| What is the derivative of $e^{-x}$? | $\frac{d}{dx}e^{-x} = -e^{-x}$ |
+| What is the derivative of $e^{-kx}$? | $\frac{d}{dx}e^{-kx} = -ke^{-kx}$ |
+| What is the derivative of $e^{f(x)}$? | $\frac{d}{dx}e^{f(x)} = f'(x)e^{f(x)}$ |
+

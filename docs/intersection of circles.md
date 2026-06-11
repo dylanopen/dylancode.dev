@@ -84,3 +84,16 @@ their radii are the same:
 $$
 d = 0 \quad \text{and} \quad r_1 = r_2
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the condition for two circles to be completely separate? | $d > r_1 + r_2$ |
+| What is the condition for two circles to intersect at two points? | $|r_1 - r_2| < d < r_1 + r_2$ |
+| What does it mean if the distance between two circle centres equals the absolute difference of their radii? | The circles are internally tangential (they touch at one point from the inside). |
+| What does it mean if the distance between two circle centres equals the sum of their radii? | The circles are externally tangential (they touch at one point from the outside). |
+| What is the condition for one circle to be completely inside the other (without touching)? | $d < |r_1 - r_2|$ |
+| How do you determine if two circles are the same circle? | $d = 0$ and $r_1 = r_2$ |
+| List the 6 ways two circles can overlap. | 1. Completely separate<br/>2. Intersecting at two points<br/>3. Internally tangential<br/>4. Externally tangential<br/>5. One circle inside the other<br/>6. The circles are the same |
+

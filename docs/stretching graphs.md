@@ -28,3 +28,14 @@ Where:
 - $\frac ya=f(\frac xb)$
 - $\frac y{\frac34}=f(\frac x{\frac12})$
 - $y=\frac34f(2x)$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What is a stretch in graph transformations? | A stretch changes the shape of a graph, making it taller/shorter (vertical stretch) or wider/thinner (horizontal stretch). |
+| What is the general equation of a stretched function? | $\frac ya=f(\frac xb)$ <br/> Where $a$ is the vertical stretch factor and $b$ is the horizontal stretch factor. |
+| Given $f(x)$, how do you find the equation when it is stretched vertically by a factor of 3 and horizontally by a factor of 2? | $a=3$, $b=2$ <br/> $\frac y3=f(\frac x2)$ <br/> $y=3f(\frac x2)$ |
+| Given $f(x)$, how do you find the equation when it is compressed vertically by a factor of $\frac34$ and stretched horizontally by a factor of $\frac12$? | $a=\frac34$, $b=\frac12$ <br/> $\frac y{\frac34}=f(\frac x{\frac12})$ <br/> $y=\frac34f(2x)$ |
+

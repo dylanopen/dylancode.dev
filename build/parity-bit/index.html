@@ -46,6 +46,19 @@ even, and a <code>1</code> if the number of <code>1</code>s is odd.</p>
 <h2>Odd parity</h2>
 <p>In <em>odd</em> parity, the parity <a href="/bit">bit</a> is a <code>1</code> if the number of <code>1</code>s in the data is
 even, and a <code>0</code> if the number of <code>1</code>s is odd.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Parity bit</td><td>An extra <a href="/bit">bit</a> added to the end of a group of data during transmission, used to detect errors by indicating whether the number of 1s in the data is even or odd.</td></tr>
+<tr><td>What does a parity bit store?</td><td>A single <a href="/bit">bit</a> that tells the receiver whether the number of 1s in the data group is even or odd.</td></tr>
+<tr><td>How does the receiver use the parity bit?</td><td>The receiver counts the number of 1s in the data and compares it to the parity <a href="/bit">bit</a>. If they don’t match (e.g., parity says even but count is odd), an error is detected and the receiver can ask the sender to resend.</td></tr>
+<tr><td>What is a benefit of using parity bits?</td><td>They are simple and easy to implement, and can usually detect single-<a href="/bit">Bit</a> errors (when one bit is flipped during transmission). In <a href="/ascii">aSCII</a>, the ‘free bit’ in each character can serve as a parity bit.</td></tr>
+<tr><td>What is a downside of parity bits?</td><td>If an even number of bits (e.g., two) are flipped, the parity <a href="/bit">bit</a> will still appear correct, so the error is undetected.</td></tr>
+<tr><td>Does a parity bit indicate which bit is wrong?</td><td>No, it only indicates that something is wrong. It cannot correct errors, only detect them.</td></tr>
+<tr><td>How does adding a parity bit affect bandwidth?</td><td>It requires sending more data (the extra parity bit), which uses more <a href="/bandwidth">bandwidth</a> and can make data transfer slower.</td></tr>
+<tr><td>Does a parity bit provide security?</td><td>No, it only detects accidental errors, not malicious attacks that intentionally change the data.</td></tr>
+<tr><td>Even parity rule</td><td>The parity <a href="/bit">bit</a> is <code>0</code> if the number of <code>1</code>s in the data is even, and <code>1</code> if the number of <code>1</code>s is odd.</td></tr>
+<tr><td>Odd parity rule</td><td>The parity <a href="/bit">bit</a> is <code>1</code> if the number of <code>1</code>s in the data is even, and <code>0</code> if the number of <code>1</code>s is odd.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

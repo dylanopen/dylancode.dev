@@ -30,3 +30,17 @@
 - $y=\frac{\sin4x}{\cos4x}\cdot\cos4x$
 - $y=\sin4x$
 - $\frac{dy}{dx}=4\cos4x$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| If $y = a \sin(bx)$ | Then $\frac{dy}{dx} = ab \cos(bx)$ |
+| Find $\frac{dy}{dx}$ of $y = 2\sin x$ | $\frac{dy}{dx} = 2\cos x$ |
+| Find $\frac{dy}{dx}$ of $y = \sin(3x)$ | $\frac{dy}{dx} = 3\cos(3x)$ |
+| Find $\frac{dy}{dx}$ of $y = 2\sin(5x)$ | $\frac{dy}{dx} = 10\cos(5x)$ |
+| Find $\frac{dy}{dx}$ of $y = -3\sin(-2x)$ | $\frac{dy}{dx} = 6\cos(-2x)$ |
+| Find $\frac{dy}{dx}$ of $y = 10\sin\left(\frac{x}{2}\right)$ | $\frac{dy}{dx} = 5x\cos\left(\frac{x}{2}\right)$ |
+| Simplify $y = \tan(4x) \cdot \cos(4x)$ before differentiating | $y = \sin(4x)$ |
+| Find $\frac{dy}{dx}$ of $y = \tan(4x) \cdot \cos(4x)$ | $\frac{dy}{dx} = 4\cos(4x)$ |
+

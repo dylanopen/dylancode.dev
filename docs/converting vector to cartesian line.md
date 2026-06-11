@@ -87,3 +87,16 @@ Once we have the gradient, we can substitute it into the Cartesian form equation
   - $c = 4 - \frac{3}{2}$
   - $c = \frac{5}{2}$
 - **Answer**: $y = \frac{-3}{2}x + \frac{5}{2}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general vector equation of a line? | $\vec r = \vec a + \lambda \vec d$, where $\vec r$ is the position vector of any point on the line, $\vec a$ is the position vector of a specific point, $\vec d$ is the direction vector, and $\lambda$ is a scalar multiplier. |
+| How do you find the gradient of a line from its direction vector $\vec d$? | Gradient $m = \frac{\text{change in } y}{\text{change in } x}$, using the components of $\vec d$. |
+| What is the gradient of a line with direction vector $\vec d = \begin{pmatrix}2\\6\end{pmatrix}$? | $m = \frac{6}{2} = 3$ |
+| Convert the vector equation $\vec r = \pmatrix{1 \\ 2} + \lambda \pmatrix{3 \\ 4}$ to Cartesian form. | $y = \frac{4}{3}x + \frac{2}{3}$ |
+| Convert the vector equation $\vec r = \pmatrix{2 \\ 5} + \lambda \pmatrix{-1 \\ 2}$ to Cartesian form. | $y = -2x + 9$ |
+| Convert the vector equation $\vec r = \pmatrix{-1 \\ 4} + \lambda \pmatrix{2 \\ -3}$ to Cartesian form. | $y = \frac{-3}{2}x + \frac{5}{2}$ |
+| How do you find the value of $c$ when converting a vector line equation to Cartesian form $y=mx+c$? | Substitute the coordinates of a known point on the line (from $\vec a$) and the calculated gradient $m$ into $y=mx+c$, then solve for $c$. |
+

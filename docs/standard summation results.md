@@ -77,3 +77,16 @@ $$
 - $=\sum^8_1(2r^3)-\sum^8_1(3r^2)$
 - $=2\sum^8_1(r^3)-3\sum^8_1(r^2)$
 - TODO
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is $\sum^n_{r=1} 1$? | $n$ |
+| What is the formula for $\sum^n_{r=1} r$? | $\frac{n(n+1)}{2}$ |
+| What is the formula for $\sum^n_{r=1} r^2$? | $\frac{n(n+1)(2n+1)}{6}$ |
+| What is the formula for $\sum^n_{r=1} r^3$? | $\left(\frac{n(n+1)}{2}\right)^2$ |
+| How do you deduce $\sum^n_{r=1}(2r-3)$ using standard results? | $= 2\sum^n_{r=1} r - 3\sum^n_{r=1} 1 = 2\left(\frac{n(n+1)}{2}\right) - 3n = n^2 - 2n$ |
+| How do you deduce $\sum^{23}_{r=18} r^2$ using standard results? | $= \sum^{23}_{r=1} r^2 - \sum^{17}_{r=1} r^2 = \frac{23(24)(47)}{6} - \frac{17(18)(35)}{6} = 2539$ |
+| How do you deduce $\sum^8_{r=1}(2r^3-3r^2)$ using standard results? | $= 2\sum^8_{r=1} r^3 - 3\sum^8_{r=1} r^2$ |
+

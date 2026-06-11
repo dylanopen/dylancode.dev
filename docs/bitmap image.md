@@ -24,3 +24,11 @@ rows and columns there are?
 
 That's stored in the metadata. See [[bitmap metadata]] for more
 details!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a bitmap (raster) image? | It stores the image as a grid of pixels, where each pixel has a specific color value, unlike a vector image which stores mathematical instructions. |
+| How does a computer know the number of rows and columns in a bitmap image? | That information is stored in the metadata (see [[bitmap metadata]]). |
+

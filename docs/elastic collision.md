@@ -36,3 +36,10 @@ will change after the collision, but they won't be swapped.
 
 The momentums of the two objects will add up to the same total [[momentum]] before
 and after the collision, and so will their kinetic energies.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| collision | elasticexample	momentum	conservedkinetic energy	also conservedmomentum conservation	sum of individual momentums before collision equals sum afterno kinetic energy lost	sum of individual kinetic energies before equals sum afterequal masses both moving	velocities are swapped after collisionexample equal masses	object A +5 m/s, object B -3 m/s → after: A -3 m/s, B +5 m/sspecial case stationary object	moving object stops, stationary object moves at previous velocity of moving objectunequal masses	velocities change but are not swapped; total momentum and kinetic energy remain conserved |
+

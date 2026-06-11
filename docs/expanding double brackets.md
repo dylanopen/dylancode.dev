@@ -24,3 +24,16 @@ each box by multiplying the row and column headers):
 Add the terms in the middle of the grid together to get the final answer:
 - $x^2-4x-2x+8$
 - Answer: $x^2 - 6x + 8$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| x^2 | $x^2$ |
+| -2x | $-2x$ |
+| -4x | $-4x$ |
+| 8 | $8$ |
+| How do you expand $(x - 4)(x - 2)$ using the grid method? | Draw a 2x2 grid, multiply each term from the first bracket by each term from the second, then sum the products: $x^2 - 4x - 2x + 8 = x^2 - 6x + 8$ |
+| What do you multiply to get $8$ in the grid expansion of $(x - 4)(x - 2)$? | Multiply $-4$ by $-2$, giving positive $8$ |
+| What is the final expanded form of $(x - 4)(x - 2)$? | $x^2 - 6x + 8$ |
+

@@ -35,3 +35,14 @@ measuring ona ruler the start and end point) we **double the [[uncertainty]]**.
 If we have a compound measurement which we find using a *formula* of different
 measurements (which each have their own [[uncertainty]]), we simply **add** the
 individual percentage uncertainties together.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| question | answer |
+| What is the uncertainty of a single measurement? | $\pm\frac{\text{smallest division on the scale}}{2}$ |
+| How do you find the uncertainty of repeat measurements? | You find the mean, then use $\pm\frac{\text{smallest division on the scale}}{2}\times2$, which simplifies to $\pm\text{smallest division on the scale}$. |
+| How do you calculate uncertainty for double-sided apparatus? | You double the uncertainty. |
+| How do you find the overall percentage uncertainty for a compound measurement? | You add the individual percentage uncertainties together. |
+

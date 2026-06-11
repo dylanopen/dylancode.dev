@@ -38,3 +38,16 @@ $$
 - $\tan(30^\degree) = \frac{\frac{1}{2}}{\frac{\sqrt{3}}{2}}$
 - $\tan(30^\degree) = \\frac{1}{\sqrt{3}}$
 - **Answer**: $\tan(30^\degree) = \frac{1}{\sqrt{3}}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How is the tangent function defined? | $\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$, where $\theta$ is any angle. |
+| What is $\tan(45^\degree)$? | $1$ |
+| Calculate $\tan(45^\degree)$ using the definition. | $\tan(45^\degree) = \frac{\sin(45^\degree)}{\cos(45^\degree)} = \frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{2}}{2}} = 1$ |
+| What is $\tan(60^\degree)$? | $\sqrt{3}$ |
+| Calculate $\tan(60^\degree)$ using the definition. | $\tan(60^\degree) = \frac{\sin(60^\degree)}{\cos(60^\degree)} = \frac{\frac{\sqrt{3}}{2}}{\frac{1}{2}} = \sqrt{3}$ |
+| What is $\tan(30^\degree)$? | $\frac{1}{\sqrt{3}}$ |
+| Calculate $\tan(30^\degree)$ using the definition. | $\tan(30^\degree) = \frac{\sin(30^\degree)}{\cos(30^\degree)} = \frac{\frac{1}{2}}{\frac{\sqrt{3}}{2}} = \frac{1}{\sqrt{3}}$ |
+

@@ -27,3 +27,13 @@ It is the coefficient of $i$ (and the vertical coordinate on an Argand diagram).
 ## Equality of complex numbers
 
 Two complex numbers are equal if both their real and imaginary parts are equal.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Complex number | $ x + yi $ where $x$ is real and $y$ is real; contains a real part and an imaginary part |
+| Real part | $x$ in $x+yi$, the number without the $i$ term |
+| Imaginary part | $y$ in $x+yi$, the coefficient of $i$ and the vertical coordinate on an Argand diagram |
+| Equality of complex numbers | Two complex numbers are equal only if both their real parts are equal and their imaginary parts are equal. |
+

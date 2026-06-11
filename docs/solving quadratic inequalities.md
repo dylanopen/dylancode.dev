@@ -76,3 +76,22 @@ endpoints 1 and 3 (which is why we use brackets).
 Using set notation or interval notation helps to clearly communicate the
 solution to quadratic inequalities in a concise manner, allowing for elaborate
 sharing of mathematical ideas.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a quadratic inequality? | An inequality involving a quadratic expression, e.g. $5x^2 - 3x + 2 > 0$. |
+| What is the key difference between solving a quadratic equation and a quadratic inequality? | For an inequality, you find a *range* of values that satisfy it, rather than just specific values. |
+| What is the first step when solving a quadratic inequality? | Rearrange the inequality so that one side is zero, e.g., $ax^2 + bx + c > 0$. |
+| After rearranging a quadratic inequality, what do you do with the corresponding equation? | Solve the equation as if it were a normal quadratic equation ($ax^2 + bx + c = 0$). |
+| After solving the quadratic equation, what is the purpose of sketching its graph? | To determine which parts of the graph are above or below the x-axis based on the inequality sign. |
+| For a quadratic inequality with '>' or '≥', which part of the graph do you look for? | The parts *above* the x-axis. |
+| For a quadratic inequality with '<' or '≤', which part of the graph do you look for? | The parts *below* the x-axis. |
+| Solve the inequality $x^2 - 4x + 3 < 0$. | The roots are $x = 1$ and $x = 3$. The solution is $1 < x < 3$. |
+| Express the solution $1 < x < 3$ in set notation. | $\{ x \in \mathbb{R} \mid 1 < x < 3 \}$ |
+| Express the solution $1 < x < 3$ in interval notation. | $(1, 3)$ |
+| How do you express the inclusive solution $1 \le x \le 3$ in interval notation? | $[1, 3]$ |
+| Why are parentheses used in interval notation instead of brackets? | Parentheses indicate the endpoints are not included in the solution. |
+| Why are brackets used in interval notation? | Brackets indicate the endpoints are included in the solution. |
+

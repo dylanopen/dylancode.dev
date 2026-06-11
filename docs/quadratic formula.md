@@ -68,3 +68,18 @@ calculating $+\sqrt{b^2 - 4ac}$ and $-\sqrt{b^2 - 4ac}$ separately.
   - $x = \frac{-2 + 10}{6} = \frac{8}{6} = \frac{4}{3}$
   - $x = \frac{-2 - 10}{6} = \frac{-12}{6} = -2$
 - **Answer**: $x = \frac{4}{3}$ and $x = -2$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the main use of the quadratic formula? | Solving the roots of a quadratic equation (finding the values of $x$ where $y=0$). |
+| What is the quadratic formula? | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ |
+| What is the discriminant in the quadratic formula? | The part under the square root: $b^2 - 4ac$. |
+| What can the discriminant tell us about a quadratic equation? | It can tell us the number of roots the equation has. |
+| What form must a quadratic equation be in to use the quadratic formula? | $ax^2 + bx + c = 0$. |
+| What must you do with the square root of the discriminant when finding roots? | Calculate both the positive square root ($+\sqrt{b^2 - 4ac}$) and the negative square root ($-\sqrt{b^2 - 4ac}$) to get both roots. |
+| Find the roots of $2x^2 + 4x - 6 = 0$ using the quadratic formula. | $x = 1$ and $x = -3$ |
+| Find the roots of $x^2 - 3x + 2 = 0$ using the quadratic formula. | $x = 2$ and $x = 1$ |
+| Find the roots of $3x^2 + 2x - 8 = 0$ using the quadratic formula. | $x = \frac{4}{3}$ and $x = -2$ |
+

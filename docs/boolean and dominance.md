@@ -14,3 +14,13 @@ we don't need to know the value of $x$ to know that the result is $0$.
 
 We can replace anywhere we have something ANDed with 0 with just 0 in order to
 simplify expressions. For example, $A \cdot 0$ simplifies to just $0$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Boolean AND dominance | When a boolean variable $x$ is ANDed with $0$, the result is always $0$.<br/>* $0 \cdot 0 = 0$<br/>* $1 \cdot 0 = 0$<br/>* So $x \cdot 0 = 0$ |
+| Why does $x \cdot 0 = 0$ always hold? | Because AND requires both operands to be true for a true result. Since one operand is false (0), the result is always false regardless of $x$. |
+| What is the formal expression for Boolean AND dominance? | $A \cdot 0 = 0$ |
+| How do you simplify an expression like $A \cdot 0$? | Replace $A \cdot 0$ with just $0$. |
+

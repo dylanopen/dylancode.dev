@@ -39,6 +39,18 @@ file size bigger!</li>
 /[[run length encoding](/
 –/[[run-length-encoding)|<a href="/run-length-encoding">Run-length encoding</a>]].</li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Dictionary encoding</td><td>Method of lossless compression where repeated data is replaced with a reference to a single copy stored in a dictionary mapping references to original data.</td></tr>
+<tr><td>How would you encode the string “ABCDABCDABCD” using dictionary encoding?</td><td>Dictionary: {1: ABCD}; Data: 1 1 1</td></tr>
+<tr><td>What is a key benefit of dictionary encoding for text?</td><td>It can be very effective for text with lots of repeated words or phrases.</td></tr>
+<tr><td>How does dictionary encoding compare to run-length encoding for non-consecutive repeats?</td><td>It can be more efficient as it doesn’t require data to be repeated consecutively in a row.</td></tr>
+<tr><td>What advantage does dictionary encoding have over run-length encoding in terms of pattern types?</td><td>It can store a <em>pattern</em> as a dictionary entry, rather than just a single character or pixel.</td></tr>
+<tr><td>Where is a variation of dictionary encoding commonly used?</td><td>For PNG images, where a pixel pattern is stored in the dictionary and referenced multiple times.</td></tr>
+<tr><td>What is a major drawback of dictionary encoding compared to run-length encoding?</td><td>It can be more complex to implement as it requires managing the dictionary and references.</td></tr>
+<tr><td>Why can dictionary encoding sometimes increase file size?</td><td>Because we have to actually store the dictionary itself.</td></tr>
+<tr><td>In what scenario might run-length encoding be preferred over dictionary encoding?</td><td>In certain cases where dictionary encoding is less efficient than run-length encoding.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

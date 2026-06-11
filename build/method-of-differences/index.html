@@ -53,6 +53,16 @@ the third bracket.</li>
 <li><im>\sum r^2 = \frac4{24}n(2n+1)(n+1)</im> (divide both sides by 24)</li>
 <li><im>\sum r^2=\frac16 n(n+1)(2n+1)</im> (simplify)</li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Question</td><td>Answer</td></tr>
+<tr><td>What is the method of differences?</td><td>A technique where terms in a sum cancel each other out, leaving only the first and last terms.</td></tr>
+<tr><td>What is the value of <im>(\frac12-\frac13)+(\frac13-\frac14)+...+(\frac19-\frac1{10})</im>?</td><td><im>\frac25</im> (since all middle terms cancel to give <im>\frac12 - \frac1{10} = \frac{4}{10} = \frac25</im>).</td></tr>
+<tr><td>Show that <im>\frac1{r^2}-\frac1{(r+1)^2}=\frac{2r+1}{r^2(r+1)^2}</im>.</td><td><im>\frac1{r^2}-\frac1{(r+1)^2} = \frac{(r+1)^2}{r^2 (r+1)^2} - \frac{r^2}{r^2 (r+1)^2} = \frac{(r+1)^2 - r^2}{r^2 (r+1)^2} = \frac{(r^2 + 2r + 1) - r^2}{r^2 (r+1)^2} = \frac{2r + 1}{r^2 (r+1)^2}</im></td></tr>
+<tr><td>Hence solve <im>\sum^n_{r=1} \frac{2r+1}{r^2 (r+1)^2}</im>.</td><td><im>= \sum^n_{r=1} \left( \frac1{r^2} - \frac1{(r+1)^2} \right)</im> (using the result),<br/>which telescopes to <im>1 - \frac1{(n+1)^2}</im>.</td></tr>
+<tr><td>Given that <im>(2r+1)^3-(2r-1)^3=24r^2+2</im>, show that <im>\sum r^2=\frac16 n(n+1)(2n+1)</im>.</td><td><im>\sum(24r^2+2) = \sum^n_{r=1}\left((2r+1)^3-(2r-1)^3\right) = (2n+1)^3-1^3</im>.<br/>So <im>24\sum r^2 + 2n = (2n+1)^3 - 1</im>.<br/>Thus <im>24\sum r^2= (2n+1)^3 - 1 - 2n = 8n^3 + 12n^2 + 4n = 4n(2n^2 + 3n + 1) = 4n(2n+1)(n+1)</im>.<br/>Divide by 24: <im>\sum r^2 = \frac16 n(n+1)(2n+1)</im>.</td></tr>
+<tr><td>What remaining terms do you get after applying the method of differences to <im>\sum^n_{r=1} (\frac1{r^2} - \frac1{(r+1)^2})</im>?</td><td><im>\frac1{1^2} - \frac1{(n+1)^2}</im>, i.e., <im>1 - \frac1{(n+1)^2}</im>.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

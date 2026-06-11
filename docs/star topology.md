@@ -19,3 +19,24 @@ Basically, we have a central device which connects to all the devices on the net
 - It's more expensive to set up than a [[bus topology]], because we need more cables and a central hub or switch.
     - Every [[client]] needs its own cable to connect to the central hub or switch, which can be really expensive if we have a lot of devices.
 - The central hub or switch can become a bottleneck if there are a lot of devices on the network, because all data has to pass through it. If the hub/switch isn't powerful enough to handle the traffic, it can slow down the entire network.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Star topology | In a star topology, all devices are connected to a central hub or switch individually. |
+| What forwards frames to the correct device based on the MAC address in a star topology? | The central switch. |
+| What happens to a star topology if one client cable fails? | It doesn't affect the rest of the network; other devices can still communicate. |
+| How does a star topology differ from a bus topology regarding a single device failure? | In a star topology, if one device fails it doesn't affect the whole network, unlike a bus topology. |
+| How do you add a new device to a star topology? | You just connect it to the central hub or switch without worrying about the rest of the network. |
+| What is an advantage of a star topology for troubleshooting? | It is easy to identify a problem by looking at the non-working device. |
+| Why are collisions rare in a star topology? | Because each device has its own dedicated connection to the central hub or switch. |
+| What happens to the speed of a star topology when more devices are added? | It doesn't decrease so much. |
+| How is security improved in a star topology using a switch? | Data is only sent to the intended recipient, rather than being broadcast to all devices. |
+| What is the security issue if a star topology uses a hub instead of a switch? | A hub broadcasts data to all devices, which is less secure because everything can read it. |
+| What is the main disadvantage of having a single point of failure in a star topology? | If the hub/switch fails, the entire network fails. |
+| Why is a star topology more expensive to set up than a bus topology? | Because we need more cables and a central hub or switch. |
+| How does the cabling cost scale with the number of devices in a star topology? | Every client needs its own cable, which can be really expensive with a lot of devices. |
+| What can become a bottleneck in a star topology and why? | The central hub or switch, because all data has to pass through it. |
+| What happens if the central switch isn't powerful enough to handle the traffic? | It can slow down the entire network. |
+

@@ -27,3 +27,13 @@ $$
 
 For example, for an unsigned 5-[[bit]] binary number, the maximum value is
 $2^5 - 1 = 31$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an unsigned binary number? | It is a binary number that can only represent non-negative values (zero and positive integers), where all bits are used to represent the magnitude of the number. |
+| What are the possible values of an unsigned 3-bit binary number? | 000 (0), 001 (1), 010 (2), 011 (3), 100 (4), 101 (5), 110 (6), 111 (7). |
+| How do you calculate the maximum value of an unsigned binary number with $n$ bits? | The maximum value is $2^n - 1$. |
+| What is the maximum value for an unsigned 5-bit binary number? | $2^5 - 1 = 31$. |
+

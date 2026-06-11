@@ -22,6 +22,19 @@
 <h2>Address size</h2>
 <p>Based on the size of the <a href="/address-bus">address bus</a>, we can determine how many unique memory addresses we can have.</p>
 <p>For example, if we have a 32-<a href="/bit">Bit</a> <a href="/address-bus">address bus</a>, we can have 2^32 unique addresses, which means we can address up to 4 GB of memory. If we have a 64-<a href="/bit">Bit</a> <a href="/address-bus">address bus</a>, we can have 2^64 unique addresses, which means we can address up to 16 exabytes of memory (which is probably enough for a while).</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Address</td><td>Addressable memory	Addressable memory is a way we lay out memory to access it using memory addresses; each piece of data or instruction is stored at a specific address we can use to read or write data.</td></tr>
+<tr><td>Example addresses</td><td>If memory has 5 bytes stored, what are the addresses?	0x00, 0x01, 0x02, 0x03, 0x04.</td></tr>
+<tr><td>Reading address 0x02</td><td>What value do you get reading address 0x02 in the example?	‘L’</td></tr>
+<tr><td>Writing address 0x03</td><td>In the example table, how would you change the data at address 0x03?	Write a new value to address 0x03 (which initially holds ‘L’).</td></tr>
+<tr><td>Giving programs their own memory</td><td>Why must each program have its own memory space?	So each program can only access its own memory and cannot read or write another program’s data without permission.</td></tr>
+<tr><td>OS memory management</td><td>What technique does the operating system use to give each program private memory while sharing physical memory?	Virtual memory.</td></tr>
+<tr><td>Memory address definition</td><td>What is a memory address?	The number given to represent a location in memory, like a label for a specific byte or group of bytes.</td></tr>
+<tr><td>Address size determination</td><td>How do we determine how many unique addresses are possible?	Based on the size of the address bus.</td></tr>
+<tr><td>32-bit address bus</td><td>With a 32-bit address bus, how many unique addresses are there and what is the maximum addressable memory?	<im>2^{32}</im> addresses, up to 4 GB of memory.</td></tr>
+<tr><td>64-bit address bus</td><td>With a 64-bit address bus, how many unique addresses are there and what is the maximum addressable memory?	<im>2^{64}</im> addresses, up to 16 exabytes of memory.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

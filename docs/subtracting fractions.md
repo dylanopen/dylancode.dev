@@ -87,3 +87,23 @@ $$
   - $= \frac{9x - 10x}{12}$
   - $= \frac{-1x}{12}$ or $\frac{-x}{12}$
 - **Answer**: $\frac{-x}{12}$ or $-\frac{x}{12}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What must fractions have to subtract them? | They must have the same **denominator** (the bottom part of the fraction). |
+| If fractions have different denominators, what must you find first before subtracting? | You need to find the [[lowest common multiple]] (LCM) of the denominators. |
+| How do you convert a fraction to an equivalent fraction with a new denominator (the LCM)? | Think 'what does the denominator need to be multiplied by to get the LCM?', then multiply both the numerator and denominator by that number. |
+| What is the LCM of 3 and 4? | The LCM of 3 and 4 is 12. |
+| For $\frac{2}{3}$, if the new denominator is 12, what is the new fraction? | $\frac{2 \times 4}{3 \times 4} = \frac{8}{12}$ |
+| For $\frac{5}{4}$, if the new denominator is 12, what is the new fraction? | $\frac{5 \times 3}{4 \times 3} = \frac{15}{12}$ |
+| Once fractions have the same denominator, how do you subtract them? | Subtract the numerators and keep the denominator the same. |
+| What is the general rule for subtracting fractions with the same denominator? | $\frac{a}{c} - \frac{b}{c} = \frac{a - b}{c}$ |
+| Evaluate $\frac{2}{3} - \frac{5}{4}$: | First convert to $\frac{8}{12}$ and $\frac{15}{12}$, then $\frac{8 - 15}{12} = \frac{-7}{12}$ or $-\frac{7}{12}$. |
+| What is the LCM of 10 and 5? | The LCM of 10 and 5 is 10. |
+| Evaluate $\frac{7}{10} - \frac{3}{5}$: | Convert $\frac{3}{5}$ to $\frac{6}{10}$, then $\frac{7 - 6}{10} = \frac{1}{10}$. |
+| What is the LCM of 8 and 12? | The LCM of 8 and 12 is 24. |
+| Evaluate $\frac{9}{8} - \frac{5}{12}$: | Convert to $\frac{27}{24}$ and $\frac{10}{24}$, then $\frac{27 - 10}{24} = \frac{17}{24}$. |
+| Evaluate $\frac{3x}{4} - \frac{5x}{6}$: | Convert to $\frac{9x}{12}$ and $\frac{10x}{12}$, then $\frac{9x - 10x}{12} = \frac{-x}{12}$ or $-\frac{x}{12}$. |
+

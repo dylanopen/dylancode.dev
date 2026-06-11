@@ -29,3 +29,14 @@ $$
 
 - $=y^{4-1}$
 - $=y^3$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Division of indices (same base) | When dividing two indices with the same base, subtract the powers: $a^x \div a^b = a^{x-y}$ |
+| Simplify $x^3 \div x^{-2}$ | $x^{3--2} = x^{3+2} = x^5$ |
+| Evaluate $2^7 \div 2^3$ | $2^{7-3} = 2^4 = 16$ |
+| Evaluate $5^3 \div 5^0$ | $5^{3-0} = 5^3 = 125$ |
+| Simplify $y^4 \div y$ | $y^{4-1} = y^3$ |
+

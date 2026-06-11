@@ -42,3 +42,15 @@ $$
 - $= \frac{108a^2b^2}{-144ab}$
 - $= \frac{-3ab}{4}$ - simplified by dividing both numerator and denominator by 36ab.
 - **Answer**: $\frac{-3ab}{4}$ or $-\frac{3ab}{4}$ or $-\frac{3}{4}ab$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you multiply two fractions together? | Multiply the numerators together and the denominators together: $\frac{a}{b} \times \frac{c}{d} = \frac{a \times c}{b \times d}$ |
+| What is the result of $\frac{2}{3} \times \frac{4}{5}$? | $\frac{8}{15}$ |
+| What is the result of $\frac{3}{4} \times \frac{2}{7}$ in its simplest form? | $\frac{3}{14}$ (from $\frac{6}{28}$ simplified by dividing numerator and denominator by 2) |
+| What is the simplified result of $\frac{5}{6} \times \frac{9}{10}$? | $\frac{3}{4}$ (from $\frac{45}{60}$ simplified by dividing numerator and denominator by 15) |
+| What is the simplified result of $\frac{7x}{8y} \times \frac{16y}{21x}$? | $\frac{2}{3}$ (from $\frac{112xy}{168xy}$ simplified by dividing numerator and denominator by $56xy$) |
+| What is the simplified result of $\frac{4a^2}{-9b} \times \frac{27b^2}{16a}$? | $\frac{-3ab}{4}$ or $-\frac{3ab}{4}$ (from $\frac{108a^2b^2}{-144ab}$ simplified by dividing numerator and denominator by $36ab$) |
+

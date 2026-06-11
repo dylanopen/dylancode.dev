@@ -57,3 +57,18 @@ When a quadratic equation has one real root (i.e. when $D=0$), this is called
 a *repeated root*.  
 This means that both roots of the equation are the same (i.e. they are equal) -
 and so we kind of only have one solution instead of the usual two.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the discriminant of a quadratic equation? | The part under the square root in the quadratic formula: $D = b^2 - 4ac$, where $a$, $b$, $c$ are coefficients of $ax^2 + bx + c = 0$. |
+| What Greek letter usually represents the discriminant? | Delta ($\Delta$). In the note, it is also referred to as $D$. |
+| What does the discriminant tell us about a quadratic equation? | It tells us the number of real roots the equation has. |
+| What happens if the discriminant $D > 0$? | There are two distinct real roots. |
+| What happens if the discriminant $D = 0$? | There is one real root (a repeated/repeated root). |
+| What happens if the discriminant $D < 0$? | There are no real roots (the roots are all complex/imaginary). |
+| How do you find the number of real roots for $2x^2 - 4x + 1 = 0$? | $a=2, b=-4, c=1$. $D = (-4)^2 - 4 \times 2 \times 1 = 16 - 8 = 8$. Since $D > 0$, there are two distinct real roots. |
+| How can the discriminant be used to find a constant in a quadratic equation? | Given a condition (e.g. one real root), set $D=0$ and solve for the constant (like $k$ in $x^2 + kx + 4 = 0$). |
+| What is a "repeated root" in a quadratic? | A root that occurs when $D=0$, meaning both roots are equal, so there is effectively only one solution. |
+

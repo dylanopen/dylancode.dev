@@ -64,3 +64,23 @@ That's sounds like a lot of steps, but let's see it in practice with an example.
 - **Answer**: The points of intersection are:
   - $\frac{-2 + 2\sqrt{31}}{5}, \frac{1 + 4\sqrt{31}}{5})$
   - $\frac{-2 - 2\sqrt{31}}{5}, \frac{1 - 4\sqrt{31}}{5})$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the three possibilities for the number of intersection points between a circle and a straight line? | The line does not intersect the circle (0 points), is tangent to the circle (1 point), or intersects in two places (2 points). |
+| What algebraic method is used to find the points of intersection between a circle and a line? | Simultaneous equations using substitution. |
+| What is the first step to find circle-line intersection points? | Write down the equations of the circle and the line. |
+| What is the second step? | Rearrange the line equation to make $y$ the subject. |
+| What is the third step? | Substitute the expression for $y$ from the line equation into the circle equation. |
+| What is the fourth step? | Rearrange the resulting equation into the form $ax^2 + bx + c = 0$. |
+| What are the three methods to solve the resulting quadratic equation? | Quadratic formula, factorising quadratics, or completing the square. |
+| What is the final step after solving for $x$? | Substitute the $x$-values back into the equation of the line to find the corresponding $y$-values. |
+| In the example, what is the circle equation? | $x^2 + y^2 = 25$ |
+| In the example, what is the line equation? | $y = 2x + 1$ |
+| After substituting $y = 2x + 1$ into the circle, what is the expanded equation before rearrangement? | $x^2 + (2x + 1)^2 = 25$ which expands to $5x^2 + 4x + 1 = 25$ |
+| After rearrangement, what is the quadratic equation in the example? | $5x^2 + 4x - 24 = 0$ |
+| What are the $x$-values of the intersection points in the example? | $x = \frac{-2 \pm 2\sqrt{31}}{5}$ |
+| What are the corresponding $y$-values in the example? | For $x = \frac{-2 + 2\sqrt{31}}{5}$, $y = \frac{1 + 4\sqrt{31}}{5}$; <br/> for $x = \frac{-2 - 2\sqrt{31}}{5}$, $y = \frac{1 - 4\sqrt{31}}{5}$ |
+

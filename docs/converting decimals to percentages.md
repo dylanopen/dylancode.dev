@@ -32,3 +32,16 @@ by **100**.
 
 - $2.5 \times 100 = 250$
 - **Answer**: $250\%$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert a decimal into a percentage? | Multiply the decimal value by 100. |
+| What is $0.75$ as a percentage? | $75\%$ |
+| What is $0.04$ as a percentage? | $4\%$ |
+| What is $1.2$ as a percentage? | $120\%$ |
+| What is $0.006$ as a percentage? | $0.6\%$ |
+| What is $0.125$ as a percentage? | $12.5\%$ |
+| What is $2.5$ as a percentage? | $250\%$ |
+

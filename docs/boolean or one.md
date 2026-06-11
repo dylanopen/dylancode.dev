@@ -24,3 +24,12 @@ $$
 We can use this to [[simplifying boolean algebra|simplify boolean algebra]]!
 
 We can replace anywhere we see $A+1$ with $1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is $A+1$ equal to in boolean algebra? | $A+1 = 1$ |
+| Why does $A+1$ always equal 1? | Because ORing anything with 1 always gives 1, as per the truth table (1 OR 1 = 1, 0 OR 1 = 1). |
+| How can the rule $A+1=1$ be used? | It can be used to simplify boolean algebra by replacing any occurrence of $A+1$ with 1. |
+

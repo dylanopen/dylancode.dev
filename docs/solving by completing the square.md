@@ -51,3 +51,17 @@ We can solve quadratic equations by [[completing the square]].
   - $x = -1$ or $x = -3$
 
 **Answer**: $x = -1$ or $x = -3$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the first step in solving a quadratic equation by completing the square? | Make the quadratic in the form $ax^2 + bx + c = 0$ if it isn't already. |
+| If $a \neq 1$ in $ax^2 + bx + c = 0$, what must you do before completing the square? | Divide the whole equation by $a$ to get rid of the coefficient of $x^2$. |
+| After ensuring the coefficient of $x^2$ is 1, what is the next step? | Move the constant term $c$ to the other side of the equation. |
+| What do you do after completing the square on the left side of the equation? | Move any constants from the left side to the right side by adding or subtracting. |
+| When taking the square root of both sides, what must you remember to include? | Both the positive and negative roots. |
+| What is the final step to find $x$ after taking the square root? | Solve for $x$ by moving any constants to the right side. |
+| Solve $x^2 + 6x + 5 = 0$ by completing the square. | $x = -1$ or $x = -5$ |
+| How do you solve $2x^2 + 8x + 6 = 0$ by completing the square? | Divide by 2 to get $x^2+4x+3=0$, then solve to get $x = -1$ or $x = -3$ |
+

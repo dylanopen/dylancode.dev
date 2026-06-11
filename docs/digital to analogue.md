@@ -11,3 +11,11 @@ of 1s and 0s, and create an analogue wave that approximates the [[digital signal
 
 The main use is for sound. When you listen to music, you're hearing an analogue
 signal - the sound waves in the air.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Digital to analogue conversion (DAC) | Process of converting a digital signal into an analogue signal by interpolating the digital signal at regular intervals. Takes a series of 1s and 0s and creates an analogue wave that approximates the digital signal. |
+| What is the main practical use for converting a digital signal to analogue? | Sound. When you listen to music, you hear an analogue signal (sound waves in the air). |
+

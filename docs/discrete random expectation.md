@@ -56,3 +56,17 @@ Given that, we can then calculate the expectation using our formula:
 So the expectation of rolling a fair die is 3.5. This means that if we were to
 roll the die an infinite number of times, the **average** ([[mean]]) value we would
 get would be 3.5.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the expectation of a random variable? | The mean of the results we can expect to get if we measure the random variable 'infinite' times. |
+| What is the notation for the expected value of a list of values $X$? | $E(X)$ |
+| What is the formula for the expectation of a list of discrete values and their probabilities ($X$), where value $x_n$ has probability $p_n$? | $E(X) = \sum x_n p_n$ |
+| How do you calculate the expectation from a list of values and their probabilities? | Multiply each value by its probability and add all those products together. |
+| In calculating expectation, why do we not need to divide by the sum of probabilities? | Because the sum of probabilities is always 1. |
+| What is the expectation of a standard six-sided die roll? | 3.5 |
+| Using the formula $E(X) = \sum x_n p_n$, how is the expectation of a fair die calculated? | $E(X) = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + 3 \cdot \frac{1}{6} + 4 \cdot \frac{1}{6} + 5 \cdot \frac{1}{6} + 6 \cdot \frac{1}{6} = \frac{21}{6} = 3.5$ |
+| What does a die roll expectation of 3.5 mean? | If we roll the die an infinite number of times, the average (mean) value we would get would be 3.5. |
+

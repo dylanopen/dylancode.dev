@@ -21,3 +21,12 @@ will arrive at different times.
 
 We can solve this problem by sending *monochromatic* light (only one [[wavelength]])
 instead of white light.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the phenomenon called when different wavelengths travel at different speeds, causing signal spreading in fibre optics? | Pulse broadening (or material dispersion). |
+| Why does sending white light cause pulse broadening in fibre optics? | White light contains many wavelengths, which travel at different speeds and arrive at different times. |
+| How can you prevent material dispersion in fibre optics? | By sending monochromatic light (single wavelength) instead of white light. |
+

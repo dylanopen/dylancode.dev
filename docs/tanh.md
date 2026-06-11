@@ -21,3 +21,11 @@ We can simplify that to
 $$
 \tanh\equiv\frac{e^x-e^{-x}}{e^x+e^{-x}}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is $\tanh$ in terms of $\sinh$ and $\cosh$? | $\tanh = \frac{\sinh}{\cosh}$ |
+| How do you derive the formula for $\tanh$ using exponentials? | $\tanh \equiv \frac{e^x - e^{-x}}{2} \div \frac{e^x + e^{-x}}{2}$, which simplifies to $\tanh \equiv \frac{e^x - e^{-x}}{e^x + e^{-x}}$ |
+

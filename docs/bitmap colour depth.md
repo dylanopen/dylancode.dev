@@ -18,3 +18,14 @@ If we store a black and white image, there are only two possible colours each
 pixel can have. We can represent a black-and-white image with just 1 [[bit]] per
 pixel (a 0 for black and a 1 for white, for example), and so our colour depth
 would be **one [[bit]]**.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a colour depth in a bitmap image? | The number of bits used to store each pixel’s colour, telling the program how many bits each pixel’s colour takes up. |
+| How is the mapping from numbers to colours stored in a bitmap image? | In a colour map. |
+| Why might a 24-bit colour depth be wasteful for images that use only a few colours? | Because each pixel still uses 24 bits (or 32 bits with transparency), even when fewer colours would suffice, taking up more storage than needed. |
+| What colour depth is used for a black-and-white bitmap image, and why? | 1 bit per pixel, because only two colours are needed; 0 can represent black and 1 can represent white. |
+| What are the two components used together to interpret a bitmap image’s colours? | The colour depth (bits per pixel) and the colour map. |
+

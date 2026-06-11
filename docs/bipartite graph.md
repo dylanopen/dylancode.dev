@@ -28,3 +28,14 @@ A complete bipartite graph $K_{m,n}$ has $m \times n$ edges, since each of the
 $$
 \text{Number of edges} = m \times n
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Bipartite graph | Definition: vertices can be divided into two groups; no edge connects two vertices within the same group; edges only connect vertices from different groups. |
+| How do edges behave in a bipartite graph? | Edges only connect vertices from one group to vertices in the other group; no two vertices within the same group are connected. |
+| Complete bipartite graph | Every vertex in one group is connected to every vertex in the other group. |
+| Notation $K_{m,n}$ | Represents a complete bipartite graph with groups of sizes $m$ and $n$. |
+| Number of edges in $K_{m,n}$ | $m \times n$ edges, because each of the $m$ vertices in one group connects to all $n$ vertices in the other group. |
+

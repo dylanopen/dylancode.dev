@@ -61,3 +61,14 @@ Steps:
   - $= 1 - 4 + 6$
   - $= 3$
 - **Answer**: The point of inflection is at $(1, 3)$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a point of inflection? | It is a point on a curve where the rate of change of gradient (second derivative) changes sign, i.e., where the curve changes from getting steeper to getting less steep, or vice versa. |
+| What condition must the second derivative satisfy at a point of inflection? | $f''(x) = 0$ |
+| What are the steps to find points of inflection? | 1. Find the second derivative of the function.<br/>2. Set the second derivative equal to zero and solve for $x$.<br/>3. Substitute the $x$-values back into the original function to find the corresponding $y$-values. |
+| Find the point(s) of inflection for $f(x) = x^3 - 3x^2 + 4$. | First, $f'(x) = 3x^2 - 6x$.<br/>Then, $f''(x) = 6x - 6$.<br/>Set $6x - 6 = 0$ gives $x = 1$.<br/>Substitute $x = 1$ into $f(x)$: $f(1) = 1 - 3 + 4 = 2$.<br/>**Answer**: $(1, 2)$. |
+| Find the point(s) of inflection for $f(x) = x^4 - 4x^3 + 6x^2$. | First, $f'(x) = 4x^3 - 12x^2 + 12x$.<br/>Then, $f''(x) = 12x^2 - 24x + 12$.<br/>Set $12x^2 - 24x + 12 = 0$ and divide by 12: $x^2 - 2x + 1 = 0$, so $(x - 1)^2 = 0$, giving $x = 1$.<br/>Substitute $x = 1$ into $f(x)$: $f(1) = 1 - 4 + 6 = 3$.<br/>**Answer**: $(1, 3)$. |
+

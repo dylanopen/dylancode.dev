@@ -22,3 +22,13 @@
 - FreeBSD
 - macOS
 - Windows
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the purpose of an operating system? | To provide an interface between the user and the hardware. |
+| How does an operating system help users and programmers? | It allows them to use the computer and write programs without needing to understand the inner-workings of the hardware. |
+| List six things managed by an operating system. | Memory, processes, hardware devices, file systems, security, and a user interface (though this may be a separate utility program). |
+| Name four examples of operating systems. | Linux, FreeBSD, macOS, Windows. |
+

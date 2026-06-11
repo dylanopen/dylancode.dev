@@ -19,3 +19,16 @@ Based on the way the instructions and data are laid out in memory, we can catego
 ## Memory storage
 
 Because we need to store the instructions and the data somewhere, we need a way to lay out the memory. This is where [[addressable memory]] comes in. We can give each [[byte]] (or group of bytes) in memory a unique address, and we can use those addresses to read and write data to certain locations in memory.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Stored program concept | In a stored program computer, instructions are stored in main memory. Instructions are fetched, decoded and executed one-by-one (serially) by the processor. Programs can be moved in and out of main memory. |
+| What two types of computer systems are there? | General-purpose computers (which use the stored program concept) and embedded systems. |
+| What can general-purpose computers do? | Run loads of different things, depending on the programs installed and run on them. |
+| Why are they called 'stored program computers'? | Because they store a program which they run. |
+| What are the two main types of stored program architecture? | von Neumann architecture and Harvard architecture. |
+| How is memory storage arranged in stored program computers? | Using addressable memory. Each byte (or group of bytes) in memory is given a unique address. |
+| What is the purpose of unique memory addresses? | To read and write data to certain locations in memory. |
+

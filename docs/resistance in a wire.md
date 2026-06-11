@@ -29,3 +29,16 @@ increases.
 - Material
   - Some materials have more resistance than others
   - This is called the material's [[resistivity]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What causes resistance in a wire? | Resistance is caused by positive metal ions in the metal blocking the flow of electrons. |
+| What is the relationship between resistance and current (with constant potential difference)? | Resistance is inversely proportional to the current (as resistance increases, current decreases). |
+| What is the relationship between resistance and potential difference (with constant current)? | Resistance is directly proportional to the potential difference (as resistance increases, potential difference increases). |
+| How does the thickness of a wire affect its resistance? | Thicker wires have less resistance because there is more space for electrons to flow without colliding with metal ions. |
+| How does the length of a wire affect its resistance? | Longer wires have more resistance. |
+| How does temperature affect resistance? | Higher temperatures increase resistance because metal ions vibrate more and collide with electrons more frequently. |
+| What is the property that determines how much resistance a material has? | The material's resistivity. |
+

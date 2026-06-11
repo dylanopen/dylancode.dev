@@ -46,3 +46,15 @@ To convert a fraction to a percentage:
 - Multiply the decimal by 100%:
   - $0.05 \times 100\% = 5\%$.
 - **Answer:** $\frac1{20} = 5\%$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert a fraction to a percentage? | Divide numerator by denominator to get a decimal, then multiply by 100%. |
+| Convert $\frac34$ to a percentage. | $\frac34 = 75\%$ |
+| Convert $\frac25$ to a percentage. | $\frac25 = 40\%$ |
+| Convert $\frac7{10}$ to a percentage. | $\frac7{10} = 70\%$ |
+| Convert $\frac85$ to a percentage. | $\frac85 = 160\%$ |
+| Convert $\frac1{20}$ to a percentage. | $\frac1{20} = 5\%$ |
+

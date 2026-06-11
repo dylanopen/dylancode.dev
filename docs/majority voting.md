@@ -71,3 +71,19 @@ correct the errors and get the right data.
 - It can only correct errors if the majority of the copies are correct. If more than half of the copies are wrong, then it will actually give us the wrong data. So, it's not perfect, and there are still some cases where it can fail to detect/correct errors.
   - It can actually *confidently* be wrong, if this happens.
 - It doesn't tell us which bits were wrong, just what the majority vote is. So, it can't give us any information about where the errors occurred, just what the most likely correct data is.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Majority voting | Majority voting is a simple error checking method where data is sent multiple times (an odd number) so the receiver can take a 'vote' to determine the most likely correct bit. |
+| How many times must data be sent for majority voting to have a clear majority? | The data must be sent an odd number of times so that there is a clear majority. |
+| What does the receiver do with the copies of data in majority voting? | The receiver looks at all copies of each bit and takes a majority vote, e.g., 2 `1`s and 1 `0` results in a decoded `1`. |
+| In the example where the original data is `1010` and the received copies are `1000`, `1011`, and `0010`, what is the decoded data? | The decoded data is `1010`. The majority vote for each bit position yields `1`, `0`, `1`, `0` respectively. |
+| Benefit: How does majority voting's error detection compare to parity bits? | It can detect errors even if multiple bits are flipped, as long as the majority of copies are correct, so it can detect more errors than parity bits. |
+| Can majority voting only detect errors, or can it correct them as well? | It can correct errors, not just detect them. The majority vote is more likely to be correct than a single copy. |
+| In what situation is majority voting a suitable choice despite its overhead? | It is suitable when there is a lot of bandwidth and it is affordable to send data multiple times, e.g., over a superfast USB cable. |
+| What is the main downside of majority voting regarding bandwidth? | It uses way more bits. Sending data 3 times uses 3 times as many bits, making it very inefficient in terms of bandwidth. |
+| What happens if more than half of the copies in majority voting are wrong? | It will give the wrong data. It can confidently be wrong in this case. |
+| What information does majority voting fail to provide about errors? | It does not tell us which bits were wrong, only what the majority vote (the most likely correct data) is. |
+

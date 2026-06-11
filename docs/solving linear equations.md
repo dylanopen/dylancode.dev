@@ -93,3 +93,18 @@ order to get the variable on its own?'
   - $d + 2 - 2 = 15 - 2$
   - $d = 13$
 - **Answer**: $d = 13$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the fundamental rule for solving any equation? | Whatever you do to one side of the equation, you must do to the other side. |
+| To solve $2x + 3 = 7$, what are the steps? | 1. Subtract $3$ from both sides: $2x = 4$<br/>2. Divide both sides by $2$: $x = 2$ |
+| To solve $5y - 10 = 15$, what are the steps? | 1. Add $10$ to both sides: $5y = 25$<br/>2. Divide both sides by $5$: $y = 5$ |
+| To solve $3z + 4 = 2z + 9$, what are the steps? | 1. Subtract $2z$ from both sides: $z + 4 = 9$<br/>2. Subtract $4$ from both sides: $z = 5$ |
+| To solve $\frac{4a}2 + 6 = 10$, what are the steps? | 1. Subtract $6$ from both sides: $\frac{4a}2 = 4$<br/>2. Multiply both sides by $2$: $4a = 8$<br/>3. Divide both sides by $4$: $a = 2$ |
+| To solve $7 - 3b = 1 + 2b$, what are the steps? | 1. Subtract $1$ from both sides: $6 - 3b = 2b$<br/>2. Add $3b$ to both sides: $6 = 5b$<br/>3. Divide both sides by $5$: $b = \frac{6}{5}$ |
+| To solve $2(c - 3) + 4 = 10$, what are the steps? | 1. Expand the left side: $2c - 6 + 4 = 10$, then $2c - 2 = 10$<br/>2. Add $2$ to both sides: $2c = 12$<br/>3. Divide both sides by $2$: $c = 6$ |
+| To solve $\frac{d + 2}3 = 5$, what are the steps? | 1. Multiply both sides by $3$: $d + 2 = 15$<br/>2. Subtract $2$ from both sides: $d = 13$ |
+| What is the overall goal when solving any equation? | Get the variable we are solving for on one side of the equation and everything else on the other side. |
+

@@ -36,3 +36,15 @@ $$
 
 > This means that the ratio of a side length to the sine of its opposite
 > angle is the same for all three sides and angles in the triangle.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the three pieces of information required to use the sine rule? | A side length, the size of the angle opposite that side, and any other side or angle. |
+| In the triangle convention, what do the lowercase letters $a$, $b$, $c$ represent? | The side lengths. |
+| In the triangle convention, what do the uppercase letters $A$, $B$, $C$ represent? | The angles. |
+| State one form of the sine rule equation. | $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$ |
+| State the other (equivalent) form of the sine rule equation. | $\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}$ |
+| What does the sine rule tell us about the ratio of a side length to the sine of its opposite angle? | The ratio is the same for all three sides and angles in the triangle. |
+

@@ -4,6 +4,19 @@
 <ul>
 <li><a href="/minecraft-plugin/project-structure">project setup</a></li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>PaperMC plugin development</td><td>Development of plugins for PaperMC, a high-performance fork of SpigotMC, focusing on server-side modifications.</td></tr>
+<tr><td>What is the standard project structure for a PaperMC plugin?</td><td>The project typically includes: <code>src/main/java</code> for code, <code>src/main/resources</code> for plugin.yml (which defines the main class, name, version, and dependencies), and a build file (e.g., <code>pom.xml</code> for Maven or <code>build.gradle</code> for Gradle).</td></tr>
+<tr><td>What must be included in the <code>resources/plugin.yml</code>?</td><td>The <code>plugin.yml</code> must define at minimum: <code>name</code>, <code>version</code>, and <code>main</code> (the fully qualified main class). Optionally includes <code>api-version</code>, <code>author(s)</code>, <code>commands</code>, and <code>permissions</code>.</td></tr>
+<tr><td>How do you define a command in <code>plugin.yml</code>?</td><td>Under the <code>commands</code> node, list command names as keys with optional sub-keys like <code>description</code>, <code>usage</code>, <code>aliases</code>, and <code>permission</code>.</td></tr>
+<tr><td>What is the purpose of the <code>main</code> class in a PaperMC plugin?</td><td>The main class extends <code>JavaPlugin</code> and is the entry point. It overrides <code>onEnable()</code> (for startup) and <code>onDisable()</code> (for shutdown) methods.</td></tr>
+<tr><td>How do you register an event listener in PaperMC?</td><td>In the main class’s <code>onEnable()</code>, call <code>getServer().getPluginManager().registerEvents(new ListenerClass(), this);</code> where <code>ListenerClass</code> implements <code>Listener</code>.</td></tr>
+<tr><td>What is the importance of the <code>api-version</code> in <code>plugin.yml</code>?</td><td>It specifies which Minecraft version API the plugin is targeting (e.g., <code>1.20</code>), preventing loading on older servers and ensuring proper API behavior.</td></tr>
+<tr><td>How do you specify plugin dependencies in <code>plugin.yml</code>?</td><td>Use the <code>depend</code> list for required plugins (load after them), <code>softdepend</code> for non-required plugins (load before), and <code>loadbefore</code> to load your plugin before specified ones.</td></tr>
+<tr><td>What are the required keys in <code>plugin.yml</code> for a minimal plugin?</td><td>At minimum, <code>name</code>, <code>version</code>, and <code>main</code> must be present.</td></tr>
+<tr><td>Where does the compiled Java source code go in a PaperMC project?</td><td>All source code is placed under <code>src/main/java</code> directory, following standard Java package naming conventions.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

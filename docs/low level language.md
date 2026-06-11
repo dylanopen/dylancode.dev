@@ -46,3 +46,15 @@ if you want to understand how it works, you need to read the low level code!
     high level languages, which can often be compiled or interpreted on
     different architectures with little to no changes (thanks to the LLVM
     project).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a low level programming language? | A programming language that gives more direct control over a computer's hardware, with instructions that often correspond closely to machine code instructions. |
+| What are the only two examples of low level languages? | Machine code (binary instructions for the CPU) and assembly language (a human-readable representation using instructions like MOV, ADD, SUB). |
+| List four common uses of low level programming languages. | Writing operating systems and system software, writing device drivers, embedded systems programming, performance-critical applications (like game engines), and reverse engineering/security research. |
+| What is a major advantage of low level languages? | High performance (runs fast) if you know what you're doing, and complete control over hardware. |
+| What are three key disadvantages of low level languages? | Hard to learn and use, time-consuming to write and maintain, and not portable across different hardware architectures (e.g., x86 code won't run on ARM). |
+| Why is lack of portability a key disadvantage? | If you write assembly code for one architecture (e.g., x86), it cannot run on another (e.g., ARM or RISC-V) without being rewritten, unlike many high level languages which can be compiled/interpreted across architectures with little change. |
+

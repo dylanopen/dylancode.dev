@@ -23,3 +23,15 @@ a root of an equation, then the conjugate of that [[complex number]] is also a r
 ### Given that $5+4i$ is a root of an equation, find another root
 
 - $5-4i$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a complex conjugate pair? | A pair of two complex numbers identical except for the sign of their imaginary parts. |
+| If $w = x + yi$, how do you find its conjugate? | The conjugate of $w$ is $x - yi$. |
+| How is the complex conjugate of $z$ represented? | It is represented by $z^*$. |
+| Give an example of a complex conjugate pair. | $5+2i$ and $5-2i$ (or $-i+1$ and $1+i$, or $4i$ and $-4i$). |
+| What is a key property of complex roots in an equation? | Complex roots come in conjugate pairs: if a complex number is a root, its conjugate is also a root. |
+| If $5+4i$ is a root of an equation, what is another root? | $5-4i$ |
+

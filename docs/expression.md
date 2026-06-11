@@ -50,3 +50,20 @@ For example, in the expression $2x + 3$, the constant is $3$.
 - The mass of 3 apples is $3\cdot a=3a$.
 - The mass of 4 bananas is $4\cdot b=4b$.
 - $3a + 4b$ represents the total mass of 3 apples and 4 bananas.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an algebraic expression? | A set of numbers, [[cs/variables|variables]], and operations combined together to represent a value, without an equals or inequality sign. |
+| What does an algebraic expression NOT contain? | An equals sign ($=$) or an inequality sign (like $>$, $<$). |
+| Why is "$x = 5$" a non-example of an expression? | It is an equation because it contains an equals sign. |
+| Why is "$y > 10$" a non-example of an expression? | It is an inequality because it contains an inequality sign. |
+| Define a "term" in an expression. | A single number or variable, or numbers and variables multiplied together, separated by addition or subtraction signs. |
+| How many terms are in $3x^2 + 5y - 7$ and what are they? | 3 terms; $3x^2$, $5y$, $-7$. |
+| What is a "coefficient"? | The constant part of a term that multiplies a variable. |
+| In the term $4x^3$, what is the coefficient? | $4$ |
+| What is a "constant" term? | A term that does not contain any variables; a fixed number. |
+| In the expression $2x + 3$, identify the constant. | $3$ |
+| Apples weigh $a$ and bananas weigh $b$. Write an expression for the total mass of 3 apples and 4 bananas. | $3a + 4b$ |
+

@@ -14,3 +14,12 @@ Holding them back together again is a [[force]] called the *strong nuclear force
 - If the [[proton]]s get *too* close together, though, the force acts completely differently.
 - Instead of attracting them, it starts to repel them.
 - That might seem like it could cause the [[nucleus]] to fly apart, but it actually helps to keep the [[nucleus]] stable by preventing the protons from getting *way too close* to each other.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Strong nuclear force | Inside an atom’s nucleus, protons are positively charged and repel each other due to the electrostatic force; the strong nuclear force holds them together, acting between protons and neutrons, to keep the nucleus stable. |
+| What is the range of the strong nuclear force? | About $3\times10^{-15}$ meters / only works over very short distances (about the size of a nucleus). |
+| What happens to the strong nuclear force when protons get too close together? | Instead of attracting, it starts to repel them, which prevents the protons from getting way too close and helps keep the nucleus stable. |
+

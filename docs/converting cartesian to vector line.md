@@ -74,3 +74,21 @@ these into the vector form equation to get the final answer.
   - $\vec r = \vec a + \lambda \vec d$
   - $= \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$
 - **Answer**: $\vec r = \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general form of a cartesian line equation? | $y = mx + c$ (or one of its variants) |
+| What is the general form of a vector line equation? | $\vec r = \vec a + \lambda \vec d$ |
+| In the vector equation $\vec r = \vec a + \lambda \vec d$, what does $\vec r$ represent? | The position vector of any point on the line. |
+| In the vector equation $\vec r = \vec a + \lambda \vec d$, what does $\vec a$ represent? | The position vector of a specific point on the line. |
+| In the vector equation $\vec r = \vec a + \lambda \vec d$, what does $\vec d$ represent? | The direction vector of the line. |
+| What is the role of $\lambda$ in the vector equation $\vec r = \vec a + \lambda \vec d$? | It is a scalar multiplier; changing it gives a new point on the line. |
+| How do you find the components of the direction vector from the gradient $m$? | The denominator of the gradient is the change in $x$, and the numerator is the change in $y$. (If there is no denominator, use $1$) |
+| Find the direction vector from a gradient of $\frac{3}{4}$. | $\vec d = \pmatrix{4 \\ 3}$ |
+| Find the direction vector from a gradient of $-2$. | $\vec d = \pmatrix{1 \\ -2}$ |
+| How do you find a point on a line given its cartesian equation? | Substitute any value of $x$ into the cartesian equation to find the corresponding $y$. |
+| What is the easiest point to find on a line in the form $y = mx + c$? | The **y-intercept**, which is at the point $(0, c)$. |
+| Convert the cartesian equation $y = \frac{2}{3}x + 4$ to vector form. | $\vec r = \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$ |
+

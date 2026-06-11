@@ -37,3 +37,18 @@ You can do this using any method you like - such as [[short]] [[riscv/division|d
 
 - $9 \div 2 = 4.5$
 - **Answer: $4.5$**
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert a fraction to a decimal? | Divide the numerator (top number) by the denominator (bottom number). |
+| What is $\frac{3}{4}$ as a decimal? | $0.75$ |
+| What is $\frac{2}{5}$ as a decimal? | $0.4$ |
+| What is $\frac{7}{8}$ as a decimal? | $0.875$ |
+| What is $\frac{1}{3}$ as a decimal? | $0.3333...$ (repeating) |
+| What is $\frac{5}{6}$ as a decimal? | $0.8333...$ (repeating) |
+| What is $\frac{9}{2}$ as a decimal? | $4.5$ |
+| What operation converts a fraction to a decimal? | Division of numerator by denominator. |
+| How do you express $\frac{5}{6}$ as a decimal? | $0.8333...$ (repeating) |
+

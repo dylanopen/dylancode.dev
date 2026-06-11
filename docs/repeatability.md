@@ -42,3 +42,15 @@ To make sure our repeatability is as good as possible, we can:
   similar results?
 
 See more about [[reproducibility|reproducibility here]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is repeatability in the context of measurements? | Repeatability is essentially how close our measurements are when we repeat the experiment under the same conditions, repeating the entire experiment multiple times to see if we get consistent results. |
+| In the example of boiling point measurement, what makes the first set of results (100.2°C, 100.5°C, 100.3°C) very repeatable? | The experiments are very repeatable because the results are all very close to each other. |
+| In the example of boiling point measurement, what makes the second set of results (100.2°C, 107.5°C, 94.3°C) not very repeatable? | The experiments would not be very repeatable because the results are very far apart. |
+| List four methods to improve repeatability. | • Use precise measuring apparatus<br/>• Control the environment (aka control variables)<br/>• Do exactly the same method each time<br/>• Take multiple measurements in each experiment and average them |
+| What does repeatability measure? | Repeatability measures: if we do the same experiment multiple times under the same conditions, do we get similar results? |
+| What does reproducibility measure? | Reproducibility measures: if someone else does the same experiment under different conditions (e.g. different lab, different equipment), do they get similar results? |
+

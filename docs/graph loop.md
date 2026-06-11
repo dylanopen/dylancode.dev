@@ -17,3 +17,14 @@ starts and ends at the same vertex.
 - A [[simple graph]] is a graph that does not allow [[loops]] or
   multiple edges between the same pair of vertices.
 - This means that [[loops]] can't exist in simple graphs.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a loop in a graph? | An edge that connects a vertex to itself. |
+| By how much does a loop increase the degree of a vertex in an undirected graph? | The degree increases by 2. |
+| Does the rule for loop degree increase (by 2) apply to directed graphs? | No, it only applies if the graph is not directed. |
+| What is a simple graph? | A graph that does not allow loops or multiple edges between the same pair of vertices. |
+| Can loops exist in a simple graph? | No, loops cannot exist in simple graphs. |
+

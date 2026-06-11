@@ -21,3 +21,16 @@ $$
 
 To find that in megabytes, we can do $254,016,000\div8\div1,000,000=31.752$ megabytes. So that sound file would take up about 31.752 megabytes of storage **if** it
 was uncompressed.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| sample rate | how many samples we take per second |
+| bit depth | how many bits we use to store each sample's amplitude |
+| number of channels | whether it's mono (1 channel) or stereo (2 channels), etc. |
+| duration of the sound | how long the sound file is (in seconds) |
+| How do you calculate the storage used (in bits) for a sound file? | $\text{storage used (bits)}=\text{sample rate}\times\text{bit depth}\times\text{number of channels}\times\text{duration (seconds)}$ |
+| If we have a stereo sound file (2 channels) with a sample rate of 44,100 samples per second, a bit depth of 16 bits, and a duration of 3 minutes (180 seconds), what is the storage used in bits? | $44,100\times16\times2\times180=254,016,000\text{ bits}$ |
+| How do you convert 254,016,000 bits to megabytes? | $254,016,000\div8\div1,000,000=31.752\text{ megabytes}$ |
+

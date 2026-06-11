@@ -39,3 +39,14 @@ coefficient of $i$.
 - $-7i^2=-7\times i^2$
 - $-7i^2=-7\times-1$
 - $-7i^2=7$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Imaginary constant $i$ | The imaginary unit defined as $\sqrt{-1}$, so $i^2 = -1$. |
+| What is $i$ equal to? | $i = \sqrt{-1}$ or equivalently $i^2 = -1$. |
+| How do you simplify $i^3$? | $i^3 = i^2 \times i = (-1) \times i = -i$ |
+| How do you simplify $i^4$? | $i^4 = i^2 \times i^2 = (-1) \times (-1) = 1$ |
+| How do you simplify $-7i^2$? | $-7i^2 = -7 \times (-1) = 7$ |
+

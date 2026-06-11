@@ -63,3 +63,21 @@ Like with most concepts, it's much easier to see with some examples.
 
 To check if your solution is correct, substitute the values of $x$ and $y$ back
 into one or both of the original equations to see if they work!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are simultaneous equations? | Equations with two or more unknowns where the goal is to find values that make all equations true at the same time. |
+| When can we use the elimination method to solve simultaneous equations? | When both equations are linear (in the form $ax + by = c$) and there is the same number of equations as unknowns. |
+| What is the first step in solving by elimination? | Rewrite both equations in the form $ax + by = c$. |
+| After arranging equations in the form $ax + by = c$, what do you do next? | Multiply one or both equations so that the coefficients of one variable are the same or opposites. |
+| After making coefficients the same or opposites, what operation is performed? | Add or subtract the equations term-by-term to eliminate one variable, creating a new equation with one variable. |
+| After you have a new equation with one variable, what do you do? | Solve it to find the value of that variable. |
+| After finding one variable's value, how do you find the other variable? | Substitute that value back into one of the original equations and solve for the other variable. |
+| In Example: $2x + 3y = 16$ and $4x - y = 2$, which step eliminates $y$? | Multiply equation 2 by 3 to get $12x - 3y = 6$, so the $y$ coefficients are opposites ($+3y$ and $-3y$). |
+| In the example $2x + 3y = 16$ and $12x - 3y = 6$, what happens when you add them? | $14x + 0 = 22$, which gives $14x = 22$. |
+| What is the $x$ solution in the example $2x + 3y = 16$ and $4x - y = 2$? | $x = \frac{11}{7}$ |
+| After finding $x = \frac{11}{7}$, how do you find $y$ in the example? | Substitute into equation 1: $2(\frac{11}{7}) + 3y = 16$, solving gives $y = \frac{30}{7}$. |
+| How do you check if a solution to simultaneous equations is correct? | Substitute the values of $x$ and $y$ back into one or both original equations to see if they work. |
+

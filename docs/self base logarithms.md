@@ -88,3 +88,23 @@ $$
 - $e^x=e^1$
 - $x=1$
 - Answer: $1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the simplified result of $\log_a{a^x}$? | The $a$s cancel out, giving just $x$. |
+| Evaluate $\log_5{5^3}$ | $3$ |
+| Evaluate $\log_{10}{10^{-2}}$ | $-2$ |
+| Evaluate $\log_2{2^{\frac12}}$ | $\frac12$ |
+| Evaluate $\log_3{3^0}$ | $0$ |
+| Evaluate $\log_7{7}$ | $1$ |
+| Simplify $\log_4{4^{2x+1}}$ | $2x+1$ |
+| What does $\ln x$ mean? | $\log_e x$ (logarithm base $e$). |
+| What is the simplified result of $\ln{e^x}$? | $x$ (since $\ln{e^x} = \log_e{e^x} = x$). |
+| Evaluate $\ln{e^4}$ | $4$ |
+| Evaluate $\ln{e^{-3}}$ | $-3$ |
+| Evaluate $\ln{e^{\frac{x}{2}}}$ | $\frac x2$ |
+| Evaluate $\ln{e^0}$ | $0$ |
+| Evaluate $\ln{e}$ | $1$ |
+

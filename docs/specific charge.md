@@ -40,3 +40,19 @@ Otherwise, I've written a summary table below!
 ## Specific charge of a nucleus, atom or isotope
 
 - [[nucleus specific charge]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the specific charge of a subatomic particle, nucleus or isotope? | The ratio of its charge to its mass. |
+| What is the formula for calculating specific charge? | $$\text{Specific charge} = \frac{\text{Charge}}{\text{Mass}}$$ or just $\frac Qm$ |
+| What are the units of specific charge? | $C\,kg^{-1}$ (coulombs per kilogram) |
+| What is the specific charge of a proton? | $+9.58\times10^{7}C/kg$ |
+| What is the specific charge of a neutron? | $0$ |
+| What is the specific charge of an electron? | $-1.76\times10^{11}C/kg$ |
+| What are the charge and mass of a proton used to calculate its specific charge? | Charge: $+1.6\times10^{-19}C$, Mass: $1.67\times10^{-27}kg$ |
+| What are the charge and mass of a neutron? | Charge: $0$, Mass: $1.675\times10^{-27}kg$ |
+| What are the charge and mass of an electron? | Charge: $-1.6\times10^{-19}C$, Mass: $9.11\times10^{-31}kg$ |
+| How do you find the specific charge of a nucleus, atom or isotope? | See the nucleus specific charge note. |
+

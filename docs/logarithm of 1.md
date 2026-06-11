@@ -57,3 +57,18 @@ So $\ln(1) = 0$.
 - $\ln(x) = \log_e(x) = 0$ because $e^0 = 1$
 - $x = e^0 = 1$
 - Answer: $1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the value of $\log_b(1)$ for any valid base $b$? | $\log_b(1) = 0$ for any $b > 0$ and $b \neq 1$, because $b^0 = 1$. |
+| Evaluate $\log_2(1)$. | $\log_2(1) = 0$ because $2^0 = 1$. |
+| Evaluate $\log_{10}(1)$. | $\log_{10}(1) = 0$ because $10^0 = 1$. |
+| Evaluate $\log_e(1)$. | $\log_e(1) = 0$ because $e^0 = 1$. |
+| Evaluate $\log_{0.5}(1)$. | $\log_{0.5}(1) = 0$ because $(0.5)^0 = 1$. |
+| Evaluate $\log_{-4}(1)$. | $\log_{-4}(1)$ is undefined because the base is negative. |
+| Find the value of $x$ such that $\log_3(x) = 0$. | $x = 3^0 = 1$. |
+| What is the value of $\ln(1)$? | $\ln(1) = 0$, because $\ln(1) = \log_e(1)$ and $e^0 = 1$. |
+| Solve for $x$: $\ln(x) = 0$. | $x = e^0 = 1$. |
+

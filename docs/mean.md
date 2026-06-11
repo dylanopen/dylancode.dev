@@ -65,3 +65,19 @@ Where:
 - $\text{mean} = \frac{\text{total}}{\text{number of values}}$
 - $\text{mean} = \frac{45}{9}$
 - **Answer**: $\overline{x} = 5$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the mean of a set of numbers? | The mean is what we usually refer to as the 'average'. |
+| How do you calculate the mean of a set of numbers? | 1. Add up all the numbers to get the total.<br/>2. Count how many numbers there are to get the number of values.<br/>3. Divide the total by the number of values. |
+| What is the notation for the mean of a set of numbers $x$? | $\overline{x}$ (x with a bar on top) |
+| What is the formula for the mean using summations? | $\overline{x} = \frac{\sum x}{n}$ |
+| In the formula $\overline{x} = \frac{\sum x}{n}$, what does $\sum x$ represent? | The sum of all the values in the set $x$. |
+| In the formula $\overline{x} = \frac{\sum x}{n}$, what does $n$ represent? | The number of values in the set $x$. |
+| Find the mean of $\{2, 3, 5, 7, 11\}$. | $\overline{x} = \frac{28}{5}$ |
+| Find the mean of $\{1, 4, 9, 16, 25\}$. | $\overline{x} = 11$ |
+| Find the mean of $\{3, 1, 4, 1, 5, 9\}$. | $\overline{x} = \frac{23}{6}$ |
+| Find the mean of $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$. | $\overline{x} = 5$ |
+

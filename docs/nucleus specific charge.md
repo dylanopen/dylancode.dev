@@ -68,3 +68,20 @@
 - Relative mass = $\frac{3.978\times10^{-25}}{1.67\times10^{-27}}\approx238$
 - Number of neutrons = relative mass - number of protons
 - Number of neutrons = $238-92=146$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for specific charge of a nucleus? | $\text{specific charge} = \frac{\text{charge}}{\text{mass}}$ |
+| What charge do neutrons contribute to a nucleus? | Neutrons have no charge, so they contribute zero to the total charge. |
+| How do you calculate the total charge of a nucleus? | Multiply the number of protons by the charge of a proton ($1.6\times10^{-19}$ C). |
+| How do you calculate the mass of a nucleus? | Take the nucleon number (protons + neutrons) and multiply by the mass of a proton/neutron ($1.67\times10^{-27}$ kg). |
+| What is the specific charge of a $^{1}_{1}$H nucleus? | $\frac{1.6\times10^{-19}}{1.67\times10^{-27}}\times\frac{1}{1} = 9.58\times10^{7}$ C/kg |
+| What is the specific charge of a $^{7}_{3}$Li nucleus? | $\frac{1.6\times10^{-19}}{1.67\times10^{-27}}\times\frac{3}{7} = 4.11\times10^{7}$ C/kg |
+| What is the specific charge of a $^{12}_{6}$C nucleus? | $\frac{1.6\times10^{-19}}{1.67\times10^{-27}}\times\frac{6}{12} = 4.79\times10^{7}$ C/kg |
+| What is the specific charge of a $^{197}_{79}$Au nucleus? | $\frac{1.6\times10^{-19}}{1.67\times10^{-27}}\times\frac{79}{197} = 3.84\times10^{7}$ C/kg |
+| What is the specific charge of a $^{238}_{92}$U nucleus? | $\frac{1.6\times10^{-19}}{1.67\times10^{-27}}\times\frac{92}{238} = 3.70\times10^{7}$ C/kg |
+| How do you find the specific charge of a nucleus with 92 protons and 143 neutrons? | Charge = $92 \times 1.6\times10^{-19} = 1.472\times10^{-17}$; Mass = $235\times1.67\times10^{-27} = 3.9245\times10^{-25}$; Specific charge = $1.472\times10^{-17}/3.9245\times10^{-25} = 1.48\times10^{7}$ C/kg |
+| The specific charge of a uranium nucleus is $3.7\times10^{7}$ C/kg. How do you find the number of neutrons? | Mass = charge $\div$ specific charge; Mass = $(92 \times 1.6\times10^{-19})/3.7\times10^{7} = 3.978\times10^{-25}$; Relative mass = $3.978\times10^{-25}/1.67\times10^{-27} \approx 238$; Neutrons = 238 - 92 = 146. |
+

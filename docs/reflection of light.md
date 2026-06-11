@@ -19,3 +19,16 @@ To measure the angles of these rays, we also need to know about the *normal*:
   as the angle at which it bounces off.
 - Both the incident ray and the reflected ray are on the same side of the
   normal.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is reflection | The change in direction of light when it bounces off a surface |
+| What is an incident ray | The ray of light that hits the surface |
+| What is a reflected ray | The ray of light that bounces off the surface |
+| What is the normal | An imaginary line perpendicular (at 90°) to the surface where the light ray hits |
+| What is the first law of reflection | The angle of incidence is equal to the angle of reflection |
+| What does the first law of reflection mean | The angle at which the light ray hits the surface is the same as the angle at which it bounces off |
+| What is the second law of reflection | Both the incident ray and the reflected ray are on the same side of the normal |
+

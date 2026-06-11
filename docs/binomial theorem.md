@@ -11,3 +11,10 @@ The binomial theorem states that:
 
 It's basically just a way of writing the *full* expansion of a binomial
 [[expression]] as a [[formula]]. You already know all this from the previous articles!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the binomial theorem used for? | The binomial theorem is a way of expanding brackets of the form $(a+b)^n$ fully (binomial expansion), without having to multiply it out by hand. |
+

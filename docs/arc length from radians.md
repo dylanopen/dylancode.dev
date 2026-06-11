@@ -40,3 +40,15 @@ $$
 $$
 \theta=\frac lr
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for finding the length of an arc of a sector when the angle is measured in radians? | $l = r \theta$ |
+| In the arc length formula $l = r \theta$, what does $l$ represent? | The length of the arc |
+| In the arc length formula $l = r \theta$, what does $r$ represent? | The radius of the circle (or the sector's circle) |
+| In the arc length formula $l = r \theta$, what does $\theta$ represent? | The angle of the sector (the sector angle) |
+| How do you find the radius $r$ if you know the arc length $l$ and the angle $\theta$ in radians? | $r = \frac{l}{\theta}$ |
+| How do you find the angle of the sector $\theta$ if you know the arc length $l$ and the radius $r$? | $\theta = \frac{l}{r}$ |
+

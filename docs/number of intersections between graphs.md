@@ -35,3 +35,13 @@ their graphs like this:
 - Calculate the [[discriminant]]:
   - $$D = (-1)^2 - 4 \times 1 \times 4 = -15$$
 - Since $D < 0$, there are no intersections between the graphs.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Number of intersections between graphs | The number of points where two graphs intersect. |
+| Steps to find number of intersections | 1. Write equations in $y=...$ form. 2. Set equations equal to each other. 3. Write resulting equation as $ax^2 + bx + c = 0$. 4. Calculate the discriminant $D = b^2 - 4ac$. |
+| Meaning of discriminant for intersections | If $D > 0$, two intersections. If $D = 0$, one intersection (tangent). If $D < 0$, no intersections. |
+| Example: $y = x^2 + 2x + 3$ and $y = 3x - 1$ | Set equal: $x^2 + 2x + 3 = 3x - 1$. Rearrange: $x^2 - x + 4 = 0$. Discriminant: $D = (-1)^2 - 4 \times 1 \times 4 = -15$. Since $D < 0$, no intersections. |
+

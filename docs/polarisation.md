@@ -44,3 +44,13 @@ be absorbed.
 
 This *essentially* creates a 'slot' for the wave to pass through, just on a
 much smaller scale.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Polarisation | The process of taking an unpolarised transverse wave and filtering it so oscillations only occur in a single plane. |
+| How do you polarise a wave? | Create a 'slot' aligned with the desired oscillation direction so that only waves oscillating in that direction pass through, while other directions are blocked. |
+| What waves can be polarised? | Only transverse waves can be polarised. Longitudinal waves cannot because their oscillations cannot be fixed to a plane. |
+| What is polaroid? | A special material made of long-chain molecules aligned in the same direction. It filters an unpolarised wave by absorbing all components except the one oscillating in the direction of the molecules. |
+

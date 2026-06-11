@@ -70,3 +70,15 @@ $$
 - $\cos^2(\theta) = \frac{16}{25}$  
 - $\cos(\theta) = \pm\sqrt{\frac{16}{25}}$  
 - $\cos(\theta) = \pm\frac{4}{5}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What trigonometric identity relates $\sin^2(\theta)$ and $\cos^2(\theta)$? | $\sin^2(\theta) + \cos^2(\theta) \equiv 1$ |
+| How is the sine-cosine square identity proven using a unit triangle? | In a triangle with hypotenuse length $1$, the opposite side is $\sin(\theta)$ and the adjacent side is $\cos(\theta)$. By the Pythagorean theorem: $(\sin(\theta))^2 + (\cos(\theta))^2 = 1^2$, giving $\sin^2(\theta) + \cos^2(\theta) \equiv 1$. |
+| Given $\sin(\theta) = 0.6$, how do you find $\cos(\theta)$? | Substitute into $\sin^2(\theta) + \cos^2(\theta) = 1$: $0.36 + \cos^2(\theta) = 1$, so $\cos^2(\theta) = 0.64$, thus $\cos(\theta) = \pm 0.8$. |
+| Given $\cos(\theta) = -0.5$, how do you find $\sin(\theta)$? | Substitute: $\sin^2(\theta) + 0.25 = 1$, so $\sin^2(\theta) = 0.75$, thus $\sin(\theta) = \pm \frac{\sqrt{3}}{2}$. |
+| Given $\sin(\theta) = -\frac{3}{5}$, how do you find $\cos(\theta)$? | Substitute: $\frac{9}{25} + \cos^2(\theta) = 1$, so $\cos^2(\theta) = \frac{16}{25}$, thus $\cos(\theta) = \pm \frac{4}{5}$. |
+| What formula expresses the Pythagorean theorem for a right triangle? | $a^2 + b^2 \equiv c^2$, where $a$ and $b$ are legs and $c$ is the hypotenuse. |
+

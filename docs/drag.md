@@ -24,3 +24,14 @@ slow down).
 Again, like [[friction]], drag can only *oppose* an *existing* force or motion. It
 can't *create* a force or motion on its own - so basically, it can only slow
 down existing motion rather than actually make an object move.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is drag? | A type of resistive force that acts in a fluid (gas or liquid) rather than on a solid surface.<br/>The most common example is air resistance. |
+| In what direction do drag forces act? | In the opposite direction to the motion of an object. |
+| When does drag occur? | When an object is moving through a fluid, causing a force which opposes the motion of the object. |
+| Why does drag occur? | Because the object has to 'push through' the fluid, which is made up of particles.<br/>Moving these particles out of the way 'uses up' some of the object's energy, causing an opposing force. |
+| What can drag not do? | Drag cannot create a force or motion on its own; it can only oppose an existing force or motion. |
+

@@ -35,3 +35,24 @@ To get the $10$ in the 5th row, we add the $4$ and the $6$ above it.
 
 If you look at the [[common binomial expansions]],
 you'll see this pattern more clearly!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| row 0 of Pascal's triangle | 1 |
+| row 1 of Pascal's triangle | 1 1 |
+| row 2 of Pascal's triangle | 1 2 1 |
+| row 3 of Pascal's triangle | 1 3 3 1 |
+| row 4 of Pascal's triangle | 1 4 6 4 1 |
+| row 5 of Pascal's triangle | 1 5 10 10 5 1 |
+| row 6 of Pascal's triangle | 1 6 15 20 15 6 1 |
+| How are coefficients in $(a+b)^n$ related to Pascal's triangle? | They correspond to the values in row $n$ of Pascal's triangle. |
+| What are the coefficients of $(a+b)^5$ according to Pascal's triangle? | $1$, $5$, $10$, $10$, $5$, $1$ (row 5). |
+| How do you construct the next row in Pascal's triangle? | Add the two numbers directly above it. |
+| How is the $6$ in row 4 of Pascal's triangle obtained? | By adding the two $3$s above it. |
+| How is the $10$ in row 5 of Pascal's triangle obtained? | By adding the $4$ and the $6$ above it. |
+| What is the column 0 number in every row of Pascal's triangle? | $1$. |
+| What is column $n$ number in row $n$ of Pascal's triangle? | $1$. |
+| What is a disadvantage of using Pascal's triangle for binomial expansion? | It works well for small $n$ but takes a long time for larger $n$. |
+

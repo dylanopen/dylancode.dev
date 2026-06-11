@@ -48,3 +48,15 @@ $$
 
 This isn't usually needed, but it's good to know it works both ways (is
 *bidirectional*).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the rule for subtracting logarithms with the same base? | $\log_b(x) - \log_b(y) = \log_b\left(\frac{x}{y}\right)$ |
+| Evaluate: $\log_4(64) - \log_4(16)$ | $1$ |
+| Evaluate: $\log_{10}(10000) - \log_{10}(100)$ | $2$ |
+| How do you subtract more than two logarithms with the same base? | Divide all the values inside: $\log_b(x) - \log_b(y) - \log_b(z) = \log_b\left(\frac{x}{y \times z}\right)$ |
+| Evaluate: $\log_2(256) - \log_2(16) - \log_2(4)$ | $0$ |
+| How can you split up the logarithm $\log_b\left(\frac{x}{y}\right)$? | $\log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)$ |
+

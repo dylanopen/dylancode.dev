@@ -17,3 +17,14 @@ But the key thing to remember is that it's the same memory - we've just 'artific
 In pretty much every general-purpose computer. It's the standard way of creating [[general purpose computer|general-purpose computers]].
 
 Some embedded systems also use Von-Neumann, but embedded systems are the most common use of the [[harvard architecture|Harvard architecture]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Von Neumann architecture | Type of stored program architecture where instructions and data are stored in the same memory region, allowing the CPU to access both using the same memory address space. |
+| How does the CPU access instructions and data in Von Neumann architecture? | Using the same memory address space, as they are stored in the same block of memory. |
+| How is confusion between instructions and data prevented in Von Neumann architecture? | The memory is artificially divided into two sections in software: the data section and the instruction section. |
+| Where is Von Neumann architecture primarily used? | In virtually every general-purpose computer, as it is the standard way to create them. |
+| Where is Harvard architecture more commonly used than Von Neumann? | In embedded systems; while some use Von Neumann, embedded systems are the most common use case for Harvard architecture. |
+

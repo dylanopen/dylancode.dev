@@ -24,3 +24,12 @@ This is Euler's formula for planar graphs.
 ## Kuratowski's theorem
 
 > TODO
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a planar graph? | A graph which can be drawn so that no edges cross. |
+| What is Euler's formula for any connected planar graph? | $V - E + F = 2$, where $V$ = vertices, $E$ = edges, $F$ = faces (including the outer infinite face). |
+| In Euler's formula for planar graphs, what does $F$ represent? | The number of faces, including the outer infinite face. |
+

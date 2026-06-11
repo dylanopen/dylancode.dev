@@ -102,3 +102,19 @@ unknown values of either variable.
   - Calculating $a$:
     - $a = 2$
 - **Answer:** $a = 2$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does it mean for two variables to be inversely proportional? | If one variable doubles, the other variable is halved; the product of the two variables remains constant. |
+| How can you express "y is inversely proportional to x" using the proportionality symbol? | $x \propto \frac{1}{y}$ |
+| What is the equation form for "y is inversely proportional to x", using constant of proportionality $k$? | $y = \frac{k}{x}$ |
+| How can you prove that inverse proportion can be expressed as $y = \frac{k}{x}$? | Since $xy$ is constant, set $xy = k$. Rearrange to make $y$ the subject: $y = \frac{k}{x}$. |
+| If $a$ is inversely proportional to $b$, write $b$ as an equation in terms of $a$ and $k$. | $b = \frac{k}{a}$ |
+| If $y$ is inversely proportional to $x^2$, write $y$ as an equation in terms of $x$ and $k$. | $y = \frac{k}{x^2}$ |
+| When $x = 4$ and $y = 10$ for $y \propto \frac{1}{x}$, what is the constant of proportionality $k$? | $k = 40$ (since $10 = \frac{k}{4}$) |
+| When $b = 12$ and $a = 3$ for $a \propto \frac{1}{b}$, what is the constant of proportionality $k$? | $k = 36$ (since $3 = \frac{k}{12}$) |
+| For $y \propto \frac{1}{x}$ and constant of proportionality $k = 24$, find $y$ when $x = 6$. | $y = 4$ (since $y = \frac{24}{6}$) |
+| For $a \propto \frac{1}{b}$, when $b = 8$, $a = 5$. Find $a$ when $b = 20$. | First, find $k$: $5 = \frac{k}{8}$ so $k = 40$. Then $a = \frac{40}{20} = 2$. |
+

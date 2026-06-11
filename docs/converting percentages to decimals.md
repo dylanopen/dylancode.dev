@@ -33,3 +33,16 @@ We can convert a percentage into a decimal by **dividing** the percentage value 
 
 - $2500 \div 100 = 25$
 - **Answer**: $25$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert a percentage to a decimal? | Divide the percentage value by 100. |
+| Convert $45\%$ to a decimal. | $0.45$ |
+| Convert $7.2\%$ to a decimal. | $0.072$ |
+| Convert $150\%$ to a decimal. | $1.5$ |
+| Convert $0.5\%$ to a decimal. | $0.005$ |
+| Convert $12\frac{1}{2}\%$ to a decimal. | $0.125$ |
+| Convert $2500\%$ to a decimal. | $25$ |
+

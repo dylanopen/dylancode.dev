@@ -17,3 +17,12 @@ and $d$ [[distance]] from the centre of gravity:
 $$
 W_1d_1=W_2d_2
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Centre of gravity | The point where all the weight (or mass) of an object is considered to act. |
+| What must be true when moments are balanced around the centre of gravity? | The resultant moment must be zero, meaning clockwise moments equal anticlockwise moments. |
+| What is the formula for two weights balancing around the centre of gravity? | $W_1d_1=W_2d_2$, where $W$ is weight and $d$ is distance from the centre of gravity. |
+

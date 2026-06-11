@@ -71,3 +71,19 @@ answer as a cartesian coordinate in the form $(x,y)$.
 - $x=1.73$
 - $y=2\sin5.890$
 - $y=-1.00$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you convert a polar coordinate $(r, \theta)$ to cartesian $(x, y)$? | Use the identities $x = r\cos\theta$ and $y = r\sin\theta$, then simplify to the form $(x, y)$. |
+| What are the four polar coordinate identities? | $x = r\cos\theta$, $y = r\sin\theta$, $r^2 = x^2 + y^2$, $\tan\theta = \frac{y}{x}$ |
+| What are the components of a polar coordinate $(r, \theta)$? | $r$ is the magnitude (distance from the origin), $\theta$ is the bearing from the right-stretching line going anticlockwise. |
+| What are the components of a cartesian coordinate $(x, y)$? | $x$ is the horizontal distance from the origin, $y$ is the vertical distance from the origin. |
+| What are the steps to convert polar to cartesian coordinates? | Substitute $r$ and $\theta$ into $x = r\cos\theta$ and $y = r\sin\theta$, then simplify to get $(x, y)$. |
+| Convert $(4\sqrt2, \frac{\pi}{4})$ to cartesian. | $(4, 4)$ because $x = 4\sqrt2 \cdot \frac{\sqrt2}{2} = 4$ and $y = 4\sqrt2 \cdot \frac{\sqrt2}{2} = 4$. |
+| Convert $(4.123, 1.816)$ to cartesian to 3sf. | $(-1.00, 4.00)$ because $x = 4.123\cos1.816 \approx -1.00$ and $y = 4.123\sin1.816 \approx 4.00$. |
+| Convert $(5, 2.356)$ to cartesian to 3sf. | $(-3.54, 3.54)$ because $x = 5\cos2.356 \approx -3.54$ and $y = 5\sin2.356 \approx 3.54$. |
+| Convert $(3, 4.712)$ to cartesian to 3sf. | $(0.00, -3.00)$ because $x = 3\cos4.712 \approx 0.00$ and $y = 3\sin4.712 \approx -3.00$. |
+| Convert $(2, 5.890)$ to cartesian to 3sf. | $(1.73, -1.00)$ because $x = 2\cos5.890 \approx 1.73$ and $y = 2\sin5.890 \approx -1.00$. |
+

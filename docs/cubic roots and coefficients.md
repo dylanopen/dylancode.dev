@@ -122,3 +122,22 @@ In words, the *product of roots* of a cubic is equal to $-\frac da$.
 | Sum of roots          | $-\frac ba$      | Negative          |
 | Sum of products pairs | $\frac ca$       | Positive          |
 | Product of roots      | $-\frac da$      | Negative          |
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Sum of roots (cubic) | $p+q+r = -\frac{b}{a}$ |
+| Sum of product pairs (cubic) | $pq+pr+qr = \frac{c}{a}$ |
+| Product of roots (cubic) | $pqr = -\frac{d}{a}$ |
+| For $x^3-6x^2+11x-6=0$, what is the sum of roots? | $6$ |
+| For $2x^3+3x^2-4x+5=0$, what is the sum of roots? | $-\frac{3}{2}$ |
+| Given sum of roots = $2$ for $x^3+kx^2+4x-8=0$, find $k$ | $k = -2$ |
+| Given sum of roots = $-4$ for $3x^3+mx^2-9x+12=0$, find $m$ | $m = 12$ |
+| For $x^3-6x^2+11x-6=0$, what is the sum of product pairs? | $11$ |
+| For $2x^3+3x^2-4x+5=0$, what is the sum of product pairs? | $-2$ |
+| For $x^3-6x^2+11x-6=0$, what is the product of roots? | $6$ |
+| For $x^3-3x^2+3x-1=0$, what is the product of roots? | $1$ |
+| The equation $x^3+4x^2-x+2k=0$ has product of roots $6$. Find $k$ | $k = -3$ |
+| For $x^3-3x^2+4x+7=0$ with roots $p,q,r$, evaluate $\frac{1}{p}+\frac{1}{q}+\frac{1}{r}$ | $-\frac{4}{7}$ |
+

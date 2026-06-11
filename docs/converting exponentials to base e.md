@@ -117,3 +117,24 @@ $\frac{d}{dx}a^x = \ln(a)a^x$.
 - $\frac{d}{dx}10^{-x} = -\ln(10)10^{-1}$ (substituting $x=1$ into the [[expression]] for the gradient)
 - $\frac{d}{dx}10^{-x} = -\ln(10) \cdot 0.1$ (simplifying)
 - Answer: $-0.1\ln(10)$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the key identity for rewriting any number $a$ as a base $e$ exponential? | $a = e^{\ln(a)}$ |
+| How do you convert $a^x$ to base $e$? | $a^x = (e^{\ln(a)})^x = e^{x\ln(a)}$ |
+| What is the derivative rule for $\frac{d}{dx}e^{f(x)}$? | $\frac{d}{dx}e^{f(x)} = f'(x)e^{f(x)}$ |
+| What is the general formula for the gradient of $a^x$? | $\frac{d}{dx}a^x = \ln(a)a^x$, for $a>0$ and $a\neq 1$ |
+| How do you convert $2^x$ to base $e$? | $2^x = e^{x\ln(2)}$ |
+| What is the gradient of $2^x$? | $\frac{d}{dx}2^x = \ln(2)2^x$ |
+| What is the gradient of $2^x$ at the point $(1,2)$? | $\ln(2) \cdot 2$ |
+| How do you convert $5^{2x}$ to base $e$? | $5^{2x} = e^{2x\ln(5)}$ |
+| What is the gradient of $5^{2x}$? | $\frac{d}{dx}5^{2x} = 2\ln(5)5^{2x}$ |
+| What is the gradient of $5^{2x}$ at the point $(0,1)$? | $2\ln(5)$ |
+| What is the gradient of $5^{2x}$ at the point $(1,25)$? | $50\ln(5)$ |
+| How do you convert $10^{-x}$ to base $e$? | $10^{-x} = e^{-x\ln(10)}$ |
+| What is the gradient of $10^{-x}$? | $\frac{d}{dx}10^{-x} = -\ln(10)10^{-x}$ |
+| What is the gradient of $10^{-x}$ at the point $(0,1)$? | $-\ln(10)$ |
+| What is the gradient of $10^{-x}$ at the point $(1,0.1)$? | $-0.1\ln(10)$ |
+

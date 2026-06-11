@@ -24,3 +24,13 @@ If the [[variance]] before the transformation was $Var(X)$, then, for a transfor
 > $$
 
 See [[continuous random variance transformation]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for the expectation after a linear transformation $mX+c$? | $E(mX+c) = m \times E(X) + c$ |
+| How do you find the expectation of a continuous random variable after any linear transformation $t(x)$? | Substitute $E(X)$ into the transformation function: $t(E(X))$. |
+| What is the formula for the variance after a linear transformation $mX+c$? | $Var(mX+c) = m^2 \times Var(X)$ |
+| What happens to the variance when a continuous random variable is transformed by $mX$? | The variance is multiplied by the square of $m$, i.e. $Var(mX) = m^2 \times Var(X)$. |
+

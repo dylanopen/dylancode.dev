@@ -33,3 +33,15 @@ It's only really a good idea to use a census when either:
 - We need to know everything about the population, and we can't afford to miss
   any information (e.g. a census of all the people in a country, to find out how
   many people there are, and what their ages are).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| census | "A census is a survey of an entire population. Every member of the population is included in the census." |
+| What is the main defined advantage of a census regarding accuracy? | "A census gives us a complete picture of the population. We can be sure that our results are accurate and representative of the population as a whole." |
+| List two specific advantages of a census. | - A census is much more accurate than a sample, because we are not relying on a small group of people to represent the population.<br/>- Nobody is left out - results aren't biased. |
+| What is a disadvantage of a census related to participation? | "It can be difficult to get everyone in the population to participate in the census, which can lead to incomplete or inaccurate data." |
+| Why can a census be difficult to analyse? | "It can be difficult to analyse and interpret the results (takes a long time to process the statistics)." |
+| When is it a good idea to use a census? | - The population is small enough that a census isn't too hard or expensive to do.<br/>- We need to know everything about the population, and we can't afford to miss any information (e.g. a census of all the people in a country, to find out how many people there are, and what their ages are). |
+

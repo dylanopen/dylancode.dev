@@ -10,3 +10,11 @@ opposite - it takes the ciphertext and produces the plaintext.
 There are thousands of different possible ciphers, but a few common ones are:
 - [[caesar cipher|Caesar cipher]]
 - [[vernam cipher|Vernam cipher]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a cipher? | It's a mathematical function used to encrypt and decrypt messages. It takes plaintext and produces ciphertext; the reverse function takes ciphertext and produces plaintext. |
+| Name two common types of ciphers. | Caesar cipher and Vernam cipher. |
+

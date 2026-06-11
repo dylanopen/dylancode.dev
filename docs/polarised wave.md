@@ -24,3 +24,13 @@ there is no other plane or direction for the oscillations to occur in.
 This is actually a useful property, because it means we can tell apart
 transverse and longitudinal waves by checking whether they can be polarised or
 not.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| polarised wave | A transverse wave where the oscillations (vibrations) occur in a single plane or direction. |
+| unpolarised wave | A transverse wave where the oscillations occur in multiple planes or directions. |
+| Why can't longitudinal waves be polarised? | Because the oscillations occur in the same direction as the wave is travelling, so there is no other plane or direction for the oscillations to occur in. |
+| How can the property of polarisation be used to distinguish between transverse and longitudinal waves? | By checking whether the wave can be polarised; transverse waves can be polarised, while longitudinal waves cannot. |
+

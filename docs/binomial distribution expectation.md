@@ -17,3 +17,13 @@ If you toss a fair coin 100 times, you can *expect* to get 50 heads. Because the
 ## To round or not to round
 
 The expected outcome can (and often is) a decimal! Even if it's not possible to get that expected value (because the [[binomial distribution]] works on [[discrete value]]s) you should still give the (impossible) decimal answer, as that's the [[mean]] and [[expectation]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| For $X\sim B(n,p)$ | $E(X)=np$ |
+| How do you calculate the expectation of a binomial distribution? | Multiply the number of trials by the probability of success. |
+| If you toss a fair coin 100 times, what is the expected number of heads? | $100 \times 0.5 = 50$ |
+| What should you do if the expected value of a binomial distribution is a decimal? | Give the decimal answer, even if it’s not possible to obtain that value, because it's the mean. |
+

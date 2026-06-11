@@ -61,3 +61,21 @@ through.
   - $y = 3x + 1$
 
 - **Answer**: $y = 3x + 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the key property of parallel lines in terms of their equations? | Parallel lines have the same gradient. |
+| What is the definition of parallel lines? | Two lines are parallel if they will never meet, no matter how far they are extended. |
+| Given you know a line is parallel to a known line and passes through a point, what steps do you take to find its equation? | 1. Take the gradient ($m$) from the known line.<br/>2. Substitute the point ($x$, $y$) and the gradient into $y = mx + c$.<br/>3. Solve for $c$.<br/>4. Write the full equation $y = mx + c$. |
+| In the example $y = 2x + 3$ through (4, 5), what is the gradient of the new line? | $2$ |
+| In the example $y = 2x + 3$ through (4, 5), what is the y-intercept ($c$) of the new line? | $-3$ |
+| In the example $y = 2x + 3$ through (4, 5), what is the equation of the new line? | $y = 2x - 3$ |
+| In the example $y = -\frac{1}{2}x + 4$ through (6, 1), what is the gradient of the new line? | $-\frac{1}{2}$ |
+| In the example $y = -\frac{1}{2}x + 4$ through (6, 1), what is the y-intercept ($c$) of the new line? | $4$ |
+| In the example $y = -\frac{1}{2}x + 4$ through (6, 1), what is the equation of the new line? | $y = -\frac{1}{2}x + 4$ |
+| In the example $y = 3x - 2$ through (2, 7), what is the gradient of the new line? | $3$ |
+| In the example $y = 3x - 2$ through (2, 7), what is the y-intercept ($c$) of the new line? | $1$ |
+| In the example $y = 3x - 2$ through (2, 7), what is the equation of the new line? | $y = 3x + 1$ |
+

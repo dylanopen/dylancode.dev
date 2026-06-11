@@ -85,3 +85,17 @@ For example, to find the average [[speed]] between 2 seconds and 6 seconds:
 - Total time = $6s - 2s = 4s$
 - Average [[speed]] = $\frac{12m}{4s} = 3m/s$
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a distance-time graph? | A graph showing distance travelled (y-axis) against time (x-axis). |
+| How do you find the distance travelled at a specific time from a distance-time graph? | Find the time on the x-axis, move vertically up to the line, then move horizontally to the y-axis to read off the distance. |
+| In the example graph, what is the distance travelled at 4 seconds? | $12m$. |
+| How do you find the speed of an object from a distance-time graph? | Find the gradient at that point. |
+| How do you calculate gradient for a straight-line distance-time graph? | $m=\frac{\Delta y}{\Delta x}$ (change in distance divided by change in time). |
+| What method is used to find the gradient on a curved distance-time graph? | Draw a tangent to the curve at the point and find the gradient of that tangent line. |
+| What is the formula for calculating average speed? | $\text{average speed} = \frac{\text{total distance}}{\text{total time}}$. |
+| Calculate average speed between 2s and 6s if distance at 2s = 8m and at 6s = 20m. | Total distance = $20-8=12m$, total time = $6-2=4s$, average speed = $\frac{12}{4}=3m/s$. |
+

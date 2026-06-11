@@ -33,3 +33,16 @@ to give zero.
   - $2x=-1$
   - $x=-\frac{1}{2}$
 - Answer: $x=-3$ or $x=-\frac{1}{2}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the zero product property? | If the product of two factors is equal to zero, then at least one of the factors must be equal to zero. |
+| To solve a quadratic equation by factorising, what must the expression be equal to? | Zero. |
+| In the example solve $x^2+5x+6=0$, what are the two factors? | $(x+2)$ and $(x+3)$. |
+| What are the solutions to $x^2+5x+6=0$? | $x=-2$ or $x=-3$. |
+| In the example solve $2x^2+7x+3=0$, what are the two factors? | $(x+3)$ and $(2x+1)$. |
+| What are the solutions to $2x^2+7x+3=0$? | $x=-3$ or $x=-\frac{1}{2}$. |
+| After factorising a quadratic equation, what are the two steps to find the solutions? | Set each factor equal to zero using the zero product property, then solve each resulting linear equation. |
+

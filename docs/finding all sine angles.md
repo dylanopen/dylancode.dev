@@ -61,3 +61,9 @@ $$
 - $60\degree-360\degree=-300\degree$
 - $120\degree-360\degree=-240\degree$
 - **Answer**: $\theta=-300\degree,-240\degree,60\degree,120\degree$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

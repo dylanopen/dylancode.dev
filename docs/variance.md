@@ -64,3 +64,16 @@ Which, actually, is just the same as the first formula! We've just substituted
 $\overline{x^2}$ for $\frac{\sum x^2}{n}$ and $\overline{x}^2$ for
 $\left(\frac{\sum x}{n}\right)^2$ into our formula of $\sigma^2 =
 \overline{x^2} - \overline{x}^2$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What symbol represents variance? | $\sigma^2$ |
+| How does variance compare to range as a measure of spread? | Variance is a better measurement because it takes into account all values in the set, not just the absolute extremes. |
+| What is the relationship between variance and standard deviation? | Variance is the standard deviation squared, written as $\sigma^2$. |
+| What is the formula for variance using the mean of squares and square of the mean? | $\sigma^2 = \overline{x^2} - \overline{x}^2$, where $\overline{x^2}$ is the mean of squares and $\overline{x}^2$ is the square of the mean. |
+| What is the formula for variance when calculating directly from values? | $\sigma^2 = \frac{\sum(x-\overline{x})^2}{n}$ |
+| What is the rearranged formula for variance that avoids calculating differences from the mean? | $\sigma^2 = \frac{\sum x^2}{n} - \left(\frac{\sum x}{n}\right)^2$ |
+| How do you calculate variance step by step? | 1. Calculate the mean of the set.<br/>2. For each number, calculate the difference between it and the mean, then square it.<br/>3. Average the sum of squared differences by dividing by the number of values. |
+

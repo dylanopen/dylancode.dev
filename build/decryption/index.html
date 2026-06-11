@@ -25,6 +25,16 @@ if the <a href="/encryption">encryption</a> function is:</p>
 <p>The important thing to see is the <code>3</code>. In an <a href="/encryption">encryption</a> scheme, this would be
 the key - it could change and be any number, and only someone with the key would
 be able to decrypt the message (in theory, this <a href="/cipher">cipher</a> is incredibly insecure).</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Decryption</td><td>Decryption is the process of taking ciphertext and using a reverse cipher, usually with an encryption key, to produce plaintext.</td></tr>
+<tr><td>Why do we need a key for decryption?</td><td>To do the reverse of the encryption function, we need to know the ‘secret’ part of the function, which will allow only the person with the key to decode it.</td></tr>
+<tr><td>If the encryption function is <im>E(x) = (x + 3) \mod 26</im>, what is the decryption function?</td><td>The decryption function is <im>D(y) = (y - 3) \mod 26</im>.</td></tr>
+<tr><td>In the example with ciphertext ‘D’ (where A=0, B=1, C=2, D=3) and the decryption function <im>D(y) = (y - 3) \mod 26</im>, what is the decrypted value?</td><td><im>D(3) = (3 - 3) \mod 26 = 0</im></td></tr>
+<tr><td>What does the ‘3’ represent in the encryption function <im>E(x) = (x + 3) \mod 26</im>?</td><td>The ‘3’ represents the key. It could change and be any number, and only someone with the key would be able to decrypt the message (in theory, though this cipher is incredibly insecure).</td></tr>
+<tr><td>What is the relationship between the decryption function and the encryption function?</td><td>The decryption function is the reverse of the encryption function.</td></tr>
+<tr><td>What type of cipher is <im>E(x) = (x + 3) \mod 26</im> an example of?</td><td>It is an example of a Caesar cipher, which effectively shifts the letters of the alphabet by 3 places (A becomes D, B becomes E, etc.).</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

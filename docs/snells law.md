@@ -26,3 +26,20 @@ This is Snell's law!
 
 - The **first** material is the material the light starts in.
 - The **second** material is the material the light *goes into*.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Snell's Law formula | $n_1\sin\theta_1 = n_2\sin\theta_2$ |
+| $n_1$ represents in Snell's law | Refractive index of the first material (the material light starts in) |
+| $n_2$ represents in Snell's law | Refractive index of the second material (the material light goes into) |
+| $\theta_1$ represents in Snell's law | Angle at which light enters the boundary |
+| $\theta_2$ represents in Snell's law | Angle at which light leaves the boundary |
+| Formula for $n_1$ when rearranged from Snell's law | $n_1 = \frac{n_2 \sin\theta_2}{\sin\theta_1}$ |
+| Formula for $n_2$ when rearranged from Snell's law | $n_2 = \frac{n_1 \sin\theta_1}{\sin\theta_2}$ |
+| Formula for $\theta_1$ when rearranged from Snell's law | $\theta_1 = \sin^{-1}\left(\frac{n_2 \sin\theta_2}{n_1}\right)$ |
+| Formula for $\theta_2$ when rearranged from Snell's law | $\theta_2 = \sin^{-1}\left(\frac{n_1 \sin\theta_1}{n_2}\right)$ |
+| In Snell's law, what is the first material? | The material the light starts in |
+| In Snell's law, what is the second material? | The material the light goes into |
+

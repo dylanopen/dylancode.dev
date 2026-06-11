@@ -13,3 +13,11 @@
 A greater force is needed in order to attract an object with more mass.
 
 This means that objects with more [[mass]] will have **more** weight, in the same [[gravitational field]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Weight | $W=mg$, where $W$ is weight in $N$, $m$ is mass in $kg$, and $g$ is acceleration due to gravity in $ms^{-2}$. |
+| How do mass and weight relate in the same gravitational field? | Objects with more mass will have more weight because a greater force is needed to attract more mass. |
+

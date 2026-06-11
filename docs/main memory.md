@@ -67,3 +67,27 @@ However, having more RAM *does* [[mean]] that:
 - The [[processor]] and programs have to do less **garbage collection**, which is the process of finding and freeing up memory that's no longer being used by the program. This can help improve performance, because garbage collection can  halt a program (make it seem like it isn't responding) while it's happening.
 - The [[processor]] can store more data and instructions in memory at the same time, which can help it run more smoothly if you're running a lot of programs at once, or if you're working with large files. This is because the [[processor]] can access data and instructions stored in RAM much faster than it can access data stored on a hard drive or other secondary storage device. So if you have more RAM, the [[processor]] can access more data and instructions quickly, which can help improve performance.
 - It needs to use less **virtual memory**, which is a technique that allows the computer to use a portion of the hard drive as if it were RAM, when the physical RAM is full. This can help improve performance, because accessing data stored in virtual memory is much slower than accessing data stored in physical RAM. So if you have more RAM, the [[processor]] can store more data and instructions in physical RAM, which can help reduce the need to use virtual memory, and improve performance.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is main memory also called? | RAM (Random Access Memory) or primary memory. |
+| What does main memory store? | The program and data that the processor is currently using. |
+| What is the role of main memory in storing variables? | Storing variables and other data that the program needs to access quickly. |
+| What area of memory does the processor use to keep track of function calls? | The stack. |
+| What area of memory stores dynamically allocated data like objects? | The heap. |
+| How does the processor execute a program's instructions from main memory? | It fetches and executes the program's machine code stored in main memory. |
+| What is a memory cell? | A tiny box that stores a single word (32 bits) or double word (64 bits) of data or an instruction. |
+| What determines the size of a memory cell? | The architecture of the computer (e.g., 32-bit vs 64-bit). |
+| What does "volatile" mean in the context of RAM? | All data in RAM is lost when power to the computer is cut. |
+| Why do we need secondary storage? | To store data permanently because RAM is volatile. |
+| What is a memory address? | A unique 'location' of a memory cell that the processor uses to access data and instructions. |
+| How does the processor access a particular piece of data in memory? | It sends the address to the memory, and the memory returns the data stored at that address. |
+| What does the CPU do when a program needs to store data? | It finds a free block of memory and allocates it to the program. |
+| What happens when a program deallocates memory? | The CPU marks it as free again, so it can be used by other programs. |
+| What does having more RAM allow the computer to do? | Store more data and instructions in memory at the same time. |
+| Why does having more RAM reduce garbage collection? | The processor and programs have to do less finding and freeing of unused memory, which can prevent program halts. |
+| Why does more RAM reduce the need for virtual memory? | More data and instructions can be stored in physical RAM, reducing the need to use slower hard drive space as RAM. |
+| What is virtual memory? | A technique that allows the computer to use a portion of the hard drive as if it were RAM when physical RAM is full. |
+

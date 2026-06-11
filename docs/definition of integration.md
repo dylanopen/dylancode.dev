@@ -21,3 +21,13 @@ $$
 $$
 
 This means "the integral of $y$ with respect to $x$".
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is integration? | Integration is the opposite of differentiation. Instead of finding the gradient function $f'(x)$ or $\frac{dy}{dx}$ from the normal function, we find the normal function given the gradient function. |
+| How do you write the integral of a function $y$? | $\int y\space dx$ |
+| What does $\int y\space dx$ mean? | "It means "the integral of $y$ with respect to $x$"." |
+| Give the integral notation for the function $2x^2-4x+1$ | $\int 2x^2-4x+1\space dx$ |
+

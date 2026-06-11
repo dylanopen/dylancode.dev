@@ -146,3 +146,21 @@ listed :)
   - $y = -\frac{4}{3}x - \frac{8}{3} + \frac{9}{3}$
   - $y = -\frac{4}{3}x + \frac{1}{3}$
 - **Answer**: The equation of the line is $y = -\frac{4}{3}x + \frac{1}{3}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the gradient-intercept form of a straight line equation? | $y = mx + c$ |
+| In $y = mx + c$, what does $m$ represent? | The gradient of the line (steepness), calculated as change in $y$ divided by change in $x$. |
+| In $y = mx + c$, what does $c$ represent? | The y-intercept, where the line crosses the y-axis ($x = 0$). |
+| What is point-gradient form of a straight line equation? | $y - y_1 = m(x - x_1)$ |
+| When do you use $y - y_1 = m(x - x_1)$? | When you know the gradient $m$ and one point $(x_1, y_1)$ on the line. |
+| In $y - y_1 = m(x - x_1)$, what do $x_1$ and $y_1$ represent? | The x-coordinate and y-coordinate of the known point on the line. |
+| Find the equation of the line with gradient 3 through point (2, 5). | $y = 3x - 1$ |
+| Find the equation of the line with gradient -2 through point (-1, 4). | $y = -2x + 2$ |
+| How do you find the gradient from two points $(x_1, y_1)$ and $(x_2, y_2)$? | $m = \frac{y_2 - y_1}{x_2 - x_1}$ |
+| Find the equation of the line through (1, 2) and (4, 8). | $y = 2x$ |
+| Find the equation of the line through (-2, 3) and (1, -1). | $y = -\frac{4}{3}x + \frac{1}{3}$ |
+| What is the combined formula for the equation of a line from two points? | $y - y_1 = (\frac{y_2 - y_1}{x_2 - x_1})(x - x_1)$ |
+

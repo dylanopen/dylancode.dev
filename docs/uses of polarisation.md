@@ -54,3 +54,17 @@ direction) is allowed to pass through the lenses, while the rest is blocked.
 
 This makes it much easier to see in bright conditions, and can also help
 reduce *eye [[strain]]*.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question / Key Term | Answer / Definition |
+| What happens to light when it reflects off a flat surface like water or a road? | It becomes partially polarised, meaning the reflected light waves oscillate more in one direction than others, creating glare. |
+| How can glare from reflected light be reduced? | By using polarising filters (e.g., in polarised sunglasses) that only allow light waves oscillating in a certain direction to pass through, blocking the polarised reflected light. |
+| How do LCD screens use polarisation to improve contrast? | An LCD screen has a backlight that produces unpolarised light. This light passes through polarising filters that stop certain directions of oscillation, allowing only light oscillating in a specific direction to pass through, improving contrast and viewing angles. |
+| What is the main benefit of polarised sunglasses? | They reduce glare from surfaces like water, roads, and snow by only allowing light oscillating in the right direction to pass through, making it easier to see in bright conditions and reducing eye strain. |
+| What prior knowledge is needed for understanding uses of polarisation? | [[polarised wave\|Polarised waves]] and [[polarisation\|Polarisation]]. |
+| What are four real-life uses of polarisation listed in the note? | Reducing glare from surfaces, improving contrast in LCD screens, reducing reflections in photography, and polarised sunglasses. |
+| How does reducing glare from surfaces improve visibility? | By blocking the direction of polarised reflected light (e.g., from a wet road or ocean surface), the glare is reduced, making it easier to see other things. |
+

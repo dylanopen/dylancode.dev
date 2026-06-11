@@ -85,3 +85,17 @@ For example, to find the average [[velocity]] between 2 seconds and 6 seconds:
 - Total [[displacement]] = $20m - 8m = 12m$
 - Total time = $6s - 2s = 4s$
 - Average [[velocity]] = $\frac{12m}{4s} = 3m/s$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| displacement-time graph | Graph showing displacement on y-axis and time on x-axis, indicating distance from starting position over time. |
+| How do you find displacement from a displacement-time graph at a specific time? | Find time on x-axis, move vertically to the graph line, then horizontally to y-axis to read displacement. |
+| Using the graph: At 4 seconds, what is the displacement? | $12m$ |
+| What is the method for finding velocity from a displacement-time graph? | Find the gradient at that point on the graph. |
+| If the displacement-time graph is a straight line, how do you calculate velocity? | Use $m=\frac{\Delta y}{\Delta x}$, the change in displacement divided by change in time. |
+| If the displacement-time graph is curved, how do you find velocity? | Draw a tangent to the curve at the point of interest, then find the gradient of that tangent. |
+| What is the formula for average velocity from a displacement-time graph? | $\text{average velocity} = \frac{\text{total displacement}}{\text{total time}}$ |
+| Evaluate the average velocity between 2 seconds and 6 seconds when displacement at 2 s is 8 m and at 6 s is 20 m. | Total displacement = $20m - 8m = 12m$, total time = $6s - 2s = 4s$, average velocity = $\frac{12m}{4s} = 3m/s$ |
+

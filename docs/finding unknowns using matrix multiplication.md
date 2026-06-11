@@ -115,3 +115,18 @@
   - $a = 14 - 2(5) = 14 - 10 = 4$
   - $b = 21 - 3(5) = 21 - 15 = 6$
 - **Answer**: $a = 4$, $b = 6$ and $c = 5$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| How do you solve $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\begin{bmatrix} a \\ 5 \end{bmatrix} = \begin{bmatrix} 11 \\ 23 \end{bmatrix}$ for $a$? | Expand LHS to $\begin{bmatrix} a + 10 \\ 3a + 20 \end{bmatrix}$, equate elements to get $a + 10 = 11$ and $3a + 20 = 23$, solving both gives $a = 1$. |
+| What is the first step to find unknowns in a matrix equation like $\mathbf{A}\mathbf{x}=\mathbf{b}$? | Multiply the matrices on the left side to find an expression for the product matrix. |
+| How do you solve $\begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 16 \\ 36 \end{bmatrix}$ for $x$ and $y$? | Expand LHS to $\begin{bmatrix} 2x+3y \\ 4x+5y \end{bmatrix}$, equate to RHS forming simultaneous equations $2x+3y=16$ and $4x+5y=36$, solve to get $x=14$, $y=-4$. |
+| When equating matrices, what must you do with the corresponding elements? | Set each corresponding element from the LHS and RHS matrices equal to each other to create equations. |
+| How do you solve $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\begin{bmatrix} 2k & 3k \\ 4c & 5c \end{bmatrix} = \begin{bmatrix} 40 & 54 \\ 96 & 132 \end{bmatrix}$ for $k$ and $c$? | Expand LHS to $\begin{bmatrix} 2k+8c & 3k+10c \\ 6k+16c & 9k+20c \end{bmatrix}$, equate each of the four elements to get equations, solve to find $k=8$, $c=3$. |
+| What method is suggested for solving simultaneous equations from matrix equations? | Substitution is recommended as it always works regardless of the numbers. |
+| How do you solve $\begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & 3 \\ 4 & 5 & 6 \end{bmatrix}\begin{bmatrix} a \\ b \\ c \end{bmatrix} = \begin{bmatrix} 14 \\ 21 \\ 76 \end{bmatrix}$ for $a$, $b$, and $c$? | Expand LHS to $\begin{bmatrix} a+2c \\ b+3c \\ 4a+5b+6c \end{bmatrix}$, equate elements to get $a+2c=14$, $b+3c=21$, $4a+5b+6c=76$, solve using substitution to get $a=4$, $b=6$, $c=5$. |
+| In the example with $k$ and $c$, why are four equations created? | Because the product is a $2 \times 2$ matrix with four elements, each must equal the corresponding element on the RHS. |
+| What is the matrix equation $\begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 16 \\ 36 \end{bmatrix}$ transformed into after multiplication? | The simultaneous equations $2x + 3y = 16$ and $4x + 5y = 36$. |
+

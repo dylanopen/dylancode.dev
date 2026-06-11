@@ -90,3 +90,23 @@ This calculates the *average* velocity.
 - $v=\frac st$
 - $v=\frac{100}{4}=25$
 - Answer: $25kmh^{-1}$ north
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is velocity? | Velocity measures how much displacement changes every second, and it measures the rate of change of displacement in a specific direction, making it a vector quantity. |
+| How do you calculate velocity? | $v = \frac{s}{t}$, where $s$ is displacement and $t$ is time. |
+| What is the formula linking displacement, velocity, and time? | $s = vt$ and $v = \frac{s}{t}$. |
+| What units are displacement, velocity, and time measured in? | Displacement $s$ is in metres ($m$), velocity $v$ is in metres per second ($ms^{-1}$), and time $t$ is in seconds ($s$). |
+| What does the velocity formula calculate? | It calculates the *average* velocity. |
+| A van drives 200m in 10s. Calculate the velocity. | $v = \frac{200}{10} = 20$, answer: $20ms^{-1}$. |
+| A car drives 75m in 5s. Calculate the velocity. | $v = \frac{75}{5} = 15$, answer: $15ms^{-1}$. |
+| A car drives south 50m then north 150m in 20s. Calculate the average velocity. | Displacement = $150m - 50m = 100m$ north. $v = \frac{100}{20} = 5$, answer: $5ms^{-1}$ north. |
+| A bike drives 10m in 20s. Calculate the velocity. | $v = \frac{10}{20} = 0.5$, answer: $0.5ms^{-1}$. |
+| A truck drives 240m in 8s. Calculate the velocity. | $v = \frac{240}{8} = 30$, answer: $30ms^{-1}$. |
+| A car drives 300m in 12s. Calculate the velocity. | $v = \frac{300}{12} = 25$, answer: $25ms^{-1}$. |
+| A van drives 600m in 15s. Calculate the velocity. | $v = \frac{600}{15} = 40$, answer: $40ms^{-1}$. |
+| A person cycles for 4h until reaching a destination 100km away. Calculate their average velocity. | $v = \frac{100}{4} = 25$, answer: $25kmh^{-1}$. |
+| A person cycles 100km north in 4h. Calculate their average velocity. | $v = \frac{100}{4} = 25$, answer: $25kmh^{-1}$ north. |
+

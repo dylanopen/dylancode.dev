@@ -9,3 +9,12 @@ For example, a clock [[speed]] of 4.8 GHz (gigahertz) means that the clock ticks
 The higher the clock [[speed]], *theoretically*, the more [[fetch-execute cycle|fetch-execute cycles]] the [[processor]] can carry out per second, which means it can execute more instructions per second, and therefore perform better.
 
 In reality, there are lots of things that can be the *bottleneck*. It's all well and good having a high clock [[speed]], but if our RAM is slow, for example, then it's going to have to wait for ages for the data to arrive back from RAM before we can work on it.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Clock speed (processor) | The number of times per second the processor clock ticks, measured in hertz (Hz). For example, 4.8 GHz means 4.8 billion ticks per second. |
+| How does clock speed theoretically affect performance? | Higher clock speed means more fetch-execute cycles per second, allowing the processor to execute more instructions per second and perform better. |
+| Why doesn't a higher clock speed always guarantee better real-world performance? | Other components (e.g., slow RAM) can become a bottleneck, forcing the processor to wait for data before it can work. |
+

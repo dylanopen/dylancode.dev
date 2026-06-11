@@ -31,3 +31,13 @@ So $\sin\theta=\frac{y}{r}$, and rearranging gives us $y=r\sin\theta$.
 
 > We do also need to check which *quadrant* it is in, to decide on what becomes
 > negative in the [[polar coordinates]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $x=r\cos\theta$ | From $\cos\theta = \frac{x}{r}$, rearranging gives $x = r\cos\theta$. |
+| $y=r\sin\theta$ | From $\sin\theta = \frac{y}{r}$, rearranging gives $y = r\sin\theta$. |
+| $r^2=x^2+y^2$ | The Pythagorean relation in polar coordinates. Can be rewritten as $r = \sqrt{x^2+y^2}$ if required. |
+| $\tan\theta=\frac yx$ | Can be rearranged to $y=x\tan\theta$, $x=\frac{y}{\tan\theta}$, or $\theta = \tan^{-1}\left(\frac{y}{x}\right) = \arctan\left(\frac{y}{x}\right)$. Remember to check the quadrant. |
+

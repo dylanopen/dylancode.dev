@@ -1,5 +1,46 @@
 <!DOCTYPE html><html lang="en"><head><meta name="viewport" content="initial-scale=1"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Documentation</title><style>body{background-color:#0c0c0c;color:#fff}</style><link defer rel="stylesheet" href="/doc4dev.css"><script defer src="/pageindex.js"></script><script defer src="/doc4dev.js" type="module"></script></head><body><div class="container"><div class="sidebar"><a href="/" class="sidebar-title sidebar-link"><b>dylancode.dev</b></a></div><div class="main-content">
 
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Question / Key Term</td><td>Answer / Definition</td></tr>
+<tr><td>What is the equation of motion for a damped harmonic oscillator?</td><td><im>m \frac{d^2x}{dt^2} + c \frac{dx}{dt} + kx = 0</im></td></tr>
+<tr><td>What is the natural frequency <im>ω_n</im> of an undamped oscillator?</td><td><im>ω_n = \sqrt{k/m}</im></td></tr>
+<tr><td>What is the critical damping coefficient <im>c_c</im>?</td><td><im>c_c = 2\sqrt{km} = 2m ω_n</im></td></tr>
+<tr><td>What is the damping ratio <im>ζ</im>?</td><td><im>ζ = c / c_c = c / (2√{km})</im></td></tr>
+<tr><td>What is the general solution for an underdamped system (<im>ζ &lt; 1</im>)?</td><td><im>x(t) = e^{-ζ ω_n t} (A \cos(ω_d t) + B \sin(ω_d t))</im> where <im>ω_d = ω_n √{1-ζ^2}</im></td></tr>
+<tr><td>What is the damped natural frequency <im>ω_d</im>?</td><td><im>ω_d = ω_n √{1-ζ^2}</im></td></tr>
+<tr><td>What is the general solution for a critically damped system (<im>ζ = 1</im>)?</td><td><im>x(t) = (A + Bt) e^{-ω_n t}</im></td></tr>
+<tr><td>What is the general solution for an overdamped system (<im>ζ &gt; 1</im>)?</td><td><im>x(t) = A e^{s_1 t} + B e^{s_2 t}</im> where <im>s_{1,2} = -ζ ω_n ± ω_n √{ζ^2 - 1}</im></td></tr>
+<tr><td>Define logarithmic decrement <im>δ</im> for underdamped vibration.</td><td><im>δ = \ln(x_n / x_{n+1}) = \frac{2πζ}{√{1-ζ^2}}</im></td></tr>
+<tr><td>How do you estimate damping ratio from successive amplitudes?</td><td><im>ζ ≈ δ / (2π)</im> for small <im>ζ</im></td></tr>
+<tr><td>What is the equation of a forced damped harmonic oscillator?</td><td><im>m \ddot{x} + c \dot{x} + kx = F_0 \cos(ωt)</im></td></tr>
+<tr><td>What is the steady-state solution amplitude <im>X</im> for forced vibration?</td><td><im>X = \frac{F_0/k}{√{(1-r^2)^2 + (2ζr)^2}}</im> where <im>r = ω/ω_n</im></td></tr>
+<tr><td>What is the magnification factor <im>M</im>?</td><td><im>M = X / (F_0/k) = 1 / √{(1-r^2)^2 + (2ζr)^2}</im></td></tr>
+<tr><td>What is the phase angle <im>φ</im> for forced vibration?</td><td><im>φ = \tan^{-1} (2ζr / (1-r^2))</im></td></tr>
+<tr><td>At what frequency <im>ω_r</im> does resonance occur for damped forced vibration?</td><td><im>ω_r = ω_n √{1-2ζ^2}</im> (for <im>ζ &lt; 1/√2</im>)</td></tr>
+<tr><td>Define transmissibility <im>T</im> in vibration isolation.</td><td><im>T = \frac{F_{transmitted}}{F_0} = √{ \frac{1 + (2ζr)^2}{(1-r^2)^2 + (2ζr)^2}}</im></td></tr>
+<tr><td>When is vibration isolation effective (<im>T &lt; 1</im>)?</td><td>When <im>r &gt; √2</im></td></tr>
+<tr><td>What is the equation for a multi-DOF system in matrix form?</td><td><im>[M]\{\ddot{x}\} + [C]\{\dot{x}\} + [K]\{x\} = \{F(t)\}</im></td></tr>
+<tr><td>How do you find natural frequencies of an undamped multi-DOF system?</td><td>Solve $</td></tr>
+<tr><td>What is the modal matrix <im>[Φ]</im>?</td><td>A matrix whose columns are the normalized eigenvectors (mode shapes) of the system.</td></tr>
+<tr><td>Describe the procedure of modal analysis for undamped systems.</td><td>1. Solve eigenvalue problem for <im>ω_i^2</im> and <im>φ_i</im>. 2. Transform to modal coordinates using <im>\{x\} = [Φ]\{q\}</im>. 3. Obtain decoupled equations <im>\ddot{q}_i + ω_i^2 q_i = P_i(t)</im>.</td></tr>
+<tr><td>What is Rayleigh’s quotient for estimating fundamental frequency?</td><td><im>R(φ) = (φ^T K φ) / (φ^T M φ)</im>. It is stationary near an eigenvector, providing an upper bound for the fundamental frequency.</td></tr>
+<tr><td>How do you derive the equation of motion using Lagrange’s equation?</td><td><im>\frac{d}{dt}(\frac{∂T}{∂\dot{q}_i}) - \frac{∂T}{∂q_i} + \frac{∂U}{∂q_i} = Q_i</im> where <im>T</im> is kinetic energy, <im>U</im> is potential energy, <im>Q_i</im> are generalized forces.</td></tr>
+<tr><td>What is the kinetic energy expression <im>T</im> for a vibrating system?</td><td><im>T = \frac{1}{2} \sum_i m_i \dot{x}_i^2 = \frac{1}{2} \{\dot{x}\}^T [M] \{\dot{x}\}</im></td></tr>
+<tr><td>What is the potential energy expression <im>U</im> for a vibrating system?</td><td><im>U = \frac{1}{2} \sum_i k_i x_i^2 = \frac{1}{2} \{x\}^T [K] \{x\}</im></td></tr>
+<tr><td>How do you derive the equation of motion for a continuous beam?</td><td><im>EI \frac{∂^4 w}{∂x^4} + ρA \frac{∂^2 w}{∂t^2} = 0</im> (Euler-Bernoulli beam)</td></tr>
+<tr><td>What is the frequency equation for a simply-supported Euler-Bernoulli beam?</td><td><im>ω_n = (nπ)^2 √{EI/(ρA L^4)}</im> for <im>n=1,2,3,...</im></td></tr>
+<tr><td>What are the boundary conditions for a fixed-free (cantilever) beam?</td><td>At fixed end (<im>x=0</im>): <im>w=0</im>, <im>∂w/∂x=0</im>. At free end (<im>x=L</im>): <im>∂^2w/∂x^2=0</im>, <im>∂^3w/∂x^3=0</im>.</td></tr>
+<tr><td>What is the Rayleigh-Ritz method for continuous systems?</td><td>Approximate <im>w(x,t) = \sum_{i=1}^n φ_i(x) q_i(t)</im> using assumed functions <im>φ_i(x)</im> satisfying boundary conditions, then apply Lagrange’s equations to find approximate natural frequencies and modes.</td></tr>
+<tr><td>What is the mass per unit length <im>μ</im>?</td><td><im>μ = ρA</im></td></tr>
+<tr><td>What is the wave equation for longitudinal vibration of a rod?</td><td><im>E \frac{∂^2 u}{∂x^2} = ρ \frac{∂^2 u}{∂t^2}</im></td></tr>
+<tr><td>What is the fundamental frequency of a fixed-free rod in longitudinal vibration?</td><td><im>ω_1 = (π/(2L)) √{E/ρ}</im></td></tr>
+<tr><td>What is Euler’s formula for the critical buckling load <im>P_{cr}</im>?</td><td><im>P_{cr} = π^2 EI / L_{eff}^2</im> where <im>L_{eff}</im> is effective length based on end conditions.</td></tr>
+<tr><td>What is the effect of axial load <im>P</im> on lateral natural frequency?</td><td>For a simply-supported beam, <im>ω_i^2 = ω_{i0}^2 (1 - P/P_{cr,i})</im> where <im>ω_{i0}</im> is frequency without axial load.</td></tr>
+<tr><td>State the orthogonality condition for mode shapes.</td><td><im>φ_i^T M φ_j = 0</im> and <im>φ_i^T K φ_j = 0</im> for <im>i ≠ j</im>.</td></tr>
+<tr><td>How do you calculate the amplitude of forced response in a multi-DOF system using modal analysis?</td><td>Transform to modal coordinates to get <im>\ddot{q}_i + 2ζ_i ω_i \dot{q}_i + ω_i^2 q_i = f_i(t)</im>, solve for <im>q_i(t)</im>, then transform back <im>\{x\} = [Φ]\{q\}</im>.</td></tr>
+<tr><td>What is the static deflection <im>X_s</im>?</td><td><im>X_s = F_0 / k</im></td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

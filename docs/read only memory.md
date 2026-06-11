@@ -26,3 +26,16 @@ the basic functions of the computer.*
 ROM is *non-volatile* - that means that, when we cut the [[power]] to the computer,
 the data stored in ROM is not lost. It wouldn't be great if we lost the BIOS
 every time we shut down the computer...
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is read-only memory (ROM) used for? | Read-only memory stores data that the computer needs to access quickly, but that doesn't ever change (except during a BIOS flash/update). |
+| Why is ROM called 'read-only'? | Because the data stored in ROM can't be changed by the computer - it is 'read-only' data, unlike RAM which is 'read-write' memory. |
+| What is the role of ROM in a computer? | ROM stores the firmware of the computer, which is the software built into the hardware that controls how the hardware works. |
+| What is the main example of firmware stored in ROM? | The BIOS (Basic Input/Output System), which controls the basic functions of the computer and is needed to boot it up. |
+| What is a more advanced type of firmware used in modern computers, and where is it stored? | UEFI, which is still stored in ROM and controls the basic functions of the computer. |
+| Is ROM volatile or non-volatile? | ROM is non-volatile. |
+| What does it mean that ROM is non-volatile? | When the power to the computer is cut, the data stored in ROM is not lost. |
+

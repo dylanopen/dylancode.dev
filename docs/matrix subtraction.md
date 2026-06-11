@@ -70,3 +70,18 @@ To subtract matrices, simply subtract the corresponding elements from each matri
   - $\mathbf{A} - (\mathbf{B} + \mathbf{C}) = \begin{bmatrix} 8 & 11 \\ 14 & 17 \end{bmatrix}$
   - $(\mathbf{A} - \mathbf{B}) - \mathbf{C} = \begin{bmatrix} 8 & 11 \\ 14 & 17 \end{bmatrix}$
 - The results are the same, so it's distributive.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| When can we subtract two matrices? | We can only subtract matrices with the same order. |
+| How do you subtract two matrices? | Subtract the corresponding elements from each matrix. |
+| Compute $\mathbf{A} - \mathbf{B}$ where $A=\begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$ and $B=\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ | $\begin{bmatrix} 4 & 4 \\ 4 & 4 \end{bmatrix}$ |
+| Compute $\mathbf{C} - \mathbf{D}$ where $C=\begin{bmatrix} 10 & 20 \\ 30 & 40 \end{bmatrix}$ and $D=\begin{bmatrix} 5 & 15 \\ 25 & 35 \end{bmatrix}$ | $\begin{bmatrix} 5 & 5 \\ 5 & 5 \end{bmatrix}$ |
+| Compute $\mathbf{E} - \mathbf{F} - \mathbf{G}$ where $E=\begin{bmatrix} 15 & 25 \\ 35 & 45 \end{bmatrix}$, $F=\begin{bmatrix} 5 & 10 \\ 15 & 20 \end{bmatrix}$ and $G=\begin{bmatrix} 2 & 4 \\ 6 & 8 \end{bmatrix}$ | $\begin{bmatrix} 8 & 11 \\ 14 & 17 \end{bmatrix}$ |
+| Is matrix subtraction commutative? | No, $\mathbf{A} - \mathbf{B} \neq \mathbf{B} - \mathbf{A}$ in general. |
+| Given $A=\begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}$ and $B=\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$, what is $\mathbf{B} - \mathbf{A}$? | $\begin{bmatrix} -4 & -4 \\ -4 & -4 \end{bmatrix}$ |
+| Is matrix subtraction associative? | No, $\mathbf{A} - (\mathbf{B} - \mathbf{C}) \neq (\mathbf{A} - \mathbf{B}) - \mathbf{C}$ in general. |
+| Is matrix subtraction distributive over matrix addition? | Yes, $\mathbf{A} - (\mathbf{B} + \mathbf{C}) = (\mathbf{A} - \mathbf{B}) - \mathbf{C}$. |
+

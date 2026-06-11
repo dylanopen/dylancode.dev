@@ -27,3 +27,15 @@ One *joule* is defined as $kg\,\,m^2/s^2$.
 
 So the units are the same! That shows us that the area under the graph must
 be in joules, $J$, so represents the [[work done]] (or energy transferred).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does a force-displacement graph measure? | The force applied in newtons ($N$) on the y-axis, and displacement in metres ($m$) on the x-axis. |
+| What does the area under a force-displacement graph represent? | The work done, in joules ($J$). |
+| Why does the area under a force-displacement graph give the work done? | Because $\text{work done} = \text{Force} \times \text{distance}$ and the area under the graph is force multiplied by displacement (since the two axes multiply when finding the area). |
+| What are the units of the area under a force-displacement graph derived from multiplying the axes? | Newton-metres ($Nm$). |
+| How do you derive the units of a joule? | $N = kg\,\,m/s^2$, so $Nm = kg\,\,m/s^2 \times m = kg\,\,m^2/s^2$. One joule is defined as $kg\,\,m^2/s^2$. |
+| What do the identical units of newtons-metres and joules confirm about the area under a force-displacement graph? | It confirms that the area represents the work done (or energy transferred), measured in joules ($J$). |
+

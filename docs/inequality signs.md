@@ -42,3 +42,17 @@ or equal to** the value/[[expression]] on the right.
 ### Example: $b \geq 7$
 
 This means that $b$ is either greater than $7$ or equal to $7$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does the $<$ symbol mean? | The $<$ symbol means the value/expression on the left is **less than** the value/expression on the right. |
+| What does the $>$ symbol mean? | The $>$ symbol means the value/expression on the left is **greater than** the value/expression on the right. |
+| What does the $\leq$ symbol mean? | The $\leq$ symbol means the value/expression on the left is **less than or equal to** the value/expression on the right. |
+| What does the $\geq$ symbol mean? | The $\geq$ symbol means the value/expression on the left is **greater than or equal to** the value/expression on the right. |
+| What does $x < 5$ mean? | It means $3$ is less than $5$. |
+| What does $y > 2$ mean? | It means $y$ is greater than $2$. |
+| What does $a \leq 10$ mean? | It means $a$ is either less than $10$ or equal to $10$. |
+| What does $b \geq 7$ mean? | It means $b$ is either greater than $7$ or equal to $7$. |
+

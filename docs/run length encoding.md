@@ -57,3 +57,17 @@ was all blue, we might store that as something like:
   much longer than the original string.
 - It is not very effective for images with lots of detail, like photos, as there
   aren't many large areas of solid colour to take advantage of.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is run-length encoding? | A method of lossless compression that replaces sequences of repeated data with a single value and a count of how many times it was repeated. |
+| How is the string "AAAAAAAABBBBBBBCDDDDDDDDDDDDDEEEEEEE" represented using run-length encoding? | 8A 7B 1C 13D 7E |
+| How can run-length encoding be applied to a 10x10 bitmap image where the top 5 rows are all red and the bottom 5 rows are all blue? | It could be compressed to "50R 50B". |
+| What are two benefits of run-length encoding? | It is very simple to implement and can be very effective for data like images with large areas of solid colour or text with lots of repeated characters. |
+| How can a variation of run-length encoding be used in GIFs? | A single video frame or pixel in a certain position can be stored and 'repeated' for multiple frames to save space. |
+| What is a major drawback of run-length encoding? | It can make the file size larger if there aren't many repeated characters or pixels. |
+| Give an example where run-length encoding would increase file size. | The string "ABCDABCDABCD" would become "1A 1B 1C 1D 1A 1B 1C 1D 1A 1B 1C 1D", which is much longer than the original. |
+| Why is run-length encoding ineffective for photos? | Because photos have lots of detail and not many large areas of solid colour to take advantage of. |
+

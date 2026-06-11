@@ -35,3 +35,17 @@ each of the original sources.
 
 A supersink is a single sink node which has an infinite capacity edge from
 each of the original sinks.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| source | Capacity of an edge |
+| What is the capacity of an edge in a flow network? | The *weight* of the edge, which can be thought of as the *maximum flow* that can pass through that edge. |
+| cut | Divides the source(s) from the sink(s) |
+| capacity of a cut | Sum of the capacities of the edges crossing the cut from source side to sink side |
+| What does the minimum cut theorem tell us? | The maximum flow in a flow network. |
+| Steps to use the minimum cut theorem | 1. Find all possible cuts in the network<br/>2. Calculate the capacity of each cut<br/>3. Find the cut which gives the *minimum* capacity<br/>4. This capacity is the *maximum flow* in the network |
+| Supersource | A single source node which has an infinite capacity edge to each of the original sources. |
+| Supersink | A single sink node which has an infinite capacity edge from each of the original sinks. |
+

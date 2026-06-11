@@ -84,3 +84,15 @@ $(2+3x)^5$:
   - The extra coefficient is $27 \times x^2 = 27x^2$
   - The coefficient of the $x^2$ term is $10 \times 27 = 270$.
 - Answer: $243 + 405x + 270x^2 + ...$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does $^{n}C_{r}$ represent in a binomial expansion? | The binomial combination for the term where one variable has power $r$ and the other has power $n-r$, for example in $(a+b)^n$, the coefficient of $a^r b^{n-r}$ is $^{n}C_{r}$. |
+| How do you calculate $^{6}C_{3}$ on a 'upgraded' Casio CW calculator? | Press the Catalog button, scroll down and click Probability, scroll down to Combination C and click it, then put 6 before it and 3 after it, e.g. 6 C 3. |
+| How do you find the coefficient of the $a^{2}b^{3}$ term in the expansion of $(a+b)^{5}$? | It is $^{5}C_{2}$ because the term has $a$ to the power of 2. |
+| How do you find the coefficient of the $x^{3}$ term in the expansion of $(2+3x)^{5}$? | Compute $^{5}C_{3}=10$, multiply by the extra coefficients: $(3x)^{3}=27x^{3}$ and $2^{2}=4$, so $10\times4\times27=1080$. |
+| Find the coefficient of the $x^{4}$ term in the expansion of $(1+2x)^{6}$. | $^{6}C_{4}=15$, extra coefficients: $(2x)^{4}=16x^{4}$ and $1^{2}=1$, so $15\times16=240$. |
+| Find the first 3 terms of the expansion of $(3+x)^{5}$. | $x^{0}$ term: $^{5}C_{0}=1$, $3^{5}=243$, $x^{0}=1$, so $1\times243=243$; $x^{1}$ term: $^{5}C_{1}=5$, $3^{4}=81$, $x^{1}=x$, so $5\times81=405$; $x^{2}$ term: $^{5}C_{2}=10$, $3^{3}=27$, $x^{2}=x^{2}$, so $10\times27=270$; answer: $243 + 405x + 270x^{2} + ...$ |
+

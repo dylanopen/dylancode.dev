@@ -15,3 +15,13 @@ one way of communicating with them.
 > [[processor]] to use to send output data, and translates it into the
 > specific protocol that an output device understands so the output device can
 > display the output data.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an output controller? | A component that manages output devices, translating standard processor protocols into the specific protocol an output device understands. |
+| How is an output controller connected to the processor? | Via the computer bus, so the processor only needs one way to communicate output data. |
+| What is the role of an output controller in translating data? | It accepts a standard protocol from the processor and translates it into the specific protocol that an output device understands. |
+| Why does an output controller allow the processor to use a standard form? | So the processor can send output data without needing to understand each device's specific protocol, and the controller handles the translation. |
+

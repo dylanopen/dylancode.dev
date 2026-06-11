@@ -28,3 +28,15 @@ $$
 
 - $1543.125 \times 8 = 12345$ bits
 - **Answer**: $12345$ bits
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula to convert bytes to bits? | $\text{bits} = \text{bytes} \times 8$ |
+| How many bits are in a byte? | 8 bits |
+| Convert $8$ bytes to bits. | $64$ bits |
+| Convert $128$ bytes to bits. | $1024$ bits |
+| Convert $625$ bytes to bits. | $5000$ bits |
+| Convert $1543.125$ bytes to bits. | $12345$ bits |
+

@@ -25,3 +25,12 @@ It could, for example, represent:
 Arcs can be either *directed* or *undirected*:
 - A *directed* [[arc]] can only be traversed in one direction.
 - An *undirected* [[arc]] can be traversed in both directions.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Network arc | An arc on a network is the equivalent of an edge in a graph. It connects two nodes in the network, representing a relationship or interaction between them. |
+| Arc weight | The weight is a number associated with an arc which represents the strength of the connection. For example, the capacity of a road, cost of sending a parcel, amount of water flow, or distance between towns. |
+| Directed vs undirected arcs | A directed arc can only be traversed in one direction, while an undirected arc can be traversed in both directions. |
+

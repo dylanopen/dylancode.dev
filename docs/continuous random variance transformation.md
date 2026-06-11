@@ -7,3 +7,10 @@ This works for any transformation, but we can find it other ways too: see [[cont
 > $$
 
 - $t(x)$ is the transformation
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Var(t(X)) formula | $Var(t(X)) = E(t(X)^2) - [E(t(X))]^2$ |
+

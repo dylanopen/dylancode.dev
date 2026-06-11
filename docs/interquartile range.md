@@ -90,3 +90,20 @@ first quartile.
 - $\text{interquartile range} = \text{third quartile} - \text{first quartile}$
 - $\text{interquartile range} = 8 - 2$
 - **Answer**: $\text{interquartile range} = 6$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the interquartile range of a set of numbers? | The difference between the third quartile (upper quartile) and the first quartile (lower quartile). |
+| What is a quartile? | A value that is (a multiple of) a quarter of the way through a set of data. |
+| What is the first quartile (Q1) also called? | The lower quartile. |
+| What is the third quartile (Q3) also called? | The upper quartile. |
+| How do you find the first quartile (Q1)? | 1. Arrange numbers from smallest to largest. 2. Find the median. 3. Discard the median and everything above it to get the lower half. 4. The median of the lower half is Q1. |
+| How do you find the third quartile (Q3)? | 1. Arrange numbers from smallest to largest. 2. Find the median. 3. Discard the median and everything below it to get the upper half. 4. The median of the upper half is Q3. |
+| What is the formula for the interquartile range? | $\text{interquartile range} = \text{third quartile} - \text{first quartile}$ |
+| Find the first quartile of $\{1, 4, 9, 16, 25\}$. | $2.5$<br/>Median is $9$, lower half is $\{1, 4\}$, median of lower half is $\frac{1+4}{2} = 2.5$. |
+| Find the third quartile of $\{1, 4, 9, 16, 25\}$. | $20.5$<br/>Median is $9$, upper half is $\{16, 25\}$, median of upper half is $\frac{16+25}{2} = 20.5$. |
+| Find the interquartile range of $\{1, 4, 9, 16, 25\}$. | $18$<br/>Third quartile is $20.5$, first quartile is $2.5$, difference is $20.5 - 2.5 = 18$. |
+| Find the interquartile range of $\{3, 1, 4, 1, 5, 9, 2, 6, 5, 8, 11\}$. | $6$<br/>Ordered dataset: $\{1, 1, 2, 3, 4, 5, 5, 6, 8, 9, 11\}$.<br/>Median is $5$.<br/>Lower half $\{1, 1, 2, 3, 4\}$ has median $2$ (Q1).<br/>Upper half $\{5, 6, 8, 9, 11\}$ has median $8$ (Q3).<br/>IQR = $8 - 2 = 6$. |
+

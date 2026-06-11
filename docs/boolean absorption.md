@@ -15,3 +15,11 @@ When we have a [[boolean expression]] in the form $A + (A \cdot B)$, we can also
 We know that either $A$ or the thing on the right must be true for the whole [[expression]] to be true. But if just $A$ is true, then the right hand side $A \cdot B$ is also true, so we can just ignore it and simplify the [[expression]] to just $A$.
 
 > $A + (A \cdot B) = A$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the rule for simplifying $A \cdot (A + B)$? | $A \cdot (A + B) = A$ |
+| What is the rule for simplifying $A + (A \cdot B)$? | $A + (A \cdot B) = A$ |
+

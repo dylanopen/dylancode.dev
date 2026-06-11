@@ -94,3 +94,17 @@ $$
 - **Answer**: $X+B^{-1}A^{-1}$
 
 > Remember this. THe inverse of $AB=B^{-1}A^{-1}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the property of a non-singular matrix regarding an inverse? | Every matrix that isn't singular has an inverse matrix. Whenever a matrix is multiplied by its inverse, the result is the identity matrix, $I$. |
+| How is the inverse of a matrix $M$ represented? | The inverse matrix of $M$ can be written as $M^{-1}$, and $MM^{-1} = I$. |
+| What is the general formula for the inverse of a 2x2 matrix $M = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$? | $M^{-1} = \frac{1}{ad-bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$ |
+| What is the inverse of the identity matrix $I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$? | The inverse of the identity matrix is itself: $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$. |
+| If the inverse of a matrix $M$ is $\begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}$, how do you find $M$? | Find the inverse of $M^{-1}$, so $M = (M^{-1})^{-1} = \frac{1}{-2} \begin{pmatrix} 5 & -3 \\ -4 & 2 \end{pmatrix} = \begin{bmatrix} -\frac{5}{2} & \frac{3}{2} \\ 2 & -1 \end{bmatrix}$. |
+| What is the inverse of a matrix product $AB$? | The inverse of $AB$ is $B^{-1}A^{-1}$. |
+| How do you find the inverse of $\begin{bmatrix} 4 & 2 \\ 5 & 3 \end{bmatrix}$ using the general form? | $ad-bc = 2$, so $M^{-1} = \frac{1}{2} \begin{pmatrix} 3 & -2 \\ -5 & 4 \end{pmatrix} = \begin{bmatrix} \frac{3}{2} & -1 \\ -\frac{5}{2} & 2 \end{bmatrix}$. |
+| How do you find the inverse of $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$? | $ad-bc = -2$, so $M^{-1} = \frac{1}{-2} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{bmatrix} -2 & 1 \\ \frac{3}{2} & -\frac{1}{2} \end{bmatrix}$. |
+

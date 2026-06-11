@@ -165,6 +165,21 @@ the transformations originally.</p>
 <p><ma>
 (X)(X)^{-1} = I
 </ma></p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Question</td><td>Answer</td></tr>
+<tr><td>What is a translation? Why is it not a matrix transformation?</td><td>A translation moves points by a fixed vector; it does not keep the origin fixed, so it is not a matrix transformation.</td></tr>
+<tr><td>How do you combine two matrix transformations (e.g., matrix <im>A</im> then matrix <im>B</im>)?</td><td>Multiply the matrices in reverse order: <im>BA</im>.</td></tr>
+<tr><td>Find the single matrix for a 90° clockwise rotation followed by a reflection in the line <im>y=x</im>.</td><td>90° clockwise rotation: <im>\pmatrix{0 &amp; 1\\-1 &amp; 0}</im>, reflection in <im>y=x</im>: <im>\pmatrix{0 &amp; 1\\1 &amp; 0}</im>. Multiply in reverse: <im>\pmatrix{0 &amp; 1\\1 &amp; 0}\pmatrix{0 &amp; 1\\-1 &amp; 0} = \pmatrix{-1 &amp; 0\\0 &amp; 1}</im>.</td></tr>
+<tr><td>What is a linear transformation?</td><td>A 2D transformation that keeps straight edges straight. It can be written as <im>\pmatrix{x\\y} \to \pmatrix{...\\...}</im> or as matrix multiplication <im>\pmatrix{a &amp; b\\c &amp; d}\pmatrix{x\\y} = \pmatrix{ax+by\\cx+dy}</im>.</td></tr>
+<tr><td>Find the matrix that maps <im>\pmatrix{x\\y}</im> to <im>\pmatrix{2y+x\\3x}</im>.</td><td>Solve <im>ax+by=2y+x \Rightarrow a=1, b=2</im>; <im>cx+dy=3x \Rightarrow c=3, d=0</im>. Matrix: <im>\pmatrix{1 &amp; 2\\3 &amp; 0}</im>.</td></tr>
+<tr><td>Find the matrix that maps <im>\pmatrix{x\\y}</im> to <im>\pmatrix{2y+x\\3x+y}</im>.</td><td>Solve <im>ax+by=2y+x \Rightarrow a=1, b=2</im>; <im>cx+dy=3x+y \Rightarrow c=3, d=1</im>. Matrix: <im>\pmatrix{1 &amp; 2\\3 &amp; 1}</im>.</td></tr>
+<tr><td>Find the coordinates of points <im>(1,1)</im>, <im>(3,1)</im>, <im>(3,3)</im>, <im>(1,3)</im> after transformation by matrix <im>\pmatrix{-1 &amp; 2\\2 &amp; 1}</im>.</td><td>Write points as columns: <im>\pmatrix{1&amp;3&amp;3&amp;1\\1&amp;1&amp;3&amp;3}</im>. Multiply: <im>\pmatrix{-1 &amp; 2\\2 &amp; 1}\pmatrix{1&amp;3&amp;3&amp;1\\1&amp;1&amp;3&amp;3} = \pmatrix{1&amp;-1&amp;3&amp;5\\3&amp;7&amp;9&amp;5}</im>. Coordinates: <im>(1,3)</im>, <im>(-1,7)</im>, <im>(3,9)</im>, <im>(5,5)</im>.</td></tr>
+<tr><td>What does the determinant of a transformation matrix represent?</td><td>The area scale factor of the transformation.</td></tr>
+<tr><td>What does a determinant of <im>1</im> or <im>-1</im> mean for a transformation?</td><td>The size of the shape does not change. <im>1</im> means orientation is kept (e.g., rotation), <im>-1</im> means orientation changes (e.g., reflection).</td></tr>
+<tr><td>What happens if the transformation matrix is singular (determinant <im>0</im>)?</td><td>The image has no area, e.g., a line or a single point (like <im>\pmatrix{0 &amp; 0\\0 &amp; 0}</im>).</td></tr>
+<tr><td>What is a self-inverse matrix transformation?</td><td>A transformation that is its own inverse; pre-multiplying by its inverse reverses the transformation, requiring inverse operations in opposite order: <im>(X)(X)^{-1}=I</im>.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

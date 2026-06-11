@@ -68,3 +68,17 @@ It's the derivative of the derivative.
   - $\frac{d^2y}{dx^2}=5\times7x^{5-1} + 2\times4x^{2-1} - 1 + 0$
   - $=35x^4 + 8x - 1$
 - **Answer**: $\frac{d^2y}{dx^2}=35x^4 + 8x - 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| f''(x) | The second derivative of a function $f(x)$, also written as $\frac{d^2y}{dx^2}$. |
+| How do you find the second derivative of a function? | Differentiate it twice; it is the derivative of the first derivative. |
+| What is the second derivative of $f(x) = x^3 + 2x^2 + x$? | $f''(x) = 6x + 4$ |
+| Given $f'(x) = 4x^3 - 2x + 7$, find $f''(x)$. | $f''(x) = 12x^2 - 2$ |
+| What is the second derivative of $y = 5x^4 - 3x^2 + x - 8$? | $\frac{d^2y}{dx^2} = 60x^2 - 6$ |
+| Given $\frac{dy}{dx} = 7x^5 + 4x^2 - x + 3$, find $\frac{d^2y}{dx^2}$. | $\frac{d^2y}{dx^2} = 35x^4 + 8x - 1$ |
+| What does the second derivative tell us about a function? | It tells us how the gradient of the function is changing as we move along the curve. |
+| What is another way to describe the second derivative? | 'The gradient of the gradient function'. |
+

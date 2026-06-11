@@ -29,3 +29,15 @@ But this only happens with certain **frequencies** of light. If the frequency is
 > $$
 > f = \frac{\phi}{h}
 > $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| threshold frequency | The minimum frequency of light needed to cause electrons to be emitted from a metal. |
+| work function | The minimum energy needed to emit an electron from a metal. |
+| Why is the threshold frequency a minimum? | Energy is directly proportional to frequency ($E = hf$), and the work function is a minimum energy, so the threshold frequency is also a minimum; some electrons need more energy (higher frequency) to be emitted. |
+| How do you calculate the threshold frequency from the work function? | Set the photon energy equal to the work function: $\phi = h f$, then rearrange to $f = \frac{\phi}{h}$. |
+| What is the formula for the energy of a photon? | $E = h f$, where $E$ is energy in joules, $h$ is Planck's constant ($6.63 \times 10^{-34}$ J·s), and $f$ is frequency in hertz. |
+| What happens if light incident on a metal has a frequency below the threshold frequency? | No electrons will be emitted, no matter how intense the light is. |
+

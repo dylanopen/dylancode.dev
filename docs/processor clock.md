@@ -7,3 +7,12 @@ It also makes sure that data moves around the [[processor]] and rest of the comp
 ## [[clock speed|Clock speed]]
 
 The clock runs at a certain [[speed]] - the **[[clock speed]]** is the number of times the clock 'pulses' every second.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Clock | Processor component generating a regular, repeating signal ensuring all processor operations happen at the right time |
+| Clock purpose | Ensures data moves around the processor and the rest of the computer at the correct time, preventing double-counting, missing data, or interference |
+| Clock speed definition | The number of times the clock 'pulses' every second |
+

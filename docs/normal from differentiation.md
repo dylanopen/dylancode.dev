@@ -106,3 +106,19 @@ to find the y-intercept, and finally write the full equation of the normal.
   - $y = 1x + 1$
   - $y = x + 1$
 - **Answer**: $y = x + 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| "Normal definition (in relation to tangent and curve)" | "A normal is *perpendicular* to the tangent and curve at that point. That means its gradient is the *negative reciprocal* of the tangent's gradient." |
+| "Relationship between gradient of tangent and normal" | "The gradient of the normal is the negative reciprocal of the tangent's gradient." |
+| "If the gradient of the tangent is 2, what is the gradient of the normal?" | "The gradient of the normal is $-\frac12$." |
+| "If the gradient of the tangent is $-\frac34$, what is the gradient of the normal?" | "The gradient of the normal is $\frac43$." |
+| "If the gradient of the tangent is 5, what is the gradient of the normal?" | "The gradient of the normal is $-\frac15$." |
+| "Steps to find the gradient of a normal to a curve at a given point" | "1. Differentiate the function to get its derivative (gradient function). <br/> 2. Substitute the x-coordinate into the derivative to get the gradient of the tangent. <br/> 3. Take the negative reciprocal of the tangent's gradient to get the gradient of the normal." |
+| "Find the gradient of the normal to $f(x) = x^3 - 2x + 1$ at $x=2$" | "1. $f'(x) = 3x^2 - 2$. <br/> 2. $f'(2) = 3(2)^2 - 2 = 12 - 2 = 10$. <br/> 3. Gradient of normal $= -\frac{1}{10}$." |
+| "Steps to find the full equation of the normal" | "1. Find the gradient of the normal. <br/> 2. Find a point the normal passes through by substituting the x-coordinate into the original function to get the y-coordinate. <br/> 3. Substitute the gradient and point into $y = mx + c$ to find $c$. <br/> 4. Write the full equation $y = mx + c$." |
+| "Find the full equation of the normal to $f(x) = x^3 - 2x + 1$ at $x=2$" | "1. Gradient of normal $= -\frac{1}{10}$. <br/> 2. Point: $f(2)=5$, so $(2,5)$. <br/> 3. Substitute: $5 = -\frac{1}{10}(2) + c \Rightarrow c = \frac{26}{5}$. <br/> 4. Equation: $y = -\frac{1}{10}x + \frac{26}{5}$." |
+| "Find the full equation of the normal to $f(x) = 2x^2 + 3x + 1$ at $x=-1$" | "1. $f'(x) = 4x + 3$ <br/> 2. $f'(-1) = -4 + 3 = -1$ <br/> 3. Gradient of normal $= 1$ <br/> 4. Point: $f(-1)=0$, so $(-1, 0)$. <br/> 5. Substitute: $0 = 1(-1) + c \Rightarrow c = 1$. <br/> 6. Equation: $y = x + 1$." |
+

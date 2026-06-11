@@ -55,3 +55,17 @@ For a line $l_1$ and point $A$:
   - $=\frac{\sqrt{1950}}{13}$
   - $=\frac{5\sqrt{78}}{13}$
 - So the distance from the point $(2,3,4)$ to the line $l$ is $\frac{5\sqrt{78}}{13}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the condition for point B on line $l_1$ to be the foot of the perpendicular from point A to line $l_1$? | We need $\vec{AB} \cdot d = 0$, where d is the direction vector of $l_1$. |
+| How do you find the coordinates of point B on line $l_1$ that is the foot of the perpendicular from point A? | 1. Write $\vec{OB}$ in terms of the line's parameter $\lambda$.<br/>2. Find $\vec{AB} = \vec{OB} - \vec{OA}$.<br/>3. Set the dot product $\vec{AB} \cdot d = 0$ to solve for $\lambda$. |
+| Given $l_1: r=\pmatrix{1\\1\\-3}+\lambda\pmatrix{2\\-2\\-1}$ and $A=(1,2,-1)$, what is $\vec{AB}$ as a function of $\lambda$? | $\vec{AB} = \pmatrix{2\lambda\\-1-2\lambda\\-2-\lambda}$ |
+| For $l_1: r=\pmatrix{1\\1\\-3}+\lambda\pmatrix{2\\-2\\-1}$ and $A=(1,2,-1)$, what is the value of $\lambda$ for the foot of the perpendicular? | $\lambda = -\frac{4}{9}$ |
+| For $l_1: r=\pmatrix{1\\1\\-3}+\lambda\pmatrix{2\\-2\\-1}$ and $A=(1,2,-1)$, what is the length of the perpendicular distance? | $\frac{\sqrt{29}}{3}$ |
+| For the problem $l: r=\pmatrix{1\\0\\2}+\lambda\pmatrix{3\\-1\\4}$ and $A=(2,3,4)$, what is $\vec{AB}$ as a function of $\lambda$? | $\vec{AB} = \pmatrix{3\lambda-1\\-3-\lambda\\4\lambda-2}$ |
+| For $l: r=\pmatrix{1\\0\\2}+\lambda\pmatrix{3\\-1\\4}$ and $A=(2,3,4)$, what is the value of $\lambda$ for the foot of the perpendicular? | $\lambda = \frac{4}{13}$ |
+| What is the distance from the point $(2,3,4)$ to the line $l: r=\pmatrix{1\\0\\2}+\lambda\pmatrix{3\\-1\\4}$? | $\frac{5\sqrt{78}}{13}$ |
+

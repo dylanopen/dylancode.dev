@@ -56,3 +56,9 @@ Add the terms in the middle of the grid together to get the final answer:
 
 **Answer**: $2 + 2\sqrt{3}$
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

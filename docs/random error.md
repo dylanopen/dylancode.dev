@@ -33,3 +33,14 @@ To reduce random errors, you can:
 - Train the person doing the measurements to be more accurate
 - Calibrate the measuring instruments regularly
 - Use digital measuring instruments that reduce human reading errors
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Random error | An error in measurement that makes measured values less accurate |
+| What can cause random errors in measurements? | Unexpected environmental changes (e.g., temperature, humidity, vibrations), limitations of the measuring instrument (e.g., precision limits), human error (e.g., slightly misreading the instrument), and other unpredictable factors |
+| What does the extent of random error's effect depend on? | How well the experimenter can use the apparatus and how well the apparatus can measure |
+| How does using a ruler with millimetre markings versus a tape measure with centimetre markings affect random error? | A ruler with millimetre markings allows measurement within a few millimetres, while a tape measure with centimetre markings may only be accurate within a centimetre or two, increasing random error |
+| What are methods to reduce random errors? | Take multiple measurements and average them, use more precise measuring instruments, ensure a stable measuring environment, train the person doing measurements, calibrate instruments regularly, and use digital instruments to reduce human reading errors |
+

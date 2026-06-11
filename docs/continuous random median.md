@@ -13,3 +13,14 @@ Knowing our formula for [[continuous random probability|finding the probability 
 > $$
 
 We can use [[definite integration]] and find the value of $m$ - that's the [[median]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the median of any distribution? | The value in the middle: 50% of the data is below it and 50% of the data is above it. |
+| Where is the median located in terms of probability for distributions? | The median is where the probability is 0.5. |
+| What formula for a continuous random variable gives $P(a \leq X \leq b)$? | $P(a \leq X \leq b) = \int_a^b f(x)\,dx$ |
+| What is the defining equation for the median $m$ of a continuous distribution? | $\int_0^m f(x)\,\,dx = 0.5$ |
+| How do you find the median $m$ for a continuous random variable? | Use definite integration on $\int_0^m f(x)\,dx = 0.5$ and solve for $m$. |
+

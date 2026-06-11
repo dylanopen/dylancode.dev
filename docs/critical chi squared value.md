@@ -13,3 +13,13 @@ We should now have two things:
 - The critical chi-squared value from the table
 
 If our calculated chi-squared value is greater than the critical chi-squared value, then we can say that there is significant evidence to suggest that the two [[cs/variables|variables]] are not independent.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Critical chi-squared value | The value compared against the calculated chi-squared statistic to decide if data differs significantly from expected values. |
+| Where do we find the critical chi-squared value? | In the chi-squared distribution table, based on the significance level and degrees of freedom of the contingency table. |
+| How do you determine which column heading to use in the chi-squared table? | Use the column heading for *one minus* your chosen significance level. For a 5% significance level, look under 0.95 (1 - 0.05). |
+| What does it mean if the calculated chi-squared value is greater than the critical chi-squared value? | There is significant evidence to suggest that the two variables are not independent. |
+

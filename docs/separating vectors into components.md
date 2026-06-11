@@ -46,3 +46,16 @@ horizontal, we can easily find its components using these formulas.
 ## Uses of components of vectors
 
 We need to split up vectors into their components whenever we do any calculations regarding motion.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the two parts vectors are separated into for calculations? | Horizontal and vertical components. |
+| Instead of saying "5m at 30° to the horizontal", how could the vector be described using components? | "4.33m horizontally and 2.5m vertically". |
+| What trigonometric function is used to find the horizontal component of a vector? | $F \cos \theta$, where $F$ is the magnitude and $\theta$ is the angle to the horizontal. |
+| What trigonometric function is used to find the vertical component of a vector? | $F \sin \theta$, where $F$ is the magnitude and $\theta$ is the angle to the horizontal. |
+| The vector $9m$ at $30^\circ$ to the horizontal: what is its horizontal component? | $9 \cos 30^\circ = 9 \times 0.866 = 7.794m$ |
+| The vector $9m$ at $30^\circ$ to the horizontal: what is its vertical component? | $9 \sin 30^\circ = 9 \times 0.5 = 4.5m$ |
+| When is it necessary to split vectors into components? | Whenever doing any calculations regarding motion. |
+

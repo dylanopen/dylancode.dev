@@ -22,3 +22,21 @@ Take this [[pay off matrix]] for example:
 ## Value of the game
 
 The [[game value|value of the game]] for player 1 is the amount that player 1 can expect to win (or lose) **if** both players play their play safe strategies.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the play safe strategy in a zero sum game? | A strategy where the player(s) choose the option which **minimises** the possible loss. |
+| How do you determine the play safe strategy for player 1 from a pay off matrix? | Choose the option with the **highest** row minimum. |
+| How do you determine the play safe strategy for player 2 from a pay off matrix? | Choose the option with the **lowest** column maximum. |
+| In the given pay off matrix, what is the row minima for Player 1 playing A? | -1 |
+| In the given pay off matrix, what is the row minima for Player 1 playing B? | -3 |
+| In the given pay off matrix, what is the column maxima for Player 2 playing C? | 2 |
+| In the given pay off matrix, what is the column maxima for Player 2 playing D? | -1 |
+| In the given pay off matrix, what is the column maxima for Player 2 playing E? | 1 |
+| Based on the pay off matrix, what is the play safe strategy for Player 1? | Option A. |
+| Based on the pay off matrix, what is the play safe strategy for Player 2? | Option D. |
+| What is the value of the game for player 1? | The amount that player 1 can expect to win (or lose) **if** both players play their play safe strategies. |
+| What do the numbers in the pay off matrix represent regarding the players? | The numbers represent the benefit to player 1; player 2 *loses* that amount. |
+

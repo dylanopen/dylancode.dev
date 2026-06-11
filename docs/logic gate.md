@@ -19,3 +19,14 @@ We can represent the different input and output combinations using a [[truth tab
 - [[xor gate]]
 - [[nand gate]]
 - [[nor gate]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a logic gate? | An electronic component that takes one or more electrical (binary) signals as input and produces a single output signal based on specific rules. |
+| What are the possible values for the input and output signals of a logic gate? | Binary values: true or false (on or off). |
+| How can the different input and output combinations of a logic gate be represented? | Using a truth table. |
+| What is the key rule for the output of an AND gate? | The output is only "on" if both input signals are "on". |
+| Name the six examples of logic gates listed. | not gate, and gate, or gate, xor gate, nand gate, nor gate. |
+

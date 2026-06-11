@@ -19,3 +19,13 @@ shape.
 
 That's because the part of the graph where $mx + c$ is negative is reflected
 above the $x$-axis.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the modulus (or absolute value) of a function? | The modulus makes all the negative values of the function positive, so the $y$ values of the graph will never be negative. |
+| How do we write the modulus of a function? | We write it as $y = |f(x)|$. |
+| What shape does the graph of $y = |mx + c|$ (the modulus of a linear function) make? | It makes a 'V' shape. |
+| Why does the graph of $y = |mx + c|$ form a 'V' shape? | Because the part of the graph where $mx + c$ is negative is reflected above the $x$-axis. |
+

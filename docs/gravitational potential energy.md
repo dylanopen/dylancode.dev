@@ -128,3 +128,29 @@ usually choose to measure it from.
 - $\Delta E_p = mg\Delta h$
 - $\Delta E_p = 5\,kg \times 1.6\,N/kg \times 3\,m$
 - $\Delta E_p = 24\,J$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is gravitational potential energy? | Energy stored in an object due to its position above the ground, giving it the potential to fall down. |
+| What two forms of energy are involved when an object falls? | Gravitational potential energy is transferred into kinetic energy as the object speeds up. |
+| What three quantities are needed to calculate the change in gravitational potential energy? | Mass (in kg), height change (in m), and gravitational field strength (in N/kg). |
+| State the formula for change in gravitational potential energy in words. | Change in gravitational potential energy = mass × gravitational field strength × change in height above ground. |
+| State the formula for change in gravitational potential energy in symbols. | $\Delta E_p = mg\Delta h$ |
+| What does $\Delta E_p$ represent? | The change in gravitational potential energy, measured in joules (J). |
+| What does $m$ represent in the formula $\Delta E_p = mg\Delta h$? | The mass of the object, in kilograms (kg). |
+| What does $g$ represent in the formula $\Delta E_p = mg\Delta h$? | The gravitational field strength, in newtons per kilogram (N/kg). |
+| What does $\Delta h$ represent in the formula $\Delta E_p = mg\Delta h$? | The change in the object's distance from the ground, in metres (m). |
+| How should height be measured when calculating gravitational potential energy? | The height should be the shortest distance from the object to the ground, perpendicular to the gravitational field lines (parallel to the force of gravity). |
+| Why do we use 'change in' ($\Delta$) for gravitational potential energy? | We cannot directly calculate the actual gravitational potential energy of an object, only the change when it falls or is lifted. |
+| Why is an object on the Earth's surface not considered to have zero gravitational potential energy? | The Earth's surface is not the absolute zero point for gravitational potential energy; it is just the point we choose to measure from. |
+| Calculate: A 2 kg object is lifted by 5 m where $g = 10$ N/kg. What is $\Delta E_p$? | $\Delta E_p = 2 \times 10 \times 5 = 100$ J |
+| Calculate: On the Moon ($g = 1.6$ N/kg), a 3 kg object is lifted 4 m. What is $\Delta E_p$? | $\Delta E_p = 3 \times 1.6 \times 4 = 19.2$ J |
+| Calculate: An object gains 49 J of GPE when lifted 10 m ($g = 9.8$ N/kg). What is its mass? | $m = \frac{49}{9.8 \times 10} = 0.5$ kg |
+| How do you handle signs when an object falls down and loses gravitational potential energy? | The change in energy ($\Delta E_p$) is negative (e.g., $-20$ J) and the change in height ($\Delta h$) is negative (e.g., $-2$ m), resulting in a positive mass. |
+| Calculate: An object loses 20 J falling 2 m ($g = 10$ N/kg). What is its mass? | $m = \frac{-20}{10 \times -2} = 1$ kg |
+| Calculate: A 2 kg object loses 80 J of GPE ($g = 10$ N/kg). How far does it fall? | $\Delta h = \frac{-80}{2 \times 10} = -4$ m, so it falls 4 m. |
+| Calculate: On a mega planet ($g = 80$ N/kg), a 5 kg object gains 200 J. How far is it lifted? | $\Delta h = \frac{200}{5 \times 80} = 0.5$ m |
+| Calculate: A 5 kg object is lifted 3 m on the Moon ($g = 1.6$ N/kg). How much GPE does it gain? | $\Delta E_p = 5 \times 1.6 \times 3 = 24$ J |
+

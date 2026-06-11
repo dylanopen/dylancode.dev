@@ -70,3 +70,16 @@ steps:
   - $= 49 + 16$
   - $= 65$
 - **Answer**: $65$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the two steps to estimate an answer to a calculation? | 1. Round each number to one significant figure.<br/>2. Perform the calculation using the rounded numbers. |
+| Estimate $23.7 + 58.9 + 12.1$ | $20 + 60 + 10 = 90$ |
+| Estimate $6.3 \times 4.2$ | $6 \times 4 = 24$ |
+| Estimate $150 \div 7.8$ | $200 \div 8 = 25$ |
+| Estimate $45.6 - 19.3$ | $50 - 20 = 30$ |
+| Estimate $12.4 + 5.6 \times 3.2 - 8.9 \div 2.1$ | $10 + 6 \times 3 - 9 \div 2 = 10 + 18 - 4.5 = 23.5$ |
+| Estimate $7.4^2 + 3.6^2$ | $7^2 + 4^2 = 49 + 16 = 65$ |
+

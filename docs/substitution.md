@@ -67,3 +67,18 @@ certain value.
   - $\frac{6}{2} - \frac{3}{2}$
   - $\frac{3}{2}$
 - **Answer**: $\frac{3}{2}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is substitution in algebra? | Substitution is when we replace every instance of a variable in an expression with a value we know. |
+| What is the first step in substitution? | Replace every instance of the variable in the expression with the given value, putting this value inside brackets to avoid mistakes with negative numbers. |
+| What is the second step in substitution? | Evaluate the expression by calculating it as normal, following the order of operations. |
+| Why should you put the given value inside brackets during substitution? | To avoid mistakes when dealing with negative numbers. |
+| How do you find the value of $2x + 3$ when $x = 4$? | Replace $x$ with $(4)$ to get $2(4) + 3$, then evaluate: $2 \times 4 + 3 = 8 + 3 = 11$. |
+| How do you find the value of $x^2 - 5x + 6$ when $x = 3$? | Replace $x$ with $(3)$ to get $(3)^2 - 5(3) + 6$, then evaluate: $9 - 15 + 6 = -6 + 6 = 0$. |
+| How do you find the value of $3y^2 + 2y - 4$ when $y = -2$? | Replace $y$ with $(-2)$ to get $3(-2)^2 + 2(-2) - 4$, then evaluate: $3 \times 4 + (-4) - 4 = 12 - 4 - 4 = 4$. |
+| How do you find the value of $\frac{2a + 5}{a - 1}$ when $a = 6$? | Replace $a$ with $(6)$ to get $\frac{2(6) + 5}{(6) - 1}$, then evaluate: $\frac{12 + 5}{6 - 1} = \frac{17}{5}$. |
+| How do you find the value of $4b^2 - 3b + 2$ when $b = \frac{1}{2}$? | Replace $b$ with $\left(\frac{1}{2}\right)$ to get $4\left(\frac{1}{2}\right)^2 - 3\left(\frac{1}{2}\right) + 2$, then evaluate: $4 \times \frac{1}{4} - \frac{3}{2} + 2 = 1 - \frac{3}{2} + 2 = 3 - \frac{3}{2} = \frac{6}{2} - \frac{3}{2} = \frac{3}{2}$. |
+

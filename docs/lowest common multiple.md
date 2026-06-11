@@ -49,3 +49,16 @@ Here are the steps:
    - $LCM(36, 60, 84) = 2^2 \times 3^2 \times 5^1 \times 7^1 = 4 \times 9 \times 5 \times 7 = 1260$
 
 **Answer**: $1260$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the LCM of two or more numbers? | The LCM (lowest common multiple) is the smallest multiple that is common to all numbers, i.e., the smallest number all numbers divide into. |
+| What is the LCM of $12$ and $16$? | The LCM of $12$ and $16$ is $48$, because $48$ is the smallest number that both $12$ and $16$ go into. |
+| What is the first step to find the LCM using prime factorisation? | Find the prime factorisation of each number. |
+| After finding the prime factorisation of each number, what do you do for each different prime factor? | For each different prime factor, take the highest power of that factor that appears in any of the numbers. |
+| After taking the highest power for each prime factor, what is the final step to find the LCM? | Multiply these together to get the LCM. |
+| Find the LCM of $18$ and $24$. | $18 = 2^1 \times 3^2$, $24 = 2^3 \times 3^1$. Highest powers: $2^3$, $3^2$. LCM $= 2^3 \times 3^2 = 8 \times 9 = 72$. |
+| Find the LCM of $36$, $60$ and $84$. | $36 = 2^2 \times 3^2$, $60 = 2^2 \times 3^1 \times 5^1$, $84 = 2^2 \times 3^1 \times 7^1$. Highest powers: $2^2$, $3^2$, $5^1$, $7^1$. LCM $= 4 \times 9 \times 5 \times 7 = 1260$. |
+

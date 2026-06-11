@@ -74,3 +74,23 @@ $$
 
 - $\log_a(b) = c$ is equivalent to $a^c = b$
 - $(3x)^{z+1}=\frac{y-4}2$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is $\log_a(b) = c$ equivalent to in exponential form? | $a^c = b$ |
+| How do you convert $\log_2(8)=3$ into an exponential expression? | $2^3 = 8$ |
+| How do you convert $\log_5(25)=2$ into an exponential expression? | $5^2 = 25$ |
+| How do you convert $\log_3(27)=3$ into an exponential expression? | $3^3 = 27$ |
+| What is the exponential form of $\log_{10}(1000)=x$? | $10^x = 1000$ |
+| What is the exponential form of $\ln(7)=x$? | $e^x = 7$ (since $\ln(7)=\log_e(7)$) |
+| What is the exponential form of $\log_4(x)=2$? | $4^2 = x$ |
+| What is the exponential form of $\log_2(64)=3x$? | $2^{3x} = 64$ |
+| What is the exponential form of $\log_5(125)=2(2x-1)$? | $5^{4x-2} = 125$ (following simplification of $5^{2(2x-1)}$) |
+| What is the exponential form of $\log_y(27)=3$? | $y^3 = 27$ |
+| What is the exponential form of $\log_3(9)=x+1$? | $3^{x+1} = 9$ |
+| What is the exponential form of $\log_{0.5}(0.125)=x-2$? | $(0.5)^{x-2} = 0.125$ |
+| What is the exponential form of $\log_{x}(y)=z$? | $x^z = y$ |
+| What is the exponential form of $\log_{3x}\left(\frac{y-4}{2}\right)=z+1$? | $(3x)^{z+1} = \frac{y-4}{2}$ |
+

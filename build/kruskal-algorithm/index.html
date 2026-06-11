@@ -21,6 +21,17 @@ valid minimum spanning trees. Both Prim’s and Kruskal’s algorithms will find
 one of them, but not necessarily the same one each time. But they are
 guaranteed to find <em>a</em> <a href="/minimum-spanning-tree">minimum spanning tree</a> - i.e. the tree with the least
 <a href="/weight">Weight</a>.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is Kruskal’s algorithm used to find?</td><td>The minimum spanning tree (MST) of a network.</td></tr>
+<tr><td>Step 1: How do you prepare the edges in Kruskal’s algorithm?</td><td>Sort all edges in the network in order of increasing weight.</td></tr>
+<tr><td>Step 2: What is the initial state of the MST in Kruskal’s algorithm?</td><td>Start with an empty MST (no edges).</td></tr>
+<tr><td>Step 3: For each edge in sorted order, what condition determines whether it is added?</td><td>If adding the edge would not create a cycle, add it; if it would create a cycle, skip it.</td></tr>
+<tr><td>When does Kruskal’s algorithm terminate?</td><td>When the MST contains <im>N-1</im> edges, where <im>N</im> is the number of nodes.</td></tr>
+<tr><td>If the network has many edges with the same weight, can there be multiple valid MSTs?</td><td>Yes, there may be multiple valid minimum spanning trees.</td></tr>
+<tr><td>Are both Prim’s and Kruskal’s algorithms guaranteed to find the same MST?</td><td>No, they find one valid MST, but not necessarily the same one each time.</td></tr>
+<tr><td>What guarantee does Kruskal’s algorithm provide about the tree it finds?</td><td>It is guaranteed to find a minimum spanning tree – the tree with the least total weight.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

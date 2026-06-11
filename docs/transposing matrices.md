@@ -69,3 +69,16 @@ and the second row, $[4 \quad 5 \quad 6]$, becomes the second column.
 - The third row is $[5 \quad 6]$, which becomes the third column, so we can fill in the third column:
   - $\begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$
 - **Answer**: $\mathbf{E}^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What does transposing a matrix do? | Makes the rows into columns and the columns into rows, flipping the matrix across its diagonal. |
+| How do you denote the transpose of matrix $\mathbf{A}$? | $\mathbf{A}^T$. |
+| Given $\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$, what is $\mathbf{A}^T$? | $\mathbf{A}^T = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}$. |
+| Find the transpose of $\mathbf{B} = \begin{bmatrix} 7 & 8 \\ 9 & 10 \\ 11 & 12 \end{bmatrix}$. | $\mathbf{B}^T = \begin{bmatrix} 7 & 9 & 11 \\ 8 & 10 & 12 \end{bmatrix}$. |
+| Find the transpose of $\mathbf{C} = \begin{bmatrix} 13 & 14 & 15 \\ 16 & 17 & 18 \end{bmatrix}$. | $\mathbf{C}^T = \begin{bmatrix} 13 & 16 \\ 14 & 17 \\ 15 & 18 \end{bmatrix}$. |
+| Find the transpose of $\mathbf{D} = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$. | $\mathbf{D}^T = \begin{bmatrix} a & c \\ b & d \end{bmatrix}$. |
+| Find the transpose of $\mathbf{E} = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$. | $\mathbf{E}^T = \begin{bmatrix} 1 & 3 & 5 \\ 2 & 4 & 6 \end{bmatrix}$. |
+

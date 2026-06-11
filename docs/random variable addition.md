@@ -13,3 +13,13 @@ As the [[standard deviation]] is the [[square root]] of the [[variance]], to fin
 - $\sqrt{{\sigma_x}^2+{\sigma_y}^2}$
 
 It's the same as finding the [[hypotenuse]] of a [[right angle triangle]]. We need to [[square root]] the sum of squares.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What happens to the expectations $E(X+Y)$ when $X$ and $Y$ are independent variables? | $E(X+Y) = E(X) + E(Y)$ |
+| What happens to the variance $Var(X+Y)$ when $X$ and $Y$ are independent variables? | $Var(X+Y) = Var(X) + Var(Y)$ |
+| How do you find the standard deviation $\sigma$ of $X+Y$? | $\sqrt{Var(X+Y)}$ or $\sqrt{Var(X) + Var(Y)}$ or $\sqrt{{\sigma_x}^2 + {\sigma_y}^2}$ |
+| To what geometric concept is finding the standard deviation of $X+Y$ similar? | Finding the hypotenuse of a right angle triangle, needing to square root the sum of squares. |
+

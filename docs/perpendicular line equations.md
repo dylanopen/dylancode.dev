@@ -57,3 +57,17 @@ they are for [[parallel line equations]]:
 - **Answer**: $y = -\frac{1}{2}x + 7$
 
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Two lines are perpendicular if they... | intersect at a right angle (90 degrees). |
+| What is the relationship between the gradients of perpendicular lines? | They are negative reciprocals of each other. |
+| How do you find the negative reciprocal of a number? | Take the reciprocal (flip the fraction) and change its sign. |
+| For a gradient $m$, what calculator input finds its negative reciprocal? | $-1 \div m$ |
+| What is the negative reciprocal of 2? | $-\frac{1}{2}$ |
+| What is the negative reciprocal of $-\frac{3}{4}$? | $\frac{4}{3}$ |
+| List the four steps to find the equation of a perpendicular line. | 1. Find negative reciprocal of original gradient.<br/>2. Substitute gradient and point into $y = mx + c$.<br/>3. Solve for $c$.<br/>4. Write equation using gradient and $c$. |
+| Find the equation of the line perpendicular to $y = 2x + 3$ through (4, 5). | $y = -\frac{1}{2}x + 7$ |
+

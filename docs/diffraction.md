@@ -14,3 +14,14 @@ waves:
 - If the gap is *about the same size* as the [[wavelength]], the waves spread out
   quite a lot.
 - If the gap is *much smaller* than the [[wavelength]], the waves spread out a lot.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is diffraction? | Diffraction is when waves spread out as they pass through a gap or around an obstacle. |
+| What does the amount of diffraction depend on? | The size of the gap compared to the wavelength of the waves. |
+| What happens when waves pass through a gap much larger than the wavelength? | The waves spread out only a little. |
+| What happens when waves pass through a gap about the same size as the wavelength? | The waves spread out quite a lot. |
+| What happens when waves pass through a gap much smaller than the wavelength? | The waves spread out a lot. |
+

@@ -38,3 +38,14 @@ $\log_e(x)$.
   - $e^2-2=x$
 - Therefore, the solution is:
   - $x=e^2-2$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| The logarithm function | Logarithms are the inverse of exponentiation: $\log_2{16}=4$ is equivalent to $2^4=16$. |
+| Common bases of logarithms | Base 10: historically used in logarithm books.<br/>Base $e$: *natural* logarithms, where $e$ is Euler's number. |
+| Natural logarithm function | $\ln(x) = \log_e(x)$, so $e^y = x$ is equivalent to $\ln(x) = y$, simplifying notation for base $e$. |
+| Logarithm function constraints | In $\log_a x$, constraints are: $a > 0$, $a \neq 1$, $x > 0$. |
+| How do you solve $3\ln(2+x)=6$? | Divide by 3 to get $\ln(2+x)=2$, rewrite as $e^2 = 2+x$, then subtract 2: $x = e^2 - 2$. |
+

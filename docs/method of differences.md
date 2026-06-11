@@ -47,3 +47,16 @@
 - $24\sum r^2=4n(2n+1)(n+1)$ (factorise the quadratic)
 - $\sum r^2 = \frac4{24}n(2n+1)(n+1)$ (divide both sides by 24)
 - $\sum r^2=\frac16 n(n+1)(2n+1)$ (simplify)
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What is the method of differences? | A technique where terms in a sum cancel each other out, leaving only the first and last terms. |
+| What is the value of $(\frac12-\frac13)+(\frac13-\frac14)+...+(\frac19-\frac1{10})$? | $\frac25$ (since all middle terms cancel to give $\frac12 - \frac1{10} = \frac{4}{10} = \frac25$). |
+| Show that $\frac1{r^2}-\frac1{(r+1)^2}=\frac{2r+1}{r^2(r+1)^2}$. | $\frac1{r^2}-\frac1{(r+1)^2} = \frac{(r+1)^2}{r^2 (r+1)^2} - \frac{r^2}{r^2 (r+1)^2} = \frac{(r+1)^2 - r^2}{r^2 (r+1)^2} = \frac{(r^2 + 2r + 1) - r^2}{r^2 (r+1)^2} = \frac{2r + 1}{r^2 (r+1)^2}$ |
+| Hence solve $\sum^n_{r=1} \frac{2r+1}{r^2 (r+1)^2}$. | $= \sum^n_{r=1} \left( \frac1{r^2} - \frac1{(r+1)^2} \right)$ (using the result),<br/>which telescopes to $1 - \frac1{(n+1)^2}$. |
+| Given that $(2r+1)^3-(2r-1)^3=24r^2+2$, show that $\sum r^2=\frac16 n(n+1)(2n+1)$. | $\sum(24r^2+2) = \sum^n_{r=1}\left((2r+1)^3-(2r-1)^3\right) = (2n+1)^3-1^3$.<br/>So $24\sum r^2 + 2n = (2n+1)^3 - 1$.<br/>Thus $24\sum r^2= (2n+1)^3 - 1 - 2n = 8n^3 + 12n^2 + 4n = 4n(2n^2 + 3n + 1) = 4n(2n+1)(n+1)$.<br/>Divide by 24: $\sum r^2 = \frac16 n(n+1)(2n+1)$. |
+| What remaining terms do you get after applying the method of differences to $\sum^n_{r=1} (\frac1{r^2} - \frac1{(r+1)^2})$? | $\frac1{1^2} - \frac1{(n+1)^2}$, i.e., $1 - \frac1{(n+1)^2}$. |
+

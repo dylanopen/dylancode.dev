@@ -68,3 +68,10 @@ Like with most concepts, it's much easier to see with some examples.
 - We need to remember to write it in the correct form:
   - When $x = 3$, $y = 7$
   - When $x = 7$, $y = 3$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| x + y = 10 and x² + y² = 58. Solve by substitution. | Rearrange $x + y = 10$ to $y = 10 - x$. Substitute into $x² + y² = 58$: $x² + (10-x)² = 58$. Simplify: $2x² - 20x + 100 = 58$ → $2x² - 20x + 42 = 0$ → $x² - 10x + 21 = 0$ → $(x-3)(x-7) = 0$, so $x = 3$ or $x = 7$. Substitute back: when $x = 3$, $y = 7$; when $x = 7$, $y = 3$. |
+

@@ -38,3 +38,15 @@ $$
 $$
 V=IR
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the two types of voltage based on how energy is transferred by a coulomb? | - Potential difference: when energy is 'lost' (given to a component).<br/>- EMF: when energy is 'gained' (usually from a cell). |
+| What is potential difference? | The work done by unit charge. |
+| What does a $6V$ potential difference across a component mean? | $1C$ of charge transfers $6J$ of energy to the component. |
+| What instrument is used to measure potential difference? | A voltmeter. |
+| What is the equation relating potential difference, work done, and charge? | $V = \frac{W}{Q}$ |
+| What is the equation relating potential difference, current, and resistance? | $V = IR$ |
+

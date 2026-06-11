@@ -28,3 +28,19 @@ However, as mentioned above, this isn't always the case, because parallel can al
 - SPI (Serial Peripheral Interface)
 - Ethernet (wired networking)
 - Wi-Fi (wireless networking) is *usually* serial
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Serial transmission | Data sent one bit at a time over a single wire in a sequence. |
+| What is the primary cable used for serial transmission connecting peripherals to a computer? | Universal Serial Bus (USB). |
+| Why is serial transmission cheaper to implement than parallel? | It requires only one wire (or a few for power/ground). |
+| What problem is reduced in serial transmission because fewer wires are used? | Crosstalk (interference between wires). |
+| Why can serial transmission work over longer distances than parallel? | The signal is less likely to degrade over a single wire. |
+| How can serial transmission sometimes be faster than parallel? | Wires can be run at a higher frequency without interference. |
+| Why does serial transmission have no data skew issues? | Bits are sent one after another in order, so they don't get out of sync. |
+| Why is error detection and correction easier in serial transmission? | Bits are sent in a known order, making it easier to detect a missing or corrupted bit. |
+| What is the main disadvantage of serial transmission? | It can be slower than parallel in some cases because it sends bits one at a time. |
+| Give three examples of serial transmission technologies. | USB, UART, SPI, Ethernet, or Wi-Fi. |
+

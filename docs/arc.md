@@ -23,3 +23,15 @@ The *major arc* is the *largest* arc of the circle - or the arc for the
 *major [[sector]]*.
 
 It has an angle *more than* $\pi$ radians (over half the circle).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the arc of a sector? | The portion of the circumference that connects the two radii of the sector; the curved line on a sector. |
+| What is the arc in relation to the circle's circumference? | The arc is a part of the circumference of the circle. |
+| What is a minor arc? | The smallest arc of the circle (the arc for the minor sector). |
+| What is the angle range for a minor arc? | An angle less than $\pi$ radians (under half the circle). |
+| What is a major arc? | The largest arc of the circle (the arc for the major sector). |
+| What is the angle range for a major arc? | An angle more than $\pi$ radians (over half the circle). |
+

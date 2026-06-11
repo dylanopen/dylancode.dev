@@ -44,3 +44,18 @@ by a negative number, we need to reverse the direction of the inequality sign.
   - $x > 4$
 
 **Answer**: $x > 4$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What do linear inequalities use instead of an equals sign? | [[inequality signs]] |
+| How is solving linear inequalities different from solving linear equations? | When we multiply or divide both sides by a negative number, we reverse the direction of the inequality sign. |
+| Solve the inequality: $3x + 5 < 14$ | $x < 3$ |
+| In the solution to $3x + 5 < 14$, what operation is performed after subtracting 5? | Divide both sides by $3$: $\frac{3x}{3} < \frac{9}{3}$, giving $x < 3$ |
+| Solve the inequality: $-2x + 4 \ge 10$ | $x \le -3$ |
+| When solving $-2x + 4 \ge 10$, why does the inequality sign reverse from $\ge$ to $\le$? | Because we divide both sides by the negative number $-2$. |
+| Solve the inequality: $5x - 7 > 3x + 1$ | $x > 4$ |
+| In solving $5x - 7 > 3x + 1$, what is the first step? | Subtract $3x$ from both sides: $2x - 7 > 1$ |
+| What is the final step to solve $2x - 7 > 1$? | Add $7$ to both sides to get $2x > 8$, then divide both sides by $2$ to get $x > 4$. |
+

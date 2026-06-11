@@ -29,3 +29,15 @@ or slowing down to a crawl.
 
 It also often needs a lot of storage space, if it's actually storing any user
 files.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a server? | A computer which responds to requests from clients and provides them with data or services. |
+| What is an example of a server that responds to a web browser? | A web server, which responds with data like a web page, video, image, script, or downloadable file. |
+| What can a central server do in a local area network (LAN)? | It can store files, manage user accounts and permissions, provide security and updates, and keep backups of important data. |
+| Why does a server generally need more computing power than a normal computer? | Because it needs to deal with many different clients connected at once without crashing or slowing down. |
+| How is a server's extra power usually accomplished? | By having more RAM and more CPU threads than a normal computer. |
+| What other hardware resource does a server often need a lot of, if it stores user files? | Storage space. |
+

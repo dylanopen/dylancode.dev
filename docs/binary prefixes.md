@@ -54,3 +54,22 @@ of 2.
 - Therefore, 1 PiB = $2^{50} \div 2^{30} = 2^{20}$ GiB = 1,048,576 GiB
 - 1 PiB = 1,048,576 GiB
 - **Answer**: 1,048,576 gibibytes
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the factor of a kibi prefix in terms of a power of 2? | $2^{10}$ |
+| What is the symbol for the mebi prefix? | Mi |
+| How many bytes are in 1 KiB? | $2^{10}$ bytes |
+| Convert 4 KiB to bytes. | 4096 B |
+| Convert 3 MiB to bytes. | 3,145,728 B |
+| How many MiB are in 1 GiB? | $2^{10}$ MiB = 1024 MiB |
+| Convert 2 GiB to MiB. | 2048 MiB |
+| How many GiB are in 1 TiB? | 1024 GiB |
+| Convert 5 TiB to GiB. | 5120 GiB |
+| What is the factor of a pebi prefix in terms of a power of 2? | $2^{50}$ |
+| How many GiB are in 1 PiB? | $2^{20}$ GiB = 1,048,576 GiB |
+| Convert 1 PiB to GiB. | 1,048,576 GiB |
+| What pattern is observed between each binary prefix? | Each prefix is 1024 times larger than the previous one because $2^{10} = 1024$ |
+

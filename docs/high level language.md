@@ -78,3 +78,22 @@ high-level programming languages, including:
 - Can be less suitable for system-level programming (like operating systems,
   device drivers, embedded systems, etc) where low-level control is often
   required.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| High-level programming language | A programming language designed to be easy for humans to read and write, creating an abstraction over low-level hardware details. |
+| What does a high-level language create over low-level hardware details? | An abstraction. |
+| What is the primary advantage of using `print("Hello, world!")` in Python over the equivalent assembly code? | It saves time and allows the programmer to focus on problem-solving rather than hardware details. |
+| Name five examples of high-level languages. | Python, Java, C#, C, Rust (or any five from the document: Python, Java, C#, C, JavaScript, Rust). |
+| What type of software is almost always written in high-level languages? | Application software. |
+| List four uses of high-level languages. | Web applications, mobile apps, desktop software, games (or any four from: Web applications, Mobile apps, Desktop software, Games, Data analysis and machine learning). |
+| What is a major advantage of high-level languages related to different computer architectures? | They are portable across different hardware architectures with little to no changes. |
+| How do standard libraries and frameworks benefit development in high-level languages? | They prevent reinventing the wheel and speed up development. |
+| What is a key disadvantage of high-level languages regarding hardware? | Less control over hardware. |
+| What potential performance issue do high-level languages have compared to low-level languages? | Potentially slower performance. |
+| What runtime or execution environment might a high-level language require? | A runtime or interpreter. |
+| How can abstraction in high-level languages lead to mistakes? | If the programmer doesn't understand how high-level constructs map to low-level operations, it can cause errors or performance issues. |
+| Why are high-level languages often less suitable for system-level programming? | Because system-level programming (like OS or device drivers) often requires low-level control that high-level languages abstract away. |
+

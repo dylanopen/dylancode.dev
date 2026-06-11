@@ -17,3 +17,12 @@ The main three things that can contribute to latency are:
 - [[propagation latency|Propagation latency]]
 - [[transmission latency|Transmission latency]]
 - [[processing latency|Processing latency]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is latency in a network? | It is the time it takes for a packet of data to travel from the sender to the receiver, usually measured in milliseconds (ms). |
+| How is total latency calculated when a packet travels through multiple devices? | Total latency is the sum of all the latencies of the devices and networks the packet passes through. |
+| What are the three main contributors to latency? | Propagation latency, transmission latency, and processing latency. |
+

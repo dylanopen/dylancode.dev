@@ -42,3 +42,15 @@ We can simplify ratios in the same way that we can simplify fractions.
   - $250x^2 \div 50x = 5x$
   - $400x \div 50x = 8$
 - So, the simplified ratio is $2:5x:8$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the first step to simplify a ratio? | Find the highest common factor (HCF) of all the parts of the ratio. |
+| What do you do after finding the HCF of the parts of a ratio? | Divide each part of the ratio by the HCF, then write the new ratio. |
+| Simplify $12:16$ | HCF is $4$; $12 \div 4 = 3$, $16 \div 4 = 4$; simplified ratio is $3:4$ |
+| Simplify $18:24:30$ | HCF is $6$; $18 \div 6 = 3$, $24 \div 6 = 4$, $30 \div 6 = 5$; simplified ratio is $3:4:5$ |
+| Simplify $45:60$ | HCF is $15$; $45 \div 15 = 3$, $60 \div 15 = 4$; simplified ratio is $3:4$ |
+| Simplify $100x:250x^2:400x$ | HCF is $50x$; $100x \div 50x = 2$, $250x^2 \div 50x = 5x$, $400x \div 50x = 8$; simplified ratio is $2:5x:8$ |
+

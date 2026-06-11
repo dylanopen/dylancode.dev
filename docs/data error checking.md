@@ -13,3 +13,14 @@ checking* - there are loads of different ways to do this.
 - [[parity bit|Parity bits]]
 - [[majority voting|Majority voting]]
 - [[checksum|Checksums]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are error checking methods used for? | They are used to verify that data is correct when it arrives at its destination. |
+| What are three common error checking methods? | Parity bits, Majority voting, and Checksums. |
+| What is a parity bit used for? | It is an error checking method used to verify that data has not changed during transmission. |
+| What is majority voting used for? | It is a method of error checking where the data is sent multiple times and the value seen most often is accepted. |
+| What is a checksum used for? | It is an error checking method where a small mathematical value (checksum) is sent with the data to verify integrity. |
+

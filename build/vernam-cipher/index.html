@@ -48,6 +48,28 @@ character in the plaintext message is encrypted with a different key, so there
 is no way to analyse patterns in the ciphertext to try to crack the key.</p>
 <h2>Issues</h2>
 <p>The main issues really come from the fact that it uses a <a href="/one-time-pad">one-time pad</a>, which can be difficult to distribute securely. How do you share the OTP with only the intended recipient without it being intercepted by an attacker?</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What cipher uses a one time pad to encrypt messages?</td><td>The Vernam cipher.</td></tr>
+<tr><td>In the Vernam cipher, how do you combine each plaintext character with the corresponding one-time pad character?</td><td>We XOR each character in the plaintext message with the corresponding character in the one-time pad.</td></tr>
+<tr><td>What is the ASCII value of ‘H’?</td><td>72</td></tr>
+<tr><td>What is the ASCII value of ‘X’?</td><td>88</td></tr>
+<tr><td>What is the result of 72 XOR 88?</td><td>16</td></tr>
+<tr><td>What is the result of 69 XOR 77?</td><td>8</td></tr>
+<tr><td>What is the result of 76 XOR 67?</td><td>15</td></tr>
+<tr><td>What is the result of 76 XOR 75?</td><td>7</td></tr>
+<tr><td>What is the result of 79 XOR 76?</td><td>3</td></tr>
+<tr><td>How do you decrypt a message encrypted with the Vernam cipher?</td><td>We XOR the ciphertext character with the corresponding character in the one-time pad, which gives us the ASCII value of the original plaintext character.</td></tr>
+<tr><td>What is the result of 16 XOR 88?</td><td>72 (the ASCII value of ‘H’)</td></tr>
+<tr><td>What is the result of 8 XOR 77?</td><td>69 (the ASCII value of ‘E’)</td></tr>
+<tr><td>What is the result of 15 XOR 67?</td><td>76 (the ASCII value of ‘L’)</td></tr>
+<tr><td>What is the result of 7 XOR 75?</td><td>76 (the ASCII value of ‘L’)</td></tr>
+<tr><td>What is the result of 3 XOR 76?</td><td>79 (the ASCII value of ‘O’)</td></tr>
+<tr><td>Under what conditions is the Vernam cipher considered unbreakable?</td><td>If we use it with a truly random one-time pad, and we never reuse the same pad for multiple messages.</td></tr>
+<tr><td>Why does the Vernam cipher prevent pattern analysis in ciphertext?</td><td>Because each character in the plaintext message is encrypted with a different key.</td></tr>
+<tr><td>What is the main practical issue with the Vernam cipher?</td><td>Using a one-time pad can be difficult to distribute securely.</td></tr>
+<tr><td>What is the key security question about sharing the one-time pad?</td><td>How do you share the OTP with only the intended recipient without it being intercepted by an attacker?</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

@@ -24,3 +24,13 @@ In this example, we can combine the "secondary school" and "university" categori
 | Secondary school or university | 21.6       | 16.9       | 17.5           |
 
 Now all of the expected values are above 5, so we can calculate the [[chi squared value]] from this new [[contingency table]]!
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the minimum expected value required in each cell of a contingency table to calculate the chi-squared value? | All expected values must be above 5. |
+| How can you fix a contingency table where some expected values are below 5? | Combine some of the categories together to create a larger contingency table with expected values above 5. |
+| In the example, which categories are combined to fix the small expected values? | "Secondary school" and "university" are combined into "Secondary school or university". |
+| After combining "secondary school" and "university" in the example, what are the new expected values for "Secondary school or university" row? | Likes dogs: 21.6, Likes cats: 16.9, Likes hamsters: 17.5 |
+

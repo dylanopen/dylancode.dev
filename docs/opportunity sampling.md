@@ -52,3 +52,19 @@ It's only really a good idea to use opportunity sampling when either:
     population, and then use opportunity sampling to only survey people from that
     sample who are easy to survey and available at the time.
 - To get a very rough idea of the results.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Opportunity sampling is defined as selecting members of the population who are what? | Easy to survey and available at the time of the study. |
+| What is the main advantage of opportunity sampling regarding implementation? | It's by far the easiest sampling method to implement. |
+| Why is opportunity sampling the cheapest method to implement? | Because we don't need to spend time and money on finding a more representative or perfectly random sample. |
+| What is a primary disadvantage of opportunity sampling concerning bias? | It is very likely to give us a biased sample because we only sample people who are easy to survey and available. |
+| Why might an opportunity sample not be representative of the whole population? | Because it might only sample people from a certain area or age group (e.g., those at a shopping centre). |
+| When might it be difficult to implement opportunity sampling? | If we can't find people who are easy to survey and available at the time of the study. |
+| When is it a good idea to use opportunity sampling for a 'preliminary' study? | When we just want initial data and don't care about the accuracy of the results. |
+| When might we use opportunity sampling due to lack of time or resources? | When we may not have the time or resources to do a proper study using a better sampling method. |
+| How can opportunity sampling be used in conjunction with another method? | We might use stratified sampling to select a sample, then use opportunity sampling to only survey people from that sample who are easy to survey and available. |
+| For what purpose might we use opportunity sampling to get a result of low fidelity? | To get a very rough idea of the results. |
+

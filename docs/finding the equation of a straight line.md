@@ -69,3 +69,17 @@ $$
   - $y = 3x - 3 + 4$
   - $y = 3x + 1$
 - **Answer**: $y = 3x + 1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What formula is used to find the gradient of a straight line from two points $(x, y)$ and $(x_1, y_1)$? | $m = \frac{y - y_1}{x - x_1}$ |
+| What is the equation of a straight line used after finding the gradient $m$? | $y - y_1 = m(x - x_1)$ |
+| Find the equation of the straight line passing through (2, 3) and (5, 11). | $y = \frac{8}{3}x - \frac{7}{3}$ |
+| Find the equation of the straight line passing through (1, 4) and (3, 10). | $y = 3x + 1$ |
+| How do you calculate $\Delta y$ when finding the gradient between points $(x_1, y_1)$ and $(x, y)$? | $\Delta y = y - y_1$ |
+| How do you calculate $\Delta x$ when finding the gradient between points $(x_1, y_1)$ and $(x, y)$? | $\Delta x = x - x_1$ |
+| What is the gradient $m$ of the line through points (2, 3) and (5, 11)? | $m = \frac{8}{3}$ |
+| What is the gradient $m$ of the line through points (1, 4) and (3, 10)? | $m = 3$ |
+

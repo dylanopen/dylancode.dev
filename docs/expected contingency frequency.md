@@ -45,3 +45,19 @@ We can do that for the entire table, to get:
 | 18-35     | 43.75 | 26.25        | 70    |
 | 35+       | 31.25 | 18.75        | 50    |
 | Total     | 100   | 60           | 160   |
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for calculating the expected frequency of a cell in a contingency table? | $\text{Expected frequency} = \frac{\text{Row total} \times \text{Column total}}{\text{Grand total}}$ |
+| What is the symbol sometimes used to refer to the expected frequency? | $E_i$ |
+| In a contingency table, what would the expected frequency represent if the two variables were independent? | The value we would expect in each cell if the variables were independent of each other. |
+| In the example table, what is the expected frequency for "Under 18" and "Pop"? | $\frac{40 \times 100}{160} = 25$ |
+| In the example, what is the grand total for the contingency table? | 160 |
+| What is the row total for the "18-35" age group in the example? | 70 |
+| What is the column total for "Instrumental" in the example table? | 60 |
+| What is the expected frequency for the "35+" and "Instrumental" cell in the example? | $\frac{50 \times 60}{160} = 18.75$ |
+| In the example table, what is the total for the "Pop" column? | 100 |
+| What is the expected frequency for the "Under 18" and "Instrumental" cell? | $\frac{40 \times 60}{160} = 15$ |
+

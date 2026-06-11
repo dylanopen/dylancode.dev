@@ -38,3 +38,16 @@ the negated factor).
 - $=\frac{3\sqrt{5}(4+\sqrt{2})}{(4-\sqrt{2})(4+\sqrt{2})}$
 - $=\frac{12\sqrt{5}+3\sqrt{10}}{16-2}$
 - $=\frac{12\sqrt{5}+3\sqrt{10}}{14}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the process of rationalising the denominator when it contains a single surd? | Multiply the numerator and denominator by the surd in the denominator. |
+| How do you rationalise $\frac{1}{\sqrt{2}}$? | $\frac{1\times\sqrt{2}}{\sqrt{2}\times\sqrt{2}} = \frac{\sqrt{2}}{2}$ |
+| How do you rationalise $\frac{3}{\sqrt{5}}$? | $\frac{3\times\sqrt{5}}{\sqrt{5}\times\sqrt{5}} = \frac{3\sqrt{5}}{5}$ |
+| How do you rationalise $\frac{4}{\sqrt{3}}$? | $\frac{4\times\sqrt{3}}{\sqrt{3}\times\sqrt{3}} = \frac{4\sqrt{3}}{3}$ |
+| How do you rationalise $\frac{\sqrt{2}}{1+\sqrt{3}}$? | Multiply by the conjugate: $\frac{\sqrt{2}(1-\sqrt{3})}{(1+\sqrt{3})(1-\sqrt{3})} = \frac{\sqrt{2}-\sqrt{6}}{1-3} = \frac{\sqrt{2}-\sqrt{6}}{-2}$ |
+| How do you rationalise $\frac{5}{2+\sqrt{7}}$? | Multiply by the conjugate: $\frac{5(2-\sqrt{7})}{(2+\sqrt{7})(2-\sqrt{7})} = \frac{10-5\sqrt{7}}{4-7} = \frac{10-5\sqrt{7}}{-3}$ |
+| How do you rationalise $\frac{3\sqrt{5}}{4-\sqrt{2}}$? | Multiply by the conjugate: $\frac{3\sqrt{5}(4+\sqrt{2})}{(4-\sqrt{2})(4+\sqrt{2})} = \frac{12\sqrt{5}+3\sqrt{10}}{16-2} = \frac{12\sqrt{5}+3\sqrt{10}}{14}$ |
+

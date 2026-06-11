@@ -21,3 +21,12 @@ Now, multiply each term inside the brackets by the term outside the brackets:
 Add the terms in the middle of the grid together to get the final answer:
 - Answer: $6x + 15$
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the grid method for expanding $3(2x + 5)$? | Draw a grid with one row and two columns; multiply the outside term ($3$) by each inside term ($2x$ and $5$); then add the results: $6x + 15$. |
+| Why might you write a multiplication sign in the top-left of the grid? | It can help remind you that you are multiplying each row term by each column term. |
+| After multiplying in the grid method, how do you get the final expanded expression? | Add the terms in the middle of the grid together. |
+

@@ -31,3 +31,12 @@ A - D - B
 
 As you can see, we added a new vertex D along the edge between A and B,
 splitting what was one edge (A-B) into two edges (A-D and D-B).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Graph subdivision | Subdivision is created by adding new vertices along existing edges, breaking original edges into smaller segments.<br/>Cannot add edges or vertices not on existing edges. |
+| What restriction exists when subdividing a graph? | We cannot add any edges, or any vertices that are not on existing edges.<br/>We can only add vertices such that they split up existing edges. |
+| In the example graph A-B-C where edge A-B exists, what does adding vertex D along A-B do? | It splits edge A-B into two edges: A-D and D-B. |
+

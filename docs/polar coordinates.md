@@ -39,3 +39,22 @@ We write the polar coordinate in the form $(r,\theta)$, where:
 - $r$ is the [[distance]] from the origin
 - $\theta$ is the bearing of the point from the origin, measured in radians
   - It's usually between $0$ and $2\pi$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a polar coordinate? | A polar coordinate describes a position on a 2D plane using the distance from the origin and the bearing from the origin. |
+| What two pieces of information describe a polar coordinate? | The distance ($r$) from the origin and the bearing ($\theta$) of the point from the origin. |
+| What unit is usually used to describe the bearing of a polar point? | Radians. |
+| What is the name of the line from which the bearing is measured in polar coordinates? | The initial line. |
+| On a cartesian system, what does the initial line correspond to? | The 'positive X' line. |
+| What is the bearing of the line going to the right from the origin? | $0$ radians. |
+| What is the bearing of the line going upwards from the origin? | $\frac12\pi$ radians. |
+| What is the bearing of the line going to the left from the origin? | $\pi$ radians. |
+| What is the bearing of the line going downwards from the origin? | $\frac32\pi$ radians. |
+| How is a polar coordinate written? | In the form $(r,\theta)$. |
+| What does $r$ represent in a polar coordinate $(r,\theta)$? | The distance from the origin. |
+| What does $\theta$ represent in a polar coordinate $(r,\theta)$? | The bearing of the point from the origin, measured in radians. |
+| What is the usual range for $\theta$ in a polar coordinate? | Between $0$ and $2\pi$. |
+

@@ -40,3 +40,13 @@ our probability).
 That's because the frequency shown in the A circle isn't the frequency of the
 A, but the frequency of **only A** and nothing else, so A and not B. The same is
 true for the B circle. So we're not double counting anything.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the formula for the probability of either event A or event B occurring when they are **not** mutually exclusive? | $P(A\cup B)=P(A)+P(B)-P(A\cap B)$ |
+| Why do we subtract $P(A\cap B)$ in the non-mutually exclusive union formula? | To remove the double count of the intersection (items in both A and B). |
+| What is the problem if you add probabilities of non-mutually exclusive events without subtracting? | You can get a probability greater than 100% (e.g., 70% + 60% = 130%). |
+| How do you find $P(A\cup B)$ from a Venn diagram showing frequencies? | Add the frequency of **only A**, the frequency of **only B**, and the frequency of the intersection, then divide by the total frequency. |
+

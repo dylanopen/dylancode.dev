@@ -32,3 +32,16 @@ decelerate it.
 If these resistive forces eventually become equal to the force of gravity, the
 object will stop accelerating as it will be at
 [[terminal velocity]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the acceleration due to gravity on Earth? | $9.81ms^{-2}$ |
+| What symbol is used for the acceleration due to gravity? | $g$ |
+| What is the equation for Earth's gravitational acceleration? | $g=9.81ms^{-2}$ |
+| What causes a falling object to decelerate in the real world? | Resistive forces, generally air resistance, which act against the force of gravity. |
+| How does the speed of a falling object affect the air resistance it experiences? | The faster the object falls, the more air resistance it experiences. |
+| What happens when resistive forces become equal to the force of gravity on a falling object? | The object will stop accelerating and reach terminal velocity. |
+| What is an example of a resistive force other than air resistance? | Drag from water, such as a ball falling through water. |
+

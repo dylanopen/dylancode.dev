@@ -20,3 +20,15 @@ For a [[temperature]] in [[kelvin]], you **subtract** $273(.15)$ to the [[kelvin
 
 - A $\theta$ in a formula represents a [[temperature]] in [[degree celsius]].
 - A $T$ in a formula represents a [[temperature]] in [[kelvin]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the two main temperature scales? | °Celsius and Kelvin |
+| How do you convert from Celsius to Kelvin? | Add 273.15 to the Celsius value: $T = \theta + 273.15$ |
+| How do you convert from Kelvin to Celsius? | Subtract 273.15 from the Kelvin value: $\theta = T - 273.15$ |
+| What does $\theta$ represent in a formula? | Temperature in degrees Celsius |
+| What does $T$ represent in a formula? | Temperature in Kelvin |
+| How are the Celsius and Kelvin scales related in terms of their step size? | They have the same scale, but different starting points. |
+

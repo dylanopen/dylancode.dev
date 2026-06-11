@@ -97,3 +97,24 @@ a bracket, which would give us $3(x+4)$. This is called *factorising*.
 - Write those results together inside the brackets:
   - $7p(2p^2 - 3p + 4)$
 - **Answer**: $7p(2p^2 - 3p + 4)$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Factorise $6x+9$ | $3(2x+3)$ |
+| What is the first step when factorising an expression? | Find the highest common factor (HCF) of the terms. |
+| What do you do after placing the HCF outside the brackets? | Divide each term by the HCF and write the results inside the brackets. |
+| Factorise $12y-8$ | $4(3y-2)$ |
+| Factorise $15a+25b$ | $5(3a+5b)$ |
+| Factorise $x^2-3x$ | $x(x-3)$ |
+| Factorise $-8m^2n-12mn^2$ | $-4mn(2m+3n)$ |
+| Factorise $14p^3-21p^2+28p$ | $7p(2p^2-3p+4)$ |
+| What is the HCF of $6x$ and $9$? | $3$ |
+| What is the HCF of $12y$ and $8$? | $4$ |
+| What is the HCF of $x^2$ and $-3x$? | $x$ |
+| What is the HCF of $-8m^2n$ and $-12mn^2$? | $-4mn$ |
+| What is the HCF of $14p^3$, $-21p^2$ and $28p$? | $7p$ |
+| What law is used to expand $3(x+4)$? | The distributive law |
+| How do you check a factorised expression? | Expand the brackets and see if you get back the original expression. |
+

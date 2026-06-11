@@ -9,3 +9,11 @@ signal at a point may represent the value 0.7, 0.421, or any other value
 
 Computers don't work with analogue signals, so they need to be converted into a
 [[digital signal]] if we want to use them in a computer.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Analogue signal | An analogue signal is a wave that takes on **continuous values** (e.g., 0.7, 0.421) between 0 and 1.   |
+| How do computers handle analogue signals? | Computers do not work with analogue signals; they must be converted into a **digital signal** for use. |
+

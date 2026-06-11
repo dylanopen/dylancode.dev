@@ -7,3 +7,10 @@
 - The [[processor registers|registers]]
 - The [[processor cache|cache]]
 - The [[computer bus|buses]] (not all are in the CPU itself)
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the main components of a processor like the CPU? | The arithmetic logic unit (ALU), the control unit, the clock, the registers, the cache, and the buses (not all are in the CPU itself). |
+

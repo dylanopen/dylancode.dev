@@ -38,3 +38,18 @@ That is, we have a dictionary that maps the reference `1` to the string `ABCD`, 
   file size bigger!
 - In certain cases, it can be less efficient than [[
   /[[run length encoding]]|[[run length encoding]]]].
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Dictionary encoding | Method of lossless compression where repeated data is replaced with a reference to a single copy stored in a dictionary mapping references to original data. |
+| How would you encode the string "ABCDABCDABCD" using dictionary encoding? | Dictionary: {1: ABCD}; Data: 1 1 1 |
+| What is a key benefit of dictionary encoding for text? | It can be very effective for text with lots of repeated words or phrases. |
+| How does dictionary encoding compare to run-length encoding for non-consecutive repeats? | It can be more efficient as it doesn't require data to be repeated consecutively in a row. |
+| What advantage does dictionary encoding have over run-length encoding in terms of pattern types? | It can store a *pattern* as a dictionary entry, rather than just a single character or pixel. |
+| Where is a variation of dictionary encoding commonly used? | For PNG images, where a pixel pattern is stored in the dictionary and referenced multiple times. |
+| What is a major drawback of dictionary encoding compared to run-length encoding? | It can be more complex to implement as it requires managing the dictionary and references. |
+| Why can dictionary encoding sometimes increase file size? | Because we have to actually store the dictionary itself. |
+| In what scenario might run-length encoding be preferred over dictionary encoding? | In certain cases where dictionary encoding is less efficient than run-length encoding. |
+

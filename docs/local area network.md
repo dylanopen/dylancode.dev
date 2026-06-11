@@ -26,3 +26,12 @@ It can do things like:
   (which is important for security and performance) 
 - Keep backups of important data, so that if something goes wrong, the data can
   be restored easily from one central location.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a LAN? | A network of devices connected over a small geographical area, typically within a single building and not connected to the Internet unless via a router and WAN. |
+| What is the role of a central server in a LAN? | It is a computer that manages the network and all devices on it; it stores files, manages user accounts and permissions, provides security and other protections, ensures software is up-to-date, and keeps backups of important data. |
+| How can a LAN be connected to the Internet? | By connecting the LAN to a WAN using a router, which can connect to the world's largest WAN, the Internet. |
+

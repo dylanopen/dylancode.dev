@@ -23,3 +23,17 @@ There are lots of different ways we can model the atom.
 The one that is most commonly used today is the *Bohr model*, which shows a
 small [[nucleus]] made up of protons and neutrons, with electrons orbiting around it
 in their own *energy levels* (called *shells*).
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an atom? | The smallest part of an element that can exist. |
+| What is the approximate radius of an atom? | About 0.1 nanometers. |
+| What are the three subatomic particles? | Protons, neutrons, and electrons. |
+| Where are protons found and what is their charge? | In the nucleus; positively charged. |
+| Where are neutrons found and what is their charge? | In the nucleus; neutral (no charge). |
+| Where are electrons found and what is their charge? | Orbiting the nucleus; negatively charged. |
+| What is the most commonly used model of the atom today? | The Bohr model. |
+| What does the Bohr model show? | A small nucleus made of protons and neutrons, with electrons orbiting in energy levels called shells. |
+

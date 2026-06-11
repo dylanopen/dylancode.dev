@@ -59,3 +59,20 @@ compiled and interpreted languages!
 - Java
 - Python
 - C# and other .NET languages
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What is bytecode? | Bytecode is an 'intermediate representation' of code, compiled from high-level code and executed by a virtual machine. |
+| How do bytecode compilers and interpreters work? | 1. High-level code is compiled into bytecode by a compiler. 2. The bytecode is executed by a virtual machine. |
+| What is a key advantage of bytecode related to running on different platforms? | Portability: Bytecode can run on any platform with a compatible virtual machine (e.g., Java's 'write once, run anywhere'). |
+| How does bytecode performance compare to interpreted languages? | Bytecode can be optimized by the virtual machine at runtime, leading to better performance compared to interpreted languages. |
+| What security advantage does bytecode provide? | It runs under a virtual machine, which can provide a sandboxed environment that prevents certain malware attacks or crashes. |
+| Why might debugging be easier with bytecode than with fully compiled binaries? | Bytecode can retain more information about the original source code, such as variable names and line numbers. |
+| What is a key disadvantage of bytecode speed compared to native machine code? | It is slower than native machine code because it must be interpreted or compiled at runtime by the virtual machine. |
+| What is a disadvantage related to running bytecode on a user's system? | It requires a specific virtual machine or interpreter to be installed, which can lead to compatibility issues. |
+| How does bytecode compare to native machine code in terms of reverse engineering? | Bytecode can be reverse-engineered more easily than native machine code. |
+| Give three examples of languages that use bytecode. | Java, Python, C# and other .NET languages. |
+

@@ -35,3 +35,14 @@ We can sometimes call these 'qualitative' measures. They're different from discr
 - The result of a dice roll is a discrete variable, because it can only take on
   specific values (usually 1, 2, 3, 4, 5, or 6). It can't be a value in between
   those numbers.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a discrete variable? | A variable that can only take on a finite number of values, with gaps between possible values. |
+| What is the difference between a discrete variable and a continuous variable? | A discrete variable has gaps between possible values and a limited number of them; a continuous variable can represent any value (often within a range) with no gaps and infinite possible values. |
+| What is the difference between a discrete variable and a categorical variable? | A discrete variable has a limited number of numerical values; a categorical variable represents categories or groups with no natural order (qualitative measures). |
+| Give an example of a discrete variable. | The number of people in a room (can only be whole numbers like 0, 1, 2... not 1.5). |
+| Give another example of a discrete variable. | The result of a dice roll (can only be 1, 2, 3, 4, 5, or 6, not a value in between). |
+

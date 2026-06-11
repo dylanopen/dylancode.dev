@@ -58,3 +58,17 @@ This is called the [[highest common factor|highest common factor (HCF)]] - see
 - We can divide both the top and bottom of the fraction by $25y$:
   - $\frac{50y^2\div25y}{75y\div25y}=\frac{2y}{3}$
 - **Answer**: $\frac{2y}{3}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the golden rule for fraction equivalence? | Multiplying or dividing both the numerator and denominator by the same number gives an equivalent fraction, and the value of the fraction does not change. |
+| Why does $\frac{4}{6}$ simplify to $\frac{2}{3}$? | Because we divide both the top and bottom by 2: $\frac{4\div2}{6\div2}=\frac{2}{3}$, which is an equivalent fraction. |
+| What do we need to find to simplify a fraction? | The highest common factor (HCF) of the numerator and denominator. |
+| How do you simplify $\frac{18}{24}$? | HCF of 18 and 24 is 6; divide by 6 to get $\frac{3}{4}$. |
+| How do you simplify $\frac{45}{60}$? | HCF is 15; divide by 15 to get $\frac{3}{4}$. |
+| How do you simplify $\frac{56}{98}$? | HCF is 14; divide by 14 to get $\frac{4}{7}$. |
+| How do you simplify $\frac{81x}{108x}$? | HCF is $27x$; divide by $27x$ to get $\frac{3}{4}$. |
+| How do you simplify $\frac{50y^2}{75y}$? | HCF is $25y$; divide by $25y$ to get $\frac{2y}{3}$. |
+

@@ -96,3 +96,22 @@ In words, the *product of roots* of a quadratic is equal to $\frac ca$.
 |---------------------|------------------|-------------------|
 | Sum of roots        | $-\frac ba$      | Negative          |
 | Product of roots    | $\frac ca$       | Positive          |
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $p+q$ | $-\frac{b}{a}$ |
+| $p \times q$ | $\frac{c}{a}$ |
+| Sum of roots of $2x^2-5x+3=0$ | $\frac{5}{2}$ |
+| Sum of roots of $x^2+4x+4=0$ | $-4$ |
+| If sum of roots of $3x^2+kx-9=0$ is 7, find $k$ | $k = -21$ |
+| If sum of roots of $2x^2+2mx+3=0$ is -3, find $m$ | $m = 3$ |
+| Product of roots of $2x^2-5x+3=0$ | $\frac{3}{2}$ |
+| Product of roots of $x^2+4x+4=0$ | $1$ |
+| If product of roots of $kx^2+10x+4=0$ is $\frac{2}{3}$, find $k$ | $k = 6$ |
+| Evaluate $p^2+q^2$ for $x^2+5x+4=0$ with roots $p, q$ | $17$ |
+| How do you express $p^2+q^2$ in terms of sum and product of roots? | $p^2+q^2 = (p+q)^2 - 2pq$ |
+| What is the coefficient link for the sum of roots of a quadratic? | $-\frac{b}{a}$, negative |
+| What is the coefficient link for the product of roots of a quadratic? | $\frac{c}{a}$, positive |
+

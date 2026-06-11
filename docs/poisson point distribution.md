@@ -16,3 +16,13 @@ Where:
 ## What does this calculate?
 
 The probability of getting *exactly* $x$ occurrences in a given interval, given that the average number of occurrences **in that interval** is $\lambda$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| $P(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}$ | The formula for the Poisson point distribution, where $P(X=x)$ is the probability of exactly $x$ occurrences, $\lambda$ is the mean number of occurrences in the interval, and $x$ is the number of occurrences to calculate the probability for. |
+| What does $x$ represent in the Poisson distribution? | The number of occurrences we want to calculate the probability of (e.g., 7). It must be in the same time frame as $\lambda$. |
+| What is $\lambda$ in the Poisson distribution? | The mean number of occurrences in the given interval, also known as the expectation. |
+| What does the Poisson point distribution calculate? | The probability of getting exactly $x$ occurrences in a given interval, given that the average number of occurrences in that interval is $\lambda$. |
+

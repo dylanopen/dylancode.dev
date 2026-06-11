@@ -14,3 +14,12 @@ Knowing our formula for [[continuous random probability|finding the probability 
 
 We can use [[definite integration]] and find the value of $a$ - that's the lower quartile!
 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| lower quartile | The value where 25% of data is below it and 75% is above it; for a probability distribution, the cumulative probability is $0.25$. |
+| How do you find the lower quartile of a continuous random variable? | Solve $\int_0^a f(x)\,dx = 0.25$ for $a$, using definite integration. |
+| What equation defines the lower quartile $a$ for a continuous random variable with PDF $f(x)$? | $\int_0^a f(x)\,dx = 0.25$ |
+

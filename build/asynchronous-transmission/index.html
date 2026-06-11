@@ -30,6 +30,21 @@ constantly synchronised to a <a href="/clock">clock</a> signal, which can save <
 <li><a href="/rs232">RS-232</a> (a standard for serial communication)</li>
 <li><a href="/midi">MIDI</a> (Musical Instrument Digital Interface)</li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is asynchronous transmission?</td><td>A method of data transmission without a shared clock signal, using extra signals like start and stop bits.</td></tr>
+<tr><td>What is the main purpose of sending extra signals like start and stop bits in asynchronous transmission?</td><td>To indicate when data is being sent and when it is finished, without relying on a clock signal.</td></tr>
+<tr><td>What is a key advantage of asynchronous transmission?</td><td>The sender and receiver don’t need to be synchronised to the same clock signal, which can save power.</td></tr>
+<tr><td>What are examples of protocols that use asynchronous transmission?</td><td>UART (Universal Asynchronous Receiver Transmitter),<br/>RS-232 (a standard for serial communication),<br/>MIDI (Musical Instrument Digital Interface)</td></tr>
+<tr><td>Why can asynchronous transmission be slower than synchronous transmission?</td><td>Because of the overhead of sending extra signals like start and stop bits, and the need to wait for each other to be ready.</td></tr>
+<tr><td>What does a start bit do?</td><td>It is sent to indicate to the receiver that data is coming.</td></tr>
+<tr><td>What does a stop bit do?</td><td>It is sent after the data bits to indicate that data transmission is done.</td></tr>
+<tr><td>How is the start signal defined in relation to the stop signal?</td><td>The start signal must be <strong>different</strong> from the stop bit.</td></tr>
+<tr><td>How are the sender and receiver synchronised in asynchronous transmission?</td><td>They are synchronised to each other after the start bit, allowing them to know when to read the next bit.</td></tr>
+<tr><td>What power-saving feature is enabled by asynchronous transmission?</td><td>The sender and receiver do not need to stay constantly synchronised to a clock signal.</td></tr>
+<tr><td>Define a start bit.</td><td>A signal sent before data bits to indicate data is about to be sent.</td></tr>
+<tr><td>Define a stop bit.</td><td>A signal sent after data bits to indicate data transmission is complete.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

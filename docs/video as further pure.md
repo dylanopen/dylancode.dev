@@ -1770,3 +1770,83 @@ TODO make better example
     + $y=2+4\lambda\rightarrow\lambda=\frac{y-2}4$
     + $z=3+5\lambda\rightarrow\lambda=\frac{z-3}5$ 
 + $\frac{x-1}3=\frac{y-2}4=\frac{z-3}5$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| i | $i$	The imaginary constant, defined by $i=\sqrt{-1}$ and $i^2=-1$. |
+| real number | A number which can be rational or irrational, and can be approximated to a single decimal number. |
+| imaginary number | A number which is multiplied by the constant $i$ and only has an imaginary part. |
+| complex number | A real number and an imaginary number added together, of the form $z=x+yi$. |
+| How do you express the real and imaginary part of a complex number? | The imaginary part is the part before the $i$ (it doesn't include the $i$). The real part is usually written before the imaginary part. |
+| How do you simplify $i^{13}$? | $i^{13}=i^{12}\times i=i$. Subtract 4 from the power of $i$ repeatedly to simplify. |
+| How do you find $\sqrt{-9}$? | $\sqrt{-9}=\sqrt{9}\times\sqrt{-1}=3i$ |
+| How do you add $(a+bi)+(c+di)$? | $(a+bi)+(c+di)=(a+c)+(b+d)i$ |
+| How do you subtract $(a+bi)-(c+di)$? | $(a+bi)-(c+di)=(a-c)+(b-d)i$ |
+| How do you multiply $(a+bi)(c+di)$? | $(a+bi)(c+di)=(ac-bd)+(ad+bc)i$ |
+| What is the complex conjugate of $3+4i$? | $3-4i$ (same real part, opposite imaginary part). |
+| How do you divide $\frac{5+2i}{3-4i}$? | Multiply the numerator and denominator by the conjugate of the denominator: $=\frac{(5+2i)(3+4i)}{(3-4i)(3+4i)}=\frac7{25}+\frac{26}{25}i$ |
+| How do you simplify $(2+3i)^3$? | Write out all the brackets: $(2+3i)(2+3i)(2+3i)=-46+9i$ |
+| What do polar coordinates measure? | $r$ (distance from the origin) and $\theta$ (angle anticlockwise from the positive $x$ axis). |
+| How do you find the distance between two polar points? | Use the cosine rule: $a^2=b^2+c^2-2bc\cos A$, where $A$ is the difference between their $\theta$ values. |
+| What does a negative radius $r$ mean in polar form? | Go away from the origin in the opposite direction to the angle $\theta$. |
+| How do you convert a point from polar $(r,\theta)$ to Cartesian $(x,y)$? | $x=r\cos\theta$, $y=r\sin\theta$ |
+| How do you convert a point from Cartesian $(x,y)$ to polar $(r,\theta)$? | $r=\sqrt{x^2+y^2}$, $\theta=\tan^{-1}(y \div x)$, then check the quadrant. |
+| How do you convert a line from polar to Cartesian form? | Substitute $x=r\cos\theta$, $y=r\sin\theta$, $r^2=x^2+y^2$, or $\theta=\tan^{-1}(y\div x)$ into the polar equation. |
+| Convert $r=2\cos\theta$ from polar to Cartesian form. | $x^2+y^2=2x$ (or $x^2-2x+y^2=0$) |
+| How do you convert a line from Cartesian to polar form? | Substitute $x=r\cos\theta$ and $y=r\sin\theta$ into the Cartesian equation. |
+| What is the condition for a polar line to have a tangent at the pole? | $r$ must equal $0$ and change sign when $\theta$ changes quadrant. |
+| What is the value of $\frac{d}{d\theta}\sin\theta$? | $\cos\theta$ |
+| What is the value of $\frac{d}{d\theta}\cos\theta$? | $-\sin\theta$ |
+| How do you find the minimum value of $r$ for a polar line $r=f(\theta)$? | Differentiate $f(\theta)$ and set it to $0$ to find critical points, then substitute back to find $r$. |
+| What is an Argand diagram? | A graph where the horizontal axis represents the real part and the vertical axis represents the imaginary part of a complex number. |
+| How is a complex conjugate shown on an Argand diagram? | As the point reflected across the horizontal (real) axis. |
+| What is the modulus-argument form of a complex number? | $z=r(\cos\theta+i\sin\theta)$ where $r$ is the modulus and $\theta$ is the argument. |
+| How do you calculate the modulus $|z|$ of $z=x+yi$? | $|z|=\sqrt{x^2+y^2}$ |
+| Convert $z=3+4i$ to modulus-argument form. | $|z|=5$, $\arg z\approx0.927\text{ rad}$, so $z=5(\cos0.927+i\sin0.927)$ |
+| What does the locus $\arg z=\theta$ look like on an Argand diagram? | A half-line from the origin at an angle $\theta$ to the positive real axis. |
+| What does the locus $|z-w|=r$ look like on an Argand diagram? | A circle with radius $r$ and centre at point $w$. |
+| What happens to the modulus when multiplying two complex numbers? | $|z||w|=|zw|$ (the new modulus is the product of the two moduli). |
+| What happens to the argument when dividing two complex numbers? | $\arg z-\arg w=\arg\left(\frac zw\right)$ (the new argument is the difference). |
+| What does $Re(z)=k$ represent on an Argand diagram? | A vertical line where the real part of $z$ is equal to $k$. |
+| How do you solve a quadratic equation with complex roots? | Use the quadratic formula $z=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$. |
+| How do you factorise a quadratic with complex roots $a$ and $b$? | The factors are $(z-a)(z-b)$. |
+| How do you solve a cubic equation like $z^3+z^2+z-39=0$? | Find a real root (e.g. $z=3$), use factor theorem and polynomial division to find the quadratic factor $z^2+4z+13$, then solve the quadratic. |
+| What is the rule for complex conjugate solutions? | If a polynomial has real coefficients, any complex roots must come in conjugate pairs. |
+| What is the sum of roots for a quadratic $ax^2+bx+c=0$? | $p+q=-\frac ba$ |
+| What is the product of roots for a cubic $ax^3+bx^2+cx+d=0$? | $pqr=-\frac da$ |
+| What is the sum of products of roots taken two at a time for a quartic $ax^4+bx^3+cx^2+dx+e=0$? | $pq + pr + ps + qr + qs + rs = \frac ca$ |
+| How do you find $p^2+q^2$ for the roots of a quadratic? | $p^2+q^2=(p+q)^2-2pq$. Find $p+q$ and $pq$ from the coefficients. |
+| How do you find $\frac1p+\frac1q$ for the roots of a quadratic? | $\frac1p+\frac1q=\frac{p+q}{pq}$. Find $p+q$ and $pq$ from the coefficients. |
+| How do you find a quadratic given one complex root? | Use the conjugate root theorem, then use $p+q=-\frac ba$ and $pq=\frac ca$ to find the coefficients. |
+| How do you solve a quadratic inequality like $x^2-5x+6<0$? | Factorise to $(x-2)(x-3)<0$. The solution is the region between the critical points: $2<x<3$. |
+| How do you solve a cubic inequality? | Find one root by inspection, use factor theorem and polynomial division to find the quadratic factor, factorise the quadratic to find all critical points, then sketch the graph to find the regions satisfying the inequality. |
+| In the rational function $y=\frac{ax+b}{cx+d}$, what is the vertical asymptote? | $x=-\frac dc$ |
+| In the rational function $y=\frac{ax+b}{cx+d}$, what is the horizontal asymptote? | $y=\frac ac$ |
+| How do you solve a rational inequality like $\frac{ax+b}{cx+d}<5$? | Multiply by $(cx+d)^2$ (which is always positive) to avoid sign flipping. |
+| In the rational function $y=\frac{ax^2+bx+c}{dx^2+ex+f}$, what are the vertical asymptotes? | The roots of $dx^2+ex+f=0$. |
+| In the rational function $y=\frac{ax^2+bx+c}{dx^2+ex+f}$, what is the horizontal asymptote? | $y=\frac ad$ |
+| What is the definition of $\sinh x$? | $\sinh x=\frac{e^x-e^{-x}}{2}$ |
+| What is the definition of $\cosh x$? | $\cosh x=\frac{e^x+e^{-x}}{2}$ |
+| What is the definition of $\tanh x$? | $\tanh x=\frac{\sinh x}{\cosh x}=\frac{e^x-e^{-x}}{e^x+e^{-x}}$ |
+| What is $\cosh0$? | 1 |
+| What is $\sinh0$? | 0 |
+| Prove that $\cosh^2 x-\sinh^2 x\equiv 1$ | $\cosh^2 x-\sinh^2 x = \left(\frac{e^x+e^{-x}}{2}\right)^2 - \left(\frac{e^x-e^{-x}}{2}\right)^2 = \frac{(e^{2x}+2+e^{-2x})-(e^{2x}-2+e^{-2x})}{4}=1$ |
+| What is the inverse hyperbolic function for $\sinh$? | $\operatorname{arsinh}$ |
+| What is the formula for $\operatorname{arsinh} x$? | $\operatorname{arsinh} x=\ln\left(x+\sqrt{x^2+1}\right)$ |
+| What is the formula for $\operatorname{arcosh} x$? | $\operatorname{arcosh} x=\ln\left(x+\sqrt{x^2-1}\right)$ |
+| What is the formula for $\operatorname{artanh} x$? | $\operatorname{artanh} x=\frac12\ln\left(\frac{1+x}{1-x}\right)$ |
+| How do you solve a hyperbolic trig equation? | Use the exponential forms to write the equation in terms of $e^x$, solve for $e^x$, then take the natural logarithm to find $x$. |
+| What is a direction vector? | A vector indicating the direction of a line, stating for every unit you move in one direction, how much you move in others. |
+| What is the vector equation of a line? | $\overline r=\overline a+\lambda\overline d$, where $\overline a$ is a point on the line and $\overline d$ is a direction vector. |
+| How do you calculate a direction vector from two points $A$ and $B$? | $\vec{AB}=\overline{B}-\overline{A}$ |
+| How do you prove two lines are the same? | Show they are parallel (direction vectors are multiples) and show the position vector of one line lies on the other. |
+| How do you find the distance between points $(1,2,3)$ and $(4,5,6)$? | $|AB|=\sqrt{(4-1)^2+(5-2)^2+(6-3)^2}=3\sqrt{3}$ |
+| How do you find the intersection point of two vector lines? | Set their equations equal and solve for the parameters $\lambda$ and $\mu$. |
+| What are skew lines? | Lines in 3D that are not parallel and never meet. |
+| What is the dot product of $\begin{pmatrix}a\\b\\c\end{pmatrix}$ and $\begin{pmatrix}d\\e\\f\end{pmatrix}$? | $ad+be+cf$ |
+| How do you find the angle between two vector lines using the dot product? | $\theta=\cos^{-1}\left(\frac{\vec a\cdot\vec b}{|\vec a||\vec b|}\right)$, where $\vec a$ and $\vec b$ are the direction vectors. |
+| What does a dot product of $0$ indicate about two lines? | They are perpendicular (the angle is $90^\circ$). |
+| Find the Cartesian equation of the line $r=\pmatrix{1\\2\\3}+\lambda\pmatrix{3\\4\\5}$. | $\frac{x-1}3=\frac{y-2}4=\frac{z-3}5$ |
+

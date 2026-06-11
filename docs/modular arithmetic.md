@@ -43,3 +43,17 @@ To find the modular addition of two numbers:
 - $15 + 10 = 25$.
 - $25 \mod 4 = 1$ (since $25 \div 4 = 6$ with a remainder of $1$).
 - **Answer**: $1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the modulus in modular arithmetic? | The remainder when one number is divided by another. |
+| How is the modulus operator commonly represented? | $\%$ or $mod$. |
+| Evaluate $7 \mod 4$. | $7 \div 4 = 1$ remainder $3$, so $7 \mod 4 = 3$. |
+| How can we express a modular binary operator like mod-5 addition? | $a +_5 b$. |
+| Describe the steps for modular addition. | 1. Add the two numbers together. 2. Find the modulus of the sum with respect to a given modulus. |
+| Evaluate $(5 + 9) \mod 6$. | $5 + 9 = 14$, $14 \div 6 = 2$ remainder $2$, so $2$. |
+| Evaluate $(12 + 8) \mod 7$. | $12 + 8 = 20$, $20 \div 7 = 2$ remainder $6$, so $6$. |
+| Evaluate $15 +_4 10$. | $15 + 10 = 25$, $25 \div 4 = 6$ remainder $1$, so $1$. |
+

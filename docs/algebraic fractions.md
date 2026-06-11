@@ -50,3 +50,15 @@ numerical fractions:
 - Divide both the numerator and denominator by $5x$:
   - $\frac{(5x^2 + 10x) \div 5x}{15x \div 5x} = \frac{x + 2}{3}$
 - **Answer**: $\frac{x + 2}{3}$
+
+## [[flashcards]]
+
+| Question                                   | Answer                                                                                                                                                                                                                                                               |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What is an algebraic fraction?             | A fraction containing a [[variable]] in the [[numerator]], [[denominator]], or both. [[algebraic fractions]]                                                                                                                                                         |
+| How do you simplify an algebraic fraction? | Find the [[highest common factor                                                                             \| highest common factor (HCF)]] of numerator and denominator, then divide both by the HCF. [[simplifying algebraic fractions \| simplification steps]] |
+| Simplify $\frac{6x}{9}$                    | $\frac{2x}{3}$ (HCF = 3). [[simplifying algebraic fractions]]                                                                                                                                                                                                        |
+| Simplify $\frac{4y^2 + 8y}{12y}$           | $\frac{y + 2}{3}$ (HCF = $4y$). [[simplifying algebraic fractions]]                                                                                                                                                                                                  |
+| Simplify $\frac{3a^2 - 6a}{9a}$            | $\frac{a - 2}{3}$ (HCF = $3a$). [[simplifying algebraic fractions]]                                                                                                                                                                                                  |
+| Simplify $\frac{5x^2 + 10x}{15x}$          | $\frac{x + 2}{3}$ (HCF = $5x$). [[simplifying algebraic fractions]]                                                                                                                                                                                                  |
+

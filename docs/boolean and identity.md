@@ -21,3 +21,12 @@ something ANDed with $1$, we can just remove the $1$ and keep the other value.
 
 For example, if we have the [[expression]] $A \cdot 1$, we can simplify it to just
 $A$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Boolean AND identity | The identity of the AND operation is $1$, because $0 \cdot 1 = 0$ and $1 \cdot 1 = 1$.<br/>Therefore, $A \cdot 1 = A$. |
+| How can you simplify the expression $A \cdot 1$? | It simplifies to just $A$ because the identity of AND is $1$, so ANDing a value with $1$ returns the original value. |
+| What is the general rule for simplification using the Boolean AND identity? | Whenever we see something ANDed with $1$, we can just remove the $1$ and keep the other value. |
+

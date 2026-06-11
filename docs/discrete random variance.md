@@ -25,3 +25,14 @@ We can substitute the formula for expectation into this - $E(X) = \sum x_n p_n$
 > $$
 > Var(X) = \sum x_n^2 p_n - \left( \sum x_n p_n \right)^2
 > $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Var(X) = E(X²) - (E(X))² | The formula for variance of a discrete random variable is $Var(X) = E(X^2) - (E(X))^2$. |
+| What is the expanded formula for Var(X) using summation? | $Var(X) = \sum x_n^2 p_n - \left( \sum x_n p_n \right)^2$, where $x_n$ is a value and $p_n$ is its probability. |
+| What does the variance measure? | The variance measures how much the values of a random variable differ from the mean. |
+| How is variance related to standard deviation? | Variance is the square of the standard deviation. |
+| What is the notation for the variance of a list of values X? | $Var(X)$ |
+

@@ -51,3 +51,15 @@ See [[singular matrix]].
 ## $\det{AB}=\det{BA}=\det{A}\det{B}$
 
 > TODO: explain this property
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| For the matrix $M=\begin{pmatrix} a & b \\ c & d \end{pmatrix}$, what is the formula for its determinant? | $ad-bc$ |
+| What is the determinant of $\begin{bmatrix} 3 & 8 \\ 4 & 6 \end{bmatrix}$? | $3 \cdot 6 - 8 \cdot 4 = 18 - 32 = -14$ |
+| What is the determinant of $\begin{bmatrix} 6 & 5 \\ 1 & 2 \end{bmatrix}$? | $6 \cdot 2 - 5 \cdot 1 = 12 - 5 = 7$ |
+| List three ways to represent the determinant of matrix $M$. | $|M|$, $\det M$, $\Delta M$ (or $|\begin{matrix} a & b \\ c & d \end{matrix}|$) |
+| What property relates $\det{AB}$, $\det{BA}$, $\det{A}$, and $\det{B}$? | $\det{AB} = \det{BA} = \det{A} \cdot \det{B}$ |
+| What is the relationship between a matrix's determinant and whether it is singular? | See [[singular matrix]]. A matrix with a determinant of zero is singular. |
+

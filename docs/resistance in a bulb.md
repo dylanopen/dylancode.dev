@@ -12,3 +12,10 @@
   frequent collisions between the electrons and the vibrating metal ions.
 - This means that the resistance of the filament increases as it gets hotter,
   because the electrons lose more energy.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Why does a hotter bulb have more resistance? | Electrons collide with metal ions in the filament, transferring energy and making the ions vibrate more. As the wire heats up, increased ion vibrations cause more frequent electron collisions, making it harder for electrons to pass through. This means the filament's resistance increases as it gets hotter because electrons lose more energy. |
+

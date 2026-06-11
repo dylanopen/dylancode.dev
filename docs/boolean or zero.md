@@ -24,3 +24,13 @@ $$
 We can use this to [[simplifying boolean algebra|simplify boolean algebra]]!
 
 We can replace anywhere we see $A+0$ with $A$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| A+0 = ? | $A+0 = A$ because OR with 0 returns the original value ( 1 OR 0 = 1, 0 OR 0 = 0 ) |
+| How does the OR truth table show A+0 = A? | 1 OR 0 = 1, 0 OR 0 = 0, therefore A OR 0 = A |
+| What is the Boolean identity for A OR 0? | $A+0 = A$ |
+| How can you simplify $A+0$ in Boolean algebra? | Replace $A+0$ with $A$ using the identity $A+0=A$ |
+

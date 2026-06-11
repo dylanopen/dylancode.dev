@@ -110,6 +110,15 @@ also be true. So:</p>
 </ul>
 </li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>Prove that <im>\frac1{1\times2}+\frac1{2\times3}+\cdots+\frac1{n(n+1)} = \frac n{n+1}</im></td><td>Test when <im>n=1</im>: LHS <im>=\frac12</im>, RHS <im>=\frac12</im>. Base case true. Then for <im>n=k</im> assume it holds. Show for <im>n=k+1</im>: LHS becomes <im>\frac k{k+1} + \frac1{(k+1)(k+2)} = \frac{k+1}{k+2}</im>, RHS <im>=\frac{k+1}{k+2}</im>. Both match, so true by induction.</td></tr>
+<tr><td>If <im>n=1</im> is true, how do we know all integers <im>n \ge 1</im> are covered?</td><td>We know <im>n=1</im> true. Assuming <im>n=k</im> true implies <im>n=k+1</im> true. Letting <im>k=1</im> gives <im>n=2</im> true, then <im>k=2</im> gives <im>n=3</im> true, and so on for all positive integers.</td></tr>
+<tr><td>How do you verify the base case?</td><td>Show that the statement holds for <im>n=1</im> by evaluating both sides and confirming they are equal.</td></tr>
+<tr><td>What is the inductive hypothesis?</td><td>Assume the statement is true for some natural number <im>n=k</im>, meaning the formula holds when <im>n=k</im>.</td></tr>
+<tr><td>What do you check in the inductive step?</td><td>Using the assumption for <im>n=k</im>, prove the statement is true for <im>n=k+1</im>, often by adding the next term to the existing sum and simplifying to the required form.</td></tr>
+<tr><td>Prove <im>1^2+2^2+3^2+\cdots+n^2 = \frac16 n(n+1)(2n+1)</im></td><td>Check <im>n=1</im>: LHS=1, RHS=<im>\frac16(1)(2)(3)=1</im>. Assume true for <im>n=k</im>. For <im>n=k+1</im>: LHS becomes <im>\frac16k(k+1)(2k+1)+(k+1)^2 = \frac16(2k^3+9k^2+13k+6)</im>. RHS becomes <im>\frac16(k+1)(k+2)(2k+3) = \frac16(2k^3+9k^2+13k+6)</im>. Both equal, so by induction formula holds.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

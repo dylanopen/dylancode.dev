@@ -47,3 +47,21 @@ The main two ways that we can losslessly compress a file are:
   - If we don't need the original file, and we just want a smaller file to save space or
     transfer over the internet, [[lossy compression]] may be a better choice, as it can
     reduce the file size much more than lossless compression.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is Lossless compression? | A type of file compression where the original file can be perfectly reconstructed from the compressed version; no data is lost. |
+| What is the key outcome of lossless compression when reconstructing a file? | We can perfectly reconstruct the original file from the compressed version, as no data was lost during compression. |
+| What are the two main ways to losslessly compress a file? | Run-length encoding and dictionary encoding. |
+| List two examples of lossless compression for images. | PNG images and GIF images. |
+| Give one example of a lossless compression format for audio files. | FLAC audio files. |
+| What is an example of a lossless compression format used for archives? | ZIP files (and things like gzip). |
+| What is a primary benefit of lossless compression regarding file quality? | The original file can be perfectly reconstructed, so we don't lose any quality or details when we compress it. |
+| Why is lossless compression better for editing files later? | We can make edits without losing quality, and we don't experience generational loss. |
+| What is generational loss? | When editing a lossy compressed file, more data is lost each time we save it, leading to quality loss. |
+| What is a drawback of lossless compression regarding CPU usage? | It often uses a lot of CPU power to compress and decompress the file, which can make it slow to work with. |
+| How does the file size reduction of lossless compression compare to lossy compression? | It doesn't reduce the file size as much as lossy compression, so it may not save as much storage space or be as fast to transfer over the internet. |
+| When might lossy compression be a better choice than lossless? | If we don't need the original file and just want a smaller file to save space or transfer over the internet. |
+

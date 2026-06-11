@@ -61,3 +61,15 @@ That shows that:
 
 > The **area** under a force-time graph is equal to the change in [[momentum]] (or
 > [[impulse]]) of the object.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the link between momentum and the force applied to an object? | If a force $F$ is applied for time $t$, the change in momentum (impulse) is $F \times t$. |
+| How can impulse be expressed in terms of change in momentum? | Impulse equals the change in momentum, $\Delta p = F \times t$. |
+| What is the full equation linking force, time, and momentum? | $F = \frac{\Delta mv}{t}$, where $\Delta mv$ is the change in momentum. |
+| What are the units for each variable in $F = \frac{\Delta mv}{t}$? | $F$ is in newtons ($N$), $\Delta mv$ is in $kgms^{-1}$, and $t$ is in seconds ($s$). |
+| What does the area under a force-time graph represent? | The area under a force-time graph equals the change in momentum (or impulse) of the object. |
+| Why does multiplying force by time on a graph give momentum units? | A Newton is $kgms^{-2}$; multiplying by time ($s$) gives $kgms^{-1}$, the unit for momentum. |
+

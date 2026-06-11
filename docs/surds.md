@@ -10,3 +10,12 @@ There are some operations we can do on surds, including:
 - [[multiplying surds]]
 - [[dividing surds]]
 - [[rationalising the denominator]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What is a surd? | An expression that includes a root (e.g. square root, cube root), often used to represent irrational numbers. |
+| What operations can be performed on surds? | Simplifying, adding, subtracting, multiplying, dividing, and rationalising the denominator. |
+

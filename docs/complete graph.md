@@ -33,3 +33,13 @@ For a complete graph with $n$ vertices:
 $$
 \text{Number of Hamiltonian cycles} = \frac{(n-1)!}{2}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a complete graph? | A graph where every pair of vertices is directly connected by an edge. |
+| How is a complete graph with $n$ vertices notated? | $K_n$ |
+| What is the number of edges in a complete graph with $n$ vertices? | $\frac{n(n-1)}{2}$ |
+| What is the number of Hamiltonian cycles in a complete graph with $n$ vertices? | $\frac{(n-1)!}{2}$ |
+

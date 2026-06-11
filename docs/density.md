@@ -16,3 +16,15 @@ Density measures the amount of [[mass]] per unit [[volume]].
 
 - The SI unit for density is $kg\,m^{-3}$.
 - We can also use $g\,cm^{-3}$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the equation for density? | $\text{density}=\frac{\text{mass}}{\text{volume}}$ ($\rho=\frac mV$) |
+| What does density measure? | The amount of mass per unit volume. |
+| What is the SI unit for density? | $kg\,m^{-3}$. |
+| What are the two common units for density? | $kg\,m^{-3}$ and $g\,cm^{-3}$. |
+| What unit is used for mass in the density equation? | Kilograms ($kg$). |
+| What unit is used for volume in the density equation? | Metres cubed ($m^3$). |
+

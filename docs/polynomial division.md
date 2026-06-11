@@ -34,3 +34,9 @@ Next, we can fill in the rest of the grid by looking at what terms we need to
 make.
 
 > TODO: complete this example
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+

@@ -45,6 +45,19 @@ smallest edge is AD with <a href="/weight">weight</a> 4. Add it to the MST.</li>
                  
 </code></pre>
 <p>We could also have had a slightly different MST, if we chose AC instead of BC.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is Prim’s algorithm used for?</td><td>Finding the minimum spanning tree in a network.</td></tr>
+<tr><td>What is the first step of Prim’s algorithm?</td><td>Start with any node in the network and add it to the MST.</td></tr>
+<tr><td>What is the second step of Prim’s algorithm?</td><td>Find the edge with the smallest weight that connects a node in the MST to a node outside the MST.</td></tr>
+<tr><td>What is the third step of Prim’s algorithm?</td><td>Add that edge and the connected node to the MST.</td></tr>
+<tr><td>When does Prim’s algorithm stop?</td><td>When all nodes are included in the MST.</td></tr>
+<tr><td>Why does following Prim’s algorithm’s step 2 never create a cycle?</td><td>Because a tree by definition cannot contain cycles.</td></tr>
+<tr><td>In the given 4-node network (A, B, C, D with edges AB=2, AD=4, AC=3, BC=3, CD=5), if you start at A, what is the first edge added?</td><td>AB with weight 2.</td></tr>
+<tr><td>In the given network, after adding A and B, what is the smallest edge connecting the MST to an outside node?</td><td>BC with weight 3 (or AD with weight 4, but BC is smallest).</td></tr>
+<tr><td>During Prim’s algorithm on the example, why is edge AC skipped after adding A, B, and C?</td><td>Adding AC would create a cycle (A-B-C-A).</td></tr>
+<tr><td>What is the total weight of the minimum spanning tree found in the example?</td><td><im>2 + 3 + 4 = 9</im> (edges AB, BC, AD).</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

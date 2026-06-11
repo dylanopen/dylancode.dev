@@ -60,3 +60,18 @@ actually reaches the asymptotes).
 - $y = -\frac{b}{a}x = -\frac{2}{5}x$
 
 ### 
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the general equation of a hyperbola centred at the origin? | $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$ |
+| How does a hyperbola relate to an ellipse? | A hyperbola is an ellipse where the $y^2$ term is negative instead of positive. |
+| State the equations of the two asymptotes of the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$. | $y = \frac{b}{a}x$ and $y = -\frac{b}{a}x$ |
+| How do the asymptotes relate to the hyperbola? | The hyperbola gets closer and closer to the asymptotes as you move away from the centre but never reaches them. |
+| Find the equation of the hyperbola with x-intercept 3 and y-intercept 4. | $\frac{x^2}{9} - \frac{y^2}{16} = 1$ |
+| Find the equation of the hyperbola with x-intercept 5 and y-intercept 2. | $\frac{x^2}{25} - \frac{y^2}{4} = 1$ |
+| A hyperbola has the equation $\frac{x^2}{16} - \frac{y^2}{9} = 1$. Find the x-intercept and y-intercept. | x-intercept: 4, y-intercept: 3 |
+| Find the equations of the asymptotes of the hyperbola $\frac{x^2}{16} - \frac{y^2}{9} = 1$. | $y = \frac{3}{4}x$ and $y = -\frac{3}{4}x$ |
+| Find the equations of the asymptotes of the hyperbola $\frac{x^2}{25} - \frac{y^2}{4} = 1$. | $y = \frac{2}{5}x$ and $y = -\frac{2}{5}x$ |
+

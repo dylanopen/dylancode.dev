@@ -22,6 +22,21 @@
 </ul>
 </li>
 </ul>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is the smallest RISC-V program?</td><td>A program that is just an infinite loop, e.g., <code>j 0</code> or <code>jal x0, 0</code>.</td></tr>
+<tr><td>How do immediate instructions differ from register instructions in RISC-V?</td><td>Immediate instructions use a constant value encoded in the instruction, while register instructions use only register operands.</td></tr>
+<tr><td>What does <code>addi rd, rs1, imm</code> do?</td><td>Adds the immediate value <code>imm</code> to register <code>rs1</code> and stores the result in <code>rd</code>.</td></tr>
+<tr><td>What does <code>add rd, rs1, rs2</code> do?</td><td>Adds the values in registers <code>rs1</code> and <code>rs2</code>, storing the result in <code>rd</code>.</td></tr>
+<tr><td>How do you copy a value from one register to another without using <code>mv</code>?</td><td>Use <code>addi rd, rs, 0</code>.</td></tr>
+<tr><td>How do you perform subtraction in RISC-V?</td><td>Use <code>sub rd, rs1, rs2</code> to compute <code>rs1 - rs2</code>.</td></tr>
+<tr><td>How do you multiply two registers in RISC-V?</td><td>Use <code>mul rd, rs1, rs2</code>; the result is the lower 64 bits (or 32 bits for RV32I).</td></tr>
+<tr><td>How do you divide two registers in RISC-V?</td><td>Use <code>div rd, rs1, rs2</code> for signed division; <code>divu</code> for unsigned.</td></tr>
+<tr><td>What are labels used for in RISC-V assembly?</td><td>Labels mark a location in code (e.g., <code>loop:</code>) so that jump instructions can refer to them.</td></tr>
+<tr><td>How do you perform an unconditional jump to a label in RISC-V?</td><td>Use <code>j label</code> (pseudo-instruction for <code>jal x0, label</code>).</td></tr>
+<tr><td>How do you jump and link (call a subroutine) in RISC-V?</td><td>Use <code>jal rd, label</code>; <code>rd</code> receives the return address (PC+4), and execution goes to <code>label</code>.</td></tr>
+<tr><td>What is the effect of <code>jal x0, label</code>?</td><td>It jumps to <code>label</code> without saving a return address, because <code>x0</code> always holds 0.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

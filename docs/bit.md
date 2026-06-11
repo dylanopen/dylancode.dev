@@ -35,3 +35,17 @@ We can also go in reverse (assuming we know how to calculate [[logarithm]]s):
 - Most systems use a `64-bit` [[instruction set architecture]] nowadays, meaning they process data in chunks of 64 bits at a time.
 - Another common size is `32-bit`, which was widely used in older systems and in windows programs which are still using ancient technology - typical
   windows ;)
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a bit? | The fundamental unit of information in computers, representing a choice between two values (usually 0 and 1), corresponding to an on-off state. |
+| How many different values can $n$ bits represent? | $n$ bits can represent $2^n$ different values. |
+| How many values can 1 bit, 2 bits, 3 bits, and 4 bits represent? | 1 bit can represent 2 values, 2 bits can represent 4 values, 3 bits can represent 8 values, and 4 bits can represent 16 values. |
+| How do you calculate the minimum number of bits needed to represent $m$ different values? | To represent $m$ different values, you need at least $\log_2 m$ bits. |
+| How many bits are needed to represent 32 values, and what is the calculation? | To represent 32 values, you need at least $\log_2 32 = 5$ bits. |
+| Why is "24-bit color" called that, and how many values does it represent? | It covers 16,777,216 values (e.g., full RGB color) which requires at least $\log_2 16777216 = 24$ bits. |
+| What is a common instruction set architecture size for modern systems? | Most systems use a `64-bit` [[instruction set architecture]], processing data in chunks of 64 bits at a time. |
+| What was a common size for older systems and old Windows programs? | `32-bit` was widely used in older systems and in old Windows programs. |
+

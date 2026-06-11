@@ -7,3 +7,10 @@ because it's also random.
 
 > Discrete random [[cs/variables|variables]] are [[discrete variable|discrete variables]] which
 > varies based on probabilities and can change when we observe it.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Discrete random variable | Discrete variable that varies based on probabilities and can change when we observe it |
+

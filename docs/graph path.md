@@ -10,3 +10,12 @@ you are not allowed to traverse the same [[graph edge|edge]] **or**
   path.
 - You also **cannot** visit the same [[graph edge|edge]] multiple times in a
   path.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a path in graph theory? | In graph theory, a path is like a walk, but you are not allowed to traverse the same edge or vertex more than once. |
+| Can you visit the same vertex multiple times in a path? | No, you cannot visit the same vertex multiple times in a path. |
+| Can you visit the same edge multiple times in a path? | No, you cannot visit the same edge multiple times in a path. |
+

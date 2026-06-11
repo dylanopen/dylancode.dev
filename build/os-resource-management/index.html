@@ -38,6 +38,17 @@ schedule processes accordingly!</p>
 <p>Also, some processes might be given higher priority than others, meaning they
 get more CPU time. The <a href="/operating-system">operating system</a> manages this priority system to make
 sure that processes that need more of the CPU, get it.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>One of the roles of the operating system is to…</td><td>Manage system resources.</td></tr>
+<tr><td>List three system resources managed by the operating system.</td><td>CPU time, Memory (RAM), Storage (disk space). Accept Network bandwidth, Peripheral devices, or others.</td></tr>
+<tr><td>How does an application access hardware resources?</td><td>It must ‘talk through’ the operating system.</td></tr>
+<tr><td>What happens if a program requests memory that is not available?</td><td>The operating system may use swapping (or paging/virtual memory) to free up memory by moving data from RAM.</td></tr>
+<tr><td>What technique does the OS use to free RAM when memory is low?</td><td>Swapping (also known as paging or virtual memory).</td></tr>
+<tr><td>How does the operating system give the illusion that multiple processes are running simultaneously on a CPU?</td><td>By rapidly switching between processes using a technique called ‘time slicing’.</td></tr>
+<tr><td>Why does the OS still use time slicing on a multi-core processor?</td><td>Because there are almost always more processes than there are cores, and most processes only use a tiny fraction of a CPU thread.</td></tr>
+<tr><td>How does the operating system manage process priority?</td><td>It gives higher priority processes more CPU time, ensuring processes that need more CPU get it.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

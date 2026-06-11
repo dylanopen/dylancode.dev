@@ -15,3 +15,12 @@ In the case of OR, we get:
 
 > $A \cdot A = A$  
 > $A + A = A$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is Boolean idempotence? | When combining a value with itself using an operation, the result is the same value. |
+| What is the rule for $A \cdot A$? | $A \cdot A = A$ |
+| What is the rule for $A + A$? | $A + A = A$ |
+

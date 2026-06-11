@@ -71,3 +71,20 @@ $$
 - $\Delta v=at$
 - $\Delta v=0.2\times12=2.4$
 - Answer: $2.4ms^{-1}$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is acceleration? | Acceleration is the rate of change of [[velocity]], a [[vector quantity]] describing how quickly something speeds up. |
+| What is the formula for acceleration? | $\text{acceleration}=\text{velocity}\div\text{time}$ or $a=\frac vt$ |
+| The velocity of a car increases from $10ms^{-1}$ to $30ms^{-1}$ in 4s. Calculate its acceleration. | $\Delta v=30-10=20$, $a=\frac{20}4=5$, answer: $5ms^{-1}$ |
+| A car accelerates at $2ms^{-2}$ for 5s. Calculate the change in velocity. | $\Delta v=at=2\times5=10$, answer: $10ms^{-1}$ |
+| A bike accelerates at $0.5ms^{-2}$ for 10s. Calculate the change in velocity. | $\Delta v=at=0.5\times10=5$, answer: $5ms^{-1}$ |
+| A car accelerates at $3ms^{-2}$ until reaching a velocity of $20ms^{-1}$. Calculate the time taken to reach this velocity. | $t=\frac v a=\frac{20}3\approx6.67$, answer: $6.67s$ |
+| A van accelerates at $4ms^{-2}$ for 8s. Calculate the change in velocity. | $\Delta v=at=4\times8=32$, answer: $32ms^{-1}$ |
+| A truck accelerates at $5ms^{-2}$ for 6s. Calculate the change in velocity. | $\Delta v=at=5\times6=30$, answer: $30ms^{-1}$ |
+| A car accelerates at $1ms^{-2}$ until reaching a velocity of $15ms^{-1}$. Calculate the time taken to reach this velocity. | $t=\frac v a=\frac{15}1=15$, answer: $15s$ |
+| A bike accelerates at $0.2ms^{-2}$ for 12s. Calculate the change in velocity. | $\Delta v=at=0.2\times12=2.4$, answer: $2.4ms^{-1}$ |
+| How do you calculate acceleration when velocity changes? | Use the change in velocity, $\Delta v$, with the formula $a=\frac{\Delta v}{t}$. |
+

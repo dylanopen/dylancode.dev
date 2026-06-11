@@ -74,3 +74,15 @@ also be true. So:
     - $=\frac16(k+1)(2k^2+7k+6)$
     - $=\frac16(2k^3+9k^2+13k+6)$
     - $=\frac13k^3+\frac32k^2+\frac{13}6k+1$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Prove that $\frac1{1\times2}+\frac1{2\times3}+\cdots+\frac1{n(n+1)} = \frac n{n+1}$ | Test when $n=1$: LHS $=\frac12$, RHS $=\frac12$. Base case true. Then for $n=k$ assume it holds. Show for $n=k+1$: LHS becomes $\frac k{k+1} + \frac1{(k+1)(k+2)} = \frac{k+1}{k+2}$, RHS $=\frac{k+1}{k+2}$. Both match, so true by induction. |
+| If $n=1$ is true, how do we know all integers $n \ge 1$ are covered? | We know $n=1$ true. Assuming $n=k$ true implies $n=k+1$ true. Letting $k=1$ gives $n=2$ true, then $k=2$ gives $n=3$ true, and so on for all positive integers. |
+| How do you verify the base case? | Show that the statement holds for $n=1$ by evaluating both sides and confirming they are equal. |
+| What is the inductive hypothesis? | Assume the statement is true for some natural number $n=k$, meaning the formula holds when $n=k$. |
+| What do you check in the inductive step? | Using the assumption for $n=k$, prove the statement is true for $n=k+1$, often by adding the next term to the existing sum and simplifying to the required form. |
+| Prove $1^2+2^2+3^2+\cdots+n^2 = \frac16 n(n+1)(2n+1)$ | Check $n=1$: LHS=1, RHS=$\frac16(1)(2)(3)=1$. Assume true for $n=k$. For $n=k+1$: LHS becomes $\frac16k(k+1)(2k+1)+(k+1)^2 = \frac16(2k^3+9k^2+13k+6)$. RHS becomes $\frac16(k+1)(k+2)(2k+3) = \frac16(2k^3+9k^2+13k+6)$. Both equal, so by induction formula holds. |
+

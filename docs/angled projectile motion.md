@@ -101,3 +101,25 @@ Just calculate it using our known values for:
 $$
 t = \frac{v - u_v}{a}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| Question | Answer |
+| What are the two components of motion in angled projectile motion? | Vertical projectile motion and horizontal projectile motion. |
+| How do you calculate the horizontal component of initial velocity? | $v_x = v \cos \theta$ |
+| How do you calculate the vertical component of initial velocity? | $v_y = v \sin \theta$ |
+| What is the horizontal velocity of a projectile throughout its motion? | Constant (equal to the initial horizontal velocity). |
+| Why is horizontal velocity constant? | There are no forces (including weight) acting on the horizontal component after launch. |
+| How do you calculate horizontal displacement? | Horizontal displacement = horizontal velocity × time |
+| What is the horizontal acceleration of a projectile? | Zero. |
+| What is the vertical acceleration of a projectile? | $-9.81ms^{-2}$ (downwards due to gravity). |
+| What is the initial vertical velocity in angled projectile motion? | $u_v$ (the vertical component of the initial velocity, $v \sin \theta$), not $0ms^{-1}$. |
+| How does vertical velocity change over time? | Starts positive, decreases to $0ms^{-1}$ at maximum height, then increases in the negative (downwards) direction. |
+| What equation gives vertical velocity at any time? | Vertical velocity $= u_v - 9.81ms^{-2} \times \text{time}$ (or $v = u_v + at$ with $a = -9.81ms^{-2}$). |
+| What equation gives vertical displacement at any time? | $s = u_v t + \frac12 a t^2$, where $a = -9.81ms^{-2}$. |
+| How is the time of flight calculated in angled projectile motion? | $t = \frac{v - u_v}{a}$, where $v$ is the final vertical velocity (negative), $u_v$ is the initial vertical velocity, and $a = -9.81ms^{-2}$. |
+| What value is used for acceleration in the vertical SUVAT equations? | $a = -9.81ms^{-2}$ (gravity). |
+| How does the vertical displacement compare to vertical projectile motion? | The object may fall further (e.g., launched off a cliff) or less far (e.g., launched from a hole) than it rose. |
+

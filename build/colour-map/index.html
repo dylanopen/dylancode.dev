@@ -29,6 +29,17 @@ visualise it:</p>
 <tr><td>…</td><td>…</td></tr>
 <tr><td>15</td><td>white</td></tr>
 </tbody></table>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What is a colour map in a bitmap image?</td><td>A table that stores a mapping of binary numbers (pixel codes) to their corresponding colours, allowing association of pixel values with colours.</td></tr>
+<tr><td>How does colour depth relate to the colour map?</td><td>Colour depth determines the number of colours an image can represent, and the colour map specifies which binary number corresponds to which colour for each pixel.</td></tr>
+<tr><td>What is a pre-set colour map (e.g., in Windows BMP format)?</td><td>A hard-coded set of colours that all bitmaps of that format use by default, meaning the same colours are used for all images regardless of content.</td></tr>
+<tr><td>What limitation does a pre-set colour map have?</td><td>It is limited to the format’s default colours and cannot represent colours outside that pre-set map.</td></tr>
+<tr><td>What is a stored colour map and how does it differ from a pre-set colour map?</td><td>A stored colour map is a custom table stored in the image metadata that defines colour codes and their exact colours, allowing the image to replicate specific colours while using fewer bits per pixel.</td></tr>
+<tr><td>Where is a stored colour map located in an image file?</td><td>It is stored in the metadata of the image file.</td></tr>
+<tr><td>How would a stored colour map be visualised?</td><td>As a table mapping codes to colours, e.g., <im>0</im> = black, <im>1</im> = red, <im>2</im> = green, <im>3</im> = blue, <im>4</im> = yellow, …, <im>15</im> = white.</td></tr>
+<tr><td>What is the advantage of using a stored colour map?</td><td>It enables accurate replication of specific colours used in the image while keeping the number of bits per pixel low.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>

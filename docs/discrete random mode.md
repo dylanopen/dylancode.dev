@@ -37,3 +37,14 @@ probability of 0.4. So the [[mode]] is 4, which we can write as:
 $$
 \text{mode}(X) = 4
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the mode in the context of discrete random variables? | The mode is the value with the highest probability. |
+| How is the mode of a list of values X written in notation? | $\text{mode}(X)$ |
+| What happens if two or more values of X have the same, highest probability? | They are all modes of the variable. |
+| What is it called when there are two modes? | It is called bimodal. |
+| From the table <br/>| $X$ | $p(X)$ | <br/>| --- | ------ | <br/>| 1 | 0.1 | <br/>| 2 | 0.3 | <br/>| 3 | 0.2 | <br/>| 4 | 0.4 | <br/>what is $mode(X)$? | $\text{mode}(X) = 4$ |
+

@@ -34,3 +34,18 @@ The cycle has three main stages:
 Processors have a [[processor clock|clock]] that ticks at a certain frequency (measured in hertz). Each tick of the clock represents one cycle, and during each cycle, the [[processor]] can carry out one fetch-decode-execute cycle. So, if a [[processor]] has a [[clock speed]] of 3 GHz, it can carry out 3 billion fetch-decode-execute cycles per second!
 
 Look at the [[clock speed]] to see how quickly it does the fetch-execute cycle.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are the three main stages of the fetch-execute cycle? | Fetch data from memory, decode the instruction, execute the instruction |
+| What is the first thing a processor does in the fetch stage? | It reads the instruction it needs to execute by copying the program counter into the memory address register (MAR). |
+| How does the processor use the address bus during the fetch stage? | It copies the address from the MAR onto the address bus, which carries it to main memory. |
+| What happens after the memory returns an instruction during fetch? | The instruction is copied into the memory buffer register (MBR), then into the current instruction register (CIR). |
+| What happens to the program counter during the fetch stage? | The processor increments the program counter so it points to the next instruction for the next cycle. |
+| What does decoding an instruction mean? | Taking the raw instruction from the CIR and figuring out what operation it represents and what data it needs to operate on. |
+| What does the processor do during the execute stage? | It sends signals to the parts of the processor or computer that need to be involved in carrying out the instruction, often fetching or writing data to memory. |
+| How does the processor clock relate to the fetch-execute cycle? | Each tick of the clock represents one cycle, and during each cycle, the processor can carry out one fetch-decode-execute cycle. |
+| If a processor has a clock speed of 3 GHz, how many fetch-execute cycles can it carry out per second? | 3 billion fetch-decode-execute cycles per second. |
+

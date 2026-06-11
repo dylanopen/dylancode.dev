@@ -36,3 +36,14 @@ $$
 - $9^4 = 6561$.
 - So, $4 \times \log_3(9) = \log_3(6561)$.
 - **Answer:** $\log_3(6561)$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the rule for bringing a power out in front of a logarithm? | $\log_b(x^k) = k \times \log_b(x)$ |
+| How do you evaluate $\log_2(32^3)$? | Bring the power 3 to the front: $3 \times \log_2(32)$. Since $\log_2(32)=5$, then $3 \times 5 = 15$. |
+| How do you evaluate $\log_{10}(1000^4)$? | Bring the power 4 to the front: $4 \times \log_{10}(1000)$. Since $\log_{10}(1000)=3$, then $4 \times 3 = 12$. |
+| How do you rewrite a logarithm with a multiplier (e.g., $k \times \log_b(x)$) as a single logarithm? | $k \times \log_b(x) = \log_b(x^k)$ |
+| How do you write $4 \times \log_3(9)$ as a single logarithm? | The power becomes 4: $\log_3(9^4) = \log_3(6561)$. |
+

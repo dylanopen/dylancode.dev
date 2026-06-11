@@ -67,3 +67,15 @@ The adjacency matrix for this graph would be:
 | B | 1 | 0 | 2 | 1 |
 | C | 1 | 2 | 0 | 0 |
 | D | 0 | 1 | 0 | 0 |
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is an adjacency matrix used for? | A way to represent a graph using a square matrix, especially useful for representing graphs in computers. |
+| How is an adjacency matrix structured? | Rows and columns represent vertices; entries in the matrix indicate the number of edges attaching a node to another node. |
+| What property does the adjacency matrix of an undirected graph have? | It is symmetric along the main diagonal (top-left to bottom-right). |
+| Why is an undirected graph's adjacency matrix symmetric? | Because an edge from vertex $V1$ to vertex $V2$ is the same as an edge from $V2$ to $V1$. |
+| For an undirected graph with three vertices A, B, C forming a triangle (A-B, A-C, B-C), what is its adjacency matrix? | |   | A | B | C |<br/>|---|---|---|---|<br/>| A | 0 | 1 | 1 |<br/>| B | 1 | 0 | 1 |<br/>| C | 1 | 1 | 0 | |
+| For an undirected graph with vertices A, B, C, D where edges are A-B, A-C, B-C (double edge), and B-D, what is its adjacency matrix? | |   | A | B | C | D |<br/>|---|---|---|---|---|<br/>| A | 0 | 1 | 1 | 0 |<br/>| B | 1 | 0 | 2 | 1 |<br/>| C | 1 | 2 | 0 | 0 |<br/>| D | 0 | 1 | 0 | 0 | |
+

@@ -64,3 +64,16 @@ To find the turning points of a function, follow these steps:
   - $= 0 - 0 + 0$
   - $= 0$
 - **Answer**: The turning point is at $(0, 0)$.
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is a turning point on a curve? | The point at which the curve changes direction from increasing to decreasing (local maximum) or from decreasing to increasing (local minimum). |
+| What is the value of the first derivative at a turning point? | It is equal to zero: $f'(x) = 0$. |
+| What is a local maximum on a curve? | A point where the curve changes from increasing to decreasing (the gradient goes from positive to negative). |
+| What is a local minimum on a curve? | A point where the curve changes from decreasing to increasing (the gradient goes from negative to positive). |
+| What are the three steps to find the turning points of a function? | 1. Find the first derivative of the function.<br/>2. Set the first derivative equal to zero and solve for $x$.<br/>3. Substitute the $x$-values back into the original function to find the corresponding $y$-values. |
+| Find the turning points for the function $f(x) = x^3 - 3x^2 + 4$. | The turning points are at $(0, 4)$ and $(2, 0)$. |
+| Find the turning points for the function $f(x) = x^4 - 4x^3 + 6x^2$. | The turning point is at $(0, 0)$. |
+

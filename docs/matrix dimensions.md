@@ -69,3 +69,16 @@ $$
 3 & 4
 \end{bmatrix}
 $$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What are matrix dimensions? | The number of rows and columns a matrix has. |
+| How are matrix dimensions written? | As $m \times n$, where $m$ is the number of rows and $n$ is the number of columns. |
+| What are the dimensions of a matrix with 2 rows and 3 columns? | $2 \times 3$. |
+| What are the dimensions of a row vector with 4 columns? | $1 \times 4$. |
+| What are the dimensions of a column vector with 3 rows? | $3 \times 1$. |
+| What defines a square matrix? | It has the same number of rows and columns. |
+| What are the dimensions of a square matrix with 4 rows and 4 columns? | $4 \times 4$. |
+

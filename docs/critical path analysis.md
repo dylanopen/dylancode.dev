@@ -50,3 +50,17 @@ Draw the activity network:
 
 Find the early start times:
 ![[../../assets/activity networks 2.png|Early start times example 1]]
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| activity name | Shows the activity name, the early start time, duration and late finish time |
+| early start time | The earliest time that the activity can start, based on the durations of preceding activities |
+| duration | How long the activity takes |
+| late finish time | The latest time that the activity can finish without delaying the overall project |
+| float | The amount of time that an activity can be delayed without delaying the overall project |
+| float formula | $\text{Float}=\text{Late Finish}-\text{Early Start}-\text{Duration}$ |
+| critical path | The sequence of activities that have zero float; any delay in these activities will delay the overall project |
+| How do you find the critical path? | Calculate the early start and late finish times for each activity. Identify the activities with zero float. Trace the path through these activities from start to finish. |
+

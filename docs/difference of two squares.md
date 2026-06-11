@@ -52,3 +52,15 @@ This has a lot of uses. For example, it's a key step in the method of
 - So, $4x^2 - 1$ factorises to $(2x - 1)(2x + 1)$.
 
 **Answer**: $(2x - 1)(2x + 1)$
+
+## [[flashcards]]
+
+| Question | Answer |
+| --- | --- |
+| What is the difference of two squares pattern? | $a^2 - b^2$ |
+| How do you factorise $a^2 - b^2$? | $(a - b)(a + b)$ |
+| How do you expand $(a - b)(a + b)$? | $a^2 - b^2$ |
+| Factorise $x^2 - 9$. | $(x - 3)(x + 3)$ |
+| Expand $(x - 5)(x + 5)$. | $x^2 - 25$ |
+| Factorise $4x^2 - 1$. | $(2x - 1)(2x + 1)$ |
+

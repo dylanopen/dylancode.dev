@@ -33,6 +33,18 @@
 <h2>How frequently does this happen?</h2>
 <p>Processors have a <a href="/processor-clock">clock</a> that ticks at a certain frequency (measured in hertz). Each tick of the clock represents one cycle, and during each cycle, the <a href="/processor">processor</a> can carry out one fetch-decode-execute cycle. So, if a <a href="/processor">processor</a> has a <a href="/clock-speed">clock speed</a> of 3 GHz, it can carry out 3 billion fetch-decode-execute cycles per second!</p>
 <p>Look at the <a href="/clock-speed">clock speed</a> to see how quickly it does the fetch-execute cycle.</p>
+<h2><a href="/flashcards">flashcards</a></h2>
+<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody>
+<tr><td>What are the three main stages of the fetch-execute cycle?</td><td>Fetch data from memory, decode the instruction, execute the instruction</td></tr>
+<tr><td>What is the first thing a processor does in the fetch stage?</td><td>It reads the instruction it needs to execute by copying the program counter into the memory address register (MAR).</td></tr>
+<tr><td>How does the processor use the address bus during the fetch stage?</td><td>It copies the address from the MAR onto the address bus, which carries it to main memory.</td></tr>
+<tr><td>What happens after the memory returns an instruction during fetch?</td><td>The instruction is copied into the memory buffer register (MBR), then into the current instruction register (CIR).</td></tr>
+<tr><td>What happens to the program counter during the fetch stage?</td><td>The processor increments the program counter so it points to the next instruction for the next cycle.</td></tr>
+<tr><td>What does decoding an instruction mean?</td><td>Taking the raw instruction from the CIR and figuring out what operation it represents and what data it needs to operate on.</td></tr>
+<tr><td>What does the processor do during the execute stage?</td><td>It sends signals to the parts of the processor or computer that need to be involved in carrying out the instruction, often fetching or writing data to memory.</td></tr>
+<tr><td>How does the processor clock relate to the fetch-execute cycle?</td><td>Each tick of the clock represents one cycle, and during each cycle, the processor can carry out one fetch-decode-execute cycle.</td></tr>
+<tr><td>If a processor has a clock speed of 3 GHz, how many fetch-execute cycles can it carry out per second?</td><td>3 billion fetch-decode-execute cycles per second.</td></tr>
+</tbody></table>
 
 
 </div></div></body></html>
