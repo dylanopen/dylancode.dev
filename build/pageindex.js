@@ -1076,16 +1076,16 @@ pageIndex={
 },
 "/___777":{
 "_name":"C programming",
-"/cs/hello-world":{
-"_name":"hello world",
+"/c/hello-world":{
+"_name":"Hello World",
 "/c/project-setup":"Setting up a C project",
 "/c/hello-world":"Hello World",
 "/c/compiling-and-running":"Compiling and running code",
 },
 "/c/comments":"Comments",
 "/c/variables":"Variables",
-"/cs/data-types":{
-"_name":"data types",
+"/c/data-types":{
+"_name":"Data types",
 "/c/data-types":"Data types",
 "/c/integers":"Integers",
 "/c/short":"Short",
