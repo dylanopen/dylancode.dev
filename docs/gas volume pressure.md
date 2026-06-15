@@ -1,4 +1,4 @@
-# Gas volume & pressure
+# Gas volume & pressure (Boyle's law)
 
 - The higher the [[volume]] of a gas, the lower its [[pressure]].
     - This assumes that the other [[gas properties]] (temperature and mass) remain constant.
