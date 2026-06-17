@@ -831,7 +831,7 @@
         - [[cs/classes]]
         - [[cs/class declaration]]
         - [[cs/object instantiation]]
-        - [[cs/fields]]
+        - [[fields]]
         - [[cs/class methods]]
 - [[minecraft plugin]]
     - [[minecraft plugin/project structure]]

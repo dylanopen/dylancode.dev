@@ -25,7 +25,7 @@ int count = 1;
 while (count <= 5) {
     if (count == 3) {
         count++; // Increment count to avoid infinite loop
-        continue; // Skip the rest of the loop when count is 5
+        continue; // Skip the rest of the loop when count is 3
     }
     Console.WriteLine(count);
     count++; // Increment count by 1

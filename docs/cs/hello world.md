@@ -1,7 +1,6 @@
 # Hello world
 
 ## The code
-
 ```cs
 using System;
 namespace HelloWorld
@@ -10,7 +9,7 @@ namespace HelloWorld
     {
         public static void Main(String[] args)
         {
-	        Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!");
         }
     }
 }

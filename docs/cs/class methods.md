@@ -1,7 +1,7 @@
 # Class methods
 
 As previously mentioned, [[classes]] can store two different things:
-- [[cs/fields|fields]] - [[cs/variables|variables]] that hold data relevant to the class.
+- [[fields|class fields]] - [[cs/variables|variables]] that hold data relevant to the class.
 - *methods* - functions that are *attached* to the class and can operate on
   its data.
 
