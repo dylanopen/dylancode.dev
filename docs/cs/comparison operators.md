@@ -1,22 +1,22 @@
 # Comparison operators
 
-A *comparison operator* is an operator which usually compares two values.
+A *comparison / relational operator* is an operator which usually compares two values.
 
-It then gives a *[[boolean]]* result, which we can use to make decisions in our code
+It then gives a *[[booleans]]* result, which we can use to make decisions in our code
 (e.g. in [[if statements]] or [[loops]]).
 
-> The key thing is that they **evaluate to a [[boolean]] value** (true or false).
+> The key thing is that they **evaluate to a [[booleans]] value** (true or false).
 
 ## Cheatsheet
 
-| Operator | Name               | Description                          | Example        | Result  |
-|----------|--------------------|--------------------------------------|----------------|---------|
-| `==`     | Equal to           | Returns `true` if both values are equal | `5 == 5`      | `true`  |
-| `!=`     | Not equal to       | Returns `true` if both values are **not** equal | `5 != 3`      | `true`  |
-| `>`      | Greater than       | Returns `true` if the left value is greater than the right value | `7 > 4`       | `true`  |
-| `<`      | Less than          | Returns `true` if the left value is less than the right value | `2 < 5`       | `true`  |
-| `>=`     | Greater than or equal to | Returns `true` if the left value is greater than or equal to the right value | `6 >= 6`     | `true`  |
-| `<=`     | Less than or equal to    | Returns `true` if the left value is less than or equal to the right value | `3 <= 4`     | `true`  |
+| Operator | Name                     | Description                                                                  | Example  | Result |
+| -------- | ------------------------ | ---------------------------------------------------------------------------- | -------- | ------ |
+| `==`     | Equal to                 | Returns `true` if both values are equal                                      | `5 == 5` | `true` |
+| `!=`     | Not equal to             | Returns `true` if both values are **not** equal                              | `5 != 3` | `true` |
+| `>`      | Greater than             | Returns `true` if the left value is greater than the right value             | `7 > 4`  | `true` |
+| `<`      | Less than                | Returns `true` if the left value is less than the right value                | `2 < 5`  | `true` |
+| `>=`     | Greater than or equal to | Returns `true` if the left value is greater than or equal to the right value | `6 >= 6` | `true` |
+| `<=`     | Less than or equal to    | Returns `true` if the left value is less than or equal to the right value    | `3 <= 4` | `true` |
 
 ## Equal to (`==`)
 
