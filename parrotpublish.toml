@@ -1,0 +1,14 @@
+markdown-extensions = ["md", "markdown", "mdx", "commonmark", "cmark"]
+
+[templates]
+page = "static/template.html"
+
+[directories]
+docs = "docs"
+output = "build"
+static = "static"
+
+[ignore]
+dotfiles = true
+paths = []
+extensions = ["json"]

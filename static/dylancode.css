@@ -1,0 +1,261 @@
+@import url("/katex.css") layer(low-priority);
+
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    font-family: JetBrainsMono;
+    margin: auto;
+    background-color: #111215;
+    color: #fff;
+    line-height: 1.375;
+    font-size: 12pt;
+    padding: 12px;
+    min-width: 0;
+
+    max-width:1000px;
+}
+
+.katex-mathml {
+    display: none;
+}
+
+p, li {
+    color: #e7e7e7;
+}
+
+blockquote {
+    margin: 0;
+    border-style: solid;
+    border-color: #00aaff;
+    border-width: 0 0 0 2px;
+    padding: 6px 20px;
+    background-color: #00aaff0d;
+}
+
+blockquote p {
+    margin: 8px 0;
+}
+
+a {
+    color: #5bf;
+}
+a:visited {
+    color: #87f;
+}
+a.dead {
+    color: #25c;
+    text-decoration: none;
+}
+
+pre {
+    padding: 16px;
+    background-color: #0004;
+    border-radius: 8px;
+    overflow-x: scroll;
+    min-width: 0;
+    code {
+        font-size: 1em;
+        background-color: #0000;
+    }
+}
+code {
+    padding: 0px 7px 0px 7px;
+    display: inline-block;
+    border-radius: 0.25em;
+    margin: 0;
+    border: none;
+    background-color: #0003;
+    font-family: "JetBrainsMono";
+}
+
+.inline {
+    display: inline;
+}
+table {
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+th, td {
+    border: 0.5px solid #666;
+    padding: 8px;
+    text-align: center;
+    min-width: 60px;
+}
+h1 {
+    font-size: 2em;
+    margin: 16px 0;
+}
+h2 {
+    font-size: 1.6em;
+    margin: 16px 0;
+}
+h3 {
+    font-size: 1.4em;
+    margin: 16px 0;
+}
+h4 {
+    font-size: 1.2em;
+    margin: 16px 0;
+}
+pre {
+    padding: 16px;
+    background-color: #0004;
+    border-radius: 8px;
+    overflow-x: auto;
+    min-width: 0;
+    code {
+        font-size: 1em;
+        background-color: #0000;
+    }
+}
+code {
+    padding: 0px 7px 0px 7px;
+    display: inline-block;
+    border-radius: 0.25em;
+    margin: 0;
+    border: none;
+    background-color: #0003;
+    font-family: "JetBrainsMono";
+}
+img {
+    max-width: 100%;
+}
+
+.links-container {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+hr {
+    margin: 48px 0;
+}
+
+#footer {
+    text-align: center;
+    color: #777;
+    br {
+        margin: 4px;
+    }
+    img {
+        width: 32px;
+    }
+}
+
+.banner {
+    padding: 10px;
+    text-align: center;
+    a { color: #fff; }
+}
+
+ul.linkList {
+    list-style-type: none;
+    counter-reset: section;
+    -moz-column-count: 3;
+    -moz-column-gap: 14px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 14px;
+    column-count: 3;
+    column-gap: 14px;
+}
+
+ul.linkList li {
+    position: relative;
+}
+
+ul.linkList li:before {
+    text-align: right;
+    width: 2em;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+}
+
+.quote {
+    font-size: 1.25em;
+    color: #aaa;
+    padding-left: 12px;
+}
+
+.autogrid {
+    align-self: left;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.autogrid-item {
+    height: auto;
+    text-align: left;
+}
+

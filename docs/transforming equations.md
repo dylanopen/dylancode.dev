@@ -2,7 +2,7 @@
 
 | Transformation                  | Replace $x$ with | Replace $y$ with |
 | ------------------------------- | ---------------- | ---------------- |
-| Translation by $\pmatrix{a\\b}$ | $x-a$            | $y-b$            |
+| Translation by $\begin{pmatrix}a\\b\end{pmatrix}$ | $x-a$            | $y-b$            |
 | Horizontal stretch by $a$       | $\frac xa$       |                  |
 | Vertical stretch by $b$         |                  | $\frac yb$       |
 | Reflect in line $y=x$           | $y$              | $x$              |
