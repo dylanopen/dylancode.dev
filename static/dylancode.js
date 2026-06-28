@@ -61,7 +61,7 @@ function loadFooter() {
     let title = document.getElementsByTagName("h1")[0].innerText;
     let fullQuote = quote.replace("{{title}}", title.toLowerCase());
     footer.innerHTML = "<p>I'm Dylan: I write resources for maths & programming, completely free, forever, on this website.<br/>Talk to me on <a href='/discord'>Discord</a>!<br/><br/>"
-        + "<div class='autogrid'><a href='/'><img class='autogrid-item' src='/favicon.ico'/></a><span class='quote autogrid-item'>\"" + fullQuote + "\"</span></div>";
+        + "<a href='/'><img src='/favicon.ico'/></a><span class='quote'>\"" + fullQuote + "\"</span>";
 }
 
 const banners = [
@@ -120,7 +120,7 @@ const quotes = [
     "I'm just a few dozen coloured pixels and I still understand {{title}}. What's your excuse?",
     "Don't quit {{title}} yet. Go yell about it on our Discord instead.",
     "If this page on {{title}} breaks, tag @dylancode on Discord and blame me, the parrot: he always blames me :-(",
-    "Help! I've been stuck reading this page since 2025!"
+    "Help! I've been stuck reading this page since 2025!",
     "Imagine trying to learn {{title}} without a pixel parrot at the bottom of the screen. Unthinkable.",
     "I'd help you more with {{title}}, but I need to do my own parrot schoolwork.",
     "They told me I could be anything, so I became a {{title}} tutor.",
@@ -130,11 +130,11 @@ const quotes = [
     "I wants you to actually finish the {{title}} section today. *I'm watching you...*",
     "I’m not parroting the textbook; this is genuine {{title}} wisdom.",
     "If I had a dollar for every time someone got stuck on {{title}}... I'd buy more pixels.",
-    "I remember squawking so loud when I finally learned this page that my sister parrot came to check on me..."
+    "I remember squawking so loud when I finally learned this page that my sister parrot came to check on me...",
     "I might be a bird, but even I know the most important parts of {{title}}.",
     "My beak is perfectly shaped for eating seeds and judging your abilities in {{title}}.",
     "You think {{title}} is hard? Try flying into a closed glass window.",
-    "I'm the Precise Analyst for Revision Resources Online Trustworthiness inspector. Some call me Inspector P.A.R.R.O.T."
+    "I'm the Precise Analyst for Revision Resources Online Trustworthiness inspector. Some call me Inspector P.A.R.R.O.T.",
     "Preening my feathers takes 5 minutes. Understanding {{title}} takes a bit longer.",
     "If you can't explain {{title}} to a parrot, do you really know it?",
     "Just a bird-brain doing bird-brain things... like mastering {{title}}.",
