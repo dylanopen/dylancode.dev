@@ -1,4 +1,4 @@
-# Boolean
+# Booleans
 
 A *boolean* is a datatype which only has two possible states:
 - `true`

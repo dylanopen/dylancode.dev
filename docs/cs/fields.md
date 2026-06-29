@@ -77,7 +77,9 @@ myCar.year = 2015;     // OK
 myCar.price = 6849.99; // Errors!
 ```
 
-That's because `make` and `year` are `public`, while `price` is `private`.
+That's because `make` and `year` are `public`, while `price` is `private`. We don't actually have to add the `private` keyword: things are private *by default* in C#.
 
 If however we're in a method inside the `Car` class, we can access all three
 fields.
+
+You'll see why this is useful when learning about [[cs/class constructors|constructors]]!

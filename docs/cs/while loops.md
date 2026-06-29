@@ -21,7 +21,7 @@ while (condition) {
 }
 ```
 
-The `condition` has to evaluate to a [[boolean]] value (`true` or `false`).
+The `condition` has to evaluate to a [[booleans]] value (`true` or `false`).
 
 > While [[loops]] can be confusing, but *all* that is happening here is that the
 > code inside the `{}` is being repeated as long as the condition is true.

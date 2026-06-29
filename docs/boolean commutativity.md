@@ -14,7 +14,7 @@ This applies for lots of operations, including:
 - NOR: $\overline{A + B} = \overline{B + A}$
 
 Links:
-- [[boolean]]
+- [[booleans]]
 
 ## [[flashcards]]
 

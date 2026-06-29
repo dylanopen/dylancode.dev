@@ -13,7 +13,7 @@ sign', so, for example, $\overline{A \cdot B}$ becomes $\overline{A} +
 > $\overline{A \cdot B} = \overline{A} + \overline{B}$  
 > $\overline{A + B} = \overline{A} \cdot \overline{B}$
 
-Like all [[boolean]] identities, we can use this in both directions, so we can also
+Like all [[booleans]] identities, we can use this in both directions, so we can also
 say that $\overline{A} + \overline{B} = \overline{A \cdot B}$ and
 $\overline{A} \cdot \overline{B} = \overline{A + B}$.
 

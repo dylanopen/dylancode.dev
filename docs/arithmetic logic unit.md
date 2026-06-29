@@ -14,7 +14,7 @@ Some examples of things the ALU can do are:
 - Addition, [[subtraction]], [[multiplication]], and [[riscv/division|division]] of [[integers]] and floating-point numbers.
 - Bitwise operations like AND, OR, XOR, NOT, and shifts.
 - Comparison operations like greater than, less than, equal to, etc.
-- Logical ([[boolean]]) operations like AND, OR, NOT, etc.
+- Logical ([[booleans]]) operations like AND, OR, NOT, etc.
 - Incrementing and decrementing values.
 - [[memory address]] calculations (pointer arithmetic).
 

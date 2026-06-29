@@ -79,7 +79,10 @@ What's the difference?
 
 We then can call these methods like this:
 - Static method: `ClassName.MethodName()`
-- Non-static method: `object.MethodName()`
+- Non-static method: `object.MethodName()` (we'll need to first create an object before calling)
+
+> **Which should you choose?**  
+> - Use static methods if the function *does not operate on specific data of an object*. If it doesn't need to 
 
 ## Return type
 

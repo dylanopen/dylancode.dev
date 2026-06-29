@@ -39,7 +39,7 @@ combine logic gates together to make more complex circuits.
   instructions from memory, decodes them, and tells the other parts of the
   processor what to do.
 - [[arithmetic logic unit|Arithmetic logic unit (ALU)]]: This is the part of the processor
-  that performs maths and [[boolean]] logic operations, like addition, [[subtraction]],
+  that performs maths and [[booleans]] logic operations, like addition, [[subtraction]],
   AND, OR, etc.
 - [[register|Registers]]: These are small, fast storage locations within the
   processor, where it can store data and instructions that it's currently

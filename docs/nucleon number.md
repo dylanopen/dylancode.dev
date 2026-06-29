@@ -2,6 +2,8 @@
 
 We used to call the nucleon number the "mass number".
 
+The nucleon number is the [[mass]] of one [[mole]] of a specific substance.
+
 ## Calculating nucleon number
 
 The nucleon number of an [[atom]] is the total number of [[proton]]s and [[neutron]]s in the [[atom]].

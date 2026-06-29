@@ -5,7 +5,7 @@
 The $n$th root**s** of unity, for $z^n=1$, are:
 
 > $$
-> 1,e^\frac{2\pi i}n,e^\frac{4\pi i}n,e^\frac{6\pi i}n,e^\frac{2(n-1)\pi i}n
+> 1,e^\frac{2\pi i}n,e^\frac{4\pi i}n,e^\frac{6\pi i}n,...,e^\frac{2(n-1)\pi i}n
 > $$
 
 ## Sum of roots of unity

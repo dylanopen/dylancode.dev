@@ -211,7 +211,7 @@ There's some numbers which, when we use them in powers, give us certain common v
 | ---------- | ------------- |
 | $a^{-1}$   | $\frac{1}{a}$ |
 | $(-a)^n$   | $(-1)^n a^n$  |
-
+.
 > $(-a)^n$ is $a^n$ if $n$ is even, and $-a^n$ if $n$ is odd.
 
 ---
