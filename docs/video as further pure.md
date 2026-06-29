@@ -1461,8 +1461,8 @@ TODO make better example
 + Instead of writing a 2D vector as, say, $\begin{pmatrix}2\\3\end{pmatrix}$, we can write it as $2i+3j$.
 + In 3D, we can write $\begin{pmatrix}1\\-2\\4\end{pmatrix}$ as $1i-2j+4k$.
 + $i$, $j$ and $k$ are just symbols that we use to represent the 'unit' vectors, in each direction:
-    + $i=\pmatrix{1\\0\\0}$, $j=\pmatrix{0\\1\\0}$, $k=\pmatrix{0\\0\\1}$ (for 3D)
-+ That shows we can just write $\pmatrix{4\\6\\8}$ as $4i+6j+8k$.
+    + $i=\begin{pmatrix}1\\0\\0\end{pmatrix}$, $j=\begin{pmatrix}0\\1\\0\end{pmatrix}$, $k=\begin{pmatrix}0\\0\\1\end{pmatrix}$ (for 3D)
++ That shows we can just write $\begin{pmatrix}4\\6\\8\end{pmatrix}$ as $4i+6j+8k$.
 
 ---
 
@@ -1622,10 +1622,10 @@ TODO make better example
 
 ---
 
-### Given that $r=\pmatrix{3\\1\\-2}+\lambda\pmatrix{3\\-4\\1}$ and $r=\pmatrix{-12\\a\\-3}+\mu\pmatrix{3\\2\\-1}$, find $a$
+### Given that $r=\begin{pmatrix}3\\1\\-2\end{pmatrix}+\lambda\begin{pmatrix}3\\-4\\1\end{pmatrix}$ and $r=\begin{pmatrix}-12\\a\\-3\end{pmatrix}+\mu\begin{pmatrix}3\\2\\-1\end{pmatrix}$, find $a$
 
-+ $\pmatrix{3\\1\\-2}+\lambda\pmatrix{3\\-4\\1}=\pmatrix{-12\\a\\-3}+\mu\pmatrix{3\\2\\-1}$
-+ $\pmatrix{3\lambda+3\\-4\lambda+1\\\lambda-2}=\pmatrix{3\mu-12\\2\mu+a\\-\mu-3}$
++ $\begin{pmatrix}3\\1\\-2\end{pmatrix}+\lambda\begin{pmatrix}3\\-4\\1\end{pmatrix}=\begin{pmatrix}-12\\a\\-3\end{pmatrix}+\mu\begin{pmatrix}3\\2\\-1\end{pmatrix}$
++ $\begin{pmatrix}3\lambda+3\\-4\lambda+1\\\lambda-2\end{pmatrix}=\begin{pmatrix}3\mu-12\\2\mu+a\\-\mu-3\end{pmatrix}$
 + $3\lambda-3\mu= -15$
 + $\lambda+\mu=-1$
     + $\lambda=-3$, $\mu=2$
@@ -1637,17 +1637,17 @@ TODO make better example
 
 ---
 
-### $r=\pmatrix{3\\1\\-2}+\lambda\pmatrix{3\\-4\\1}$ and $r=\pmatrix{-12\\9\\-3}+\mu\pmatrix{3\\2\\-1}$, find the point of intersection
+### $r=\begin{pmatrix}3\\1\\-2\end{pmatrix}+\lambda\begin{pmatrix}3\\-4\\1\end{pmatrix}$ and $r=\begin{pmatrix}-12\\9\\-3\end{pmatrix}+\mu\begin{pmatrix}3\\2\\-1\end{pmatrix}$, find the point of intersection
 
 + We found that $\lambda=-3$ and $\mu=2$, where they intersect
 + Substitute $\lambda=-3$ into the first line:
-    + $r=\pmatrix{3\\1\\-2}+\lambda\pmatrix{3\\-4\\1}$
-    + $r=\pmatrix{3\\1\\-2}+(-3)\pmatrix{3\\-4\\1}$
-    + $r=\pmatrix{-6\\13\\-5}$ is the point of intersection
+    + $r=\begin{pmatrix}3\\1\\-2\end{pmatrix}+\lambda\begin{pmatrix}3\\-4\\1\end{pmatrix}$
+    + $r=\begin{pmatrix}3\\1\\-2\end{pmatrix}+(-3)\begin{pmatrix}3\\-4\\1\end{pmatrix}$
+    + $r=\begin{pmatrix}-6\\13\\-5\end{pmatrix}$ is the point of intersection
 + We can check by substituting $\mu=2$ into the second line:
-    + $r=\pmatrix{-12\\9\\-3}+\mu\pmatrix{3\\2\\-1}$
-    + $r=\pmatrix{-12\\9\\-3}+2\pmatrix{3\\2\\-1}$
-    + $r=\pmatrix{-6\\13\\-5}$, which is the same point, so that checks out.
+    + $r=\begin{pmatrix}-12\\9\\-3\end{pmatrix}+\mu\begin{pmatrix}3\\2\\-1\end{pmatrix}$
+    + $r=\begin{pmatrix}-12\\9\\-3\end{pmatrix}+2\begin{pmatrix}3\\2\\-1\end{pmatrix}$
+    + $r=\begin{pmatrix}-6\\13\\-5\end{pmatrix}$, which is the same point, so that checks out.
 
 ---
 
@@ -1713,7 +1713,7 @@ TODO make better example
 
 ---
 
-### Find the angle between $r=\pmatrix{3\\1\\-2}+\lambda\pmatrix{3\\-4\\1}$ and $r=\pmatrix{-12\\9\\-3}+\mu\pmatrix{3\\2\\-1}$
+### Find the angle between $r=\begin{pmatrix}3\\1\\-2\end{pmatrix}+\lambda\begin{pmatrix}3\\-4\\1\end{pmatrix}$ and $r=\begin{pmatrix}-12\\9\\-3\end{pmatrix}+\mu\begin{pmatrix}3\\2\\-1\end{pmatrix}$
 
 + $\vec a=\begin{pmatrix}3\\-4\\1\end{pmatrix}$, $\vec b=\begin{pmatrix}3\\2\\-1\end{pmatrix}$ (direction vectors)
 + $\vec a\cdot\vec b=3(3)+(-4)(2)+1(-1)=9-8-1=0$
@@ -1740,13 +1740,13 @@ TODO make better example
 ## Vector to Cartesian line: 2D
 
 + If we have a 2D vector line and want to find it as a vector equation:
-    + Find the gradient - the gradient of $\pmatrix{a\\b}=\frac ba$
+    + Find the gradient - the gradient of $\begin{pmatrix}a\\b\end{pmatrix}=\frac ba$
     + Use the $x$ and $y$ value of the point we know, then substitute them into $y-y_1=m(x-x_1)$
 
 ---
 
 
-### Find the Cartesian equation of the line $r=\pmatrix{1\\2}+\lambda\pmatrix{3\\4}$
+### Find the Cartesian equation of the line $r=\begin{pmatrix}1\\2\end{pmatrix}+\lambda\begin{pmatrix}3\\4\end{pmatrix}$
 
 - $m=\frac43$
 - $y_1=2$
@@ -1763,9 +1763,9 @@ TODO make better example
 
 ---
 
-### Find the Cartesian equation of the line $r=\pmatrix{1\\2\\3}+\lambda\pmatrix{3\\4\\5}$
+### Find the Cartesian equation of the line $r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\lambda\begin{pmatrix}3\\4\\5\end{pmatrix}$
 
-+ $\pmatrix{x\\y\\z}=\pmatrix{1\\2\\3}+\lambda\pmatrix{3\\4\\5}$
++ $\begin{pmatrix}x\\y\\z\end{pmatrix}=\begin{pmatrix}1\\2\\3\end{pmatrix}+\lambda\begin{pmatrix}3\\4\\5\end{pmatrix}$
     + $x=1+3\lambda\rightarrow\lambda=\frac{x-1}3$
     + $y=2+4\lambda\rightarrow\lambda=\frac{y-2}4$
     + $z=3+5\lambda\rightarrow\lambda=\frac{z-3}5$ 
@@ -1848,5 +1848,5 @@ TODO make better example
 | What is the dot product of $\begin{pmatrix}a\\b\\c\end{pmatrix}$ and $\begin{pmatrix}d\\e\\f\end{pmatrix}$? | $ad+be+cf$ |
 | How do you find the angle between two vector lines using the dot product? | $\theta=\cos^{-1}\left(\frac{\vec a\cdot\vec b}{|\vec a||\vec b|}\right)$, where $\vec a$ and $\vec b$ are the direction vectors. |
 | What does a dot product of $0$ indicate about two lines? | They are perpendicular (the angle is $90^\circ$). |
-| Find the Cartesian equation of the line $r=\pmatrix{1\\2\\3}+\lambda\pmatrix{3\\4\\5}$. | $\frac{x-1}3=\frac{y-2}4=\frac{z-3}5$ |
+| Find the Cartesian equation of the line $r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\lambda\begin{pmatrix}3\\4\\5\end{pmatrix}$. | $\frac{x-1}3=\frac{y-2}4=\frac{z-3}5$ |
 

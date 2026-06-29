@@ -17,7 +17,7 @@ matrix*, $I$.
 
 ### Find the inverse matrix of $\begin{bmatrix} 4 & 2 \\ 5 & 3 \end{bmatrix}$
 
-- $\pmatrix{4 & 2 \\ 5 & 3}\pmatrix{a & b \\ c & d} = \pmatrix{1 & 0 \\ 0 & 1}$
+- $\begin{pmatrix}4 & 2 \\ 5 & 3\end{pmatrix}\begin{pmatrix}a & b \\ c & d\end{pmatrix} = \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$
 - $4a + 2c = 1$
 - $4b + 2d = 0$
 - $5a + 3c = 0$
@@ -34,7 +34,7 @@ matrix*, $I$.
 
 ## General form of the inverse matrix
 
-- Let $M=\pmatrix{a&b\\c&d}$
+- Let $M=\begin{pmatrix}a&b\\c&d\end{pmatrix}$
 - Find the [[matrix determinant|determinant]]:
   - $ad-bc$
 - Swap around the placement of  $a$ and $d$
@@ -44,28 +44,28 @@ matrix*, $I$.
 From that, we can derive the formula of the inverse of a 2x2 matrix:
 
 $$
-M^{-1}=\frac1{ad-bc}\pmatrix{d&-b\\-c&a}
+M^{-1}=\frac1{ad-bc}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}
 $$
 
 ### Find the inverse matrix of $\begin{bmatrix} 4 & 2 \\ 5 & 3 \end{bmatrix}$ using the general form
 
 - $a=4$, $b=2$, $c=5$, $d=3$
 - $ad-bc = 4\times 3 - 2\times 5 = 12 - 10 = 2$
-- $M^{-1} = \frac{1}{2}\pmatrix{3 & -2 \\ -5 & 4} = \pmatrix{\frac{3}{2} & -1 \\ -\frac{5}{2} & 2}$
+- $M^{-1} = \frac{1}{2}\begin{pmatrix}3 & -2 \\ -5 & 4\end{pmatrix} = \begin{pmatrix}\frac{3}{2} & -1 \\ -\frac{5}{2} & 2\end{pmatrix}$
 - **Answer**: $\begin{bmatrix} \frac{3}{2} & -1 \\ -\frac{5}{2} & 2 \end{bmatrix}$
 
 ### Find the inverse of $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$
 
 - $a=1$, $b=2$, $c=3$, $d=4$
 - $ad-bc = 1\times 4 - 2\times 3 = 4 - 6 = -2$
-- $M^{-1} = \frac{1}{-2}\pmatrix{4 & -2 \\ -3 & 1} = \pmatrix{-2 & 1 \\ \frac{3}{2} & -\frac{1}{2}}$
+- $M^{-1} = \frac{1}{-2}\begin{pmatrix}4 & -2 \\ -3 & 1\end{pmatrix} = \begin{pmatrix}-2 & 1 \\ \frac{3}{2} & -\frac{1}{2}\end{pmatrix}$
 - **Answer**: $\begin{bmatrix} -2 & 1 \\ \frac{3}{2} & -\frac{1}{2} \end{bmatrix}$
 
 ### Find the inverse of $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
 
 - $a=1$, $b=0$, $c=0$, $d=1$
 - $ad-bc = 1\times 1 - 0\times 0 = 1$
-- $M^{-1} = \frac{1}{1}\pmatrix{1 & 0 \\ 0 & 1} = \pmatrix{1 & 0 \\ 0 & 1}$
+- $M^{-1} = \frac{1}{1}\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix} = \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$
 - **Answer**: $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
 
 ### The inverse of a matrix $M$ is $\begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}$. What is $M$?
@@ -77,7 +77,7 @@ $$
 - $M = \begin{bmatrix} 2 & 3 \\ 4 & 5 \end{bmatrix}^{-1}$
 - $a=2$, $b=3$, $c=4$, $d=5$
 - $ad-bc = 2\times 5 - 3\times 4 = 10 - 12 = -2$
-- $M = \frac{1}{-2}\pmatrix{5 & -3 \\ -4 & 2} = \pmatrix{-\frac{5}{2} & \frac{3}{2} \\ 2 & -1}$
+- $M = \frac{1}{-2}\begin{pmatrix}5 & -3 \\ -4 & 2\end{pmatrix} = \begin{pmatrix}-\frac{5}{2} & \frac{3}{2} \\ 2 & -1\end{pmatrix}$
 - **Answer**: $\begin{bmatrix} -\frac{5}{2} & \frac{3}{2} \\ 2 & -1 \end{bmatrix}$
 
 ## Find the inverse of matrix product $AB$

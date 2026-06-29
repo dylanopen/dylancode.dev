@@ -16,46 +16,46 @@ vectors between all points.
 
 ### Find the vector between the point $A=(-2,4)$ and $B=(3,7)$
 
-- $\vec a=\pmatrix{-2\\4}$
-- $\vec b=\pmatrix{3\\7}$
+- $\vec a=\begin{pmatrix}-2\\4\end{pmatrix}$
+- $\vec b=\begin{pmatrix}3\\7\end{pmatrix}$
 - $\vec{AB}=\vec b - \vec a$
-  - $=\pmatrix{3\\7} - \pmatrix{-2\\4}$
-  - $=\pmatrix{5\\3}$
-- **Answer**: $\vec{AB}=\pmatrix{5\\3}$
+  - $=\begin{pmatrix}3\\7\end{pmatrix} - \begin{pmatrix}-2\\4\end{pmatrix}$
+  - $=\begin{pmatrix}5\\3\end{pmatrix}$
+- **Answer**: $\vec{AB}=\begin{pmatrix}5\\3\end{pmatrix}$
 
 ### Find ALL vectors between the points $A=(1,2,3)$, $B=(4,0,5)$ and $C=(2,6,1)$
 
-- $\vec a=\pmatrix{1\\2\\3}$
-- $\vec b=\pmatrix{4\\0\\5}$
-- $\vec c=\pmatrix{2\\6\\1}$
+- $\vec a=\begin{pmatrix}1\\2\\3\end{pmatrix}$
+- $\vec b=\begin{pmatrix}4\\0\\5\end{pmatrix}$
+- $\vec c=\begin{pmatrix}2\\6\\1\end{pmatrix}$
 - $\vec{AB}=\vec b - \vec a$
-  - $=\pmatrix{4\\0\\5} - \pmatrix{1\\2\\3}$
-  - $=\pmatrix{3\\-2\\2}$
+  - $=\begin{pmatrix}4\\0\\5\end{pmatrix} - \begin{pmatrix}1\\2\\3\end{pmatrix}$
+  - $=\begin{pmatrix}3\\-2\\2\end{pmatrix}$
 - $\vec{AC}=\vec c - \vec a$
-  - $=\pmatrix{2\\6\\1} - \pmatrix{1\\2\\3}$
-  - $=\pmatrix{1\\4\\-2}$
+  - $=\begin{pmatrix}2\\6\\1\end{pmatrix} - \begin{pmatrix}1\\2\\3\end{pmatrix}$
+  - $=\begin{pmatrix}1\\4\\-2\end{pmatrix}$
 - $\vec{BC}=\vec c - \vec b$
-  - $=\pmatrix{2\\6\\1} - \pmatrix{4\\0\\5}$
-  - $=\pmatrix{-2\\6\\-4}$
+  - $=\begin{pmatrix}2\\6\\1\end{pmatrix} - \begin{pmatrix}4\\0\\5\end{pmatrix}$
+  - $=\begin{pmatrix}-2\\6\\-4\end{pmatrix}$
 - **Answers**:
-  - $\vec{AB}=\pmatrix{3\\-2\\2}$
-  - $\vec{AC}=\pmatrix{1\\4\\-2}$
-  - $\vec{BC}=\pmatrix{-2\\6\\-4}$
+  - $\vec{AB}=\begin{pmatrix}3\\-2\\2\end{pmatrix}$
+  - $\vec{AC}=\begin{pmatrix}1\\4\\-2\end{pmatrix}$
+  - $\vec{BC}=\begin{pmatrix}-2\\6\\-4\end{pmatrix}$
 
 ## Finding the vector equation from points
 
 ### Find a vector equation of the line between the points $(2,3)$ and $(5,1)$
 
 - Let $\vec a$ be the position vector of $A$ from the origin:
-  - $\vec A = \pmatrix{2 \\ 3}$
+  - $\vec A = \begin{pmatrix}2 \\ 3\end{pmatrix}$
 - $\vec{AB} = \vec B - \vec A$
-  - $= \pmatrix{5 \\ 1} - \pmatrix{2 \\ 3}$
-  - $= \pmatrix{3 \\ -2}$
-- So the **direction** vector is $\pmatrix{3 \\ -2}$.
+  - $= \begin{pmatrix}5 \\ 1\end{pmatrix} - \begin{pmatrix}2 \\ 3\end{pmatrix}$
+  - $= \begin{pmatrix}3 \\ -2\end{pmatrix}$
+- So the **direction** vector is $\begin{pmatrix}3 \\ -2\end{pmatrix}$.
 - Equation of a line:
   - $\vec r = \vec a + \lambda \vec d$
-  - $= \pmatrix{ 2 \\ 3 } + \lambda \pmatrix{ 3 \\ -2 }$
-- **Answer**: $\vec r = \pmatrix{ 2 \\ 3 } + \lambda \pmatrix{ 3 \\ -2 }$
+  - $= \begin{pmatrix} 2 \\ 3 \end{pmatrix} + \lambda \begin{pmatrix} 3 \\ -2 \end{pmatrix}$
+- **Answer**: $\vec r = \begin{pmatrix} 2 \\ 3 \end{pmatrix} + \lambda \begin{pmatrix} 3 \\ -2 \end{pmatrix}$
 
 > Note: there are multiple solutions to this line equation from the points
 > given. We can find other ones by using different vectors (e.g. using
@@ -63,17 +63,17 @@ vectors between all points.
 
 ### Find a vector equation of the line between the points $(1,0,2)$ and $(4,6,5)$
 - Let $\vec a$ be the position vector of $A$ from the origin:
-  - $\vec A = \pmatrix{1 \\ 0 \\ 2}$
+  - $\vec A = \begin{pmatrix}1 \\ 0 \\ 2\end{pmatrix}$
 - $\vec{AB} = \vec B - \vec A$
-  - $= \pmatrix{4 \\ 6 \\ 5} - \pmatrix{1 \\ 0 \\ 2}$
-  - $= \pmatrix{3 \\ 6 \\ 3}$
-- So the **direction** vector is $\pmatrix{3 \\ 6 \\ 3}$, which we can simplify
-  to $\pmatrix{1 \\ 2 \\ 1}$ (because it's just a direction and the magnitude is
+  - $= \begin{pmatrix}4 \\ 6 \\ 5\end{pmatrix} - \begin{pmatrix}1 \\ 0 \\ 2\end{pmatrix}$
+  - $= \begin{pmatrix}3 \\ 6 \\ 3\end{pmatrix}$
+- So the **direction** vector is $\begin{pmatrix}3 \\ 6 \\ 3\end{pmatrix}$, which we can simplify
+  to $\begin{pmatrix}1 \\ 2 \\ 1\end{pmatrix}$ (because it's just a direction and the magnitude is
   not important here).
 - Equation of a line:
   - $\vec r = \vec a + \lambda \vec d$
-  - $= \pmatrix{ 1 \\ 0 \\ 2 } + \lambda \pmatrix{ 1 \\ 2 \\ 1 }$
-- **Answer**: $\vec r = \pmatrix{ 1 \\ 0 \\ 2 } + \lambda \pmatrix{ 1 \\ 2 \\ 1 }$
+  - $= \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix} + \lambda \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatrix}$
+- **Answer**: $\vec r = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix} + \lambda \begin{pmatrix} 1 \\ 2 \\ 1 \end{pmatrix}$
 
 > Note: there are multiple solutions to this line equation from the points
 > given. We can find other ones by using different vectors (e.g. using
@@ -82,32 +82,32 @@ vectors between all points.
 ### Find a vector equation of the line between the points $(-2,4)$ and $(1,-2)$
 
 - Let $\vec a$ be the position vector of $A$ from the origin:
-  - $\vec A = \pmatrix{-2 \\ 4}$
+  - $\vec A = \begin{pmatrix}-2 \\ 4\end{pmatrix}$
 - $\vec{AB} = \vec B - \vec A$
-  - $= \pmatrix{1 \\ -2} - \pmatrix{-2 \\ 4}$
-  - $= \pmatrix{3 \\ -6}$
-- So the **direction** vector is $\pmatrix{3 \\ -6}$, which we can simplify
-  to $\pmatrix{1 \\ -2}$ (because it's just a direction and the magnitude is
+  - $= \begin{pmatrix}1 \\ -2\end{pmatrix} - \begin{pmatrix}-2 \\ 4\end{pmatrix}$
+  - $= \begin{pmatrix}3 \\ -6\end{pmatrix}$
+- So the **direction** vector is $\begin{pmatrix}3 \\ -6\end{pmatrix}$, which we can simplify
+  to $\begin{pmatrix}1 \\ -2\end{pmatrix}$ (because it's just a direction and the magnitude is
   not important here).
 - Equation of a line:
   - $\vec r = \vec a + \lambda \vec d$
-  - $= \pmatrix{ -2 \\ 4 } + \lambda \pmatrix{ 1 \\ -2 }$
-- **Answer**: $\vec r = \pmatrix{ -2 \\ 4 } + \lambda \pmatrix{ 1 \\ -2 }$
+  - $= \begin{pmatrix} -2 \\ 4 \end{pmatrix} + \lambda \begin{pmatrix} 1 \\ -2 \end{pmatrix}$
+- **Answer**: $\vec r = \begin{pmatrix} -2 \\ 4 \end{pmatrix} + \lambda \begin{pmatrix} 1 \\ -2 \end{pmatrix}$
 
 ## More complex exam-style questions
 
-### $A$ is the point $(3,1,4)$ and $AQ=18$. Find $Q$ if $A$ and $Q$ are on the line $r=\pmatrix{1 \\ 2 \\ 3} + \lambda \pmatrix{4 \\ -2 \\ -4}$
+### $A$ is the point $(3,1,4)$ and $AQ=18$. Find $Q$ if $A$ and $Q$ are on the line $r=\begin{pmatrix}1 \\ 2 \\ 3\end{pmatrix} + \lambda \begin{pmatrix}4 \\ -2 \\ -4\end{pmatrix}$
 
-- Find the length of vector $\pmatrix{4 \\ -2 \\ -4}$:
+- Find the length of vector $\begin{pmatrix}4 \\ -2 \\ -4\end{pmatrix}$:
   - $|\vec{d}| = \sqrt{4^2 + (-2)^2 + (-4)^2} = \pm\sqrt{16 + 4 + 16} = \pm\sqrt{36} = \pm6$
-  - $\lambda\times|\pmatrix{4 \\ -2 \\ -4}|=18$
+  - $\lambda\times|\begin{pmatrix}4 \\ -2 \\ -4\end{pmatrix}|=18$
   - $\lambda \times \pm6 = 18$
   - $\lambda = \pm3$
 - Find $Q$:
-  - $Q=\pmatrix{1 \\ 2 \\ 3} \pm 3 \pmatrix{4 \\ -2 \\ -4}$
-  - $=\pmatrix{1 \\ 2 \\ 3} \pm \pmatrix{12 \\ -6 \\ -12}$
-  - $=\pmatrix{13 \\ -4 \\ -9}$ or $\pmatrix{-11 \\ 8 \\ 15}$
-- **Answer**: $Q=\pmatrix{13 \\ -4 \\ -9}$ or $Q=\pmatrix{-11 \\ 8 \\ 15}$
+  - $Q=\begin{pmatrix}1 \\ 2 \\ 3\end{pmatrix} \pm 3 \begin{pmatrix}4 \\ -2 \\ -4\end{pmatrix}$
+  - $=\begin{pmatrix}1 \\ 2 \\ 3\end{pmatrix} \pm \begin{pmatrix}12 \\ -6 \\ -12\end{pmatrix}$
+  - $=\begin{pmatrix}13 \\ -4 \\ -9\end{pmatrix}$ or $\begin{pmatrix}-11 \\ 8 \\ 15\end{pmatrix}$
+- **Answer**: $Q=\begin{pmatrix}13 \\ -4 \\ -9\end{pmatrix}$ or $Q=\begin{pmatrix}-11 \\ 8 \\ 15\end{pmatrix}$
 
 ## [[flashcards]]
 
@@ -115,13 +115,13 @@ vectors between all points.
 | --- | --- |
 | What is the general vector form for the equation of a line? | $\vec r = \vec a + \lambda \vec d$ |
 | How do you find the vector between two points $A$ and $B$? | $\vec{AB} = \vec b - \vec a$ |
-| Find the vector between $A=(-2,4)$ and $B=(3,7)$. | $\vec{AB} = \pmatrix{5\\3}$ |
-| Find the vector $\vec{BC}$ for points $A=(1,2,3)$, $B=(4,0,5)$ and $C=(2,6,1)$. | $\vec{BC} = \pmatrix{-2\\6\\-4}$ |
-| How do you find the vector equation of the line through points $(2,3)$ and $(5,1)$? | $\vec r = \pmatrix{2\\3} + \lambda \pmatrix{3\\-2}$ |
-| Why might you simplify a direction vector like $\pmatrix{3\\6\\3}$ to $\pmatrix{1\\2\\1}$? | Because the magnitude is not important for the direction, so we can simplify it. |
-| Find a vector equation of the line between points $(1,0,2)$ and $(4,6,5)$. | $\vec r = \pmatrix{1\\0\\2} + \lambda \pmatrix{1\\2\\1}$ |
-| Find a vector equation of the line between points $(-2,4)$ and $(1,-2)$. | $\vec r = \pmatrix{-2\\4} + \lambda \pmatrix{1\\-2}$ |
-| What is the length (magnitude) of the direction vector $\pmatrix{4\\-2\\-4}$? | $|\vec d| = \sqrt{4^2 + (-2)^2 + (-4)^2} = \pm 6$ |
-| Given $A=(3,1,4)$, $AQ=18$, and the line $r=\pmatrix{1\\2\\3}+\lambda\pmatrix{4\\-2\\-4}$, what are the possible coordinates for $Q$? | $Q = \pmatrix{13\\-4\\-9}$ or $\pmatrix{-11\\8\\15}$ |
+| Find the vector between $A=(-2,4)$ and $B=(3,7)$. | $\vec{AB} = \begin{pmatrix}5\\3\end{pmatrix}$ |
+| Find the vector $\vec{BC}$ for points $A=(1,2,3)$, $B=(4,0,5)$ and $C=(2,6,1)$. | $\vec{BC} = \begin{pmatrix}-2\\6\\-4\end{pmatrix}$ |
+| How do you find the vector equation of the line through points $(2,3)$ and $(5,1)$? | $\vec r = \begin{pmatrix}2\\3\end{pmatrix} + \lambda \begin{pmatrix}3\\-2\end{pmatrix}$ |
+| Why might you simplify a direction vector like $\begin{pmatrix}3\\6\\3\end{pmatrix}$ to $\begin{pmatrix}1\\2\\1\end{pmatrix}$? | Because the magnitude is not important for the direction, so we can simplify it. |
+| Find a vector equation of the line between points $(1,0,2)$ and $(4,6,5)$. | $\vec r = \begin{pmatrix}1\\0\\2\end{pmatrix} + \lambda \begin{pmatrix}1\\2\\1\end{pmatrix}$ |
+| Find a vector equation of the line between points $(-2,4)$ and $(1,-2)$. | $\vec r = \begin{pmatrix}-2\\4\end{pmatrix} + \lambda \begin{pmatrix}1\\-2\end{pmatrix}$ |
+| What is the length (magnitude) of the direction vector $\begin{pmatrix}4\\-2\\-4\end{pmatrix}$? | $|\vec d| = \sqrt{4^2 + (-2)^2 + (-4)^2} = \pm 6$ |
+| Given $A=(3,1,4)$, $AQ=18$, and the line $r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\lambda\begin{pmatrix}4\\-2\\-4\end{pmatrix}$, what are the possible coordinates for $Q$? | $Q = \begin{pmatrix}13\\-4\\-9\end{pmatrix}$ or $\begin{pmatrix}-11\\8\\15\end{pmatrix}$ |
 | If $\lambda \times |\vec d| = 18$ and $|\vec d| = \pm 6$, what are the possible values of $\lambda$? | $\lambda = \pm 3$ |
 

@@ -76,16 +76,16 @@ $$
 ## Representing the number of combinations
 
 We can write the number of combinations of choosing $r$ items from a list of $n$
-items as either $^nC_r$ or $\pmatrix{n\\r}$.
+items as either $^nC_r$ or $\begin{pmatrix}n\\r\end{pmatrix}$.
 
 ## Common combinations
 
 $$
-\pmatrix{n\\0}=\pmatrix{n\\n}=1
+\begin{pmatrix}n\\0\end{pmatrix}=\begin{pmatrix}n\\n\end{pmatrix}=1
 $$
 
 $$
-\pmatrix{n\\1}=\pmatrix{n\\n-1}=n
+\begin{pmatrix}n\\1\end{pmatrix}=\begin{pmatrix}n\\n-1\end{pmatrix}=n
 $$
 
 ## [[flashcards]]
@@ -101,7 +101,7 @@ $$
 | What is the general formula for the binomial expansion of $(a+b)^n$? | $(a+b)^n = {^nC_0 a^n b^0} + {^nC_1 a^{n-1} b^1} + {^nC_2 a^{n-2} b^2} + ... + {^nC_n a^0 b^n}$ |
 | What is the expanded form of $(2+x)^4$? | $16 + 32x + 24x^2 + 8x^3 + x^4$ |
 | What is the expanded form of $(1+2x)^6$? | $1 + 12x + 60x^2 + 160x^3 + 240x^4 + 192x^5 + 64x^6$ |
-| What are the two standard notations for the number of combinations of choosing $r$ items from $n$? | $^nC_r$ and $\pmatrix{n\\r}$. |
-| What is the value of $\pmatrix{n\\0}$ and $\pmatrix{n\\n}$? | $1$ |
-| What is the value of $\pmatrix{n\\1}$ and $\pmatrix{n\\n-1}$? | $n$ |
+| What are the two standard notations for the number of combinations of choosing $r$ items from $n$? | $^nC_r$ and $\begin{pmatrix}n\\r\end{pmatrix}$. |
+| What is the value of $\begin{pmatrix}n\\0\end{pmatrix}$ and $\begin{pmatrix}n\\n\end{pmatrix}$? | $1$ |
+| What is the value of $\begin{pmatrix}n\\1\end{pmatrix}$ and $\begin{pmatrix}n\\n-1\end{pmatrix}$? | $n$ |
 

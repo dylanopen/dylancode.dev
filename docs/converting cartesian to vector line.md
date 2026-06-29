@@ -39,13 +39,13 @@ a denominator of $1$).
 
 - Change in $x = 4$
 - Change in $y = 3$
-- **Answer**: $\vec d = \pmatrix{4 \\ 3}$
+- **Answer**: $\vec d = \begin{pmatrix}4 \\ 3\end{pmatrix}$
 
 ### Find the direction vector from the gradient of $-2$
 
 - Change in $x = 1$
 - Change in $y = -2$
-- **Answer**: $\vec d = \pmatrix{1 \\ -2}$
+- **Answer**: $\vec d = \begin{pmatrix}1 \\ -2\end{pmatrix}$
 
 ## Finding a point on the line
 
@@ -67,13 +67,13 @@ these into the vector form equation to get the final answer.
 - Gradient $m = \frac{2}{3}$
   - Change in $x = 3$
   - Change in $y = 2$
-  - Direction vector $\vec d = \pmatrix{3 \\ 2}$
+  - Direction vector $\vec d = \begin{pmatrix}3 \\ 2\end{pmatrix}$
 - Y-intercept is at point $(0, 4)$
-  - Position vector $\vec a = \pmatrix{0 \\ 4}$
+  - Position vector $\vec a = \begin{pmatrix}0 \\ 4\end{pmatrix}$
 - Vector equation:
   - $\vec r = \vec a + \lambda \vec d$
-  - $= \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$
-- **Answer**: $\vec r = \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$
+  - $= \begin{pmatrix}0 \\ 4\end{pmatrix} + \lambda \begin{pmatrix}3 \\ 2\end{pmatrix}$
+- **Answer**: $\vec r = \begin{pmatrix}0 \\ 4\end{pmatrix} + \lambda \begin{pmatrix}3 \\ 2\end{pmatrix}$
 
 ## [[flashcards]]
 
@@ -86,9 +86,9 @@ these into the vector form equation to get the final answer.
 | In the vector equation $\vec r = \vec a + \lambda \vec d$, what does $\vec d$ represent? | The direction vector of the line. |
 | What is the role of $\lambda$ in the vector equation $\vec r = \vec a + \lambda \vec d$? | It is a scalar multiplier; changing it gives a new point on the line. |
 | How do you find the components of the direction vector from the gradient $m$? | The denominator of the gradient is the change in $x$, and the numerator is the change in $y$. (If there is no denominator, use $1$) |
-| Find the direction vector from a gradient of $\frac{3}{4}$. | $\vec d = \pmatrix{4 \\ 3}$ |
-| Find the direction vector from a gradient of $-2$. | $\vec d = \pmatrix{1 \\ -2}$ |
+| Find the direction vector from a gradient of $\frac{3}{4}$. | $\vec d = \begin{pmatrix}4 \\ 3\end{pmatrix}$ |
+| Find the direction vector from a gradient of $-2$. | $\vec d = \begin{pmatrix}1 \\ -2\end{pmatrix}$ |
 | How do you find a point on a line given its cartesian equation? | Substitute any value of $x$ into the cartesian equation to find the corresponding $y$. |
 | What is the easiest point to find on a line in the form $y = mx + c$? | The **y-intercept**, which is at the point $(0, c)$. |
-| Convert the cartesian equation $y = \frac{2}{3}x + 4$ to vector form. | $\vec r = \pmatrix{0 \\ 4} + \lambda \pmatrix{3 \\ 2}$ |
+| Convert the cartesian equation $y = \frac{2}{3}x + 4$ to vector form. | $\vec r = \begin{pmatrix}0 \\ 4\end{pmatrix} + \lambda \begin{pmatrix}3 \\ 2\end{pmatrix}$ |
 

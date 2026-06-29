@@ -8,7 +8,7 @@ For (infinitely) large values of $n$:
 
 Where:
 - $u_n$ is a term in the sequence
-- $u_{n+1} is the term in the sequence **after** $u_n$
+- $u_{n+1}$ is the term in the sequence **after** $u_n$
 - $L$ is the limit (the 'endpoint' of the sequence)
 
 ## [[flashcards]]

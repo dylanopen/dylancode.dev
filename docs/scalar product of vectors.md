@@ -11,13 +11,13 @@ also called the *dot product*.
 
 ## Scalar product rule for 2D
 
-For vectors $\vec a=\pmatrix{a_1\\a_2}$ and $b=\pmatrix{b_1\\b_2}$, then $\vec a\cdot\vec b=a_1b_1 + a_2b_2$.
+For vectors $\vec a=\begin{pmatrix}a_1\\a_2\end{pmatrix}$ and $b=\begin{pmatrix}b_1\\b_2\end{pmatrix}$, then $\vec a\cdot\vec b=a_1b_1 + a_2b_2$.
 
 ## Scalar product rule for 3D
 
 For 3D, it's exactly the same.
 
-For vectors $\vec a=\pmatrix{a_1\\a_2\\a_3}$ and $b=\pmatrix{b_1\\b_2\\b_3}$, then $\vec a\cdot\vec b=a_1b_1 + a_2b_2 + a_3b_3$.
+For vectors $\vec a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and $b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$, then $\vec a\cdot\vec b=a_1b_1 + a_2b_2 + a_3b_3$.
 
 ## Geometric definition
 
@@ -48,7 +48,7 @@ $$
 
 ## Applying the rules: finding the angle between two vectors
 
-### Find the angle between $\vec a=\pmatrix{3\\4}$ and $\vec b=\pmatrix{5\\-12}$
+### Find the angle between $\vec a=\begin{pmatrix}3\\4\end{pmatrix}$ and $\vec b=\begin{pmatrix}5\\-12\end{pmatrix}$
 
 - $\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}$
 - $\vec a \cdot \vec b = 3 \times 5 + 4 \times -12$
@@ -67,7 +67,7 @@ $$
   - $\approx 120.5^\degree$
 - So the angle between the two vectors is $120.5^\circ$ - we've solved it!!
 
-### Find the angle between $\vec a=\pmatrix{3\\5\\6}$ and $\vec b=\pmatrix{4\\2\\1}$
+### Find the angle between $\vec a=\begin{pmatrix}3\\5\\6\end{pmatrix}$ and $\vec b=\begin{pmatrix}4\\2\\1\end{pmatrix}$
 
 - $\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}$
 - $\vec a \cdot \vec b = a_1b_1 + a_2b_2 + a_3b_3$
@@ -85,7 +85,7 @@ $$
   - $\approx 51.2^\circ$
 - So the angle between the two vectors is $51.2^\circ$ :)
 
-### Find the angle between $\vec a=\pmatrix{3\\5\\6}$ and $\vec b=\pmatrix{4\\2\\1}$
+### Find the angle between $\vec a=\begin{pmatrix}3\\5\\6\end{pmatrix}$ and $\vec b=\begin{pmatrix}4\\2\\1\end{pmatrix}$
 
 ## Checking if vectors are perpendicular
 
@@ -103,12 +103,12 @@ $$
 | Question | Answer |
 | --- | --- |
 | What is the scalar product also known as? | The dot product. |
-| What is the scalar product rule for 2D vectors $\vec a=\pmatrix{a_1\\a_2}$ and $\vec b=\pmatrix{b_1\\b_2}$? | $\vec a\cdot\vec b=a_1b_1 + a_2b_2$. |
-| What is the scalar product rule for 3D vectors $\vec a=\pmatrix{a_1\\a_2\\a_3}$ and $\vec b=\pmatrix{b_1\\b_2\\b_3}$? | $\vec a\cdot\vec b=a_1b_1 + a_2b_2 + a_3b_3$. |
+| What is the scalar product rule for 2D vectors $\vec a=\begin{pmatrix}a_1\\a_2\end{pmatrix}$ and $\vec b=\begin{pmatrix}b_1\\b_2\end{pmatrix}$? | $\vec a\cdot\vec b=a_1b_1 + a_2b_2$. |
+| What is the scalar product rule for 3D vectors $\vec a=\begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and $\vec b=\begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$? | $\vec a\cdot\vec b=a_1b_1 + a_2b_2 + a_3b_3$. |
 | Give the geometric definition of the scalar product. | $\vec a \cdot \vec b = |\vec a| |\vec b| \cos \theta$. |
 | What formula is used to find $\cos\theta$ from the scalar product? | $\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}$. |
-| How do you find the angle between $\vec a=\pmatrix{3\\4}$ and $\vec b=\pmatrix{5\\-12}$? | $\vec a\cdot\vec b=-33$, $\;|\vec a|=5$, $\;|\vec b|=13$,<br/> $\cos\theta=\frac{-33}{65}$, $\;\theta=\cos^{-1}\left(\frac{-33}{65}\right)\approx 120.5^\circ$. |
-| How do you find the angle between $\vec a=\pmatrix{3\\5\\6}$ and $\vec b=\pmatrix{4\\2\\1}$? | $\vec a\cdot\vec b=28$, $\;|\vec a|=\sqrt{70}$, $\;|\vec b|=\sqrt{21}$,<br/> $\cos\theta=\frac{28}{\sqrt{1470}}$, $\;\theta=\cos^{-1}\left(\frac{28}{\sqrt{1470}}\right)\approx 51.2^\circ$. |
+| How do you find the angle between $\vec a=\begin{pmatrix}3\\4\end{pmatrix}$ and $\vec b=\begin{pmatrix}5\\-12\end{pmatrix}$? | $\vec a\cdot\vec b=-33$, $\;|\vec a|=5$, $\;|\vec b|=13$,<br/> $\cos\theta=\frac{-33}{65}$, $\;\theta=\cos^{-1}\left(\frac{-33}{65}\right)\approx 120.5^\circ$. |
+| How do you find the angle between $\vec a=\begin{pmatrix}3\\5\\6\end{pmatrix}$ and $\vec b=\begin{pmatrix}4\\2\\1\end{pmatrix}$? | $\vec a\cdot\vec b=28$, $\;|\vec a|=\sqrt{70}$, $\;|\vec b|=\sqrt{21}$,<br/> $\cos\theta=\frac{28}{\sqrt{1470}}$, $\;\theta=\cos^{-1}\left(\frac{28}{\sqrt{1470}}\right)\approx 51.2^\circ$. |
 | What is the condition for two vectors to be perpendicular? | If $\vec a \cdot \vec b=0$, then $\vec a \perp \vec b$. |
 | How do you prove the geometric definition of the scalar product? | Use the cosine rule on triangle formed by vectors $\vec a$, $\vec b$, and $\vec{AB}$: $\cos C=\frac{|\vec a|^2 + |\vec b|^2 - |\vec{AB}|^2}{2 |\vec a| |\vec b|}$, then simplify coordinates to get $\cos\theta=\frac{\vec a \cdot \vec b}{|\vec a| |\vec b|}$. |
 
