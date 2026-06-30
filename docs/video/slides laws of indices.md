@@ -225,14 +225,3 @@ There's some numbers which, when we use them in powers, give us certain common v
 + Raising a power to a power: multiply the indices.
 + Negative indices: take the reciprocal of the positive index.
 + Fractional indices: take the root of the base.
-
----
-
-## Thanks for watching!
-
-- Find more resources and videos at [[https://dylancode.dev|dylancode.dev]]
-- Subscribe for more maths content!
-- Leave a comment if you have any questions about indices or any other topic you'd like to see covered.
-- Talk to me on Discord: [[https://discord.gg/hR7TkYXn7u|discord.gg/hR7TkYXn7u]]
-
-(all links are in the description)

@@ -52,8 +52,8 @@ The absolute minimum code to get a Bevy app running is this:
 use bevy::prelude::*;
 
 fn main() {
-    App::new()
-        .run();
+    let mut app = App::new();
+    app.run();
 }
 ```
 
@@ -67,18 +67,30 @@ For now, we're going to be working with Bevy purely as an engine, and we won't t
 
 The `MinimalPlugins` plugin group is perfect for this - it just adds the bare minimum to get an event loop set up, without any graphics or windowing.
 
+We can add a plugin \[group\] using:
+
+```rust
+app.add_plugins(PluginGroup);
+```
+
 We'll add it to our app like this:
 
 ```rust
 use bevy::prelude::*;
 
 fn main() {
-    App::new()
-        .add_plugins(MinimalPlugins) // new line
-        .run();
+    let mut app = App::new();
+    app.add_plugins(MinimalPlugins); // new line
+    app.run();
 }
 ```
 
 > This code will be the basis for all future Bevy code we write, so make sure you have it in your project before moving on.
 
 You'll now notice that our app doesn't immediately quit - that's because the `MinimalPlugins` group runs a game loop, so that we can run systems on repeat until we quit the app.
+
+We have our first Bevy app - though admittedly, it's not particularly exciting. Let's [[bevy systems|make it do something]]!
+
+## Source code
+
+You can find the full project at <https://github.com/dylanopen/bevy_tutorial/blob/intro/src/main.rs>

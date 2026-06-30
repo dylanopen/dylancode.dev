@@ -3,6 +3,7 @@
 Learn how to code games using Bevy and Rust.
 
 - [[bevy intro]]
+- [[bevy ecs]]
 - [[bevy systems]]
 - [[bevy components]]
 - [[bevy entities]]
