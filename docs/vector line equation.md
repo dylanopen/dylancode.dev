@@ -109,19 +109,3 @@ vectors between all points.
   - $=\begin{pmatrix}13 \\ -4 \\ -9\end{pmatrix}$ or $\begin{pmatrix}-11 \\ 8 \\ 15\end{pmatrix}$
 - **Answer**: $Q=\begin{pmatrix}13 \\ -4 \\ -9\end{pmatrix}$ or $Q=\begin{pmatrix}-11 \\ 8 \\ 15\end{pmatrix}$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is the general vector form for the equation of a line? | $\vec r = \vec a + \lambda \vec d$ |
-| How do you find the vector between two points $A$ and $B$? | $\vec{AB} = \vec b - \vec a$ |
-| Find the vector between $A=(-2,4)$ and $B=(3,7)$. | $\vec{AB} = \begin{pmatrix}5\\3\end{pmatrix}$ |
-| Find the vector $\vec{BC}$ for points $A=(1,2,3)$, $B=(4,0,5)$ and $C=(2,6,1)$. | $\vec{BC} = \begin{pmatrix}-2\\6\\-4\end{pmatrix}$ |
-| How do you find the vector equation of the line through points $(2,3)$ and $(5,1)$? | $\vec r = \begin{pmatrix}2\\3\end{pmatrix} + \lambda \begin{pmatrix}3\\-2\end{pmatrix}$ |
-| Why might you simplify a direction vector like $\begin{pmatrix}3\\6\\3\end{pmatrix}$ to $\begin{pmatrix}1\\2\\1\end{pmatrix}$? | Because the magnitude is not important for the direction, so we can simplify it. |
-| Find a vector equation of the line between points $(1,0,2)$ and $(4,6,5)$. | $\vec r = \begin{pmatrix}1\\0\\2\end{pmatrix} + \lambda \begin{pmatrix}1\\2\\1\end{pmatrix}$ |
-| Find a vector equation of the line between points $(-2,4)$ and $(1,-2)$. | $\vec r = \begin{pmatrix}-2\\4\end{pmatrix} + \lambda \begin{pmatrix}1\\-2\end{pmatrix}$ |
-| What is the length (magnitude) of the direction vector $\begin{pmatrix}4\\-2\\-4\end{pmatrix}$? | $|\vec d| = \sqrt{4^2 + (-2)^2 + (-4)^2} = \pm 6$ |
-| Given $A=(3,1,4)$, $AQ=18$, and the line $r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\lambda\begin{pmatrix}4\\-2\\-4\end{pmatrix}$, what are the possible coordinates for $Q$? | $Q = \begin{pmatrix}13\\-4\\-9\end{pmatrix}$ or $\begin{pmatrix}-11\\8\\15\end{pmatrix}$ |
-| If $\lambda \times |\vec d| = 18$ and $|\vec d| = \pm 6$, what are the possible values of $\lambda$? | $\lambda = \pm 3$ |
-

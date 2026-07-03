@@ -25,11 +25,3 @@ Kuratowski's theorem is a way of telling whether a graph is [[planar graph|plana
 
 > A graph is non-planar only if it contains a [[subgraph]] that is a [[graph subdivision|subdivision]] of either $K_5$ or $K_{3,3}$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is a planar graph? | A graph which can be drawn so that no edges cross. |
-| What is Euler's formula for any connected planar graph? | $V - E + F = 2$, where $V$ = vertices, $E$ = edges, $F$ = faces (including the outer infinite face). |
-| In Euler's formula for planar graphs, what does $F$ represent? | The number of faces, including the outer infinite face. |
-

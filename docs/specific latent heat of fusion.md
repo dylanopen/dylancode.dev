@@ -4,9 +4,3 @@ The [[specific latent heat]] of [[fusion]] is the amount of [[thermal energy]] r
 
 
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is the specific latent heat of fusion? | The amount of thermal energy required to melt $1kg$ of a solid into a liquid. |
-

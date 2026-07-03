@@ -2,9 +2,3 @@
 
 The purpose of a chi-squared [[hypothesis test]] is to determine whether there is a *significant* [[association]] (link) between two [[categorical variable]]s.
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is the purpose of a chi-squared hypothesis test? | To determine whether there is a significant association (link) between two categorical variables. |
-

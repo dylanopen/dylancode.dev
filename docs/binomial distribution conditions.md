@@ -7,9 +7,3 @@ For us to be able to use a [[binomial distribution]] on data, we need a few thin
 - The trials are independent (the outcome of one trial doesn't affect the outcome of the next trial)
 
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What are the four conditions required to use a binomial distribution? | 1. Only two outcomes (success/failure). <br/>2. Fixed number of trials. <br/>3. Constant probability of success. <br/>4. Independent trials. |
-

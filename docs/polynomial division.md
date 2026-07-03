@@ -35,8 +35,3 @@ make.
 
 > TODO: complete this example
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-

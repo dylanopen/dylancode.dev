@@ -34,8 +34,3 @@ If all these aspects match, the graphs are isomorphic!
 
 Two [[complete graph]]s with the same **order** will be *isomorphic*.
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-

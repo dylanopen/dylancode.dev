@@ -7,8 +7,3 @@ $$
 a(x+yi)=ax+ayi
 $$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-

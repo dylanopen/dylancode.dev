@@ -6,9 +6,3 @@ See the backlinks for this page.
 
 Template:
 
-## [[flashcards]]
-
-| Question | Answer |
-| -------- | ------ |
-|          |        |
-

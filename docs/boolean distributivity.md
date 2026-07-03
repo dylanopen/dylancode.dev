@@ -28,12 +28,3 @@ We can also distribute a slightly different way, more similar to how we would [[
 
 > $A + (B \cdot C) = (A + B) \cdot (A + C)$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is the distributive law for AND over OR? | $A \cdot (B + C) = A \cdot B + A \cdot C$ |
-| How do you factorize $A \cdot B + A \cdot C$? | $A \cdot (B + C)$ |
-| How do you expand $A \cdot (B + C + D)$? | $A \cdot B + A \cdot C + A \cdot D$ |
-| What is the distributive law for OR over AND? | $A + (B \cdot C) = (A + B) \cdot (A + C)$ |
-
