@@ -88,7 +88,7 @@ In the kinetic theory of gases, we assume the [[gas]] is an [[ideal gas]].
 - $\frac Nn=N_A$, so $\frac nN=\frac1{N_A}$
 - $E_k=\frac32\frac1{N_A}RT$
 - $E_k=\frac32\frac R{N_A}T$
-- We give the constant $\frac R{N_A}$ ([[gas constant]] over [[avogadro constant]]) the letter $k$, the [[boltzmann constant]].
+- We give the constant $\frac R{N_A}$ ([[molar gas constant]] over [[avogadro constant]]) the letter $k$, the [[boltzmann constant]].
 
 > $E_k=\frac32kT$  
 > $\frac12mC_{\text{rms}}^2=\frac32kT$  

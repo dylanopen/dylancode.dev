@@ -1,13 +1,17 @@
 # Graph subdivision
 
-A **subdivision** of a [[graph]] is created by adding new
-[[graph vertex|vertices]] along the existing [[graph edge|edges]] of the graph.
+A **subdivision** of a [[graph]] is created by adding new [[graph vertex|vertices]] along the existing [[graph edge|edges]] of the graph.
 
-This basically breaks the original edges into smaller segments, joined by the
-new vertices.
+This basically breaks the original edges into smaller segments, joined by the new vertices.
 
-We *cannot* add any edges, or any vertices that are not on existing edges. We
-can only add vertices such that they split up existing edges.
+We *cannot* add any edges, or any vertices that are not on existing edges.  
+We can only add vertices such that they split up existing edges.
+
+Technically, any [[graph]] is its own subdivision, as subdivisions have *zero or* more new vertices and edges.
+
+## Planar graphs
+
+If we make a subdivision of a [[planar graph]], the new graph must also be planar.
 
 ## Example
 

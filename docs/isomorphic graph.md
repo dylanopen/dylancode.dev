@@ -2,8 +2,10 @@
 
 Two graphs are *isomorphic* if they have the same *structure*.
 
+This means that their [[adjacency matrix]] will produce two identical graphs (ignoring the [[graph vertex|vertex]] labels.
+
 In other words, we can redraw the graph to make them look identical, even if the
-vertices and edges are labeled differently.
+vertices and edges are labelled differently.
 
 ## Example
 
@@ -27,6 +29,10 @@ To check if two graphs are isomorphic, we can look at:
 - The degree of each vertex (how many edges connect to it).
 - The overall structure and connections between vertices.
 If all these aspects match, the graphs are isomorphic!
+
+## Complete graph
+
+Two [[complete graph]]s with the same **order** will be *isomorphic*.
 
 ## [[flashcards]]
 
