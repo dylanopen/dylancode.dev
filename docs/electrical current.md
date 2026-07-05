@@ -1,10 +1,13 @@
 # Electrical current
 
-- Current is the **rate of flow of charge**.
+- Current is the **rate of flow of [[charge]]**.
 - The symbol for current is $I$.
-- The unit of current is the **ampere** ($A$).
-- 1 ampere is equal to 1 coulomb of charge passing through a point in 1 second.
-- The current can be measured using an ammeter.
+- The current can be measured using an [[ammeter]].
+
+## Units
+
+- The unit of current is the [[ampere]] ($A$).
+- 1 [[ampere]] is equal to 1 [[coulomb]] of [[charge]] passing through a point in 1 [[second]].
 
 ### Current equation - charge and time
 

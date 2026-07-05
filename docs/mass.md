@@ -6,7 +6,7 @@ In slightly more scientific terms, it is the *amount of matter in a substance*.
 
 ## Units
 
-Mass is measured in [[kilogram]]s.
+Mass is measured in [[kilogram]]s ($kg$).
 
 *The [[base units]] for mass is [[kilogram]]s, not [[gram]]s. It's the only measurement where the base unit starts with 'kilo'.*
 
