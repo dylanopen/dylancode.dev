@@ -119,7 +119,7 @@ Let's try multiplying the general complex number (x+iy) with its conjugate (x-iy
 
 Expanding the brackets we get $x^2+ixy-ixy-i^2y^2$. The middle i terms cancel out, which just leaves us with $x^2-i^2y^2$, but we also know that $i^2$ is -1. So we get $x^2+y^2$ - a **real number**.
 
-If you know about the difference of two squares, you can probably see why this always works.
+If you know about the difference of two squares, you can probably already  see why this always works.
 
 Whenever we multiply a complex number by its conjugate, we *always* get a real number.
 
@@ -220,4 +220,44 @@ This is especially helpful for converting back to Cartesian, because we just exp
 
 ---
 
+Just like how we can add, subtract, multiply and divide complex numbers in Cartesian form, we can also do calculations in modulus-argument form.
+
+However, modulus-argument form is particularly useful for **multiplication** and **division**.
+
+When we multiply two complex numbers in modulus-argument form, we multiply the moduli together, and add the arguments together.
+
+When we divide two complex numbers in modulus-argument form, we divide the moduli, and subtract the arguments.
+
+If we multiply three complex numbers with moduli 2, 3 and 4, and arguments pi/4, pi/6 and pi/3, we multiply the moduli together to get 24, and add the arguments together to get 11pi/12.
+
+If we divide the complex number 5(cos pi/4 + i sin pi/4) by 2(cos pi/6 + i sin pi/6), we divide the moduli to get 5/2, and subtract the arguments to get pi/12.
+
+
+
+---
+
 Another thing we can do with complex numbers on an Argand diagram is draw loci.
+
+Drawing a loci just involves shading the part of the Argand diagram that satisfies a certain condition.
+
+For example, we can shade the region of the Argand diagram where the modulus is less than 3.
+
+Or, we can shade the region where the argument is greater than pi over 4 radians *and* the modulus is less than 5.
+
+It doesn't have to be inequalities either. We can shade the region where the modulus is equal to 2, which will give us a circle of radius 2, centred at the origin.
+
+Finally, a common loci to draw is a 'half line', which is essentially the line of points at a specific *argument*. Here's a half life extending from the origin at an argument of pi over 4 radians.
+
+---
+
+We can also draw loci of complex numbers in relation to other complex numbers.
+
+If we assume we have a complex number that we'll call z_1, with position 3+2i.
+
+For the loci of points satisfying |z - z_1| = 2, we draw a circle of radius 2, centred at the point 3+2i.
+
+Or, if we have two moduli equal to each other, we can draw the loci of points satisfying |z - z_1| = |z - z_2|, which will give us a perpendicular bisector between the two points z_1 and z_2.
+
+If we want a half-line, but not starting from the origin, we can say that z - z_1 equals the argument, theta. This will give us a half line starting from z_1, extending at a specific angle, theta.
+
+
