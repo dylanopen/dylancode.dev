@@ -2,7 +2,7 @@
 
 The Boltzmann constant ($k$) is a combination of two constants:
 - the [[avogadro constant]], $N_A$
-- the [[gas constant]], $R$
+- the [[molar gas constant]], $R$
 
 ...such that:
 

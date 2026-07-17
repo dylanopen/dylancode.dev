@@ -1,3 +1,4 @@
 # Exponential graph
 
-See [[exponential function]]
+See [[exponential function]].
+

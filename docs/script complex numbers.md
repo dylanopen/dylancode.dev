@@ -260,4 +260,3 @@ Or, if we have two moduli equal to each other, we can draw the loci of points sa
 
 If we want a half-line, but not starting from the origin, we can say that z - z_1 equals the argument, theta. This will give us a half line starting from z_1, extending at a specific angle, theta.
 
-

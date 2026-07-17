@@ -16,12 +16,3 @@
 - As [[force]] is just the rate of change of [[momentum]] (see [[momentum and forces]]), this means that the particles exert more [[force]] on the container walls.
 - This force corresponds to the [[pressure]] [[gas pressure|of the gas]].
 
-## [[flashcards]]
-
-| Question                                                                  | Answer                                                                        |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Gas temperature & pressure (pressure law)                                 | Direct proportion relationship between pressure and temperature: $P\propto T$ |
-| What is assumed constant in the pressure law?                             | Other [[gas properties]] remain constant.                                     |
-| What is the formula relating pressure and temperature at constant volume? | $\frac PT=\text{constant}$                                                    |
-| How do you calculate pressure change with temperature?                    | $\frac{P_1}{T_1}=\frac{P_2}{T_2}$                                             |
-

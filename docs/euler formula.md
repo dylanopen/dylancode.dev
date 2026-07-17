@@ -13,10 +13,3 @@ If we also have a [[complex modulus]] in the [[complex number]], i.e. $r(\cos\th
 
 If we substitute $\theta=\pi$ into Euler's formula, we get [[euler identity]].
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| How do you express a complex number with modulus $r$ and argument $\theta$ in exponential form? | $re^{i\theta} \equiv r(\cos\theta + i\sin\theta)$ |
-| What theorem do we get when $\theta = \pi$ is substituted into Euler's formula? | Euler's identity |
-

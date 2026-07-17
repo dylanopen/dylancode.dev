@@ -8,10 +8,3 @@ There are loads of different network topologies and they all work slightly diffe
 - [[bus topology|Bus topology]]
 - [[star topology|Star topology]]
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| A network topology describes what? | How the different devices on a local network are connected to each other and how they communicate. |
-| What are the two specific types of network topology mentioned? | Bus topology and Star topology |
-

@@ -8,10 +8,3 @@ When a substance is heated, two things can happen:
 
 We often represent heat energy as $Q$.
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| Heating a substance can cause which two effects? | Adding kinetic energy increases temperature; increasing potential energy can break bonds and cause a state change. |
-| How is heat energy often represented in equations? | As $Q$. |
-

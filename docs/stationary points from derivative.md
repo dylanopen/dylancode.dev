@@ -31,11 +31,3 @@ We find the first derivative by [[differentiation|differentiating the function]]
 
 See [[classifying stationary points]].
 
-## [[flashcards]]
-
-| Question                                                               | Answer                                               |
-| ---------------------------------------------------------------------- | ---------------------------------------------------- |
-| How do you find the [[stationary point]]s of a function?               | By [[differentation\|differentiating]] the function. |
-| If $\frac{dy}{dx}>0$, what is happening to the function at that point? | It is **increasing** (positive [[gradient]]).        |
-| If $\frac{dy}{dx}<0$, what is happening to the function at that point? | It is **decreasing** (negative [[gradient]]).        |
-| If $\frac{dy}{dx}=0$, what is happening to the function at that point? | It is **stationary** (zero [[gradient]]).            |

@@ -16,10 +16,3 @@ We know that either $A$ or the thing on the right must be true for the whole [[e
 
 > $A + (A \cdot B) = A$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is the rule for simplifying $A \cdot (A + B)$? | $A \cdot (A + B) = A$ |
-| What is the rule for simplifying $A + (A \cdot B)$? | $A + (A \cdot B) = A$ |
-

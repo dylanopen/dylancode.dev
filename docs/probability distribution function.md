@@ -14,9 +14,3 @@ Where we can replace:
 - $x$ (lowercase) with the value we are finding the probability of
 - $f(x)$ with the **probability distribution function**.
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| P(X=x)=f(x) | The notation for the probability distribution function of a discrete random variable $X$, where $x$ is the value we are finding the probability of and $f(x)$ is the probability distribution function itself. |
-

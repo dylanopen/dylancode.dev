@@ -37,8 +37,3 @@ Next, we can fill in the rest of the grid by looking at what terms we need to ma
 | $x$      | $x^2$ | $-3x$ |
 | $-2$     | $2x$  | $6$   |
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-

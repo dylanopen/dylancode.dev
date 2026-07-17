@@ -8,9 +8,3 @@ There are lots of types of system [[software]] which help
 
 Click on the links to learn more about each type of system [[software]].
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What types of system software are mentioned? | Operating systems, utility programs, dynamic libraries, and code translators (translators). |
-

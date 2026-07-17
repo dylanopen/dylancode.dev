@@ -27,12 +27,3 @@ $$
 - $y_2=y_1+\Delta y=3+2=5$
 - New point is $(-3,5)$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| Question: What is the geometric interpretation of adding a vector $\begin{pmatrix}a\\b\end{pmatrix}$ to a point $\begin{pmatrix}x\\y\end{pmatrix}$? |  |
-| Question: Why can vector translation be represented by vectors but not by matrices? |  |
-| Question: Translate the point $(1,0)$ by vector $\begin{pmatrix}4\\-1\end{pmatrix}$. What is the new point? |  |
-| Question: Translate the point $(-2,3)$ by vector $\begin{pmatrix}-1\\2\end{pmatrix}$. What is the new point? |  |
-

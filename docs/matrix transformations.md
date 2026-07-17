@@ -137,20 +137,3 @@ $$
 (X)(X)^{-1} = I
 $$
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| Question | Answer |
-| What is a translation? Why is it not a matrix transformation? | A translation moves points by a fixed vector; it does not keep the origin fixed, so it is not a matrix transformation. |
-| How do you combine two matrix transformations (e.g., matrix $A$ then matrix $B$)? | Multiply the matrices in reverse order: $BA$. |
-| Find the single matrix for a 90° clockwise rotation followed by a reflection in the line $y=x$. | 90° clockwise rotation: $\begin{pmatrix}0 & 1\\-1 & 0\end{pmatrix}$, reflection in $y=x$: $\begin{pmatrix}0 & 1\\1 & 0\end{pmatrix}$. Multiply in reverse: $\begin{pmatrix}0 & 1\\1 & 0\end{pmatrix}\begin{pmatrix}0 & 1\\-1 & 0\end{pmatrix} = \begin{pmatrix}-1 & 0\\0 & 1\end{pmatrix}$. |
-| What is a linear transformation? | A 2D transformation that keeps straight edges straight. It can be written as $\begin{pmatrix}x\\y\end{pmatrix} \to \begin{pmatrix}...\\...\end{pmatrix}$ or as matrix multiplication $\begin{pmatrix}a & b\\c & d\end{pmatrix}\begin{pmatrix}x\\y\end{pmatrix} = \begin{pmatrix}ax+by\\cx+dy\end{pmatrix}$. |
-| Find the matrix that maps $\begin{pmatrix}x\\y\end{pmatrix}$ to $\begin{pmatrix}2y+x\\3x\end{pmatrix}$. | Solve $ax+by=2y+x \Rightarrow a=1, b=2$; $cx+dy=3x \Rightarrow c=3, d=0$. Matrix: $\begin{pmatrix}1 & 2\\3 & 0\end{pmatrix}$. |
-| Find the matrix that maps $\begin{pmatrix}x\\y\end{pmatrix}$ to $\begin{pmatrix}2y+x\\3x+y\end{pmatrix}$. | Solve $ax+by=2y+x \Rightarrow a=1, b=2$; $cx+dy=3x+y \Rightarrow c=3, d=1$. Matrix: $\begin{pmatrix}1 & 2\\3 & 1\end{pmatrix}$. |
-| Find the coordinates of points $(1,1)$, $(3,1)$, $(3,3)$, $(1,3)$ after transformation by matrix $\begin{pmatrix}-1 & 2\\2 & 1\end{pmatrix}$. | Write points as columns: $\begin{pmatrix}1&3&3&1\\1&1&3&3\end{pmatrix}$. Multiply: $\begin{pmatrix}-1 & 2\\2 & 1\end{pmatrix}\begin{pmatrix}1&3&3&1\\1&1&3&3\end{pmatrix} = \begin{pmatrix}1&-1&3&5\\3&7&9&5\end{pmatrix}$. Coordinates: $(1,3)$, $(-1,7)$, $(3,9)$, $(5,5)$. |
-| What does the determinant of a transformation matrix represent? | The area scale factor of the transformation. |
-| What does a determinant of $1$ or $-1$ mean for a transformation? | The size of the shape does not change. $1$ means orientation is kept (e.g., rotation), $-1$ means orientation changes (e.g., reflection). |
-| What happens if the transformation matrix is singular (determinant $0$)? | The image has no area, e.g., a line or a single point (like $\begin{pmatrix}0 & 0\\0 & 0\end{pmatrix}$). |
-| What is a self-inverse matrix transformation? | A transformation that is its own inverse; pre-multiplying by its inverse reverses the transformation, requiring inverse operations in opposite order: $(X)(X)^{-1}=I$. |
-

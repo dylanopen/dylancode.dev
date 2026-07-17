@@ -7,9 +7,3 @@ multiple [[graph edge|edges]] between the same pair of
 > **Simple graph**: a graph without [[loops]] or multiple edges between the same
 > pair of vertices.
 
-## [[flashcards]]
-
-| Question | Answer |
-| --- | --- |
-| What is a simple graph? | A graph without loops or multiple edges between the same pair of vertices. |
-
