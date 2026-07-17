@@ -1,4 +1,4 @@
-# Adding vector quantities
+# Vector addition
 
 If we have two [[vector quantity|vector quantities]], we can add them to get a new [[vector quantity]].
 

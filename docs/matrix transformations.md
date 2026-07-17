@@ -19,7 +19,7 @@ $$
 BA
 $$
 
-This is exactly the same as [[composite functions]].
+This is exactly the same as [[composite function]].
 
 ### Find the single matrix which represents a 90° clockwise rotation followed by a reflection in the line y=x
 

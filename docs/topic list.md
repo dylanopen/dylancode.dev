@@ -2,7 +2,7 @@
 
 MATHS
 
-- [x] [[disguised logarithm equations]]
+- [x] [[disguised logarithm equation]]
 - [x] exponential graphs
 - [x] [[exponential graph]] gradient
 - [x] [[base e exponentials]]

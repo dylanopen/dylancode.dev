@@ -14,10 +14,10 @@ Just like how we can use the grid method to multiply polynomials (also known as
 
 - Add the thing we are dividing by ($x - 2$) to the left side of the grid.
 
-| $\times$ |   |   |   |
-|----------|---|---|---|
-| $x$      |   |   |   |
-| $-2$     |   |   |   |
+| $\times$ |     |     |
+| -------- | --- | --- |
+| $x$      |     |     |
+| $-2$     |     |     |
 
 We know that we must have an $x^2$ term in the top-left of the main grid area
 (as there will only be one multiplication which makes a term with an $x^2$ in
@@ -25,15 +25,17 @@ it).
 We also know that we have a $6$ in the bottom-right of the main grid area (as
 there will only be one multiplication which makes a term without an $x$ in it).
 
-| $\times$ |       |     |     |
-|----------|-------|-----|-----|
-| $x$      | $x^2$ |     |     |
-| $-2$     |       |     | $6$ |
+| $\times$ |       |     |
+| -------- | ----- | --- |
+| $x$      | $x^2$ |     |
+| $-2$     |       | $6$ |
 
-Next, we can fill in the rest of the grid by looking at what terms we need to
-make.
+Next, we can fill in the rest of the grid by looking at what terms we need to make ($x^2$ and $6$), then multiplying to find the other two unknowns:
 
-> TODO: complete this example
+| $\times$ | $x$   | $-3$  |
+| -------- | ----- | ----- |
+| $x$      | $x^2$ | $-3x$ |
+| $-2$     | $2x$  | $6$   |
 
 ## [[flashcards]]
 

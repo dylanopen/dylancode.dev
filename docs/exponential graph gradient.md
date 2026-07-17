@@ -1,5 +1,7 @@
 # Exponential graph gradient
 
+> This page is seemingly a duplicate of [[exponential function gradient]]. It can possibly be removed.
+
 An important property of an [[exponential graph]] is that the *[[gradient]] of it
 is [[direct proportion|directly proportional]] to the value of $y$ at that point.
 
