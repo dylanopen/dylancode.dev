@@ -245,4 +245,6 @@ This page is a list of (most of) the A-Level Mathematics content that's availabl
     - [[speed time graph]]
     - [[velocity time graph]]
 - Forces
-
+    - [[first law of motion]]
+    - [[second law of motion]]
+    - [[]]

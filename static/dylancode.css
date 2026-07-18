@@ -11,6 +11,11 @@
     --accent-secondary: #bc8cff;
     --accent-banner: #aae5ff;
     --blockquote-bg: rgba(88, 166, 255, 0.1);
+
+    --accent-primary-darker: #35659c; 
+    --accent-secondary-darker: #694d8f;
+    --accent-banner-darker: hsl(from var(--accent-banner) h s calc(l - 10));
+    --blockquote-bg-darker: hsl(from var(--blockquote-bg) h s calc(l - 10));
     
     --border-color: #30363d;
     
@@ -103,12 +108,20 @@ a {
     text-decoration: none;
 }
 
+a.deadlink {
+    color: var(--text-main);
+}
+
 a:hover {
     text-decoration: underline;
 }
 
 a:visited {
     color: var(--accent-secondary);
+}
+
+a.deadlink:visited {
+    color: var(--text-main);
 }
 
 a.dead {
@@ -305,4 +318,34 @@ button:hover {
     background-color: rgba(88, 166, 255, 0.1);
     border-color: var(--accent-primary, #58a6ff);
     color: #ffffff;
+}
+
+#nav-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+}
+
+.nav-link {
+    text-wrap: balance;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    margin: 8px;
+    background-color: var(--bg-surface);
+    border-radius: var(--radius-md);
+    border-color: var(--border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+#clear-nav {
+    font-size: 0.75em;
+    color: var(--text-muted);
 }

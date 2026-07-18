@@ -7,6 +7,8 @@ window.onload = (event) => {
     loadBanners();
     renderLinks(document.getElementById("inlinks"));
     renderLinks(document.getElementById("outlinks"));
+    saveCourse();
+    loadCourse();
 }
 
 async function highlight(codeToHtml) {
@@ -99,6 +101,71 @@ function renderLinks(linkElement) {
     }
     linkElement.innerHTML = "";
     linkElement.appendChild(listElement);
+}
+
+function saveCourse() {
+    let courseStr = localStorage.getItem("course");
+    let listEls = document.getElementsByClassName("main-content")[0].getElementsByTagName("li");
+    let linkEls = [];
+    for (let i = 0; i < listEls.length; i++) {
+        let linkEl = listEls[i].getElementsByTagName("a")[0];
+        if (linkEl == undefined) continue;
+        if (linkEl.className.includes("deadlink")) continue
+        if (linkEl.innerText != listEls[i].innerText) continue;
+        linkEls.push(linkEl);
+    }
+    if (linkEls.length < 4) return;
+
+    let course = new Map();
+    for (let i = 0; i < linkEls.length; i++) {
+        let href = linkEls[i].href;
+        course.set(linkEls[i].href, linkEls[i].innerText);
+    }
+    let courseJson = JSON.stringify(Array.from(course.entries()));
+    localStorage.setItem("course", courseJson);
+}
+
+function loadCourse() {
+    let courseStr = localStorage.getItem("course");
+    if (courseStr == null) return;
+    let course = new Map(JSON.parse(courseStr));
+    let index = course.keys().toArray().indexOf(location.href);
+
+    let prevPageHref = course.keys().toArray()[index - 1];
+    let prevPageTitle = course.values().toArray()[index - 1];
+
+    let nextPageHref = course.keys().toArray()[index + 1];
+    let nextPageTitle = course.values().toArray()[index + 1];
+
+    let navEl = document.createElement("div");
+    navEl.id = "nav";
+    document.getElementById("nav-container").appendChild(navEl);
+
+    if (prevPageHref != undefined && prevPageTitle != undefined) {
+        addNavLink(prevPageHref, prevPageTitle, "Previous");
+    }
+    if (nextPageHref != undefined && nextPageTitle != undefined) {
+        addNavLink(nextPageHref, nextPageTitle, "Next");
+    }
+
+    let clear = document.createElement("p");
+    clear.innerText = "No longer following this course? Click to close these navigation bars.";
+    clear.id = "clear-nav";
+    clear.addEventListener("click", clearNav);
+    document.getElementById("nav-container").appendChild(clear);
+}
+
+function clearNav() {
+    document.getElementById("nav-container").remove();
+    localStorage.removeItem("course");
+}
+
+function addNavLink(href, title, type) {
+    let a = document.createElement("a");
+    a.href = href;
+    a.innerText = type + ": " + title;
+    a.className = "nav-link";
+    document.getElementById("nav").appendChild(a);
 }
 
 const quotes = [
