@@ -1,4 +1,4 @@
-# Wave speed calculations
+# Wave speed equation
 
 Using the formulae covered in these chapters:
 - [[wave speed]]

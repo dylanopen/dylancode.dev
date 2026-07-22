@@ -471,7 +471,7 @@
              - [[wave frequency]]
              - [[wave period]]
              - [[wave speed]]
-             - [[wave speed calculations]]
+             - [[wave speed equation]]
         - [[transverse wave]]
         - [[longitudinal wave]]
             - [[longitudinal wavelength]]

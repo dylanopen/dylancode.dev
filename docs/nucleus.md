@@ -12,7 +12,7 @@ Its absolute radius is usually around $10^{-15}$ metres.
 
 ## Charge
 
-- The nucleus is made up of [[protons]] (positively charged particles) and
+- The nucleus is made up of [[proton]]s (positively charged particles) and
   [[neutrons]] (neutral particles).
   - Because of this, the overall charge of the nucleus is positive.
 

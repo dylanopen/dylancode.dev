@@ -1,7 +1,3 @@
----
-tags:
-  - slides
----
 # Your 'if' Statements Don't Actually Exist
 
 > High-level languages ***lie*** to you.

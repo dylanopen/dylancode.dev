@@ -1,0 +1,131 @@
+# A-Level Physics
+
+This course indexes notes for the entire A-Level Physics course.
+
+It is designed around the AQA A-Level specification, but is applicable to all exam boards.
+
+## Course content
+
+- Measurements and their errors
+    - Units
+        - [[base units]]
+        - [[decimal prefixes]]
+    - Errors
+        - [[random error]]
+        - [[systematic error]]
+        - [[accuracy]]
+        - [[precision]]
+        - [[uncertainty]]
+- Particles and radiation
+    - Constituents of the atom
+        - [[proton]]
+        - [[neutron]]
+        - [[electron]]
+        - [[specific charge]]
+        - [[proton number]]
+        - [[nucleon number]]
+        - [[nuclide notation]]
+        - [[isotope]]
+    - Stable and unstable nuclei
+        - [[alpha decay]]
+        - [[beta minus decay]]
+        - [[beta plus decay]]
+    - Particles, antiparticles and photons
+        - [[antiparticle]]
+        - [[antimatter]]
+    - Photon model of electromagnetic radiation
+        - [[photon]]
+        - [[electromagnetic radiation]]
+        - [[photon energy]]
+        - [[annihilation]]
+        - [[pair production]]
+    - Particle interactions
+        - [[gravitational force]]
+        - [[electromagnetic force]]
+        - [[weak nuclear force]]
+        - [[strong nuclear force]]
+        - [[exchange particle]]
+        - [[photon]]
+        - [[gluon]]
+        - [[graviton]]
+        - [[w plus boson]]
+        - [[w minus boson]]
+        - [[z boson]]
+        - [[feynman diagram]]
+    - Classification of particles
+        - [[fundamental particles]]
+        - [[hadron]]
+            - [[baryon]]
+                - [[proton]]
+                - [[neutron]]
+            - [[meson]]
+                - [[pion]]
+                - [[kaon]]
+        - [[lepton]]
+            - [[electron]]
+            - [[muon]]
+            - [[neutrino]]
+        - [[exchange particle]]
+        - [[strangeness]]
+    - Quarks and antiquarks
+        - [[quark]]
+        - [[up quark]]
+        - [[down quark]]
+        - [[strange quark]]
+        - [[baryon quarks]]
+        - [[meson quarks]]
+    - Applications of conservation laws
+        - ---
+    - Photoelectric effect
+        - [[threshold frequency]]
+        - [[photoelectric effect]]
+        - [[photoelectric effect graph]]
+        - [[work function]]
+        - [[stopping potential]]
+        - [[photoelectric equation]]
+    - Energy levels
+        - [[ionisation]]
+        - [[ground state]]
+        - [[electron energy level]]
+        - [[energy ladder]]
+        - [[excited electron]]
+        - [[excitation causes]]
+        - [[electronvolt]]
+        - [[line spectra]]
+        - [[planck constant]]
+        - [[ionisation level]]
+    - Photon emission
+        - ---
+    - Wave particle duality
+        - ---
+    - ---
+- Waves
+    - Progressive waves
+        - [[progressive wave]]
+        - [[wavelength]]
+        - [[transverse particle displacement]]
+        - [[longitudinal particle displacement]]
+        - [[amplitude]]
+        - [[wave frequency]]
+        - [[wave period]]
+        - [[wave speed]]
+        - [[wave speed equation]]
+        - [[radian]]
+        - [[wave phase]]
+        - [[wave phase difference]]
+        - [[wave path difference]]
+    - Longitudinal waves
+        - [[longitudinal wave]]
+        - [[wave compression]]
+        - [[wave rarefaction]]
+        - [[longitudinal wave examples]]
+    - Transverse waves
+        - [[transverse wave]]
+        - [[transverse wave examples]]
+        - [[electromagnetic wave]]
+        - [[polarisation]]
+        - [[polarised wave]]
+        - [[unpolarised wave]]
+        - [[polaroid]]
+        - [[uses of polarisation]]
+    - 

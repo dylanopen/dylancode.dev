@@ -236,7 +236,7 @@ This page is a list of (most of) the A-Level Mathematics content that's availabl
     - [[distance]]
     - [[velocity]]
     - [[speed]]
-    - [[acceleration]]
+    - [[acceleration][]()]
     - [[equations for uniform acceleration]]
     - [[kinematics calculus]]
 - Kinematics representation
@@ -247,4 +247,6 @@ This page is a list of (most of) the A-Level Mathematics content that's availabl
 - Forces
     - [[first law of motion]]
     - [[second law of motion]]
+    - [[linear motion]]
+    - [[resolving forces]]
     - [[]]

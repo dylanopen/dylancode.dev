@@ -94,7 +94,7 @@ function renderLinks(linkElement) {
         let inlink = inlinks[i];
         let li = document.createElement("li");
         let a = document.createElement("a");
-        a.href = "/" + inlink.replace(" ", "-") + "/";
+        a.href = "/" + inlink.replaceAll(" ", "-") + "/";
         a.innerText = inlink;
         li.appendChild(a);
         listElement.appendChild(li);
