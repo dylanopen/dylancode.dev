@@ -1,4 +1,6 @@
-# Proof by induction
+---
+title: Proof by induction
+---
 
 ## The typical method
 

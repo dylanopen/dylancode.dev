@@ -1,4 +1,6 @@
-# Plastic behaviour
+---
+title: Plastic behaviour
+---
 
 If a material has plastic behaviour, it means it undergoes [[plastic deformation]], usually after the [[limit of proportionality]] has been reached.
 

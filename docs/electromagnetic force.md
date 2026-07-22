@@ -1,4 +1,6 @@
-# Electromagnetic force
+---
+title: Electromagnetic force
+---
 
 The EM force is the [[force]] which acts between [[particle]]s with a [[charge]].
 

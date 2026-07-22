@@ -1,4 +1,6 @@
-# Finding unknowns using matrix multiplication
+---
+title: Finding unknowns using matrix multiplication
+---
 
 ### Solve for $a$: $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\begin{bmatrix} a \\ 5 \end{bmatrix} = \begin{bmatrix} 11 \\ 23 \end{bmatrix}$
 

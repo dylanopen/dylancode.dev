@@ -1,4 +1,6 @@
-# Text encoding
+---
+title: Text encoding
+---
 
 A really important thing that computers need to do is to be able to represent
 *text*. Basically every program will use text, or *strings*, in some way.

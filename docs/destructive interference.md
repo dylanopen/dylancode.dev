@@ -1,4 +1,6 @@
-# Destructive interference
+---
+title: Destructive interference
+---
 
 When two waves meet which are [[wave phase difference|*in antiphase*]], their
 amplitudes add together to create a wave with a *smaller* [[amplitude]].

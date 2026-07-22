@@ -1,4 +1,6 @@
-# Analogue signal
+---
+title: Analogue signal
+---
 
 An analogue signal is effectively a [[wave]], in the form you've probably seen
 before. They take on *continuous values* - that just means that an analogue

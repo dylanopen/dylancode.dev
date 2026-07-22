@@ -1,4 +1,6 @@
-# Pointers Exist: But Why?
+---
+title: Pointers Exist: But Why?
+---
 
 > The Magic of References
 

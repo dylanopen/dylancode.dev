@@ -1,4 +1,6 @@
-# Differentiating sine
+---
+title: Differentiating sine
+---
 
 > If $y=a\sin bx$, then $\frac{dy}{dx}=ab\cos bx$
 

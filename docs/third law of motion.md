@@ -1,4 +1,6 @@
-# Third law of motion
+---
+title: Third law of motion
+---
 
 Newton's *third* law of motion states that:
 

@@ -1,4 +1,6 @@
-# spawn-limits
+---
+title: spawn-limits
+---
 
 Spawn limits can be configured in the `[[bukkit]].yml` file. By default, it looks
 like this:

@@ -1,4 +1,6 @@
-# Coherent wave
+---
+title: Coherent wave
+---
 
 If two waves are *coherent*, it means that they have a constant phase difference
 between them. This means that the peaks and troughs of the waves line up with

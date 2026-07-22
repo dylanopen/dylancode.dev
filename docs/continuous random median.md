@@ -1,4 +1,6 @@
-# Continuous random median
+---
+title: Continuous random median
+---
 
 Remember that the [[median]] of any [[distribution]] is the value in the middle: 50% of the data is below it and 50% of the data is above it.
 

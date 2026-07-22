@@ -1,4 +1,6 @@
-# Number of intersections between graphs
+---
+title: Number of intersections between graphs
+---
 
 Just like we can find the number of roots of an equation, we can also find the
 number of intersections between two graphs.

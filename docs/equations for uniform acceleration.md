@@ -1,4 +1,6 @@
-# Equations for uniform acceleration
+---
+title: Equations for uniform acceleration
+---
 
 When we're working with calculations involving motion, we're usually working 
 with 3-4 of these 5 values:

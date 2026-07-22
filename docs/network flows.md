@@ -1,4 +1,6 @@
-# Network flows
+---
+title: Network flows
+---
 
 > Incomplete
 

@@ -1,4 +1,6 @@
-# Arc
+---
+title: Arc
+---
 
 The *arc* of a [[sector]] is the portion of the circumference that
 connects the two radii of the [[sector]].

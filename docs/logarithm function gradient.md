@@ -1,4 +1,6 @@
-# Logarithm function gradient
+---
+title: Logarithm function gradient
+---
 
 ## Gradient of $y=\ln x$
 

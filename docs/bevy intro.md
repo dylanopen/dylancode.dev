@@ -1,4 +1,6 @@
-# Learn Bevy: the Rust game engine of the future
+---
+title: Learn Bevy: the Rust game engine of the future
+---
 
 Bevy is a relatively new game engine, at least, compared to some of the major engines like Unity and Unreal.
 

@@ -1,4 +1,6 @@
-# Type 1 hypothesis error
+---
+title: Type 1 hypothesis error
+---
 
 > In a *type one* hypothesis error, we have a [[false positive]] - we state that we have sufficient evidence to reject the [[null hypothesis]], but actually, the [[null hypothesis]] is still true.
 

@@ -1,4 +1,6 @@
-# Velocity-time graph
+---
+title: Velocity-time graph
+---
 
 - A *[[velocity]]-time graph* is a graph which shows:
   - the [[velocity]] of an object on the y-axis

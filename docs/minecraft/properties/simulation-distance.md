@@ -1,4 +1,6 @@
-# simulation-distance
+---
+title: simulation-distance
+---
 
 You can change the `simulation-[[distance]]` of your [[server]] by going to
 `[[server]].[[properties]]` and changing:

@@ -1,4 +1,6 @@
-# Electrical power
+---
+title: Electrical power
+---
 
 ## Calculating power
 

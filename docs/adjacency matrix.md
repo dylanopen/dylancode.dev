@@ -1,4 +1,6 @@
-# Adjacency matrix
+---
+title: Adjacency matrix
+---
 
 An *adjacency matrix* is a way to represent a [[graph]] using a square
 [[matrix]].

@@ -1,4 +1,6 @@
-# Bitmap image
+---
+title: Bitmap image
+---
 
 Unlike a *vector image* which stores the mathematical instructions for how to draw
 the image, a *bitmap image* (which we sometimes call a 'raster image') stores

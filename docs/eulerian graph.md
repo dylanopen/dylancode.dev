@@ -1,4 +1,6 @@
-# Eulerian graph
+---
+title: Eulerian graph
+---
 
 A graph can be either of:
 - Eulerian

@@ -1,4 +1,6 @@
-# Opportunity sampling
+---
+title: Opportunity sampling
+---
 
 Opportunity is essentially where we sample people who are easy to survey, as
 well as that they need to be available at the time of the study.

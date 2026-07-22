@@ -1,4 +1,6 @@
-# Gravitational force
+---
+title: Gravitational force
+---
 
 The gravitational force is a [[force]] which acts between any two [[particle]]s that have [[mass]].
 

@@ -1,4 +1,6 @@
-# Division
+---
+title: Division
+---
 
 Division in RISC-V is actually... surprisingly simple!
 

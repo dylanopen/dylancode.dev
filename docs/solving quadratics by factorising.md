@@ -1,4 +1,6 @@
-# Solving quadratics by factorising
+---
+title: Solving quadratics by factorising
+---
 
 Once a quadratic [[expression]] has been factorised, it can be used to solve
 the quadratic equation (when the [[expression]] is equal to zero).

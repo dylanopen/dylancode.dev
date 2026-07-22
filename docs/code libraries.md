@@ -1,4 +1,6 @@
-# Dynamic libraries
+---
+title: Dynamic libraries
+---
 
 - Dynamic libraries are files on a computer which have *shared code* which can
   be used by multiple different programs.

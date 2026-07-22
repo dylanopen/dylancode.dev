@@ -1,4 +1,6 @@
-# Diode
+---
+title: Diode
+---
 
 - A diode only allows current to flow in one direction.
 - It has very high resistance in the reverse direction.

@@ -1,4 +1,6 @@
-# Vector translation
+---
+title: Vector translation
+---
 
 $$
 \begin{pmatrix}x\\y\end{pmatrix} + \begin{pmatrix}a\\b\end{pmatrix} = \begin{pmatrix}x+a\\y+b\end{pmatrix}

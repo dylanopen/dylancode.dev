@@ -1,4 +1,6 @@
-# Percentage increase
+---
+title: Percentage increase
+---
 
 If we are asked to increase a quantity by a certain percentage, we can follow 
 these steps:

@@ -1,4 +1,6 @@
-# Diffraction path difference
+---
+title: Diffraction path difference
+---
 
 ## What happens during diffraction?
 

@@ -1,4 +1,6 @@
-# Bitmap colour depth
+---
+title: Bitmap colour depth
+---
 
 Because a [[bitmap image]] is really just a long string of 1s and 0s ([[binary]] digits, [[bit]]s), it has no idea about the concept of colour.
 

@@ -1,4 +1,6 @@
-# Stratified sampling
+---
+title: Stratified sampling
+---
 
 > *Stratified* sampling is where we divide the population into groups and then
 > sample from each group separately **at random**.

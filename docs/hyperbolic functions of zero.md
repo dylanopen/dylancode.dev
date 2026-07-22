@@ -1,4 +1,6 @@
-# Hyperbolic functions of zero
+---
+title: Hyperbolic functions of zero
+---
 
 Knowing the definitions that we covered of [[sinh]], [[cosh]] and
 [[tanh]], we're able to work out some exact values of the hyperbolic

@@ -1,4 +1,6 @@
-# Hello world
+---
+title: Hello world
+---
 
 ## The code
 ```cs

@@ -1,4 +1,6 @@
-# Mechanics modelling assumptions
+---
+title: Mechanics modelling assumptions
+---
 
 When we solve mechanics problems, we make some assumptions which make calculations simpler:
 - Most objects get modelled as a [[particle]].

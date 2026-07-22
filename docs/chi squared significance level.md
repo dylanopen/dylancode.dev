@@ -1,4 +1,6 @@
-# Chi-squared significance level
+---
+title: Chi-squared significance level
+---
 
 Like any statistical test we do, we need to be able to figure out whether our collected data varies enough from the expected values to be considered significant(ly different).
 

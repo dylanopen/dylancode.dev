@@ -1,4 +1,6 @@
-# Variables
+---
+title: Variables
+---
 
 A *variable* is a *named storage location* in memory.
 

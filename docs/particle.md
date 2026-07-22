@@ -1,4 +1,6 @@
-# Particle
+---
+title: Particle
+---
 
 A *particle* is anything which:
 - Has negligible [[dimension]]s (doesn't take up any size).

@@ -1,4 +1,6 @@
-# Output controller
+---
+title: Output controller
+---
 
 Just like an [[input controller]] is a component that manages
 the input devices of the computer and sends the input data to the [[processor]] in

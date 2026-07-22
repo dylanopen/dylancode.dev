@@ -1,4 +1,6 @@
-# Critical Chi-squared value
+---
+title: Critical Chi-squared value
+---
 
 The critical chi-squared value is the value that we compare our calculated chi-squared value to, to determine whether our data is significantly different from the expected values.
 

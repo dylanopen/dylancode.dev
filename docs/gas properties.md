@@ -1,4 +1,6 @@
-# Gas properties
+---
+title: Gas properties
+---
 
 The main 4 [[properties]] of a [[gas]] we can measure are:
 - [[volume]] (see [[gas volume]])

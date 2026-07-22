@@ -1,4 +1,6 @@
-# Division
+---
+title: Division
+---
 
 The reason that we didn't cover division in the main
 [[cs/arithmetic operators|arithmetic operators]] chapter is that division

@@ -1,4 +1,6 @@
-# Converting fractions to percentages
+---
+title: Converting fractions to percentages
+---
 
 To convert a fraction to a percentage:
 - Divide the numerator (top number) by the denominator (bottom number) to get a

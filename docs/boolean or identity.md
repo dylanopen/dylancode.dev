@@ -1,4 +1,6 @@
-# Boolean OR identity
+---
+title: Boolean OR identity
+---
 
 The identity of the OR operation is the value that, when we combine it with value $x$ using the OR operation, we get $x$ back again.
 

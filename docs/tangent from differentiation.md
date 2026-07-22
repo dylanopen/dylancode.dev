@@ -1,4 +1,6 @@
-# Tangent from differentiation
+---
+title: Tangent from differentiation
+---
 
 Using differentiation, we can find the equation of the tangent to a curve at 
 *any* point we like!

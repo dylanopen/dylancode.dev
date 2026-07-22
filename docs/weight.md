@@ -1,4 +1,6 @@
-# Weight
+---
+title: Weight
+---
 
 > Weight is the force in which the earth attracts an object.
 

@@ -1,4 +1,6 @@
-# Class methods
+---
+title: Class methods
+---
 
 As previously mentioned, [[classes]] can store two different things:
 - [[fields|class fields]] - [[cs/variables|variables]] that hold data relevant to the class.

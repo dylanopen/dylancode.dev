@@ -1,4 +1,6 @@
-# Register
+---
+title: Register
+---
 
 [[processor|Processors]] have a small amount of very fast memory called *registers* that they use to hold data that they are currently working with.
 

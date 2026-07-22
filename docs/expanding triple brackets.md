@@ -1,4 +1,6 @@
-# Expanding triple brackets
+---
+title: Expanding triple brackets
+---
 
 When we have more than two sets of brackets, we can [[expanding brackets|expand them]] separately - first expand two of the brackets, then expand the result with the remaining
 bracket.

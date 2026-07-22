@@ -1,4 +1,6 @@
-# Sector
+---
+title: Sector
+---
 
 A *sector* is a part of a circle with:
 - two of its edges being the circle's [[radius]]

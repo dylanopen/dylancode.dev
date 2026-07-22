@@ -1,4 +1,6 @@
-# Ion specific charge
+---
+title: Ion specific charge
+---
 
 ## Examples
 

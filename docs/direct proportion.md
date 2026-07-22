@@ -1,4 +1,6 @@
-# Direct proportion
+---
+title: Direct proportion
+---
 
 If two [[cs/variables|variables]] are directly proportional to each other, it means that if one
 of the [[cs/variables|variables]] *doubles*, for example, the other variable will also

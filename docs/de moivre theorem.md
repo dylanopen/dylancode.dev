@@ -1,4 +1,6 @@
-# De Moivre's theorem
+---
+title: De Moivre's theorem
+---
 
 De Moivre's theorem states that for a [[complex number]] $z$:
 

@@ -1,4 +1,6 @@
-# Word length
+---
+title: Word length
+---
 
 > The *word length* is the size of data that a [[processor]] can process at once.
 

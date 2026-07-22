@@ -1,4 +1,6 @@
-# Network route inspection
+---
+title: Network route inspection
+---
 
 The route inspection problem is when we have a network and we want to find the
 shortest path that will visit every [[network arc|arc]] at least once.

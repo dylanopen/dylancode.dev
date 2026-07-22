@@ -1,4 +1,6 @@
-# Gas kinetic energy
+---
+title: Gas kinetic energy
+---
 
 In a gas:
 

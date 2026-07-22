@@ -1,4 +1,6 @@
-# Binomial expansion (full, old)
+---
+title: Binomial expansion (full, old)
+---
 
 ## Expansion of common powers
 

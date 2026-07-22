@@ -1,4 +1,6 @@
-# Calculating work done
+---
+title: Calculating work done
+---
 
 We can calculate the [[work done]] by a force using the formula:
 

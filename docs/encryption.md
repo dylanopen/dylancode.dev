@@ -1,4 +1,6 @@
-# Encryption
+---
+title: Encryption
+---
 
 > **Encryption** is a method of encoding data in a way that only *authorised*
 > users can access it.

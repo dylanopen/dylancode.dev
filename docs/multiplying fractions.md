@@ -1,4 +1,6 @@
-# Multiplying fractions
+---
+title: Multiplying fractions
+---
 
 To multiply fractions, we multiply the numerators (the top parts) together and
 the denominators (the bottom parts) together.

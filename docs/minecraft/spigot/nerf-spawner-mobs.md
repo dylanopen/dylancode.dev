@@ -1,4 +1,6 @@
-# nerf-spawner-mobs
+---
+title: nerf-spawner-mobs
+---
 
 > This setting is in `[[spigot]].yml`.
 

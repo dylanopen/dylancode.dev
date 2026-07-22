@@ -1,4 +1,6 @@
-# Small contingency table values
+---
+title: Small contingency table values
+---
 
 Let's say we have this [[contingency table]] of [[expected contingency frequency|expected values]]
 

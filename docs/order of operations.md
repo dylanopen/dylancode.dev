@@ -1,4 +1,6 @@
-# Order of operations
+---
+title: Order of operations
+---
 
 The *order of operations* tells us which operations (e.g. addition,
 [[multiplication]], powers) to do first when finding the value of an [[expression]].

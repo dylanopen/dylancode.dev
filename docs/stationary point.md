@@ -1,4 +1,6 @@
-# Stationary point
+---
+title: Stationary point
+---
 
 A stationary point is a point where the derivative of a function is zero. In other words, it is a point where the gradient of the graph of the function is zero.
 

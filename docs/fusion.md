@@ -1,4 +1,6 @@
-# Fusion
+---
+title: Fusion
+---
 
 **Fusion** is when a **state change** occurs, involving a [[solid]] turning into a [[liquid]], or a [[liquid]] turning into a [[solid]].
 

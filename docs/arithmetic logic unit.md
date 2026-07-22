@@ -1,4 +1,6 @@
-# Arithmetic logic unit
+---
+title: Arithmetic logic unit
+---
 
 > An arithmetic logic unit (ALU) is a component of a [[processor]] that performs arithmetic and logical operations on data - that is, things involving maths and logical operations, like [[and gate|AND]], [[or gate|OR]], [[xor gate|XOR]], their bitwise variants, etc.
 

@@ -1,4 +1,6 @@
-# Application software
+---
+title: Application software
+---
 
 *Application [[software]]* includes any [[software]] which is designed for end-users who
 are using the computer to perform a task.

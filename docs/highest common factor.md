@@ -1,4 +1,6 @@
-# Highest common factor
+---
+title: Highest common factor
+---
 
 ## What is the highest common factor?
 

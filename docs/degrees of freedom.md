@@ -1,4 +1,6 @@
-# Degrees of freedom
+---
+title: Degrees of freedom
+---
 
 If we have a [[contingency table]] with [[contingency table dimensions|dimensions]] $r \times c$, then the number of degrees of freedom ($v$) is:
 

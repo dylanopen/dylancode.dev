@@ -1,4 +1,6 @@
-# Pay-off matrix
+---
+title: Pay-off matrix
+---
 
 A pay-off [[matrix]] shows the possible outcomes for each combination of strategies chosen by the players in a game.
 

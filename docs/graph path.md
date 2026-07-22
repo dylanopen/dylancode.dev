@@ -1,4 +1,6 @@
-# Graph path
+---
+title: Graph path
+---
 
 A **path** is just like a [[graph walk|walk]] on a [[graph]], except that
 you are not allowed to traverse the same [[graph edge|edge]] **or**

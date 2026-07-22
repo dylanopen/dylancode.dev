@@ -1,4 +1,6 @@
-# WiFi
+---
+title: WiFi
+---
 
 > WiFi is a [[local area network]] protocol used to enable devices to connect to a network wirelessly.
 

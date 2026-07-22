@@ -1,4 +1,6 @@
-# Gravitational potential energy
+---
+title: Gravitational potential energy
+---
 
 When objects are above the ground, they have the *potential* to fall down to the
 ground.

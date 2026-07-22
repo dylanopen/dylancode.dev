@@ -1,4 +1,6 @@
-# Avogadro constant
+---
+title: Avogadro constant
+---
 
 The Avogadro constant is the [[number of particles]] in one [[mole]] of a substance.
 

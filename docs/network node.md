@@ -1,4 +1,6 @@
-# Network node
+---
+title: Network node
+---
 
 A *node* on a network is the equivalent of a [[graph vertex|vertex]] in a
 [[graph]].

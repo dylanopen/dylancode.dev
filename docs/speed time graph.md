@@ -1,4 +1,6 @@
-# Speed-time graph
+---
+title: Speed-time graph
+---
 
 - A *[[speed]]-time graph* is a graph which shows:
   - the [[speed]] of an object on the y-axis

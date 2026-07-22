@@ -1,4 +1,6 @@
-# Multiplying indices
+---
+title: Multiplying indices
+---
 
 When we multiply two indices **with the same base**, we can simply **add** the
 powers. This can be written as:

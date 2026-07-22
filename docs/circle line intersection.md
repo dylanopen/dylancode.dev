@@ -1,4 +1,6 @@
-# Circle-line intersection
+---
+title: Circle-line intersection
+---
 
 If we want to find the points of [[intersection]] between a [[circle]] and a [[straight line equation|straight line]], 
 there are three possibilities:

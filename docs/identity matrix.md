@@ -1,4 +1,6 @@
-# Identity matrix
+---
+title: Identity matrix
+---
 
 An *identity matrix* for a specific operation is a [[matrix]] that, when combined with another [[mastrix compatibility|compatible matrix]] using that operation, leaves the other matrix unchanged.
 

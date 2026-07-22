@@ -1,4 +1,6 @@
-# Baud rate
+---
+title: Baud rate
+---
 
 The baud rate is the number of signal changes that occur per second.
 

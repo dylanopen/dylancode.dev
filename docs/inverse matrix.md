@@ -1,4 +1,6 @@
-# Inverse matrix
+---
+title: Inverse matrix
+---
 
 ## What is the inverse matrix?
 

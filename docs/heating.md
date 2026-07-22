@@ -1,4 +1,6 @@
-# Heating
+---
+title: Heating
+---
 
 When a substance is heated, two things can happen:
 - [[kinetic energy]] can be added to the particles, which will increase the [[temperature]].

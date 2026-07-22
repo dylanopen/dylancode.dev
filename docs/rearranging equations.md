@@ -1,4 +1,6 @@
-# Rearranging equations
+---
+title: Rearranging equations
+---
 
 Rearranging equations involves taking an equation and changing its *form* to get
 one of the [[cs/variables|variables]] on its own.

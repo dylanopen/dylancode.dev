@@ -1,4 +1,6 @@
-# Boolean AND zero
+---
+title: Boolean AND zero
+---
 
 If we have an [[expression]] like:
 

@@ -1,4 +1,6 @@
-# Projectile motion
+---
+title: Projectile motion
+---
 
 When an object is thrown or launched with a horizontal [[velocity]], it follows a
 curved path called a *projectile*.

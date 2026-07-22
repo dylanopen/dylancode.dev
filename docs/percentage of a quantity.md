@@ -1,4 +1,6 @@
-# Percentage of a quantity
+---
+title: Percentage of a quantity
+---
 
 There's a simple trick that makes any sort of percentage question 10x easier to
 answer:

@@ -1,4 +1,6 @@
-# Mode
+---
+title: Mode
+---
 
 The *mode* is just the most common value in a data set.  
 It's the value that appears most often.

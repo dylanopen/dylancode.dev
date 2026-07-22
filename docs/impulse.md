@@ -1,4 +1,6 @@
-# Impulse
+---
+title: Impulse
+---
 
 *Impulse* is the change in [[momentum]] of an object when a force is applied to it
 for a certain amount of time.

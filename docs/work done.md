@@ -1,4 +1,6 @@
-# Work done
+---
+title: Work done
+---
 
 *Work* is *done* when a force is applied to an object to make it move.
 

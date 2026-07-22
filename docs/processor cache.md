@@ -1,4 +1,6 @@
-# Processor cache
+---
+title: Processor cache
+---
 
 > Cache is a small amount of very fast memory that's built into the CPU.
 

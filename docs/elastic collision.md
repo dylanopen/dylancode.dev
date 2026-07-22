@@ -1,4 +1,6 @@
-# Elastic collision
+---
+title: Elastic collision
+---
 
 ## What's conserved?
 

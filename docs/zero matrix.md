@@ -1,4 +1,6 @@
-# Zero matrix
+---
+title: Zero matrix
+---
 
 As the name suggests, a 'zero' matrix is just a matrix where all the elements
 are zero.

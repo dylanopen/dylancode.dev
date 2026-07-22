@@ -1,4 +1,6 @@
-# Processor core
+---
+title: Processor core
+---
 
 ## Number of cores
 

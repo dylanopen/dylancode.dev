@@ -1,4 +1,6 @@
-# Address bus
+---
+title: Address bus
+---
 
 > The address bus is a [[computer bus|bus]] that carries the [[memory address|addresses]] of memory locations from the [[processor]] to the [[main memory]], so the [[main memory]] knows where to read or write data.
 

@@ -1,4 +1,6 @@
-# Variables
+---
+title: Variables
+---
 
 > Learn how to create, set and read variables (changable values) in C
 

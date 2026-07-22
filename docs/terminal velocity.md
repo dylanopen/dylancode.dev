@@ -1,4 +1,6 @@
-# Terminal velocity
+---
+title: Terminal velocity
+---
 
 When an object is falling through a fluid (or, less commonly, accelerating
 across a solid surface with [[friction]]), it will eventually reach a point where

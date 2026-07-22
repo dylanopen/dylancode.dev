@@ -1,4 +1,6 @@
-# Deductive sequence definition
+---
+title: Deductive sequence definition
+---
 
 We can define a [[sequence]] *deductively*.
 

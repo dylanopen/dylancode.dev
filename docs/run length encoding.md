@@ -1,4 +1,6 @@
-# Run-length encoding
+---
+title: Run-length encoding
+---
 
 > **Run-length encoding** is a method of [[
 > /[[lossless compression]]|[[lossless compression]]]] where we replace sequences of repeated data with a single

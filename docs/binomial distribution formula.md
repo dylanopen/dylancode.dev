@@ -1,4 +1,6 @@
-# Binomial distribution formula
+---
+title: Binomial distribution formula
+---
 
 If we know $X\sim B(n,p)$:
 

@@ -1,4 +1,6 @@
-# Self-base logarithms
+---
+title: Self-base logarithms
+---
 
 Whenever we have a [[logarithm]] that's in the form:
 

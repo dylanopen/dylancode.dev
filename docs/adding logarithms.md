@@ -1,4 +1,6 @@
-# Adding logarithms
+---
+title: Adding logarithms
+---
 
 When adding together two [[logarithm]]s with the same [[logarithm base|base]], it's equivalent to multiplying the values inside the logarithms:
 

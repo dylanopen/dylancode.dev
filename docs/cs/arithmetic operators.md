@@ -1,4 +1,6 @@
-# Arithmetic operators
+---
+title: Arithmetic operators
+---
 
 An *arithmetic* [[operator]] is essentially a symbol that performs maths.
 

@@ -1,4 +1,6 @@
-# Multiplying surds
+---
+title: Multiplying surds
+---
 
 When multiplying [[surds]], we can multiply the numbers outside the [[surds]] and the
 numbers inside the [[surds]] separately.

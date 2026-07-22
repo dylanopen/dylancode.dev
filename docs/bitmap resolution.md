@@ -1,4 +1,6 @@
-# Bitmap resolution
+---
+title: Bitmap resolution
+---
 
 The resolution of a [[bitmap image]] is the *width* and *height* of the image. More
 Specifically, it is the number of [[pixel]]s in the image.

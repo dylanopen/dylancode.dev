@@ -1,4 +1,6 @@
-# Linear motion
+---
+title: Linear motion
+---
 
 When [[mechanics modelling assumptions|modelling]] a particle moving in a single [[direction]], we're working with one-dimensional [[motion]], otherwise known as **linear** motion.
 

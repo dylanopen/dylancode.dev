@@ -1,4 +1,6 @@
-# Memory address register
+---
+title: Memory address register
+---
 
 Whenever the [[processor]] needs to read from or write to memory, it uses the [[memory address]] [[register]] (MAR) to hold the [[memory address]] that it wants to access.
 

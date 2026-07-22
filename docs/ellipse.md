@@ -1,4 +1,6 @@
-# Ellipse
+---
+title: Ellipse
+---
 
 An *ellipse* is just a stretch of a circle. Basically, a circle where the 
 width does not equal the height, and the radius is different in the x and y

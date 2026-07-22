@@ -1,4 +1,6 @@
-# Subtracting surds
+---
+title: Subtracting surds
+---
 
 We can only subtract [[surds]] that have the same **surd part** (the part under the
 root).

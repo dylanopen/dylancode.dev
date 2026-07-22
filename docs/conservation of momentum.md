@@ -1,4 +1,6 @@
-# Conservation of momentum
+---
+title: Conservation of momentum
+---
 
 The conservation of [[momentum]] simply states that:
 

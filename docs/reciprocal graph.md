@@ -1,4 +1,6 @@
-# Reciprocal graph
+---
+title: Reciprocal graph
+---
 
 - Any x-intercepts become **vertical** [[asymptote]]s.
 - $y=a$ becomes $y=\frac1a$

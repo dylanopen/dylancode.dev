@@ -1,4 +1,6 @@
-# Kirchoff's second law
+---
+title: Kirchoff's second law
+---
 
 The algebraic sum of the EMFs is equal to the sum of potential differences
 around a closed loop.

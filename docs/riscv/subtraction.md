@@ -1,4 +1,6 @@
-# Subtraction
+---
+title: Subtraction
+---
 
 Subtraction in RISC-V assembly is done using one of two instructions:
 - `sub` for subtracting the values of two registers

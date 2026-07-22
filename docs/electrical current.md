@@ -1,4 +1,6 @@
-# Electrical current
+---
+title: Electrical current
+---
 
 - Current is the **rate of flow of [[charge]]**.
 - The symbol for current is $I$.

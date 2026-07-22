@@ -1,4 +1,6 @@
-# Position vectors
+---
+title: Position vectors
+---
 
 A *position vector* shows the *[[displacement]]* to the endpoint from the origin.
 

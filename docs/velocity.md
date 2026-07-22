@@ -1,4 +1,6 @@
-# Velocity
+---
+title: Velocity
+---
 
 *Velocity* measures how much the *[[displacement]]* changes, every second.
 

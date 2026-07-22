@@ -1,4 +1,6 @@
-# Vector quantity
+---
+title: Vector quantity
+---
 
 Unlike a [[scalar quantity]], a *vector quantity* is a
 measurement which has both a **magnitude** and a **direction**.

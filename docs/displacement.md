@@ -1,4 +1,6 @@
-# Displacement
+---
+title: Displacement
+---
 
 *Displacement* measures how far we are from our starting position.
 

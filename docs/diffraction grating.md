@@ -1,4 +1,6 @@
-# Diffraction grating
+---
+title: Diffraction grating
+---
 
 *[[diffraction]] grating* is when we have a lot of tiny slits (openings) close to
 each other in a material, and we send waves through those slits.

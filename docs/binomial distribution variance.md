@@ -1,4 +1,6 @@
-# Binomial distribution variance
+---
+title: Binomial distribution variance
+---
 
 To find the [[variance]] of a [[discrete random variable]] in a [[binomial distribution]], we multiply the [[binomial distribution expectation|expectation of the binomial DRV]] by the probability of *failure* (one minus the probability of success).
 

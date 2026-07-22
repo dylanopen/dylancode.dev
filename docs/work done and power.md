@@ -1,4 +1,6 @@
-# Work done and power
+---
+title: Work done and power
+---
 
 We can link the concept of [[work done]] to [[power]]!
 

@@ -1,4 +1,6 @@
-# Poisson distribution notation
+---
+title: Poisson distribution notation
+---
 
 The [[binomial distribution notation]] is to write $X\sim B(n, p)$. This means:
 - $X$ is a [[discrete random variable]]

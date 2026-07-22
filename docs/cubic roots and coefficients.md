@@ -1,4 +1,6 @@
-# Cubic roots and coefficients
+---
+title: Cubic roots and coefficients
+---
 
 The roots in polynomials are closely linked to the coefficients of that
 polynomial.

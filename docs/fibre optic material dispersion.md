@@ -1,4 +1,6 @@
-# Fibre optic material dispersion
+---
+title: Fibre optic material dispersion
+---
 
 The different wavelengths of light and other electromagnetic waves have speeds
 that vary very slightly.

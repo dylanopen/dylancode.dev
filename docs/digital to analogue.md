@@ -1,4 +1,6 @@
-# Digital to analogue conversion
+---
+title: Digital to analogue conversion
+---
 
 If we have a [[digital signal]], we can convert it into an [[analogue signal]] using a
 process called *digital to analogue conversion* - using a DAC.

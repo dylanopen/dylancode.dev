@@ -1,4 +1,6 @@
-# Probability density function
+---
+title: Probability density function
+---
 
 > The **probability [[density]] function** of a [[continuous random variable]] is a function that describes the [[probability]] of the variable taking on a value *lower* than $x$.
 

@@ -1,4 +1,6 @@
-# The imaginary constant
+---
+title: The imaginary constant
+---
 
 Imaginary and complex numbers are based around a single letter, which
 effectively acts as an unknown constant. This is $i$.

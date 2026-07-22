@@ -1,4 +1,6 @@
-# Refractive index of air
+---
+title: Refractive index of air
+---
 
 The [[refractive index]] of *air* is *about* $1$ - the same as the [[refractive index of a vacuum]].
 

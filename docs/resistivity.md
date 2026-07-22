@@ -1,4 +1,6 @@
-# Resistivity
+---
+title: Resistivity
+---
 
 Resistvity is the total resistance of a material 
 

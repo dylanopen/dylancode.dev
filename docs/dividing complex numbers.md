@@ -1,4 +1,6 @@
-# Dividing complex numbers
+---
+title: Dividing complex numbers
+---
 
 To divide by a [[complex number]], we can first make the denominator *real*.
 

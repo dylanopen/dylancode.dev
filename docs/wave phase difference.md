@@ -1,4 +1,6 @@
-# Wave phase difference
+---
+title: Wave phase difference
+---
 
 We can describe the position of a wave using an angle: that's called the *phase*
 of the wave.

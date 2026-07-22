@@ -1,4 +1,6 @@
-# Non-mutually exclusive events
+---
+title: Non-mutually exclusive events
+---
 
 If two events are *not* mutually exclusive, it means that it *is* possible for
 them both to happen.

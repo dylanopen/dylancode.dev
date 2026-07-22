@@ -1,4 +1,6 @@
-# Mass
+---
+title: Mass
+---
 
 **Mass** is the fundamental unit for measuring *how much 'stuff' is in an object*.
 

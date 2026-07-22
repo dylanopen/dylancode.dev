@@ -1,4 +1,6 @@
-# view-distance
+---
+title: view-distance
+---
 
 You can change the `view-[[distance]]` of your [[server]] by going to
 `[[server]].[[properties]]` and changing:

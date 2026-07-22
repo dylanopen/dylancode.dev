@@ -1,4 +1,6 @@
-# Complex conjugate
+---
+title: Complex conjugate
+---
 
 A **complex conjugate pair** is a pair of two complex numbers which are
 identical, except for that the sign of the imaginary part is different.

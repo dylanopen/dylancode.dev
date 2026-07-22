@@ -1,4 +1,6 @@
-# Specific charge
+---
+title: Specific charge
+---
 
 > The *specific charge* of a [[subatomic particle]], [[nucleus]] or [[isotope]] is the ratio of its [[charge]] to its [[mass]].
 

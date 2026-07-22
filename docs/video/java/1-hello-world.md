@@ -1,5 +1,6 @@
-
-# Hello world
+---
+title: Hello world
+---
 
 ### Learn Java: #1
 

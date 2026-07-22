@@ -1,4 +1,6 @@
-# Finding all sine angles
+---
+title: Finding all sine angles
+---
 
 ## Sine
 

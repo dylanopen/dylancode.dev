@@ -1,4 +1,6 @@
-# Irrational numbers
+---
+title: Irrational numbers
+---
 
 The opposite of a *rational number* is an *irrational number*. All *real*
 numbers which are *not* rational are irrational.

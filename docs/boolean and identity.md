@@ -1,4 +1,6 @@
-# Boolean AND identity
+---
+title: Boolean AND identity
+---
 
 The identity of any operation is the value that, when we combine it with value
 $x$ using that operation, we get $x$ back again.

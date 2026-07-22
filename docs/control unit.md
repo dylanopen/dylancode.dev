@@ -1,4 +1,6 @@
-# Control unit
+---
+title: Control unit
+---
 
 > The *control unit* in the [[processor]] is responsible for telling the other components of the [[processor]] what to do, when to do it, and how to do it.
 

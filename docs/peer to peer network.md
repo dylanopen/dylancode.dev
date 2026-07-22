@@ -1,4 +1,6 @@
-# Peer-to-peer network
+---
+title: Peer-to-peer network
+---
 
 > A peer-to-peer (P2P) network is a decentralized communication model in which each peer can act as both a [[client]] and a [[server]]. In a P2P network, peers share resources and information directly with each other without using any sort of central [[server]].
 

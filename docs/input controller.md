@@ -1,4 +1,6 @@
-# Input controller
+---
+title: Input controller
+---
 
 Manufacturers of CPUs make their CPUs to be general-purpose processors, which
 means they shouldn't be designed to work with just one specific type of input

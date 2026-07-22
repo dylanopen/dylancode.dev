@@ -1,4 +1,6 @@
-# Bus width
+---
+title: Bus width
+---
 
 The width of a [[computer bus|bus]] is the number of bits it can transfer at a time. For example,
 if a bus is 64 bits wide, it can transfer 64 bits of data at a time - usually

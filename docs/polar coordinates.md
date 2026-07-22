@@ -1,4 +1,6 @@
-# Polar coordinates
+---
+title: Polar coordinates
+---
 
 Like any other coordinate, a *polar* coordinate describes a position on a 
 2D plane.

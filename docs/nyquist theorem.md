@@ -1,4 +1,6 @@
-# Nyquist theorem
+---
+title: Nyquist theorem
+---
 
 Nyquist's theorem relates to the [[digital sampling|sampling]] of an
 [[analogue signal]] to create a [[digital signal]].

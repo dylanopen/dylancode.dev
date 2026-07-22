@@ -1,4 +1,6 @@
-# Converting decimals to fractions
+---
+title: Converting decimals to fractions
+---
 
 Because we work with base 10 (decimal) numbers, it's very easy for us to
 convert decimals to fractions *where the denominator is a [[power]] of 10*.

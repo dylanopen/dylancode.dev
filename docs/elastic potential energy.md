@@ -1,4 +1,6 @@
-# Elastic potential energy
+---
+title: Elastic potential energy
+---
 
 When a [[spring]] is stretched, [[work done|work is done]], which means some [[energy]] was transferred.
 

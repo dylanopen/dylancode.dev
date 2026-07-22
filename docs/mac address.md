@@ -1,4 +1,6 @@
-# MAC address
+---
+title: MAC address
+---
 
 > A MAC address (Media Access Control address) is a unique identifier assigned to a network interface for communications on the physical network segment. It's used to identify devices on a local network, such as Ethernet or Wi-Fi, so that computers can tell each other apart on a network.
 

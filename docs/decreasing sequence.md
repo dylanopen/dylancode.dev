@@ -1,4 +1,6 @@
-# Decreasing sequence
+---
+title: Decreasing sequence
+---
 
 For any decreasing [[sequence]], it is **always** true that:
 

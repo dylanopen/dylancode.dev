@@ -1,4 +1,6 @@
-# Adding immediates
+---
+title: Adding immediates
+---
 
 Writing to registers is fun and all, but how about we do the thing that
 computers were invented to do: maths!

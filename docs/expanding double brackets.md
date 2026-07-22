@@ -1,4 +1,6 @@
-# Expanding double brackets
+---
+title: Expanding double brackets
+---
 
 ### Example: Expand $(x - 4)(x - 2)$ using the grid method
 

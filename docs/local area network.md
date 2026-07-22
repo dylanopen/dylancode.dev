@@ -1,4 +1,6 @@
-# Local area network
+---
+title: Local area network
+---
 
 A *LAN* is a network of devices that are connected over a **small geographical
 area**.

@@ -1,4 +1,6 @@
-# Total internal reflection
+---
+title: Total internal reflection
+---
 
 ## When does total internal reflection happen?
 

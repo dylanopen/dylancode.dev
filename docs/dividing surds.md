@@ -1,4 +1,6 @@
-# Dividing surds
+---
+title: Dividing surds
+---
 
 When dividing [[surds]], we can divide the numbers outside the [[surds]] and the
 numbers inside the [[surds]] separately.

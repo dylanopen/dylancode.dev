@@ -1,4 +1,6 @@
-# Parabola
+---
+title: Parabola
+---
 
 A *parabola* is a curve you've already seen many times before. It's the shape
 of the graph of a quadratic function.

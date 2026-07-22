@@ -1,4 +1,6 @@
-# Point distribution
+---
+title: Point distribution
+---
 
 Calculating the *point distribution probability* is where we find the probability of an **exact** number of successes in a fixed number of trials, given a certain probability of success on each trial.
 

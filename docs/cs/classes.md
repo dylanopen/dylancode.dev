@@ -1,4 +1,6 @@
-# Classes
+---
+title: Classes
+---
 
 A *class* is a structure in object-oriented programming languages that
 allows you to group related data and functions together.

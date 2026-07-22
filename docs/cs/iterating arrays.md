@@ -1,4 +1,6 @@
-# Iterating arrays
+---
+title: Iterating arrays
+---
 
 Using the knowledge that we can read an element (item) of an array like this:
 

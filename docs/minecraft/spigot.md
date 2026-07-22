@@ -1,4 +1,6 @@
-# spigot.yml
+---
+title: spigot.yml
+---
 
 - [[minecraft/spigot/nerf spawner mobs]]
 - [[minecraft/spigot/merge radius]]

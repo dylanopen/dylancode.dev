@@ -1,4 +1,6 @@
-# Poisson mean scaling
+---
+title: Poisson mean scaling
+---
 
 When we're trying to solve problems involving the [[poisson distribution]], we might have a question which involves comparing two things that don't have the [[mean]] set to the same scale.
 

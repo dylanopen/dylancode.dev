@@ -1,4 +1,6 @@
-# Expectation of sum
+---
+title: Expectation of sum
+---
 
 If we want to find the [[expectation]] of the *sum* of two [[random variable]], for example, $X$ and $Y$, we can just **add** the individual expectations:
 

@@ -1,4 +1,6 @@
-# Truth table
+---
+title: Truth table
+---
 
 A *truth table* is just a way of us showing all the possible outputs of a
 logical operation (or [[logic gate|logic gate]]) based on all the possible

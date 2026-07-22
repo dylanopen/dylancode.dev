@@ -1,4 +1,6 @@
-# Systematic error
+---
+title: Systematic error
+---
 
 > An error that consistently occurs in the same direction and roughly the same
 > amount every time a measurement is made.

@@ -1,4 +1,6 @@
-# Number of particles
+---
+title: Number of particles
+---
 
 To calculate the *number* of [[particle]]s in a substance, we *multiply* the number of [[mole]]s by the [[avogadro constant]] ($6.02(2)\times10^{23}$).
 

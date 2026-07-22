@@ -1,4 +1,6 @@
-# Electron energy level
+---
+title: Electron energy level
+---
 
 All [[electron]]s that are in [[atom]]s are contained in [[discrete value|discrete]] **energy levels**.
 

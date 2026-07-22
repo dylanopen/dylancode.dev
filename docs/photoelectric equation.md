@@ -1,4 +1,6 @@
-# Photoelectric equation
+---
+title: Photoelectric equation
+---
 
 When working with the [[photoelectric effect]], we can link together:
 - the incident [[photon energy]]

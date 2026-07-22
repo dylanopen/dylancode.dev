@@ -1,4 +1,6 @@
-# Polarised wave
+---
+title: Polarised wave
+---
 
 A *polarised wave* is a [[transverse wave]] where the oscillations (vibrations)
 occur in a **single plane or direction**.

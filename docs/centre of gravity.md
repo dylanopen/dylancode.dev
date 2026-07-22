@@ -1,4 +1,6 @@
-# Centre of gravity
+---
+title: Centre of gravity
+---
 
 The centre of [[gravity]] of an object is basically where all its [[weight]] acts, or
 where all the [[mass]] is acting.

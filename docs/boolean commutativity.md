@@ -1,4 +1,6 @@
-# Boolean commutativity
+---
+title: Boolean commutativity
+---
 
 > If a [[boolean expression]] is [[commutative law|commutative]], it means that we can swap the order of the values and we get the same result. 
 

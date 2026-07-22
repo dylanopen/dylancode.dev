@@ -1,4 +1,6 @@
-# Transforming equations
+---
+title: Transforming equations
+---
 
 | Transformation                  | Replace $x$ with | Replace $y$ with |
 | ------------------------------- | ---------------- | ---------------- |

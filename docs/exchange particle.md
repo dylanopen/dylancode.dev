@@ -1,4 +1,6 @@
-# Exchange particle
+---
+title: Exchange particle
+---
 
 An *exchange particle* is a [[particle]] which is used to transfer a [[force]] in a [[particle interaction]].
 

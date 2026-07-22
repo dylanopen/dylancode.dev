@@ -1,4 +1,6 @@
-# De Broglie wavelength
+---
+title: De Broglie wavelength
+---
 
 Now we know that a [[particle]] can also, in cases, be represented as a [[wave]], that means we can find the [[wavelength]] of a particle!
 

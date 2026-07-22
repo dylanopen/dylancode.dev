@@ -1,4 +1,6 @@
-# Collecting like terms
+---
+title: Collecting like terms
+---
 
 *Collecting like terms* involves taking a more complex [[expression]], where
 multiple terms are added or subtracted from each other, and simplifying it by

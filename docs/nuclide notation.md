@@ -1,4 +1,6 @@
-# Nuclide notation
+---
+title: Nuclide notation
+---
 
 When we represent the structure of a [[nuclide]], we need to show two things:
 - Its [[proton number]]

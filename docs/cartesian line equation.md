@@ -1,4 +1,6 @@
-# Cartesian line equation
+---
+title: Cartesian line equation
+---
 
 The *cartesian* form of a **2D** line is the form you are used to seeing.
 

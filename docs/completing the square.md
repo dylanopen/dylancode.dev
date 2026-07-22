@@ -1,4 +1,6 @@
-# Completing the square
+---
+title: Completing the square
+---
 
 Completing the square is a method used to rewrite a quadratic [[expression]], from
 the form $ax^2+bx+c$ to the form $a(x+d)^2+e$. This can be useful for solving

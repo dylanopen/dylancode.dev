@@ -1,4 +1,6 @@
-# Bit
+---
+title: Bit
+---
 
 A *bit* is the *fundamental unit of information* in computers. It represents a choice between two values: usually written as 0 and 1.
 

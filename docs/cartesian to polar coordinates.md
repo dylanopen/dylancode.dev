@@ -1,4 +1,6 @@
-# Cartesian to polar coordinates
+---
+title: Cartesian to polar coordinates
+---
 
 If we have a Cartesian coordinate in the form $(x,y)$, then we can convert these
 to a polar coordinate, using our [[

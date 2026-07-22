@@ -1,4 +1,6 @@
-# Finding stationary points from the derivative
+---
+title: Finding stationary points from the derivative
+---
 
 ## Where are the stationary points?
 

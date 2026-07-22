@@ -1,4 +1,6 @@
-# Parallel line equations
+---
+title: Parallel line equations
+---
 
 Two lines are parallel if they will never meet, no matter how far they are
 extended.

@@ -1,4 +1,6 @@
-# merge-radius
+---
+title: merge-radius
+---
 
 We can configure the [[distance]] at which items and experience orbs combine - for
 example, when you mine two blocks and they combine into one.

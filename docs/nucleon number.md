@@ -1,4 +1,6 @@
-# Nucleon number
+---
+title: Nucleon number
+---
 
 We used to call the nucleon number the "mass number".
 

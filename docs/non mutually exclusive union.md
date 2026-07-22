@@ -1,4 +1,6 @@
-# Non-mutually exclusive union
+---
+title: Non-mutually exclusive union
+---
 
 We know how to find the probability of either (at least one) of two
 [[mutually exclusive events]] happening (see

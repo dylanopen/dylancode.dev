@@ -1,4 +1,6 @@
-# Horizontal projectile motion
+---
+title: Horizontal projectile motion
+---
 
 With [[vertical projectile motion]], we only had to
 worry about one component: the vertical component.

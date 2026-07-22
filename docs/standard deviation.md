@@ -1,4 +1,6 @@
-# Standard deviation
+---
+title: Standard deviation
+---
 
 As mentioned in the [[variance]] page, [[variance]] is just the standard
 deviation squared. So, to get the standard deviation, we just need to take the

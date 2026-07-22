@@ -1,4 +1,6 @@
-# Hello World
+---
+title: Hello World
+---
 
 > Learn the basic syntax and print text to the console.
 

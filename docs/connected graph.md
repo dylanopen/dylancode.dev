@@ -1,4 +1,6 @@
-# Connected graph
+---
+title: Connected graph
+---
 
 A *connected graph* is a type of [[graph]] where there is a path between
 every pair of [[graph vertex|vertices]]. In other words, you can get from any

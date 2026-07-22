@@ -1,4 +1,6 @@
-# Oscilloscope
+---
+title: Oscilloscope
+---
 
 > An oscilloscope is a device used to show waves (or electrical signals) on a
 > screen.

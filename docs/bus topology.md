@@ -1,4 +1,6 @@
-# Bus topology
+---
+title: Bus topology
+---
 
 > In a **bus** [[network topology]] all the devices are connected to a single shared communication line, called a bus. All data travels along this single wire.
 

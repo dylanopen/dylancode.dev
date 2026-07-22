@@ -1,4 +1,6 @@
-# Gas pressure
+---
+title: Gas pressure
+---
 
 A [[gas]] has a [[pressure]] because the [[particle]]s of the gas are moving and colliding with the walls of the container.
 

@@ -1,4 +1,6 @@
-# Multiplying a complex number by its conjugate
+---
+title: Multiplying a complex number by its conjugate
+---
 
 In the same way that multiplying a bracket involving a *surd* by the *conjugate*
 of the bracket will produce a rational number, the same is try for multiplying

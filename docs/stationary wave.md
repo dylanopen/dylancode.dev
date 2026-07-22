@@ -1,4 +1,6 @@
-# Stationary wave
+---
+title: Stationary wave
+---
 
 A *stationary wave* is a wave which doesn't actually transfer energy.
 

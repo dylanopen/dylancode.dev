@@ -1,4 +1,6 @@
-# Program counter
+---
+title: Program counter
+---
 
 > The program counter is a [[register]] in the [[processor]] that keeps track of the [[addressable memory|memory address]] of the next instruction to be executed. It's sometimes also called the instruction pointer.
 

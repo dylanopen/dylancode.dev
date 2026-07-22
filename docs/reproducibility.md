@@ -1,4 +1,6 @@
-# Reproducibility
+---
+title: Reproducibility
+---
 
 Reproducibility measures how well an experiment can be repeated by *a different
 person* in *different conditions* (e.g. a different lab).

@@ -1,4 +1,6 @@
-# Explosion momentum
+---
+title: Explosion momentum
+---
 
 Just like in any other collision, the total [[momentum]] and [[kinetic energy]] of a
 closed system is conserved in an explosion.

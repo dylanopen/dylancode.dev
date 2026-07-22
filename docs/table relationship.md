@@ -1,4 +1,6 @@
-# Table relationship
+---
+title: Table relationship
+---
 
 In a [[database]], two [[database table]]s might be *related* in some way. 
 

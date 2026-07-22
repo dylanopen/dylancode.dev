@@ -1,4 +1,6 @@
-# Continuous random linear transformation
+---
+title: Continuous random linear transformation
+---
 
 If we have a [[continuous random variable]], and we *transform* it by a linear function in the form $mx+c$, then we can apply some rules to find the [[continuous random expectation]] and [[continuous random variance]] of the transformed variable.
 

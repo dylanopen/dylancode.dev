@@ -1,4 +1,6 @@
-# High-level language
+---
+title: High-level language
+---
 
 A *high-level programming language* is a programming language that is designed
 to be easy for humans to read and write.

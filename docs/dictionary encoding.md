@@ -1,4 +1,6 @@
-# Dictionary encoding
+---
+title: Dictionary encoding
+---
 
 > **Dictionary encoding** is a method of [[
   /[[lossless compression]]|[[lossless compression]]]] where we replace repeated data with a reference to a

@@ -1,4 +1,6 @@
-# The logarithm function
+---
+title: The logarithm function
+---
 
 $$
 \log_2\space16=4\Leftrightarrow2^4=16

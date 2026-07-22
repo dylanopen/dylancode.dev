@@ -1,4 +1,6 @@
-# Second law of motion
+---
+title: Second law of motion
+---
 
 Newton's *second* law of [[motion]] states:
 

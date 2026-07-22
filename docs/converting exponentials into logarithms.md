@@ -1,4 +1,6 @@
-# Converting exponentials into logarithms
+---
+title: Converting exponentials into logarithms
+---
 
 We know how to solve and manipulate logarithms (see [[laws of logarithms]]),
 but what if we have an exponential [[expression]] that we want to convert into a

@@ -1,4 +1,6 @@
-# Continuous random lower quartile 
+---
+title: Continuous random lower quartile
+---
 
 Remember that the [[lower quartile]] of any [[distribution]] is the value where 25% of the data is below it and 75% of the data is above it.
 

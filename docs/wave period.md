@@ -1,4 +1,6 @@
-# Wave period
+---
+title: Wave period
+---
 
 The *period* of a wave is the **time** it takes for one complete wave to pass a
 given point.

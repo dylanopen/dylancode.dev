@@ -1,4 +1,6 @@
-# Compiling and running code
+---
+title: Compiling and running code
+---
 
 > Build an executable from our [[source code]] and run it.
 

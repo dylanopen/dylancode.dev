@@ -1,4 +1,6 @@
-# Converting vector-form to cartesian-form line equations in 3D
+---
+title: Converting vector-form to cartesian-form line equations in 3D
+---
 
 ### Convert $\begin{pmatrix}7\\2\\3\end{pmatrix}=\lambda\begin{pmatrix}0\\5\\2\end{pmatrix}$ to cartesian form
 

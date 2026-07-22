@@ -1,4 +1,6 @@
-# Distance between two lines
+---
+title: Distance between two lines
+---
 
 ## Find the distance between two lines
 

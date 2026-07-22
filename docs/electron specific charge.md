@@ -1,4 +1,6 @@
-# Electron specific charge
+---
+title: Electron specific charge
+---
 
 > The magnitude of the [[specific charge]] of a *[[electron]]* is $1.76\times10^{11}$
 

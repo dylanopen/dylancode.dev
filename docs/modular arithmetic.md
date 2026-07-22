@@ -1,4 +1,6 @@
-# Modular arithmetic
+---
+title: Modular arithmetic
+---
 
 ## Finding the modulus
 

@@ -1,4 +1,6 @@
-# Precision
+---
+title: Precision
+---
 
 If we measure results in an experiment, one of the things we need to consider is
 how *precise* our measurements are.

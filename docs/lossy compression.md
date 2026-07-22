@@ -1,4 +1,6 @@
-# Lossy compression
+---
+title: Lossy compression
+---
 
 **Lossy compression** is a type of [[file compression|file-compression]] where the original
 file can't be perfectly reconstructed from the compressed version - some data

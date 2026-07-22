@@ -1,4 +1,6 @@
-# Systematic sampling
+---
+title: Systematic sampling
+---
 
 Systematic sampling is where we select every $k$th member of the population to
 be in our sample.

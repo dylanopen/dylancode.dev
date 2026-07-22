@@ -1,4 +1,6 @@
-# Short
+---
+title: Short
+---
 
 A *short* in C is a data type which can store whole numbers, just like an
 integer. However, a short *usually* (and I say *usually* because C is weird and

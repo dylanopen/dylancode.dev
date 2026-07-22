@@ -1,4 +1,6 @@
-# Matrix multiplication
+---
+title: Matrix multiplication
+---
 
 ## Compatibility
 

@@ -1,4 +1,6 @@
-# Chi-squared value
+---
+title: Chi-squared value
+---
 
 > The chi-squared value tells us how different the data we observed is from what we would expect given the column totals and row totals.
 

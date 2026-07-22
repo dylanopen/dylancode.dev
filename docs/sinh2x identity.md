@@ -1,4 +1,6 @@
-# sinh2x identity
+---
+title: sinh2x identity
+---
 
 ## $\sinh2x\equiv2\sinh x\cdot\cosh x$
 

@@ -1,4 +1,6 @@
-# Alloy density
+---
+title: Alloy density
+---
 
 - An [[alloy]] is a mix of two or more metals.
 - We usually write it as a *percentage by volume* of each metal.

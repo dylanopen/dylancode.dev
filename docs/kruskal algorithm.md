@@ -1,5 +1,6 @@
-# Kruskal's algorithm
-
+---
+title: Kruskal's algorithm
+---
 
 One common algorithm for finding the
 [[minimum spanning tree]] is *Kruskal's algorithm*. It

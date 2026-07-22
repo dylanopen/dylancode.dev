@@ -1,4 +1,6 @@
-# Expanding single brackets
+---
+title: Expanding single brackets
+---
 
 ### Example: Expand $3(2x + 5)$ using the grid method
 

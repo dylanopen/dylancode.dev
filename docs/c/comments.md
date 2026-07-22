@@ -1,4 +1,6 @@
-# Comments
+---
+title: Comments
+---
 
 A *comment* is a piece of text in [[source code]] that *isn't executed* - it's
 completely ignored by the [[compiler]].

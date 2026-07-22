@@ -1,4 +1,6 @@
-# Latency
+---
+title: Latency
+---
 
 In a network, latency is the time it takes for a packet of data to travel from
 the sender to the receiver.

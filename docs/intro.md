@@ -1,4 +1,7 @@
-# Welcome to dylancode.dev!
+---
+title: Welcome to dylancode.dev!
+---
+
 ---
 
 # Welcome to dylancode.dev!

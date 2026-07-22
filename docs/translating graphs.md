@@ -1,4 +1,6 @@
-# Translating graphs
+---
+title: Translating graphs
+---
 
 ## What is a translation?
 

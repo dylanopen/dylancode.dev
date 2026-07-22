@@ -1,4 +1,6 @@
-# Binomial theorem
+---
+title: Binomial theorem
+---
 
 The binomial theorem is a way of [[expanding brackets]] of the form
 $(a+b)^n$ fully ([[binomial expansion]]), without having to multiply it out by hand.

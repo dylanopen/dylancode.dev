@@ -1,4 +1,6 @@
-# Proton specific charge
+---
+title: Proton specific charge
+---
 
 > The [[specific charge]] of a *[[proton]]* is $9.58\times10^7\,C\,kg^{-1]$
 

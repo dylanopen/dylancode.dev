@@ -1,4 +1,6 @@
-# OS resource management
+---
+title: OS resource management
+---
 
 One of the roles of the [[operating system]] is to *manage system resources*.
 

@@ -1,4 +1,6 @@
-# Decimal prefixes
+---
+title: Decimal prefixes
+---
 
 By adding a decimal unit prefix after a unit, we change the *magnitude*
 ([[power]] of 10) of the unit/amount.

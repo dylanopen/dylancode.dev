@@ -1,4 +1,6 @@
-# Transposing matrices
+---
+title: Transposing matrices
+---
 
 *Transposing* a matrix just means we make the rows into columns and the columns
 into rows. Or, in other words, we somewhat *flip* the matrix across its

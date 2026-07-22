@@ -1,4 +1,6 @@
-# Second derivative
+---
+title: Second derivative
+---
 
 The *second derivative* of a function or polynomial is simply the derivative of
 its first derivative.

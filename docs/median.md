@@ -1,4 +1,6 @@
-# Median
+---
+title: Median
+---
 
 The **median** of a set of numbers is the middle value when the numbers are
 arranged in order. If there are an even number of values, the median is the

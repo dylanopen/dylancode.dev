@@ -1,4 +1,6 @@
-# Fetch-execute cycle
+---
+title: Fetch-execute cycle
+---
 
 The fetch-execute cycle (or fetch-decode-execute cycle) is the way that a [[processor]] executes a program's instructions.
 

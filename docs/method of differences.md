@@ -1,4 +1,6 @@
-# Method of differences
+---
+title: Method of differences
+---
 
 ### Calculate $(\frac12-\frac13)+(\frac13-\frac14)+...+(\frac19-\frac1{10})$
 

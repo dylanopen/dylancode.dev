@@ -1,4 +1,6 @@
-# Common binomial expansions
+---
+title: Common binomial expansions
+---
 
 You can find these using [[pascal triangle|Pascal's triangle]], or by using
 [[binomial combination|binomial combinations]].

@@ -1,4 +1,6 @@
-# Hyperbolic square sum identity
+---
+title: Hyperbolic square sum identity
+---
 
 ## $\cosh^2x + \sinh^2x = \cosh(2x)$
 

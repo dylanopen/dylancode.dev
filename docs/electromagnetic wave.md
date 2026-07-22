@@ -1,4 +1,6 @@
-# Electromagnetic wave
+---
+title: Electromagnetic wave
+---
 
 An **electromagnetic wave** is a type of [[transverse wave]].
 

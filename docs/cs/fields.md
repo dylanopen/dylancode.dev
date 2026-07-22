@@ -1,4 +1,6 @@
-# Fields
+---
+title: Fields
+---
 
 Any *useful* class contains *fields* - [[cs/variables|variables]] that hold data relevant to
 the class.

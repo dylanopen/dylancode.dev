@@ -1,4 +1,6 @@
-# Serial transmission
+---
+title: Serial transmission
+---
 
 Serial transmission is when we have a single wire which we send data down, one [[bit]] at a time in a *sequence* (specific order).
 

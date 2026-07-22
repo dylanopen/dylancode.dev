@@ -1,4 +1,6 @@
-# Immediate and register instructions
+---
+title: Immediate and register instructions
+---
 
 Many instructions in the RISC-V instruction set have multiple variants:
 - An *immediate* variant

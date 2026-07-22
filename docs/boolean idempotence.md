@@ -1,4 +1,6 @@
-# Boolean idempotence
+---
+title: Boolean idempotence
+---
 
 *Idempotence* means that, when we combine a value with itself using an operation,
 we get the same value back again.

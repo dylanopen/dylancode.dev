@@ -1,4 +1,6 @@
-# Multiplication
+---
+title: Multiplication
+---
 
 ## Multiplying two registers
 

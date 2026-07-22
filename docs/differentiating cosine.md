@@ -1,4 +1,6 @@
-# Differentiating cosine
+---
+title: Differentiating cosine
+---
 
 > If $y=a\cos bx$, then $\frac{dy}{dx}=-ab\sin ax$
 

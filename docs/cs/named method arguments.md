@@ -1,4 +1,6 @@
-# Named method arguments
+---
+title: Named method arguments
+---
 
 In the last chapters, we have been calling methods like this:
 

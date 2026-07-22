@@ -1,4 +1,6 @@
-# Continuous random expectation
+---
+title: Continuous random expectation
+---
 
 If we have a [[continuous random variable]], we can calculate its [[expectation]] (essentially, [[mean]]) using this formula:
 

@@ -1,4 +1,6 @@
-# Read-only memory
+---
+title: Read-only memory
+---
 
 Read-only memory (ROM) is a type of memory that is used to store data that 
 the computer needs to access quickly, but that doesn't ever change (except for

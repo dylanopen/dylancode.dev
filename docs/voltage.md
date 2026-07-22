@@ -1,4 +1,6 @@
-# Voltage
+---
+title: Voltage
+---
 
 ## Types of voltage
 

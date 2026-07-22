@@ -1,4 +1,6 @@
-# Point of inflection
+---
+title: Point of inflection
+---
 
 ## What is a point of inflection?
 

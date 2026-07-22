@@ -1,4 +1,6 @@
-# Changing the base of a power
+---
+title: Changing the base of a power
+---
 
 We know from the page on [[raising an index to an index]]
 that we can rewrite $(a^x)^y$ as $a^{xy}$.

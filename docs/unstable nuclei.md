@@ -1,4 +1,6 @@
-# Unstable nuclei
+---
+title: Unstable nuclei
+---
 
 ## What makes a [[nucleus]] unstable?
 

@@ -1,4 +1,6 @@
-# Data error checking
+---
+title: Data error checking
+---
 
 When we send data from one place to another, we want to make sure that the data
 is correct when it arrives. We don't want to send a message, and have it arrive

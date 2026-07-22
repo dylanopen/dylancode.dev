@@ -1,4 +1,6 @@
-# Common calculus results
+---
+title: Common calculus results
+---
 
 | [[expression]]      | Derivative              | Integral                     |
 |-----------------|-------------------------|------------------------------|

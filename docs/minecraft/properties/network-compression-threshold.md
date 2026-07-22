@@ -1,4 +1,6 @@
-# network-compression-threshold
+---
+title: network-compression-threshold
+---
 
 You can change the [[server]]'s network compression threshold in `[[server]].[[properties]]`
 \- it has a default value of `256`:

@@ -1,4 +1,6 @@
-# Equation of a circle
+---
+title: Equation of a circle
+---
 
 There is a general equation which defines the shape of a *circle* on a graph.
 

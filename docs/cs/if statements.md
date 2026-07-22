@@ -1,4 +1,6 @@
-# If statements
+---
+title: If statements
+---
 
 An *if statement* is a way to only run a block of code if a certain condition
 is true.

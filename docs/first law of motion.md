@@ -1,4 +1,6 @@
-# First law of motion
+---
+title: First law of motion
+---
 
 Newton's first law of motion states that:
 

@@ -1,4 +1,6 @@
-# Mean
+---
+title: Mean
+---
 
 The **mean** of a set of numbers is what we usually refer to as the 'average'.
 

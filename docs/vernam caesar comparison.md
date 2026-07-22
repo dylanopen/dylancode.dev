@@ -1,4 +1,6 @@
-# Vernam vs Caesar cipher
+---
+title: Vernam vs Caesar cipher
+---
 
 The [[vernam cipher]] is *always* a more secure option than the [[caesar cipher]].
 

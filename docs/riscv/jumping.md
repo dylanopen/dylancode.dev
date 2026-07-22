@@ -1,4 +1,6 @@
-# Jumping
+---
+title: Jumping
+---
 
 *Jumping* is where we change the flow of our program by jumping to a different
 part of the code - we essentially 'goto' a certain line (or [[memory address]]) in

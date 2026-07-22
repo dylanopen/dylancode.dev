@@ -1,4 +1,6 @@
-# Indexing arrays
+---
+title: Indexing arrays
+---
 
 Every item in an array has an *[[index]]*. This represents where the item is located
 within the array.

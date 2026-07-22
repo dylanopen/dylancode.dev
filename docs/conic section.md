@@ -1,4 +1,6 @@
-# Conic section
+---
+title: Conic section
+---
 
 If we imagine a *cone* - a 3D shape that has a circular base and a pointed top - and we slice through it in lots of different directions, we can get some common shapes you may have seen before.
 

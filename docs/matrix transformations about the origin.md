@@ -1,4 +1,6 @@
-# Matrix transformations about the origin
+---
+title: Matrix transformations about the origin
+---
 
 ## Reflection in the x-axis
 

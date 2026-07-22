@@ -1,4 +1,6 @@
-# MIDI advantages
+---
+title: MIDI advantages
+---
 
 - It's a **more compact representation** of the audio:
     - Takes up less [[storage space]]

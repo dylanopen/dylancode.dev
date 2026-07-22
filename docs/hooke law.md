@@ -1,4 +1,6 @@
-# Hooke's law
+---
+title: Hooke's law
+---
 
 > The [[extension]] of a [[spring]] is [[direct proportion|directly proportional]] to the [[force]] applied, until the [[limit of proportionality]] is reached.
 

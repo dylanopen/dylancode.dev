@@ -1,4 +1,6 @@
-# Base units
+---
+title: Base units
+---
 
 There are seven base 'SI' units. They are:
 

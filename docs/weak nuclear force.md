@@ -1,4 +1,6 @@
-# Weak nuclear force
+---
+title: Weak nuclear force
+---
 
 The *weak nuclear force* is one of the [[particle forces]].
 

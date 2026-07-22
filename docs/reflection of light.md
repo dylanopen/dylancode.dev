@@ -1,4 +1,6 @@
-# Reflection of light
+---
+title: Reflection of light
+---
 
 > Reflection is the change in direction of light when it bounces off a surface.
 

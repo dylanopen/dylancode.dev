@@ -1,4 +1,6 @@
-# Scalar product of vectors
+---
+title: Scalar product of vectors
+---
 
 If we have two vectors, $\vec a$ and $\vec b$, we write the *scalar product* as:
 

@@ -1,4 +1,6 @@
-# Modulus of a linear function
+---
+title: Modulus of a linear function
+---
 
 ## What is the modulus of a function?
 

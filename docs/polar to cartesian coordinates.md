@@ -1,4 +1,6 @@
-# Polar to Cartesian coordinates
+---
+title: Polar to Cartesian coordinates
+---
 
 Let's suppose we want to convert a coordinate in the form $(r,\theta)$ to a
 coordinate in the form $(x,y)$. How do we do that?

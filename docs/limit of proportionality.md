@@ -1,4 +1,6 @@
-# Limit of proportionality
+---
+title: Limit of proportionality
+---
 
 Also known as the **elastic limit**.
 

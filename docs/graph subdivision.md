@@ -1,4 +1,6 @@
-# Graph subdivision
+---
+title: Graph subdivision
+---
 
 A **subdivision** of a [[graph]] is created by adding new [[graph vertex|vertices]] along the existing [[graph edge|edges]] of the graph.
 

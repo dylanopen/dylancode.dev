@@ -1,4 +1,6 @@
-# One-time pad
+---
+title: One-time pad
+---
 
 A *one-time pad* is a *key* used by a [[cipher]] that is as long as the
 message that is being encrypted.

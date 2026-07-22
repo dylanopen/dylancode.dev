@@ -1,4 +1,6 @@
-# Definition of integration
+---
+title: Definition of integration
+---
 
 **Integration** is the **opposite** of [[definition of differentiation|differentiation]].
 

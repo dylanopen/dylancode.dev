@@ -1,4 +1,6 @@
-# Discrete random mode
+---
+title: Discrete random mode
+---
 
 Just like when working with any data involving probabilities:
 

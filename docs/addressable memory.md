@@ -1,4 +1,6 @@
-# Addressable memory
+---
+title: Addressable memory
+---
 
 > Addressable memory is a way we can lay out the memory in a computer so that we can access it using [[memory address]]es. Each piece of data or instruction is stored at a specific address in memory, and we can use that address to read or write data.
 

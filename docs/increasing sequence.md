@@ -1,4 +1,6 @@
-# Increasing sequence
+---
+title: Increasing sequence
+---
 
 For any increasing [[sequence]], it is **always** true that:
 

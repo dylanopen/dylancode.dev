@@ -1,4 +1,6 @@
-# Continuous random square expectation transformation
+---
+title: Continuous random square expectation transformation
+---
 
 For a [[continuous random variable]] $Y$, if the [[probability density function]] is $f(x)$ and the transformation function is $t(x)$:
 

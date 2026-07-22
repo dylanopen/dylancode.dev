@@ -1,4 +1,6 @@
-# Bitmap storage
+---
+title: Bitmap storage
+---
 
 A [[bitmap image]] typically uses more storage for an image than a vector image
 does, because it's storing each individual pixel.

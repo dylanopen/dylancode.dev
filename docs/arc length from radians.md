@@ -1,4 +1,6 @@
-# Arc length from radians
+---
+title: Arc length from radians
+---
 
 To find the [[arc length|length of an arc]] (of a [[sector]]), we can just calculate:
 

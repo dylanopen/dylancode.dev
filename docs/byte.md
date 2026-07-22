@@ -1,4 +1,6 @@
-# Byte
+---
+title: Byte
+---
 
 A byte is simply **8 [[bit|bits]]**.
 

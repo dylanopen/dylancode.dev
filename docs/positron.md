@@ -1,4 +1,6 @@
-# Positron
+---
+title: Positron
+---
 
 A *positron* is the [[antiparticle]] of an [[electron]].
 

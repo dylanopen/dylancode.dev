@@ -1,4 +1,6 @@
-# Boolean NOT
+---
+title: Boolean NOT
+---
 
 To represent a [[not gate|NOT gate]] of `A` (in other words, invert the value of `A`), we
 put a line on top of the [[expression]] we want to invert:

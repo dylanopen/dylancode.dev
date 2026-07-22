@@ -1,4 +1,6 @@
-# Bevy ECS
+---
+title: Bevy ECS
+---
 
 > There's no programming in this chapter. It's all about understanding how Bevy works, by looking at its main feature: the **entity component system**.
 

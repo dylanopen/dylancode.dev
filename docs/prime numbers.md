@@ -1,4 +1,6 @@
-# Prime numbers
+---
+title: Prime numbers
+---
 
 ## What is a prime number?
 

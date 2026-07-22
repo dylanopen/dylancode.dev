@@ -1,4 +1,6 @@
-# Floats
+---
+title: Floats
+---
 
 A *float* is a **floating point number**.
 

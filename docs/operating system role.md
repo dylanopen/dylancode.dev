@@ -1,4 +1,6 @@
-# Operating system role
+---
+title: Operating system role
+---
 
 The role of an [[operating system]] is to provide a bridge between the computer
 [[hardware]] and the [[software]] applications that run on it.

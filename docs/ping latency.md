@@ -1,4 +1,6 @@
-# Ping latency
+---
+title: Ping latency
+---
 
 You may have heard of 'ping' when playing games, for example. It's very similar
 to checking the [[latency]] of a network connection.

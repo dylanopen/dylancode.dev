@@ -1,4 +1,6 @@
-# NAND gate
+---
+title: NAND gate
+---
 
 A *NAND* [[logic gate]] is a combination of an [[and gate]] followed by a [[not gate]]. In other
 words, it's an inverted [[and gate]].

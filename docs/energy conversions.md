@@ -1,4 +1,6 @@
-# Energy conversions
+---
+title: Energy conversions
+---
 
 We can represent *energy* with various units. The main ones being:
 - Joules (J)

@@ -1,4 +1,6 @@
-# Volume of revolution
+---
+title: Volume of revolution
+---
 
 There are two key terms to know in the volumes of revolution topic:
 - Solid of revolution

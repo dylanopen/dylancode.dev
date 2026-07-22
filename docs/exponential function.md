@@ -1,4 +1,6 @@
-# Exponential function
+---
+title: Exponential function
+---
 
 Exponential functions are in the form of $f(x)=a^x$, where $a$ is a positive
 constant and $a \neq 1$ (because if $a=1$ then the function would be a

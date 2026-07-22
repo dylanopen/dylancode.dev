@@ -1,4 +1,6 @@
-# Vector line equation
+---
+title: Vector line equation
+---
 
 As well as being able to represent a line in cartesian form (e.g. $y = mx + c$),
 we can also represent a line using vectors.

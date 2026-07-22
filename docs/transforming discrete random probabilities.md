@@ -1,4 +1,6 @@
-# Transforming discrete random probabilities
+---
+title: Transforming discrete random probabilities
+---
 
 Let's say we have a [[discrete random variable]], called $X$, and we know that
 there is another DRV which we can write as $Y=aX+b$ - where $a$ and $b$ are

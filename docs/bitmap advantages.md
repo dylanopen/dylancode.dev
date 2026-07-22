@@ -1,4 +1,6 @@
-# Bitmap advantages
+---
+title: Bitmap advantages
+---
 
 If we compare them to [[vector image|vector]] images, [[
 /[[bitmap image]]|bitmap images]] have some advantages. For example:

@@ -1,4 +1,6 @@
-# Logic gate
+---
+title: Logic gate
+---
 
 In the simplest possible terms, a *logic gate* is a tiny [[electronic component]] that takes one or more electrical signals as input and produces a single electrical signal as output, based on specific rules.
 

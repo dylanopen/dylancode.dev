@@ -1,4 +1,6 @@
-# Logarithm of 1
+---
+title: Logarithm of 1
+---
 
 For any base `b` (as long as `b` is greater than $0$ and not equal to $1$),
 the logarithm of `1` is always `0`.

@@ -1,4 +1,6 @@
-# MIDI disadvantages
+---
+title: MIDI disadvantages
+---
 
 The main disadvantage with [[midi]] is that it can't record things that aren't digital instruments.
 

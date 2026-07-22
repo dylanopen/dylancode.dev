@@ -1,4 +1,6 @@
-# Simple graph
+---
+title: Simple graph
+---
 
 A simple graph is a type of [[graph]] which has no [[graph loop|loops]] or
 multiple [[graph edge|edges]] between the same pair of

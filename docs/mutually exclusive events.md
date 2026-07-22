@@ -1,4 +1,6 @@
-# Mutually exclusive events
+---
+title: Mutually exclusive events
+---
 
 When talking about probability, if two events are *mutually exclusive*, it means
 that *both* can't happen. Only one of them.

@@ -1,4 +1,6 @@
-# Discrete random uniform distribution
+---
+title: Discrete random uniform distribution
+---
 
 ## Standard series results
 

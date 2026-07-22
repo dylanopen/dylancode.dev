@@ -1,4 +1,6 @@
-# Euler's formula
+---
+title: Euler's formula
+---
 
 > Euler's formula states that:  
 > $e^{i\theta}\equiv\cos\theta+i\sin\theta$

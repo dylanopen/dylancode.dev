@@ -1,4 +1,6 @@
-# Graph edge
+---
+title: Graph edge
+---
 
 An **edge** of a graph connects two [[graph node|nodes]] together.
 

@@ -1,4 +1,6 @@
-# Internal resistance
+---
+title: Internal resistance
+---
 
 - Every component has *internal resistance*.
 - $E$ is the *EMF* of the cell/battery.

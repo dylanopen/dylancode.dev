@@ -1,4 +1,6 @@
-# Periodic sequence
+---
+title: Periodic sequence
+---
 
 A *periodic* [[sequence]] has a repeating sequence: the sequence *repeats* over the same terms forever.
 

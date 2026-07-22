@@ -1,4 +1,6 @@
-# Simplifying ratios
+---
+title: Simplifying ratios
+---
 
 We can simplify ratios in the same way that we can simplify fractions.
 

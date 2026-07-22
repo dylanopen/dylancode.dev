@@ -1,4 +1,6 @@
-# Hamilton graph
+---
+title: Hamilton graph
+---
 
 A *Hamilton/Hamiltonian graph*, or sometimes called a **tour** is a type of
 [[graph]] that contains a *Hamiltonian cycle*.

@@ -1,4 +1,6 @@
-# Types of server hosting
+---
+title: Types of server hosting
+---
 
 There are lots of ways we can host a website, or other program.
 

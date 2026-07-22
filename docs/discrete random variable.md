@@ -1,4 +1,6 @@
-# Discrete random variable
+---
+title: Discrete random variable
+---
 
 As you can probably guess from the two chapters about [[
 /[[random variable]]|random [[cs/variables|variables]]]] and [[discrete variable|discrete variables]], a **discrete

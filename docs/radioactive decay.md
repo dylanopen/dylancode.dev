@@ -1,4 +1,6 @@
-# Radioactive decay
+---
+title: Radioactive decay
+---
 
 When a [[nucleus]] is [[unstable nuclei|unstable]], it may emit [[particle]]s, such as [[proton]]s, [[neutron]]s, [[electron]]s and [[positron]]s, or it 
 

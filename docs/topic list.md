@@ -1,4 +1,6 @@
-# List of future topics for dylancode.dev
+---
+title: List of future topics for dylancode.dev
+---
 
 MATHS
 

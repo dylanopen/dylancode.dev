@@ -1,4 +1,6 @@
-# Percentage decrease
+---
+title: Percentage decrease
+---
 
 If we are asked to decrease a quantity by a certain percentage, we can follow 
 these steps:

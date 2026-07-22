@@ -1,4 +1,6 @@
-# Scalar quantity
+---
+title: Scalar quantity
+---
 
 A *scalar quantity* is a measurement which has a **magnitude only**.
 

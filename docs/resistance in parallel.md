@@ -1,4 +1,6 @@
-# Resistance in parallel
+---
+title: Resistance in parallel
+---
 
 ## Resistance in parallel formula
 

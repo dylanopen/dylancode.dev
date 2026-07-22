@@ -1,4 +1,6 @@
-# Young modulus
+---
+title: Young modulus
+---
 
 - The Young [[modulus]] determines how difficult it is to change an object's shape.
     - A small Young [[modulus]] means it is **easier** to change its shape.

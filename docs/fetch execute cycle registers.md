@@ -1,4 +1,6 @@
-# Fetch-execute cycle registers
+---
+title: Fetch-execute cycle registers
+---
 
 During the [[fetch-execute cycle|fetch-execute cycle]], the [[processor]] uses the [[processor registers]] to hold data and addresses that it needs to access memory and execute instructions.
 

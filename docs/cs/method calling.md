@@ -1,4 +1,6 @@
-# Method calling
+---
+title: Method calling
+---
 
 To call a method on an object in C#, we use this syntax:
 

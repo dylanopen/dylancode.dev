@@ -1,4 +1,6 @@
-# Interquartile range
+---
+title: Interquartile range
+---
 
 The *interquartile [[range]]* of a set of numbers is the difference between the
 third quartile (sometimes called the upper quartile) and the first quartile

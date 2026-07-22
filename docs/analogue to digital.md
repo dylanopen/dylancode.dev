@@ -1,4 +1,6 @@
-# Analogue to digital conversion
+---
+title: Analogue to digital conversion
+---
 
 If we have an [[analogue signal]], we can convert it into a [[digital signal]] using a
 process called *analogue to digital conversion* - or ADC.

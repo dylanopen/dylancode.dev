@@ -1,4 +1,6 @@
-# Wave speed equation
+---
+title: Wave speed equation
+---
 
 Using the formulae covered in these chapters:
 - [[wave speed]]

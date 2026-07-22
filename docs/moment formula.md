@@ -1,4 +1,6 @@
-# Moment formula
+---
+title: Moment formula
+---
 
 We can calculate the [[moment]] (M) using the formula:
 

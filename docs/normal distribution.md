@@ -1,4 +1,6 @@
-# Normal distribution
+---
+title: Normal distribution
+---
 
 - 68.2% of data lies within *one [[standard deviation]]* of the mean.
 

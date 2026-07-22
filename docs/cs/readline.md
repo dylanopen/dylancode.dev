@@ -1,4 +1,6 @@
-# Console.ReadLine
+---
+title: Console.ReadLine
+---
 
 C# has a built-in method for reading input from the user via the console: `Console.ReadLine`.
 

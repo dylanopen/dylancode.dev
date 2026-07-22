@@ -1,4 +1,6 @@
-# Substitution
+---
+title: Substitution
+---
 
 Substitution is simply when we relace every instance of a variable in an
 [[expression]] with a value we know.

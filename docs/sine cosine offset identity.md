@@ -1,4 +1,6 @@
-# Sine-cosine offset identity
+---
+title: Sine-cosine offset identity
+---
 
 As well as the identity that $\sin^2\theta+\cos^2\theta\equiv1$, there is
 another identity linking the $\sin$ function with the $\cos$ function:

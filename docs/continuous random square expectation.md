@@ -1,4 +1,6 @@
-# Continuous random square expectation
+---
+title: Continuous random square expectation
+---
 
 We can find the [[continuous random expectation]] using this formula:
 

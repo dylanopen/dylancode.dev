@@ -1,4 +1,6 @@
-# Network hub
+---
+title: Network hub
+---
 
 Generally, [[network switch|switches]] are 'smart' and they can look at the [[network frame|frames]] and send them
 to the correct device **only**.

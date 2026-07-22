@@ -1,4 +1,6 @@
-# Volume of revolution between lines
+---
+title: Volume of revolution between lines
+---
 
 If we have two lines, $y = f(x)$ and $y = g(x)$, where $f(x) \geq g(x)$ for all $x$ in
 the interval we're interested in, and we want to find the

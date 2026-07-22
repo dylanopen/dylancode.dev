@@ -1,4 +1,6 @@
-# Else-if statements
+---
+title: Else-if statements
+---
 
 > An `else ... if` statement allows us to check another condition if the
 > previous `if` condition was false.

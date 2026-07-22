@@ -1,4 +1,6 @@
-# Bit rate
+---
+title: Bit rate
+---
 
 The [[bit]] rate is the number of bits that are transmitted per second over the
 wire.

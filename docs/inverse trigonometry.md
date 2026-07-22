@@ -1,4 +1,6 @@
-# Inverse trigonometry
+---
+title: Inverse trigonometry
+---
 
 When we write $\sin^{-1}x$, for example, it is ambiguous. Do we [[mean]]:
 - the principle value for which $\sin \theta=x$,

@@ -1,4 +1,6 @@
-# Gas temperature & pressure (pressure law)
+---
+title: Gas temperature & pressure (pressure law)
+---
 
 - The higher the [[temperature]] of a [[gas]], the higher its [[pressure]].
     - This assumes that the other [[gas properties]] remain constant.

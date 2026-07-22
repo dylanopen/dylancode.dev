@@ -1,4 +1,6 @@
-# Distance
+---
+title: Distance
+---
 
 *Distance* measures how long the path that we travelled was.
 

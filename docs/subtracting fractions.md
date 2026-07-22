@@ -1,4 +1,6 @@
-# Subtracting fractions
+---
+title: Subtracting fractions
+---
 
 To subtract fractions, they need to have the same **denominator** (the
 bottom part of the fraction). If they don't have the same denominator, we need

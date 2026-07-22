@@ -1,4 +1,6 @@
-# Beta minus decay
+---
+title: Beta minus decay
+---
 
 In beta minus [[radioactive decay]], [[beta minus]] [[radiation]] is emitted from the [[nucleus]], and it has the equation:
 

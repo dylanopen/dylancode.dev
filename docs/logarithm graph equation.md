@@ -1,4 +1,6 @@
-# Logarithm graph equation
+---
+title: Logarithm graph equation
+---
 
 If we have an *exponential* graph with this equation:
 

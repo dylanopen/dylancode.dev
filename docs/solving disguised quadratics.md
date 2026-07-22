@@ -1,4 +1,6 @@
-# Solving disguised quadratics
+---
+title: Solving disguised quadratics
+---
 
 In some cases, we might see a [[polynomials|polynomial]] that has a higher
 degree than $2$ (the degree of a quadratic), but it may still be possible to

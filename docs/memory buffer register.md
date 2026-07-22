@@ -1,4 +1,6 @@
-# Memory buffer register
+---
+title: Memory buffer register
+---
 
 > The memory buffer [[register]] (MBR) is a [[register]] in the [[processor]] that holds the data that was read from memory, or the data that is going to be written to memory.
 

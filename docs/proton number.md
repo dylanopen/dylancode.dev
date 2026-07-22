@@ -1,4 +1,6 @@
-# Proton number
+---
+title: Proton number
+---
 
 > The *[[proton]] number* of an [[atom]] is the number of [[proton]]s it has in its [[nucleus]].
 

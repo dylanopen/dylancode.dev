@@ -1,4 +1,6 @@
-# Geometric sequence
+---
+title: Geometric sequence
+---
 
 ## Term-to-term rule
 

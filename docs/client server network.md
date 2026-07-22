@@ -1,4 +1,6 @@
-# Client-server network
+---
+title: Client-server network
+---
 
 > A [[client]]-[[server]] network is a way of connecting computers together on a network, where one central computer (the *[[server]]*) provides resources or services to other computers (the *clients*). The clients ask the [[server]] for things, like files, data or programs, and the [[server]] can respond or store data the [[client]] sends to it.
 

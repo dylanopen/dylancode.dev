@@ -1,4 +1,6 @@
-# Derivative notation
+---
+title: Derivative notation
+---
 
 We have a few options for writing the derivative of a function or expresssion.
 

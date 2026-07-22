@@ -1,4 +1,6 @@
-# Hyperbolic square difference identity
+---
+title: Hyperbolic square difference identity
+---
 
 ## $\cosh^2x - \sinh^2x = 1$
 

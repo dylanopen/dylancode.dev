@@ -1,4 +1,6 @@
-# RISC-V assembly
+---
+title: RISC-V assembly
+---
 
 - [[riscv/examples]]
     - [[riscv/smallest program]]

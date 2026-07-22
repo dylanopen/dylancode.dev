@@ -1,4 +1,6 @@
-# File Transfer Protocol
+---
+title: File Transfer Protocol
+---
 
 When we transfer files over the internet, we usually use either one of two protocols:
 - FTP (File Transfer Protocol)

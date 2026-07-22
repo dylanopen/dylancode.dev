@@ -1,4 +1,6 @@
-# Matrix scalar multiplication
+---
+title: Matrix scalar multiplication
+---
 
 When multiplying a matrix by a scalar (a single number), we multiply each element
 of the matrix by that scalar.

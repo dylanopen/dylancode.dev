@@ -1,4 +1,6 @@
-# Resistance in a bulb
+---
+title: Resistance in a bulb
+---
 
 ## Why does a hotter bulb have more resistance?
 

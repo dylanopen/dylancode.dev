@@ -1,4 +1,6 @@
-# Network interface card
+---
+title: Network interface card
+---
 
 A network interface card, or NIC, is essentially an *adapter* for the network.
 

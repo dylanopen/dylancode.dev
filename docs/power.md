@@ -1,4 +1,6 @@
-# Power
+---
+title: Power
+---
 
 > **Power** is the rate of energy transfer.
 

@@ -1,4 +1,6 @@
-# Electrical resistance
+---
+title: Electrical resistance
+---
 
 - Resistance is the **opposition to the flow of current**.
 - The symbol for resistance is $R$.

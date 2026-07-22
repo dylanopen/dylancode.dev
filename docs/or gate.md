@@ -1,4 +1,6 @@
-# OR gate
+---
+title: OR gate
+---
 
 An *OR* [[logic gate]] takes two input signals and produces an output signal that is `1`
 if **at least one** of the input signals is `1`.

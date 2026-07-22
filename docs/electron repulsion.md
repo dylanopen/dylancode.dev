@@ -1,4 +1,6 @@
-# Electron repulsion
+---
+title: Electron repulsion
+---
 
 It's possible for two [[electron]]s to both [[repulsion|repel]] each other, if they are moving towards each other and they get close enough.
 

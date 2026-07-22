@@ -1,4 +1,6 @@
-# Complex conjugate in modulus-argument form
+---
+title: Complex conjugate in modulus-argument form
+---
 
 In [[modulus argument form]], we can find the [[complex conjugate]] of [[complex number]].
 

@@ -1,4 +1,6 @@
-# Processor
+---
+title: Processor
+---
 
 > The **processor** is the part of the computer that fetches, decodes and
 > executes a program's instructions.

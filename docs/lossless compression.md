@@ -1,4 +1,6 @@
-# Lossless compression
+---
+title: Lossless compression
+---
 
 **Lossless compression** is a type of [[file compression|file-compression]] where the
 original file can be perfectly reconstructed from the compressed version - no

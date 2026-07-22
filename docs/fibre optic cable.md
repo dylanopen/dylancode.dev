@@ -1,4 +1,6 @@
-# Fibre optic cable
+---
+title: Fibre optic cable
+---
 
 A fibre optic cable is a long stretch of thin glass.
 

@@ -1,4 +1,6 @@
-# Digital sampling
+---
+title: Digital sampling
+---
 
 When we *sample* an [[analogue signal]], we take measurements of the [[analogue signal]]
 at regular intervals.  

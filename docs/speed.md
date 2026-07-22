@@ -1,4 +1,6 @@
-# Speed
+---
+title: Speed
+---
 
 *Speed* measures how much the *[[distance]]* changes, every second.
 

@@ -1,4 +1,6 @@
-# Binomial distribution notation
+---
+title: Binomial distribution notation
+---
 
 We can write the binomial distribution as:
 

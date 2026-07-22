@@ -1,4 +1,6 @@
-# Synchronous transmission
+---
+title: Synchronous transmission
+---
 
 Synchronous transmission is when we send data in time with a clock signal.
 

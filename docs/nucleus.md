@@ -1,4 +1,6 @@
-# Nucleus
+---
+title: Nucleus
+---
 
 - The *nucleus* is the small, dense, positive region at the centre of an [[atom]].
 - It contains most of the [[atom]]'s mass but very little of its volume.

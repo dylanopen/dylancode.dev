@@ -1,4 +1,6 @@
-# entity-tracking-range
+---
+title: entity-tracking-range
+---
 
 The *entity tracking [[range]]* basically tells the [[server]] how close a player has to
 be to an entity (mob, other player, etc) before the player can see the entity.

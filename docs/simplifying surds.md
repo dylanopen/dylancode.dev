@@ -1,4 +1,6 @@
-# Simplifying surds
+---
+title: Simplifying surds
+---
 
 - To simplify a surd, we need to look for any factors that are **squares**.
 - We can then take the square root of these factors out of the surd.

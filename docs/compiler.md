@@ -1,4 +1,6 @@
-# Compiler
+---
+title: Compiler
+---
 
 - Compilers work by reading the whole [[source code]] and translating it into
   machine code, **before** the program is run or distributed to users.

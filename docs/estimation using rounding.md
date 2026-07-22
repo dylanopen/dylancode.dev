@@ -1,4 +1,6 @@
-# Estimation using rounding
+---
+title: Estimation using rounding
+---
 
 If we are asked to *estimate* the answer to a calculation, we do the following
 steps:

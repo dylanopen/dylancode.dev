@@ -1,4 +1,6 @@
-# Distance between two points
+---
+title: Distance between two points
+---
 
 To find the [[distance]] between two points (in a 2D plane) we can use the 
 pythagorean theorem:

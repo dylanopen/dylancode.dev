@@ -1,4 +1,6 @@
-# Strong nuclear force
+---
+title: Strong nuclear force
+---
 
 Inside an [[atom]]'s [[nucleus]], the [[proton]]s are all positively charged, so they repel each other due to the [[electrostatic force]]. 
 

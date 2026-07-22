@@ -1,4 +1,6 @@
-# Temperature coefficient
+---
+title: Temperature coefficient
+---
 
 ## Negative temperature coefficient (NTC)
 

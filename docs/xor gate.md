@@ -1,4 +1,6 @@
-# XOR gate
+---
+title: XOR gate
+---
 
 An *XOR* [[logic gate]] ([[short]] for 'exclusive [[or gate]]') takes two input signals and
 produces an output signal that is `1` if **exactly one** of the input signals is

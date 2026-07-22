@@ -1,4 +1,6 @@
-# Decryption
+---
+title: Decryption
+---
 
 > **Decryption** is the opposite of [[encryption]] - it's where we
 > take the *ciphertext* and use a *reverse [[cipher]]* - usually using an

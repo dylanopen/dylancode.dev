@@ -1,4 +1,6 @@
-# Binomial distribution expectation
+---
+title: Binomial distribution expectation
+---
 
 To find the [[expectation]] ([[mean]]) of a [[binomial distribution]], we multiply the **number of trials** by the **probability of success**.
 

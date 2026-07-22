@@ -1,4 +1,6 @@
-# Applications of differentiation
+---
+title: Applications of differentiation
+---
 
 There are a few things we can do with the [[differentiation|derivative]] of a function, which are really useful for solving problems.
 

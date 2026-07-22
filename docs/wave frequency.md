@@ -1,4 +1,6 @@
-# Wave frequency
+---
+title: Wave frequency
+---
 
 The **frequency** of a wave is the number of *complete* waves that pass a given
 point in one second.

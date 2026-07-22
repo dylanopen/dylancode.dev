@@ -1,4 +1,6 @@
-# Difference of two squares
+---
+title: Difference of two squares
+---
 
 Whenever we have an [[expression]] in the form of:
 

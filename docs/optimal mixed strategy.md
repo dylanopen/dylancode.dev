@@ -1,4 +1,6 @@
-# Optimal mixed strategy
+---
+title: Optimal mixed strategy
+---
 
 ## Prerequisites to find the optimal mixed strategy
 

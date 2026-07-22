@@ -1,4 +1,6 @@
-# The discriminant of a quadratic equation
+---
+title: The discriminant of a quadratic equation
+---
 
 The *discriminant* of a quadratic equation is calculated using the part under
 the square root in the **[[quadratic formula]]**.

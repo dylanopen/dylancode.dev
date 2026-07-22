@@ -1,4 +1,6 @@
-# Absolute uncertainty
+---
+title: Absolute uncertainty
+---
 
 To calculate the absolute [[uncertainty]] of a set of [[measurement]]s, we can use the formula:
 

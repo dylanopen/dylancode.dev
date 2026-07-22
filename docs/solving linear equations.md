@@ -1,4 +1,6 @@
-# Solving linear equations
+---
+title: Solving linear equations
+---
 
 In order to solve *any* equation, we need to get the variable we are solving for
 on one side of the equation and everything else on the other side.

@@ -1,4 +1,6 @@
-# Simple binary operators
+---
+title: Simple binary operators
+---
 
 - A binary operator is simply any operator in maths which takes two inputs and
   produces an output.

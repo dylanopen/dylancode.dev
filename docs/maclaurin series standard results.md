@@ -1,4 +1,6 @@
-# Maclaurin series standard results
+---
+title: Maclaurin series standard results
+---
 
 ## Standard [[maclaurin series]] results
 

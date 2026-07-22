@@ -1,4 +1,6 @@
-# Powers of logarithms
+---
+title: Powers of logarithms
+---
 
 If we see a logarithm in a [[power]], and the base of the logarithm is the same as
 the base of the [[power]], we know that:

@@ -1,4 +1,6 @@
-# State change
+---
+title: State change
+---
 
 When a material is [[heating|heated]], if it is at its [[melting point]] or [[boiling point]], it may **change state**.
 

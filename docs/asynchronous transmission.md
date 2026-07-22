@@ -1,4 +1,6 @@
-# Asynchronous transmission
+---
+title: Asynchronous transmission
+---
 
 Asynchronous transmission is [[data transmission]] without a [[clock]] signal, and instead we send extra signals to indicate when data is being sent.
 

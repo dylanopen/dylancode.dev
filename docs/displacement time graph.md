@@ -1,4 +1,6 @@
-# Displacement-time graph
+---
+title: Displacement-time graph
+---
 
 - A *[[displacement]]-time graph* is a graph which shows:
   - the [[displacement]] travelled by an object on the y-axis

@@ -1,4 +1,6 @@
-# Kirchoff's first law
+---
+title: Kirchoff's first law
+---
 
 > The sum of [[current]]s entering a 'junction' is equal to the sum of currents leaving the junction.
 

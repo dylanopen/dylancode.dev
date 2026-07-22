@@ -1,4 +1,6 @@
-# Electron diffraction
+---
+title: Electron diffraction
+---
 
 A [[particle]] doesn't [[diffraction|diffract]], but a [[wave]] does.
 

@@ -1,4 +1,6 @@
-# Subtracting complex numbers
+---
+title: Subtracting complex numbers
+---
 
 To subtract complex numbers, you simply subtract the real parts and subtract the
 imaginary parts separately, then add the parts to form a [[complex number]].

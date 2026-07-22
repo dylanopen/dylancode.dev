@@ -1,4 +1,6 @@
-# Matrix dimensions
+---
+title: Matrix dimensions
+---
 
 > The **dimensions** of a matrix are the number of rows and columns it has.
 

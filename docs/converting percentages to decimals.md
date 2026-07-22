@@ -1,4 +1,6 @@
-# Converting percentages to decimals
+---
+title: Converting percentages to decimals
+---
 
 We can convert a percentage into a decimal by **dividing** the percentage value by
 **100**.

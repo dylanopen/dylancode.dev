@@ -1,4 +1,6 @@
-# Stretching graphs
+---
+title: Stretching graphs
+---
 
 ## What is a stretch?
 

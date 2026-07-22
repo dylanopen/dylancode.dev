@@ -1,4 +1,6 @@
-# Graph trail
+---
+title: Graph trail
+---
 
 A **trail** is just like a [[graph walk|walk]] in a [[graph]], except that
 you are not allowed to traverse the same [[graph edge|edge]] more than once.

@@ -1,4 +1,6 @@
-# Bus
+---
+title: Bus
+---
 
 > A *bus* is effectively a collection of wires that are used to transfer data
 > between different parts of a computer.

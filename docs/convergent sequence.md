@@ -1,4 +1,6 @@
-# Convergent sequence
+---
+title: Convergent sequence
+---
 
 In a *convergent* [[sequence]], the values will eventually reach a **limit** ($L$).
 

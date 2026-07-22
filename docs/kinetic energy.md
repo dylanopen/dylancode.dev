@@ -1,4 +1,6 @@
-# Kinetic energy
+---
+title: Kinetic energy
+---
 
 *Kinetic energy* is the energy which makes objects move or vibrate.
 

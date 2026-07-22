@@ -1,4 +1,6 @@
-# Discrete variable
+---
+title: Discrete variable
+---
 
 > A **discrete variable** is a variable which can only take on a finite number
 > of values. There's a limited number of possible values that the variable can

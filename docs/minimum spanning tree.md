@@ -1,4 +1,6 @@
-# Minimum spanning tree
+---
+title: Minimum spanning tree
+---
 
 A *minimum spanning tree* (MST) is a special type of [[subgraph]] on
 a [[network]] that connects all the [[network node|nodes]] together

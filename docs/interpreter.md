@@ -1,4 +1,6 @@
-# Interpreter
+---
+title: Interpreter
+---
 
 - Interpreters work by reading the [[source code]] **line-by-line** and executing
   it directly.

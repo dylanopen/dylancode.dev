@@ -1,4 +1,6 @@
-# Composite numbers
+---
+title: Composite numbers
+---
 
 ## What is a composite number?
 

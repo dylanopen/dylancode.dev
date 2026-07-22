@@ -1,4 +1,6 @@
-# Software
+---
+title: Software
+---
 
 *Software* is the programs and system software that run ***on*** the computer
 [[hardware]].

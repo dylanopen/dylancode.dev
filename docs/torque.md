@@ -1,4 +1,6 @@
-# Torque
+---
+title: Torque
+---
 
 A *torque* is when we have a *[[couple]]* acting on an object, to rotate it.
 

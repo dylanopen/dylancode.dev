@@ -1,4 +1,6 @@
-# Repeatability
+---
+title: Repeatability
+---
 
 If we collect a set of measurements in an experiment, one of the things we need
 to consider is how *repeatable* our measurements are.

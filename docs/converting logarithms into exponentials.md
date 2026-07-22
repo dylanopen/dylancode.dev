@@ -1,4 +1,6 @@
-# Converting logarithms into exponentials
+---
+title: Converting logarithms into exponentials
+---
 
 We can also convert logarithmic expressions into exponential ones using the
 same exact definition of logarithms:

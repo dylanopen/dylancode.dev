@@ -1,4 +1,6 @@
-# Antiparticle
+---
+title: Antiparticle
+---
 
 A [[particle]] and *antiparticle* pair have the same [[mass]] but opposite [[charge]]s.
 

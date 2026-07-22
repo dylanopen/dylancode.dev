@@ -1,4 +1,6 @@
-# Random variable addition
+---
+title: Random variable addition
+---
 
 If we have 2 [[independent events|independent variables]], $X$ and $Y$, with expectations $E(X)$ and $E(Y)$, and $Var(X)$ and $Var(Y)$:
 

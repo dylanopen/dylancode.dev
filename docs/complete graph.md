@@ -1,4 +1,6 @@
-# Complete graph
+---
+title: Complete graph
+---
 
 A *complete graph* is a type of [[graph]] where every pair of vertices has
 a direct [[graph edge|edge]] connecting them. In other words, in a complete

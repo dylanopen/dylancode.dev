@@ -1,4 +1,6 @@
-# Converting cartesian-form to vector-form line equations
+---
+title: Converting cartesian-form to vector-form line equations
+---
 
 ## Cartesian form
 

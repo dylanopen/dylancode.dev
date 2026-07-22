@@ -1,4 +1,6 @@
-# Bevy
+---
+title: Bevy
+---
 
 Learn how to code games using Bevy and Rust.
 

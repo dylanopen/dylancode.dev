@@ -1,4 +1,6 @@
-# Prim's algorithm
+---
+title: Prim's algorithm
+---
 
 One common algorithm for finding the
 [[minimum spanning tree]] is *Prim's algorithm*. It

@@ -1,4 +1,6 @@
-# Gas
+---
+title: Gas
+---
 
 A *gas* is a [[state of matter]].
 

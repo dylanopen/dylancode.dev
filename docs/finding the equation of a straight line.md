@@ -1,4 +1,6 @@
-# Finding the equation of a straight line
+---
+title: Finding the equation of a straight line
+---
 
 ## Finding the equation of a straight line from two points
 

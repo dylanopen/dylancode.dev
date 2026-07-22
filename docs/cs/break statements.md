@@ -1,4 +1,6 @@
-# Break statements
+---
+title: Break statements
+---
 
 A *break statement* is used to exit a loop or switch statement before it has
 naturally completed its execution.

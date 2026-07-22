@@ -1,4 +1,6 @@
-# Complex root
+---
+title: Complex root
+---
 
 ## Solving $z^n=w$
 

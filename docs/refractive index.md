@@ -1,4 +1,6 @@
-# Refractive index
+---
+title: Refractive index
+---
 
 The *refractive [[index]]* tells you the [[speed]] at which light will pass through a
 specific material:

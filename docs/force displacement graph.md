@@ -1,4 +1,6 @@
-# Force-displacement graph
+---
+title: Force-displacement graph
+---
 
 A force-[[displacement]] graph measures:
 - The force applied in newtons, $N$, on the y-axis

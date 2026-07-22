@@ -1,4 +1,6 @@
-# Inelastic collision
+---
+title: Inelastic collision
+---
 
 ## What's conserved?
 

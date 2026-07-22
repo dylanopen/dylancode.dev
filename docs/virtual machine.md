@@ -1,4 +1,6 @@
-# Virtual machine
+---
+title: Virtual machine
+---
 
 ## Executing bytecode
 

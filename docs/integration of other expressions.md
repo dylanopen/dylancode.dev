@@ -1,4 +1,6 @@
-# Integration of other expressions
+---
+title: Integration of other expressions
+---
 
 If, instead of having an [[expression]] with all terms in the form $ax^n$, like:
 

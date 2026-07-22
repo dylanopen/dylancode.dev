@@ -1,4 +1,6 @@
-# Uses of polarisation
+---
+title: Uses of polarisation
+---
 
 Prior knowledge needed:
 - [[polarised wave|Polarised waves]]

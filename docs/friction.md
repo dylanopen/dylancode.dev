@@ -1,4 +1,6 @@
-# Friction
+---
+title: Friction
+---
 
 *Friction* is the force which opposes the motion of an object.
 

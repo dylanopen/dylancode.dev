@@ -1,4 +1,6 @@
-# Complex Numbers (script)
+---
+title: Complex Numbers (script)
+---
 
 > This is a script for a YouTube video and not intended as a learning resource in itself.
 > You can find video tutorials for various topics at [youtube.com/@dylancode](https://youtube.com/@dylancode).

@@ -1,4 +1,6 @@
-# Longitudinal wavelength
+---
+title: Longitudinal wavelength
+---
 
 The [[wavelength]] of any wave is the [[distance]] between two consecutive points that are in phase.
 

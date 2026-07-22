@@ -1,4 +1,6 @@
-# Energy ladder
+---
+title: Energy ladder
+---
 
 An [[isotope]] can have lots of different discrete [[electron energy level]]s - we describe this as an **energy ladder**.
 

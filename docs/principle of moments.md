@@ -1,4 +1,6 @@
-# Principle of moments
+---
+title: Principle of moments
+---
 
 The *principle of moments* says that:
 

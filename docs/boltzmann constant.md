@@ -1,4 +1,6 @@
-# Boltzmann constant
+---
+title: Boltzmann constant
+---
 
 The Boltzmann constant ($k$) is a combination of two constants:
 - the [[avogadro constant]], $N_A$

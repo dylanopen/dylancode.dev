@@ -1,4 +1,6 @@
-# Nibble
+---
+title: Nibble
+---
 
 A *nibble* is simply **4 [[bit|bits]]**.
 

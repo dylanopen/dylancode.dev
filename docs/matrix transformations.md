@@ -1,4 +1,6 @@
-# Matrix transformations
+---
+title: Matrix transformations
+---
 
 ## Examples of transformations
 

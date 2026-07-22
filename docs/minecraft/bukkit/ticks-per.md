@@ -1,4 +1,6 @@
-# ticks-per
+---
+title: ticks-per
+---
 
 The default `ticks-per` settings are found in the `[[bukkit]].yml` file and look
 like this:

@@ -1,4 +1,6 @@
-# wake-up-inactive
+---
+title: wake-up-inactive
+---
 
 ```yaml
 wake-up-inactive:

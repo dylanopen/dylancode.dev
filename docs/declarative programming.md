@@ -1,4 +1,6 @@
-# Declarative programming
+---
+title: Declarative programming
+---
 
 *Declarative programming* is when we write code that describes *what* we want to
 achieve, rather than *how* to achieve it.

@@ -1,4 +1,6 @@
-# Factorising polynomials with complex roots
+---
+title: Factorising polynomials with complex roots
+---
 
 ## Factor theorem
 

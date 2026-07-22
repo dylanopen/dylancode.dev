@@ -1,4 +1,6 @@
-# First law of thermodynamics
+---
+title: First law of thermodynamics
+---
 
 > The change in internal energy is equal to the sum of energy transfers through heating and work done.
 

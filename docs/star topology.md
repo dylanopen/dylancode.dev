@@ -1,4 +1,6 @@
-# Star topology
+---
+title: Star topology
+---
 
 > In a *star* [[network topology]], all devices are connected to a central hub or switch. The switch forwards [[network frame|frames]] to the correct device based on the destination [[mac address|MAC address]] in the frame.
 

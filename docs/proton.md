@@ -1,4 +1,6 @@
-# Proton
+---
+title: Proton
+---
 
 > Proton mass: $1.670\times10^{-27}kg$  
 > Proton charge: $+1.6\times10^{-19}C$

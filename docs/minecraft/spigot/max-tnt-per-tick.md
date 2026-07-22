@@ -1,4 +1,6 @@
-# max-tnt-per-tick
+---
+title: max-tnt-per-tick
+---
 
 This one's pretty self-explanatory. It tells the [[server]] the maximum number of
 TNT that can explode every tick (1/20th of a second).

@@ -1,4 +1,6 @@
-# Fractional powers
+---
+title: Fractional powers
+---
 
 When we raise a number to a fraction, the **denominator** of the fraction is the
 **order of the root**.

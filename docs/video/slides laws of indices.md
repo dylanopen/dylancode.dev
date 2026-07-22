@@ -1,5 +1,6 @@
-
-# Laws of indices
+---
+title: Laws of indices
+---
 
 dylancode.dev
 

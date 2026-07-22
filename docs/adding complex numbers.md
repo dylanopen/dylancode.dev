@@ -1,4 +1,6 @@
-# Adding complex numbers
+---
+title: Adding complex numbers
+---
 
 To add complex numbers, you simply add together the [[real numbers|real parts]] and add together
 the imaginary parts separately.

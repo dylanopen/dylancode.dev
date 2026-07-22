@@ -1,4 +1,6 @@
-# Photon
+---
+title: Photon
+---
 
 A *photon* is effectively a 'bundle of energy'. It makes up any of the [[electromagnetic spectrum|electromagnetic waves]].
 

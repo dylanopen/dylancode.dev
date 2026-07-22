@@ -1,4 +1,6 @@
-# bukkit.yml
+---
+title: bukkit.yml
+---
 
 - [[minecraft/bukkit/spawn limits]]
 - [[minecraft/bukkit/ticks per]]

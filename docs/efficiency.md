@@ -1,4 +1,6 @@
-# Efficiency
+---
+title: Efficiency
+---
 
 As mentioned in the article about [[conservation of energy]], [[energy]] cannot be created or destroyed.
 

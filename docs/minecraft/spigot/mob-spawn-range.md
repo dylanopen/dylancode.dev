@@ -1,4 +1,6 @@
-# mob-spawn-range
+---
+title: mob-spawn-range
+---
 
 The mob-spawn-[[range]] is the radius (in chunks) around each player in which mobs
 can spawn.

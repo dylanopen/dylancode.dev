@@ -1,4 +1,6 @@
-# Continuous random point distribution
+---
+title: Continuous random point distribution
+---
 
 > The [[point distribution]] of a [[continuous random variable]] at *any point* is $0$.
 

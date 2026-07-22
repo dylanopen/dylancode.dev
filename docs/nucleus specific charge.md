@@ -1,4 +1,6 @@
-# Nucleus specific charge
+---
+title: Nucleus specific charge
+---
 
 > The [[specific charge]] of a *[[nucleus]]* can be found by adding the charges and masses of the particles together, then doing $charge\div mass$ as usual.
 

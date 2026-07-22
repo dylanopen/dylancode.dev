@@ -1,4 +1,6 @@
-# Sum of two squares
+---
+title: Sum of two squares
+---
 
 You're probably familiar with writing the *difference* of two squares:
 $a^2 - b^2$, as $(a - b)(a + b)$.

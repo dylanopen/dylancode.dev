@@ -1,4 +1,6 @@
-# Variance
+---
+title: Variance
+---
 
 Variance measures how spread out a set of numbers / results is - how *varied*
 they are.

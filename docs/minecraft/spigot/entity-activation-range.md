@@ -1,4 +1,6 @@
-# entity-activation-range
+---
+title: entity-activation-range
+---
 
 The `entity-activation-[[range]]` is the radius (in blocks) around each player that
 mobs will start to 'tick' (become active).

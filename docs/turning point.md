@@ -1,4 +1,6 @@
-# Turning point
+---
+title: Turning point
+---
 
 The *turning point* of a curve is the point at which it changes direction from
 increasing to decreasing (a local maximum) or from decreasing to increasing (a

@@ -1,4 +1,6 @@
-# Exponential graph gradient
+---
+title: Exponential graph gradient
+---
 
 > This page is seemingly a duplicate of [[exponential function gradient]]. It can possibly be removed.
 

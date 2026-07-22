@@ -1,4 +1,6 @@
-# Factorising quadratics
+---
+title: Factorising quadratics
+---
 
 ## Factorising where $a=1$
 

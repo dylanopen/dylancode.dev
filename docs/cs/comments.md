@@ -1,4 +1,6 @@
-# Comments
+---
+title: Comments
+---
 
 A *comment* is essentially a *note* in a piece of code. It's used to add
 human-readable information about the code, and is completely ignored by the

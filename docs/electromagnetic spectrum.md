@@ -1,4 +1,6 @@
-# Electromagnetic spectrum
+---
+title: Electromagnetic spectrum
+---
 
 ## Types of electromagnetic waves
 

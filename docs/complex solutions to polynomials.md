@@ -1,2 +1,4 @@
-# Complex solutions to polynomials
+---
+title: Complex solutions to polynomials
+---
 

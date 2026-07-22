@@ -1,4 +1,6 @@
-# Polaroid
+---
+title: Polaroid
+---
 
 Most waves aren't exactly very big, so we can't just cut a slot into a piece of cardboard or something and expect it to work as a [[polarisation|polariser]]. Instead, we use a special material called *polaroid*.
 

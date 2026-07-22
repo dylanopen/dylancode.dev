@@ -1,4 +1,6 @@
-# Compound uncertainty
+---
+title: Compound uncertainty
+---
 
 ## Uncertainty of a single measurement
 

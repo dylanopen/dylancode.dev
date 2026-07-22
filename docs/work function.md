@@ -1,4 +1,6 @@
-# Work function
+---
+title: Work function
+---
 
 > The *work function* of a metal is the **minimum** amount of energy required to bring an [[electron]] from inside the metal, to its surface.
 

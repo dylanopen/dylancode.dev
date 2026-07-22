@@ -1,4 +1,6 @@
-# Calculating the number of electrons
+---
+title: Calculating the number of electrons
+---
 
 When calculating the number of electrons, you're really calculating the [[charge]]
 (because charge is just a multiple of the number of [[electron]]s).

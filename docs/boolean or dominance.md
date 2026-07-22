@@ -1,4 +1,6 @@
-# Boolean OR dominance
+---
+title: Boolean OR dominance
+---
 
 The *[[booleans]] dominance law* says that when we have a value $x$ ORed with $1$,
 the result is always $1$, because:

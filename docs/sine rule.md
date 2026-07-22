@@ -1,4 +1,6 @@
-# Sine rule
+---
+title: Sine rule
+---
 
 The sine rule can be used to find an angle or side if we know:
 - a side lenght

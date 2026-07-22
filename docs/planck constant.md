@@ -1,4 +1,6 @@
-# Planck constant
+---
+title: Planck constant
+---
 
 The Planck constant describes how the energy of a [[photon]] is related to its frequency.
 

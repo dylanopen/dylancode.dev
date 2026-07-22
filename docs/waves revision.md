@@ -1,4 +1,6 @@
-# Waves revision
+---
+title: Waves revision
+---
 
 This page contains a summary of the full waves topic for physics! It's useful as
 a revision guide.

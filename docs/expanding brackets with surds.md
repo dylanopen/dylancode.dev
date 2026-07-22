@@ -1,4 +1,6 @@
-# Expanding brackets with surds
+---
+title: Expanding brackets with surds
+---
 
 When [[expanding brackets]] that contain [[surds]], we use the same methods as we do with
 normal brackets, (e.g. the grid method).

@@ -1,4 +1,6 @@
-# ASCII
+---
+title: ASCII
+---
 
 ASCII is one specific [[text encoding]] scheme.
 

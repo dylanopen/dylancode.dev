@@ -1,4 +1,6 @@
-# Deriving Euler's formula
+---
+title: Deriving Euler's formula
+---
 
 ## Find $e^{i\theta}$
 - We know that:

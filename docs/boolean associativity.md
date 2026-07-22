@@ -1,4 +1,6 @@
-# Boolean associativity
+---
+title: Boolean associativity
+---
 
 If a [[booleans]] operator is *associative*, it means that we can group the values in 
 any way and we get the same result.

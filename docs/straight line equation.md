@@ -1,4 +1,6 @@
-# Straight line equation
+---
+title: Straight line equation
+---
 
 You may be sitting there thinking "I know how to find the equation of a straight
 line! It's just $y = mx + c$ right?"

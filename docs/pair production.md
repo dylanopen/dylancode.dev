@@ -1,4 +1,6 @@
-# Pair production
+---
+title: Pair production
+---
 
 If a [[photon]] passes very close to a [[nucleus]], it can produce a [[particle]] and an [[antiparticle]].
 

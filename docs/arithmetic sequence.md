@@ -1,4 +1,6 @@
-# Arithmetic sequence
+---
+title: Arithmetic sequence
+---
 
 An arithmetic sequence is a [[sequence]] of numbers in which the difference between consecutive terms is constant.
 

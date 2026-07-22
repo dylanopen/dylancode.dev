@@ -1,4 +1,6 @@
-# Neutron
+---
+title: Neutron
+---
 
 > Neutron mass: $1.675\times10^{-27}kg$  
 > Neutron charge: $0$

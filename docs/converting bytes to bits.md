@@ -1,4 +1,6 @@
-# Converting bytes to bits
+---
+title: Converting bytes to bits
+---
 
 If we have a number of bytes and want to convert it to bits, we can *multiply*
 the number of bits by 8, since there are 8 bits in a [[byte]]:

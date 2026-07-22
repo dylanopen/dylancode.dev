@@ -1,4 +1,6 @@
-# Acceleration
+---
+title: Acceleration
+---
 
 > Acceleration is the rate of change of [[velocity]].
 

@@ -1,4 +1,6 @@
-# There's More to Errors than NULL and Exceptions
+---
+title: There's More to Errors than NULL and Exceptions
+---
 
 > The Billion Dollar Mistake.
 

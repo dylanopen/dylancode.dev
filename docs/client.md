@@ -1,4 +1,6 @@
-# Client
+---
+title: Client
+---
 
 A *client* is a computer that makes requests to a [[server]] in order to
 get a response.

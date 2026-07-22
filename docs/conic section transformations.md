@@ -1,4 +1,6 @@
-# Conic section transformations
+---
+title: Conic section transformations
+---
 
 There are a few different transformations we can apply to a [[conic section]].
 

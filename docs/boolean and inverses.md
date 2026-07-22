@@ -1,4 +1,6 @@
-# Boolean AND inverses
+---
+title: Boolean AND inverses
+---
 
 If we AND together value $x$ and its inverse (NOT $x$, or $\overline{x}$), we
 get $0$, because:

@@ -1,4 +1,6 @@
-# Creating Maclaurin series
+---
+title: Creating Maclaurin series
+---
 
 ## Finding the Maclaurin series for a function
 

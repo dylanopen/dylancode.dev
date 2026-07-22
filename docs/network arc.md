@@ -1,4 +1,6 @@
-# Network arc
+---
+title: Network arc
+---
 
 An *[[arc]]* on a network is the equivalent of an [[graph edge|edge]] in a
 [[graph]].

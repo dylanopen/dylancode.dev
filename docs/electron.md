@@ -1,4 +1,6 @@
-# Electron
+---
+title: Electron
+---
 
 > [[proton]] mass: $9.11\times10^{-31}kg$  
 > [[proton]] charge: $-1.6\times10^{-19}C$

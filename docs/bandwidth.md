@@ -1,4 +1,6 @@
-# Bandwidth
+---
+title: Bandwidth
+---
 
 > *Bandwidth* is the **[[range]] of [[frequency|frequencies]]** that can be [[transmission|transmitted]] over a [[network]] connection.
 

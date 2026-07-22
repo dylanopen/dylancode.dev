@@ -1,4 +1,6 @@
-# Loops
+---
+title: Loops
+---
 
 A *loop* is simply a way to repeat a block of code multiple times.
 

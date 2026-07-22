@@ -1,4 +1,6 @@
-# Measuring internal resistance
+---
+title: Measuring internal resistance
+---
 
 ## Results table
 

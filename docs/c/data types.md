@@ -1,4 +1,6 @@
-# Data types
+---
+title: Data types
+---
 
 To understand data types, you need to understand that there are two 'types' of
 programming languages:

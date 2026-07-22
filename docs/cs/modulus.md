@@ -1,4 +1,6 @@
-# Modulus
+---
+title: Modulus
+---
 
 The *modulus* operator is represented by the `%` symbol, and it gives us the
 *remainder* of a [[riscv/division|division]] operation.

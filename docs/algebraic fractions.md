@@ -1,4 +1,6 @@
-# Algebraic fractions
+---
+title: Algebraic fractions
+---
 
 An algebraic fraction is simply a [[fraction]] which contains a [[variable]] in the
 [[numerator]], [[denominator]], or both.

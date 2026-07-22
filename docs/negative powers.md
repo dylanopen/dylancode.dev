@@ -1,4 +1,6 @@
-# Negative powers
+---
+title: Negative powers
+---
 
 A negative [[power]] indicates the *reciprocal* of the base. For a [[power]] of $-1$:
 

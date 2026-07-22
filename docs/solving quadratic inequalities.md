@@ -1,4 +1,6 @@
-# Quadratic inequalities
+---
+title: Quadratic inequalities
+---
 
 *Quadratic inequalities* are inequalities that involve a quadratic [[expression]].
 For example: $5x^2 - 3x + 2 > 0$.

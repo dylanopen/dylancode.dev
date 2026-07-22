@@ -1,4 +1,6 @@
-# Potential energy
+---
+title: Potential energy
+---
 
 > Potential energy is energy due to the attraction between [[molecule]]s.
 

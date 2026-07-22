@@ -1,4 +1,6 @@
-# Sine-cosine square identity
+---
+title: Sine-cosine square identity
+---
 
 One trigonometric identity states that for any angle $\theta$:
 

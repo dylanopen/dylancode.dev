@@ -1,4 +1,6 @@
-# Constructive interference
+---
+title: Constructive interference
+---
 
 When two waves meet which are [[wave phase difference|*in phase*]], their
 amplitudes add together to create a wave with a larger [[amplitude]]. That's

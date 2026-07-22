@@ -1,4 +1,6 @@
-# Object code
+---
+title: Object code
+---
 
 > Note: there is technically a difference between "object code" and "machine
 > code", but in this document, we'll treat them as the same thing for

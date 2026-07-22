@@ -1,4 +1,6 @@
-# A-Level Maths
+---
+title: A-Level Maths
+---
 
 This page is a list of (most of) the A-Level Mathematics content that's available on the website.
 

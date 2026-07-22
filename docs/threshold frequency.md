@@ -1,4 +1,6 @@
-# Threshold frequency
+---
+title: Threshold frequency
+---
 
 When electromagnetic radiation, like light, is *incident* (shone on) a metal, it can cause electrons to be emitted from the metal surface.
 

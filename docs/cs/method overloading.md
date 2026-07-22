@@ -1,4 +1,6 @@
-# Method overloading
+---
+title: Method overloading
+---
 
 Let's say we have a method that adds two numbers together:
 

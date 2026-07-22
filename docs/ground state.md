@@ -1,4 +1,6 @@
-# Ground state
+---
+title: Ground state
+---
 
 The *bottom* [[electron energy level]] of an [[energy ladder]] is calleed the *ground state*.
 

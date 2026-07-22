@@ -1,4 +1,6 @@
-# Ideal gas
+---
+title: Ideal gas
+---
 
 In an **ideal [[gas]]**:
 

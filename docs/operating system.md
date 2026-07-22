@@ -1,4 +1,6 @@
-# Operating system
+---
+title: Operating system
+---
 
 ## Purpose of an operating system
 

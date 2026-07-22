@@ -1,4 +1,6 @@
-# Adding surds
+---
+title: Adding surds
+---
 
 We can only add [[surds]] that have the same **surd part** (the part under the
 root).

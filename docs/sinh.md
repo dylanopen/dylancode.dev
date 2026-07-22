@@ -1,4 +1,6 @@
-# sinh
+---
+title: sinh
+---
 
 $\sinh$, or **hyperbolic sine**, is defined like this:
 

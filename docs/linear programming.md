@@ -1,4 +1,6 @@
-# Linear Programming
+---
+title: Linear Programming
+---
 
 > This section is part of *Discrete Mathematics*. If you do not study that,
   you may not need to learn this.

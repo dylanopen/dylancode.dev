@@ -1,4 +1,6 @@
-# Calculating tangent
+---
+title: Calculating tangent
+---
 
 The $\tan$ ([[tangent function]]) is defined as 'the ratio of the sine function to
 the cosine function'.

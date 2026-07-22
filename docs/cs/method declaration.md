@@ -1,4 +1,6 @@
-# Method declaration
+---
+title: Method declaration
+---
 
 When we *declare* a method, we *create* the method.
 

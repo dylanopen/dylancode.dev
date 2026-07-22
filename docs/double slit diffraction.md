@@ -1,4 +1,6 @@
-# Double slit diffraction
+---
+title: Double slit diffraction
+---
 
 $$
 w=\frac{\lambda D}s

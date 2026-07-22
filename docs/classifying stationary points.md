@@ -1,4 +1,6 @@
-# Classifying stationary points
+---
+title: Classifying stationary points
+---
 
 ## What does the derivative mean?
 

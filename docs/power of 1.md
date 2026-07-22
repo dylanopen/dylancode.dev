@@ -1,4 +1,6 @@
-# Power of 1
+---
+title: Power of 1
+---
 
 Anything raised to the [[power]] of 1 is itself:
 

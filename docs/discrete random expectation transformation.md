@@ -1,4 +1,6 @@
-# Discrete random expectation transformation
+---
+title: Discrete random expectation transformation
+---
 
 For a [[discrete random variable]], called $X$, if we know that there is another DRV which we can write as $Y=aX+b$ - where $a$ and $b$ are
 constants:

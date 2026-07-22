@@ -1,4 +1,6 @@
-# Matrix subtraction
+---
+title: Matrix subtraction
+---
 
 > We can only subtract matrices with the **same order**.
 

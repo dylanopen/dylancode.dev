@@ -1,4 +1,6 @@
-# Learn Further Maths in One Video
+---
+title: Learn Further Maths in One Video
+---
 
 ### Pure - AS / A-level Year 1
 

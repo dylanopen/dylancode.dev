@@ -1,4 +1,6 @@
-# Cosine rule
+---
+title: Cosine rule
+---
 
 The cosine rule can be used to find:
 - the length of a side of a triangle when we know the lengths of the other two

@@ -1,4 +1,6 @@
-# Units of energy
+---
+title: Units of energy
+---
 
 There are two main units of energy:
 - Joules - what you're used to seeing.

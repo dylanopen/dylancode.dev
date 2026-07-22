@@ -1,4 +1,6 @@
-# Foreach loops
+---
+title: Foreach loops
+---
 
 A *foreach* loop is a simpler way to iterate through all the elements in an
 array.

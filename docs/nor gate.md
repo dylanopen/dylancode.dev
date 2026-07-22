@@ -1,4 +1,6 @@
-# NOR gate
+---
+title: NOR gate
+---
 
 A *NOR gate* is a combination of an [[or gate]] followed by a [[not gate]].
 

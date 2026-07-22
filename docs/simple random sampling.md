@@ -1,4 +1,6 @@
-# Simple random sampling
+---
+title: Simple random sampling
+---
 
 Simple random sampling is the 'name in the hat' method. We have a population
 and a list of all the members of the population, and then randomly select

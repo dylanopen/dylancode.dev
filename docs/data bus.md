@@ -1,4 +1,6 @@
-# Data bus
+---
+title: Data bus
+---
 
 > The data bus is a [[computer bus|bus]] that carries the actual data between
 > the [[processor]] and the [[main memory]], so the [[processor]] can read or write data to

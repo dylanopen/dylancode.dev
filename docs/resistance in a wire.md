@@ -1,4 +1,6 @@
-# Resistance in a wire
+---
+title: Resistance in a wire
+---
 
 Resistance in a wire is caused by the positive metal ions in the metal blocking
 the flow of electrons.

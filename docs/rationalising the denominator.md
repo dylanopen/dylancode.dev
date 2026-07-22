@@ -1,4 +1,6 @@
-# Rationalising the denominator
+---
+title: Rationalising the denominator
+---
 
 ## Rationalising the denominator
 

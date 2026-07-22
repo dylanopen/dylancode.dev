@@ -1,4 +1,6 @@
-# Subgraph
+---
+title: Subgraph
+---
 
 A *subgraph* is *part* of a larger [[graph]] that includes a subset of its
 [[graph vertex|vertices]] and [[graph edge|edges]].

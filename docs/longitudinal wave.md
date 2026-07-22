@@ -1,4 +1,6 @@
-# Longitudinal wave
+---
+title: Longitudinal wave
+---
 
 A *longitudinal wave* is a type of wave where the particle [[displacement]] (the
 way they vibrate) is parallel to the direction of energy propagation.

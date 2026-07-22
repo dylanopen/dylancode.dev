@@ -1,4 +1,6 @@
-# Continuous random variance transformation
+---
+title: Continuous random variance transformation
+---
 
 This works for any transformation, but we can find it other ways too: see [[continuous random linear transformation]].
 

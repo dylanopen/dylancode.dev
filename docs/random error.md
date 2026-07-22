@@ -1,4 +1,6 @@
-# Random error
+---
+title: Random error
+---
 
 A *random error* is an error in a measurement that makes the measured values
 less accurate.

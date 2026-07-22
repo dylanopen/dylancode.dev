@@ -1,4 +1,6 @@
-# Percentage uncertainty
+---
+title: Percentage uncertainty
+---
 
 Percentage [[uncertainty]] basically tells us 'what [[percentage]] of the [[measurement]] could we be off by?'
 

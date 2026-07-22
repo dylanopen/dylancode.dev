@@ -1,4 +1,6 @@
-# Gas temperature & volume (Charles' law)
+---
+title: Gas temperature & volume (Charles' law)
+---
 
 In an ideal gas:
 

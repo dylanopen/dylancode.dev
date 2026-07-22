@@ -1,4 +1,6 @@
-# Equation of a straight line
+---
+title: Equation of a straight line
+---
 
 There are lots of different ways to represent a straight line - here's a summary
 of a few of them.

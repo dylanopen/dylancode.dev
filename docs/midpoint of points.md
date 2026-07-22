@@ -1,4 +1,6 @@
-# Midpoint of points
+---
+title: Midpoint of points
+---
 
 The *midpoint* of two points is the point that is exactly halfway between them.
 

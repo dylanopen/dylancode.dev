@@ -1,4 +1,6 @@
-# Subtracting logarithms
+---
+title: Subtracting logarithms
+---
 
 When subtracting logarithms with the same base, it's equivalent to dividing
 the values inside the logarithms:

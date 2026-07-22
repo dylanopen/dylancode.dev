@@ -1,4 +1,6 @@
-# Quota sampling
+---
+title: Quota sampling
+---
 
 > *Quota* sampling is where we divide the population into groups and then
 > sample from each group separately **based on convenience**

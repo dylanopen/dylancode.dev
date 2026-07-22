@@ -1,4 +1,6 @@
-# Critical Path Analysis
+---
+title: Critical Path Analysis
+---
 
 ## Activity box
 

@@ -1,4 +1,6 @@
-# Digital signal
+---
+title: Digital signal
+---
 
 A digital signal is a signal which can only take on *discrete values* - that
 just means that a digital signal can only represent a 0 or a 1.

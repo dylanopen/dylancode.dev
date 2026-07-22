@@ -1,4 +1,6 @@
-# Perpendicular line equations
+---
+title: Perpendicular line equations
+---
 
 Two lines are [[perpendicular]] if they [[line intersection|intersect]] at a [[right angle]] (90 degrees).
 

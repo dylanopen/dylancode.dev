@@ -1,4 +1,6 @@
-# Particle forces
+---
+title: Particle forces
+---
 
 There are 4 types of [[force]]s that apply inside and between [[particle]]s:
 - [[gravitational force]]

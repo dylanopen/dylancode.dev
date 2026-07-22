@@ -1,4 +1,6 @@
-# Factor theorem
+---
+title: Factor theorem
+---
 
 The factor theorem states that:
 > If $f(x)$ is a [[polynomial]] and $f(c) = 0$ for some constant $c$, then $(x - c)$

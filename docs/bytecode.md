@@ -1,4 +1,6 @@
-# Bytecode
+---
+title: Bytecode
+---
 
 *Bytecode* is an 'intermediate representation' of code.
 

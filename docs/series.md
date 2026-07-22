@@ -1,4 +1,6 @@
-# Series
+---
+title: Series
+---
 
 A *series* is just a list of numbers that are added together.
 

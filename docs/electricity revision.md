@@ -1,4 +1,6 @@
-# Electricity revision
+---
+title: Electricity revision
+---
 
 > A document summarising the important parts of the electricity topic.
 

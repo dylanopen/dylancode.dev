@@ -1,4 +1,6 @@
-# Uncertainty
+---
+title: Uncertainty
+---
 
 The *uncertainty* of a [[measurement]] is a way of telling us how [[precision|precise]] that measurement is.
 

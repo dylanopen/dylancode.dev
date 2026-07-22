@@ -1,4 +1,6 @@
-# Accumulator
+---
+title: Accumulator
+---
 
 > The accumulator is a [[register]] in the [[processor]] used to store the result of calculations done by the [[arithmetic logic unit]] (ALU). 
 

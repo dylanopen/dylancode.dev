@@ -1,4 +1,6 @@
-# Continue statements
+---
+title: Continue statements
+---
 
 A *continue statement* is used inside [[loops]] to skip the current iteration and
 move on to the next one.

@@ -1,4 +1,6 @@
-# Boolean absorption
+---
+title: Boolean absorption
+---
 
 ## AND absorption
 

@@ -1,4 +1,6 @@
-# Low level language
+---
+title: Low level language
+---
 
 A *low level programming language* is a programming language where you have
 more direct control over the computer's [[hardware]]. This means you can write code

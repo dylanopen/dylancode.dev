@@ -1,4 +1,6 @@
-# tanh
+---
+title: tanh
+---
 
 $\tanh$ is the **hyperbolic tangent**. It doesn't have a definition directly in
 terms of $e$, but just like regular $\tan$, we know we can find $\tanh$ with the

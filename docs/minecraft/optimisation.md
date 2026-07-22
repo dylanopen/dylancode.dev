@@ -1,4 +1,6 @@
-# dylancode's Minecraft server optimisation guide
+---
+title: dylancode's Minecraft server optimisation guide
+---
 
 I've been running a [[minecraft]] [[server]] for a while now, and I became tired of the
 lack of quality [[minecraft]] [[server]] optimisation guides out there. So I decided to

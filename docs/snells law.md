@@ -1,4 +1,6 @@
-# Snell's law
+---
+title: Snell's law
+---
 
 If we have two objects with 'absolute' refractive indexes of $n_1$ and $n_2$,
 we can say that:

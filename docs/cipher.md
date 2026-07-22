@@ -1,4 +1,6 @@
-# Cipher
+---
+title: Cipher
+---
 
 A *cipher* is a particular function which we use to [[encryption|encrypt]] and
 [[decryption|decrypt]] messages. It's the mathematical function that takes the

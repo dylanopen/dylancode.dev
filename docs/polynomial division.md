@@ -1,4 +1,6 @@
-# Polynomial division
+---
+title: Polynomial division
+---
 
 Polynomial [[riscv/division|division]] is where we take a *polynomial* (an [[expression]] made up of
 only positive whole number powers of $x$) and divide it by another polynomial.

@@ -1,4 +1,6 @@
-# Density
+---
+title: Density
+---
 
 Density measures the amount of [[mass]] per unit [[volume]].
 

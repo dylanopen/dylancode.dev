@@ -1,4 +1,6 @@
-# Ideal gas equation
+---
+title: Ideal gas equation
+---
 
 For an [[ideal gas]]:
 

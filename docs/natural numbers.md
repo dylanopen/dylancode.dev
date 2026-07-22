@@ -1,4 +1,6 @@
-# Natural numbers
+---
+title: Natural numbers
+---
 
 Natural numbers are positive [[integers]], starting from $1$ (not $0$). They're used
 for counting *discrete* objects.

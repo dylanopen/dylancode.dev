@@ -1,4 +1,6 @@
-# Setting registers
+---
+title: Setting registers
+---
 
 RISC-V has an `li` instruction, [[short]] for 'load immediate'.
 

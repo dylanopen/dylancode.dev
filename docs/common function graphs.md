@@ -1,4 +1,6 @@
-# Common function graphs
+---
+title: Common function graphs
+---
 
 There are some common function graph shapes that you should know about.
 

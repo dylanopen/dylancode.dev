@@ -1,4 +1,6 @@
-# Displacement vectors
+---
+title: Displacement vectors
+---
 
 ### Example
 

@@ -1,4 +1,6 @@
-# Ideal gas internal energy
+---
+title: Ideal gas internal energy
+---
 
 In an [[ideal gas]], **all** of the [[internal energy]] is [[kinetic energy]].
 

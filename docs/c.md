@@ -1,4 +1,6 @@
-# C programming
+---
+title: C programming
+---
 
 - [[c/hello world]]
     - [[c/project setup]]

@@ -1,4 +1,6 @@
-# Isotope
+---
+title: Isotope
+---
 
 [[atom]]s of the same [[element]] have the same [[proton number]], but they can have different [[nucleon number]]s.
 

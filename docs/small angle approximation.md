@@ -1,4 +1,6 @@
-# Small angle approximation
+---
+title: Small angle approximation
+---
 
 ## The approximations
 

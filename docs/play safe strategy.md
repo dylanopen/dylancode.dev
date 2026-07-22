@@ -1,4 +1,6 @@
-# Play safe strategy
+---
+title: Play safe strategy
+---
 
 > This page is about the play safe strategy **in a [[zero sum game]]**.
 

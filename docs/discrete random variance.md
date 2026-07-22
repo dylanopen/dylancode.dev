@@ -1,4 +1,6 @@
-# Discrete random variance
+---
+title: Discrete random variance
+---
 
 The [[variance]] is, in [[short]], a measure of how much the values of a
 [[random variable]] differ from the [[mean]]. It's the square of the

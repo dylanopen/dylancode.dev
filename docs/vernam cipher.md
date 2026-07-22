@@ -1,4 +1,6 @@
-# Vernam cipher
+---
+title: Vernam cipher
+---
 
 > The **Vernam [[cipher]]** uses a [[one time pad]] to encrypt
 > messages. We XOR each character in the plaintext message with the

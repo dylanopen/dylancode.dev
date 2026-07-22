@@ -1,4 +1,6 @@
-# Midpoint using vectors
+---
+title: Midpoint using vectors
+---
 
 If: 
 - $M$ is the midpoint of $A$ and $B$

@@ -1,4 +1,6 @@
-# Poisson distribution expectation
+---
+title: Poisson distribution expectation
+---
 
 If we have a [[poisson distribution]], $X\sim Po(\lambda)$, then the [[discrete random expectation|expectation]] of the distribution is just $\lambda$.
 

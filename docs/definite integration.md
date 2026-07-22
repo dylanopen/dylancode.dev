@@ -1,4 +1,6 @@
-# Definite integration
+---
+title: Definite integration
+---
 
 Definite integration follows the same normal steps as [[indefinite integration]].
 

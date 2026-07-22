@@ -1,4 +1,6 @@
-# Converting vector-form to cartesian-form line equations in 3D
+---
+title: Converting vector-form to cartesian-form line equations in 3D
+---
 
 ### Convert $\frac{x-5}2=y+1=\frac{z+3}6$ to vector form
 

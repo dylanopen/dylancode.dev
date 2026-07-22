@@ -1,4 +1,6 @@
-# zombie-aggressive-towards-villager
+---
+title: zombie-aggressive-towards-villager
+---
 
 If this config option is `true`, zombies will 'aggro' villagers.
 

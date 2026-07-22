@@ -1,4 +1,6 @@
-# Project setup
+---
+title: Project setup
+---
 
 This is how to *manually* set up a Paper plugin project without a specific IDE - it applies for any development environment you want, as long as you have a terminal or command line interface to work with.
 

@@ -1,4 +1,6 @@
-# Matrix determinant
+---
+title: Matrix determinant
+---
 
 ## Finding the determinant
 

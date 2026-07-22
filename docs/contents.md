@@ -1,4 +1,6 @@
-# Find what you're looking for
+---
+title: Find what you're looking for
+---
 
 In the future, this site will list common topics. For now, there is an [[index]] of common content, but it's incomplete.
 

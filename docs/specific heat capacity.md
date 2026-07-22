@@ -1,4 +1,6 @@
-# Specific heat capacity
+---
+title: Specific heat capacity
+---
 
 > The specific heat capacity of a material is the amount of [[energy]] required to raise the [[temperature]] of 1 [[kilogram]] of a substance by 1 [[degree celsius]].
 

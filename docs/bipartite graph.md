@@ -1,4 +1,6 @@
-# Bipartite graph
+---
+title: Bipartite graph
+---
 
 A *bipartite graph* is a type of [[graph]] where the
 [[graph vertex|vertices]] can be divided into two groups.

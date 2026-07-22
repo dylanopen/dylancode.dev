@@ -1,4 +1,6 @@
-# Logical operators
+---
+title: Logical operators
+---
 
 A *logical operator* is an operator that combines multiple [[booleans]] values
 (tests that evaluate to `true` or `false`) into a single [[booleans]] value.

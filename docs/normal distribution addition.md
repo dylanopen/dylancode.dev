@@ -1,4 +1,6 @@
-# Normal distribution addition
+---
+title: Normal distribution addition
+---
 
 If we add together two [[normal distribution]]s (they can be multiples) and an optional constant, the result will also follow a [[normal distribution]]. That's because the [[normal distribution]] is a [[scalable distribution]].
 

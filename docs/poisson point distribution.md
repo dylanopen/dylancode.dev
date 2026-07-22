@@ -1,4 +1,6 @@
-# Poisson point distribution
+---
+title: Poisson point distribution
+---
 
 Like with the [[binomial distribution]], the [[poisson distribution]] has a formula we can use to calculate the [[point distribution]] - the probability of the outcome exactly equalling a certain value.
 

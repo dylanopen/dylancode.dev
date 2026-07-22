@@ -1,4 +1,6 @@
-# Sound storage
+---
+title: Sound storage
+---
 
 With a sound file, we can measure a few things:
 - The sample rate - how many samples we take per second.

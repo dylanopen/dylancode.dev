@@ -1,4 +1,6 @@
-# Clock speed
+---
+title: Clock speed
+---
 
 > The clock [[speed]] of a [[processor]] is the number of times per second the [[processor clock|clock]] ticks. It's measured in hertz (Hz), which represents one tick per second.
 

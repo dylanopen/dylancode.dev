@@ -1,4 +1,6 @@
-# Cartesian coordinates
+---
+title: Cartesian coordinates
+---
 
 ## What are Cartesian coordinates?
 

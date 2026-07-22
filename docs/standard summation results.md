@@ -1,4 +1,6 @@
-# Standard summation results
+---
+title: Standard summation results
+---
 
 There are a set of results of $\sum$ which you need to learn.
 

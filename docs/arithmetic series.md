@@ -1,4 +1,6 @@
-# Arithmetic series
+---
+title: Arithmetic series
+---
 
 The *sum* of an [[arithmetic sequence]] is called the *arithmetic [[series]]* (a [[series]] is the sum of a [[sequence]]).
 

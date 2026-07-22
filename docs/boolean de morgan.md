@@ -1,4 +1,6 @@
-# Boolean De Morgan
+---
+title: Boolean De Morgan
+---
 
 ## De Morgan's law
 

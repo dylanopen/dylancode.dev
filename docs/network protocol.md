@@ -1,4 +1,6 @@
-# Network protocol
+---
+title: Network protocol
+---
 
 Because there are so many different devices which all need to be designed to work together over the internet, we need to have a *standard* so they can all follow to make sure they can communicate with each other properly. We call this standard a *protocol*.
 

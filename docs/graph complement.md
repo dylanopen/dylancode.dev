@@ -1,4 +1,6 @@
-# Graph complement
+---
+title: Graph complement
+---
 
 The **complement** of a [[graph]] is a new graph that contains all the
 [[graph vertex|vertices]] of the original graph, but only the

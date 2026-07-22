@@ -1,4 +1,6 @@
-# Angled projectile motion
+---
+title: Angled projectile motion
+---
 
 When we have a projectile which is launched at an angle (somewhat upwards,
 somewhat horizontally), we can treat it as a combination of vertical projectile

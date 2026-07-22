@@ -1,4 +1,6 @@
-# Finding all cosine angles
+---
+title: Finding all cosine angles
+---
 
 ## Cosine rule
 

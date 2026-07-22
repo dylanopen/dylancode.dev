@@ -1,4 +1,6 @@
-# Matrix multiplication identity
+---
+title: Matrix multiplication identity
+---
 
 For [[multiplication]] of any matrix, the [[identity matrix]] is:
 

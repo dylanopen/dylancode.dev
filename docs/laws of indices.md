@@ -1,4 +1,6 @@
-# Laws of indices
+---
+title: Laws of indices
+---
 
 There are 7 main laws of indices you need to know. These tell us how to simplify
 expressions when:

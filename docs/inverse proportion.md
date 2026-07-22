@@ -1,4 +1,6 @@
-# Inverse proportion
+---
+title: Inverse proportion
+---
 
 If two [[cs/variables|variables]] are inversely proportional to each other, it means that if
 one of the [[cs/variables|variables]] *doubles*, for example, the other variable will be

@@ -1,4 +1,6 @@
-# Parallel transmission
+---
+title: Parallel transmission
+---
 
 Parallel transmission is when we have multiple wires which we send data down,
 all at the same time.

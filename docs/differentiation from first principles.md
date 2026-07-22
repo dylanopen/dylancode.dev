@@ -1,4 +1,6 @@
-# Differentiation from first principles
+---
+title: Differentiation from first principles
+---
 
 Differentiation from first principles essentially involves finding the
 derivative 'manually', without using the [[power]] rule.

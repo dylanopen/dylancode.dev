@@ -1,4 +1,6 @@
-# All courses on dylancode.dev
+---
+title: All courses on dylancode.dev
+---
 
 This page is the index for everything \:)
 

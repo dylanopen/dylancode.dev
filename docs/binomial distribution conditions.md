@@ -1,4 +1,6 @@
-# Binomial distribution conditions
+---
+title: Binomial distribution conditions
+---
 
 For us to be able to use a [[binomial distribution]] on data, we need a few things to be true:
 - There are only two outcomes - success and failure

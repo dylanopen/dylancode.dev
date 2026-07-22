@@ -1,4 +1,6 @@
-# Dividing indices
+---
+title: Dividing indices
+---
 
 When we divide two indices **with the same base**, we can simply **subtract**
 the powers. This can be written as:

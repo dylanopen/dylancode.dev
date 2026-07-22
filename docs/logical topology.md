@@ -1,4 +1,6 @@
-# Logical topology
+---
+title: Logical topology
+---
 
 As opposed to a [[physical topology]], a **logical** [[network topology]] describes:
 

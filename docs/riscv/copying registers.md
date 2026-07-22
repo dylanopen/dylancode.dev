@@ -1,4 +1,6 @@
-# Copying registers
+---
+title: Copying registers
+---
 
 We already know that we can *set* the value of a [[register]] to a constant, using
 the `li` pseudo-instruction.

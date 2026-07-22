@@ -1,4 +1,6 @@
-# Accuracy
+---
+title: Accuracy
+---
 
 Accuracy is simply how close a [[measurement]] is to the true or accepted value.
 

@@ -1,4 +1,6 @@
-# Caesar cipher
+---
+title: Caesar cipher
+---
 
 A *Caesar [[cipher]]* is a super simple type of [[cipher]] where we shift the
 letters of the alphabet by a certain number of places. For example, if we shift

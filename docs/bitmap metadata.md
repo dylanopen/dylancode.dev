@@ -1,4 +1,6 @@
-# Bitmap metadata
+---
+title: Bitmap metadata
+---
 
 When we look at a [[bitmap image]], we see a grid of pixels. But how does the
 computer know the size of the image, and what colours to display, etc?

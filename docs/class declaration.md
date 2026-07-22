@@ -1,4 +1,6 @@
-# Class declaration
+---
+title: Class declaration
+---
 
 In C#, we can *declare* a class using the `class` keyword followed by the
 class name - and a pair of curly braces `{}` that contain the class members.

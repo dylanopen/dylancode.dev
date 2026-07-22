@@ -1,4 +1,6 @@
-# Colour map
+---
+title: Colour map
+---
 
 A [[bitmap image]] has a [[bitmap colour depth|colour depth]]. This determines the number of colours the image can represent.
 

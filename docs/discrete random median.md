@@ -1,4 +1,6 @@
-# Discrete random median
+---
+title: Discrete random median
+---
 
 The **[[median]]** of a dataset is the value that separates the higher half from the
 lower half.

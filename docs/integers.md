@@ -1,4 +1,6 @@
-# Integers
+---
+title: Integers
+---
 
 An integer is a *whole number*.
 

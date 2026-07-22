@@ -1,4 +1,6 @@
-# Binomial combination
+---
+title: Binomial combination
+---
 
 To understand what a [[binomial]] [[combination]] is, let's do an example.
 

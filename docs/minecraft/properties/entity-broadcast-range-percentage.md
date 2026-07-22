@@ -1,4 +1,6 @@
-# entity-broadcast-range-percentage
+---
+title: entity-broadcast-range-percentage
+---
 
 To change the [[distance]] at which entities are sent to players (using the vanilla,
 `[[server]].[[properties]]` option), change this line in `[[server]].[[properties]]`:

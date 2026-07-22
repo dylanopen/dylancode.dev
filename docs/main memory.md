@@ -1,4 +1,6 @@
-# Main memory
+---
+title: Main memory
+---
 
 > The **main memory** is the part of the computer that stores the program and
 > data that the [[processor]] is currently using. It's also called RAM (Random

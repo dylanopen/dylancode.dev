@@ -1,4 +1,6 @@
-# Processor clock
+---
+title: Processor clock
+---
 
 Every [[processor]] contains a **clock**. It's a tiny circuit that generates a regular, repeating signal (like a heartbeat) that makes sure that everything in the [[processor]] happens at the right time.
 

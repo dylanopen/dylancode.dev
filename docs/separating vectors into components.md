@@ -1,4 +1,6 @@
-# Separating vectors into components
+---
+title: Separating vectors into components
+---
 
 While sometimes it is useful to know just the magnitude and direction of a
 vector, other times (particularly when we're doing calculations) it's much

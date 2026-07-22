@@ -1,4 +1,6 @@
-# Singular matrix
+---
+title: Singular matrix
+---
 
 A matrix is called *singular* if its determinant is equal to zero. For example,
 the matrix $N=\begin{matrix} 2 & 4 \\ 1 & 2 \end{matrix}$ is singular, because

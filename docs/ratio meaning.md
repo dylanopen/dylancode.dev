@@ -1,4 +1,6 @@
-# Ratio meaning
+---
+title: Ratio meaning
+---
 
 - A *ratio* is a way of comparing two or more quantities.
 - It tells us how much of one thing there is compared to another thing.

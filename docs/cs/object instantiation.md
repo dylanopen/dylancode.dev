@@ -1,4 +1,6 @@
-# Object instantiation
+---
+title: Object instantiation
+---
 
 When we *instantiate* a class, we create an *object* from that class. An
 object is basically a specific instance of the class with its own set of

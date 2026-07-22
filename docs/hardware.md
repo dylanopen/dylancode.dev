@@ -1,4 +1,6 @@
-# Hardware
+---
+title: Hardware
+---
 
 *Hardware* is the physical components that make up a computer system.
 

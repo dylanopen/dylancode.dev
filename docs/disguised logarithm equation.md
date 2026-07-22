@@ -1,4 +1,6 @@
-# Disguised logarithm equations
+---
+title: Disguised logarithm equations
+---
 
 A *disguised logarithm equation* is an equation that can be rewritten in the
 form of a logarithmic equation, even though it may not look like one at

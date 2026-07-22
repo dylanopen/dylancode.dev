@@ -1,4 +1,6 @@
-# Comparison operators
+---
+title: Comparison operators
+---
 
 A *comparison / relational operator* is an operator which usually compares two values.
 

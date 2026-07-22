@@ -1,4 +1,6 @@
-# Solving simultaneous equations by substitution
+---
+title: Solving simultaneous equations by substitution
+---
 
 *Simultaneous equations* are when we have two or more equations with multiple
 *unknowns* (letters that represent numbers we don't know yet). The goal is to find

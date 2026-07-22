@@ -1,4 +1,6 @@
-# Rounding to nearest integer
+---
+title: Rounding to nearest integer
+---
 
 When rounding to the nearest integer, we do exactly the same steps as when
 [[rounding to decimal places]], but the $n$th decimal

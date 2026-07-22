@@ -1,4 +1,6 @@
-# General rotation matrix
+---
+title: General rotation matrix
+---
 
 In the chapter '[[matrix transformations about the origin]]',
 we learned how to represent common rotations (i.e. 90 and 180 degrees) about the

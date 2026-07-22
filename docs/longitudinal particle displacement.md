@@ -1,4 +1,6 @@
-# Longitudinal particle displacement
+---
+title: Longitudinal particle displacement
+---
 
 The *particle [[displacement]]* of a [[longitudinal wave]] is the [[distance]] that a particle is [[displacement|displaced]] from its **equilibrium** (rest) position.
 

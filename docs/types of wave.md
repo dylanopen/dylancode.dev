@@ -1,4 +1,6 @@
-# Types of wave
+---
+title: Types of wave
+---
 
 There are two main groups of waves:
 - [[transverse wave|Transverse waves]]

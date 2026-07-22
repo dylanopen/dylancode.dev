@@ -1,4 +1,6 @@
-# De-excitation
+---
+title: De-excitation
+---
 
 Once an [[electron]] has been [[excited electron|excited]], it's quite easy for it to be attracted back towards the [[nucleus]], so its [[electron energy level|energy level]] can *decrease* or the [[electron]] can even return to the [[ground state]].
 

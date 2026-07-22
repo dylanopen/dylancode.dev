@@ -1,4 +1,6 @@
-# Transverse wave
+---
+title: Transverse wave
+---
 
 Transverse waves are a type of wave where the *direction of the oscillations*
 (vibrations) is **perpendicular** to the *direction of energy transfer*.

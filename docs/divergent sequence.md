@@ -1,4 +1,6 @@
-# Divergent sequence
+---
+title: Divergent sequence
+---
 
 A *divergent* [[sequence]] is the **opposite** of a [[convergent sequence]].
 

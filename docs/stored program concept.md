@@ -1,4 +1,6 @@
-# Stored program concept
+---
+title: Stored program concept
+---
 
 There are two main types of computer systems:
 - [[general purpose computer|general-purpose computers]] - which use the stored program concept

@@ -1,4 +1,6 @@
-# Graph tree
+---
+title: Graph tree
+---
 
 A *tree* is a type of [[graph]] that has the [[properties]] of:
 - [[connected graph|being connected]]

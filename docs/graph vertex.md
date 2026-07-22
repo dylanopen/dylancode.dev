@@ -1,4 +1,6 @@
-# Graph vertex
+---
+title: Graph vertex
+---
 
 A **vertex** (or **node**) in graph theory is a part of a graph that **edges**
 connect to.

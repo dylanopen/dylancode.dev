@@ -1,4 +1,6 @@
-# Power of 0
+---
+title: Power of 0
+---
 
 Anything raised to the [[power]] of zero is $1$:
 

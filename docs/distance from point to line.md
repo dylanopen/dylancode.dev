@@ -1,4 +1,6 @@
-# Distance from point to line
+---
+title: Distance from point to line
+---
 
 For a line $l_1$ and point $A$:
 - $l_1:r=\begin{pmatrix}1\\1\\-3\end{pmatrix}+\lambda\begin{pmatrix}2\\-2\\-1\end{pmatrix}$

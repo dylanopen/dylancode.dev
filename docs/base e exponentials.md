@@ -1,4 +1,6 @@
-# Base e exponentials
+---
+title: Base e exponentials
+---
 
 There's a special case of exponential functions, where we use a base of $e$.
 

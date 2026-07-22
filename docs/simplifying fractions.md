@@ -1,4 +1,6 @@
-# Simplifying fractions
+---
+title: Simplifying fractions
+---
 
 When we have a fraction, such as $\frac{15}{30}$, we often want to write it as
 simply as we can.

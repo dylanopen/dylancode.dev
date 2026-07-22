@@ -1,4 +1,6 @@
-# Diffraction of polychromatic light
+---
+title: Diffraction of polychromatic light
+---
 
 If we use light that's made up of multiple wavelengths (for example, white
 light), we'll see a pattern of coloured fringes instead of just bright and dark

@@ -1,4 +1,6 @@
-# Integers
+---
+title: Integers
+---
 
 *Integers* are just whole numbers. They're kind of the main data type used in C!
 

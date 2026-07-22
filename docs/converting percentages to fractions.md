@@ -1,4 +1,6 @@
-# Converting percentages to fractions
+---
+title: Converting percentages to fractions
+---
 
 To convert a percentage to a fraction, follow these steps:
 - Convert the percentage to a decimal by dividing by $100\%$.

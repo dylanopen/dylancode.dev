@@ -1,4 +1,6 @@
-# Euler's identity
+---
+title: Euler's identity
+---
 
 > Euler's identity states that:
 > - $e^{i\pi}+1\equiv0$

@@ -1,4 +1,6 @@
-# Binomial expansion by factorial
+---
+title: Binomial expansion by factorial
+---
 
 While we can use either [[pascal triangle|Pascal's triangle]] or the $^nC_r$ notation to find the coefficients in a [[binomial expansion]], we can also use [[factorial]]s directly.
 

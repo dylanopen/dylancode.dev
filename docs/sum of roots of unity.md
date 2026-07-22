@@ -1,4 +1,6 @@
-# Sum of roots of unity
+---
+title: Sum of roots of unity
+---
 
 The sum of the [[roots of unity]] of any degree is always $0$.
 

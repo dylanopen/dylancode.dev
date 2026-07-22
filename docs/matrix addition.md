@@ -1,4 +1,6 @@
-# Matrix addition
+---
+title: Matrix addition
+---
 
 > We can only add together matrices with the **same order**.
 

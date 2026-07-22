@@ -1,4 +1,6 @@
-# Code translators
+---
+title: Code translators
+---
 
 - Translators are programs which convert code from one programming language
   into another.

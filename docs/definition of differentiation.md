@@ -1,4 +1,6 @@
-# Definition of differentiation
+---
+title: Definition of differentiation
+---
 
 *Differentiation* is the process of finding the *derivative* (or *gradient
 function*) of a function.

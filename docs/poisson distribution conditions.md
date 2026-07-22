@@ -1,4 +1,6 @@
-# Poisson distribution conditions
+---
+title: Poisson distribution conditions
+---
 
 Just like how there are [[binomial distribution conditions]], there are also conditions for when we can use the [[poisson distribution]].
 

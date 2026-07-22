@@ -1,4 +1,6 @@
-# Parity bit
+---
+title: Parity bit
+---
 
 Parity bits are a super simple way to check for an error when transferring
 data over a network / cable.

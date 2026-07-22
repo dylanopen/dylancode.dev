@@ -1,4 +1,6 @@
-# Photoelectric effect graph
+---
+title: Photoelectric effect graph
+---
 
 If we plot a graph of the maximum [[kinetic energy]] of the emitted electrons against the frequency of the *incident* light (the frequency of the photons that hit the electrons), we get a graph that looks like this:
 

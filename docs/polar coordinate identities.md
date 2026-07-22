@@ -1,4 +1,6 @@
-# Polar coordinate identities
+---
+title: Polar coordinate identities
+---
 
 There's a few things that we can say are true when working with polar
 coordinates - *identities*.

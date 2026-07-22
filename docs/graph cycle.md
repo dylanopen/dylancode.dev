@@ -1,4 +1,6 @@
-# Graph cycle
+---
+title: Graph cycle
+---
 
 A *cycle* on a [[graph]] is a [[graph path|path]] that starts and ends at
 the same vertex, with at least one [[graph edge|edge]] and no other repeated

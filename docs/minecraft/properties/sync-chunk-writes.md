@@ -1,4 +1,6 @@
-# sync-chunk-writes
+---
+title: sync-chunk-writes
+---
 
 To turn on synchronous chunk writes, go to [[server]].[[properties]] and change the line
 to:

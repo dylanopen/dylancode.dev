@@ -1,4 +1,6 @@
-# Gas temperature, volume & pressure
+---
+title: Gas temperature, volume & pressure
+---
 
 Knowing the laws for:
 - [[gas temperature volume]]

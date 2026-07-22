@@ -1,4 +1,6 @@
-# Distance matrix
+---
+title: Distance matrix
+---
 
 A *[[distance]] matrix* is somewhat like an [[adjacency matrix]],
 but instead of simply showing whether two nodes in a network are connected,

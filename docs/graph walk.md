@@ -1,4 +1,6 @@
-# Graph walk
+---
+title: Graph walk
+---
 
 A *walk* of a [[graph]] is a sequence of vertices such that each adjacent
 pair of vertices in the sequence is connected by an edge in the graph.

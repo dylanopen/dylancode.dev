@@ -1,4 +1,6 @@
-# Graph loop
+---
+title: Graph loop
+---
 
 A loop is where a [[graph vertex|vertex]] on a [[graph]] has an
 [[graph edge|edge]] that connects back to itself. In other words, the edge

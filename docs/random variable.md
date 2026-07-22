@@ -1,4 +1,6 @@
-# Random variable
+---
+title: Random variable
+---
 
 > A **random variable** is a variable which depends entirely on some level of
 > chance. It can change every time it is observed.

@@ -1,4 +1,6 @@
-# Inequality signs
+---
+title: Inequality signs
+---
 
 There are four main inequality signs you need to know about:
 

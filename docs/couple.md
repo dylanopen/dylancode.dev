@@ -1,4 +1,6 @@
-# Couple
+---
+title: Couple
+---
 
 A *couple* is a set of two forces that have:
 - the **same** magnitude

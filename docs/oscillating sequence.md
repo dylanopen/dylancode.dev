@@ -1,4 +1,4 @@
-# Oscillating sequence
-
-
+---
+title: Oscillating sequence
+---
 

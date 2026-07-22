@@ -1,4 +1,6 @@
-# Wave speed
+---
+title: Wave speed
+---
 
 The **wave [[speed]]** is the [[speed]] at which a wave propagates through a medium.
 

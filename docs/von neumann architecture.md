@@ -1,4 +1,6 @@
-# Von Neumann architecture
+---
+title: Von Neumann architecture
+---
 
 > Von-Neumann's architecture is a type of [[stored program concept|stored program architecture]] where the instructions and data are stored in the same memory region. This means that the CPU can access both instructions and data using the same [[memory address]] space.
 

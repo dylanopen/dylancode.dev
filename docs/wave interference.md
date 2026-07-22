@@ -1,4 +1,6 @@
-# Wave interference
+---
+title: Wave interference
+---
 
 *Interference*, or *superposition* is when two or more waves 'overlap' in the same place at the
 same time.

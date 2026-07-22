@@ -1,4 +1,6 @@
-# Wave path difference
+---
+title: Wave path difference
+---
 
 If we have two waves that are *in phase* at a certain point, the *path
 difference* is the difference in the [[distance]] that the two waves have traveled

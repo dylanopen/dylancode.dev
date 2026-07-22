@@ -1,4 +1,6 @@
-# Converting fractions to decimals
+---
+title: Converting fractions to decimals
+---
 
 To convert a fraction to a decimal, you **divide the numerator (top number) by
 the denominator (bottom number)**.

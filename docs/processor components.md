@@ -1,4 +1,6 @@
-# Processor components
+---
+title: Processor components
+---
 
 [[processor|Processors]] like the CPU have loads of different parts which they use to carry out their tasks. Some of the main components include:
 - The [[arithmetic logic unit]] (ALU)

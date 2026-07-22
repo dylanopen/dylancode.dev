@@ -1,4 +1,6 @@
-# Expanding brackets
+---
+title: Expanding brackets
+---
 
 Expanding brackets is when we have an [[expression]], for example, $5(4x+3)$, and we want to 'remove' the brackets by multiplying out the terms inside the brackets.
 

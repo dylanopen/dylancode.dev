@@ -1,4 +1,6 @@
-# Minecraft server
+---
+title: Minecraft server
+---
 
 - [[minecraft/optimisation]]
 - [[minecraft/properties]]

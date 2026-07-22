@@ -1,4 +1,6 @@
-# Current instruction register
+---
+title: Current instruction register
+---
 
 > The current instruction [[register]] (CIR) is a [[register]] in the [[processor]] that holds the instruction that is currently being executed. 
 

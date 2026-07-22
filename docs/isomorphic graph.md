@@ -1,4 +1,6 @@
-# Isomorphic graph
+---
+title: Isomorphic graph
+---
 
 Two graphs are *isomorphic* if they have the same *structure*.
 

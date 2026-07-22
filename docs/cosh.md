@@ -1,4 +1,6 @@
-# cosh
+---
+title: cosh
+---
 
 $\cosh$, or **hyperbolic cosine**, is defined like this:
 

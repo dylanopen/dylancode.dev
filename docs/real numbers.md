@@ -1,4 +1,6 @@
-# Real numbers
+---
+title: Real numbers
+---
 
 *Real numbers* are all the numbers that can be found on a [[number line]]. This
 includes both [[rational numbers]] and [[irrational numbers]].

@@ -1,4 +1,6 @@
-# Physical topology
+---
+title: Physical topology
+---
 
 As opposed to a [[logical topology]], a **physical** [[network topology]] describes:
 

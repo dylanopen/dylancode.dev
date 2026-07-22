@@ -1,4 +1,6 @@
-# Angle identities
+---
+title: Angle identities
+---
 
 There are some [[identity|identities]] which can be used to link [[angle]]s and their trigonometric forms together:
 

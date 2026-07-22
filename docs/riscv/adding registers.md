@@ -1,4 +1,6 @@
-# Adding registers
+---
+title: Adding registers
+---
 
 Just as we can add the value stored in a [[register]] to an immediate value (a
 constant) and then save the result in another [[register]], we can also add the

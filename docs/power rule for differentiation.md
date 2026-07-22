@@ -1,4 +1,6 @@
-# Power rule for differentiation
+---
+title: Power rule for differentiation
+---
 
 The **[[power]] rule** allows us to easy differentiate any function, as long as we
 only have powers of $x$ (i.e. no addition, [[subtraction]], [[multiplication]] or

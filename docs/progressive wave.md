@@ -1,4 +1,6 @@
-# Progressive wave
+---
+title: Progressive wave
+---
 
 A *progressive wave* is a wave that transfers energy from one place to another
 **without** the transfer of matter.

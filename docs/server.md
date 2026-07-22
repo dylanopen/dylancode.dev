@@ -1,4 +1,6 @@
-# Server
+---
+title: Server
+---
 
 A *server* is a computer which responds to requests from [[client|clients]]
 (other computers) and provides them with data or services.

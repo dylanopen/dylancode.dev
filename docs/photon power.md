@@ -1,4 +1,6 @@
-# Photon energy and power
+---
+title: Photon energy and power
+---
 
 Now we know how to find the [[photon energy|energy of a single photon]], we can
 find things involving the [[power]] of a beam, or the number of photons in a beam

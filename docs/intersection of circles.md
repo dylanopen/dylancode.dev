@@ -1,4 +1,6 @@
-# Intersection of circles
+---
+title: Intersection of circles
+---
 
 If we have two circles and know their radii and the [[distance]] between their
 centres, we can find out *how* their circles overlap.

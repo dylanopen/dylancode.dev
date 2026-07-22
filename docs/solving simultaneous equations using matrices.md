@@ -1,4 +1,6 @@
-# Solving simultaneous equations using matrices
+---
+title: Solving simultaneous equations using matrices
+---
 
 ### Solve $3x+2y=9$ and $4x+5y=5$
 

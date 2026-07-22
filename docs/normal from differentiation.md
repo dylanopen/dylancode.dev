@@ -1,4 +1,6 @@
-# Normal from differentiation
+---
+title: Normal from differentiation
+---
 
 Finding the normal to a curve at a given point is *very* similar to finding the
 tangent. We just need to remember one thing:

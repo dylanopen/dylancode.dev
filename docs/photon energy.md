@@ -1,4 +1,6 @@
-# Photon energy
+---
+title: Photon energy
+---
 
 The energy of a [[photon]] is usually found with the formula which uses
 Planck's contant:

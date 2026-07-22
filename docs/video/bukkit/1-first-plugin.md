@@ -1,5 +1,6 @@
-
-# Coding a Minecraft plugin
+---
+title: Coding a Minecraft plugin
+---
 
 dylancode.dev
 

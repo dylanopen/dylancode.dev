@@ -1,4 +1,6 @@
-# For loops
+---
+title: For loops
+---
 
 There's another type of loop called a *for loop*.
 

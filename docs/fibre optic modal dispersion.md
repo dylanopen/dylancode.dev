@@ -1,4 +1,6 @@
-# Fibre optic modal dispersion
+---
+title: Fibre optic modal dispersion
+---
 
 In a [[fibre optic cable|fibre-optic cable]], the light can be shone through at
 different angles.

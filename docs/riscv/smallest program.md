@@ -1,4 +1,6 @@
-# Smallest program
+---
+title: Smallest program
+---
 
 To get started with writing RISC-V assembly, we need a few things:
 - A `text` section, to hold the actual program code.

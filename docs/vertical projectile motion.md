@@ -1,4 +1,6 @@
-# Vertical projectile motion
+---
+title: Vertical projectile motion
+---
 
 When we launch a projectile vertically upwards:
 1. Its initial vertical [[velocity]] is positive (upwards).

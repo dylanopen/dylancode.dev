@@ -1,4 +1,6 @@
-# Conservation of energy
+---
+title: Conservation of energy
+---
 
 The principle of conservation of energy basically states that:
 

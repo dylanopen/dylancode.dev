@@ -1,4 +1,6 @@
-# Universal Serial Bus
+---
+title: Universal Serial Bus
+---
 
 USBs, or Universal Serial Buses, are the standard protocol we use for connecting peripherals to our computer.
 

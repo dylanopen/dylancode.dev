@@ -1,4 +1,6 @@
-# Source code
+---
+title: Source code
+---
 
 Source code is the human-readable [[code]] that we write.
 

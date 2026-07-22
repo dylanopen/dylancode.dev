@@ -1,4 +1,6 @@
-# Control bus
+---
+title: Control bus
+---
 
 > The *control bus* is a [[computer bus|bus]] that carries control signals
 > between the [[processor]] and the other components of the computer, in order to

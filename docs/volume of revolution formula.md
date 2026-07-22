@@ -1,4 +1,6 @@
-# Volume of revolution formula
+---
+title: Volume of revolution formula
+---
 
 ## Rotation $360\degree$ about the x axis
 

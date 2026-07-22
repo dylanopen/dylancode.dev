@@ -1,4 +1,6 @@
-# Temperature scale
+---
+title: Temperature scale
+---
 
 There are two main [[temperature]] scales (unless you're american):
 - [[degree celsius]], $^\circ C$

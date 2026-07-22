@@ -1,4 +1,6 @@
-# Time
+---
+title: Time
+---
 
 ## Units
 

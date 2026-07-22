@@ -1,4 +1,6 @@
-# Continuous random mode
+---
+title: Continuous random mode
+---
 
 The *[[mode]]* of a [[continuous random variable]] is the value of the variable that has the highest probability [[density]].
 

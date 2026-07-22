@@ -1,4 +1,6 @@
-# Harvard architecture
+---
+title: Harvard architecture
+---
 
 Unlike the [[von neumann architecture|Von-Neumann architecture]], the Harvard architecture is a [[stored program concept|stored program architecture]] where the instructions and data are stored in separate memory regions.
 

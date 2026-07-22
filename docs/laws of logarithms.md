@@ -1,4 +1,6 @@
-# Laws of logarithms
+---
+title: Laws of logarithms
+---
 
 There are some important laws of logarithms that are useful to know.
 These can be derived from the [[laws of indices]].

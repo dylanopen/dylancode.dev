@@ -1,4 +1,6 @@
-# Atoms
+---
+title: Atoms
+---
 
 - Everything is made of atoms.
 - They are the 'building blocks of matter'.

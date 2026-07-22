@@ -1,4 +1,6 @@
-# Majority voting
+---
+title: Majority voting
+---
 
 Majority voting, like [[parity bit|parity bits]], is a really simple way of
 checking for errors during data transmission.

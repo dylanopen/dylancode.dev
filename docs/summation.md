@@ -1,4 +1,6 @@
-# Summation
+---
+title: Summation
+---
 
 ## What does $\sum^n_{r=1} r^2$ mean?
 

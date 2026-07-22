@@ -1,4 +1,6 @@
-# Labels
+---
+title: Labels
+---
 
 In every assembly program, we need a way to refer to specific locations in our
 code. This is where **labels** come in!

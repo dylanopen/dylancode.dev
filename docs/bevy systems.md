@@ -1,4 +1,6 @@
-# Bevy systems
+---
+title: Bevy systems
+---
 
 ## What are systems?
 

@@ -1,4 +1,6 @@
-# Distance-time graph
+---
+title: Distance-time graph
+---
 
 - A *[[distance]]-time graph* is a graph which shows:
   - the [[distance]] travelled by an object on the y-axis

@@ -1,4 +1,6 @@
-# Converting recurring decimals to fractions
+---
+title: Converting recurring decimals to fractions
+---
 
 Converting recurring decimals into fractions is more difficult than converting
 *terminating* decimals, but there's an ordered process that makes more sense

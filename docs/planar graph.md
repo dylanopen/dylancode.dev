@@ -1,4 +1,6 @@
-# Planar graph
+---
+title: Planar graph
+---
 
 A *planar graph* is a type of [[graph]] that can be drawn on a flat surface (like a piece of paper) without any of its [[graph edge|edges]] crossing each other (except at the [[graph vertex|vertices]], I suppose).
 

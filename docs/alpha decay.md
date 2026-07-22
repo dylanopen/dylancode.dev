@@ -1,4 +1,6 @@
-# Alpha decay
+---
+title: Alpha decay
+---
 
 > Alpha [[radioactive decay|decay]] is when a [[helium]] [[nucleus]] is emitted from the [[isotope]].
 

@@ -1,4 +1,6 @@
-# Polarisation
+---
+title: Polarisation
+---
 
 *Polarisation* is when we take an [[unpolarised wave|*unpolarised* transverse wave]] and 'filter' it such that the oscillations (vibrations) only occur in a **single plane**.
 

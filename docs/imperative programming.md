@@ -1,4 +1,6 @@
-# Imperative programming
+---
+title: Imperative programming
+---
 
 *Imperative* programming is when we write code that describes *how* to achieve a
 task, using step-by-step instructions.

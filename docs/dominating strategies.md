@@ -1,4 +1,6 @@
-# Dominating strategies
+---
+title: Dominating strategies
+---
 
 A dominating strategy is an option that a player can choose that **always**
 results in a better outcome for that player, regardless of what the other

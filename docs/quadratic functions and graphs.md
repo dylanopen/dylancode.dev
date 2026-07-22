@@ -1,4 +1,6 @@
-# Quadratic functions and their graphs
+---
+title: Quadratic functions and their graphs
+---
 
 A **quadratic function** is a type of polynomial function that can be written in
 the form:

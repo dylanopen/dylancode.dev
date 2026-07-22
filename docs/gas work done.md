@@ -1,4 +1,6 @@
-# Gas work done
+---
+title: Gas work done
+---
 
 We can link pressure, volume and work done:
 

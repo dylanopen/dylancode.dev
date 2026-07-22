@@ -1,4 +1,6 @@
-# Roots of unity
+---
+title: Roots of unity
+---
 
 ## Roots of $z^n=1$
 

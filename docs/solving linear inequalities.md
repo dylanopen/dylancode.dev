@@ -1,4 +1,6 @@
-# Solving linear inequalities
+---
+title: Solving linear inequalities
+---
 
 Linear inequalities are similar to linear equations, but instead of an equals
 sign (=), they use [[inequality signs]].

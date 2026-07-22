@@ -1,4 +1,6 @@
-# Maclaurin series
+---
+title: Maclaurin series
+---
 
 ## Maclaurin series for $e^x$
 

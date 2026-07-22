@@ -1,4 +1,6 @@
-# Expression
+---
+title: Expression
+---
 
 An *algebraic expression* is a set of numbers, [[cs/variables|variables]], and operations (like
 addition, [[subtraction]], [[multiplication]], and [[riscv/division|division]]) combined together to

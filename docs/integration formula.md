@@ -1,4 +1,6 @@
-# Integration formula
+---
+title: Integration formula
+---
 
 If you remember back to the [[power rule for differentiation]], the derivative of $ax^n$ is:
 

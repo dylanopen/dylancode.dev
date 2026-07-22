@@ -1,4 +1,6 @@
-# Independent events
+---
+title: Independent events
+---
 
 If two events are *independent*, it means that the probability of each event
 does **not** depend on the outcome of the other event.

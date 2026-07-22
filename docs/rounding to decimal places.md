@@ -1,4 +1,6 @@
-# Rounding to decimal places
+---
+title: Rounding to decimal places
+---
 
 We can round numbers to the nearest $n$ decimal places using these steps:
 1. Find the digit at the $n$th decimal place.

@@ -1,4 +1,6 @@
-# Year 9 maths
+---
+title: Year 9 maths
+---
 
 ## Fundamental topics
 

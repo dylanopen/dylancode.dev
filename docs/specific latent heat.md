@@ -1,4 +1,6 @@
-# Specific latent heat
+---
+title: Specific latent heat
+---
 
 The specific latent heat (either of [[fusion]] or [[vaporisation]]) is the energy required to change the state of 1 kg of a substance.
 

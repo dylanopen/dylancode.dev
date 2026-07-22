@@ -1,4 +1,6 @@
-# Setting up a C project
+---
+title: Setting up a C project
+---
 
 > Creating our project folder and C [[source code]] file.
 

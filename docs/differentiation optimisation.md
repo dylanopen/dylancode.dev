@@ -1,4 +1,6 @@
-# Optimisation through differentiation
+---
+title: Optimisation through differentiation
+---
 
 [[optimisation]] is where we find the maximum or minimum value of a function,
 usually in order to solve a real-world problem - e.g. what is the optimal

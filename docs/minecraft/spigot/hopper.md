@@ -1,4 +1,6 @@
-# hopper
+---
+title: hopper
+---
 
 You can configure a lot of things about hoppers in the `[[spigot]].yml` file, under
 the `world-settings` -> `default` section.

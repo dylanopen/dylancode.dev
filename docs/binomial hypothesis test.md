@@ -1,4 +1,6 @@
-# Binomial hypothesis test
+---
+title: Binomial hypothesis test
+---
 
 If we would like to test [[observed value]]s against a [[binomial distribution]], we can do a [[hypothesis test]].
 

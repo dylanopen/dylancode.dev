@@ -1,4 +1,6 @@
-# Unsigned binary
+---
+title: Unsigned binary
+---
 
 An *unsigned binary number* is simply a binary number that can only represent
 non-negative values (i.e., zero and positive [[integers]]).

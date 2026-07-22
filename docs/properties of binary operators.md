@@ -1,4 +1,6 @@
-# Properties of binary operators
+---
+title: Properties of binary operators
+---
 
 ## Commutativity
 

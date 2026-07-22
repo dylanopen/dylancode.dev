@@ -1,4 +1,6 @@
-# Contingency table
+---
+title: Contingency table
+---
 
 A contingency table is a table/matrix which shows the frequency of different combinations of two categorical [[cs/variables|variables]].
 

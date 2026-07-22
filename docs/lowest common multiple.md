@@ -1,4 +1,6 @@
-# Lowest common multiple
+---
+title: Lowest common multiple
+---
 
 ## What is the lowest common multiple?
 

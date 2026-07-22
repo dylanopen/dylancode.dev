@@ -1,4 +1,6 @@
-# Finding all tangent angles
+---
+title: Finding all tangent angles
+---
 
 $$
 \tan(\theta+180)=\tan\theta

@@ -1,4 +1,6 @@
-# Electrical energy
+---
+title: Electrical energy
+---
 
 ## Calculating energy from power and time
 

@@ -1,4 +1,6 @@
-# Rounding to significant figures
+---
+title: Rounding to significant figures
+---
 
 When we round to $n$ significant figures (where $n$ is an [[integers|integer]]),
 we follow these steps:

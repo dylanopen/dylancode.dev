@@ -1,4 +1,6 @@
-# Boolean AND dominance
+---
+title: Boolean AND dominance
+---
 
 The *[[booleans]] dominance law* says that when we have a value $x$ ANDed with $0$,
 the result is always $0$, because:

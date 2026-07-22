@@ -1,4 +1,6 @@
-# A-Level Physics
+---
+title: A-Level Physics
+---
 
 This course indexes notes for the entire A-Level Physics course.
 

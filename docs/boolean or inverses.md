@@ -1,4 +1,6 @@
-# Boolean OR inverses
+---
+title: Boolean OR inverses
+---
 
 If we OR together value $x$ and its inverse (NOT $x$, or $\overline{x}$), we
 get $1$, because:

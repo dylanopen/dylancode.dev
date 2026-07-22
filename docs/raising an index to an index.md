@@ -1,4 +1,6 @@
-# Raising an index to an index
+---
+title: Raising an index to an index
+---
 
 When we have a number, and we raise it to a [[power]], then raise the result to the
 [[power]] of another number, we **multiply** the powers. This is much more easily

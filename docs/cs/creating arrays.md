@@ -1,4 +1,6 @@
-# Creating arrays
+---
+title: Creating arrays
+---
 
 An *array* is a data type which stores a *collection* of items.
 

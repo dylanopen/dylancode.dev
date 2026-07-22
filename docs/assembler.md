@@ -1,4 +1,6 @@
-# Assembler
+---
+title: Assembler
+---
 
 - Assemblers convert low-level [[assembly]] language code into (even lower level) 
   [[machine code]].

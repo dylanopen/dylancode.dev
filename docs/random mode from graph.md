@@ -1,4 +1,6 @@
-# Random mode from graph
+---
+title: Random mode from graph
+---
 
 If we have a [[random variable]] and want to find its [[mode]]:
 

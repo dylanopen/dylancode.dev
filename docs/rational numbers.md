@@ -1,4 +1,6 @@
-# Rational numbers
+---
+title: Rational numbers
+---
 
 A *rational number* is any number that can be written as a fraction of two
 [[integers]].

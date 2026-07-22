@@ -1,4 +1,6 @@
-# Sector area from radians
+---
+title: Sector area from radians
+---
 
 We can calculate the area of a [[sector]] if we know the:
 - radius of the circle

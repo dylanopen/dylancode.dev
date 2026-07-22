@@ -1,4 +1,6 @@
-# Refraction of light
+---
+title: Refraction of light
+---
 
 *Refraction* is when light 'bends' (changes direction) when it enters a new
 *medium* (material).

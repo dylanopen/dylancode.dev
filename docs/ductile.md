@@ -1,4 +1,6 @@
-# Ductile
+---
+title: Ductile
+---
 
 If a [[material]] is **ductile**, it means it can easily be drawn out into a [[wire]] without [[fracture|fracturing]] (breaking).
 

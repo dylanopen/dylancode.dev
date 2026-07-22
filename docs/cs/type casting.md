@@ -1,4 +1,6 @@
-# Type casting
+---
+title: Type casting
+---
 
 *Type casting* is done whenever we have a value/variable of one 
 [[cs/data types|data type]], and we want to convert it to another data type.

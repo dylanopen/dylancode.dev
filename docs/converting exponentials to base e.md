@@ -1,4 +1,6 @@
-# Converting exponentials to base e
+---
+title: Converting exponentials to base e
+---
 
 As mentioned in the [[base e exponentials|last topic]], the gradient of $e^x$ is
 exactly the same as the $y$ value at that point.

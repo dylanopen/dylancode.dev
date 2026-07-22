@@ -1,4 +1,6 @@
-# Factorising single brackets
+---
+title: Factorising single brackets
+---
 
 When we have an [[expression]] such as $3(x+4)$, we can use the *distributive law*
 to expand it:

@@ -1,4 +1,6 @@
-# Network topology
+---
+title: Network topology
+---
 
 > A *network topology* describes how the different devices on a local network are connected to each other and how they communicate.
 

@@ -1,4 +1,6 @@
-# Default arguments
+---
+title: Default arguments
+---
 
 In C#, you can define methods with *default parameters*. This means that when
 you call the method, you can choose to omit some arguments, and the method will

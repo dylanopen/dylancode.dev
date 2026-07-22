@@ -1,4 +1,6 @@
-# Network switch
+---
+title: Network switch
+---
 
 A *switch* in a [[local area network]] is a device which connects all the different devices together, and allows them to communicate with each other.
 

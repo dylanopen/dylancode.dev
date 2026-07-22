@@ -1,4 +1,6 @@
-# Solving simultaneous equations by elimination
+---
+title: Solving simultaneous equations by elimination
+---
 
 *Simultaneous equations* are when we have two or more equations with multiple
 *unknowns* (letters that represent numbers we don't know yet). The goal is to

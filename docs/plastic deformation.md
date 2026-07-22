@@ -1,4 +1,6 @@
-# Plastic deformation
+---
+title: Plastic deformation
+---
 
 Plastic [[deformation]] is when an object's shape is permanently changed.
 

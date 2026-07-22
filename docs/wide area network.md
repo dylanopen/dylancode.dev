@@ -1,4 +1,6 @@
-# Wide area network
+---
+title: Wide area network
+---
 
 A *wide area newtwork* is kind of the opposite of a
 [[local area network]].

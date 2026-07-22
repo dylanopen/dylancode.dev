@@ -1,4 +1,6 @@
-# Gas kinetic theory
+---
+title: Gas kinetic theory
+---
 
 In the kinetic theory of gases, we assume the [[gas]] is an [[ideal gas]].
 

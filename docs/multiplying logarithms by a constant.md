@@ -1,4 +1,6 @@
-# Multiplying logarithms by a constant
+---
+title: Multiplying logarithms by a constant
+---
 
 When raising a logarithm to a [[power]], you can bring the [[power]] out in front as a
 multiplier:

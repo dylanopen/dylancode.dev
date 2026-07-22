@@ -1,4 +1,6 @@
-# Gravitational acceleration
+---
+title: Gravitational acceleration
+---
 
 If an object is dropped, it will *accelerate* towards the ground.
 

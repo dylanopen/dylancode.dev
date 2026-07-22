@@ -1,4 +1,6 @@
-# MIDI
+---
+title: MIDI
+---
 
 MIDI is an [[audio format]] we can use to store the data about notes a musical instrument plays.
 

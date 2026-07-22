@@ -1,4 +1,6 @@
-# C# programming
+---
+title: C# programming
+---
 
 - [[cs/hello world]]
 - [[cs/comments]]

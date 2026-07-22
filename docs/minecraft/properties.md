@@ -1,4 +1,6 @@
-# server.properties
+---
+title: server.properties
+---
 
 - [[minecraft/properties/view distance]]
 - [[minecraft/properties/simulation distance]]

@@ -1,4 +1,6 @@
-# Finding the equation of a tangent using differentiation
+---
+title: Finding the equation of a tangent using differentiation
+---
 
 ### Example: The derivative of a curve at point $(4, -2)$ is $5$ - find the equation of the tangent
 

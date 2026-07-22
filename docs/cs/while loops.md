@@ -1,4 +1,6 @@
-# While loops
+---
+title: While loops
+---
 
 A *while loop* is a type of condition-controlled loop that repeats a block of
 code as long as a certain condition is true.

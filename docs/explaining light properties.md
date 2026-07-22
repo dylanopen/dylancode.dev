@@ -1,4 +1,6 @@
-# Explaining light properties
+---
+title: Explaining light properties
+---
 
 There are some [[properties]] of [[light]] which can only be explained by certain models.
 

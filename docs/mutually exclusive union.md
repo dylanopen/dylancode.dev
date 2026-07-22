@@ -1,4 +1,6 @@
-# Mutually exclusive union
+---
+title: Mutually exclusive union
+---
 
 If we know that event A and event B are mutually exclusive, the probability of
 **either** A **or** B happening is the sum of their probabilities:

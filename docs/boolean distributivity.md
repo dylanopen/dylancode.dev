@@ -1,4 +1,6 @@
-# Boolean distributivity
+---
+title: Boolean distributivity
+---
 
 ## Distributivity of OR
 

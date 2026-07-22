@@ -1,4 +1,6 @@
-# Range
+---
+title: Range
+---
 
 If we have a set of values, the **range** is the difference between the largest
 and smallest values in the set.

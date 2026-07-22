@@ -1,4 +1,6 @@
-# Stationary wave phase
+---
+title: Stationary wave phase
+---
 
 In a [[stationary wave]], the particles between the [[wave node|nodes]] vibrate **in phase** with each other.
 

@@ -1,4 +1,6 @@
-# Amplitude
+---
+title: Amplitude
+---
 
 > The *amplitude* of a wave is the **maximum [[displacement]]** of a particle.
 
